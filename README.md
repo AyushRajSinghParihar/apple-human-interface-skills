@@ -1,161 +1,155 @@
 # Apple Human Interface Skills
 
-**Apple’s interface principles, turned into procedures your coding agent can use.**
+**Help your coding agent make better Apple interfaces.**
 
 [![Validate skill package](https://github.com/AyushRajSinghParihar/apple-human-interface-skills/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/AyushRajSinghParihar/apple-human-interface-skills/actions/workflows/validate.yml)
 
-One `apple-hig` mega-skill routes to **158 topic skills across 13 families**, covering
-all articles in the dated current English Apple Human Interface Guidelines
-inventory. Every topic contains practical decisions, a concrete output, a worked
-correction, and checks—not just a link to an article.
+Designing an iPhone app, reviewing a Mac interface, or adapting a screen for Apple
+Watch? `apple-hig` gives your agent practical guidance from Apple’s Human Interface
+Guidelines. It covers **158 topics across 13 areas**, from buttons and navigation
+to accessibility, privacy, and platform conventions.
 
-Use it to design, implement, review, or adapt an interface. Procedures preserve
-your project’s framework and architecture; examples and pseudocode are framework
-agnostic.
+Ask for what you need. The skill finds the relevant guidance, applies it to your
+project, and helps the agent explain its design choices. It works with your
+existing framework and architecture.
 
-## Quick start
+## Install
 
-The installable bundle is `skills/apple-hig`. Use it with an agent that can load
-local `SKILL.md` instructions and follow relative file references.
-
-Clone the repository:
+Run this in your project’s terminal:
 
 ```bash
-git clone https://github.com/AyushRajSinghParihar/apple-human-interface-skills.git
-cd apple-human-interface-skills
+npx skills add AyushRajSinghParihar/apple-human-interface-skills --skill apple-hig
 ```
 
-For a fresh installation, replace the placeholder below with **your agent’s
-configured skills directory**, then copy the complete bundle. If `apple-hig`
-already exists there, inspect it and follow the update instructions instead.
-These commands use a POSIX shell such as Bash or Zsh.
+The [Skills CLI](https://github.com/vercel-labs/skills#supported-agents) handles
+installation for supported agents. Follow its prompts if it asks you to choose
+an agent. This installs the complete skill, including all 158 topics.
 
-```bash
-SKILLS_DIR="/path/to/your/agent/skills"
-mkdir -p "$SKILLS_DIR"
-cp -R ./skills/apple-hig "$SKILLS_DIR/"
-```
+You’ll need **Node.js 22.20+ and Git** for the installer. Add `-g` to the command
+if you want the skill available across projects.
 
-Keep the entire `apple-hig` folder, including hidden `.topics` directories.
-Enable or refresh skill discovery as required by your agent, then ask:
+## Try it
+
+After installation, start a new agent session and ask something like:
 
 ```text
-Use the apple-hig skill to review this iPad editor. Delete is the default
-action, all four buttons have equal prominence, and repeated Publish taps
-start multiple uploads. Give us a concrete correction and checks we can execute.
+Use apple-hig to review this screen for iOS conventions and accessibility.
+Explain the problems and make concrete improvements.
 ```
 
-Discovery directories and invocation syntax vary by agent. If your client loads
-instruction files explicitly, start with the installed `apple-hig/SKILL.md` and
-let it follow the relevant topic references. The package itself requires no
-Python, API key, browser, or authoring cache.
+```text
+Use apple-hig to design the settings page for our macOS app.
+Keep our existing framework and explain the important interaction states.
+```
 
-## What the skills actually do
+```text
+Use apple-hig to adapt this iPad media browser for Apple TV.
+Preserve the main task while changing navigation and input where needed.
+```
 
-| Task | Expected work |
-|---|---|
-| Design | Choose an appropriate hierarchy and interaction model; specify states and acceptance scenarios |
-| Implement | Make authorized changes in the existing stack and verify what the environment permits |
-| Review | Identify evidence-backed problems, consequences, source support, and concrete corrections |
-| Adapt | Preserve the product task while applying the target platform’s input, navigation, and presentation conventions |
+You don’t need to pick individual topic skills. The main `apple-hig` skill routes
+to the topics your task needs. Your agent may also offer its own skill menu or
+invocation shortcut.
 
-For example, [Buttons](skills/apple-hig/subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md)
-distinguishes commands from persistent selection, resolves roles and prominence,
-and defines pending, result, and recovery behavior.
+## What it helps with
+
+- **Design a new screen:** choose the layout, navigation, controls, and interaction states.
+- **Improve an existing interface:** find specific problems and propose or implement corrections.
+- **Review a flow:** check accessibility, feedback, error recovery, privacy, and platform conventions.
+- **Adapt to another Apple platform:** preserve the product’s purpose while adjusting its presentation and input.
+
+Each topic includes decisions to make, a worked example, a useful output, and
+checks for the result. For example,
+[Buttons](skills/apple-hig/subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md)
+helps resolve action prominence and loading behavior;
 [Modality](skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-modality/SKILL.md)
-resolves task scope, dismissal, and unsaved work.
+covers dismissal and unsaved work; and
 [Widgets](skills/apple-hig/subskills/apple-hig-system-experiences/.topics/apple-hig-widgets/SKILL.md)
-chooses useful glanceable content and specifies freshness, privacy, and destinations.
+covers useful content, freshness, privacy, and tap destinations.
 
-Each procedure links to its local source guide and relevant conditional handoffs.
-The agent distinguishes inspected evidence from checks that still need a device.
+## What’s included
 
-## How routing works
-
-```mermaid
-flowchart LR
-    A[Your request] --> B[apple-hig]
-    B --> C[Relevant family]
-    C --> D[Topic procedure]
-    D --> E[Decisions and artifact]
-    D --> F[Local source guidance]
-    E --> G[Observable checks]
-```
-
-The root routes to 13 family entry points. The 158 topic procedures load on
-demand from `.topics/`, keeping initial context small. Client discovery behavior
-is documented in the verification record below. The installed
-bundle contains **172 `SKILL.md` files** in total.
-
-The topic index includes natural-language triggers, so requests can match a
-procedure without naming an Apple component or framework. The agent reads the
-procedure before its source guide, then follows handoffs for other material
-decisions such as accessibility, privacy, or platform adaptation. Paths resolve
-from the installed package rather than the shell’s working directory.
-
-| Family | Topics | Coverage |
+| Area | Topics | Examples |
 |---|---:|---|
-| Getting started | 9 | Principles, platform conventions, games, device adaptation |
-| Foundations | 18 | Accessibility, layout, typography, color, materials, privacy, RTL |
-| Patterns | 25 | Flows, accounts, interruption, recovery, feedback, media |
+| Getting started | 9 | Design principles and platform conventions |
+| Foundations | 18 | Accessibility, typography, color, materials, privacy |
+| Patterns | 25 | Onboarding, accounts, feedback, recovery, media |
 | Content | 4 | Charts, images, text, web content |
-| Layout and organization | 10 | Containers, hierarchy, lists, disclosure, adaptation |
-| Menus and actions | 12 | Commands, roles, menus, toolbars, ornaments |
-| Navigation and search | 5 | Destinations, search scope, state, restoration |
-| Presentation | 8 | Task scope, interruption, anchoring, dismissal |
-| Selection and input | 11 | Value domains, precision, validation, correction |
-| Status | 4 | Progress, values, ratings, Activity goals |
-| System experiences | 10 | Surface choice, freshness, privacy, system content |
-| Inputs | 13 | Targeting, focus, activation, gestures, alternatives |
-| Technologies | 29 | Prerequisites, integration, consent, recovery |
+| Layout and organization | 10 | Lists, containers, hierarchy, disclosure |
+| Menus and actions | 12 | Buttons, commands, menus, toolbars |
+| Navigation and search | 5 | Destinations, search, state restoration |
+| Presentation | 8 | Alerts, sheets, popovers, dismissal |
+| Selection and input | 11 | Pickers, text fields, validation, correction |
+| Status | 4 | Progress, ratings, values, Activity goals |
+| System experiences | 10 | Widgets, notifications, system surfaces |
+| Inputs | 13 | Touch, keyboard, focus, gestures, alternatives |
+| Technologies | 29 | Integration, prerequisites, consent, recovery |
 
-Browse the [complete topic index](skills/apple-hig/references/topic-index.md) or
-[platform/task routes](skills/apple-hig/references/platforms-and-tasks.md).
+Browse the [full topic index](skills/apple-hig/references/topic-index.md) or
+[platform guide](skills/apple-hig/references/platforms-and-tasks.md).
 
-## Coverage and verification
+Only the relevant instructions are loaded for a task. The complete bundle also
+contains local source guides and explanations of important visual examples.
 
-| Area | Verified scope |
-|---|---|
-| Source coverage | **173 routes / 158 article guides**, with reviewed text and meaningful media accounting; [source report](coverage/REPORT.md) |
-| Procedure quality | **158 independent, hash-bound instruction approvals**, covering decisions, artifacts, transformations, verification, applicability, handoffs, and distinctiveness; [package audit](coverage/package-review.json) |
-| Installation | Actual Codex CLI **0.164.0** complete-bundle smoke passed **17 checks**, including relocated copy, symlink, paths with spaces, 14-entry discovery, 158 hidden topics, procedure/source reads, and an artifact; [record](coverage/client-integration/symlink-path-spaces-r1/record.json) |
-| Tooling | **75 deterministic tests**, plus source and instruction checks in CI |
-| Development executions | [Retained traces and artifacts](coverage/behavior/); a full independent comparative grading study was not completed, so these are not an accepted quality benchmark |
-| Other environments | Other agent runtimes, native Apple builds, rendering, VoiceOver interaction, physical input, comfort, and haptics remain unverified |
+## Coverage and checks
 
-Coverage means the **dated current English HIG snapshot**, recorded on
-2026-10-25. Translations, historical documentation, and complete linked SDK/WWDC
-libraries are outside that inventory. The source references and visual explanations
-are bundled; raw Apple source exports and downloaded media are not redistributed.
+The package covers **158 English HIG articles** in the **October 25, 2026** source
+snapshot, with **173 routes** accounted for. Every topic procedure has an
+independent instruction review. The repository also has **75 automated tests**
+and CI checks for source coverage, instruction reviews, routing, and links.
 
-HIG experience guidance does not replace current API documentation. A missing
-platform section does not establish support. Source conflicts and unexecuted
-checks remain explicit.
+Installation and skill loading were tested with **Codex CLI 0.164.0**, including
+a complete bundle, symlinks, and paths with spaces. The Skills CLI installation
+was also checked to preserve the entire bundle, including hidden topic files.
+Other agent runtimes and native Apple device behavior have not been verified.
 
-## Update and remove
+[Source report](coverage/REPORT.md) · [Package review](coverage/package-review.json) ·
+[Client installation checks](coverage/client-integration/README.md)
 
-Update the source checkout:
+Development [traces and artifacts](coverage/behavior/) are available for inspection.
+The full comparative grading study was not completed, so they are not a quality
+benchmark. Actual rendering, assistive technology behavior, and physical input
+still need checks in the appropriate Apple environment.
+
+The source snapshot excludes translations, historical documentation, and complete
+linked SDK/WWDC libraries. Use current API documentation for implementation details.
+Raw Apple source exports and downloaded media are not redistributed.
+
+## Update or remove
+
+Update installed skills:
 
 ```bash
-git pull --ff-only
+npx skills update
 ```
 
-For a copied installation, replace the installed `apple-hig` folder with the
-complete updated `skills/apple-hig` bundle after reviewing any local changes.
-Preserve hidden directories. For a symlink installation, pulling the source
-checkout updates its contents; moving or deleting that checkout breaks the link.
-Refresh your agent’s skill discovery after updating.
+Remove this skill:
 
-To uninstall, remove `apple-hig` from the skills directory you configured and
-refresh discovery. For a symlink, remove only the link. Keep the repository if
-you want to retain the source and documentation.
+```bash
+npx skills remove apple-hig
+```
 
-If a topic cannot be found, check that the complete bundle was installed and no
-same-named skill is taking precedence.
+Follow the CLI prompts for the installation you want to manage. If you installed
+with `-g`, add `-g` when removing it.
 
-## Maintenance
+<details>
+<summary>Manual installation</summary>
 
-Python 3.11+ and PyYAML are needed only for authoring checks:
+If you prefer to install without the Skills CLI:
+
+1. [Download the repository](https://github.com/AyushRajSinghParihar/apple-human-interface-skills/archive/refs/heads/main.zip) or clone it.
+2. Place the complete `skills/apple-hig` folder in your agent’s documented skills location. Keep its hidden `.topics` directories.
+3. Refresh your agent’s skill discovery or start a new session.
+
+For agents that load instruction files directly, start with `apple-hig/SKILL.md`.
+To update a manual installation, replace it with the complete updated folder.
+
+</details>
+
+<details>
+<summary>For contributors</summary>
+
+Authoring checks need Python 3.11+ and PyYAML:
 
 ```bash
 python3 -m venv .venv
@@ -165,18 +159,18 @@ python3 -m venv .venv
 .venv/bin/python scripts/hig.py check-skills --instructions-only
 ```
 
-CI validates source accounting, installed topic ownership, independent instruction
-reviews, routing, and links. These checks do not invent semantic approvals.
-`check --live` checks upstream drift without rewriting the snapshot. The optional
-`check-skills` command without `--instructions-only` also requires independently
-graded behavioral evidence; that extended study remains incomplete.
+`check --live` checks upstream drift. The optional `check-skills` command without
+`--instructions-only` additionally requires independently graded behavioral
+evidence; that extended study remains incomplete.
 
-[Authoring research](docs/skill-design.md) · [Source method](docs/source-method.md) ·
-[Contributing](CONTRIBUTING.md) · [Development history](docs/operational-progress.md)
+[Contributing](CONTRIBUTING.md) · [Authoring research](docs/skill-design.md) ·
+[Source method](docs/source-method.md) · [Development history](docs/operational-progress.md)
+
+</details>
 
 ## Attribution and license
 
 An independent community project, unaffiliated with Apple. Original code and
 guidance are [MIT licensed](LICENSE). Apple documentation, trademarks, and
-referenced media remain their owners’ property. The installable bundle includes
-its own license copy and source attributions.
+referenced media remain their owners’ property. The skill includes source
+attributions and its own license copy.
