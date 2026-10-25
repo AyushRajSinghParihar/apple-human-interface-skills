@@ -62,7 +62,7 @@ Python, API key, browser, or authoring cache.
 For example, [Buttons](skills/apple-hig/subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md)
 distinguishes commands from persistent selection, resolves roles and prominence,
 and defines pending, result, and recovery behavior.
-[Modality](skills/apple-hig/subskills/apple-hig-presentation/.topics/apple-hig-modality/SKILL.md)
+[Modality](skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-modality/SKILL.md)
 resolves task scope, dismissal, and unsaved work.
 [Widgets](skills/apple-hig/subskills/apple-hig-system-experiences/.topics/apple-hig-widgets/SKILL.md)
 chooses useful glanceable content and specifies freshness, privacy, and destinations.
