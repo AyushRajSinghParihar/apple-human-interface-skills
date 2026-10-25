@@ -33,11 +33,11 @@
   },
   "final_reviewer": "independent-original-source-author; no operational/tooling authorship",
   "session_orchestration_hashes": {
-    "blind_grade.py": "b4fc4e0d1fadec2c93ce8d90e900619fd765b3482421760b05ca1371c77c080b",
+    "blind_grade.py": "601f5c686b48861c4af4096d5b58849f356d5702330504d233ee5fb8827ebabf",
     "grade_all.py": "1e5ff436703158883d1cef59a9a1de9706356e6a017d6f43fabc3ec15d8a9766",
     "client_smoke.py": "2651192dfdcb3827de314bfbb98a2b54c75b90bcba3acf1c5099a5efcc44bf46",
-    "selection_audit.py": "116bc74bf3eaa8f679f36f4a06079b53b069d82fb0a7be57104e2664b13e60cd",
-    "build_operational_report.py": "8ed30acaa2dece89d1c07689ff6abc1ca21d88b3032f56a49127598834541fe2",
+    "selection_audit.py": "68f046aaea5853c01bd573e334a56c41d54a359ddd9e391e7403bb8295882ffe",
+    "build_operational_report.py": "3817019d4ef9959b65fe903b1e8291ef4aa43c7927dc94972cadc2c5ede94c9b",
     "checkpoint.py": "5ac9d1d4fa34ffca25b9a37acca130d4b971516f4212ffea43ed97ba6e74d373"
   },
   "client_smoke_review": {
@@ -60,5 +60,17 @@
     "reviewer": "independent-coverage-auditor",
     "reviewed_at": "2026-10-25T21:43:56.759905+00:00",
     "evidence": "Two material issues reproduced with temp fixtures and stub Git, then repaired: partial terminal JSON could be staged and a final-report-bound command could be redacted.12 independent probes passed: validated closed receipt snapshot; grades wait for same closed grader snapshot; malformed/active receipts excluded;5 binding forms refuse redaction before mutation; backup identity preserved; changing receipts abort before Git. Actual index/proof/package untouched by probes."
+  },
+  "approved_leaf_revision_guard_review": {
+    "reviewer": "independent-original-source-author; root independent read and actual selector run",
+    "reviewed_at": "2026-10-25T22:12:30.183472+00:00",
+    "evidence": "Seven old failure modes reproduced through full select() temporary fixtures before repair: null initial/deleted current leaf hashes accepted, malformed review/evidence crashes, empty object/string additional-reference bypasses, wrong review topic accepted. All26 full-selector scenarios passed after typed owned hidden-leaf/review/path/SHA256 validation. Actual selector has0 integrity/freeze issues and0 unexpected package changes while grades and executions remain pending. Root, index, case inventory, harness and SUITE bytes were not changed by the probes.",
+    "boundary": "This permits only explicitly independently reviewed topic revisions with exact initial/current hashes and current source/reference approvals; affected executions still require current consumed-byte bindings. It does not grant artifact grades or final acceptance."
+  },
+  "versioned_case_orchestration_review": {
+    "reviewer": "independent-original-source-author; root independent code read",
+    "reviewed_at": "2026-10-25T22:19:46.722040+00:00",
+    "evidence": "Current-inventory owner path/hash validation excludes preserved v1 records from fresh grading.11 cases failed before fix;12 temporary scenarios passed afterward, including v1 rejection, v2 acceptance, unchanged topics/controls and malformed/duplicate inventory rejection. Reverse-hash verified all other grading code unchanged. Report changes only add the two revision ledgers to derived metadata and explicitly disclose the one versioned Watch comparison request and conditional topic/routing feedback; no gate alteration. Root verified exact archived v1 bytes, v2 prompt-only/protocol_version diff, unchanged rubrics/read requirements/thresholds and one-row inventory diff.",
+    "boundary": "Fresh v2 repetitions and artifact grades remain required. Separate v1 diagnostic grading uses verified archived task bytes and never counts toward195."
   }
 }

@@ -12,7 +12,7 @@
   "matched_baselines": 13,
   "baseline_commit": "a748d07",
   "harness_hash": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
-  "capability_manifest_hash": "47da42a240afc41a5d54d76266b60cc01927337475897c10f75974767ded4117",
+  "capability_manifest_hash": "d8309149464e6638ce86dc4e73b2c60662483108bbd6400f9f5d515f87491d75",
   "initial_package_snapshot": {
     "LICENSE": "a323d96ea18b89926f3c242755415987b2c3753e3f284a7dacf4f79eabc1e614",
     "SKILL.md": "81472a15fa63467c733c0be7130755886b6a7e88d827b5bbe0db712daf37be9b",
@@ -453,9 +453,13 @@
   "diagnostic_runs": [
     {
       "run_id": "stress-surface-privacy-freshness.candidate.r1.a2",
-      "reason": "Trace-contract failure: selected optional Smart Stack watch glance and explicitly deferred watch-face work; frozen expected_reads still requires Complications. Preserve as a nonaccepted attempt and independently grade its artifact as a diagnostic outside195. Dependency reruns use the unchanged case, rubric, harness and threshold with the separately approved Privacy handoff revision disclosed in this ledger.",
-      "counts_toward_execution_target": false,
-      "retry_scheduled": true
+      "reason": "Original optional Watch task chose Smart Stack and excluded watch faces; unconditional Complications read requirement caused routing_error. Retain immutable record and independently grade original artifact against archived v1 as diagnostic outside195; all three v2 repetitions separately required. Privacy handoff revision is disclosed.",
+      "counts_toward_execution_target": false
+    },
+    {
+      "run_id": "stress-surface-privacy-freshness.candidate.r3.a3",
+      "reason": "Original optional Watch task chose Smart Stack and excluded watch faces; unconditional Complications read requirement caused routing_error. Retain immutable record and independently grade original artifact against archived v1 as diagnostic outside195; all three v2 repetitions separately required. Privacy handoff revision is disclosed.",
+      "counts_toward_execution_target": false
     }
   ],
   "approved_topic_revisions": [
@@ -479,6 +483,67 @@
         "routing_error": 2
       },
       "note": "Required final-router reruns completed. Privacy leaf revision during this batch invalidates every attempt that consumed its old bytes; next resume recalculates all dependencies."
+    }
+  ],
+  "initial_capability_manifest_hash": "47da42a240afc41a5d54d76266b60cc01927337475897c10f75974767ded4117",
+  "protocol_revisions": [
+    {
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T22:17:56.362818+00:00",
+      "case_id": "stress-surface-privacy-freshness",
+      "protocol_version": 2,
+      "history_path": "evals/history/stress-surface-privacy-freshness.v1.json",
+      "original_case_hash": "ff21f403b52cd739a9bd9b53a6444563f504d596de9cc19b6e4cb7af8448c097",
+      "current_case_path": "evals/cases/stress-surface-privacy-freshness.v2.json",
+      "current_case_hash": "c03d0845b5287f20d481b6fae0591599f997f049546ff23dc482cf9d9566104a",
+      "appended_prompt_sentence": "For the Watch glance, compare a watch-face complication with a delivery Live Activity in the Smart Stack before choosing the appropriate surface(s); explain task fit, freshness, privacy, ending behavior and tap destination.",
+      "unchanged_case_fields": [
+        "baseline_control",
+        "expected_topics",
+        "family",
+        "id",
+        "input_files",
+        "invoke",
+        "kind",
+        "mode",
+        "output_files",
+        "rubric",
+        "topic"
+      ],
+      "rubric_unchanged": true,
+      "input_files_unchanged": true,
+      "required_reads_unchanged": true,
+      "capability_manifest_before_hash": "47da42a240afc41a5d54d76266b60cc01927337475897c10f75974767ded4117",
+      "capability_manifest_after_hash": "d8309149464e6638ce86dc4e73b2c60662483108bbd6400f9f5d515f87491d75",
+      "required_slots_before_hash": "1de187cc7ffbf7c056be73bec0110155f69f3cec364753984f65e34c4adf3c60",
+      "required_slots_after_hash": "76a5bd7e9fb2e839f75e08097157c7b1bb3d3ae7ace828646da96f53a7df0f08",
+      "changed_slots": [
+        {
+          "case_id": "stress-surface-privacy-freshness",
+          "variant": "candidate",
+          "repetition": 1
+        },
+        {
+          "case_id": "stress-surface-privacy-freshness",
+          "variant": "candidate",
+          "repetition": 2
+        },
+        {
+          "case_id": "stress-surface-privacy-freshness",
+          "variant": "candidate",
+          "repetition": 3
+        }
+      ],
+      "other_slots_unchanged": 192,
+      "active_case_count": 166,
+      "active_stress_cases": 8,
+      "harness_hash": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
+      "disclosure": "Development-feedback protocol amendment: original optional Watch glance did not assign a watch-face-complication design; v2 explicitly assigns comparison before surface selection. Original records remain historical and cannot fulfill current v2 slots; all three current slots require fresh execution. No untouched-holdout claim.",
+      "original_case_path": "evals/cases/stress-surface-privacy-freshness.json",
+      "root_verified_at": "2026-10-25T22:18:46.210295+00:00",
+      "root_verification": "Exact archived original bytes match committed v1; only appended prompt sentence and protocol_version changed. Exact inventory diff is one stress owner path/hash; no rubric/input/read requirement/threshold/harness/package changes.",
+      "fresh_execution_policy": "All three v2 repetitions required. No v1 execution can fulfill the amended slots. The other192 slots retain their original contracts.",
+      "diagnostic_case_mapping": "For explicitly separate v1 diagnostics, read the byte-identical archive in place of original_case_path; preserve original record, case, artifact and transcript hashes."
     }
   ]
 }

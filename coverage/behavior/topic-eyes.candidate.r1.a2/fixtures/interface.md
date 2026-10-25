@@ -1,0 +1,1 @@
+Platform: visionOS. Tiles open simply when looked at, collect an analytics heatmap of exactly where each person looks and require continuous staring to keep an image open. Controls are small and visually jump toward gaze.

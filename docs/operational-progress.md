@@ -152,3 +152,26 @@ routes and 158 articles; instruction-only capability verification has 0 errors /
 0 pending with 158 reviewed procedures. Behavioral integrity has 0 errors while
 artifact grades and current executions remain pending. A completion claim awaits
 the full graded selection and strict release gate.
+
+
+## Disclosed stress protocol amendment
+
+Independent review confirmed that the original surface/privacy stress task permits
+an optional Smart Stack glance, while its read contract unconditionally requires
+Complications. Two retained artifacts deliberately exclude watch-face work and
+miss only those two reads. This does not establish a required-design omission;
+they remain immutable routing failures and will be graded separately as diagnostics.
+
+The [versioned protocol review](../coverage/protocol-reviews/stress-surface-privacy-freshness-v2.json)
+records the correction. The original task is preserved byte for byte in
+`evals/history/`; v2 adds one explicit request to compare watch-face complications
+with a delivery Live Activity in Smart Stack before choosing surfaces. Inputs,
+rubric, required reads, thresholds, output contract and harness are unchanged.
+All three repetitions require fresh v2 executions. The other 192 slot contracts
+are unchanged. This is development verification after feedback; no untouched
+holdout or statistical generalization claim is made.
+
+The original suite start and initial capability-manifest hash remain recorded;
+SUITE explicitly binds the revised manifest and both protocol versions. Grading
+selection must match the current inventory's exact case path and hash so preserved
+v1 files cannot accidentally count as current evidence.
