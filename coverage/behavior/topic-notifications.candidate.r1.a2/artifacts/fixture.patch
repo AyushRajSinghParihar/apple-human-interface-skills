@@ -1,0 +1,80 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,75 @@
+-Platform: iOS. Notification exposes a full diagnosis on Lock Screen, repeats every minute after dismissal and opens the generic home screen. Acknowledging a reminder incorrectly cancels the appointment. Permission may be denied.
+\ No newline at end of file
++# iPhone appointment reminder specification
++
++Platform: iOS, standard system notification. This replaces the prior behavior that exposed a full diagnosis on the Lock Screen, repeated every minute after dismissal, opened Home, and canceled an appointment when acknowledged. Notification permission may be denied.
++
++## Content and privacy
++
++Use these exact English strings in every notification presentation, including unlocked banners and expanded notifications:
++
++- Title: `Appointment Reminder`
++- Body: `You have an upcoming appointment.`
++- Preview-hidden category description: `Appointment reminder` (system presentation and preview settings remain authoritative).
++- One optional notification action: `Acknowledge`.
++
++Do not include diagnosis, patient name, clinician, specialty, location, date/time, attachments, or medical imagery in notification content. The system supplies app identity; do not repeat it in the title/body. Generic wording even with previews enabled is a deliberate privacy choice. Appointment details, including localized date/time and time zone, are available only inside the app after the existing account authentication gate. Do not put sensitive information in deep-link URLs or logs; use an opaque appointment identifier and verify ownership before resolving it. An opaque identifier is not authorization. No new health-data access or collection is required by this change.
++
++## Delivery and permission
++
++Product default: one reminder 24 hours before the appointment occurrence, only when the person enables appointment reminders and system authorization permits delivery. If enabled less than 24 hours before an upcoming appointment, schedule one reminder immediately; do not send for appointments already started. These timing choices are product policy, not HIG requirements. Use ordinary Active interruption; no Time Sensitive or Critical escalation, no bypass of Focus, summary, silence, or preview choices. Delivery and presentation are never guaranteed.
++
++Ask for system notification permission when the person first selects `Enable Reminders` in appointment settings, not automatically at launch. The settings explanation is `Receive a reminder before each appointment.` Use the actual system authorization prompt; no imitation or custom pre-permission alert. Booking, appointment access, and cancellation remain available without notification consent.
++
++- Not determined: that explicit selection invokes the system request.
++- Authorized: schedule eligible reminders while the in-app preference is on.
++- Denied or subsequently revoked: do not retry the authorization prompt or send catch-up reminders. Show `Notifications are off. View upcoming appointments here or change notification access in Settings.` in appointment settings, with `Open Settings` and an always-available `Upcoming Appointments` route. Recheck authorization on return and reconcile future eligible schedules.
++- Quiet/provisional or other restricted authorization: honor the granted scope and system presentation; do not claim alerts or sound are enabled.
++- In-app preference off: remove pending appointment reminders and their delivered entries; appointments remain unchanged.
++
++## Event identity and state
++
++Separate appointment status (`scheduled`, `canceled`, or current server status) from reminder status (`pending`, `issued`, `viewed`, `acknowledged`, `dismissed`, `expired`). `issued` means submitted for system delivery, not proof the person saw it. Persist reminder identity by account + appointment occurrence + reminder policy; a delivery retry must reuse that identity. One occurrence has one reminder under this policy.
++
++| Event | Required result |
++| --- | --- |
++| Eligible scheduled occurrence | Create one pending reminder. Atomically record issuance so retries cannot create another reminder. |
++| No response, system dismissal, or acknowledgment | Never create another reminder for that occurrence. Remove the every-minute repeat behavior. Dismissal changes reminder state only when observable; no repeat depends on receiving a dismissal callback. |
++| Appointment rescheduled before issuance | Replace its pending schedule using the same occurrence identity and revised time. |
++| Appointment rescheduled after issuance | Remove stale delivered content; show the current time in the app. Do not issue a second reminder for that occurrence. |
++| Appointment canceled, started, or deleted | Remove pending/delivered reminder; suppress stale delivery and acknowledgment work. |
++| Duplicate event/action or process restart | Reconcile persisted state idempotently; never repeat interruption or mutate appointment status. |
++| Sign-out/account switch | Remove that account's pending/delivered reminders; never resolve a link in another account. |
++
++Revalidate current appointment state before issuance or action handling when available. If an offline queued reminder slips through after a remote change, activation must fetch current state before presenting it as scheduled. Do not claim atomic control over remote updates and system delivery.
++
++## Activation and actions
++
++Ordinary notification activation opens that exact appointment's detail screen, preserving the destination through sign-in/unlock. Do not open generic Home or add an `Open App` notification action. Fetch the current appointment and verify the active account. If canceled, show its current canceled state; if missing or inaccessible, show `This appointment is no longer available.` with `Upcoming Appointments`. Do not show cached medical details to an unverified account.
++
++`Acknowledge` marks only the identified reminder acknowledged and removes its pending/delivered notification. Require authentication before resolving this health-related action. Preserve the action through authentication; if authentication is canceled, leave acknowledgment uncommitted. Repeat activation is harmless. It must never invoke appointment cancellation, change booking status, or imply attendance confirmation. Feedback inside the app: `Reminder acknowledged. Your appointment is unchanged.` On persistence failure, show `Couldn’t acknowledge the reminder. Try again.` with `Try Again`; do not report success.
++
++System dismissal clears only the notification presentation and, if observable, records dismissal. Opening details marks the reminder viewed and removes its notification. No notification action cancels an appointment; any existing appointment cancellation flow remains separate inside authenticated appointment details.
++
++## Foreground and badges
++
++When the app is active, update the relevant appointment row/details quietly rather than presenting a duplicate banner, sound, or modal. Keep `Upcoming Appointments` discoverable regardless of permission or badge settings. This reminder feature sets no app-icon badge; do not display appointment counts or clinical values as badges or overwrite another feature's unread count. Essential meaning is conveyed in text without sound.
++
++## Acceptance contract
++
++Verify both logic and native presentation before release:
++
++1. Locked, preview-hidden, preview-visible, expanded, and unlocked presentations contain only the specified generic text; no diagnosis or identifying appointment details appear.
++2. Issue, dismiss, wait several minutes, restart, and replay the event: no second reminder. Rescheduling follows the before/after-issuance rules.
++3. Activate with two appointments present: the matching current appointment opens, including after authentication; wrong-account, deleted, canceled, and offline cases never reveal unauthorized or falsely current details.
++4. Acknowledge twice: reminder acknowledged once, notification removed, and appointment status/booking unchanged. Canceled authentication and write failure do not report success.
++5. Deny/revoke authorization, disable reminders, and return from Settings: appointment access persists, no prompt loop or catch-up flood occurs, and eligible future schedules reconcile.
++6. Focus, summary, silent mode, and disabled previews remain respected; no guaranteed-delivery wording appears.
++7. Foreground arrival updates the app without duplicate interruption; no badge is introduced. Read the content and action with VoiceOver and check actual system truncation/localization on an iPhone.
++
++## Design basis
++
++Local installed HIG snapshot consulted; links identify source sections, not a claim of online verification:
++
++- [Notifications: best practices, content, actions, badging](https://developer.apple.com/design/human-interface-guidelines/notifications): confidentiality, concise content, no repeat for nonresponse, contextual activation, useful nondestructive actions, foreground treatment.
++- [Managing notifications: integrating with Focus](https://developer.apple.com/design/human-interface-guidelines/managing-notifications#Integrating-with-Focus): consent, honest urgency, system control.
++- [Privacy: requesting permission and protecting data](https://developer.apple.com/design/human-interface-guidelines/privacy): contextual access and protection. Generic content and authenticated acknowledgment are conservative product choices.
++- [Writing: best practices](https://developer.apple.com/design/human-interface-guidelines/writing#Best-practices): clear outcome labels and actionable recovery copy.

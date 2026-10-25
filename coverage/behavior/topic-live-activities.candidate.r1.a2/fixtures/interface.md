@@ -1,0 +1,1 @@
+Platform: iOS. It starts automatically for promotional offers with no active delivery, shows the customer’s full address on Lock Screen, labels a 40-minute-old estimate Now, keeps displaying Delivered forever and puts a complete shopping catalog inside expanded content.

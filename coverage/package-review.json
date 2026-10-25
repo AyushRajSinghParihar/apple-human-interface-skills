@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "status": "approved_for_package_coverage_and_current_instruction_evidence",
+  "reviewer": "independent-coverage-auditor",
+  "reviewed_at": "2026-10-25T22:20:11.511409+00:00",
+  "commit_at_review": "d5460be587ee7a56dfea54f70adcc02a8732108b",
+  "scope": "Installed package completeness, current source/instruction approval bindings, source-guide preservation, routing inventory, media accounting, and pending public claims. Behavioral acceptance, current-bundle client smoke and Apple-device execution are separate pending verdicts.",
+  "bindings": {
+    "source_manifest": {
+      "path": "coverage/manifest.json",
+      "hash": "ff3f170a3a248f372157e92f73280f0e25ae1c63186a0c1f0bce7fbfd4ec2fee"
+    },
+    "capability_manifest": {
+      "path": "coverage/capabilities.json",
+      "hash": "d8309149464e6638ce86dc4e73b2c60662483108bbd6400f9f5d515f87491d75"
+    },
+    "root": {
+      "path": "skills/apple-hig/SKILL.md",
+      "hash": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816"
+    },
+    "topic_index": {
+      "path": "skills/apple-hig/references/topic-index.md",
+      "hash": "7a8093fc17f3a55c224bbc66fb34694a73f86bc1b23f69af10dd91183ca3b22d"
+    },
+    "routing_review": {
+      "path": "coverage/routing-review.json",
+      "hash": "0a27401e25f4b8b35eb6c1f06c2cdb1b48e168b1fadaa517c76e06a1651e699c"
+    },
+    "instruction_review_map_digest": "57ca97611268056fb79d2d01c2216679ce8f2a2493fd271ed50b315ad2a20a07",
+    "instruction_review_map_format": "SHA256 of UTF-8 JSON object mapping every coverage/skill-reviews/<topic>.json relative POSIX path to its byte SHA256, with sorted keys and compact separators.",
+    "package_snapshot_digest": "f41379416f0c5bbcd11d236df5144e03063c6d28736d0390630cb171cb4a7c81",
+    "package_snapshot_format": "SHA256 of UTF-8 JSON object mapping every regular file under skills/apple-hig (including hidden .topics files) from package-relative POSIX path to byte SHA256, with sorted keys and compact separators. No symlinks were present.",
+    "package_regular_files": 371
+  },
+  "coverage": {
+    "fetched_source_routes": 173,
+    "current_english_article_guides": 158,
+    "topic_procedures": 158,
+    "family_entrypoints": 13,
+    "root_entrypoints": 1,
+    "all_installed_skill_files": 172,
+    "family_topic_counts": {
+      "content": 4,
+      "foundations": 18,
+      "getting-started": 9,
+      "inputs": 13,
+      "layout-and-organization": 10,
+      "menus-and-actions": 12,
+      "navigation-and-search": 5,
+      "patterns": 25,
+      "presentation": 8,
+      "selection-and-input": 11,
+      "status": 4,
+      "system-experiences": 10,
+      "technologies": 29
+    },
+    "exact_topic_index_description_owner_procedure_reference_and_source_matches": 158,
+    "current_independent_seven_axis_instruction_approvals": 158,
+    "additional_current_reference_bindings": 10,
+    "media_accounting": {
+      "unique_source_asset_url_and_byte_hash_bindings": 2294,
+      "video_representations": 81,
+      "image_or_other_representations": 2213,
+      "primary_video_examples": 61,
+      "video_appearance_alternates": 20,
+      "boundary": "Existing independent image/sequence/audio-qualification judgments and original explanatory notes were reconciled through the strict source gate. These assets are referenced, not redistributed. No new live media download or visual reinspection was performed for this package reconciliation."
+    },
+    "install_resources_checked": [
+      "SKILL.md",
+      "LICENSE",
+      "agents/openai.yaml",
+      "references/topic-index.md",
+      "references/platforms-and-tasks.md",
+      "references/media/index.md",
+      "all 13 family SKILL.md entrypoints",
+      "all 158 hidden topic SKILL.md procedures",
+      "all 158 primary article guides",
+      "original supplementary media notes"
+    ]
+  },
+  "baseline_preservation": {
+    "commit": "a748d07",
+    "article_guides_compared": 158,
+    "byte_identical_article_guides": 158,
+    "media_note_diff_empty": true,
+    "method": "Compared each current primary guide byte-for-byte with git show a748d07:<reference_path>; checked git diff a748d07 -- skills/apple-hig/references/media is empty."
+  },
+  "checks": {
+    "source": {
+      "command": "python3 -B scripts/hig.py check",
+      "errors": 0,
+      "pending": 0,
+      "pages": 173,
+      "articles": 158,
+      "scope": "Offline source-accounting, article/section/unit/media approvals, supporting hashes, publication and link/reachability gate against the tracked snapshot."
+    },
+    "instructions": {
+      "command": "capabilities.check(root, require_behavior=False)",
+      "errors": 0,
+      "pending": 0,
+      "topics": 158,
+      "reviewed": 158,
+      "behavior_evaluated": false
+    },
+    "independent_reconciliation": "For every current topic, verified exact owner/source destination, seven nonempty axis-specific approval judgments, source hash, procedure byte hash, primary-reference byte hash and all additional-reference hashes. Independently validated every topic-index trigger against its approved procedure description and all owner/procedure/guide/source links. The existing substantive topic reviews are the semantic approvals; this reconciliation does not claim to newly reread all 158 procedures.",
+    "placeholder_scan": "No TODO/TBD/lorem-ipsum scaffolding found in the package. Legitimate UI placeholder and loading guidance is not a coverage gap."
+  },
+  "approved_privacy_revision": {
+    "path": "subskills/apple-hig-foundations/.topics/apple-hig-privacy/SKILL.md",
+    "before_hash": "11c7f3b8d32ba3c101c14a011f7398c51c614873bf063a4a77304b2cea3b2e09",
+    "after_hash": "01c2070df6df2a117bce0fa4c37cff898d115ca3babf7920623c8e69d8d706fb",
+    "review": {
+      "path": "coverage/skill-reviews/privacy.json",
+      "hash": "77c5445e4cb3f4e9d918df8becb2248b73c85203059a71ad97ef5a63d37c94a5"
+    },
+    "ledger_verified": "The single approved_topic_revisions entry in coverage/behavior/SUITE.json matches the independent Privacy approval and initial-package old bytes. Its rerun policy excludes candidates that consumed the old Privacy bytes; original attempts remain diagnostic history.",
+    "semantic_scope": "Conditional CareKit, HealthKit and ResearchKit handoffs for their actual domain decisions; existing-stack guidance does not require adopting those SDKs."
+  },
+  "public_claims_review": {
+    "readme": {
+      "path": "README.md",
+      "hash": "2c79344e2f292b6382865c9e3e30f72579ae17782551247795d4fa92622b8960",
+      "verdict": "Current README explicitly labels the feature branch a preview, keeps final 195-execution outcomes and grades pending, distinguishes source/instruction/behavior/client/native claims, identifies the earlier-router Codex smoke as earlier evidence and current-router smoke as pending, and leaves Claude runtime unverified."
+    },
+    "plan": {
+      "path": "docs/operational-skills-plan.md",
+      "hash": "f316b7868f410593275a136b80793c34e31a7d58fecf065cffb0e88cec34ca45",
+      "boundary": "This is the original approved design plan. Feedback-driven instruction/protocol revisions must remain disclosed in the release ledger/report; its initial held-out/freeze intent does not justify an untouched-holdout claim after development feedback."
+    },
+    "scope_boundary": "Dated current English HIG only; translations, historical routes and full linked SDK/WWDC documentation are separate inventories/dependencies. Presence of an article or absent platform section does not establish SDK/device support."
+  },
+  "pending_or_unverified": {
+    "behavior": "No final selection of 195 distinct eligible current executions and independent passing candidate grades is approved by this record. Failed and superseded attempts remain history; matched baseline outcomes remain observations. The amended Watch-comparison case requires three fresh v2 repetitions.",
+    "protocol": "The feedback-driven stress prompt amendment is outside package content. It preserves the original case bytes and rubric, binds current inventory/three slots to v2, and requires explicit SUITE/report disclosure; it is not an unseen holdout result.",
+    "current_client_smoke": "Current full-bundle copied/symlinked-client proof remains pending independently validated terminal evidence.",
+    "other_clients": "Claude runtime remains unverified while unauthenticated.",
+    "native": "No Apple SDK build, rendered native UI, VoiceOver interaction, physical input, haptics, Apple hardware or spatial comfort result is established by Linux file/artifact checks.",
+    "freshness": "Source snapshot dated 2026-10-25T13:47:25+00:00. This audit did not rerun a live Apple source/media drift check; the existing dated source-verification receipt is a separate claim.",
+    "network": "Behavioral prompts prohibit browsing, while the explicit-file reader gate does not itself prove general network/MCP enforcement or OS-level offline isolation. Any final trace observations need their own disclosed inspection scope."
+  }
+}

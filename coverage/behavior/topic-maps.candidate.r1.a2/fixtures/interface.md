@@ -1,0 +1,1 @@
+Platform: iOS. Custom map omits attribution, every pin shares the same unlabeled dot, selecting a venue recenters far away and location denial leaves a blank map. A list of venues and manual search data exist.

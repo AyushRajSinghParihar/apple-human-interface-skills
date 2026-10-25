@@ -1,0 +1,69 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,64 @@
+-Platform: iOS. Custom map omits attribution, every pin shares the same unlabeled dot, selecting a venue recenters far away and location denial leaves a blank map. A list of venues and manual search data exist.
+\ No newline at end of file
++# Festival venue finder — revised iPhone specification
++
++Platform: iOS. Preserve the existing custom map stack, venue list, and manual search data. This is an interaction specification, not an SDK implementation. No festival coordinates, venue categories, addresses, or routing data were supplied; use verified existing data only.
++
++## Screen and shared state
++
++Open on the festival venue extent, independent of location permission. Derive the extent from valid venue coordinates; retain nearby streets for orientation. If no coordinates are available, show the venue list and “Map locations unavailable.” Never substitute the user's location for the festival extent.
++
++Keep a visible “Venues” list entry and an inline “Search festival venues” field above the venue content. The map remains interactive with pan, zoom, and rotation. Keep controls outside its gesture area where possible. The list is a complete alternative for finding and selecting a venue; map gestures are never required to complete that task.
++
++Use stable venue IDs across annotations, list rows, search results, and detail. State includes query, selectedVenueID, map viewport, and permission status. Opening detail or switching between map and list preserves query and selection. Returning from detail restores the previous viewport and list position. Permission changes never clear these states.
++
++## Annotations and attribution
++
++Replace identical unlabeled dots with coherent pin-shaped venue markers. Show the venue name alongside the marker when space allows; the selected marker always has its full name in the detail area. Use a distinct outline and selected-state symbol as well as tint, so selection is not conveyed by color alone. Do not invent category icons without category data.
++
++Cluster overlapping markers with a visible count. Selecting a cluster zooms to its members; if coordinates still coincide, show their named list instead of repeatedly zooming. Each venue remains independently selectable through the list.
++
++Restore the map provider's required logo and legal links. For Apple-backed map content, keep Apple logo/legal links visible and stable relative to the map: adopt the guide's suggested 7 pt side and 10 pt vertical padding, including 10 pt above the lowest resting edge of any movable bottom card. This screen must not use the guide's under-200 × 100 px omission exception. Verify actual provider requirements before release; do not apply Apple branding to another provider's tiles. Search, keyboard, controls, and detail must not cover or intercept attribution links.
++
++## Venue selection and geographic context
++
++Selecting a pin, list row, or search result sets the same selectedVenueID and opens an inline detail area below the map, headed by the venue name. Show an address or location description only if supplied. Include a labeled “Close details” action. Do not duplicate unrelated system point-of-interest details or imply live hours or navigation availability.
++
++A selection already visible in the unobscured map region preserves center and zoom. Otherwise, move only enough to reveal that venue with surrounding context; retain zoom unless fitting it requires a change. Do not jump to the user's location, another venue, or an unrelated region. Map coordinate lookup must use the selected ID, never a row index. If the venue has no valid coordinate, keep its text details available and say “Map location unavailable”; retain the current viewport.
++
++Closing detail removes selection emphasis and preserves the current viewport/query. If detail text grows, let its content scroll and offer the complete venue list rather than reducing the map to an unusable sliver. Under Reduce Motion, update camera position without animated flight/zoom.
++
++## Search without location
++
++Search the existing festival venue data, not nearby businesses or only the current map viewport. Match venue names and any existing searchable location text, ignoring case and surrounding whitespace. Update results during typing using the supplied local data; list results by venue name with a stable ID tie-break. Do not fabricate suggestions or location-based rankings.
++
++The field is initially unfocused. Activation opens text entry. Clear removes the query and restores all venues. Cancel dismisses the keyboard and restores the query and result state from before editing. Selecting a result dismisses the keyboard and invokes the shared selection behavior. A query with no matches displays “No venues found” and “Try another venue name”; clearing remains available. Search never requests location access and remains usable after denial.
++
++## Optional personal location
++
++Location is only for an explicit “find my position” task. Prefer the supported system location button with its supplied localized title and permitted styling for one-time access. Confirm deployment support before implementation; where unavailable, provide a labeled “Show my location” action requesting only while-in-use access at activation. Do not request background or precise location solely to browse venues.
++
++Purpose copy for an authorization request: “Your location is used to show your position on the festival map.” Do not show a custom pre-permission alert. On success, reveal the position and identify approximate accuracy when applicable; do not claim exact distances or walking routes. A later venue selection follows the venue-selection camera rules.
++
++| State/event | Required response |
++|---|---|
++| First entry, not requested | Show festival map, venues, and search; no permission request. |
++| Location action, permission needed | Use the system authorization flow at this moment; browsing stays intact. |
++| Denied or restricted | Retain festival map and results. Show “Your location isn’t available. Browse or search festival venues.” Do not repeatedly prompt. |
++| Authorized, position unavailable | Retain map and selection. Show “Couldn’t find your position. Try again.” Retry occurs only on explicit activation. |
++| Map tiles unavailable | Show “Map unavailable” with an explicit Retry action; keep venue list/search/details usable. Location permission is not presented as the remedy. |
++
++Data-purpose contract: venue search needs no personal location. The optional position feature uses only the current position for display, with no app persistence or analytics/server transfer added by this repair. Audit the existing provider's transfers and disclosures before claiming this contract is implemented.
++
++## Accessible presentation contract
++
++Provide meaningful venue names and selected state for annotation controls and list rows. Give cluster controls their member count and zoom/list action. Controls use the iOS 44 × 44 pt default activation area with sufficient separation; enlarge or cluster dense markers rather than creating overlapping hit regions. The named list supplies an alternative to spatial manipulation.
++
++Preserve full venue names and actions at at least 200% text enlargement; reflow detail/list text rather than clipping it. Use adaptive text and colors. Verify contrast against actual map backgrounds in light/dark appearance and Increase Contrast; no measured contrast pass is implied. Test that keyboard and assistive input can find, select, inspect, and close a venue without map gestures.
++
++## Source basis
++
++These are product decisions applying the installed local HIG snapshot, not claims that Apple mandates this exact layout or query algorithm. Attribution spacing is guidance adopted here as a project acceptance target.
++
++- [Maps — Best practices, Custom information, Displaying place cards in a map](https://developer.apple.com/design/human-interface-guidelines/maps): interactive context, distinct selection, clustering, visible attribution, and visible selected place.
++- [Privacy — Requesting permission and Location button](https://developer.apple.com/design/human-interface-guidelines/privacy): access at the moment of need, specific purpose, and suitable one-time location access.
++- [Search fields — Best practices and Search as an inline field](https://developer.apple.com/design/human-interface-guidelines/search-fields): explicit local scope and results while typing where feasible.
++- [Accessibility — Vision, Mobility, Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility): non-color distinctions, text enlargement, usable activation targets, and reduced motion.

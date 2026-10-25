@@ -1,0 +1,1 @@
+Platform: iOS. Eight forced tutorial pages precede a blank canvas; camera, microphone and location permissions are demanded at once though optional features use them later. Returning users see the same tutorial after every update.

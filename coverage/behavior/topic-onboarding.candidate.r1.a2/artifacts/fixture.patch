@@ -1,0 +1,45 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,40 @@
+-Platform: iOS. Eight forced tutorial pages precede a blank canvas; camera, microphone and location permissions are demanded at once though optional features use them later. Returning users see the same tutorial after every update.
+\ No newline at end of file
++# iPhone sketch journal — revised first-run specification
++
++## Goal and scope
++
++Let a person make and retain their first sketch immediately after launch. Camera, microphone, and location are optional later features, never prerequisites to drawing. No tutorial page or permission request precedes the canvas. This is a behavioral specification, not an implemented app.
++
++## Entry and learning
++
++- Fresh install: open a new editable journal canvas with the existing drawing tools ready, using a bundled default pen and paper; no download or setup is required. Show a nonblocking inline hint outside the drawing area: “Your first sketch starts here. Try the pen, or explore Sketch Basics.” The canvas accepts input while the hint is visible.
++- Beside the hint, `Sketch Basics` opens optional practice instructions; `Dismiss` removes the hint. The first completed stroke also removes it. Record hint consumption immediately on either event; do not show it again automatically.
++- Keep a visible `Help` action on the canvas. Help contains `Sketch Basics`, so learning is available after dismissal or completion.
++- Sketch Basics uses a separate disposable practice canvas, never the journal entry. Show one short task at a time: “Make a mark with the pen.” then “Try a different drawing tool.” Advancing is optional; `Skip Tutorial` is always available, and `Done` finishes. Both return to the exact journal entry and tools that were active before help opened. Practice marks never enter the journal.
++- Persist tutorial status (`notStarted`, `skipped`, `completed`) and hint consumption locally across launches and updates, independent of the app version. Manual re-entry from Help is always permitted. Interrupted practice is abandoned on relaunch; the journal resumes, with Help available. No automatic tutorial resumes.
++- Existing installs, including those with no learning-status record, are treated as experienced on upgrade: initialize hint consumption to true and do not present the old tutorial. A new app version must not reset these flags or journal data. New-feature learning, if later added, must be contextual and optional.
++
++## Journal continuity
++
++A new canvas is a draft; commit a journal entry on its first stroke. Save edits locally as work proceeds and restore the latest journal entry on relaunch, including after an update. Merely opening the app or practice must not add empty journal entries. If saving fails, retain the working canvas, show “Sketch not saved” with `Retry Save`, and never show a successful-save state until persistence succeeds. Retain recoverable draft data across interruption where storage permits; a storage failure cannot guarantee durability.
++
++## Optional access contract
++
++The feature mappings below are concrete product decisions for this revision; the original brief did not describe the later features. Validate them against the actual product before implementation. No background collection or upload is introduced by this specification.
++
++| Explicit user action | Minimum data and access | Purpose copy and outcome |
++| --- | --- | --- |
++| `Take Photo` in an entry | Camera only, for a photo attachment; never microphone | “Use the camera to attach a photo to your journal entry.” Request camera access only here. Attach only after capture is confirmed; cancellation leaves the entry unchanged. |
++| `Record Audio` in an entry | Microphone only, for an audio note | “Use the microphone to record an audio note for your journal entry.” Request only here; start recording only after authorization. Cancel discards the pending recording and preserves the sketch. |
++| `Add Current Location` in an entry | One current location, for a location tag; no continuous or background tracking | “Use your current location to add a place to this journal entry.” Use the system location button for this individual task on supported iOS versions. Preserve its supplied title and system consent behavior rather than forcing this action label onto it. Confirm the supported deployment target during implementation. If unavailable, omit automatic location access and allow a typed place instead. |
++
++The invoking action provides context: do not add custom pre-permission screens. System authorization is the consent decision. Check current authorization at each invocation; do not request again if already authorized, and never fake a repeat system prompt after denial. Denial, restriction, unavailable hardware, or revoked access leaves drawing and saving usable. Explain the affected feature inline (“Camera access is unavailable. You can keep sketching.”, with equivalent microphone/location wording). Offer a typed place for location. Where permission can be changed, a secondary `Open Settings` action may open the app's system settings only on explicit activation; never redirect automatically. Returning from settings rechecks status without launching capture or recording automatically.
++
++Attach only the selected photo, confirmed audio note, or requested location to the current entry. Do not acquire other categories as a side effect. Feature cancellation, permission denial, and settings round trips preserve all sketch content. Review actual storage, transfers, retention, and App Store privacy disclosures before shipping; the supplied files do not establish them.
++
++## Action presentation
++
++Use system buttons with short visible labels for the actions above; normal role unless a specific primary action is needed in its task. Help and learning actions stay secondary to drawing. On iPhone, specify hit regions of at least 44 × 44 pt with separation; preserve full localized labels without overlapping targets. Use `Done` for finishing practice and `Skip Tutorial` for leaving early. Neither deletes journal content. Runtime geometry and system rendering remain to be verified.
++
++## Design basis
++
++Apply Apple's guidance to keep learning optional, remember skipping, and defer optional setup ([Onboarding — Best practices and Additional requests](https://developer.apple.com/design/human-interface-guidelines/onboarding)). Keep help concise, contextual, dismissible, and eligible by experience ([Offering help](https://developer.apple.com/design/human-interface-guidelines/offering-help)). Request precise access at the relevant action with specific purpose text; use one-time location for the attachment task ([Privacy — Requesting permission and Location button](https://developer.apple.com/design/human-interface-guidelines/privacy)). Prefer system button styles and clear action labels ([Buttons](https://developer.apple.com/design/human-interface-guidelines/buttons)). The exact copy, practice flow, flags, migration policy, and save behavior are product decisions applying that guidance.

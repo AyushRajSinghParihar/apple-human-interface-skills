@@ -1,0 +1,1 @@
+Platform: iOS/macOS. Model labels every guess Certain, moves receipts irreversibly and never explains why a correction matters. Low-quality photos and unfamiliar vendors are common; no model accuracy study is supplied.
