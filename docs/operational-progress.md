@@ -132,5 +132,23 @@ A final-router stress repetition omitted Complications while choosing a Smart
 Stack glance and explicitly deferring watch-face work. The frozen read contract
 requires that topic, so the attempt remains a trace-contract failure. Its artifact
 will receive a separate blinded diagnostic grade outside the195 accepted slots.
-Schedule one fresh repetition against unchanged instructions/case/harness; retain
-all attempts and disclose this limit on routing consistency.
+Dependency reruns retain the unchanged case, rubric, harness and threshold; the
+separately approved Privacy revision below is disclosed. Retain all attempts and
+disclose this limit on routing consistency.
+
+
+The first resume batch completed 57 attempts: 55 completed and two retained
+routing failures. The care-plan task again skipped its domain owner after reading
+Privacy. A conditional Privacy handoff now routes actual care tasks, health-data
+access, and study participation to their corresponding experience procedures,
+without requiring SDK adoption. Independent source/procedure review approved all
+seven instruction axes and bound the six supporting guide/procedure references.
+Every execution that consumed the earlier Privacy bytes is superseded for current
+acceptance. The second resume recalculated 47 missing or stale slots; the cases,
+rubrics, harness, root, topic index and thresholds remain unchanged.
+
+Fresh checkpoint checks: source accounting has 0 errors / 0 pending across 173
+routes and 158 articles; instruction-only capability verification has 0 errors /
+0 pending with 158 reviewed procedures. Behavioral integrity has 0 errors while
+artifact grades and current executions remain pending. A completion claim awaits
+the full graded selection and strict release gate.

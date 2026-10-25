@@ -1,0 +1,56 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,51 @@
+-Platform: macOS. Every editing command uses a custom logo glyph; neon brand backgrounds replace system selection and alert colors. A 150-pixel wordmark pushes invoice content below the fold. The company still needs an identifiable product.
+\ No newline at end of file
++# Mac invoice editor — revised brand specification
++
++Platform: macOS. The main task is reading and editing an invoice. Product recognition must remain clear without competing with invoice data or changing familiar interaction meanings. Preserve the existing implementation framework and command behavior; this is a presentation specification, not a framework migration.
++
++## Identity and content hierarchy
++
++- Remove the 150-pixel wordmark and its dedicated banner, including its reserved space. Do not replace it with another banner.
++- Display the existing product name once as secondary, noninteractive text in the editor header, using the standard system secondary-label style. Place it on the same horizontal row as the invoice title; the invoice title has primary emphasis. Do not add an oversized logo beside it. The actual product name and assets were not supplied; reuse the established name rather than inventing one.
++- Keep this row at its intrinsic text height, with 12 pt padding above and below. Permit wrapping at narrow widths; never shrink invoice text to preserve branding. These dimensions are project choices, not HIG requirements.
++- Invoice number/title, customer and editable invoice fields follow immediately. Branding must not introduce a separate vertical section before them. At a proposed 1024 × 768 pt content-area test size with default text settings, show the invoice title, customer, date fields and first line item without scrolling. Validate this target against the eventual layout rather than assuming it already passes.
++- Recognition comes from the product name, established app identity outside the editor, and consistent plain, helpful wording. Keep the invoice issuer's own logo or content separate from product branding; this revision must not inject the software company's logo into invoice output.
++
++## Commands
++
++Replace every product-logo command glyph with a conventional action symbol or an explicit text label. Do not change command placement, shortcuts, enabled conditions, selection scope or data consequences solely to express the brand. Keep standard macOS control dimensions and system press, disabled and focus appearances.
++
++The following is a proposed mapping for commands if present, not an inventory of an unseen implementation:
++
++| Command | Symbol candidate | Presentation and contract |
++|---|---|---|
++| Cut / Copy / Paste | scissors / document.on.document / document.on.clipboard | Operate on the current editable selection; retain existing availability and shortcuts. |
++| Undo / Redo | arrow.uturn.backward / arrow.uturn.forward | Restore/reapply the existing edit operation; retain history behavior. |
++| Add Line Item | plus | Add a line to the current invoice; normal emphasis. |
++| Delete Line Item | trash | Remove the selected line using existing recovery behavior; never use a logo to indicate deletion. |
++| Save | Text: Save | Keep the existing save contract; a familiar text label is sufficient. Do not introduce a new Return-key default in the editor. |
++
++Use simple monochrome template artwork for symbols, consistent with adjacent text weight. Prefer suitable system symbols where available; verify symbol availability against the actual deployment target before implementation, otherwise use the text label. Every icon-only control must have an action-specific accessible name and brief tooltip. A tooltip does not replace that name. Apply the same rule to any command not listed here; no editing command may retain a brand-logo substitute.
++
++## Color roles and states
++
++| Role | Required treatment |
++|---|---|
++| Window / document surface | System window and document backgrounds, without neon brand fills. |
++| Invoice text / secondary metadata | Semantic primary and secondary text roles; no decorative accent on inert labels. |
++| Text selection | System selected-text background and foreground, including inactive selection. |
++| Line-item selection | System selected-content treatment and matching text, including inactive window state. |
++| Keyboard focus / disabled controls | System focus indicator and disabled appearance; never brand substitutes. |
++| Action accent | Use the macOS user accent. An app accent may use the established brand hue when the user chooses multicolor; another user-selected accent takes precedence. |
++| Alert surface, severity and actions | Standard macOS alert rendering and semantic roles. No branded background or recoloring of warning/destructive meaning. |
++
++Resolve colors dynamically by semantic role rather than copying RGB values. Selections remain selections, focus remains focus, and danger remains danger under Light, Dark, increased contrast, custom user accents and inactive windows. Do not use hue alone for an important state: retain selection treatment, focus indicator, explicit error text and action labels. A custom app accent requires Light, Dark and increased-contrast variants and rendered contrast validation; exact colors remain unspecified because no palette was supplied.
++
++## Alert behavior
++
++Restyle existing alerts using system presentation; do not add interruptions for branding or routine success. Preserve meaningful action labels and exits. For a concrete proposed save-failure state: title “Invoice Couldn’t Be Saved”; message “Your edits are still open. Try saving again.”; one normal default button, “Done”, dismisses the alert and returns focus to the initiating control without clearing edits. Show only one such alert at a time. This copy applies only when edits actually remain available; implementation must confirm that condition. Other alerts retain their actual outcome contracts and must be inspected before changing defaults, destructive roles or confirmation behavior.
++
++## Acceptance contract and guidance
++
++Reject the implementation if logo glyphs remain on editing commands, a brand-only banner displaces invoice content, the user's accent is overridden, selection/focus meaning disappears, or alerts use neon brand surfaces. Check all command labels and glyphs at actual size; confirm their outcomes and existing shortcuts, disabled states and recovery. Exercise save failure, Done, Return and supported keyboard dismissal; edits must survive and focus must return. Verify the layout target above and check Light/Dark, increased contrast, inactive selection, alternate accents, text enlargement and icon-only names on macOS before shipping.
++
++These decisions apply the locally supplied [Branding best practices](https://developer.apple.com/design/human-interface-guidelines/branding#Best-practices), [Icons: Editing](https://developer.apple.com/design/human-interface-guidelines/icons#Editing), [Color: macOS and app accents](https://developer.apple.com/design/human-interface-guidelines/color#macOS), [Buttons](https://developer.apple.com/design/human-interface-guidelines/buttons), and [Alerts](https://developer.apple.com/design/human-interface-guidelines/alerts). The header geometry, layout fixture and example save-failure contract are product decisions, not Apple mandates. Runtime acceptance is pending; this document is the revised specification.

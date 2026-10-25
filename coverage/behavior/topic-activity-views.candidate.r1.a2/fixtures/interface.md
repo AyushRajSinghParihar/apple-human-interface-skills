@@ -1,0 +1,1 @@
+Platform: iOS. Share opens a home-built grid of email and social logos, sends the entire notebook regardless of selection, hides the content preview and includes an unrelated Delete notebook action. Offline recipients may not have the app installed.

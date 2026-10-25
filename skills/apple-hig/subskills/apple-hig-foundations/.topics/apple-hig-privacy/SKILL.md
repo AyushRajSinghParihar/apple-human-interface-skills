@@ -18,3 +18,14 @@ Choose one-time location access for suitable individual tasks using the system l
 Deliver a data-purpose/access matrix and corrected permission sequence/copy or implementation. Fail if collection precedes required consent, copy obscures the real use, or unrelated work is gated on optional access. Report code/flow evidence separately from actual authorization prompts and privacy-setting behavior; this procedure does not certify security or legal compliance.
 
 Use [Sign in with Apple](../../../apple-hig-technologies/.topics/apple-hig-sign-in-with-apple/SKILL.md) for that authentication choice and [Augmented reality](../../../apple-hig-technologies/.topics/apple-hig-augmented-reality/SKILL.md) when room/camera access is essential.
+
+For health-related work, finish the domain decisions as well as the permission
+sequence. Read [CareKit](../../../apple-hig-technologies/.topics/apple-hig-carekit/SKILL.md)
+for care plans, scheduled treatment tasks, or symptom/event recording;
+[HealthKit](../../../apple-hig-technologies/.topics/apple-hig-healthkit/SKILL.md)
+for health-data access and sharing; and
+[ResearchKit](../../../apple-hig-technologies/.topics/apple-hig-researchkit/SKILL.md)
+for study participation and research consent. These experience procedures help
+choose task, data, and consent behavior in the existing stack; consulting a
+framework-named topic does not require adopting that SDK. General privacy,
+language, and accessibility guidance alone does not resolve those domain choices.

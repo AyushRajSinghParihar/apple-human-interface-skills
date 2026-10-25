@@ -1,0 +1,1 @@
+Platform: macOS. Authors can be selected from 1,200 suggestions or entered as new text. The proposed combo box prevents any unlisted text, silently selects the first suggestion on blur and gives no way to navigate suggestions by keyboard.

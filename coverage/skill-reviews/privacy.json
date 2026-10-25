@@ -1,19 +1,44 @@
 {
   "topic": "privacy",
   "reviewer": "independent-operational-auditor",
-  "reviewed_at": "2026-10-25T18:52:31.178986+00:00",
+  "reviewed_at": "2026-10-25T22:01:48.856645+00:00",
   "status": "reviewed",
   "source_hash": "de006b73b3a8c4f26ab39a6d65f3f7adbaa407b0a3537214c08e1184ac8093ad",
-  "skill_hash": "11c7f3b8d32ba3c101c14a011f7398c51c614873bf063a4a77304b2cea3b2e09",
+  "skill_hash": "01c2070df6df2a117bce0fa4c37cff898d115ca3babf7920623c8e69d8d706fb",
   "reference_hash": "ce8f25721e6adb44faea38beea85a5636e8a5de8b5147a354bf5a0ce90e957ba",
   "evidence": {
-    "decision": "Maps minimal feature-purpose access, contextual request timing, precise purpose copy and pre-alert/tracking boundaries before choosing permission flow.",
-    "artifact": "Requires data-purpose/access matrix and corrected permission sequence/copy or implementation.",
-    "transformation": "Bird journal removes unrelated launch contacts/microphone/continuous location and offers supported one-time location only when attaching a sighting.",
-    "verification": "Fails pre-consent collection, obscured actual use and optional-access gates; separates inspected flow from prompts/security/legal certification.",
-    "applicability": "Preserves one-time location customization, Mac distribution/user switching and private gaze versus Full Space ARKit/camera constraints.",
-    "handoffs": "Loads Sign in with Apple for that authentication branch and AR only for actual required sensing.",
-    "distinctiveness": "Feature-level data minimization and authorization timing produce a concrete permission contract."
+    "decision": "Reread the complete procedure and Privacy, CareKit, HealthKit and ResearchKit source guides. Feature-purpose minimization, contextual timing and precise permission copy remain the core privacy decisions. The added health branch correctly separates care-plan/task semantics, health-data authorization/sharing, and study participation/informed consent instead of treating a generic permission sequence as the whole domain solution.",
+    "artifact": "The procedure still requires a data-purpose/access matrix and corrected permission sequence/copy or implementation in the existing stack. When a health brief contains domain decisions, its conditional owner procedure supplies the corresponding care-task mapping, health-data contract or study onboarding/task/profile sequence; these are usable work products rather than an SDK recommendation.",
+    "transformation": "The bird-journal example still concretely removes unrelated launch access and offers supported one-time location at the attachment action. Read the linked health procedures as well: their worked transformations resolve care steps/schedules, purpose-specific health access and eligibility/consent before research permissions. The new paragraph composes those existing operational decisions without replacing the privacy transformation with a topical summary.",
+    "verification": "Privacy continues to fail pre-consent collection, misleading purpose copy and optional-access gates, while separating inspected flow from actual system prompts and security/legal certification. The health owners retain checks for accurate task completion, changing authorization and accessible study withdrawal, with clinical efficacy, measurement validity and ethical/legal approval explicitly unverified by static UI work.",
+    "applicability": "The source-specific location-button, Mac distribution/user-switching and visionOS private-gaze/Full Space distinctions remain intact. Read the health owner applicability: CareKit and ResearchKit UI guidance is scoped to iOS/iPadOS, with CareKit Watch notifications separately qualified; HealthKit adds watchOS and excludes Mac/TV/visionOS. Consulting experience guidance in an existing stack neither proves SDK availability on another platform nor requires adopting that SDK.",
+    "handoffs": "Verified all three new installed-relative links resolve to their current approved procedures. CareKit is conditional on care plans, scheduled treatment actions or symptom/event logging; HealthKit on health-data access/sharing; ResearchKit on actual study participation/research consent. They are not three mandatory reads for every sensitive-data task. Existing Sign in with Apple and AR handoffs remain tied to their actual authentication or sensing branches.",
+    "distinctiveness": "The procedure preserves a concrete permission/data-purpose contract and adds a bounded health-domain ownership decision. Care task structure and research consent cannot be inferred from general privacy wording alone, and the framework-agnostic qualification preserves product architecture while allowing those source-specific decisions to be completed."
   },
-  "additional_references": []
+  "additional_references": [
+    {
+      "path": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+      "hash": "37c6cd81af702930e5e097d51c9bcde9e94667d615a3ec2dce9aab62a8b630dc"
+    },
+    {
+      "path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-carekit/SKILL.md",
+      "hash": "be4abb9cf581c6c1d47f5466b46035f2a137aba1fdeb50ca0f36aa8e403ecfdd"
+    },
+    {
+      "path": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+      "hash": "c2f8f224ecc3ea5ac0387264783db4b7f88d753958a04ce79d70411133f8b44b"
+    },
+    {
+      "path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-healthkit/SKILL.md",
+      "hash": "540bfde2f16c7868b7e8fde95f9f45857562283db38102c131a48c3f7fb00efa"
+    },
+    {
+      "path": "skills/apple-hig/subskills/apple-hig-technologies/references/researchkit.md",
+      "hash": "06de6e5d6d97d8827098c4df45f37103c773d29c8a13ab49c51b040e22050efc"
+    },
+    {
+      "path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-researchkit/SKILL.md",
+      "hash": "d942727c79ecde6d557394211debc80ad5b96dea6aa1dd2f1a42de4b2b0f96e0"
+    }
+  ]
 }

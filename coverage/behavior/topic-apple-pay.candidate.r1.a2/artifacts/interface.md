@@ -1,0 +1,57 @@
+# Bicycle shop — iPhone cart express checkout
+
+Platform: iOS on iPhone. Physical bicycles ship to one selected address using one shipping method per cart purchase. This is a revised interaction specification, not an implemented payment integration. Preserve the project's payment provider and framework; neither is supplied.
+
+## Cart and entry actions
+
+- Show bicycle model, size, color, quantity, price, applied discounts, and cart subtotal. Required bicycle choices must be resolved before opening payment. If a choice is missing, activating checkout explains the issue and focuses that choice; do not silently disable Apple Pay for missing selections.
+- Cart express checkout purchases the entire displayed cart. Optional delivery instructions are collected in the cart before payment. Split shipping and pickup are outside this flow.
+- Replace the custom lookalike and modified logo with Apple's API-generated, localized **Buy with Apple Pay** button (Buy type). Do not draw, alter, or overlay its logo or caption. It opens the system Apple Pay sheet; it does not itself authorize payment.
+- Place Apple Pay above the secondary system-styled **Check Out with Card** button, with equal widths and 44 pt minimum height and hit regions. Use at least 140 pt width for the captioned Apple Pay button, accommodate localization and system fallback, and keep clear space of at least one tenth of its height. Choose the generated contrasting style for the background and match adjacent corner radii. Keep both payment options discoverable without scrolling on the intended default cart layout; verify small-screen layouts.
+- On supported, configured devices, make Apple Pay prominent. On supported but unconfigured devices, offer the generated **Set Up Apple Pay** action in an interstitial, retain the cart, and return to checkout after setup. On unsupported devices, omit Apple Pay and retain card checkout. Capability checks and setup behavior require implementation verification.
+- Card checkout opens the separate conventional card flow. It never gates Apple Pay. No account creation or manual card number, expiry, or security-code entry precedes Apple Pay. Allow guest purchase; account creation may be offered after success.
+
+## System payment sheet and price contract
+
+1. Open the system sheet for a snapshot of the cart. Request delivery recipient/name and shipping address for fulfillment and email for receipt/order updates. Request billing address only if the payment processor requires it; do not request phone unless the carrier requires it. Use current sheet selections rather than silently replacing them with a saved shop address.
+2. Offer shipping methods with prices and estimated delivery ranges. Validate the information available at each stage; before authorization, expect redacted shipping data and card type rather than full contact details. Use available address data for estimates, and validate full details when available. Accept reasonable address/phone formatting variants.
+3. Show concise summary lines: Bicycles subtotal, Discount when applicable, Shipping, Tax, and the final total labeled with the shop's statement-recognizable merchant name. Keep individual bicycle details in the cart rather than repeating the entire cart in the sheet. Support coupon entry and update discount, tax, and total together.
+4. Recalculate shipping, tax, discounts, and total whenever address, method, or coupon changes. Mark unresolved amounts as pending; never present them as a final zero. Do not permit authorization against an unresolved final quote. If a destination cannot be quoted from available information, explain and return to address correction before opening a fresh sheet with the complete quote. Do not ask for card details to obtain that quote.
+5. The person reviews all costs before system authorization. No hidden shipping, tax, or later surcharge may be added after authorization. If a final address validation changes the quote, stop this attempt and present the revised amount in a fresh sheet for review and authorization. Never charge the revised amount under the old approval.
+6. Use system sheet progress and results; do not overlay a duplicate spinner or modify the generated Apple Pay button to show payment progress. The system owns authentication and cancellation.
+
+## Outcomes and recovery
+
+| State/event | Required behavior |
+| --- | --- |
+| Sheet open | Preserve cart snapshot and selections; suppress duplicate checkout activation while this attempt is active. |
+| Invalid address or unavailable shipping | Show the specific system field error and remedy, e.g. “Choose an address within our delivery area”; remain available for correction. Use sentence-case noun phrases without final punctuation, ideally at most 128 characters. |
+| Authorization received | Validate remaining required data and submit the approved quote through the existing processor. Authorization alone is not order success. |
+| Confirmed payment/order | Show success in the sheet, then confirmation with order number, purchased items, total, delivery address/method/range, receipt email, and order-status access. Remove only purchased cart items; preserve later additions. |
+| User cancels before completion | Dismiss to the intact cart with selections and any valid quote preserved. No failed-order screen or completed order. Cancel in-flight processing for the attempt. Apple Pay remains available for retry once the attempt is resolved. |
+| Timeout dismisses sheet | Cancel in-flight processing; preserve cart and show a concise retry message. Resolve the old attempt before enabling a new payment. |
+| Confirmed processing failure | Show the sheet's failure result and actionable explanation; preserve cart. After dismissal, offer Apple Pay retry or card checkout. Do not label cancellation as failure. |
+| Network outcome unknown or cancellation races payment completion | Reconcile the existing attempt with the server/provider before allowing another charge. Show “Checking payment status” in the cart. If already paid, show confirmation; if canceled/voided or definitively unpaid, restore retry. Do not assert failure or invite a duplicate charge while unresolved. |
+
+Application reliability requirements: use a stable attempt identifier and server/provider idempotency so repeated callbacks or retries cannot create duplicate orders/charges. Stop unsubmitted work on cancellation; cancel/void submitted work where supported. A cancellation must not initiate a new charge. Backend reconciliation and compensation depend on provider capabilities and must be verified before release.
+
+## Data handling
+
+| Data | Purpose and boundary |
+| --- | --- |
+| Delivery name/address | Fulfillment; obtain through the payment sheet, share only as required with shop fulfillment/carrier. |
+| Email | Receipt and order updates; no marketing enrollment or account prerequisite. |
+| Billing address / phone | Conditional processor / carrier requirement only; omit otherwise. |
+| Payment authorization data | Existing payment processing only; do not collect or store manually entered card credentials in this flow or log sensitive payment payloads. |
+
+Do not introduce contacts or location permissions to choose a shipping address. Review actual storage, retention, transfers, and privacy disclosures during implementation; these are not established by this specification.
+
+## Guidance basis
+
+Decisions apply the installed local HIG snapshot. Official links identify source sections; they were not browsed for this task.
+
+- [Apple Pay — Offering Apple Pay and Using Apple Pay buttons](https://developer.apple.com/design/human-interface-guidelines/apple-pay#Using-Apple-Pay-buttons): generated branding, availability, action types, prominence, and button geometry.
+- [Apple Pay — Streamlining checkout](https://developer.apple.com/design/human-interface-guidelines/apple-pay#Streamlining-checkout): cart scope, guest checkout, essential fields, current shipping data, summary and confirmation.
+- [Apple Pay — Handling problems](https://developer.apple.com/design/human-interface-guidelines/apple-pay#Handling-problems): validation, system errors, cancellation/timeout and retry.
+- [Buttons — Best practices](https://developer.apple.com/design/human-interface-guidelines/buttons#Best-practices): system controls, separation, and general 44 × 44 pt hit regions. The chosen 44 pt height exceeds Apple Pay's documented 30 pt visual minimum; these dimensions describe different constraints.
+- [Privacy — Best practices](https://developer.apple.com/design/human-interface-guidelines/privacy#Best-practices): collect only necessary data. Attempt identifiers, quote locking, reconciliation, and conditional data choices above are concrete product/reliability decisions rather than claims of mandated HIG APIs.

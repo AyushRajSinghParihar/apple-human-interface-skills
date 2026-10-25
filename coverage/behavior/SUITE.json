@@ -426,6 +426,16 @@
       "rerun_policy": "Earlier candidate root/index byte bindings are superseded and must be rerun. Cases and execution harness unchanged.",
       "final_root_hash": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
       "finalization": "Platform adaptation explicitly joins support/feasibility routing; independently approved. Router and index frozen after this review."
+    },
+    {
+      "path": "subskills/apple-hig-foundations/.topics/apple-hig-privacy/SKILL.md",
+      "before_hash": "11c7f3b8d32ba3c101c14a011f7398c51c614873bf063a4a77304b2cea3b2e09",
+      "after_hash": "01c2070df6df2a117bce0fa4c37cff898d115ca3babf7920623c8e69d8d706fb",
+      "review_path": "coverage/skill-reviews/privacy.json",
+      "review_hash": "77c5445e4cb3f4e9d918df8becb2248b73c85203059a71ad97ef5a63d37c94a5",
+      "reason": "Health-domain handoff after observed routing miss; cases, rubrics, execution harness, root and topic index remain unchanged. Independent source and procedure review approved the conditional handoff without SDK adoption.",
+      "recorded_at": "2026-10-25T22:06:07.279100+00:00",
+      "rerun_policy": "Every candidate that consumed the prior Privacy procedure is ineligible for current acceptance and must be rerun. Earlier attempts and their failures remain public history. Repetitions use the same frozen cases, rubrics, harness and thresholds."
     }
   ],
   "routing_review_hash": "0a27401e25f4b8b35eb6c1f06c2cdb1b48e168b1fadaa517c76e06a1651e699c",
@@ -443,9 +453,32 @@
   "diagnostic_runs": [
     {
       "run_id": "stress-surface-privacy-freshness.candidate.r1.a2",
-      "reason": "Final-router trace-contract failure: selected optional Smart Stack watch glance and explicitly deferred watch-face work; frozen expected_reads still requires Complications. Preserve as a nonaccepted attempt, grade its artifact independently as an observation, and make one fresh unchanged-contract attempt for repetition1. No package, case, rubric, harness or threshold changes.",
+      "reason": "Trace-contract failure: selected optional Smart Stack watch glance and explicitly deferred watch-face work; frozen expected_reads still requires Complications. Preserve as a nonaccepted attempt and independently grade its artifact as a diagnostic outside195. Dependency reruns use the unchanged case, rubric, harness and threshold with the separately approved Privacy handoff revision disclosed in this ledger.",
       "counts_toward_execution_target": false,
       "retry_scheduled": true
+    }
+  ],
+  "approved_topic_revisions": [
+    {
+      "path": "subskills/apple-hig-foundations/.topics/apple-hig-privacy/SKILL.md",
+      "before_hash": "11c7f3b8d32ba3c101c14a011f7398c51c614873bf063a4a77304b2cea3b2e09",
+      "after_hash": "01c2070df6df2a117bce0fa4c37cff898d115ca3babf7920623c8e69d8d706fb",
+      "review_path": "coverage/skill-reviews/privacy.json",
+      "review_hash": "77c5445e4cb3f4e9d918df8becb2248b73c85203059a71ad97ef5a63d37c94a5",
+      "reason": "Health-domain handoff after observed routing miss; cases, rubrics, execution harness, root and topic index remain unchanged. Independent source and procedure review approved the conditional handoff without SDK adoption.",
+      "recorded_at": "2026-10-25T22:06:07.279100+00:00"
+    }
+  ],
+  "resume_batches": [
+    {
+      "id": "final-resume-1",
+      "finished_at": "2026-10-25T22:06:07.279100+00:00",
+      "attempts": 57,
+      "statuses": {
+        "completed": 55,
+        "routing_error": 2
+      },
+      "note": "Required final-router reruns completed. Privacy leaf revision during this batch invalidates every attempt that consumed its old bytes; next resume recalculates all dependencies."
     }
   ]
 }

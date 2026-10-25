@@ -1,0 +1,1 @@
+Platform: iOS. Current shortcut asks users to supply a database row ID, repeats the app name three times and fails silently if the requested list is missing. People commonly add milk to their shared weekly list while hands are occupied.

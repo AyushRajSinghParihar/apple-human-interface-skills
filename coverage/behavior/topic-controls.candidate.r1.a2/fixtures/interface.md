@@ -1,0 +1,1 @@
+Platform: supported iOS control surfaces. The lamp tile looks like a toggle but opens a seven-screen setup wizard, state always says On even offline and long press performs factory reset. A guest may lack permission to control a lamp.

@@ -1,0 +1,1 @@
+Platform: watchOS. Proposal displays a full medication name and patient identifier on a shared-visible face, uses tiny multi-line instructions and turns the complication into a scrolling task list. A dose can be due, recorded or overdue.
