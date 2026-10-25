@@ -1,0 +1,67 @@
+{
+  "source_hash": "2b8461dcf3113bf6093d67e725050450bfd06ec948f7df87e4d6c82acc962f73",
+  "media": {
+    "components-panel-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:16:21.624083+00:00",
+      "reference_metadata_hash": "6ae379c4a7da11d7fcf45fa99cb0f55609d3567cc6969a1779ab9b0665ce8685",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-panel-intro@2x.png",
+      "binary_hash": "ad79aa580b91501f6609377cdc18648de3baadf33ed89ba4b1092cefcbc1c3d8",
+      "review_method": "actual primary/alternate introductory-image gallery inspection and source topic/context identification",
+      "classification": "illustrative topic introduction; redundant with component/topic identity",
+      "evidence": "Actual introductory illustration and its light/dark representation inspected in numbered galleries. The image identifies or demonstrates this topic/component; the depicted sample labels, symbols and layout add no independent normative specification. Substantive design rules remain subject to the separate article/section audit.",
+      "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/panels.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-presentation/references/panels.md",
+          "hash": "1954556b4f1c3a440aea31842fb040b83ff4851cb0c90496b359381137b2e2d3"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-panel-intro~dark@2x.png",
+          "binary_hash": "1273f6cd2960c4529b055b340b06eacb141dd2bec72b5ed1235455361d29cccf",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "hud-style-panel.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:32:00.551344+00:00",
+      "reference_metadata_hash": "a4319adffb9b4dd1d2eca59e4baad30e5ffe62ff467863c7f41f494413279f60",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/hud-style-panel@2x.png",
+      "binary_hash": "09321a105519db6cec25ad97b0749fc8f4e119b2791882f38dc32c5eee9362f2",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Viewed dark translucent inspector over desktop in both appearances, with a close button and compact grouped metadata. Local HUD floating-panel styling and focused contextual function retain its purpose; media-file numbers are illustrative.",
+      "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/panels.md#HUD-style-panels",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-presentation/references/panels.md",
+          "hash": "1954556b4f1c3a440aea31842fb040b83ff4851cb0c90496b359381137b2e2d3"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/14/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/hud-style-panel~dark@2x.png",
+          "binary_hash": "eb1ee8c460f228fa738a8140d2bb72fc7a1bd621f28a99e2793c3dd055e4de77",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    }
+  }
+}

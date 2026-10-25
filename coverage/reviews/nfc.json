@@ -1,0 +1,351 @@
+{
+  "review": {
+    "slug": "nfc",
+    "status": "reviewed",
+    "source_hash": "82278363047e77625c92a7231fa0c2530dcc7e793bce9118f3749dc9f6d28afe",
+    "destination_hash": "1e47deacfc1777e075ed750c09dcb82b5e545ccfeb18151fe87847e36315c2f9",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:26:29+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "nfc",
+        "status": "reviewed",
+        "evidence": "Verified few-centimeter proximity and supported iOS physical-object reading."
+      },
+      {
+        "source_anchor": "In-app-tag-reading",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "source_anchor": "Background-tag-reading",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "Background-tag-reading",
+        "status": "reviewed",
+        "evidence": "Verified lit-display automatic detection/notification data transfer and all exclusions: active sheet,Wallet/Pay,camera,Airplane Mode,locked after reboot; mandatory in-app fallback."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified source iOS/iPadOS no added rules and four unsupported platforms."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "34459424331c041969491e528b8492df1fdaa7c1ac045e83820cae956be4b400",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "nfc",
+        "evidence": "Verified few-centimeter proximity and supported iOS physical-object reading."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "d7df163383bcdf149527f3b279d58579919ca8cecd38a776a905ae4ebfef124e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "nfc",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified few-centimeter proximity and supported iOS physical-object reading."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "c3afee31f246f8c926915fed57af31ba5efa6b38edfcb9ed1a0dbc6651d4a60e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "nfc",
+        "evidence": "Verified few-centimeter proximity and supported iOS physical-object reading."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "a40ad64111400bc423718f12ad953e7a09d957550ed1e0714908baf07a688be2",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "e3c633886b909fc0cbf25284dcb27b0b5442cc98f389da06a7534bd535804b4f",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/inlineContent/0",
+        "source_unit_hash": "61b405d71d1b14e00aa8559c297bfa608cf80294cf613333d7291b9c2e49e3e0",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "491077caad8d38093d2ae99a615a697e360a590f0d673357afc84a76055a9e7c",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "3bba9e1551919522fadb77a3cf63ac3ed5141b3d85c1304bf2bae6f27673e4a0",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "102ff561f08148e320ba4894f8fdd21d2dd89c72a0017bc3d0999b13b507cc68",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/rows/0/0/0",
+        "source_unit_hash": "3fa1a847ff6398c6142251d4410400d4aeb7ea4fa0da05d76dc470700b6e70bf",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/rows/0/1/0",
+        "source_unit_hash": "8a45854418d95d91ddf0998b126d7d900f2aee8f504e996db69bce5bad8188b3",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/rows/1/0/0",
+        "source_unit_hash": "19df675242e456f223e79fae204b114099cf7e5de185a42eb2e8f056581926f4",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/rows/1/1/0",
+        "source_unit_hash": "7c655f7d2f401e52137831438f63622aadadc1734ce98a107d7009fe4cb9e2dc",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/rows/2/0/0",
+        "source_unit_hash": "b41712b44d6662b00e63f7e060a7a126af617b503d39d691a7ffc303422fa24a",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/rows/2/1/0",
+        "source_unit_hash": "90ddd46b124d330dcab518cf5dda5eb24b2ac51f6542ec833d8e6456a24e1a49",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "e35d713e57c08d345451c051bd78390b5d52e90fa01be8ad0a668fbd4b0224be",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "4ce0c37a17dbc100497cb6b977ae49d65826b4d35f1b8de8374184e77f73362e",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/0/0/0",
+        "source_unit_hash": "82cfc72d2894f27519b5e233b44760a9917a3c5e55bf2f22aa075103a8c1e06a",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/0/1/0",
+        "source_unit_hash": "9303ab301bebc51e580bf27cd43f2d60cd97bce94ed0dba43f1cb19471c58d3a",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/1/0/0",
+        "source_unit_hash": "b41712b44d6662b00e63f7e060a7a126af617b503d39d691a7ffc303422fa24a",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/1/1/0",
+        "source_unit_hash": "384a1605d6a08dbaf2cf718ba89b39a01b9822d5c670b189cc2b98759eaa1d9f",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "1c609857f11e7f5de144260f92fe1e963b05740a2784d1eb227eba2017e4c2b8",
+        "source_anchor": "Background-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "Background-tag-reading",
+        "evidence": "Verified lit-display automatic detection/notification data transfer and all exclusions: active sheet,Wallet/Pay,camera,Airplane Mode,locked after reboot; mandatory in-app fallback."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "311891a1513ef0fd06dacf6e3fa010594354d0046a9bce9618a7c3ae725da672",
+        "source_anchor": "Background-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "Background-tag-reading",
+        "evidence": "Verified lit-display automatic detection/notification data transfer and all exclusions: active sheet,Wallet/Pay,camera,Airplane Mode,locked after reboot; mandatory in-app fallback."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/inlineContent/0",
+        "source_unit_hash": "8217f0bd6e0875c5ced96ba707e1864e5cda4c6b930a813d520a6c63b1f4db44",
+        "source_anchor": "Background-tag-reading",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "Background-tag-reading",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified lit-display automatic detection/notification data transfer and all exclusions: active sheet,Wallet/Pay,camera,Airplane Mode,locked after reboot; mandatory in-app fallback."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "e4aaad89989a960e53158c8f00f9b92d90e25fbfb4b7d87aa2579a6a2854c808",
+        "source_anchor": "Background-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "Background-tag-reading",
+        "evidence": "Verified lit-display automatic detection/notification data transfer and all exclusions: active sheet,Wallet/Pay,camera,Airplane Mode,locked after reboot; mandatory in-app fallback."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "dcc79d5e917637a68d39555f3235e7f70da52eceaf06c2c0d481b27d2e376286",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified source iOS/iPadOS no added rules and four unsupported platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "39a25246ed4a3129afecd35e14b3ccd8c4789f8a908780110cf569198e461db1",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "102ff561f08148e320ba4894f8fdd21d2dd89c72a0017bc3d0999b13b507cc68",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "4ce0c37a17dbc100497cb6b977ae49d65826b4d35f1b8de8374184e77f73362e",
+        "source_anchor": "In-app-tag-reading",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+        "destination_anchor": "In-app-tag-reading",
+        "evidence": "Compared wording/example tables: no physical-contact implication or technical jargon, actual object names, concise complete sentence-case punctuated instructions and subsequent-scan changes."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

@@ -1,0 +1,1375 @@
+{
+  "review": {
+    "slug": "charts",
+    "status": "reviewed",
+    "source_hash": "825f346c7c73263637ce1dd7547ff9bb0704793957a45011e23fb06c8ccc34d6",
+    "destination_hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94",
+    "reviewer": "independent-coverage-auditor",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "charts",
+        "status": "reviewed",
+        "evidence": "The opening preserves the information/question purpose rather than enumerating sample app domains."
+      },
+      {
+        "source_anchor": "Anatomy",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Anatomy",
+        "status": "reviewed",
+        "evidence": "Checked marks, series, plot area, scale, axes, ticks, grids, visible/accessibility descriptions, and nonpositional legend purpose."
+      },
+      {
+        "source_anchor": "Marks",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Marks",
+        "status": "reviewed",
+        "evidence": "Checked category/proportion/aggregate bars, trend lines, individual/relationship/outlier points, and deliberate mixed marks."
+      },
+      {
+        "source_anchor": "Axes",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Axes",
+        "status": "reviewed",
+        "evidence": "Checked fixed versus dynamic ranges, 0–100 battery example, task-dependent zero baselines, familiar intervals, and density/interaction tradeoffs."
+      },
+      {
+        "source_anchor": "Descriptive-content",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Descriptive-content",
+        "status": "reviewed",
+        "evidence": "Checked advance context, cognitive/VoiceOver support, and direct text summaries of the primary message."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked data hierarchy, compact plot width, accessible descriptions and Audio Graphs, critical information without interaction, generous targeting, logical keyboard/Switch Control traversal, alternate update cues, and edge alignment."
+      },
+      {
+        "source_anchor": "Color",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Color",
+        "status": "reviewed",
+        "evidence": "Checked redundant shape/pattern encoding and visible gaps between contiguous stacked colors."
+      },
+      {
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "No extra rules are claimed for the five platforms explicitly listed by Apple."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Checked glanceable, simple interactions and moving detailed inspection to a companion platform."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "48128c2a9f402ea74e28565a4dc1beff4437965670d26f4c01393978243302e8",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "charts",
+        "evidence": "The opening preserves the information/question purpose rather than enumerating sample app domains."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "944af321a46e3988a0dd405445ab6c5c6e5c009448bf87ad55630d210d56a802",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "charts",
+        "evidence": "The opening preserves the information/question purpose rather than enumerating sample app domains."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "78c99e9a1799c4d351ecda66819b8f6f5d18f0d1694d774db0399539f3e3790f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "charts",
+        "evidence": "The opening preserves the information/question purpose rather than enumerating sample app domains."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "9c8bd56530ebb85e01b53b43e633cc836cc184b53ea9ecb6a5d2a824905c0c4d",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "charts",
+        "evidence": "The opening preserves the information/question purpose rather than enumerating sample app domains."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/items/0/content/0",
+        "source_unit_hash": "bc2e96f70e63fb9ac5d5da02010e02d819561800c6b50686deef0727cab5a0af",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "charts",
+        "evidence": "The opening preserves the information/question purpose rather than enumerating sample app domains."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/items/1/content/0",
+        "source_unit_hash": "250a341b6846aeed0835314b34625bfd4a6bc3ec92b0ac7c6a91186de1b3d4ea",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "charts",
+        "evidence": "The opening preserves the information/question purpose rather than enumerating sample app domains."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/items/2/content/0",
+        "source_unit_hash": "a0750eb49e6162690c0e67f34fee407d5c634ebb6fcc6284a09de7cf5ce7bf89",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "charts",
+        "evidence": "The opening preserves the information/question purpose rather than enumerating sample app domains."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "017319087545898aa3a20d381c2431bf0f1e55275b7d24b8402cea1ee1ec1990",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "charts",
+        "evidence": "The opening preserves the information/question purpose rather than enumerating sample app domains."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "d3ebaaa4a3f9fc6da57d0eb6a6ec605d98c26395db20432c294618cf2311105b",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked marks, series, plot area, scale, axes, ticks, grids, visible/accessibility descriptions, and nonpositional legend purpose."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "09ced72b263a18f2fe81efde0e4c237e09b8b1166d92cc90d13cdfd6e14feb0f",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked marks, series, plot area, scale, axes, ticks, grids, visible/accessibility descriptions, and nonpositional legend purpose."
+      },
+      {
+        "id": "primaryContentSections/0/content/6/inlineContent/0",
+        "source_unit_hash": "25a8dba1481c4dca231d3579d34a3570abbaeabafd9e5c610ec5b34d95c84722",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked marks, series, plot area, scale, axes, ticks, grids, visible/accessibility descriptions, and nonpositional legend purpose."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "9739cb889c81fda79bbc56ad253f1ca1226afcc35d4b251b73caf112bb923ac0",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked marks, series, plot area, scale, axes, ticks, grids, visible/accessibility descriptions, and nonpositional legend purpose."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "76cae87399f39702fa50062c233addf115a1d70338d30fa447688775381d4c7b",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked marks, series, plot area, scale, axes, ticks, grids, visible/accessibility descriptions, and nonpositional legend purpose."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "1b45dedc71668d4970d5d328de1170fb4addd4857897d858144b6b8d94e9e906",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked marks, series, plot area, scale, axes, ticks, grids, visible/accessibility descriptions, and nonpositional legend purpose."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "60e5402ab5b05a1e51abbdcb66ef3a44074ec17d25a54b77a06fcd41e04f1398",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked marks, series, plot area, scale, axes, ticks, grids, visible/accessibility descriptions, and nonpositional legend purpose."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "dbee138f60b311d50d6c3dda9a6c6fd1a035fd9daa7650f52a4184f24ed2673e",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked marks, series, plot area, scale, axes, ticks, grids, visible/accessibility descriptions, and nonpositional legend purpose."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "1df47ed07eb3eb7985d34c915e4d197b681520d85b9e9e68b4b7a66d3a9df436",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked marks, series, plot area, scale, axes, ticks, grids, visible/accessibility descriptions, and nonpositional legend purpose."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "8294bb75031edf71c89ea214e5aecf8f388b9af2c0d776b8b51c827601d5a45f",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked marks, series, plot area, scale, axes, ticks, grids, visible/accessibility descriptions, and nonpositional legend purpose."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "d3adb772ed7c81d97d29becd8ac9dde3ea781a5b1b35ccde70a6ba86456a1b06",
+        "source_anchor": "Marks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Marks",
+        "evidence": "Checked category/proportion/aggregate bars, trend lines, individual/relationship/outlier points, and deliberate mixed marks."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "766c91a4b99d0ba22a519e45a5219fde2c2daf4b7ba587dbfa7a31f00c208f6d",
+        "source_anchor": "Marks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Marks",
+        "evidence": "Checked category/proportion/aggregate bars, trend lines, individual/relationship/outlier points, and deliberate mixed marks."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "bb65c0eb163f95856d0c3b281776553765c10184637049293ea9e85af5d7c1d0",
+        "source_anchor": "Marks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Marks",
+        "evidence": "Checked category/proportion/aggregate bars, trend lines, individual/relationship/outlier points, and deliberate mixed marks."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/inlineContent/0",
+        "source_unit_hash": "483173ecf9ed33b421bb8c3713a10369ffda493aa614946b0ff684fadc37c0b6",
+        "source_anchor": "Marks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Marks",
+        "evidence": "Checked category/proportion/aggregate bars, trend lines, individual/relationship/outlier points, and deliberate mixed marks."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "27c57b239e07e20bb15489137b0259527843bc6464533beeffa491b72fbfb9ba",
+        "source_anchor": "Marks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Marks",
+        "evidence": "Checked category/proportion/aggregate bars, trend lines, individual/relationship/outlier points, and deliberate mixed marks."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "133d4ef5b524c47c203d8a5074d669f2d86e3c984a74d490dae495ceb2ad3337",
+        "source_anchor": "Marks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Marks",
+        "evidence": "Checked category/proportion/aggregate bars, trend lines, individual/relationship/outlier points, and deliberate mixed marks."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/inlineContent/0",
+        "source_unit_hash": "72bb4537f6a528d0d1dde284defff3ba3c352214b101d39430196397035b7bc8",
+        "source_anchor": "Marks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Marks",
+        "evidence": "Checked category/proportion/aggregate bars, trend lines, individual/relationship/outlier points, and deliberate mixed marks."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "5e3f16308e6a074d374096598e5514d46145861b44f16f998d1ca9f70bf3a867",
+        "source_anchor": "Marks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Marks",
+        "evidence": "Checked category/proportion/aggregate bars, trend lines, individual/relationship/outlier points, and deliberate mixed marks."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "98e67037779ba0e64df764ea3983b01b59f1c653fa59445edecebec5067659f0",
+        "source_anchor": "Marks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Marks",
+        "evidence": "Checked category/proportion/aggregate bars, trend lines, individual/relationship/outlier points, and deliberate mixed marks."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/inlineContent/0",
+        "source_unit_hash": "9101f215a94e3b31a4ceedba78c1d15ec04614517490ec98c8f85dc84c53aaf3",
+        "source_anchor": "Marks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Marks",
+        "evidence": "Checked category/proportion/aggregate bars, trend lines, individual/relationship/outlier points, and deliberate mixed marks."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "d9363466c28488cf36dab1b9b7503a9988bdb4c1acd2fe0216dd46fb5f1aa6e3",
+        "source_anchor": "Marks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Marks",
+        "evidence": "Checked category/proportion/aggregate bars, trend lines, individual/relationship/outlier points, and deliberate mixed marks."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "e50fdfbd63549aa357e45350c456dcd4984beb2becb03fdfaaa67454b62385b5",
+        "source_anchor": "Axes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Axes",
+        "evidence": "Checked fixed versus dynamic ranges, 0–100 battery example, task-dependent zero baselines, familiar intervals, and density/interaction tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "39d1e726b83db8f80bb21b4f4354bd7730b71b61f0173884987281a43934c87d",
+        "source_anchor": "Axes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Axes",
+        "evidence": "Checked fixed versus dynamic ranges, 0–100 battery example, task-dependent zero baselines, familiar intervals, and density/interaction tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/inlineContent/0",
+        "source_unit_hash": "2a20233401025fe052e6d3e6922d7b11350145e14ee6ddc6f7575aef9a0ce547",
+        "source_anchor": "Axes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Axes",
+        "evidence": "Checked fixed versus dynamic ranges, 0–100 battery example, task-dependent zero baselines, familiar intervals, and density/interaction tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "c6e10bd070312b6158c0cc73a87e18b05f547afeea708cf40e791a74f48f7c4c",
+        "source_anchor": "Axes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Axes",
+        "evidence": "Checked fixed versus dynamic ranges, 0–100 battery example, task-dependent zero baselines, familiar intervals, and density/interaction tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/0/content/0",
+        "source_unit_hash": "ad890072e11180732b56a87db8dd66473453bf1861ab9b3b19470610cb73822b",
+        "source_anchor": "Axes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Axes",
+        "evidence": "Checked fixed versus dynamic ranges, 0–100 battery example, task-dependent zero baselines, familiar intervals, and density/interaction tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "09fb96806399a6c935c14a6a676ecf8fc9c032a6746daa79a3412ca0b805ba26",
+        "source_anchor": "Axes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Axes",
+        "evidence": "Checked fixed versus dynamic ranges, 0–100 battery example, task-dependent zero baselines, familiar intervals, and density/interaction tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/1/content/0",
+        "source_unit_hash": "addd75b31bad11a17522358d68f893617eaaa8ee7bf1f9b2299649080fb540a1",
+        "source_anchor": "Axes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Axes",
+        "evidence": "Checked fixed versus dynamic ranges, 0–100 battery example, task-dependent zero baselines, familiar intervals, and density/interaction tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "66abc87f0f032ab0ae07f55625c0f117bd21a0c24b5827f09de77c1072b33f63",
+        "source_anchor": "Axes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Axes",
+        "evidence": "Checked fixed versus dynamic ranges, 0–100 battery example, task-dependent zero baselines, familiar intervals, and density/interaction tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "363c1cc19b40d423736cecac13672d64728f67e2b78dd68e97b10a8d59df8878",
+        "source_anchor": "Axes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Axes",
+        "evidence": "Checked fixed versus dynamic ranges, 0–100 battery example, task-dependent zero baselines, familiar intervals, and density/interaction tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "6a4f9725d742e567adcf6e3c36350f4899f5d58c5e8ed2f9a970220c8a826a3c",
+        "source_anchor": "Axes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Axes",
+        "evidence": "Checked fixed versus dynamic ranges, 0–100 battery example, task-dependent zero baselines, familiar intervals, and density/interaction tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "f37f10e3f60c0f2fe6812e075d1040a954e95541667ca2e11cf03564dd6c76d0",
+        "source_anchor": "Axes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Axes",
+        "evidence": "Checked fixed versus dynamic ranges, 0–100 battery example, task-dependent zero baselines, familiar intervals, and density/interaction tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "90e7631c5a80a2904cbf3490032ad836e9905786f898995e59a7d2fabd8cbe17",
+        "source_anchor": "Descriptive-content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Descriptive-content",
+        "evidence": "Checked advance context, cognitive/VoiceOver support, and direct text summaries of the primary message."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "d99b8605c194d233aead8f15644b2805a435763e474e4d9698e0f9c3e71208bf",
+        "source_anchor": "Descriptive-content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Descriptive-content",
+        "evidence": "Checked advance context, cognitive/VoiceOver support, and direct text summaries of the primary message."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "c0998f4b67b739e5b43266b5df5dc3e4b02f0e033237e20853c3a8e9ca7a40ad",
+        "source_anchor": "Descriptive-content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Descriptive-content",
+        "evidence": "Checked advance context, cognitive/VoiceOver support, and direct text summaries of the primary message."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/inlineContent/0",
+        "source_unit_hash": "8fe62328186a6e9cae8f3503c176f9537d8ff37ca4b14f6659f79fa423d4d32b",
+        "source_anchor": "Descriptive-content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Descriptive-content",
+        "evidence": "Checked advance context, cognitive/VoiceOver support, and direct text summaries of the primary message."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "fdd1ef71d8ced7d937eadecd18b3dc271065645939ff420c405e7158a0a54fd3",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked data hierarchy, compact plot width, accessible descriptions and Audio Graphs, critical information without interaction, generous targeting, logical keyboard/Switch Control traversal, alternate update cues, and edge alignment."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "7567fc1a7e00dbf93b1893cc8a66ebd626a9021878b2c83eaf85594cbfaa16dc",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked data hierarchy, compact plot width, accessible descriptions and Audio Graphs, critical information without interaction, generous targeting, logical keyboard/Switch Control traversal, alternate update cues, and edge alignment."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "c337e860b31e2f8119ae9a3232c69498d0227cbd54008283a059ec7acb4a8834",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked data hierarchy, compact plot width, accessible descriptions and Audio Graphs, critical information without interaction, generous targeting, logical keyboard/Switch Control traversal, alternate update cues, and edge alignment."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "420b853e25606dcce2fbc156b3c8caee7174abc80d5a16d723130e54bd7b1599",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked data hierarchy, compact plot width, accessible descriptions and Audio Graphs, critical information without interaction, generous targeting, logical keyboard/Switch Control traversal, alternate update cues, and edge alignment."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "6380dc41dbf4a9a94991f00046d12a5c04ef3829455c0381218ca701c802de02",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked data hierarchy, compact plot width, accessible descriptions and Audio Graphs, critical information without interaction, generous targeting, logical keyboard/Switch Control traversal, alternate update cues, and edge alignment."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "cf68c8f8c109d6e649ea13d314765d7b0fc82ec6770e09f4129c6bc867ca90bd",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked data hierarchy, compact plot width, accessible descriptions and Audio Graphs, critical information without interaction, generous targeting, logical keyboard/Switch Control traversal, alternate update cues, and edge alignment."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "fa90dabd15896e64e2688a1ff8ce460a4e506c35c6588f5a44dd0465cd0d79b9",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked data hierarchy, compact plot width, accessible descriptions and Audio Graphs, critical information without interaction, generous targeting, logical keyboard/Switch Control traversal, alternate update cues, and edge alignment."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "e38c92095867d9d76097e6c9c7f9614568b2f277e1a30e266c36ec66f79ca238",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked data hierarchy, compact plot width, accessible descriptions and Audio Graphs, critical information without interaction, generous targeting, logical keyboard/Switch Control traversal, alternate update cues, and edge alignment."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "06651d8d2dce75cca344d4a7c10617183f0d3e51e0a46fed43e303467fd717c8",
+        "source_anchor": "Color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Color",
+        "evidence": "Checked redundant shape/pattern encoding and visible gaps between contiguous stacked colors."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "175c596ac44346f11e0e9ae830bab1793e98016adc6cb68fdc1d00a5b4d2c242",
+        "source_anchor": "Color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Color",
+        "evidence": "Checked redundant shape/pattern encoding and visible gaps between contiguous stacked colors."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "d75984dc7aa5ab4f664b762ce49abd391efaf08dd430e55b4fd2760a6db3809a",
+        "source_anchor": "Color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Color",
+        "evidence": "Checked redundant shape/pattern encoding and visible gaps between contiguous stacked colors."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/inlineContent/0",
+        "source_unit_hash": "7aafebdaa5dcb7941d744a7155a7d57bf9f3b27c5d6dddec540324ff067aeffc",
+        "source_anchor": "Color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Color",
+        "evidence": "Checked redundant shape/pattern encoding and visible gaps between contiguous stacked colors."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "45667f50c3904e472d1996d7b2d85e942fd949cc4989dfc1464826f14a868b32",
+        "source_anchor": "Color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Color",
+        "evidence": "Checked redundant shape/pattern encoding and visible gaps between contiguous stacked colors."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "de9257e1b97587bb6f821e520f85cdc084396b22e7dd501d27b3026e1a5f6b9b",
+        "source_anchor": "Color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Color",
+        "evidence": "Checked redundant shape/pattern encoding and visible gaps between contiguous stacked colors."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/inlineContent/0",
+        "source_unit_hash": "b34737512c9b577e8e8d76c6aa79c17cb57bc25fb5c2a41f4050ad75eb793ab0",
+        "source_anchor": "Color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Color",
+        "evidence": "Checked redundant shape/pattern encoding and visible gaps between contiguous stacked colors."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "6719849f0c9e5b3cb7f5ae924e51d9f261d53b26bcb7730741abc54356e3abe7",
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "c56a96938b3846597d2cfb159024905a0a3cd3b8387caaf8c888686d43c945ab",
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "7a141d5ed0bb8a86018825bbfc5e302d47ac84514e0e03e315e715a9317a9b7e",
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "id": "primaryContentSections/0/content/53/content/0",
+        "source_unit_hash": "fbbca49fda7f5ac74369ab840a510015d746c115af2d1aead22ea8d246c14686",
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "214e6011f91f17a57ae2817a37c684aacaba3d7822bbb3e4eac4bef60b5e72cf",
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "9a64e4576c3fff4e098757b769d968098754a0fa4a8057703ca4e492c83816e8",
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "id": "primaryContentSections/0/content/55/inlineContent/0",
+        "source_unit_hash": "e8478eb478411d0f74ec4b6902e85b5f8b502893119636397333d69260e5a8b5",
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "eaa0c73ea0ab41355a02bee5476e5348c3d15c1be647f36bb2d68c4fe2502bef",
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "ea7c790a8bb3fd4d9d19b4e8080537a8ce30ab7a621c8fc988279c376cdc9b2d",
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/items/0/content/0",
+        "source_unit_hash": "e6009d6c2bd449a3e70ad94f73f803d595f3756ef777ffe7233c21efb6864231",
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/items/1/content/0",
+        "source_unit_hash": "90a7b4dc099d9f9a6f23c9a6ec3eedbc6cc022495418afa5442fa7278b9c4bd8",
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/items/2/content/0",
+        "source_unit_hash": "d077b2b853fafc26bfb1dd3558fc707f88513c14b965d875fb3f36af4bd57d7a",
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/items/3/content/0",
+        "source_unit_hash": "d416e57d212732372e4313755845a63acf7f8f298bdf50101a0791a455721e52",
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/items/4/content/0",
+        "source_unit_hash": "ee70bab70d399edac2c18cfc1d591fcb0f5c9faf92b7aeca7b2d3ed2a229b469",
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "d51f5eca11bce55eaeaf5b561c3b1b7a99dfaa0c2b433ec8303d2bf61a097a6d",
+        "source_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+        "evidence": "Checked default Swift Charts accessibility and Audio Graphs, alternatives without Audio Graphs, mark/group/overview granularity, context-before-value, objective explicit units/dates, semantic series descriptions, consistent axes, and avoiding duplicate axis/tick announcements."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "b95a4d23e06dfeede0adef8acd24e80b08eb75c6121e25e59154f612ff63fa64",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "No extra rules are claimed for the five platforms explicitly listed by Apple."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "af1b843eae85d6804258de7f550e196841d27553a0e9e996325b0eb0916f649d",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked glanceable, simple interactions and moving detailed inspection to a companion platform."
+      },
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "f3c5b64b7555b15f06f60e8a3973c2366677aad1bd164123eb51d2485aaad819",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/67",
+        "source_unit_hash": "8c2873ec1419e1e2e892a10ea55aacea4a594d7189cc43020ef8e7e40d247ac1",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "05ffcb60dc7d4e9d7c1b85f0a79ae7d0a05ce9a59e200555c33e1d56fdfb6b62",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/1/0/0",
+        "source_unit_hash": "358e96e47c9e4a7908766a7bb75bbb9a0857f8fa06a063ef9468901c36f77969",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/1/1/0",
+        "source_unit_hash": "81a93da0a554cc0183125fbd9de8fe226bc5a79d5a27f9174211a0ffc5780895",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "05ffcb60dc7d4e9d7c1b85f0a79ae7d0a05ce9a59e200555c33e1d56fdfb6b62",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      }
+    ],
+    "issues": [],
+    "reviewed_at": "2026-10-25T12:46:59.583540+00:00",
+    "evidence": "Independent complete source Markdown/structured-unit comparison and actual embedded-image inspection. Source resources treated as metadata. No author-provided coverage assertion used as approval."
+  },
+  "media": {
+    "components-charts-intro.png": {
+      "id": "primaryContentSections/0/content/0/inlineContent/0",
+      "kind": "image",
+      "section": "overview",
+      "context": [],
+      "treatment": "guidance",
+      "reference_metadata_hash": "81a30b083ac941f791abba7f031ba431993f7fe7dac0dc7265317a3354b1fe9d",
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed the actual introductory illustration; it identifies the topic and adds no normative rule beyond the article.",
+      "review_method": "actual-asset contact-sheet visual inspection plus source-context/local-guidance comparison",
+      "classification": "decorative",
+      "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+      "destination_anchor": "charts",
+      "destination_hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94",
+      "binary_hash": "79ec930c427bad5235c0996ff9eeb72238029486edf6ae65b66e21d0a22e90de",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-charts-intro@2x.png",
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted.",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-charts-intro~dark@2x.png",
+          "binary_hash": "ff492ebdcac1ba7cdabda6158c327e49f977f5317b9c5f0ccfe75d0d394e8aec",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+          "hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ]
+    },
+    "charts-anatomy.png": {
+      "id": "primaryContentSections/0/content/6/inlineContent/0",
+      "kind": "image",
+      "section": "Anatomy",
+      "context": [],
+      "treatment": "guidance",
+      "reference_metadata_hash": "c5a746f9fed1017fd5f3fa85b4e63fb5d11868276f66dbe70b1f8df7028791e8",
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed the actual chart example and compared the accompanying source explanation with the local Anatomy guidance; its anatomy, encoding, range, summary, contrast, separation, or grouped accessibility lesson is preserved.",
+      "review_method": "actual-asset contact-sheet visual inspection plus source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+      "destination_anchor": "Anatomy",
+      "destination_hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94",
+      "binary_hash": "259d18770b9f9de5cadf0494454fd7c7a2f01054192fa064adac4b4a8db2f36e",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-anatomy@2x.png",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-anatomy~dark@2x.png",
+          "binary_hash": "7985d0c3217f6ce60678affccadf02e8791c1dbc5d2fdb5f8fde526f41a73bb7",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+          "hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/6/inlineContent/0"
+      ]
+    },
+    "charts-bar-marks.png": {
+      "id": "primaryContentSections/0/content/17/inlineContent/0",
+      "kind": "image",
+      "section": "Marks",
+      "context": [],
+      "treatment": "guidance",
+      "reference_metadata_hash": "81a9195ebe40d740b68d4b3089b276e18da40914dd1cb57d2820b55517a9f34c",
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed the actual chart example and compared the accompanying source explanation with the local Marks guidance; its anatomy, encoding, range, summary, contrast, separation, or grouped accessibility lesson is preserved.",
+      "review_method": "actual-asset contact-sheet visual inspection plus source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+      "destination_anchor": "Marks",
+      "destination_hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94",
+      "binary_hash": "93f162a3f058cd8d69f3ebe78a10c4744daadd1cf406584d8c6d05ecdf58e3e4",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-bar-marks@2x.png",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-bar-marks~dark@2x.png",
+          "binary_hash": "c2a58a507bd7475876d88aee0f7d8d51d5b82b948f5ae647807067f5600b20b7",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+          "hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/17/inlineContent/0"
+      ]
+    },
+    "charts-line-marks.png": {
+      "id": "primaryContentSections/0/content/19/inlineContent/0",
+      "kind": "image",
+      "section": "Marks",
+      "context": [],
+      "treatment": "guidance",
+      "reference_metadata_hash": "4cf4f955885399bb9396e895263dae362352c905a123314eec42de327cbaa499",
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed the actual chart example and compared the accompanying source explanation with the local Marks guidance; its anatomy, encoding, range, summary, contrast, separation, or grouped accessibility lesson is preserved.",
+      "review_method": "actual-asset contact-sheet visual inspection plus source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+      "destination_anchor": "Marks",
+      "destination_hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94",
+      "binary_hash": "c5afb29b754d55ef800e9f3f713f947f6f1769e0b3d5198d4b6303a34949f0f3",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-line-marks@2x.png",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-line-marks~dark@2x.png",
+          "binary_hash": "be9e5b2e1b67f189d67629a6560c8b89c806c250871a5347497a8d58dfa1d48f",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+          "hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/19/inlineContent/0"
+      ]
+    },
+    "charts-point-marks.png": {
+      "id": "primaryContentSections/0/content/21/inlineContent/0",
+      "kind": "image",
+      "section": "Marks",
+      "context": [],
+      "treatment": "guidance",
+      "reference_metadata_hash": "9f442d97763769a72ebefe65d40be4c2d0429e5c5695b0716e328e058f5d8802",
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed the actual chart example and compared the accompanying source explanation with the local Marks guidance; its anatomy, encoding, range, summary, contrast, separation, or grouped accessibility lesson is preserved.",
+      "review_method": "actual-asset contact-sheet visual inspection plus source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+      "destination_anchor": "Marks",
+      "destination_hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94",
+      "binary_hash": "6cd755563f8abe6d221bc8f0f892d74468402bd3fe73c920f5a33e5866fa38b9",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-point-marks@2x.png",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-point-marks~dark@2x.png",
+          "binary_hash": "4f5455fb5c698d341adcc629d03485820f9368bbd158f644ff775ae09cd6d58a",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+          "hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/21/inlineContent/0"
+      ]
+    },
+    "charts-fixed-range-axis.png": {
+      "id": "primaryContentSections/0/content/25/inlineContent/0",
+      "kind": "image",
+      "section": "Axes",
+      "context": [],
+      "treatment": "guidance",
+      "reference_metadata_hash": "b6a889e4e2f2a293cdc168df2ab1b630bae650e226cadc1d33190ff4febb20ef",
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed the actual chart example and compared the accompanying source explanation with the local Axes guidance; its anatomy, encoding, range, summary, contrast, separation, or grouped accessibility lesson is preserved.",
+      "review_method": "actual-asset contact-sheet visual inspection plus source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+      "destination_anchor": "Axes",
+      "destination_hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94",
+      "binary_hash": "95c3c1409cfcf00aa99f69abb1a222956a4c6a548c04742bd3d290cdd9904513",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-fixed-range-axis@2x.png",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-fixed-range-axis~dark@2x.png",
+          "binary_hash": "a7fc93f2ecdcc2a396682a293a03ff3b211c6a6f27a58584e6e4a641d5be5677",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+          "hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/25/inlineContent/0"
+      ]
+    },
+    "charts-dynamic-range-axis-small.png": {
+      "id": "primaryContentSections/0/content/27/columns/0/content/0/inlineContent/0",
+      "kind": "image",
+      "section": "Axes",
+      "context": [],
+      "treatment": "guidance",
+      "reference_metadata_hash": "5b5bd38a1bdc30f322f5a841776104329d956e3abc014e64a6d917acd31475f1",
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed the actual chart example and compared the accompanying source explanation with the local Axes guidance; its anatomy, encoding, range, summary, contrast, separation, or grouped accessibility lesson is preserved.",
+      "review_method": "actual-asset contact-sheet visual inspection plus source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+      "destination_anchor": "Axes",
+      "destination_hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94",
+      "binary_hash": "bc69b712478cb342664b70c6ee252519a5530119e3a083e5dcf43190c7e72bd1",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-dynamic-range-axis-small@2x.png",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-dynamic-range-axis-small~dark@2x.png",
+          "binary_hash": "410941cd35450a50615df8261d1562b10c41414f10693eef3e19298015532d43",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+          "hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/27/columns/0/content/0/inlineContent/0"
+      ]
+    },
+    "charts-dynamic-range-axis-large.png": {
+      "id": "primaryContentSections/0/content/27/columns/1/content/0/inlineContent/0",
+      "kind": "image",
+      "section": "Axes",
+      "context": [],
+      "treatment": "guidance",
+      "reference_metadata_hash": "f1ae13d2c5f227e6ed7fd11df22f89932c064c758111c11c6083de21c06e5b9c",
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed the actual chart example and compared the accompanying source explanation with the local Axes guidance; its anatomy, encoding, range, summary, contrast, separation, or grouped accessibility lesson is preserved.",
+      "review_method": "actual-asset contact-sheet visual inspection plus source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+      "destination_anchor": "Axes",
+      "destination_hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94",
+      "binary_hash": "b4994371dcb0e5210c141678a7d6d99ac753d04ef388b25aff734bcab3094ff4",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-dynamic-range-axis-large@2x.png",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-dynamic-range-axis-large~dark@2x.png",
+          "binary_hash": "58b2e1529302e2dc3a19789c4af9c52b04427abbf7b91df063cf97a3779a87f5",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+          "hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/27/columns/1/content/0/inlineContent/0"
+      ]
+    },
+    "charts-descriptive-content.png": {
+      "id": "primaryContentSections/0/content/34/inlineContent/0",
+      "kind": "image",
+      "section": "Descriptive-content",
+      "context": [],
+      "treatment": "guidance",
+      "reference_metadata_hash": "6dd9e1c57636aef5dd2ac2e9a9c6c9595f5f292f3b2546f7757bc0affdd252d3",
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed the actual chart example and compared the accompanying source explanation with the local Descriptive-content guidance; its anatomy, encoding, range, summary, contrast, separation, or grouped accessibility lesson is preserved.",
+      "review_method": "actual-asset contact-sheet visual inspection plus source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+      "destination_anchor": "Descriptive-content",
+      "destination_hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94",
+      "binary_hash": "326637d85f7c01bc000c169e054abd8bac0bdca4f4bcace595f8ad3d1f079358",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-descriptive-content@2x.png",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+          "hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/34/inlineContent/0"
+      ]
+    },
+    "charts-colors.png": {
+      "id": "primaryContentSections/0/content/47/inlineContent/0",
+      "kind": "image",
+      "section": "Color",
+      "context": [],
+      "treatment": "guidance",
+      "reference_metadata_hash": "925e0956ba02d49f2aa4187ef6fb751ca1e4117f7cabdfcf52ff5a0fd6e7e223",
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed the actual chart example and compared the accompanying source explanation with the local Color guidance; its anatomy, encoding, range, summary, contrast, separation, or grouped accessibility lesson is preserved.",
+      "review_method": "actual-asset contact-sheet visual inspection plus source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+      "destination_anchor": "Color",
+      "destination_hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94",
+      "binary_hash": "323e56ad06808d1888c5b861c07df7a7bfc97348f1a97a02f592d8b39fa152bd",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-colors@2x.png",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-colors~dark@2x.png",
+          "binary_hash": "6d1555802e3924ecad70bf886899cbf466e8495d6156ab8ebae7707d5ae4c935",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+          "hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/inlineContent/0"
+      ]
+    },
+    "charts-colors-stacked.png": {
+      "id": "primaryContentSections/0/content/49/inlineContent/0",
+      "kind": "image",
+      "section": "Color",
+      "context": [],
+      "treatment": "guidance",
+      "reference_metadata_hash": "456f6c6cc4349165b384eb5a97fdad4bd48aece987696c5199d0cc414df963fb",
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed the actual chart example and compared the accompanying source explanation with the local Color guidance; its anatomy, encoding, range, summary, contrast, separation, or grouped accessibility lesson is preserved.",
+      "review_method": "actual-asset contact-sheet visual inspection plus source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+      "destination_anchor": "Color",
+      "destination_hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94",
+      "binary_hash": "a86edf29cb86f686d5386fa2c7a0cd088127a2951ac626ab09dbb77ebcd07542",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-colors-stacked@2x.png",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-colors-stacked~dark@2x.png",
+          "binary_hash": "3a01c835893adbbc1659d7ee533774f651cdd39312b8b7718213403eca5da668",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+          "hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/49/inlineContent/0"
+      ]
+    },
+    "charts-bar-chart-with-voiceover-focus.png": {
+      "id": "primaryContentSections/0/content/55/inlineContent/0",
+      "kind": "image",
+      "section": "Enhancing-the-accessibility-of-a-chart",
+      "context": [],
+      "treatment": "guidance",
+      "reference_metadata_hash": "f8ab8ca06bae8d093b23b3fc304751014d030a4c6d44bcfc8de492a668a55418",
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed the actual chart example and compared the accompanying source explanation with the local Enhancing-the-accessibility-of-a-chart guidance; its anatomy, encoding, range, summary, contrast, separation, or grouped accessibility lesson is preserved.",
+      "review_method": "actual-asset contact-sheet visual inspection plus source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "destination": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+      "destination_anchor": "Enhancing-the-accessibility-of-a-chart",
+      "destination_hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94",
+      "binary_hash": "4b73bb4fa807e29cf965586dbe8934fc5b4ce3306bb1659d81a186b88d126d0e",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-bar-chart-with-voiceover-focus@2x.png",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-bar-chart-with-voiceover-focus~dark@2x.png",
+          "binary_hash": "09aeb16d3da82537fbf4771f0165b41574be16074d2b95bbcaadd956800af887",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+          "hash": "35f91ba68baede6abb3aced1ed31269d38e1d79505c2f28a6e0ddb336b0a1b94"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/55/inlineContent/0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "source_hash": "b2564e9f49a2117e9e93567b53596dd6d14c49ef93a97bc1530c3ddea9cdff27",
+  "media": {
+    "components-app-shortcuts-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:16:19.729050+00:00",
+      "reference_metadata_hash": "0fc0bcdadc22fee466163c8d28c526000690f2543e107248ad55e74fff5862be",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-app-shortcuts-intro@2x.png",
+      "binary_hash": "393fdad97ef0b930f869a6ae99c621713d63555efdf2c5bb916386cb8334dec9",
+      "review_method": "actual primary/alternate introductory-image gallery inspection and source topic/context identification",
+      "classification": "illustrative topic introduction; redundant with component/topic identity",
+      "evidence": "Actual introductory illustration and its light/dark representation inspected in numbered galleries. The image identifies or demonstrates this topic/component; the depicted sample labels, symbols and layout add no independent normative specification. Substantive design rules remain subject to the separate article/section audit.",
+      "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+          "hash": "d59d55093cb8cab8814ff9ad20aab47ab6a1b992718d9e74f66581b6e40bb172"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-app-shortcuts-intro~dark@2x.png",
+          "binary_hash": "de46261f77396d147c25b58bfa632b392e357bc7f84f29f7bb458c4fc9ebb250",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "app-intents-parameter-diagram.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:35:56.849575+00:00",
+      "reference_metadata_hash": "846b5713ecae9e60a2abfc6753be8ff4c8039a7bfc38eda9ff60c94f3f709a33",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/app-intents-parameter-diagram@2x.png",
+      "binary_hash": "b37e1e64f566d55377dea73ca146ac2dc021fe943a35b020e4a91c4d7c9c048d",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Viewed both shortcut rows: fixed Order a wording followed by a visually distinguished Vanilla Latte parameter. Local parameterized flexible actions preserve the fixed-verb versus replaceable-value relationship; this is an example parameter, not a required product.",
+      "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md#Best-practices",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+          "hash": "d59d55093cb8cab8814ff9ad20aab47ab6a1b992718d9e74f66581b6e40bb172"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/11/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/app-intents-parameter-diagram~dark@2x.png",
+          "binary_hash": "e073b9107de803f28b2fc1a49aa06947c7694f3350aecf68a9c902693cf66f35",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    }
+  }
+}

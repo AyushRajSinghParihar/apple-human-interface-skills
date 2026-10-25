@@ -1,0 +1,1513 @@
+{
+  "review": {
+    "slug": "toolbars",
+    "status": "reviewed",
+    "source_hash": "c04b6095f1ebd0e851672c6127d43326eb2f204a45f795f598cb3cbf52866b93",
+    "destination_hash": "eeb849eb40705b713a7d53dd78284b13b587a07da8e66bc40921b1c46624f60e",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:10:28.252239+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "toolbars",
+        "status": "reviewed",
+        "evidence": "Checked frequent controls/navigation/title/search purpose and distinction from destination tabs."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified deliberate item/overflow priority, automatic Mac/iPad overflow/no duplicate, secondary More, customization, restrained backgrounds/tints, concentric standard corners and reliably restorable hiding."
+      },
+      {
+        "source_anchor": "Titles",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Titles",
+        "status": "reviewed",
+        "evidence": "Checked content/context naming, redundant-title omission/separate-window identification, no app-name title and under-15-character target."
+      },
+      {
+        "source_anchor": "Navigation",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Navigation",
+        "status": "reviewed",
+        "evidence": "Verified top hierarchy and standard symbol-only Back versus Close semantics/custom consistency."
+      },
+      {
+        "source_anchor": "Actions",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "status": "reviewed",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action."
+      },
+      {
+        "source_anchor": "Item-groupings",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "status": "reviewed",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked TV no-addition scope."
+      },
+      {
+        "source_anchor": "iOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "iOS",
+        "status": "reviewed",
+        "evidence": "Verified essential-first/More and collapsing-restoring large titles."
+      },
+      {
+        "source_anchor": "iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "iPadOS",
+        "status": "reviewed",
+        "evidence": "Checked combined top toolbar/tab area."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Verified frame/title placement, no bezels and menu-command parity without reverse requirement."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked bottom/front position, variable blur, looked-at labels, standard eye/hand layout, no vertical toolbar, minimum usable width, contextual modal restoration and pull-down occlusion concern."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Verified fixed top/bottom versus revealed scrolling buttons and related-important-not-main-purpose primaryAction use."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "534a9138d51d6f4915f0ece0cf32eb948cd329839c555f7e0eeee280ca699d85",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "toolbars",
+        "evidence": "Checked frequent controls/navigation/title/search purpose and distinction from destination tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "97be267ef0ecb70bbc17fec5460a2233308d01237b99b4c1ea8b34cb54a4022b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "toolbars",
+        "evidence": "Checked frequent controls/navigation/title/search purpose and distinction from destination tabs. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "b7cb8fa5f26413e961d9672e2b81422311bae64cfac4ab44c67f00bbf5b48355",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "toolbars",
+        "evidence": "Checked frequent controls/navigation/title/search purpose and distinction from destination tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "385a3b0191b7aa6a9cf303d8ed18b1d47cbbdafd562f8a21084c7cd69c1ff5e5",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "toolbars",
+        "evidence": "Checked frequent controls/navigation/title/search purpose and distinction from destination tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "82c8adc5b1daa854da8555a6b286a6f8a131438eb620568655ff8c371828d280",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "toolbars",
+        "evidence": "Checked frequent controls/navigation/title/search purpose and distinction from destination tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/items/0/content/0",
+        "source_unit_hash": "45f0714d88466bacdf15c697fc8413aac15d4ae868f8a612867a952feabdfcaf",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "toolbars",
+        "evidence": "Checked frequent controls/navigation/title/search purpose and distinction from destination tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/items/1/content/0",
+        "source_unit_hash": "b6eaacdd5d380ee76e972988cb68a451b656637ab7d02bccc82f59b47734ab6f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "toolbars",
+        "evidence": "Checked frequent controls/navigation/title/search purpose and distinction from destination tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/items/2/content/0",
+        "source_unit_hash": "0cefe57f9c0271ca637c6fd34544eb45372476d16e4eda3d4de45dd22e281f93",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "toolbars",
+        "evidence": "Checked frequent controls/navigation/title/search purpose and distinction from destination tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "26fc9b8e754a02d13a5af0cccf01f2a7085649d92c881d8103252f54b1e12da9",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "toolbars",
+        "evidence": "Checked frequent controls/navigation/title/search purpose and distinction from destination tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "c70b648debb8112524b473c466e80d25dfab8d864e5b650c9ba09fec2221ffbe",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified deliberate item/overflow priority, automatic Mac/iPad overflow/no duplicate, secondary More, customization, restrained backgrounds/tints, concentric standard corners and reliably restorable hiding."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "f076eab0a2385b7a19cf1d7c0f58a81e55f139bd7e59e75a6b3697474b20cbde",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified deliberate item/overflow priority, automatic Mac/iPad overflow/no duplicate, secondary More, customization, restrained backgrounds/tints, concentric standard corners and reliably restorable hiding."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/content/0",
+        "source_unit_hash": "276e2a58ed2da2469ff5ad6bd581ff96c5d48fa6543af2a88f12b38d1c1c3c45",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified deliberate item/overflow priority, automatic Mac/iPad overflow/no duplicate, secondary More, customization, restrained backgrounds/tints, concentric standard corners and reliably restorable hiding."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "a884ac0d303f69a2e08b999842748f13ccea28c2f74110a2ee421eb956e3c661",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified deliberate item/overflow priority, automatic Mac/iPad overflow/no duplicate, secondary More, customization, restrained backgrounds/tints, concentric standard corners and reliably restorable hiding."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "0414c6b0bec25e0c1048aea034d1a78e000f0a69dcaf8fe4b0f5ee29002841a6",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified deliberate item/overflow priority, automatic Mac/iPad overflow/no duplicate, secondary More, customization, restrained backgrounds/tints, concentric standard corners and reliably restorable hiding."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/0/content/0",
+        "source_unit_hash": "471b18ff151e0fdd09ff3ac19cf151068f0a238193ec8d386dcc86ba2114d0e6",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified deliberate item/overflow priority, automatic Mac/iPad overflow/no duplicate, secondary More, customization, restrained backgrounds/tints, concentric standard corners and reliably restorable hiding."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "cff0c946accad9520c331d1c9313ef700d99f7688d64837bb66c8b0be10b2f1f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified deliberate item/overflow priority, automatic Mac/iPad overflow/no duplicate, secondary More, customization, restrained backgrounds/tints, concentric standard corners and reliably restorable hiding. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/1/content/0",
+        "source_unit_hash": "d8a24429f531e96da41e9f2c02f0b544f3da78672626cb5b139548a0257c80ea",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified deliberate item/overflow priority, automatic Mac/iPad overflow/no duplicate, secondary More, customization, restrained backgrounds/tints, concentric standard corners and reliably restorable hiding."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "508c4c2941d6fb346d028cee601f1c6205d5048a42e75a7e9dedf0d6482ea0d9",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified deliberate item/overflow priority, automatic Mac/iPad overflow/no duplicate, secondary More, customization, restrained backgrounds/tints, concentric standard corners and reliably restorable hiding. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "85e4fd76b295b78f468b83082efd525de0976dc01a3f6be881f42b6ceae96ff6",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified deliberate item/overflow priority, automatic Mac/iPad overflow/no duplicate, secondary More, customization, restrained backgrounds/tints, concentric standard corners and reliably restorable hiding."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "b76c67930b53da8b0d7cef1ceefa56c40f14f630d89a4c40362ed0526d0641bd",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified deliberate item/overflow priority, automatic Mac/iPad overflow/no duplicate, secondary More, customization, restrained backgrounds/tints, concentric standard corners and reliably restorable hiding."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "9ba935532ef2dfce880b90921e3e01b127f41411b2fc02e241b468a767f1316b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified deliberate item/overflow priority, automatic Mac/iPad overflow/no duplicate, secondary More, customization, restrained backgrounds/tints, concentric standard corners and reliably restorable hiding."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "ab8cf04ad2d4e20514221913e8d8d18727692d77b60899ba9c5f6bdb9d110f96",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified deliberate item/overflow priority, automatic Mac/iPad overflow/no duplicate, secondary More, customization, restrained backgrounds/tints, concentric standard corners and reliably restorable hiding."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "a7853f73fbcfc111f29d314e6bb0682450bccfa2af57e0345f1f1a9d6a12e9e9",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified deliberate item/overflow priority, automatic Mac/iPad overflow/no duplicate, secondary More, customization, restrained backgrounds/tints, concentric standard corners and reliably restorable hiding."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "59326629b909b7e295b090fb9527e2180cab0030548b8c3dae88cc17286fd6fa",
+        "source_anchor": "Titles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Titles",
+        "evidence": "Checked content/context naming, redundant-title omission/separate-window identification, no app-name title and under-15-character target."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "f8a1ac093931dda763d3dddb3f3d90c1ad8d2e47cde23623e7d455b3683c08d1",
+        "source_anchor": "Titles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Titles",
+        "evidence": "Checked content/context naming, redundant-title omission/separate-window identification, no app-name title and under-15-character target."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "f167605c522bda48413f1ae72f2d9aed770b4267188b03d52cc613cd08ed78f4",
+        "source_anchor": "Titles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Titles",
+        "evidence": "Checked content/context naming, redundant-title omission/separate-window identification, no app-name title and under-15-character target."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "6b92a8fc1ddc6a5e901c5c3752ebaab706f1a2cde3d9150faf85728c229786d2",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Verified top hierarchy and standard symbol-only Back versus Close semantics/custom consistency."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "15047ca7d87d30d7429b4f9c4552dcb9bc6f161891c5816bdc9b4b440dc827b8",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Verified top hierarchy and standard symbol-only Back versus Close semantics/custom consistency."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/0/content/0",
+        "source_unit_hash": "413f2c38445746a683179bc088345c40ee7f936673fa53badbc7b08b9bfd016f",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Verified top hierarchy and standard symbol-only Back versus Close semantics/custom consistency."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "4bab64a0fe3e8c57e5cc23b0b8f5480d830de694b01d5c7f411d51cdbde3c532",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Verified top hierarchy and standard symbol-only Back versus Close semantics/custom consistency. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Verified top hierarchy and standard symbol-only Back versus Close semantics/custom consistency."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Verified top hierarchy and standard symbol-only Back versus Close semantics/custom consistency. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/1/content/0",
+        "source_unit_hash": "f002a00f142729b45aa12502b407a48d770c55196b1e5fc3fa29397b1f0a65f5",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Verified top hierarchy and standard symbol-only Back versus Close semantics/custom consistency."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "ad9ee9963f7dfc5021f499a7fe16448864d0dcef330d7b3a875682c7bc9f5a34",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Verified top hierarchy and standard symbol-only Back versus Close semantics/custom consistency. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/1/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Verified top hierarchy and standard symbol-only Back versus Close semantics/custom consistency."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Verified top hierarchy and standard symbol-only Back versus Close semantics/custom consistency. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "1a11648c3485a8644dbc771b2740bd44538b9399bfe757dc9d57799e307950a6",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "e627444a21c21a97eb9f0541a913a95621cd7a1c39589566e42189335247c984",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/0/content/0",
+        "source_unit_hash": "b7909732b0bfae0c9cfab934f86fad4bc81e43c453cc6ff2bdc4bc65b95251bf",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "cc6d98636c98044b2497f3317eb151814b908b60fdc3cb43307fb13a46d19403",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/1/content/0",
+        "source_unit_hash": "a5bde6bb09a1c5ebfe88785a0313fda0a822ccb5e9c44ecdeb5d258f9f5e9648",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "000f28d66bf830d01cbbb6f4da78ab84c16d275a69139c31116ea8360f6ae5ef",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/1/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "19dabff80466ab534d779e3c978d73ceeb359cf4f20c6d13b45e27a23449683b",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/columns/0/content/0",
+        "source_unit_hash": "3c59a0f981147d0b15fb8710e9b2234c05ca8ca699c3e8d6ef751fe3d978fb52",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "3dde8d33058d875916a3db3c7bd6b9bedc48b18f2d6068f141b6a6c767b679fe",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/columns/1/content/0",
+        "source_unit_hash": "6ea194ec3da04a5ac77bea393136d891a02dae25011f9fcbe2f0dadde73feeb7",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "1b360467c1f79ec22ca8f9d5677e26208569c5ded94c204a25756a1cccea85f3",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/columns/1/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "38646df1a29377bce92c2d5580e71f928c6c23983b2ff88efbdd0c2ff40c4cce",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "3bf76810b796dabf295ae93e08d9312ec301f4085356ea5cb1279c1775ed8952",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/inlineContent/0",
+        "source_unit_hash": "453866cd75bec7b1c8a3edaf449219688706c4bcdcf4fc5f604fe64b75ce851d",
+        "source_anchor": "Actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Actions",
+        "evidence": "Checked main-task priority, recognizable borderless symbols/text exception and one trailing prominent action. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "5a835535d7713cc599f233a420053ea3ab48caafe799b8c689023b9927d453cd",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "8dd53cc45e07072691f918d9ebf1a42594d4b3ecdb28ec6094c0936bd591da90",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/items/0/content/0",
+        "source_unit_hash": "f8ddeb78fad961c09d0ea81f62d2a1685c018b786c10b87cad3bc37e2820f8e2",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/items/1/content/0",
+        "source_unit_hash": "23ed4b446607cda060b36b8b6b90480ca4932fa3abf30edb9e97cdf26aea3c55",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/items/2/content/0",
+        "source_unit_hash": "94e88ab7ec80aac3c21538bcefff59c26712361e1df43d7de8d7aae204a782b0",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "966258d8b3eb55844bd92c3ab701602a78267f129f656f88bb161329399ea2ef",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/inlineContent/0",
+        "source_unit_hash": "b0110572612807769585747610b881eb502423c0946c630d12befb11317b4aa3",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "c2e8312be9cae0548ce7ffcc416592cee15b03ae6892ab616a5097c2915bf1ba",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "3afa0743ed0909b35fffa094459b92f4156bfb832f6cff4b8f0fc97672040bbd",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "5dc95860b4a8018cb0fccc40ba0050f4946e4cd9765c947a606f3fdcb38c8add",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/0/content/0",
+        "source_unit_hash": "05bbf028c28b4d2e8a79aacf6ab6ff72da6e3398a83b4827bc56606c6ba567c8",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "35933635a650f36175b69121d9c513cf395a1133742891ca5546d9f7599d14d3",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/1/content/0",
+        "source_unit_hash": "3bd709ceb84046a0c138131fa0bf432fa99ce981770fee7129582a27cb02a3aa",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "876df35a85b5acf5ce34f1a6430d195925c78ff344291ae1a677c75705d8bee6",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/1/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "464c6d4c1373f089722ca6be76c2f752dc019fea2974e12c157d39fea175ae80",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "48cc25e6afec94705da84f8fd9361483449c9a6b36d4d625c73f5b20b9261ae5",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "03a7b5a6028a4dcd711261d049cf9cf8c483a57371879a84cfd42ae96d2cc3f0",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/columns/0/content/0",
+        "source_unit_hash": "2cb1f73081988c04f6bdaa0a8885a6c81a8f604c5d9fd8fe3edd987c5985610e",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "ef3322cb9a482473979eacbc90d0065c3e7b3b12dc4f87b02ebd722fc7347b06",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/columns/1/content/0",
+        "source_unit_hash": "21e5c7a8b818fce4260ee37523d24a6db498b7a3a6eb87a03c7692bfaf10b492",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "02f89844a939f466f49dfcd7d131c941732295490674a8ebae7daf88383b75f0",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/columns/1/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Item-groupings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Item-groupings",
+        "evidence": "Verified complete leading noncustomizable, center customizable/overflow and trailing persistent item roles, placement APIs, functional groups, distinct critical/navigation sections, cross-platform continuity, ≤3 groups and fixed-space text separation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "8549c0668df733770cc1ceeffee03023bdd8a69b3c1b22127f4ee8a4d582692a",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked TV no-addition scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "e64f4ec0d69a9cdf0c0d17dfb0eab1341024c930acc129c115631e595090003c",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "iOS",
+        "evidence": "Verified essential-first/More and collapsing-restoring large titles."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "c1f870b374ab7e34fc8b0d3595eb2beaac6cf5513cbd2fdd9a7ee3e9ace170d2",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "iOS",
+        "evidence": "Verified essential-first/More and collapsing-restoring large titles."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "d2bcacdad8e2d5904973f7b0c5d70fb5639e6fb6b04baf1d506e12e782eb4de8",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked combined top toolbar/tab area."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "24d4220b9ac817885c96f645802ecb126699ef9a70945ab7b5b7282e06305d27",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified frame/title placement, no bezels and menu-command parity without reverse requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "1bba0f1edd71c5685b972496e1339608afa73c3a7ed827e4988e6f50a106d6b2",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified frame/title placement, no bezels and menu-command parity without reverse requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/inlineContent/0",
+        "source_unit_hash": "6540d502f9c0cb4e82d2554def1a8d2865179661a8cc4fe5302becf768fc3caa",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified frame/title placement, no bezels and menu-command parity without reverse requirement. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "58559f1f47e3ec6931371dc2d2bca19e5083bbd4cec01735129ba8e0bb8724e9",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified frame/title placement, no bezels and menu-command parity without reverse requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "555592373a597d3244275f98aba072a1f4bb2fc71d67ea89f01ed3452b1b060e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked bottom/front position, variable blur, looked-at labels, standard eye/hand layout, no vertical toolbar, minimum usable width, contextual modal restoration and pull-down occlusion concern."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "54e8968494aa7b794f8fd519e54af6f62e9e255692e6c25d74ac547060a69a14",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked bottom/front position, variable blur, looked-at labels, standard eye/hand layout, no vertical toolbar, minimum usable width, contextual modal restoration and pull-down occlusion concern."
+      },
+      {
+        "id": "primaryContentSections/0/content/56/inlineContent/0",
+        "source_unit_hash": "e667ea67d8330c9d61fe4119f8271180b0506e1f4e81c2305eb836eee54771fb",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked bottom/front position, variable blur, looked-at labels, standard eye/hand layout, no vertical toolbar, minimum usable width, contextual modal restoration and pull-down occlusion concern. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "1f44e21c947e6aa9f5e7746abf4cd34d52ab82ff1a30a8806b1b1fe7ea639a71",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked bottom/front position, variable blur, looked-at labels, standard eye/hand layout, no vertical toolbar, minimum usable width, contextual modal restoration and pull-down occlusion concern."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "883a60c990abdd90e57b344c3091ae6cf94b89c35c469b69e15306b0a97ac789",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked bottom/front position, variable blur, looked-at labels, standard eye/hand layout, no vertical toolbar, minimum usable width, contextual modal restoration and pull-down occlusion concern."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "ad1925ba59bd45432cdb063a55fa44017fe4d691302f39389b61a7c8a3cf3e15",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked bottom/front position, variable blur, looked-at labels, standard eye/hand layout, no vertical toolbar, minimum usable width, contextual modal restoration and pull-down occlusion concern."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "78041be74b1c483a7a4a9b66dc14aabc30de49a0e984e6c1b9f8072daa6293a0",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked bottom/front position, variable blur, looked-at labels, standard eye/hand layout, no vertical toolbar, minimum usable width, contextual modal restoration and pull-down occlusion concern."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/inlineContent/0",
+        "source_unit_hash": "6951446e3cc7d143ff21735ab90ca78c60a565cb79a09ab5a43c6d3aab8a23c2",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked bottom/front position, variable blur, looked-at labels, standard eye/hand layout, no vertical toolbar, minimum usable width, contextual modal restoration and pull-down occlusion concern. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "903ceae4c5e5a8fe1dd197bface8078a3d14dabb38e2b8cbef5ad372baa8e4ce",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked bottom/front position, variable blur, looked-at labels, standard eye/hand layout, no vertical toolbar, minimum usable width, contextual modal restoration and pull-down occlusion concern."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "881cf299a962ea193ef2598958516b2ecc954a66f5306a49928ee56a2b8bd84a",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked bottom/front position, variable blur, looked-at labels, standard eye/hand layout, no vertical toolbar, minimum usable width, contextual modal restoration and pull-down occlusion concern."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "fbbe112ac0110d41cf97164b72fada8d88d21992fc777e89d399c345f6ef1d7b",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked bottom/front position, variable blur, looked-at labels, standard eye/hand layout, no vertical toolbar, minimum usable width, contextual modal restoration and pull-down occlusion concern."
+      },
+      {
+        "id": "primaryContentSections/0/content/64",
+        "source_unit_hash": "d7879b71b79bd2be3fe86316b6782b5b4c1738a1b876be7e22a097a222b99549",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked bottom/front position, variable blur, looked-at labels, standard eye/hand layout, no vertical toolbar, minimum usable width, contextual modal restoration and pull-down occlusion concern."
+      },
+      {
+        "id": "primaryContentSections/0/content/66",
+        "source_unit_hash": "58939a479842711b69f284d6b5d0734d274b0fd4e1f3fa430b2b1f1056c944f2",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified fixed top/bottom versus revealed scrolling buttons and related-important-not-main-purpose primaryAction use."
+      },
+      {
+        "id": "primaryContentSections/0/content/67/columns/0/content/0",
+        "source_unit_hash": "5e6bc0305557c250631411a749504f3e1315345c6426c1e08ce24a897fd9ac40",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified fixed top/bottom versus revealed scrolling buttons and related-important-not-main-purpose primaryAction use."
+      },
+      {
+        "id": "primaryContentSections/0/content/67/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "65f13faf15891c1f6af6561b001cabd90d414919b00b8801c4aef7aa4aa53e30",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified fixed top/bottom versus revealed scrolling buttons and related-important-not-main-purpose primaryAction use. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/67/columns/1/content/0",
+        "source_unit_hash": "ff5d2f6769b3ba50ead8b253225693f8c6d6fc1d38a5bd88fddef69c3cd8df5d",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified fixed top/bottom versus revealed scrolling buttons and related-important-not-main-purpose primaryAction use."
+      },
+      {
+        "id": "primaryContentSections/0/content/67/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "7d0e8c424948d87d2c10bd230960380e6539a0d3f42577a5a7daf8624848f906",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified fixed top/bottom versus revealed scrolling buttons and related-important-not-main-purpose primaryAction use. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "64aca733988433c2e38d143448deb4a914d957f1d68a91644ce11119d334c507",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified fixed top/bottom versus revealed scrolling buttons and related-important-not-main-purpose primaryAction use."
+      },
+      {
+        "id": "primaryContentSections/0/content/69",
+        "source_unit_hash": "491635d9484a50a760c8d4667ea40441d51c384da8d21fcf4238e09c1d42049c",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified fixed top/bottom versus revealed scrolling buttons and related-important-not-main-purpose primaryAction use."
+      },
+      {
+        "id": "primaryContentSections/0/content/70/columns/0/content/0",
+        "source_unit_hash": "1b18fe09e0f0d1b087ccce3915b126d99effdd93edec42426acd777c4fa46816",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified fixed top/bottom versus revealed scrolling buttons and related-important-not-main-purpose primaryAction use."
+      },
+      {
+        "id": "primaryContentSections/0/content/70/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "899203f19fd633eeffcae8d52c80c53a1829fbe67ca852e5373f3fa0917b1f76",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified fixed top/bottom versus revealed scrolling buttons and related-important-not-main-purpose primaryAction use. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/70/columns/1/content/0",
+        "source_unit_hash": "0ccde5fa57c2a66999eaee1d07f7761689867c59b903b9f7d9164bc22f8d7ef1",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified fixed top/bottom versus revealed scrolling buttons and related-important-not-main-purpose primaryAction use."
+      },
+      {
+        "id": "primaryContentSections/0/content/70/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "9480d6ba491edb49dc2ae1e064c8c96fc018c63c06a34a9c59288c5d959a2cb6",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified fixed top/bottom versus revealed scrolling buttons and related-important-not-main-purpose primaryAction use. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "47c68e813f4cc8df76af5332942fe000bb919a472bfcea5e179f876eba01c596",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified fixed top/bottom versus revealed scrolling buttons and related-important-not-main-purpose primaryAction use."
+      },
+      {
+        "id": "primaryContentSections/0/content/72",
+        "source_unit_hash": "f79479b614f876f78b20d7fd75ba148821c92684ab5c5b155e036977a28f1f0e",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified fixed top/bottom versus revealed scrolling buttons and related-important-not-main-purpose primaryAction use."
+      },
+      {
+        "id": "primaryContentSections/0/content/75",
+        "source_unit_hash": "48bd7017d96299d92e6c95bbab3eb2ce9d5c5cd5ea058a5cf6641c0ab0602bcb",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/76",
+        "source_unit_hash": "bea2941e11070454c5b6ce731b52babbbdc23112f694ae37f2b834c59c4c8d0a",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/77",
+        "source_unit_hash": "fc630747c38955b09778a9451282e8fe933fd90da0b116681aef33524228777b",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/78",
+        "source_unit_hash": "f6ef989b762ae3322abbfe6161e0b654a8add6f6d74baebc20c4c4cbefa846d6",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/79",
+        "source_unit_hash": "e124d0d25a5164a65b38920594351a75af0e2931e6ef88487a195dced6303a23",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/80",
+        "source_unit_hash": "7c4c32cbac8d5b323f04a4b0d455326fcc4933831bb3e92e06587eac3b236f4f",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/82",
+        "source_unit_hash": "7a04ae2b5881f72ec5e4fd4d397e9a4495b9011ae142443497a717d790fb5d92",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/83",
+        "source_unit_hash": "1d005ce28c06a3309fb447f03352779e624bee79048fe786740160af2bf8e596",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/84",
+        "source_unit_hash": "ba49a46622e12f411ee6766bcf2fe636500da82a6063ed26bb929fd31ecdeed3",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/88",
+        "source_unit_hash": "a3f9fbcde9bb47b47287ffd65357d45cbc13c7337c6379d1f812f4a1aefda442",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/88/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/88/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/88/rows/1/0/0",
+        "source_unit_hash": "2d55066c54eef94e12b95e572efd4dddf6b23a5943e5552da906050d2eb6f8b1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/88/rows/1/1/0",
+        "source_unit_hash": "8e2ce52850797025f3d7bd67195f1b2b5a70f5a30ce07ea4a2adb1111e86add5",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/88/rows/2/0/0",
+        "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/88/rows/2/1/0",
+        "source_unit_hash": "6ba1cecc0f36aa2e53a8b4132e52e269e1f5bde81200d4d3123f3b8c310567bd",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/88/rows/3/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/88/rows/3/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/88/rows/4/0/0",
+        "source_unit_hash": "937d2d87f6be46489d91c6c598d77898e230787b56f889b2c1e16309f42a1ad2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/88/rows/4/1/0",
+        "source_unit_hash": "0f03144fde0610171f43ff9578d8e058fe01d597e35209df7dfb43d399ff733e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/88",
+        "source_unit_hash": "a3f9fbcde9bb47b47287ffd65357d45cbc13c7337c6379d1f812f4a1aefda442",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

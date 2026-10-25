@@ -1,0 +1,939 @@
+{
+  "review": {
+    "slug": "menus",
+    "status": "reviewed",
+    "source_hash": "67598146a7568ab3f6c10b530433942f595f6cdb7ee569292167f77e5a0b593a",
+    "destination_hash": "efd261e801fea6f225b81c2df2ccd0d89724279feaf419e020390b24a99018e0",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:10:28.248222+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "menus",
+        "status": "reviewed",
+        "evidence": "Checked familiar context-dependent command/state/options scope and specialized menu relationships."
+      },
+      {
+        "source_anchor": "Labels",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Labels",
+        "status": "reviewed",
+        "evidence": "Verified short action verbs/tone/title case/articles, unavailable-command discoverability, ellipsis-for-further-input and app/game keyboard-equivalent distinction."
+      },
+      {
+        "source_anchor": "Icons",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Icons",
+        "status": "reviewed",
+        "evidence": "Verified conventional actions, purpose-driven glyph use and all-or-none consistency within groups."
+      },
+      {
+        "source_anchor": "Organization",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Organization",
+        "status": "reviewed",
+        "evidence": "Checked priority ordering, separators, retaining rare related commands and long user-generated/dynamic exception."
+      },
+      {
+        "source_anchor": "Submenus",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Submenus",
+        "status": "reviewed",
+        "evidence": "Verified repeated-term rationale, sparse one-level/about-five-item guidance, openable unavailable children and preference over indentation."
+      },
+      {
+        "source_anchor": "Toggled-items",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Toggled-items",
+        "status": "reviewed",
+        "evidence": "Checked action-versus-state clarity, verb use, dual-choice disabled alternative, checkmarks and reset-many command."
+      },
+      {
+        "source_anchor": "In-game-menus",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "In-game-menus",
+        "status": "reviewed",
+        "evidence": "Verified platform default input and readable targets/text after rendering adaptation."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked Mac/TV/Watch no-addition scope."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Verified four-icon small, three-icon+label medium and all-list default layouts with precise related/frequent-action use."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked small/large availability, SwiftUI 3D menu, target proximity, outside-window behavior and automatic-subtle/prominent/none breakthrough tradeoffs."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "e3a4d04436f038a7a6206c575505e01b7e92bd09d07aea4695d9664cbd662cd6",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "menus",
+        "evidence": "Checked familiar context-dependent command/state/options scope and specialized menu relationships."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "ec902c7bf1aec71338225baedf17bd09d338f21d145a127da313503652b56973",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "menus",
+        "evidence": "Checked familiar context-dependent command/state/options scope and specialized menu relationships. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "bd663f6ffe910e09cdde07e7aab1814bcc8d4c436a674064e119c6ab399a6231",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "menus",
+        "evidence": "Checked familiar context-dependent command/state/options scope and specialized menu relationships."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "f46a3020761465745d2b7b89d66f0565f6f86d311c7e9a6ba625a93d903845b2",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "menus",
+        "evidence": "Checked familiar context-dependent command/state/options scope and specialized menu relationships."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/content/0",
+        "source_unit_hash": "75170650c8bed33956611ad7baa3e9bd7f3ec75a989b7db6cef52bde9acd0f94",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "menus",
+        "evidence": "Checked familiar context-dependent command/state/options scope and specialized menu relationships."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "392ed3cfedfef8a678f58b28caeb53a8f43f44cdc254d76669ebc9b472ccc07d",
+        "source_anchor": "Labels",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Labels",
+        "evidence": "Verified short action verbs/tone/title case/articles, unavailable-command discoverability, ellipsis-for-further-input and app/game keyboard-equivalent distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "49ac78f047b6655a40ce7e6daeb8031f5e00788aa4953c67f7dbe9aad121e380",
+        "source_anchor": "Labels",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Labels",
+        "evidence": "Verified short action verbs/tone/title case/articles, unavailable-command discoverability, ellipsis-for-further-input and app/game keyboard-equivalent distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/content/0",
+        "source_unit_hash": "47a59fa6fd78a491550f92cbbd232ee1c802c42ace2dfab136b83196cfd8180d",
+        "source_anchor": "Labels",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Labels",
+        "evidence": "Verified short action verbs/tone/title case/articles, unavailable-command discoverability, ellipsis-for-further-input and app/game keyboard-equivalent distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "631b543b8f558baf035664736e707360411deffb9e070b0e16b26da0e0a9f076",
+        "source_anchor": "Labels",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Labels",
+        "evidence": "Verified short action verbs/tone/title case/articles, unavailable-command discoverability, ellipsis-for-further-input and app/game keyboard-equivalent distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "82b1c7605089883a5d283fa96f2b09521e5ab7d99180f7135944a723b78ae4d0",
+        "source_anchor": "Labels",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Labels",
+        "evidence": "Verified short action verbs/tone/title case/articles, unavailable-command discoverability, ellipsis-for-further-input and app/game keyboard-equivalent distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "dd18d709892c79892b5313361fb2948319b47fff9144799ae3b097a50f3f54f6",
+        "source_anchor": "Labels",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Labels",
+        "evidence": "Verified short action verbs/tone/title case/articles, unavailable-command discoverability, ellipsis-for-further-input and app/game keyboard-equivalent distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "49f5af5b96ec0089afdb0c5d99197c8ab78d29198bec563d9e468420b3e299bf",
+        "source_anchor": "Labels",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Labels",
+        "evidence": "Verified short action verbs/tone/title case/articles, unavailable-command discoverability, ellipsis-for-further-input and app/game keyboard-equivalent distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "fdbcc4c24f33ca8e9a3a27d061e58c5b6b6b5c028a2e548fa58e7dc172666266",
+        "source_anchor": "Labels",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Labels",
+        "evidence": "Verified short action verbs/tone/title case/articles, unavailable-command discoverability, ellipsis-for-further-input and app/game keyboard-equivalent distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "d5be3b2c69d8770ae8813d639663f0782f31189f503d8ce696bc5f81e45129ec",
+        "source_anchor": "Icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Icons",
+        "evidence": "Verified conventional actions, purpose-driven glyph use and all-or-none consistency within groups."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "56512482860bbf1376330de2f4db20dcd4a3b6c04acf6f627a7b07b05e9822f4",
+        "source_anchor": "Icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Icons",
+        "evidence": "Verified conventional actions, purpose-driven glyph use and all-or-none consistency within groups."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/0/content/0",
+        "source_unit_hash": "07c3b1610003c808360cac79e576fff6db57e83a0e4ca29e5948bc6b524a2ab7",
+        "source_anchor": "Icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Icons",
+        "evidence": "Verified conventional actions, purpose-driven glyph use and all-or-none consistency within groups."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "5a8bca5b2756c5550a47bdf60fc4c7ec373945029980238b18a399fcc322f80e",
+        "source_anchor": "Icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Icons",
+        "evidence": "Verified conventional actions, purpose-driven glyph use and all-or-none consistency within groups. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Icons",
+        "evidence": "Verified conventional actions, purpose-driven glyph use and all-or-none consistency within groups."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Icons",
+        "evidence": "Verified conventional actions, purpose-driven glyph use and all-or-none consistency within groups. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/1/content/0",
+        "source_unit_hash": "a81da07c0c078b78d3df36038512baa05854908684a0e93bc24e4b6b7864023b",
+        "source_anchor": "Icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Icons",
+        "evidence": "Verified conventional actions, purpose-driven glyph use and all-or-none consistency within groups."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "9904a1027317063fce84afa83ad16e809a41d273d5dacecf60e6d7f271aa833d",
+        "source_anchor": "Icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Icons",
+        "evidence": "Verified conventional actions, purpose-driven glyph use and all-or-none consistency within groups. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/1/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Icons",
+        "evidence": "Verified conventional actions, purpose-driven glyph use and all-or-none consistency within groups."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Icons",
+        "evidence": "Verified conventional actions, purpose-driven glyph use and all-or-none consistency within groups. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "b1d04a618fd4d40d38c563bff1d8bcc5499944c50c16ed2d96e88fa0a839e507",
+        "source_anchor": "Icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Icons",
+        "evidence": "Verified conventional actions, purpose-driven glyph use and all-or-none consistency within groups."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "38dab4fedb7a995871c400ca2b7be724949b61f770dae98cc04f07a7ae0c108c",
+        "source_anchor": "Icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Icons",
+        "evidence": "Verified conventional actions, purpose-driven glyph use and all-or-none consistency within groups."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/inlineContent/0",
+        "source_unit_hash": "c023bf8194f39123e7a3042da3de519f9b6d20d8b1cbdf867a1c231ad1400d88",
+        "source_anchor": "Icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Icons",
+        "evidence": "Verified conventional actions, purpose-driven glyph use and all-or-none consistency within groups. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "ae1948495a96b815dd545f7a3db347bacb156302762ec7dc15f761c64d4b4eac",
+        "source_anchor": "Organization",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Organization",
+        "evidence": "Checked priority ordering, separators, retaining rare related commands and long user-generated/dynamic exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "39a5c2d81d4397b781c12d9b89c59cce5ae528b4bf888a4519fdf9caf42706b1",
+        "source_anchor": "Organization",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Organization",
+        "evidence": "Checked priority ordering, separators, retaining rare related commands and long user-generated/dynamic exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "35433600d858a82b32785ab3fa240467dff8f469b749e0e652789498b4955d0e",
+        "source_anchor": "Organization",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Organization",
+        "evidence": "Checked priority ordering, separators, retaining rare related commands and long user-generated/dynamic exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "152c3ebedca6a6ae7422afa86c1964c9d3b2f02f3badb8b6dd37ca8bf852d3ee",
+        "source_anchor": "Organization",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Organization",
+        "evidence": "Checked priority ordering, separators, retaining rare related commands and long user-generated/dynamic exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "5e5b8f7292569cb90613ba9e88d5fc6e48f5c4276a950496ab7e81c294b7d0a9",
+        "source_anchor": "Organization",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Organization",
+        "evidence": "Checked priority ordering, separators, retaining rare related commands and long user-generated/dynamic exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "83ba80d20efb218c8d2ded0d3efd4105cd44f746d9ccbf1bf7a9c70741d35752",
+        "source_anchor": "Submenus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Submenus",
+        "evidence": "Verified repeated-term rationale, sparse one-level/about-five-item guidance, openable unavailable children and preference over indentation."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "0832242f7d0096852d97b8e32d7605f36df57f78bd4a91ebfd1ec3048389feaf",
+        "source_anchor": "Submenus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Submenus",
+        "evidence": "Verified repeated-term rationale, sparse one-level/about-five-item guidance, openable unavailable children and preference over indentation."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "b27e742f6d726b80901a54c19a82ad3746ff9729e31bb57147d751c847f09e7b",
+        "source_anchor": "Submenus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Submenus",
+        "evidence": "Verified repeated-term rationale, sparse one-level/about-five-item guidance, openable unavailable children and preference over indentation."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "bd3e56b2ed4f8ffe23930f2bd5bd1691b6697a3ea8c4cd3a16b85afa2561628e",
+        "source_anchor": "Submenus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Submenus",
+        "evidence": "Verified repeated-term rationale, sparse one-level/about-five-item guidance, openable unavailable children and preference over indentation."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "2c9b5ea4a47d6f2f34cd53c7d86f4a2e9558f8ce6f6f8a11ce27d2f2c16cbfe4",
+        "source_anchor": "Submenus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Submenus",
+        "evidence": "Verified repeated-term rationale, sparse one-level/about-five-item guidance, openable unavailable children and preference over indentation."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "12705945c9f60a4758ddf0cec8819d8844b096830ae0a6c8bf2db9262a028e4d",
+        "source_anchor": "Toggled-items",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Toggled-items",
+        "evidence": "Checked action-versus-state clarity, verb use, dual-choice disabled alternative, checkmarks and reset-many command."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "2136fbd37d3d738909c45a22c0114e04548ba4fbbe2c3da173c135c280ec664c",
+        "source_anchor": "Toggled-items",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Toggled-items",
+        "evidence": "Checked action-versus-state clarity, verb use, dual-choice disabled alternative, checkmarks and reset-many command."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/inlineContent/0",
+        "source_unit_hash": "9f687c9c448890328086eba7714d04aa6fb67d983625f7832c50d46529090343",
+        "source_anchor": "Toggled-items",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Toggled-items",
+        "evidence": "Checked action-versus-state clarity, verb use, dual-choice disabled alternative, checkmarks and reset-many command. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "be9c8f8362e68d77c92f9d8cc2a83bc2cf5a06d7e3afc96f85e6ed48a1ce598c",
+        "source_anchor": "Toggled-items",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Toggled-items",
+        "evidence": "Checked action-versus-state clarity, verb use, dual-choice disabled alternative, checkmarks and reset-many command."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "cfcb98bf371f0ae338857965ee14c8a0be49ab64070fad8ebf6fb4a7a4936528",
+        "source_anchor": "Toggled-items",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Toggled-items",
+        "evidence": "Checked action-versus-state clarity, verb use, dual-choice disabled alternative, checkmarks and reset-many command."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "e6068ea6902c082548f555b41ef9f99c2ab43effb4289869f20edd3ab6f65571",
+        "source_anchor": "Toggled-items",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Toggled-items",
+        "evidence": "Checked action-versus-state clarity, verb use, dual-choice disabled alternative, checkmarks and reset-many command."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "aa68e789e66c9eec567e54042a3eea7db9a94114cb7d06df44700ecaf33506ac",
+        "source_anchor": "Toggled-items",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Toggled-items",
+        "evidence": "Checked action-versus-state clarity, verb use, dual-choice disabled alternative, checkmarks and reset-many command."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "73ad6f8003f471f565c05fb12f944950e0b56e18fdfc87190fbf8f1767333a82",
+        "source_anchor": "Toggled-items",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Toggled-items",
+        "evidence": "Checked action-versus-state clarity, verb use, dual-choice disabled alternative, checkmarks and reset-many command."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "ab88632b3d0412e190777a2c06a8ade43286c1d166afabdc614393f26cde4bfd",
+        "source_anchor": "In-game-menus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "In-game-menus",
+        "evidence": "Verified platform default input and readable targets/text after rendering adaptation."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "9a935fe46665408c4a1336c23551eeaa6b662e49318f64cc7ee2db450a3d0264",
+        "source_anchor": "In-game-menus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "In-game-menus",
+        "evidence": "Verified platform default input and readable targets/text after rendering adaptation."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "76f46f0ca98defe2e9cc8378fead63512ee16fe2673c96039c662e558f9d7807",
+        "source_anchor": "In-game-menus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "In-game-menus",
+        "evidence": "Verified platform default input and readable targets/text after rendering adaptation."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "ddab96f071fc3be1ccc58c6ff2e21f7607ba5943d28efeb77e9709a0d02a8f7c",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked Mac/TV/Watch no-addition scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "2c65b31ba937515b30b312043c31b9aca7664c435e339ca543a4867df65b3201",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified four-icon small, three-icon+label medium and all-list default layouts with precise related/frequent-action use."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "e7a183eedd4f8491fa3c78eec6038e22b01d0fce13ac992267ef868e4c8c1bb1",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified four-icon small, three-icon+label medium and all-list default layouts with precise related/frequent-action use."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/inlineContent/0",
+        "source_unit_hash": "a585d4f266e35494cb7fe08dc3991dcb42a4d9c51ac49f163c2068495af55bca",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified four-icon small, three-icon+label medium and all-list default layouts with precise related/frequent-action use. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "5a35f31593d973f1df6a48478b990eae007549c9cbe4df9a848c8f04cbf29ab0",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified four-icon small, three-icon+label medium and all-list default layouts with precise related/frequent-action use."
+      },
+      {
+        "id": "primaryContentSections/0/content/46/items/0/content/0",
+        "source_unit_hash": "646e53ce22a4f3781eb4367959d3cdbd4a7413276b13ba95c4290c3281a6a831",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified four-icon small, three-icon+label medium and all-list default layouts with precise related/frequent-action use."
+      },
+      {
+        "id": "primaryContentSections/0/content/46/items/1/content/0",
+        "source_unit_hash": "a51f451a4175e97bbfea38c90e176ba2fc227d81a3837142945a39fceac3ae81",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified four-icon small, three-icon+label medium and all-list default layouts with precise related/frequent-action use."
+      },
+      {
+        "id": "primaryContentSections/0/content/46/items/2/content/0",
+        "source_unit_hash": "3168b984e8e5107d491f16f886f7a57becab4d26a1107781789af89dbc14972d",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified four-icon small, three-icon+label medium and all-list default layouts with precise related/frequent-action use."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "0ca1fa1d4b8e1bbb80f0dc658ef15f6b278aa7ba5272221fd6ba81ccd9aec81f",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified four-icon small, three-icon+label medium and all-list default layouts with precise related/frequent-action use."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "b2fac33de8971ce08ab14199130ec44754c9ae548eccffa9f486c9e89830daa1",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified four-icon small, three-icon+label medium and all-list default layouts with precise related/frequent-action use."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "6094a03040b8223536a7d8979cfc1e090b13e9f4a7100900176427a5b09c1246",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked small/large availability, SwiftUI 3D menu, target proximity, outside-window behavior and automatic-subtle/prominent/none breakthrough tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "9a3fc9076ebe83993d601185866b4ba0e6f9fb66c798a80aedb91b81c887e361",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked small/large availability, SwiftUI 3D menu, target proximity, outside-window behavior and automatic-subtle/prominent/none breakthrough tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "c8dd00802a8d460d74babc6614fefa0a5ac5b2dc17ea008d5eebaeaf5fa6eccf",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked small/large availability, SwiftUI 3D menu, target proximity, outside-window behavior and automatic-subtle/prominent/none breakthrough tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/inlineContent/0",
+        "source_unit_hash": "9fc663bdf1707b704a34bf62e2f54c564819cf53239ebac88d5fcea6909734d5",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked small/large availability, SwiftUI 3D menu, target proximity, outside-window behavior and automatic-subtle/prominent/none breakthrough tradeoffs. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "5eab37c8f8877de6bd4bdb8fc883cc473efdaddaaa13f88044c88b0f5e724511",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked small/large availability, SwiftUI 3D menu, target proximity, outside-window behavior and automatic-subtle/prominent/none breakthrough tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "4712ae1be8fbd95e6fed9fbc28de14c0fd2f49a940b86e92d082af037baa86dd",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "c17e870fb90d51b20ecf08f9e6e41e7cc439823731dbec79ff19b07b5f10b0e0",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "df99d01a3171e630f5dbb9affd9eed58463210c69734013fbe664fca2bc0afbd",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "c9896ed1d368f2497dfd3424914ecb45017fc0ca8532bad477d29fdd6aa49a3c",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "6b12ef62c4e149a8d2829d7ed58988bf3d3a2712b706a43ab8ca6ca3c8c1b0f1",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "929e8ad2e21d7e7f66326ea1d54ad9884a5e30d1501665a67d644f64000dfcf3",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "f7538d25f932502899a10dd3f4cf19fd92611a42781b1868f32ee5f1225e948a",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "b44598a85d8a11339c208a527c95b3fad5292eed327a26194bdf5546aae953fe",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/1/0/0",
+        "source_unit_hash": "6f585fa1a239d7cd279db778c80344b4ca3bdd1c2601af906b53d277e7be4412",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/1/1/0",
+        "source_unit_hash": "488db7681a6f22a6609ca278d2a8baecdda3a38b6f194d7691531e8db72b3229",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/2/0/0",
+        "source_unit_hash": "2d55066c54eef94e12b95e572efd4dddf6b23a5943e5552da906050d2eb6f8b1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/2/1/0",
+        "source_unit_hash": "f1374817944870ca356430f6c75cf317ba822029e5ff71c7bca33c55c56bb7ed",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/3/0/0",
+        "source_unit_hash": "6b6c5637464a92cb87d288329491841529efe2025957e3268f2ce329e1327b8c",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/3/1/0",
+        "source_unit_hash": "73477d45264cb13253f344e9d4ab277d0dffeccb6fd731f774c311230338b31e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/4/0/0",
+        "source_unit_hash": "6fbfd8192538c86013ae1170ead307313ca6290dbe20e9b9a262d8ed4dbef179",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/4/1/0",
+        "source_unit_hash": "db0ce90d74ae9600a7ccb4386f6df356cba146b015c316635f22dc9663edb754",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/5/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/5/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/6/0/0",
+        "source_unit_hash": "ea6021512638756fcb39be44c5cb492cf7f4b4c67d7c547285252b9046997c1f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/6/1/0",
+        "source_unit_hash": "636b0bd744e69065b78c9cd8958f9d1d20034264bc3d784a525db2bf4e991491",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "b44598a85d8a11339c208a527c95b3fad5292eed327a26194bdf5546aae953fe",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

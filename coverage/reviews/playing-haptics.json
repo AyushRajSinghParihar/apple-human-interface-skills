@@ -1,0 +1,902 @@
+{
+  "review": {
+    "slug": "playing-haptics",
+    "status": "reviewed",
+    "source_hash": "84ab181b4a6f14446b092af549fc40f490a244ed368131783f0b84dde8eb99f7",
+    "destination_hash": "cd1b294d2678008bbc0ce70bee86edfc3df8f705fb2d615ba84d18bcf7bc18a8",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:23:22.270586+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "playing-haptics",
+        "status": "reviewed",
+        "evidence": "Rechecked restored compatible-iPad Pencil Pro/some-trackpad support and watch patterns paired with an audible tone. Supported iPhone, Force Touch and four-platform controller distinctions remain."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "All seven rules retained: documented meanings, consistent causal associations, coordinated visual/audio intensity/sharpness, restrained frequency/testing, discrete brief app feedback versus game flow, opt-out without loss, and camera/motion/microphone interference checks."
+      },
+      {
+        "source_anchor": "Custom-haptics",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Custom-haptics",
+        "status": "reviewed",
+        "evidence": "Transient versus continuous events, intensity versus sharpness, optional audio and context-dependent impact strength remain explicit."
+      },
+      {
+        "source_anchor": "iOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "iOS",
+        "status": "reviewed",
+        "evidence": "Native supported-iPhone controls and feedback-generator categories retained."
+      },
+      {
+        "source_anchor": "Notification",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Notification",
+        "status": "reviewed",
+        "evidence": "Success/completed, Warning/caution and Error/error mappings all match."
+      },
+      {
+        "source_anchor": "Impact",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Impact",
+        "status": "reviewed",
+        "evidence": "Light/medium/heavy object mass and rigid/soft material metaphors match the five source variants."
+      },
+      {
+        "source_anchor": "Selection",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Selection",
+        "status": "reviewed",
+        "evidence": "Feedback while UI values change retained."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "All three table meanings retained: Alignment position/size/boundaries, Level change pressure steps, Generic otherwise, triggered for drag/force-click with Magic Trackpad."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "c06e8ed257d86181edad005894ceffeb2ae807855e493044d99f2eae7826cbe1",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "playing-haptics",
+        "evidence": "Rechecked restored compatible-iPad Pencil Pro/some-trackpad support and watch patterns paired with an audible tone. Supported iPhone, Force Touch and four-platform controller distinctions remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "99d878eeae35538fe1af237057359e0a6a3986b96eb671cf1f09df6e14cc7d70",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "playing-haptics",
+        "evidence": "Rechecked restored compatible-iPad Pencil Pro/some-trackpad support and watch patterns paired with an audible tone. Supported iPhone, Force Touch and four-platform controller distinctions remain. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "2540399c94d7b0e9aa1490c0f9a9444b8adaa6e371b03a2a355675998e5b3171",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "playing-haptics",
+        "evidence": "Rechecked restored compatible-iPad Pencil Pro/some-trackpad support and watch patterns paired with an audible tone. Supported iPhone, Force Touch and four-platform controller distinctions remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "2a602ea05fe45d0fab536d05d58a5edc6668d446bb937d80f6a508648c14af04",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "playing-haptics",
+        "evidence": "Rechecked restored compatible-iPad Pencil Pro/some-trackpad support and watch patterns paired with an audible tone. Supported iPhone, Force Touch and four-platform controller distinctions remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "dd5db7b0dc2150aad983d71afc5ea2344fe8fda8b2b6001a3abb909cc3163318",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "playing-haptics",
+        "evidence": "Rechecked restored compatible-iPad Pencil Pro/some-trackpad support and watch patterns paired with an audible tone. Supported iPhone, Force Touch and four-platform controller distinctions remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/items/0/content/0",
+        "source_unit_hash": "ac63d1860ecc2d9c5f42e3f0cc40679ca637c7a06f1837c6cb6b3a940245b58e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "playing-haptics",
+        "evidence": "Rechecked restored compatible-iPad Pencil Pro/some-trackpad support and watch patterns paired with an audible tone. Supported iPhone, Force Touch and four-platform controller distinctions remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/items/1/content/0",
+        "source_unit_hash": "eb69c2c6da9e6ab7d632d932e6c3cfab49de9d61a07dcc646f1c8fc5386769aa",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "playing-haptics",
+        "evidence": "Rechecked restored compatible-iPad Pencil Pro/some-trackpad support and watch patterns paired with an audible tone. Supported iPhone, Force Touch and four-platform controller distinctions remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "6b4f219cf2e1bef0b2581218b538997a81f234121ff0dea55044022644916525",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "All seven rules retained: documented meanings, consistent causal associations, coordinated visual/audio intensity/sharpness, restrained frequency/testing, discrete brief app feedback versus game flow, opt-out without loss, and camera/motion/microphone interference checks."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "668b41bb8aa36e49bcd94b476c3cfbecd7a2cf2f35cef8bce95f4ab290da3b70",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "All seven rules retained: documented meanings, consistent causal associations, coordinated visual/audio intensity/sharpness, restrained frequency/testing, discrete brief app feedback versus game flow, opt-out without loss, and camera/motion/microphone interference checks."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "ef4ded25b46675c53989b1ccaa6ac723abfa90beb2896b3e7b30e01b16d4995c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "All seven rules retained: documented meanings, consistent causal associations, coordinated visual/audio intensity/sharpness, restrained frequency/testing, discrete brief app feedback versus game flow, opt-out without loss, and camera/motion/microphone interference checks."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "9baf636429e41c5593fe22c5a6b9697b4ff4e66c3709142ead1f79ac28cae06e",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "All seven rules retained: documented meanings, consistent causal associations, coordinated visual/audio intensity/sharpness, restrained frequency/testing, discrete brief app feedback versus game flow, opt-out without loss, and camera/motion/microphone interference checks."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "57183f3169d0ced841afaefa8cea4fb7aa9a69797f84aecd9bd94ba5e8fa062d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "All seven rules retained: documented meanings, consistent causal associations, coordinated visual/audio intensity/sharpness, restrained frequency/testing, discrete brief app feedback versus game flow, opt-out without loss, and camera/motion/microphone interference checks."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "eac71daa91077148ebc296653adc667053b56fab0606d2d212dc1efadb5237ee",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "All seven rules retained: documented meanings, consistent causal associations, coordinated visual/audio intensity/sharpness, restrained frequency/testing, discrete brief app feedback versus game flow, opt-out without loss, and camera/motion/microphone interference checks."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "10ee3595e0b5daf65e16b6b51cd9ad8fa16db8f7e9f0fe5e86bec1aa7a169a4d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "All seven rules retained: documented meanings, consistent causal associations, coordinated visual/audio intensity/sharpness, restrained frequency/testing, discrete brief app feedback versus game flow, opt-out without loss, and camera/motion/microphone interference checks."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "172e5da1d2814a23f2c84162d3e20f3cbaebbee259b9744e1182e3a8545179af",
+        "source_anchor": "Custom-haptics",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Custom-haptics",
+        "evidence": "Transient versus continuous events, intensity versus sharpness, optional audio and context-dependent impact strength remain explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "d6b59c80ce335c1783fc86206f2be6846a4a6614ea3f3cfa738c15a6291fd3a8",
+        "source_anchor": "Custom-haptics",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Custom-haptics",
+        "evidence": "Transient versus continuous events, intensity versus sharpness, optional audio and context-dependent impact strength remain explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "7e4030fd73c7f2e05ed72eb63960be0dc544aa84c77623e15d07045f00fd1d29",
+        "source_anchor": "Custom-haptics",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Custom-haptics",
+        "evidence": "Transient versus continuous events, intensity versus sharpness, optional audio and context-dependent impact strength remain explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "987e1ae47e2d926ff7a86b556d2964c6f81920d9eb282f3fc82fb41e8f4547f8",
+        "source_anchor": "Custom-haptics",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Custom-haptics",
+        "evidence": "Transient versus continuous events, intensity versus sharpness, optional audio and context-dependent impact strength remain explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/items/0/content/0",
+        "source_unit_hash": "02179d371dbc377980c4252c54bcbfc004eece207611b9c80882543a6f3424f7",
+        "source_anchor": "Custom-haptics",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Custom-haptics",
+        "evidence": "Transient versus continuous events, intensity versus sharpness, optional audio and context-dependent impact strength remain explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/items/1/content/0",
+        "source_unit_hash": "7d1730ad180dfb72cb9daa24babee2973e94af34c304f301d28bc1d5addcb4d0",
+        "source_anchor": "Custom-haptics",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Custom-haptics",
+        "evidence": "Transient versus continuous events, intensity versus sharpness, optional audio and context-dependent impact strength remain explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "85812550e45ca18d987495fa9afb4f8b4d3b4c5877189c34cc0202fa28c0cb26",
+        "source_anchor": "Custom-haptics",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Custom-haptics",
+        "evidence": "Transient versus continuous events, intensity versus sharpness, optional audio and context-dependent impact strength remain explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "fa36a10b57151a8749d30e9bd346d6e2df1f1cc45ef614f644edbe13cd0e9569",
+        "source_anchor": "Custom-haptics",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Custom-haptics",
+        "evidence": "Transient versus continuous events, intensity versus sharpness, optional audio and context-dependent impact strength remain explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "43d3cfd6a5cd8d2ed2c28cc027a5652d6bb69da42f2d47252409af3b139be331",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "iOS",
+        "evidence": "Native supported-iPhone controls and feedback-generator categories retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "b4d92757637702e9e11871d339202e94daf322398ab26752d8cd5b374a958b07",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "iOS",
+        "evidence": "Native supported-iPhone controls and feedback-generator categories retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/items/0/content/0",
+        "source_unit_hash": "92f1d93059fa25ee5518ed3515ed5b8daf06d0f75533295dd174097fba67df35",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "iOS",
+        "evidence": "Native supported-iPhone controls and feedback-generator categories retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/items/1/content/0",
+        "source_unit_hash": "cf102f31bf44d6e2ae2f39e849451b9c8631bfb599d67661345a46332d5e3359",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "iOS",
+        "evidence": "Native supported-iPhone controls and feedback-generator categories retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "172a232c32147fb34280e996998ceb5b1de7b62fd0d01932b63fafbc12cb80af",
+        "source_anchor": "Notification",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Notification",
+        "evidence": "Success/completed, Warning/caution and Error/error mappings all match."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/columns/0/content/0",
+        "source_unit_hash": "e9366da5c118f94122e1e8c365b889579904d2d16579d93f9eebbf33bfa0642e",
+        "source_anchor": "Notification",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Notification",
+        "evidence": "Success/completed, Warning/caution and Error/error mappings all match. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/columns/1/content/0",
+        "source_unit_hash": "d458ed06adeac18a0b128f83543a5aab4b9f9d6c377693ee55836a7e7fdbf254",
+        "source_anchor": "Notification",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Notification",
+        "evidence": "Success/completed, Warning/caution and Error/error mappings all match. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/columns/2/content/0",
+        "source_unit_hash": "fb266a0ecd6d637aba994549f9ed495fd5a81c577f722ee2d8fd669bd4f5d07e",
+        "source_anchor": "Notification",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Notification",
+        "evidence": "Success/completed, Warning/caution and Error/error mappings all match. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "d3a416083d771abf01a52d575cac647cc6399d19168185877c4e20c33778bf25",
+        "source_anchor": "Impact",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Impact",
+        "evidence": "Light/medium/heavy object mass and rigid/soft material metaphors match the five source variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/columns/0/content/0",
+        "source_unit_hash": "818cb48406be396781895fb85461b77550c84101e931d5f7a3c059fd01eca3c2",
+        "source_anchor": "Impact",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Impact",
+        "evidence": "Light/medium/heavy object mass and rigid/soft material metaphors match the five source variants. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/columns/1/content/0",
+        "source_unit_hash": "cd33dce65d4f8ef57829fc284716bcc1544cfdebf74de85e431e4ca39e7181a9",
+        "source_anchor": "Impact",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Impact",
+        "evidence": "Light/medium/heavy object mass and rigid/soft material metaphors match the five source variants. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/columns/2/content/0",
+        "source_unit_hash": "a7ce0ef95911970e0c8a04d1de014b83e12dfda905ce8793f5825930e11c8dad",
+        "source_anchor": "Impact",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Impact",
+        "evidence": "Light/medium/heavy object mass and rigid/soft material metaphors match the five source variants. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/columns/3/content/0",
+        "source_unit_hash": "dc03bb440fa06a97eda925016343111c71d491bb47a4abf5ff316be5cc7af6ab",
+        "source_anchor": "Impact",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Impact",
+        "evidence": "Light/medium/heavy object mass and rigid/soft material metaphors match the five source variants. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/columns/4/content/0",
+        "source_unit_hash": "0107f8c00c15a0f03ec56233dd309048626b93d9b1f230b92a30153fcd59e861",
+        "source_anchor": "Impact",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Impact",
+        "evidence": "Light/medium/heavy object mass and rigid/soft material metaphors match the five source variants. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "5bda94d623e28696d224fa6d454b95dfd93c68fd957385e85858d04d6420dfff",
+        "source_anchor": "Selection",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Selection",
+        "evidence": "Feedback while UI values change retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/columns/0/content/0",
+        "source_unit_hash": "4ea34f03a0d3b2f49b1b5cc79a23a162156c715aed397c10114c7ad9b9d50acf",
+        "source_anchor": "Selection",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Selection",
+        "evidence": "Feedback while UI values change retained. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "6b3b0269ea29df50a94092dd65883a8edaca84a528401960bd4a76a164f603c2",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "macOS",
+        "evidence": "All three table meanings retained: Alignment position/size/boundaries, Level change pressure steps, Generic otherwise, triggered for drag/force-click with Magic Trackpad."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "e1082a35d5453939b580692d10b6898bff23351a566436d70214924fa3fda1ee",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "macOS",
+        "evidence": "All three table meanings retained: Alignment position/size/boundaries, Level change pressure steps, Generic otherwise, triggered for drag/force-click with Magic Trackpad."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/0/0/0",
+        "source_unit_hash": "ec55dc33fdd837141b2a6b2c12449a99b956444f674dee8f805098c050b83c6e",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "macOS",
+        "evidence": "All three table meanings retained: Alignment position/size/boundaries, Level change pressure steps, Generic otherwise, triggered for drag/force-click with Magic Trackpad."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/0/1/0",
+        "source_unit_hash": "d27cfe2be6d725f2cf2f5d293f665f7d4f0ae353a9ab5ae8e5f5559e01bdc216",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "macOS",
+        "evidence": "All three table meanings retained: Alignment position/size/boundaries, Level change pressure steps, Generic otherwise, triggered for drag/force-click with Magic Trackpad."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/0/0",
+        "source_unit_hash": "fcc3f2db3eb6471d5bc33bf6e9f83403ec4f26e4cdbdab124d2492e21cef15a9",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "macOS",
+        "evidence": "All three table meanings retained: Alignment position/size/boundaries, Level change pressure steps, Generic otherwise, triggered for drag/force-click with Magic Trackpad."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/1/0",
+        "source_unit_hash": "e1b7cf9d8ca01912d70bd12c57e6b95d2cfc7e9e29c537feb4d01676574015f7",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "macOS",
+        "evidence": "All three table meanings retained: Alignment position/size/boundaries, Level change pressure steps, Generic otherwise, triggered for drag/force-click with Magic Trackpad."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/2/0/0",
+        "source_unit_hash": "6c75d6ea6eac1f55f46b1e5ab302077b1f2da9f6dba3040c942ccc1f0c39f64a",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "macOS",
+        "evidence": "All three table meanings retained: Alignment position/size/boundaries, Level change pressure steps, Generic otherwise, triggered for drag/force-click with Magic Trackpad."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/2/1/0",
+        "source_unit_hash": "5888d7445427fff66b492d078c4d9ec04d2feca9865618466dd286c98831bd2a",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "macOS",
+        "evidence": "All three table meanings retained: Alignment position/size/boundaries, Level change pressure steps, Generic otherwise, triggered for drag/force-click with Magic Trackpad."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/3/0/0",
+        "source_unit_hash": "7936994bcb5ead8b757e5ce068338a42635dc6dd1a726e92253afc3e8fa7e551",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "macOS",
+        "evidence": "All three table meanings retained: Alignment position/size/boundaries, Level change pressure steps, Generic otherwise, triggered for drag/force-click with Magic Trackpad."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/3/1/0",
+        "source_unit_hash": "dfac5053d89fdf7245cfdae7fd1f946ac94ec215bcee0972297d58500859e0a3",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "macOS",
+        "evidence": "All three table meanings retained: Alignment position/size/boundaries, Level change pressure steps, Generic otherwise, triggered for drag/force-click with Magic Trackpad."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "f93a9fd9c90c03cbf7f3ee4540df0296c797fbfa2866e199bfe8e329f2146954",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "macOS",
+        "evidence": "All three table meanings retained: Alignment position/size/boundaries, Level change pressure steps, Generic otherwise, triggered for drag/force-click with Magic Trackpad."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "dfb026905277b6af3700d3dfe38dadc1eced9224cc421b05ca6bf06b68b086f9",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "496c7b984f2618d2877088459aedf700e356a9d71f99f2cc0d935ca97fba8af2",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "b304344ace82f5e65ba5232588f0feb48f3d1be7eec86d23b7383ab3b768ae96",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/0/content/0",
+        "source_unit_hash": "2a23c2e0b97448487e4a9f9d4046c0fa953519b9119792583b65debd1b8a1feb",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/0/content/1",
+        "source_unit_hash": "5084bf948f3092a7794894278c446a4d89bbbf0c34d2bcd2d10f342b6f4c638d",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/1/content/0",
+        "source_unit_hash": "16c6e4b1e0e0edb1e609234905967c43af9f1062f686d827c41aeb37e14c8624",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/1/content/1",
+        "source_unit_hash": "180572e6da94c864c16c38c1ee53ffc0a2c829dc96ab3192a7bedb5acc5d79e2",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/2/content/0",
+        "source_unit_hash": "e5acc33c53ad58bb4f7a85651333dd21e0bef14dbfc87bf7a2b10ae91cd6138e",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/2/content/1",
+        "source_unit_hash": "d94a18dffca61c857029c20002b708ec948ee4ca8306f10907c9ef91ede7a86f",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/3/content/0",
+        "source_unit_hash": "9499d970d0b3ae7b339889573b574b76450480a037943afd20c9be21ead6dfb4",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/3/content/1",
+        "source_unit_hash": "52e904b8621e35eccacad7fa7473984399d47771d2406684e0a2eba0a2dcaebf",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/4/content/0",
+        "source_unit_hash": "26516b2462b09108418e3102abb5740f72e718579a9787eae16843e52822b50e",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/4/content/1",
+        "source_unit_hash": "8731d826267400ad03b0acaa6d65b1565332ddedb0fa745d24e1cc46ae8360ec",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/5/content/0",
+        "source_unit_hash": "2398e160b61275dbb50e6ef0fe98734d3ff5905fedc984b81085284efa502ab0",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/5/content/1",
+        "source_unit_hash": "16389ec8cf30a3eaea28c5d592ec539e144dd77ec99fe748282bf48daa630291",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/6/content/0",
+        "source_unit_hash": "7826d58630da87683177d88b37538790eb7fb0e95b02700b303f48bd857b7791",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/6/content/1",
+        "source_unit_hash": "c978fb4a50cf5c474113f25a99a4d1c4105be89c915137d979731094b121f1e4",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/7/content/0",
+        "source_unit_hash": "8b8c560e7da1ef61c6933e5776e8c42ac99201c9f4610e11999c2f80e9475725",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/7/content/1",
+        "source_unit_hash": "ee782cad19d62fa447be61f3e9a5a94c163ac256d8c9d30ecab6a49cbee8ad13",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/8/content/0",
+        "source_unit_hash": "df8fec06fc0cb488463539ff9fe551340ecead423311abbb280c0ca0989f49eb",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/tabs/8/content/1",
+        "source_unit_hash": "efef7ea14257e4205e8f189e605fc87fb3ad843a34a45b9c43394d1869347be1",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Series 4-and-later crown detents and all nine meanings retained: Notification, Up, Down, Success, Failure, Retry, Start, Stop, Click. Start/Stop explicit activity pairing and sparse clicks to prevent overlap are preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "6427aa81d9828b0d03c4c78a3b225a41d7af45949cc573a6937b8bbe9ec70e2f",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "f520e186969c48d60da0d5cf2333e98ac167b643e7e165acacc9516dfba486be",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "927f5f78182ffaed935ca7945d7e1b46e73ce4fc3eaa227da04ee79d91e6039a",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "834591333a87996cc3e7f2d298c9a8e5ca2cd4ea2d26682a7e6b68e069a7fbfe",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/rows/1/0/0",
+        "source_unit_hash": "1f8e7ff71a44e354d376abc5a1120f5d9bce9bff9d82d8d3c565101e36849ec8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/rows/1/1/0",
+        "source_unit_hash": "170cd4bcfa13371b33b8a5aba5e4f21befa328b2a54320670cd7620920da2cf9",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/rows/2/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/rows/2/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "e1082a35d5453939b580692d10b6898bff23351a566436d70214924fa3fda1ee",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "macOS",
+        "evidence": "All three table meanings retained: Alignment position/size/boundaries, Level change pressure steps, Generic otherwise, triggered for drag/force-click with Magic Trackpad."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "834591333a87996cc3e7f2d298c9a8e5ca2cd4ea2d26682a7e6b68e069a7fbfe",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

@@ -1,0 +1,36 @@
+{
+  "source_hash": "d51a076e8fd1cde249d229795c398c691a92c356ff4e17c9ee1dddbe6e9f31a1",
+  "media": {
+    "inputs-gyroscope-intro.png": {
+      "status": "reviewed",
+      "reviewer": "root-independent-image-auditor",
+      "reviewed_at": "2026-10-25T13:14:41.019605+00:00",
+      "reference_metadata_hash": "2ca2be0371106d40442012c99d6815502581254d118ebae977fdf8d2633f4a70",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-gyroscope-intro@2x.png",
+      "binary_hash": "97520a9608db03200fb2c0488462f95aa918f2a9c0fd5c655235ec4007ff8e43",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "decorative",
+      "evidence": "Inspected actual light and dark introductory illustrations. This tinted topic symbol and construction grid identify the subject; they add no normative interaction, layout, or specification beyond the local article. Theme changes alter symbol/background luminance, not the represented concept.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+          "hash": "3b8edcfeb8e57b56a012c51c972c656ebe9d5e8765f63283857b416207a2af6a"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-gyroscope-intro~dark@2x.png",
+          "binary_hash": "9e5ef5d5d7b2bd9fe55a8d50354e14205ea045920847d4004b497400f0c1035b",
+          "status": "reviewed",
+          "reviewer": "root-independent-image-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    }
+  }
+}

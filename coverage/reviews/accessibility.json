@@ -1,0 +1,2100 @@
+{
+  "review": {
+    "slug": "accessibility",
+    "status": "reviewed",
+    "source_hash": "8963a528599921939efb883c3a5cbb0b706e6d8d2abd9e712e71b9197e061d58",
+    "destination_hash": "556c88279d9f2f238e87cbab050337b51ba5c3e3ab8c15f57b662b3f0378b18d",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:17:00+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "accessibility",
+        "status": "reviewed",
+        "evidence": "Checked intuitive/perceivable/adaptable goals,Inspector audits and evaluated Accessibility Nutrition Labels."
+      },
+      {
+        "source_anchor": "Vision",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "status": "reviewed",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "source_anchor": "Hearing",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Hearing",
+        "status": "reviewed",
+        "evidence": "Checked captions/subtitles/audio-description/transcript distinctions and customization,matching haptics/Music Haptics/audio graphs and visible offscreen-direction feedback."
+      },
+      {
+        "source_anchor": "Mobility",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "status": "reviewed",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "source_anchor": "Speech",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Speech",
+        "status": "reviewed",
+        "evidence": "Checked complete keyboard/Full Keyboard Access,reserved shortcuts and switch hardware/controller/sound inputs."
+      },
+      {
+        "source_anchor": "Cognitive",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "status": "reviewed",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "No additional five-platform rules retained."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked hand/head Pointer Control/Zoom,in-view horizontal layout,no rapid attention shifts,peripheral/camera motion comfort,no head anchoring and reduced large/repeated gestures."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "af32516e07c7a8ea3621293922fa6e15b32bb1a91b597f34cff441a9dfe8123f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "accessibility",
+        "evidence": "Checked intuitive/perceivable/adaptable goals,Inspector audits and evaluated Accessibility Nutrition Labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "5e41ca58b3ec5e4d0c5fccaf06fea6fe56b43ecef62489bfb1364f245a439d2f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "accessibility",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked intuitive/perceivable/adaptable goals,Inspector audits and evaluated Accessibility Nutrition Labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "3a293aaba651d9787e2e4c179ed08a41653cfe3713fbbac374196bf540a820fd",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "accessibility",
+        "evidence": "Checked intuitive/perceivable/adaptable goals,Inspector audits and evaluated Accessibility Nutrition Labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "838f47d6da3f80e1e49c44dccfcdd0dbf52beeed05a2a7e6dadf42ec27919351",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "accessibility",
+        "evidence": "Checked intuitive/perceivable/adaptable goals,Inspector audits and evaluated Accessibility Nutrition Labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/items/0/content/0",
+        "source_unit_hash": "e6f07f1d7564bfbae5cf6050e74820656ea6c9d8483473b09a61b71956e55c0e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "accessibility",
+        "evidence": "Checked intuitive/perceivable/adaptable goals,Inspector audits and evaluated Accessibility Nutrition Labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/items/1/content/0",
+        "source_unit_hash": "920afdc9004bec47e8bcf7b1ba51fdb890aceda28bb55cd7045be3ed837f3d01",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "accessibility",
+        "evidence": "Checked intuitive/perceivable/adaptable goals,Inspector audits and evaluated Accessibility Nutrition Labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/items/2/content/0",
+        "source_unit_hash": "0613807ca349b7909ee5ae3b0146e08c35e83b489112509123915c2c5108989e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "accessibility",
+        "evidence": "Checked intuitive/perceivable/adaptable goals,Inspector audits and evaluated Accessibility Nutrition Labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "fa4bb4d5075e5cbeb7c257798f2464bd22d876d494a96d942297072b57cc3b27",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "accessibility",
+        "evidence": "Checked intuitive/perceivable/adaptable goals,Inspector audits and evaluated Accessibility Nutrition Labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "a94419cd8a7c89e9022c72740bf0a7e37845ee03fdfa6eed59d402767f1aae3a",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/inlineContent/0",
+        "source_unit_hash": "a95765c9b2c4c6162f3bf12afd595a32f312da659a477403bd2410904e9aa3ed",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "6fb430af9307057a75d900b01a7106cdaba4ca2206c3e6589978022f61448465",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "964381018abbf7664aed979280bbeffc85ba4fc10738e3fe9e3e8beec14d2fe6",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "1fd0744ff3f0f8c42726eab1fba18d085face4b0b9f2ce1bd93b2b35040eb9ac",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "297b7d0cb19cc181c0f4b2400e1f6184c6975b03b6d69f5770a90b0dd9dc79c4",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/0/0/0",
+        "source_unit_hash": "b195e67d72a3684d969adde85939d362031c077e178354caf599e37e1ab1fa7e",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/0/1/0",
+        "source_unit_hash": "821cf9f898d9b68dd9dbcc0c13ff6534c0358bf63014566c22e516c96aeac573",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/0/2/0",
+        "source_unit_hash": "c07cbcc932a57f52888425061ebf63cb1d98fa91581638fa2d79f514b347a181",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/1/0/0",
+        "source_unit_hash": "982cef755dc6b3c4f9138e67dd6ac89f05f8ae5d017296a31d9529048f2383ad",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/1/1/0",
+        "source_unit_hash": "f05f078092e7d3320165f817557a017f39315198f07f38e9862dc7e4f35ff566",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/1/2/0",
+        "source_unit_hash": "4c6edafd59e7871ac772dd1b88a0b389ac4adbf3606eb86d089b83117dadebb8",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/2/0/0",
+        "source_unit_hash": "ba2817ca022a17a8c3f0dad6512080a9a526f08488742351ad875fd7d927755a",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/2/1/0",
+        "source_unit_hash": "336b3e263d81a04999d728845913de39eb484ed6b9daf4d7ec842ecda869de6c",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/2/2/0",
+        "source_unit_hash": "3f0a07bd76983f523d051714bf9e34f322eca5c388a1d8e0127804e287ea073b",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/3/0/0",
+        "source_unit_hash": "fa02c770fafd6d83157a92459ca66ad871e76ecf6ffa9f6d7d6d915eadbf32a3",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/3/1/0",
+        "source_unit_hash": "985ed988a4b76f9f66515f4b0d413ef1f0bbc393ac3035d025075b8270162ded",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/3/2/0",
+        "source_unit_hash": "016109fa4358280ddb698f90578a4755783ca3b2eae8a01817785b8f8cee7544",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/4/0/0",
+        "source_unit_hash": "dfec64c3148675d7ee6b4b3594f050562320edad6716894c0fe5aa03fc3ac279",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/4/1/0",
+        "source_unit_hash": "f05f078092e7d3320165f817557a017f39315198f07f38e9862dc7e4f35ff566",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/4/2/0",
+        "source_unit_hash": "fc9fc47ba5007e5686a18b048e0e4e91ce71a67b0a89660ec4dccf516be640aa",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/5/0/0",
+        "source_unit_hash": "de59d66e5d72811fd89564cf1be88f7013c18fd5371bfc795e89d52251c54156",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/5/1/0",
+        "source_unit_hash": "c0a9bbd537c3a2a35796172309411d3aa169db8f497f24503adf514868a6db80",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/rows/5/2/0",
+        "source_unit_hash": "fc9fc47ba5007e5686a18b048e0e4e91ce71a67b0a89660ec4dccf516be640aa",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "112e70bd72000517184ade8253de34ee25766981034cf4695c80561bf1de8875",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/0/content/0",
+        "source_unit_hash": "8b4ab2954c35ecb59621a7edf543f267d7e1c7f6bdc23005745e8258996d1871",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "949a251f8e2d536407929c5ea2a70042c6d885011642d48323b948709d4ed563",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/1/content/0",
+        "source_unit_hash": "72c949833133670f3ef582c5d177aa4774e69e9696c3b7886d2c339781d9ff9e",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "8e88036dd49837a764ebc1d32c233b05f7450a60d7f564ac0e6795dc671c23d9",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "ce5f991d6f7a5caa59706c291d759f1ceb8ea7a59895d98a19145ad2e867542c",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "7935425db2f918f138cbd5e998ad17a017476d963a6d2d5c957a6cc84faadfe0",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/rows/0/0/0",
+        "source_unit_hash": "fb79a0b29e29808fb1ae31a1491a62e07a99de917fb4359983e930e9435922b0",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/rows/0/1/0",
+        "source_unit_hash": "6182b23ac433693cac38415109cd9066bcb8a016196f34deb5493a58ebf2ad0f",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/rows/0/2/0",
+        "source_unit_hash": "09a9172d3243ad18e4826fc76a33183616f9bb9a53dfe62a0e25c5606e6cc8fd",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/rows/1/0/0",
+        "source_unit_hash": "1a4ac9fc266bd7b21acd7992ff2e537793a0a8b3597c9aa65019a957906d0f05",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/rows/1/1/0",
+        "source_unit_hash": "daa914f32bfb63fcb61c9aec8a61d61445c59bb8b88b411a4111737e90ea8416",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/rows/1/2/0",
+        "source_unit_hash": "e8c06d19d50c9510185480f0acea63521786506cca97bbfba71bdf7fe0cf22d1",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/rows/2/0/0",
+        "source_unit_hash": "5c0c52e6ad735df7ab921eb105d1a157b8182f4a1adb0492d173e199f7959779",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/rows/2/1/0",
+        "source_unit_hash": "daa914f32bfb63fcb61c9aec8a61d61445c59bb8b88b411a4111737e90ea8416",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/rows/2/2/0",
+        "source_unit_hash": "e5c6a6aabda9e1970c2a29083aa66efe285727b34a111767fc3f3d59b28f318d",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/rows/3/0/0",
+        "source_unit_hash": "daa914f32bfb63fcb61c9aec8a61d61445c59bb8b88b411a4111737e90ea8416",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/rows/3/1/0",
+        "source_unit_hash": "6eaf1bb4464012f21317c98f8904e45c3c13c3fdd0018f5817954b54d805976c",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/rows/3/2/0",
+        "source_unit_hash": "e5c6a6aabda9e1970c2a29083aa66efe285727b34a111767fc3f3d59b28f318d",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "6873bb1e047e3f143001be9eed6e535d5ea1f118b88f3100818ebabef0d147c7",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/0/content/0",
+        "source_unit_hash": "e034f05339faf4ae63bc7107aed9616760b726d5ac7fbbe57001afc64af9517e",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "fdc2cd692a02e958d6978584333fec727e050d89dbb0e63b10f3dc35a2eefc28",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/1/content/0",
+        "source_unit_hash": "177430aaaf3e2be24b743ba57462acbed04e99ff106430f80f6e7ce175f600db",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "951281fe9756a0a5450a7877cf3706d088f756390ee386fecd391cb2cb417774",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/1/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "92e59dcc9fadeee09fe0e09dd3678c13ce72ab680f72d2e66ce0bcb330fc3ca9",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/columns/0/content/0",
+        "source_unit_hash": "d3d296ccbeea86feb3f31e687f114c1d67af2cb7297488918baf3e340f52acc2",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "a6bc43b7e51372f4bb0e99e35a749aa807d482e349dd26ac98b8e3ee117b0c6c",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/columns/1/content/0",
+        "source_unit_hash": "4b4c9a6b88036d2427552e9f2b3f558b25a6fdd1045c58613921586b16c47e77",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "0e17e38d9141e8194bfbc902437337cca7b74d26a1ee9f6a6f62df55c7c2a761",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "057e69a19c2f23928b404031399873e4a7a468c518a4930e6b15c07ba0dc611d",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/0/content/0",
+        "source_unit_hash": "44dec2c90c4e86368eceae632787e519780b008e5b71f5b2141f84ad541f9d3b",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "f57ec3825bca9b20827bde0d0b707445fb4a9b5606540c4fe952faf76388293a",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/1/content/0",
+        "source_unit_hash": "fd5b7d25b8e688adc90b12056781658bdba8315eb5aae414273fe09cfa3475be",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "dd85d6fd4db2ab80d47489e411c6db54b130386212e171ade0102abe60013159",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/1/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "795a2b69afbdc11d4b5fd6eb26c90c5d7678a87ce922e79ae6b3946a5d41422c",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "e1fa45ea2e2abe7f2f70ed6054423751d1ee27517dae5c1138232fa3e8e94535",
+        "source_anchor": "Hearing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Hearing",
+        "evidence": "Checked captions/subtitles/audio-description/transcript distinctions and customization,matching haptics/Music Haptics/audio graphs and visible offscreen-direction feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/inlineContent/0",
+        "source_unit_hash": "6adba3a171ff30d94971bd7697d8d73b118226712afc5cdf9ef32bd9998f3895",
+        "source_anchor": "Hearing",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Hearing",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked captions/subtitles/audio-description/transcript distinctions and customization,matching haptics/Music Haptics/audio graphs and visible offscreen-direction feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "88647b7dfd35a915c7272d2a3a8122cdb3adf5b217424e29dba41ef22343a802",
+        "source_anchor": "Hearing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Hearing",
+        "evidence": "Checked captions/subtitles/audio-description/transcript distinctions and customization,matching haptics/Music Haptics/audio graphs and visible offscreen-direction feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "678dcdf412b2ecab347ed0b1e0ef757e7e291fa76fdd092adcae591f3b82242f",
+        "source_anchor": "Hearing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Hearing",
+        "evidence": "Checked captions/subtitles/audio-description/transcript distinctions and customization,matching haptics/Music Haptics/audio graphs and visible offscreen-direction feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "9cfba79225c931094d73f3bb965a9f02dda0faff42b1d265c8d96a7aedfe3c7c",
+        "source_anchor": "Hearing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Hearing",
+        "evidence": "Checked captions/subtitles/audio-description/transcript distinctions and customization,matching haptics/Music Haptics/audio graphs and visible offscreen-direction feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/items/0/content/0",
+        "source_unit_hash": "e134fd9149b602f0b0bdcfd1b5c4bd5f5b31413038a6629b86011b3bd524789f",
+        "source_anchor": "Hearing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Hearing",
+        "evidence": "Checked captions/subtitles/audio-description/transcript distinctions and customization,matching haptics/Music Haptics/audio graphs and visible offscreen-direction feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/items/1/content/0",
+        "source_unit_hash": "65ee47adf870465e9fffdf7d89ff37d219c5cc16e92f95e70b40fd6f5b0392f2",
+        "source_anchor": "Hearing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Hearing",
+        "evidence": "Checked captions/subtitles/audio-description/transcript distinctions and customization,matching haptics/Music Haptics/audio graphs and visible offscreen-direction feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/items/2/content/0",
+        "source_unit_hash": "b608805e03322346bf2eceb402154a8b3b4691cb56b54dc0bfac806cdcf9d17a",
+        "source_anchor": "Hearing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Hearing",
+        "evidence": "Checked captions/subtitles/audio-description/transcript distinctions and customization,matching haptics/Music Haptics/audio graphs and visible offscreen-direction feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/items/3/content/0",
+        "source_unit_hash": "a2ba866584c140fd4f9739214e366eb751618cddde022d49ba6f2422fee70a40",
+        "source_anchor": "Hearing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Hearing",
+        "evidence": "Checked captions/subtitles/audio-description/transcript distinctions and customization,matching haptics/Music Haptics/audio graphs and visible offscreen-direction feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "53b306fec14f8a15102f019a9c260d14f5d1c9fc48359d1ca13cb365898bf1eb",
+        "source_anchor": "Hearing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Hearing",
+        "evidence": "Checked captions/subtitles/audio-description/transcript distinctions and customization,matching haptics/Music Haptics/audio graphs and visible offscreen-direction feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "0e6e656941899591bae6103b41d3606fb81da9847b67fb2bcefbc02766b182ee",
+        "source_anchor": "Hearing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Hearing",
+        "evidence": "Checked captions/subtitles/audio-description/transcript distinctions and customization,matching haptics/Music Haptics/audio graphs and visible offscreen-direction feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "7c58d37aab8971a5babd547b0c97491d192254b927c788fc09f027317243c916",
+        "source_anchor": "Hearing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Hearing",
+        "evidence": "Checked captions/subtitles/audio-description/transcript distinctions and customization,matching haptics/Music Haptics/audio graphs and visible offscreen-direction feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/inlineContent/0",
+        "source_unit_hash": "4b75ca4735cb0eca5191b5ff8bfe2d8d332ee8e6c325bcb3b8c8be171a0c759f",
+        "source_anchor": "Hearing",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Hearing",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked captions/subtitles/audio-description/transcript distinctions and customization,matching haptics/Music Haptics/audio graphs and visible offscreen-direction feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "ae2d89899fcdd4875a4992a1bae4b0118ab128b0d28d97f08b3eeb47212a973e",
+        "source_anchor": "Hearing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Hearing",
+        "evidence": "Checked captions/subtitles/audio-description/transcript distinctions and customization,matching haptics/Music Haptics/audio graphs and visible offscreen-direction feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "e64afc300eb2abd4de684e8edf82cf79bd55d91e642eef8de601267320c821df",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/inlineContent/0",
+        "source_unit_hash": "b2f9dba2bd274b46d48bf716191ec86891e8e9d22c5db547859ba5c39f8efba9",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "bf47970c88a448986fc366088ee59b58e4a51a94f2572c58108885377cfcbf5b",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "4958606796ec4e4294f08a35745e5fc9b618549babaf4aa119666784275782bc",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "1be88883ace69b35e574c609e096c54a92058a032ac123cc569802cfd4d8bdad",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/0/0/0",
+        "source_unit_hash": "b195e67d72a3684d969adde85939d362031c077e178354caf599e37e1ab1fa7e",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/0/1/0",
+        "source_unit_hash": "6033605c521eae0b26cea4de7eb6bee1cb5a0130b404b57ad13510791bfd5172",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/0/2/0",
+        "source_unit_hash": "9d2f621bfa2f0ca131f6295d9a8416473edd19550cf0e73bf0830e2b48bfb01e",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/0/0",
+        "source_unit_hash": "982cef755dc6b3c4f9138e67dd6ac89f05f8ae5d017296a31d9529048f2383ad",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/1/0",
+        "source_unit_hash": "246917ae4dca5154d0ccd31e88faa8458f89a4ff4ddd20c592c50bc2bbb4f267",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/2/0",
+        "source_unit_hash": "7cacf57933c1a10bb56be14774b2f18dcf4143671e2b55ff6398e0d96a552d8f",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/2/0/0",
+        "source_unit_hash": "ba2817ca022a17a8c3f0dad6512080a9a526f08488742351ad875fd7d927755a",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/2/1/0",
+        "source_unit_hash": "7cacf57933c1a10bb56be14774b2f18dcf4143671e2b55ff6398e0d96a552d8f",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/2/2/0",
+        "source_unit_hash": "28b5b5f3abcd85d4f69f1e78d0425f1a68e5223b09c81b895696749b1e27f64d",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/3/0/0",
+        "source_unit_hash": "fa02c770fafd6d83157a92459ca66ad871e76ecf6ffa9f6d7d6d915eadbf32a3",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/3/1/0",
+        "source_unit_hash": "3d4437a838cfb15778e331ad70737833af8c8d0083560ffe3b3764bb14de1522",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/3/2/0",
+        "source_unit_hash": "2663d3397d305f086da8a8a0f6df283680723bbace6b9035258a659bbb15ae3a",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/4/0/0",
+        "source_unit_hash": "dfec64c3148675d7ee6b4b3594f050562320edad6716894c0fe5aa03fc3ac279",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/4/1/0",
+        "source_unit_hash": "e9c5fa31809c8b7009447ceb1a83287d77870f10e516db9a6f84a0fa1538ae4c",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/4/2/0",
+        "source_unit_hash": "7cacf57933c1a10bb56be14774b2f18dcf4143671e2b55ff6398e0d96a552d8f",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/5/0/0",
+        "source_unit_hash": "de59d66e5d72811fd89564cf1be88f7013c18fd5371bfc795e89d52251c54156",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/5/1/0",
+        "source_unit_hash": "246917ae4dca5154d0ccd31e88faa8458f89a4ff4ddd20c592c50bc2bbb4f267",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/5/2/0",
+        "source_unit_hash": "7cacf57933c1a10bb56be14774b2f18dcf4143671e2b55ff6398e0d96a552d8f",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "0cc164c2f1eace845293dc269a43e667d6401a7e18e1e0bac272515c10bfed59",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/columns/0/content/0",
+        "source_unit_hash": "feb6bf5b4feefb8ce90ec9bc2a2ab38bb4886d8cfd02bdc829b424bd6f0dc134",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "65a900928b946d89934bdfb574109f427042614a7d3e65d935d0cb504d45bcb6",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/columns/1/content/0",
+        "source_unit_hash": "09209f022833d5eaeffcb9a4baf0281982f06d510c94ca2b82c5f16a350ba365",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "c4d335de8abbb20f1b060e88ce447054cabb5c5689c40055a7fe0ab994c06f5f",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/columns/1/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "c214b1299e55cb4fb6905042bbb02179da85713e407d9f450abd021c65efdbb7",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "7d6998ccbf148c4b88b44c82695f055dcf559e205b52f8a57b4cf0f46a800d0d",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/columns/0/content/0",
+        "source_unit_hash": "f1f8ce3ab9f7b06c0209106671e7de739acf2273042fc002df15ba77735972ad",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "32e512d8b13551166e79b4d2acae025382e5067848ee018d7ca68ada48194c0e",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/columns/1/content/0",
+        "source_unit_hash": "b8f7acfdc7400d8b4e90f9210f7618ffd7d9b1bfeffca255c39559ebe1da13d2",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "5d856a152ea9d94dc2b7632e06a8bc01e8d1dc9951070f32ac3cfa0b2f1fa80c",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "7bf5333f33a7dfc0c23015cc37d7c32f5b74b46cace7acb4336366ab6d1c4cf5",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "00bf59bd9eab81972ed06924aea78e5b08d07449f21a13e9434668341e961594",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "e49252fac13c3b4a79bb486a3a18595fa3b91e45d377f4762db8b82fe461f31a",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "cd19a0d79193aba1da749ce8427e075e5819289f923b168d661586f467667828",
+        "source_anchor": "Speech",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Speech",
+        "evidence": "Checked complete keyboard/Full Keyboard Access,reserved shortcuts and switch hardware/controller/sound inputs."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/inlineContent/0",
+        "source_unit_hash": "23c89b1b9a578243a7a9235c403004c9288372c3b418ed0f265c6eea29598b46",
+        "source_anchor": "Speech",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Speech",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked complete keyboard/Full Keyboard Access,reserved shortcuts and switch hardware/controller/sound inputs."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "3bd024843d161535d590e5d273c3948f9998af9e9d4bf970301dcd41b7a1de3f",
+        "source_anchor": "Speech",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Speech",
+        "evidence": "Checked complete keyboard/Full Keyboard Access,reserved shortcuts and switch hardware/controller/sound inputs."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "2acf33eeddc593bbc6d7d6f5d6302fed586684b884792d46a96b657eeecb39d4",
+        "source_anchor": "Speech",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Speech",
+        "evidence": "Checked complete keyboard/Full Keyboard Access,reserved shortcuts and switch hardware/controller/sound inputs."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "bb52054732c1e1579038d99d1b19a63f91fd110554dc8eb0f94f5c21baec970f",
+        "source_anchor": "Speech",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Speech",
+        "evidence": "Checked complete keyboard/Full Keyboard Access,reserved shortcuts and switch hardware/controller/sound inputs."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "ef8bb69e4174e069e29e514c87744b03882c6c986551d0d84b4adb672fd97707",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/inlineContent/0",
+        "source_unit_hash": "054ca5431a8da1d722eda0867b7979ad190156642732a9fd235a8e7c039ea9f8",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "66ca73411db3adfe25b371e672b81019ecf6fd13bb4f7360721ce89992bdbdc5",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "d695a87d3f2f37dc08f6524be0d07752bd9248b61217f8f7a0d97dab5b47d6bc",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "722c77706e70b5a5605c0b005da759b6c828dddc7ad3664ae872afb950e5f09a",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "a698b70c6cd32f9b14962be2473b3303ac6c8a9b71fcfbaca55b04e63d2c896a",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "4ff41fc0b2cf7c1beacfeea6c13ce5aeceb001bb42e5bc7ce846eb3836df59b0",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "4e7608d3800801e083ac7cbf15a09393cfa4138193010b29253de42f03fb78c9",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "fb186df0ac70bcf1244c94da09f2005d954690be3029351b524d9dc3d2aa7124",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "0593a1507d4efffe124d98c38b25f9e3fcdefcb240039694b73572b426ec5a12",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/items/0/content/0",
+        "source_unit_hash": "3d88ab3953e4f64264c30d218de59a3ac9e29bb746f368fc5b83cdfd63c88e57",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/items/1/content/0",
+        "source_unit_hash": "69067d7f61c98e817b23d94d9e1348ae6b03d5111d324072c264226d91f99f2e",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/items/2/content/0",
+        "source_unit_hash": "1b8ca1ec3d2eb5d91d213ca4973640ec416ddcd4ace48407f1ccbaad78a7b91b",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/items/3/content/0",
+        "source_unit_hash": "5dff5341e0b49b3e61ce3f70c0a3e6e5078874a9741f1d0eccab293d036fa1ae",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/items/4/content/0",
+        "source_unit_hash": "978687140838d9be4ac8d9a3b5cb4e303d3990806229c386fc6af12bbbcedc4a",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "bc0be5608210f8a816071fe126c15bd425b81ee5addda89f2718ef51d22fb4c4",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/columns/0/content/0",
+        "source_unit_hash": "d8c1296b0055606ba36516d8e7218103c47f64914bf690846cca1988aaf01625",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "a83c552c05039e7956e651966261d912c6518a825e4f6cb23be6349274bb2f46",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/columns/1/content/0",
+        "source_unit_hash": "e8576645c7139d5c4b68741edbceb343cce3377e66fcc94a801816de6b2b8f9d",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "1b4cefe1475a06ad3574a91a9af4bc2f89dc100a9a4b49c070f8fa2b8ddbc7ee",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "d087474c0c1bed277444dedf68ae1997f3d7f69b1f7fdb6cdd480f5edacce85e",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "9ee1c4c7b2aa640cfa0ef17b1aef10ce29ff623e1c110db11d601bd8e1ec9e97",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/items/0/content/0",
+        "source_unit_hash": "cfa50dd1a7605234fa8da51dbe2cf04575596422a3ed72ebd842ac9b85939c82",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/items/1/content/0",
+        "source_unit_hash": "00024c8321781c0b7c461b56c5eb0b2719110a83c53eaa510528cfb97e97a339",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/items/2/content/0",
+        "source_unit_hash": "1728484a215e26ffe50534848e4ca19b1c0bde1edac27277bbe57ce23f0ca819",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "e56d2b1e7e70e4b40b073344f067b79b53b1d30cb9b210962d7925fc1b367d7d",
+        "source_anchor": "Cognitive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Cognitive",
+        "evidence": "Checked consistent simplicity,no timed dismissal,difficulty accommodations,playback/autoplay control,Dim Flashing Lights,all Reduce Motion alternatives and Assistive Access one-step/core functionality/two-confirmation requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/64",
+        "source_unit_hash": "ed8af3646d0c042816ea2f8b557f0e135d900338442ca3f61d660f9985231c51",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "No additional five-platform rules retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/66",
+        "source_unit_hash": "91ecc1e4ac223a6c7c22d99e2544769f55ad248e8e7e6458887506dd10d5f4f6",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked hand/head Pointer Control/Zoom,in-view horizontal layout,no rapid attention shifts,peripheral/camera motion comfort,no head anchoring and reduced large/repeated gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/67",
+        "source_unit_hash": "cfb4756e3a86dedbc34fc394d096f273910346960cc9f76c4093e188b2673e0c",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked hand/head Pointer Control/Zoom,in-view horizontal layout,no rapid attention shifts,peripheral/camera motion comfort,no head anchoring and reduced large/repeated gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/67/tabs/0/content/0",
+        "source_unit_hash": "3344326c93967a27abb1c46db2285b74724b42a8fafff83f2a8a8c1afd1f4fb1",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked hand/head Pointer Control/Zoom,in-view horizontal layout,no rapid attention shifts,peripheral/camera motion comfort,no head anchoring and reduced large/repeated gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/67/tabs/1/content/0",
+        "source_unit_hash": "c8787153724aa462a16080a95811640d866d8fd137df3536886db46db3a1293c",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked hand/head Pointer Control/Zoom,in-view horizontal layout,no rapid attention shifts,peripheral/camera motion comfort,no head anchoring and reduced large/repeated gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/67/tabs/2/content/0",
+        "source_unit_hash": "d641df5cc2433a342b8dc337a096be954c4083833d3bdf370998aea120cbcde3",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked hand/head Pointer Control/Zoom,in-view horizontal layout,no rapid attention shifts,peripheral/camera motion comfort,no head anchoring and reduced large/repeated gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/67/tabs/2/content/0/inlineContent/0",
+        "source_unit_hash": "ac0919682ce1f5229d0d63d4b8aac18bf93cdef6a186c835b706e438396901f3",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked hand/head Pointer Control/Zoom,in-view horizontal layout,no rapid attention shifts,peripheral/camera motion comfort,no head anchoring and reduced large/repeated gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "ed74ba499d84fb2d26cf2226cc30d18f1b0a27c0c85bc37bb9609b9029b3045a",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked hand/head Pointer Control/Zoom,in-view horizontal layout,no rapid attention shifts,peripheral/camera motion comfort,no head anchoring and reduced large/repeated gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/69",
+        "source_unit_hash": "4faec0ec44b9eacebac53335ca9fe3f82323cc0d0ba5f2e6bb4be2ba43f1ff20",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked hand/head Pointer Control/Zoom,in-view horizontal layout,no rapid attention shifts,peripheral/camera motion comfort,no head anchoring and reduced large/repeated gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/items/0/content/0",
+        "source_unit_hash": "e60c2b2eb7eaf15953a0ac1cef54d073480fa117bc1d06fb0ad043cec70d175a",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked hand/head Pointer Control/Zoom,in-view horizontal layout,no rapid attention shifts,peripheral/camera motion comfort,no head anchoring and reduced large/repeated gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/items/1/content/0",
+        "source_unit_hash": "23411810b5fc3316f43035833b8b10a83848c7f45d59a268708a4567200f5897",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked hand/head Pointer Control/Zoom,in-view horizontal layout,no rapid attention shifts,peripheral/camera motion comfort,no head anchoring and reduced large/repeated gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/items/2/content/0",
+        "source_unit_hash": "80be7cdb47bbddd2507a83ceb381adc7edcee01f7950e3d46abce0c554976f23",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked hand/head Pointer Control/Zoom,in-view horizontal layout,no rapid attention shifts,peripheral/camera motion comfort,no head anchoring and reduced large/repeated gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/items/3/content/0",
+        "source_unit_hash": "ec7a7391f1c7c8527b45daa33d4137e09868e05babe10e36de92a05fade4e989",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked hand/head Pointer Control/Zoom,in-view horizontal layout,no rapid attention shifts,peripheral/camera motion comfort,no head anchoring and reduced large/repeated gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/items/4/content/0",
+        "source_unit_hash": "95247de6650751bac3db5faa3a6ba76ce2a403ef6deaf4a6700dbe25030183b1",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked hand/head Pointer Control/Zoom,in-view horizontal layout,no rapid attention shifts,peripheral/camera motion comfort,no head anchoring and reduced large/repeated gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/70",
+        "source_unit_hash": "723620e55d242d4ff8bd830ac7c1a4a0415137f308f28dec3787e94a3bce4b54",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked hand/head Pointer Control/Zoom,in-view horizontal layout,no rapid attention shifts,peripheral/camera motion comfort,no head anchoring and reduced large/repeated gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/73",
+        "source_unit_hash": "86a447414fbd3f2016e6c95e93eb207052575b6d2b0f7e30f93941bb338aa381",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/74",
+        "source_unit_hash": "1b85a85e09bd0823d5e826066546b4df66c92d0ab1c227e87ab69087b3de2e30",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75",
+        "source_unit_hash": "8b3a1a8816710696f31f1eec204990f9ed1c40dae538f6e01f8442065fc6206d",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/77",
+        "source_unit_hash": "1a9cdcce87c0bf8f04a87247f1ca6aa05c2615551cd25036ca6341ad9c4d93d7",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/78",
+        "source_unit_hash": "ca5326596ddefce23beec5483e0621901ac4242b2d46b4ce902d96291700ba93",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/79",
+        "source_unit_hash": "823917b919e9817551fd824151588de82b569e53547f2b942bd247344ed6e8c2",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/83",
+        "source_unit_hash": "e95d14ddefa23a0d75b87cf7d465e54b485c84f467d5afa87961a12748385f0a",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/rows/1/0/0",
+        "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/rows/1/1/0",
+        "source_unit_hash": "5c1da827c2cf2c1a8e368b0a42b8401c82462e8f48dd03bbb5fcd63b2943210b",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/rows/2/0/0",
+        "source_unit_hash": "884f1518a9ad5d1380762b708d405f0b86192ba6ed71cf79ff321d7f70854492",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/rows/2/1/0",
+        "source_unit_hash": "5216031b95b910b7b781376112dd56bf4050036c2303edc7c7ec7527826088f9",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/rows/3/0/0",
+        "source_unit_hash": "6fbfd8192538c86013ae1170ead307313ca6290dbe20e9b9a262d8ed4dbef179",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/rows/3/1/0",
+        "source_unit_hash": "272f2a870a1c94d12b45e7967e71996a2f89722e71bfb3a870ed6380e1134c65",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/rows/4/0/0",
+        "source_unit_hash": "72e15f86b3908e69cbcefc24a6e0b2def83fa8df14342795e2a64fcd3e2ed469",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/rows/4/1/0",
+        "source_unit_hash": "458aa1d71eee4639e26503b785af648fb5b5d5833e819be48437612d7b53fd8e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/rows/5/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/rows/5/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "297b7d0cb19cc181c0f4b2400e1f6184c6975b03b6d69f5770a90b0dd9dc79c4",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "7935425db2f918f138cbd5e998ad17a017476d963a6d2d5c957a6cc84faadfe0",
+        "source_anchor": "Vision",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Vision",
+        "evidence": "Checked200%/140% enlargement,complete default/minimum type table,thin-weight adjustment,source-specific contrast4.5/3 guidance and scope qualification,Increase Contrast/light-dark,semantic colors,noncolor cues/customization and VoiceOver."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "1be88883ace69b35e574c609e096c54a92058a032ac123cc569802cfd4d8bdad",
+        "source_anchor": "Mobility",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Mobility",
+        "evidence": "Compared every platform default/minimum control dimension,12/24pt padding,simple gestures/alternatives,Voice Control labels,Siri/Shortcuts contexts and actual assistive-technology testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/83",
+        "source_unit_hash": "e95d14ddefa23a0d75b87cf7d465e54b485c84f467d5afa87961a12748385f0a",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

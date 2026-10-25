@@ -1,0 +1,38 @@
+{
+  "source_hash": "21af766f1517d40150d4ee32fe34cb35fe87ecfc69f3349a1768d6271d720b36",
+  "media": {
+    "technologies-generative-ai-intro.png": {
+      "status": "reviewed",
+      "reviewer": "root-independent-image-auditor",
+      "reviewed_at": "2026-10-25T13:14:40.975517+00:00",
+      "reference_metadata_hash": "27119cf7e0ee7a3abdd8e78b71fe131635cac927ce8951126c435ceb5c7a9a84",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-generative-ai-intro@2x.png",
+      "binary_hash": "87da7a74216a36763fc9730ee498913f0d21c8446432f43f2da9459f1293af7d",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "decorative",
+      "evidence": "Inspected actual light and dark introductory illustrations. This tinted topic symbol and construction grid identify the subject; they add no normative interaction, layout, or specification beyond the local article. Theme changes alter symbol/background luminance, not the represented concept.",
+      "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+          "hash": "dbf8c1e9f09e313a4b7f7a801d1f933fe89556b7153464d2eb5790bbd336b31f"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-generative-ai-intro~dark@2x.png",
+          "binary_hash": "16b2363c92b37cee2a27e4b36b46826f31d73a16e2921f037cd563f29a275161",
+          "status": "reviewed",
+          "reviewer": "root-independent-image-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "supporting_rechecked_at": "2026-10-25T13:48:36.234271+00:00",
+      "supporting_recheck_evidence": "Root reread the full final guide. Topic decoration still conveys no extra rule; VoiceOver image-caption grouping relationship remains explicitly retained under Navigation. Existing actual inspected-asset judgment unchanged."
+    }
+  }
+}

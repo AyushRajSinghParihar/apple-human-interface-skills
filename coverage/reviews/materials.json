@@ -1,0 +1,1487 @@
+{
+  "review": {
+    "slug": "materials",
+    "status": "reviewed",
+    "source_hash": "8e19516af00cba4983ad8e612f0337397615e8ec6fce1e46f48c69361c472ca0",
+    "destination_hash": "0d486d9c0cea38e430b4156ec07954c0ce33d3dab55165d7a1c215429c23553c",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:14:20+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "materials",
+        "status": "reviewed",
+        "evidence": "Checked foreground/background hierarchy and functional Liquid Glass versus standard content material distinction."
+      },
+      {
+        "source_anchor": "Liquid-Glass",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "evidence": "Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "source_anchor": "Standard-materials",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "status": "reviewed",
+        "evidence": "Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Per-platform material distinctions follow."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Checked purpose-specific/vibrant colors,custom vibrancy testing and behind/within-window blending."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Checked preserving default modal material backgrounds for context."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "f2e1841208f58bd74d291335b527684bf0a4e5312ac06bee474849537781c9ea",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "materials",
+        "evidence": "Checked foreground/background hierarchy and functional Liquid Glass versus standard content material distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "49a289078b37ce3bd51438df32fbeb93c07b698c9aaf93e49572bc6bf74f12e5",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "materials",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked foreground/background hierarchy and functional Liquid Glass versus standard content material distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "b7c46be32182e2fd10480375b195fd5cfbacc8276277dd32ae31c2af35fd0cc0",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "materials",
+        "evidence": "Checked foreground/background hierarchy and functional Liquid Glass versus standard content material distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "5c354891a22db7605fdcd5841b0fd43108337411fdf9ac4ee640dbc726a7b826",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "materials",
+        "evidence": "Checked foreground/background hierarchy and functional Liquid Glass versus standard content material distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "1f835612cda287f33d205e3328cea9f9cd3dfe145eac0e2e0cb3e11a72a8214d",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "f3eee6d6f0460ccfae165398342944d22674a440ea6dfd52c3cb64318c30cadb",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "d4784fd4d40f2c40d227432fd4be738319ea6a8bb35bff242e75d5aa3b3d68cc",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "f2e4d61369ed90fc5a56d907752fbe9fb4375da6030cc16f8939ef04c464e43d",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "aba90d3e87fb117bf37a0dadcebd08c9a5877cb8c70394ca2164930c3993bfc7",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/columns/0/content/0",
+        "source_unit_hash": "b3238254a59c840a139306ce5f1cec696a152b599e1559a7cd6f4954be401ce8",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "e5da755d9dcb6da44ac0453169ef597b81fc7ae13796ecdba9cee0d6a46b066c",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/columns/1/content/0",
+        "source_unit_hash": "45dcb04001477fa4b557e091edc4d903a2609bd272de97fb5b45f84280dfd125",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "ee03c4deaebc9f8a03acca01a41b1e93a8c90e56bfb0141b363af61ad39bc382",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "ac488b3cb2e1597dd069da0b0175197e5a91a0a33487b24f8d3c8114577d65f2",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "54e16fa8ae5c2acdcd1095229ff374abfd684b626286c8b95941aee3ad5339db",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/inlineContent/0",
+        "source_unit_hash": "3a7d93a6fa42ff15de95aa3e13e6ffc4548bd758414dd6af9261f7f534f443cb",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "ca540760e60ee40994b2de431b7080c28115e82960805cc3a9b217bc13db8e1b",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "df7509f5ac35cc2442fecb3683a39acf3c56516173a1e167560fc1e0b1127586",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/items/0/content/0",
+        "source_unit_hash": "dc7685bcdf09c48a4a2e079e9a2f256b23dbf3a2c56676a6d0ef6d05472f983f",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/items/1/content/0",
+        "source_unit_hash": "a8782bc66e3ae6a69061602212c7463a6affc938d4724eee28faa2aaba2b7334",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "9fea1c83dd321eea23cd1a00faf33aedeb19a299383c3d0732c70671d2b3e07b",
+        "source_anchor": "Liquid-Glass",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Liquid-Glass",
+        "evidence": "Checked content-layer exclusion/transient interactive exception, sparse customization,native adoption,regular versus clear semantics,35% bright-media dimming and dark/AVKit exceptions,adaptation to contrast/transparency."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "d14afeaca3638e09ef32a7fef275925763ebece08cdbf6096300fffdd08acfce",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "9880db4e450f51c80e52354f2726c2c2aec7f630366a8ecaed535c571ff73228",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "9e15375e6c107ea96ec79ef67f566ac51cc5ffdb8989ad2c93496614e326a803",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/0/content/0",
+        "source_unit_hash": "46e81bc41e2a90807fc4ef5485b9cd1c949057c7700c68efd5eeeae4e12f2e4d",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "edea8c34fcd7427abadc43045cb6c278722f65695c4198be2f2636e47db62334",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/1/content/0",
+        "source_unit_hash": "45a6027059d3099a483a84c81daaf18d954c026580a1161a4075002ed0089708",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "52312b8842a4fd50295483a73993aaa83ceff4dfa45e84d8ed74c76694b5d3c8",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/1/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "086dd33a7275e03777f168b0cbea218167181e4f70c6d1dfc48d5a856adf4563",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "ff1dcd2466ddff5634243fe5ad6a154d84f3686409445ae981a4def8d6874811",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/items/0/content/0",
+        "source_unit_hash": "0769b92e91a3375e41664525cdb9502396416fb7bbb4b716bd9f3f60e3f99361",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/items/1/content/0",
+        "source_unit_hash": "b8d075ffc5892a04a1768c67d0d19939f2ab82a09599469f5b11a1f8bd8f0ac1",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "568e37a26103e4a0bd5c9e3c27d3f8ed0739ed6538e757e352c2bf9577f42677",
+        "source_anchor": "Standard-materials",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Standard-materials",
+        "evidence": "Checked semantic rather than sampled-color choice,vibrant foregrounds and opaque-detail versus translucent-context tradeoff."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "49d82aea30af6b184688bf0ba891ff700749602b2439e2cbe894a478caf5207e",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/0/content/0",
+        "source_unit_hash": "9b5f71b0a7f86e3692b620483290d3f49a276e907b3300b4f61aa1d37a7da92b",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "27c2c88ba161417bb73e3c922c0b587493e9a35e975b86ec0583c326b4294e72",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/1/content/0",
+        "source_unit_hash": "d47d8586e2210ff8f5556b4bdd199eca122368647734d6cc5ca96ec1b2b92909",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "c3b49d95d99cf2f31d8791ecabc395ad8b93f51fba2d05ccec1421aea00703f0",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/0/content/0",
+        "source_unit_hash": "75cdf647ca3e6ad5e1ad789ed471d28668c3d4f040a398da15f7fc839ca48854",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "33084783b12ec194295ed35c61e1e4267258b199b8bd98c8e28a1a4e816b7d05",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/1/content/0",
+        "source_unit_hash": "4f283372a804c6d40cd224bd2d2ef68504f3f46230cf5457a04e5846e05a61ce",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "8454d9df93e6549cac48252de3df81662b35fc073d9ea5a8c03980ba31b84cd6",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "c74b676e1878954c0665999267f386212ad3e99a20bb9e223f55afc315f1c0b4",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "55cfb2ced15c359bc46db6bc477a2c47a4d5dc1d99b4c6174c7923ca047d4880",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "670d405640b99690626b2a7ddb2a4a9cddbe1fc586cd41d65d66ef69ed15200c",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/items/0/content/0",
+        "source_unit_hash": "629f2adc2f8dff7d5ccd3504800ce29a59e7578e8320a2cb43aa4e25613af8b7",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/items/1/content/0",
+        "source_unit_hash": "87b1817d68cfcf8cfeb475e22b9b3e37e2cd8146284846d51485ab5bd554c895",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/items/2/content/0",
+        "source_unit_hash": "23bedfa51e4408d2afb1b060bc4beb6c0ff28c1e55c1d435eaaba0454aa7e89f",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/items/3/content/0",
+        "source_unit_hash": "38c31afbe5fd33f7cc5dd8b6226697dda141e2e9a0e83d07d5615305dd4dd850",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "a1a26fa7af168365efce5601973797900e4aa186f95f17c337818c58a50e31d6",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "ee6a89da4e112d28ff1167d0fd27b3f4aa660efe368f268bb9a6f6caad6c3362",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/items/0/content/0",
+        "source_unit_hash": "e0d0d80a3d2dbacb70d78c15585484d4ebdf1c0fed45c91dd7cf8fc1420ab21e",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/items/1/content/0",
+        "source_unit_hash": "cda915f289e862f3c348c8a81ab45e124866a5cb29a9c4667c8c7a32790257b2",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/items/2/content/0",
+        "source_unit_hash": "5de8e85d77d934fbc3c773dc3f5a99008502c5088140ecae36977b9fc17c4a03",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "801fcac75fd6e202a0c49e14c8e3d18eb812043d694320c418e9ff6e582d4bdc",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all four materials,four label levels/quaternary thin prohibition,three fill levels and one separator level."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "698d7450415a6f468e5a2d4a8bcd677958239d5b13c834f4d2268b6057609a70",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked purpose-specific/vibrant colors,custom vibrancy testing and behind/within-window blending."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "fd58e025808f2d70f3c4334ff5965a4417906303873fc2102a2b4e173f1d12db",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked purpose-specific/vibrant colors,custom vibrancy testing and behind/within-window blending."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "641957ad6d5611d0e666e4d1e702ebb57a0d3657f196b51eed1c93d5b7dce2e3",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked purpose-specific/vibrant colors,custom vibrancy testing and behind/within-window blending."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "448d09673ac4e9db82aee644689af8129d2ffa7390c2ccc34916d9b053a5a60a",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "13632259d43a342aa883bc70cc340ff0d0b21180da8ea1284f13877eab33dc41",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/inlineContent/0",
+        "source_unit_hash": "a03d4600b7facefe321571aada35618be0fdf53fc12417cda894fc9e0a5913b1",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "48b9fa9bd034a0b5fe843922e0fa9d2b5d115f7d321c85eb258ce9d5709f19cf",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "20f816d7050f378e9b257df999dd81e6cf34a27f52c19456676313204eabb5c7",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/0/0/0",
+        "source_unit_hash": "cc6df56622d3b6c52428a7afa74be10d117a3b624b67ef28faf3645b69ed0501",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/0/1/0",
+        "source_unit_hash": "f904d2ebfc6253261136fc134d2e5d3646ad09f5d900cf2dcd2c15e606444c25",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/1/0/0",
+        "source_unit_hash": "8a99af0ba1b02746c5409978ce33a59b77c95cdbe1f5ff773c3d6ded89c6c106",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/1/1/0",
+        "source_unit_hash": "5c6687d92ea54cde578de227ad5061d0c7947e274fba2bc783c08497d4f2e2d7",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/2/0/0",
+        "source_unit_hash": "cc8561c775ffef6f9cf7162cd014abd077c0d9b03409dd91e3c179c6389fa8cb",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/2/1/0",
+        "source_unit_hash": "6699d860faf312cd979f1184552b140ba2616baa71e62d586253852eb1347cf2",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/3/0/0",
+        "source_unit_hash": "f1f2cb61585a179b40f45cc562fa2dcf7d658fd6e45c095e8dd849576eb52197",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/3/1/0",
+        "source_unit_hash": "abe72952c73f7a674ca1ed0adba1ade15138dbcc22b47b957ff172beb30ce716",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/4/0/0",
+        "source_unit_hash": "1f4797799e0fdc7bb97c480137f9429e534c5b0c740cd506d60227721e86cff3",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/4/1/0",
+        "source_unit_hash": "64295bacfc31ee4758aedd4186b424f4b32737bde74b3a74ec8bf1dd3f56fb69",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "0891acd30ea666d5a0440512e6990a77c0e3f5400a15133c224f987913e251d1",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "c719859af33f4a563c9aa88af780b6ad7806dbfd10c427dae01fbb0b80c11d8e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "555a7f9c5a9a1d844fda8c3b8f6336bdf3aedc65ae2c81108cfc257b716882d3",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/46/content/0",
+        "source_unit_hash": "cc1ccf9877e2a77f337a3061091d3c11ec23816bec12f2377dc37d193aa37895",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "dc5e13b361f3b4173cda46aae3ca114578cff066170ee029b65e1cdef93661b8",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/0/content/0",
+        "source_unit_hash": "692a5453408e0686604017c5339f9e4280cdfaf1869f61a5d8fb2fefe8b22924",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "8740e48c5481ded136c1ee973cf4a1cfafb6d0495bd919c625c36286171b885a",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/1/content/0",
+        "source_unit_hash": "97d1728a1e9969016257313eb73a00bcdb7c32e68646b27389a58f6ced7a82c9",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "66aae852848823e99d98331ebbe41ab7be6d546d2103fb0abaeb62a07ea3c184",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/1/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "b9a89c4fcfbe71ac6bea73a6ef9da816ef21024d1f4ede85b14ed3eb1910605b",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "d524e226032753557d3aba6a2be8432f02f7270a13c53a85703261a75e1c870b",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/50/items/0/content/0",
+        "source_unit_hash": "b7bed1a0eba29d9274eeb8efe22bc93f7fc9c1969facdfc8c840edd14ed55699",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/50/items/1/content/0",
+        "source_unit_hash": "2c9ead9708ee3f72bffb13f63c378e85ec5b4b3ca980b0178ec52fb044b70a69",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/50/items/2/content/0",
+        "source_unit_hash": "5a8ea3e5dd5ddc7fd4e0077a151840cab662ec237c800780139d99f3e6fcc3d5",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "10011bb57ccb54c0a1d101c2021c183b0704c2bde9efb5da86c1358dbcc59e22",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/inlineContent/0",
+        "source_unit_hash": "81503c9eadbd2e7e8faf210e5c250ceca6f971d5b87829502e7fdca22c11e3a4",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "7887dd21c99b1e354333f39a2b547c05b4dd2558621e687dcf58687474ec88bb",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "deafe71a4fe070a2e917d506e8f987a8998f1b7614ba828e933c4f7ff3c63e25",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "bdece0f01193d3a881904bdcf035677d94b0f8d054f820279821924445f18b25",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/items/0/content/0",
+        "source_unit_hash": "9b79fec79e17d78a382591c4f52dd708126e4b18856df1e3ac6afa16281e7735",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/items/1/content/0",
+        "source_unit_hash": "39cf4767fec15f93972522347307a32dd5a3db184c52df935a197e4f56cd0ce4",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/items/2/content/0",
+        "source_unit_hash": "59b3e29e8ca65bc0cb646761b84a8e9b667d0cc8accb89322d68d59ca76d09b5",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/55/columns/0/content/0",
+        "source_unit_hash": "2fe7ce3a19f1fe7f91fa6f2703503b39fc7259a5dc9ad8e529df4bad2ad2d585",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/55/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "2c525e6b6ddf0d420a410e123cb1b26ceb89441fd0d9c3222b5a197400d9710a",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/55/columns/1/content/0",
+        "source_unit_hash": "061041f5073197484a68736ce91f2924fcf9266ffba42733833a742bc94cc088",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/55/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "fa2d75a8b2baa64cb562386b2ab429a71826effa2deed468128532016586091d",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/55/columns/2/content/0",
+        "source_unit_hash": "248024f725bb99afcafba1f878e56ec065b1591abfda59dae1d0bc3619574ff2",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/55/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "b78c9b2ce1646f1bf1124de5886d4b44265b4bf04e6920406554c29839249dc0",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked unmodifiable adaptive glass,no global Dark Mode,translucency preference,thin/regular/thick uses and three vibrancy semantic levels."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "542741f4fda5e35ba1265b08ac628f8ec1088440256da4baf3fdd5f0222d3f8c",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked preserving default modal material backgrounds for context."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "49deaca8b4aef21d713373e516d06ecae671e8a718b8242b70cbaf294c473cbd",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked preserving default modal material backgrounds for context."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/inlineContent/0",
+        "source_unit_hash": "5ab0eeceedd30a4d51234ef4d9dbe34d8db84b1619546ac6db9a5a09bf3575f2",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked preserving default modal material backgrounds for context."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "ea7c5dbc5065c266c7ba326d077e501bfe54f74749d967e289e4c18f838d428d",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "a147a3e60155b5358dfa5872d80aeac956318b545b4f80e4d91e15c60f1edebc",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "07756847eef841b7912570d89d6bb31a94447fe95b4b6086895665ff7735574e",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "921247686ca52cf03892fea35a8af8b5cc1531ac930a5ee60892ed9c28164f6a",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/66",
+        "source_unit_hash": "63ce64a9655b91342f48b6f77d07ef0fd95c2580828d83d79dc1c0688ab6eeb7",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/67",
+        "source_unit_hash": "062994405411f116d7d62aa88c17790a3f8d86a2d3a45c053b22690b661d2367",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "2144de94b76124bfe7b015064fa7ae5b2647aee5dca08a57a59bf9170989c961",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/69",
+        "source_unit_hash": "12e16cfa215442baca73a63a05b1787c49ad93ea050d67fd08437d500c3e4eb5",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73",
+        "source_unit_hash": "2fabb9a6cede9a9ddfa04e25c33594ddefdb1e42609c91579d3dfb318a9edb44",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/rows/1/0/0",
+        "source_unit_hash": "28bc6cd1c2fd4178e3faac9c1a03f367231c25d4818d7f666a37a2d8f3e06275",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/rows/1/1/0",
+        "source_unit_hash": "8e2ce52850797025f3d7bd67195f1b2b5a70f5a30ce07ea4a2adb1111e86add5",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/rows/2/0/0",
+        "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/rows/2/1/0",
+        "source_unit_hash": "02e57c19510a2b6a826b73a555a0f7a8323da44555cccb81d9f61686ff54db89",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/rows/3/0/0",
+        "source_unit_hash": "39d9a643a6e12f9fab40622b0131d46817e80c52d21dede6e7e8d4030bc0722d",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/rows/3/1/0",
+        "source_unit_hash": "beda37bb621aca83b21a36ef260baf232645aa735077d99f32b5deb03757f8a1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/rows/4/0/0",
+        "source_unit_hash": "72e15f86b3908e69cbcefc24a6e0b2def83fa8df14342795e2a64fcd3e2ed469",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/rows/4/1/0",
+        "source_unit_hash": "401a0242b433f59ff155fc96f600ac01f4bdc01b111044420bd880b8048b4d8a",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/rows/5/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/rows/5/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/rows/6/0/0",
+        "source_unit_hash": "937d2d87f6be46489d91c6c598d77898e230787b56f889b2c1e16309f42a1ad2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/rows/6/1/0",
+        "source_unit_hash": "70c3356a64d75ceadde8a88673c1c84cf18d5e7130aaa78b5438998165b6d0fc",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "20f816d7050f378e9b257df999dd81e6cf34a27f52c19456676313204eabb5c7",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Compared every material/recommended-use table row and Liquid Glass focus/navigation contexts."
+      },
+      {
+        "id": "primaryContentSections/0/content/73",
+        "source_unit_hash": "2fabb9a6cede9a9ddfa04e25c33594ddefdb1e42609c91579d3dfb318a9edb44",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

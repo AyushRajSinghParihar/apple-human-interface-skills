@@ -1,0 +1,1445 @@
+{
+  "review": {
+    "slug": "carekit",
+    "status": "reviewed",
+    "source_hash": "69a4737e2a00076ed75ed12c525c76dd93a25826c311e05721a4905d0061b5d6",
+    "destination_hash": "37c6cd81af702930e5e097d51c9bcde9e94667d615a3ec2dce9aab62a8b630dc",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:21:46+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "carekit",
+        "status": "reviewed",
+        "evidence": "Verified care-plan purposes and CareKit 2.0 UI/Store split, on-device patients/plans/tasks/contacts, and synchronization."
+      },
+      {
+        "source_anchor": "Data-and-privacy",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Data-and-privacy",
+        "status": "reviewed",
+        "evidence": "Verified privacy-policy URL and protection/permission duties for both entered and device-sourced data."
+      },
+      {
+        "source_anchor": "HealthKit-integration",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "HealthKit-integration",
+        "status": "reviewed",
+        "evidence": "Verified contextual authorization, changing permissions, concise system permission purpose messages, caregiver sharing and sole system privacy management."
+      },
+      {
+        "source_anchor": "Motion-data",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Motion-data",
+        "status": "reviewed",
+        "evidence": "Checked permitted activity states, steps/pace/stairs and physical-therapy sensor applications."
+      },
+      {
+        "source_anchor": "Photos",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Photos",
+        "status": "reviewed",
+        "evidence": "Verified consent-based camera/photo documentation and care-team sharing."
+      },
+      {
+        "source_anchor": "ResearchKit-integration",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "ResearchKit-integration",
+        "status": "reviewed",
+        "evidence": "Checked surveys/tasks/charts and consent-module integration."
+      },
+      {
+        "source_anchor": "CareKit-views",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "status": "reviewed",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "source_anchor": "Tasks",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "status": "reviewed",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "source_anchor": "Charts",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "status": "reviewed",
+        "evidence": "Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "source_anchor": "Contact-views",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Contact-views",
+        "status": "reviewed",
+        "evidence": "Verified simple/detailed styles, trusted contacts, supported communication/map roles and category-color use."
+      },
+      {
+        "source_anchor": "Notifications",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Notifications",
+        "status": "reviewed",
+        "evidence": "Verified sparse/coalesced reminders, caregiver-message badges, detail completion actions and Watch notification support."
+      },
+      {
+        "source_anchor": "Symbols-and-branding",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Symbols-and-branding",
+        "status": "reviewed",
+        "evidence": "Checked stock symbols, grid customization/SF Symbols, care-relevant symbolism and unobtrusive brand treatment."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified iOS/iPadOS support and unsupported macOS/tvOS/visionOS/watchOS."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "5667279b9bd629fa780ea15958bae6f8206f13426ac3c4a847a93510236ba89a",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "carekit",
+        "evidence": "Verified care-plan purposes and CareKit 2.0 UI/Store split, on-device patients/plans/tasks/contacts, and synchronization."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "dcdaf7fe2b4ced6d20c227a7560ccbcf9ac52bc5e4f657e20b876c9659c03fe0",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "carekit",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified care-plan purposes and CareKit 2.0 UI/Store split, on-device patients/plans/tasks/contacts, and synchronization."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "fab76f9303f14c3c0470d9d4de44202dd7f18c24ed1bc56396019cd6be5b499f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "carekit",
+        "evidence": "Verified care-plan purposes and CareKit 2.0 UI/Store split, on-device patients/plans/tasks/contacts, and synchronization."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "525119b0f09a3482a9c035b0add7e07bbbe2f7bc897596abfee32b8110d2da58",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "carekit",
+        "evidence": "Verified care-plan purposes and CareKit 2.0 UI/Store split, on-device patients/plans/tasks/contacts, and synchronization."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "8a6a6bc1948802cd7cc866f09647ef3accfa381326cc7d3e08b2434dc0184216",
+        "source_anchor": "Data-and-privacy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Data-and-privacy",
+        "evidence": "Verified privacy-policy URL and protection/permission duties for both entered and device-sourced data."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "e90a8fcb57a312e71779461b0b7bd63c5ed6b74fe285b0f446051e020b77958e",
+        "source_anchor": "Data-and-privacy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Data-and-privacy",
+        "evidence": "Verified privacy-policy URL and protection/permission duties for both entered and device-sourced data."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "3cd24229b09d6ef30d376cab23c3fa6a04b809a76c2691e8fb55b0464334791a",
+        "source_anchor": "Data-and-privacy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Data-and-privacy",
+        "evidence": "Verified privacy-policy URL and protection/permission duties for both entered and device-sourced data."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "d7eac72708dd969e1e351d3e397a877276b08fa220922a62a288110ecb1ced10",
+        "source_anchor": "HealthKit-integration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "HealthKit-integration",
+        "evidence": "Verified contextual authorization, changing permissions, concise system permission purpose messages, caregiver sharing and sole system privacy management."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "29cb92fddcfa6ec572f8ebe4c882ac2aa2abc9662db0a52410bb178b91c76f75",
+        "source_anchor": "HealthKit-integration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "HealthKit-integration",
+        "evidence": "Verified contextual authorization, changing permissions, concise system permission purpose messages, caregiver sharing and sole system privacy management."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "44f10bc008854c5c7edf411eac364ee2598b8f710dc3143b9d0dbc7f26c30fa6",
+        "source_anchor": "HealthKit-integration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "HealthKit-integration",
+        "evidence": "Verified contextual authorization, changing permissions, concise system permission purpose messages, caregiver sharing and sole system privacy management."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "07ce538c5be29e040b3dc46dd682579a1709f3b9d4dd990aa1627d8dc95379f7",
+        "source_anchor": "HealthKit-integration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "HealthKit-integration",
+        "evidence": "Verified contextual authorization, changing permissions, concise system permission purpose messages, caregiver sharing and sole system privacy management."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "8fc14aa360f5ab16f26c234cc04c0cc94d2c70256d7a7be279c08b63cc863d8a",
+        "source_anchor": "HealthKit-integration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "HealthKit-integration",
+        "evidence": "Verified contextual authorization, changing permissions, concise system permission purpose messages, caregiver sharing and sole system privacy management."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "b825488ae6485ffae6a3746ea613b14cba119dc82182f2c015ea0a7a53055a9d",
+        "source_anchor": "Motion-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Motion-data",
+        "evidence": "Checked permitted activity states, steps/pace/stairs and physical-therapy sensor applications."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "c432613fdaccdaa8536817889df9bcbcedea9ce753d9fb52b028f12223a8131b",
+        "source_anchor": "Motion-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Motion-data",
+        "evidence": "Checked permitted activity states, steps/pace/stairs and physical-therapy sensor applications."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "5a6157603006e229846903618d4951f74385c03f3453cfd7fa7600d9ef60d83e",
+        "source_anchor": "Motion-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Motion-data",
+        "evidence": "Checked permitted activity states, steps/pace/stairs and physical-therapy sensor applications."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "079b5a5488a4ced64ba077aa654d8b400dd56ad47798f92153fa52c01343aa22",
+        "source_anchor": "Photos",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Photos",
+        "evidence": "Verified consent-based camera/photo documentation and care-team sharing."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "ad7e404cf6666549a4ff7089d80cf599fa795639da865dc16238f66338b555be",
+        "source_anchor": "Photos",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Photos",
+        "evidence": "Verified consent-based camera/photo documentation and care-team sharing."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "702b72e01c34d9d51f2c832fb3ef2848ff7f4edc4d7b27b82e94de6837ee1a55",
+        "source_anchor": "ResearchKit-integration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "ResearchKit-integration",
+        "evidence": "Checked surveys/tasks/charts and consent-module integration."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "ff44092ee612bc358cb86a3340e6639f11f3d023bd6a1244c5959f29a866885e",
+        "source_anchor": "ResearchKit-integration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "ResearchKit-integration",
+        "evidence": "Checked surveys/tasks/charts and consent-module integration."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "cfca222033b3de1635300d50986e05f592334520f7f1c3c23803d747acc8271f",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "0eef94c78d82e4a264e937e025ff90a1ffbfb59f39f399e4d79bef4f63f3b69c",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "f3db836240d84113b9dd65157fae36ed1318b368dfbb86d324f5a9cd2881b745",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/rows/0/0/0",
+        "source_unit_hash": "7dbb8106224b692e55945fdf52c1312f12d2ca9d6241b2f8d9332a35fff485ed",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/rows/0/1/0",
+        "source_unit_hash": "a8975d8924c306f2bcac4e2e3767a93c1ad9845e06f84f3ce59872759bbfb0ce",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/rows/1/0/0",
+        "source_unit_hash": "6d6e8ad9a272be1bec3a405614e9a36545f3efdcfe3d48e7af87f030da3dcfcf",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/rows/1/1/0",
+        "source_unit_hash": "9d0f8d2675e8d5f5e2f1c5eea0c64e459fc0578caedf6639bd5e00675f96e6c3",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/rows/2/0/0",
+        "source_unit_hash": "fe2c6110ac15302ffde15bedb3a03207b5d03e6f491bbd36e785c442e61d62c4",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/rows/2/1/0",
+        "source_unit_hash": "8830792f5520f13192905e6fdc0b625a2020dea1c617c65fbd414278ae8cecfe",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/rows/3/0/0",
+        "source_unit_hash": "0fdc9cc7fabb17fd9f45debe6cf4cb46ef59980414acb77ac08df067992a34da",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/rows/3/1/0",
+        "source_unit_hash": "5f31c649a72e4b51119f028b46336c7284da09503076c9bd1d8bf8a7775be45a",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/0/content/0",
+        "source_unit_hash": "b0c22f71fe2bd8a6c74a7b477358f89c5e823028b2c8d15efd83c3134059df92",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "5950d58e59c84c30b59d7ad8689e43223e738b6577565871d54bf66ba1b4696a",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/1/content/0",
+        "source_unit_hash": "5b0f74c959b71bb2f9802cd7a7e64e3f6a1943f6959d3bb54bfb814b4c4dc3a6",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "abc486ac715bfbe5accdd297ff6f257dea96ca39833ea63a9379648334c10919",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "cd64e0030c8159dc77396a5092329eb2eb59e1811755cecfeea5a9f787478bae",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "c5c09a95369ef012eec39f6697263f09356f29f5587465b0eee0fe0eb85bef7c",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/inlineContent/0",
+        "source_unit_hash": "1803dc89c13ebb52220bc54973b8902c41dd6d376bc1c4f3f3be15c24be0128f",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "cd587c54d15494e1cbcc6c204d32a7041c34228844740daa233c7eeebbd88b04",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "3dfbae38023086da65612d886c24d525f883eda4be3f15c612c8cb9d73af34d7",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "8880136c648216f7a704d397f07cc50504b41827e782fde0fa8c7112ec93b666",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "05519fe09469503b0dd66809de3b3df17ee99b4d0b67149bcbac9dff698503d2",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/0/0/0",
+        "source_unit_hash": "c309cbf6893c2bb2373a505e31ccc8291d7548a426377eb1ca8c958adf942553",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/0/1/0",
+        "source_unit_hash": "4891d84464bda9cc557e151104b62f91c9fedaf6572b48c159aa33cfc952b8be",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/0/2/0",
+        "source_unit_hash": "d27cfe2be6d725f2cf2f5d293f665f7d4f0ae353a9ab5ae8e5f5559e01bdc216",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/0/3/0",
+        "source_unit_hash": "2f7cf7758174829f799044e2bcd3bfb04483e5bea2e1d0d9f0574f8996140414",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/0/0",
+        "source_unit_hash": "150313aab33423c69fd4c581637d79f3c72c39581dbd94499e7bb001d0f83141",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/1/0",
+        "source_unit_hash": "d3d55d837bad5873d967f1c6d564dc5aed906443df7a4731350806f33964824f",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/2/0",
+        "source_unit_hash": "ba5a1587f0c265932ad0f3638489bc84a5d0c370471d0f4a65d4fe6fce9a7715",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/3/0",
+        "source_unit_hash": "416ca2309cf8b90fbf127567ec8e659d5289592ced2fae587727bc9fb0646a29",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/2/0/0",
+        "source_unit_hash": "7965e863bdcbf2ba8812a9f61c9f6fbffa67cf9edd8a3f407eda8108eeef32d3",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/2/1/0",
+        "source_unit_hash": "d3d55d837bad5873d967f1c6d564dc5aed906443df7a4731350806f33964824f",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/2/2/0",
+        "source_unit_hash": "f3593105da6a9bd1d74650fe395c89a0fdd893e0674c79f25a79433ed33553bf",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/2/3/0",
+        "source_unit_hash": "fb2280e38e55fd1e2102f64a4a01a66f16d679b3071d3ca80878844f3111efed",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/3/0/0",
+        "source_unit_hash": "c4331d090fc027d85568c21aaeb19d06fec20587f1b04ed38fadc6e4151ddd55",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/3/1/0",
+        "source_unit_hash": "7aa1a106895cc725e2548726bfcdcacecc76ead94d8fc065771fa1d8f1b228da",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/3/2/0",
+        "source_unit_hash": "581d96f15950defff32f3299bb196a042234428e6f6b760e62ff0a0654e8f19d",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/3/3/0",
+        "source_unit_hash": "2f7fe19fdd8e7cd7149e1d5ea4176adf1fca419384136e96d7cbcdf08fd2157f",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/4/0/0",
+        "source_unit_hash": "59f276e1d2cfd65ca3727f13439ee6499087152f310e98e67b96dd01827d4ade",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/4/1/0",
+        "source_unit_hash": "7aa1a106895cc725e2548726bfcdcacecc76ead94d8fc065771fa1d8f1b228da",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/4/2/0",
+        "source_unit_hash": "feb7b12937b461c5da43c4620e3178eac51fef100863a27a4c934b728236cc64",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/4/3/0",
+        "source_unit_hash": "ee3e53122fe89b7f7759e50751d0167baf54b1ccf22f7bbf83d43c729e0ce2ef",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "2fa2d0b15f35fc39455b53e4bd7511720f95a9e62b406194f209717dc6a0de66",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "30167cba197b3c78ee55fe7a4fa426f0e980f05d3c30a49b6c50ae81847cfaec",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "126b0e3ba001a063d0959b0cd9561f44087d5aba10954478f5bd457e6a0d1712",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/inlineContent/0",
+        "source_unit_hash": "9a24b71de58d0e7fb1c49f5432e98133d7457325ab45e5303d112f0d72282666",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "e3dba044c3cd5eeffa2644e3f3774d2e2e93bcbd9e123c4e63f74aea42b06181",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "b04e992d7a9210c7eb2f413c910359deab88998d460f11824b9dc472f8e57875",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/inlineContent/0",
+        "source_unit_hash": "a7e1e9e97ec5bd1851f277cf4b4df18d686afc80a84ae362c8ac05b58a8277f8",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "b8f550751c13d7735c3265720f612ce0ed29378d0c9b6027ca2072d745ab76e0",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "62d1a714650d657f33f9f9c629a27c840ed1a6f9e05cfcb57dab49361997066e",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/inlineContent/0",
+        "source_unit_hash": "684192cf0b0e4d9e574c56a50492a92df230342414df800286cde84bab502929",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "25d84b18cad9e5a0589c5f99a744a197b2d3b37929ea5bbfc2615770cbe1d60f",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "38e1ddd828f8b74a8e684c5406bc8e48bc1b0cc2c213307be92b32dfa36181cd",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/inlineContent/0",
+        "source_unit_hash": "ef002c651758035b4fbc08b4010d6b3b09cb5dd5aebda0df25e195b2b88e0020",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "497287bb3e80eecac3a88ded0e66bbca37963cdd866e114ae0f271391a1698b0",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "49a4927475caf2dc67d16956dc102da2db9da3b11ec63870e1b24e565df0989c",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/inlineContent/0",
+        "source_unit_hash": "e753f7c8283fa6c4b4cad4530469d575341951bf152e417778a8729c589c97b6",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "2f159361713ad6b6171ee7ea8fb2049619f2e39e9b57165eafeb253c3373d01a",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "a20709ce243b6352535457bb0b84380a37e54f8c1bee80f7dd93cd5b0303bc31",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "e7effec3df1da4959f631a37c6a059c9504ec0536623ec74e655f0ea0751fbe4",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "c55f3fa63ba6d426e291a83487017af85e508764b5914e8af707cef406e75211",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "311af3ce7ee3f4a5f14828a152bfdfe18a35713c004a57de8a9f95b62a1e44d8",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "156a3214fa1828be50ef98ebcd6e704e32aee85b58b404676161802db428f5b8",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/inlineContent/0",
+        "source_unit_hash": "377c84c4fff2a97a7550b9ae78682c3000fe176437312ecc741bbc9bb91971e2",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "177059324d34ee812c5abc8a74dc82bedc35ce79188a1fcadd2e126190eb1a3a",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/53/inlineContent/0",
+        "source_unit_hash": "dee86d88bca6a652ad91a9053661cc2ffe7368057a226c4806bb47152da1b425",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "742044de46aff9c9b606dae93781aeb1ba55493ddd80dea0531932f60599c0d6",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/inlineContent/0",
+        "source_unit_hash": "68dd0184648f9af3764c8cfb0ac9852f7cfc9b7bc7b63e9c555d7ff5d299ccba",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "942fe27dac7af3c47ddc5dc1896039a157a7b2e0c6f5b6282a2c9f2935647796",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "a0496de54598ee6dae2762767f43278024df2a03d7829b49d368801c27040944",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "70b6ea0876cd4c69696847208a87a5fa2ef8b12593b9f1acf1013310779fb370",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "5230169c2a3126fee7ad9c16803d672d67c06ba0a90b8bc9ebb9742061ac784a",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "1911b01701f3563e1505cf453a0b94dc2122abb22423a488ad85bf953277dd71",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "dc6ef9efca2b05d69e91c6b4f63ca8c65f95d565527304f134941c58499e1f67",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "3f7ac4f3f3b66785a453dbc159f25bd056efead9d612ae41d618866b874b0991",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "6de909c495dd9baa685fa2b73bd9457bdc40a18a95f4e0da208de57278900f17",
+        "source_anchor": "Charts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Charts",
+        "evidence": "Checked three styles, title/subtitle/axis data, current/historical updates, trend emphasis, units, legends, contrasting colors, consolidation and extreme-range restructuring."
+      },
+      {
+        "id": "primaryContentSections/0/content/64",
+        "source_unit_hash": "a27b30401bd143e6b981722c725d7bd3f132a51bcffd7516c233b4c6d0f76336",
+        "source_anchor": "Contact-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Contact-views",
+        "evidence": "Verified simple/detailed styles, trusted contacts, supported communication/map roles and category-color use."
+      },
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "4e7e55f1bd61c525c66173be922a0f343bee1c792418df2dbd4c3b2c3ca52cc6",
+        "source_anchor": "Contact-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Contact-views",
+        "evidence": "Verified simple/detailed styles, trusted contacts, supported communication/map roles and category-color use."
+      },
+      {
+        "id": "primaryContentSections/0/content/66/columns/0/content/0",
+        "source_unit_hash": "202292f2e1511b0c5b02663fbb7ba0d2ef4953531f651148cab46cd8e6acafd3",
+        "source_anchor": "Contact-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Contact-views",
+        "evidence": "Verified simple/detailed styles, trusted contacts, supported communication/map roles and category-color use."
+      },
+      {
+        "id": "primaryContentSections/0/content/66/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "7bda76dd3ba79e76a9bf2ef2df02cbff22f2b3236741eaca0f703a4e0be258bb",
+        "source_anchor": "Contact-views",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Contact-views",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified simple/detailed styles, trusted contacts, supported communication/map roles and category-color use."
+      },
+      {
+        "id": "primaryContentSections/0/content/66/columns/1/content/0",
+        "source_unit_hash": "928fb59cf1958edd8ce2f4f6ca15360262880d7e2b6aec72b8c4c9ce2932b59d",
+        "source_anchor": "Contact-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Contact-views",
+        "evidence": "Verified simple/detailed styles, trusted contacts, supported communication/map roles and category-color use."
+      },
+      {
+        "id": "primaryContentSections/0/content/66/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "4c1318e99536b20c76ccd0d3fee49e670ad2c6d881267691778b51f12f0a99ab",
+        "source_anchor": "Contact-views",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Contact-views",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified simple/detailed styles, trusted contacts, supported communication/map roles and category-color use."
+      },
+      {
+        "id": "primaryContentSections/0/content/67",
+        "source_unit_hash": "57769a485147e69b9a1ee04b8f159f14b83e45e59cc7deca679d364bed82476e",
+        "source_anchor": "Contact-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Contact-views",
+        "evidence": "Verified simple/detailed styles, trusted contacts, supported communication/map roles and category-color use."
+      },
+      {
+        "id": "primaryContentSections/0/content/69",
+        "source_unit_hash": "5560927a0f7f6388a4ca8f4b6e7c0d55e2ba63c9e10261f4a185cc5000282049",
+        "source_anchor": "Notifications",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Notifications",
+        "evidence": "Verified sparse/coalesced reminders, caregiver-message badges, detail completion actions and Watch notification support."
+      },
+      {
+        "id": "primaryContentSections/0/content/70",
+        "source_unit_hash": "f91841b455861d22bef88d099e5ef8e2b4d451ab317ed4987fd560a4b61c2a50",
+        "source_anchor": "Notifications",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Notifications",
+        "evidence": "Verified sparse/coalesced reminders, caregiver-message badges, detail completion actions and Watch notification support."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "a190bd25f1f78b2c61dc30d55487dd6e9ec73e17be3571131517fd17e59f5d5b",
+        "source_anchor": "Notifications",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Notifications",
+        "evidence": "Verified sparse/coalesced reminders, caregiver-message badges, detail completion actions and Watch notification support."
+      },
+      {
+        "id": "primaryContentSections/0/content/73",
+        "source_unit_hash": "5f114bdf6f358cc4d2b8e460c9d1d797f2d11646ba4499f9ff7cc00af1c56f6b",
+        "source_anchor": "Symbols-and-branding",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Symbols-and-branding",
+        "evidence": "Checked stock symbols, grid customization/SF Symbols, care-relevant symbolism and unobtrusive brand treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/74",
+        "source_unit_hash": "1e2c57f3c44228b2f9294a98a97fa5e28613dfb2fc113f2b7b4c7d2f7096104e",
+        "source_anchor": "Symbols-and-branding",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Symbols-and-branding",
+        "evidence": "Checked stock symbols, grid customization/SF Symbols, care-relevant symbolism and unobtrusive brand treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/75",
+        "source_unit_hash": "8eb6e399170fba8ac950ed391ff9717cb18bf7ace2096507ab738c89b45072ec",
+        "source_anchor": "Symbols-and-branding",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Symbols-and-branding",
+        "evidence": "Checked stock symbols, grid customization/SF Symbols, care-relevant symbolism and unobtrusive brand treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/76",
+        "source_unit_hash": "7c124ca3f7b74d789da7b31f49bfe2aed03d62a93bc7b141bd4d4fe101663189",
+        "source_anchor": "Symbols-and-branding",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Symbols-and-branding",
+        "evidence": "Checked stock symbols, grid customization/SF Symbols, care-relevant symbolism and unobtrusive brand treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/77",
+        "source_unit_hash": "e9f88b4671982cf720f6472d9d15769921f6a7c8714162ca6fbd9780151bbc01",
+        "source_anchor": "Symbols-and-branding",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Symbols-and-branding",
+        "evidence": "Checked stock symbols, grid customization/SF Symbols, care-relevant symbolism and unobtrusive brand treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/77/items/0/content/0",
+        "source_unit_hash": "ef796ee3cb00b989ea2721157b08e4e8013eaa4a466e99c5b1f18010c1ebf3e8",
+        "source_anchor": "Symbols-and-branding",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Symbols-and-branding",
+        "evidence": "Checked stock symbols, grid customization/SF Symbols, care-relevant symbolism and unobtrusive brand treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/77/items/1/content/0",
+        "source_unit_hash": "7442eb13562b3be1a53657a5d4a6387158303002998960e7c6d3796035b9fa64",
+        "source_anchor": "Symbols-and-branding",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Symbols-and-branding",
+        "evidence": "Checked stock symbols, grid customization/SF Symbols, care-relevant symbolism and unobtrusive brand treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/78",
+        "source_unit_hash": "58aa863a636bf75988103673607a4bdd95de449853d86df963a1e21e39f8eacb",
+        "source_anchor": "Symbols-and-branding",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Symbols-and-branding",
+        "evidence": "Checked stock symbols, grid customization/SF Symbols, care-relevant symbolism and unobtrusive brand treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/79",
+        "source_unit_hash": "5d2f59bac6aeccc59aa78522180b410292aa9aff4303a9a0c189aace64c0baa5",
+        "source_anchor": "Symbols-and-branding",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Symbols-and-branding",
+        "evidence": "Checked stock symbols, grid customization/SF Symbols, care-relevant symbolism and unobtrusive brand treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/81",
+        "source_unit_hash": "dcc79d5e917637a68d39555f3235e7f70da52eceaf06c2c0d481b27d2e376286",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified iOS/iPadOS support and unsupported macOS/tvOS/visionOS/watchOS."
+      },
+      {
+        "id": "primaryContentSections/0/content/84",
+        "source_unit_hash": "5bc6427afcd2cb82a032e2a5aec212bb14f3bb4338fd07d18a0f98fff3aca721",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/86",
+        "source_unit_hash": "b4a6a1ecdd00df0ae0175f3d95fb8bf7ffb44da9a00a3d315ca0413ccdf2793b",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/87",
+        "source_unit_hash": "feaedc44319402043a6ba02f0f2fb1b97a4ccfc9ca8c557a94d15db4b011417a",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/88",
+        "source_unit_hash": "9ecca7b2ad7d01f79478772c1cdffe315b67948bf33604f0a19d1bbb9e88109b",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/89",
+        "source_unit_hash": "fc72c8cfc8322f4f10a4c678be99c15b729ff7aa476a5c6445ea801be1a9925f",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/90",
+        "source_unit_hash": "9d1dddc6968abe08abe80de2d59e61cd7f4f5324a6eff21c1066210aee7f22c2",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/94",
+        "source_unit_hash": "d6185da1101ab5cdff0a1447e7f1e91f5eab8d23a802533195658dac94ed79f1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/94/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/94/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/94/rows/1/0/0",
+        "source_unit_hash": "a3be947823d6b103c429adb07b7ad07c6def605e3e77e14b702e5a9c78d34032",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/94/rows/1/1/0",
+        "source_unit_hash": "4756147f4d61c1086dc4ffd0d8da51a01051e176d19f9b7302eaf645e0f80e63",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "f3db836240d84113b9dd65157fae36ed1318b368dfbb86d324f5a9cd2881b745",
+        "source_anchor": "CareKit-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "CareKit-views",
+        "evidence": "Compared category-purpose table and header/content-stack/automatic-layout treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "05519fe09469503b0dd66809de3b3df17ee99b4d0b67149bcbac9dff698503d2",
+        "source_anchor": "Tasks",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Tasks",
+        "evidence": "Compared required title/schedule and optional instructions/group ID table; checked all five task styles, completion imagery, content-stack limitation, grid/checklist distinction, category-color redundancy and concise meaningful task wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/94",
+        "source_unit_hash": "d6185da1101ab5cdff0a1447e7f1e91f5eab8d23a802533195658dac94ed79f1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

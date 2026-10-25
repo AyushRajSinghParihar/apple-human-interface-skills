@@ -1,0 +1,1507 @@
+{
+  "review": {
+    "slug": "sf-symbols",
+    "status": "reviewed",
+    "source_hash": "33e43ccaef277b8ed383e2bc6ef71b137abd8e6646e958b1a92f63263f1611a0",
+    "destination_hash": "8b21ae3121bc06481a8c8c0e92f4ad8ea1ab8ef37b3c9a95b8c51c15db983f33",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:13:29+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "sf-symbols",
+        "status": "reviewed",
+        "evidence": "Checked configurable font alignment, deployment availability and icon/logo/trademark restrictions."
+      },
+      {
+        "source_anchor": "Rendering-modes",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "source_anchor": "Gradients",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Gradients",
+        "status": "reviewed",
+        "evidence": "Checked Symbols7 single-color linear gradients across modes/custom symbols and larger-size preference."
+      },
+      {
+        "source_anchor": "Variable-color",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Variable-color",
+        "status": "reviewed",
+        "evidence": "Checked0–100 thresholds, stable-layer exclusion and change rather than depth."
+      },
+      {
+        "source_anchor": "Weights-and-scales",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Weights-and-scales",
+        "status": "reviewed",
+        "evidence": "Checked nine matching weights and three cap-height-relative scales/default medium."
+      },
+      {
+        "source_anchor": "Design-variants",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Design-variants",
+        "status": "reviewed",
+        "evidence": "Checked outline/fill/slash/enclosures, contextual defaults, selected emphasis and localized script variants."
+      },
+      {
+        "source_anchor": "Animations",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "status": "reviewed",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "source_anchor": "Custom-symbols",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "No additional platform rules retained."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "7df56ee8adb9a84b7e74f1c152bc68f73d2c20946dcdeb34ab755df4c15f3e6b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "sf-symbols",
+        "evidence": "Checked configurable font alignment, deployment availability and icon/logo/trademark restrictions."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "f3a221e0e10b2d809529f7cbbf62d3edd5ba4c623f0565ab037bc4d8b873e184",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "sf-symbols",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked configurable font alignment, deployment availability and icon/logo/trademark restrictions."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "95cb1c3e1d8e52a8d3a0d7e9b805dc24b8942c43ccea13ba827ef30bf2fd26bf",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "sf-symbols",
+        "evidence": "Checked configurable font alignment, deployment availability and icon/logo/trademark restrictions."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "399c92cab8d9f411d5b77f75d5696ba2f901e827220e73c5ef9d119c6b3b7768",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "sf-symbols",
+        "evidence": "Checked configurable font alignment, deployment availability and icon/logo/trademark restrictions."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "002b28337f8db9f5f5d70991cd9b3e23ae5a41f0d65331051543dec92604140b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "sf-symbols",
+        "evidence": "Checked configurable font alignment, deployment availability and icon/logo/trademark restrictions."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "e2596771a5a8f583b7f8e10efde4495d91a84fce1ad7388f59bf9ae926f7a852",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "6154bcbb0cc00899ffe67f8990286e575220ffad65d4ed17992756267bcfdb81",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/columns/0/content/0",
+        "source_unit_hash": "7a688892e611243164cdd10c34208d77a23d8f37bbf798255d0545c9deccb895",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "c7c312af39f9f305e304d1db224181acd56cc8aadb0ec811ee771d1de470449a",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/columns/1/content/0",
+        "source_unit_hash": "43936f78e6e40a79ad5716e9d578f8511ce6832a72b00a4707f6110716a0dcdb",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "833f7b5fc73d2e2a0d3fca87213e2c7fa32d88fb06768b2411ae0f51f88ff0e2",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/columns/2/content/0",
+        "source_unit_hash": "f5623ce5c79482dd451c4acd4848177f306ab49db204cd14c7e9003bd648c451",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "80941bdfa39c49c18d4a0a3afec6924b1c1403d5653f78ccd61074751da9e884",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "ddc9707764062500a816ab058d421f08d6b1bc99524118b2f1c8b9d4445c572c",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "6a0c0694a61a04de04b82c53c649ddd21cccd7adf9dc05e2370d852f751741c7",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/inlineContent/0",
+        "source_unit_hash": "f472cfad3e8a5949618f9a466476a7c72a4d74562d08959bd4d804658a5aedae",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "1b9454543c48acfab32f2c71c8a9fbc0e46603987a012fab65726caf102d2e33",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "dce4e090d3ff4397d4625187740f9f2185e06826df8fa92658ee6f82e9558465",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "46e628a66cc185b5ff5de65c57f9fcc12e9b5505b0a0e15a635e2c4b35095ea6",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "36d1494b4c65d2e1cb1e32dbfb7dede78e2f98db96c21ebcd74daad5517ecc68",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/inlineContent/0",
+        "source_unit_hash": "de72e71f131709f4ed26fafdae910eb2c6f681798a9e64c6fae4f29d509aea02",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "8abe461176fd34b0f2ce47facef1e102d19e062e4ab9a813ba1afa0c6875e01e",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "f9ac3d6b3cc6872123e3bc65d9ddbd72bf83d61f76345e67ec60f18e19be19f8",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/inlineContent/0",
+        "source_unit_hash": "5686301278cc2c1061a85618bcc2e608e0a3ac95286fb374ecc8cfe4efdaa264",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "fffc073afc9a0d171f3d2462f2651442d0f223510535b10adb35deee358de77a",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "e8b24a1a2b601aa7427330b9083e703b63bfc7ed0dc78e37ffb649c0cdc4b9a0",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/inlineContent/0",
+        "source_unit_hash": "1af9ace3cbf0cb252244040adaf882066ade9f42e8d0e0dd3343a3cff5f896fa",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "1067783938dd8a6a7289f9c25951c6502a21503f398cb5036e7d5d6ff71f5c6f",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "b391ed0aa62844c358137be25c2e0547c7ebcd02913704fb9b91c7d595333600",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/inlineContent/0",
+        "source_unit_hash": "1e646b8f0e7ac5182f980932f172e5870809a8427002a55e1bd89f4300bdd885",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "27d896164ac2a29faf4656cea8214d2fa1f91d38789fa93845850f292c9d199c",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "9d203d0b7c9bd3e52ee196d8fc60bad7d23eb5ec98411fc16d444c20fcb1e621",
+        "source_anchor": "Rendering-modes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Rendering-modes",
+        "evidence": "Checked all four modes, semantic layers, two-color palette fallback, intrinsic multicolor, adaptive system colors and actual-context validation."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "c3fd18a415880fe84c21988d6548f766c680dfb6e2429513732d50d13ee90678",
+        "source_anchor": "Gradients",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Gradients",
+        "evidence": "Checked Symbols7 single-color linear gradients across modes/custom symbols and larger-size preference."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/0/content/0",
+        "source_unit_hash": "0d55d7208b945eceb7f34ed796bc5dc2bc6f887deead12c0a97ee0c40ded2c79",
+        "source_anchor": "Gradients",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Gradients",
+        "evidence": "Checked Symbols7 single-color linear gradients across modes/custom symbols and larger-size preference."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "6ce133ab0b6b633fb7d45c292d854394c4dd353e3c07694825af751f73d1fe69",
+        "source_anchor": "Gradients",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Gradients",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked Symbols7 single-color linear gradients across modes/custom symbols and larger-size preference."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/1/content/0",
+        "source_unit_hash": "41489f6a4e3bb4d07aeaade820a8c51b8c8d1fd92a8a707b0b3af1435a374b20",
+        "source_anchor": "Gradients",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Gradients",
+        "evidence": "Checked Symbols7 single-color linear gradients across modes/custom symbols and larger-size preference."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "47a11bed3c25c3f8db6d11809727a9d8a79eec40e5c8f813367d72e517dbdde8",
+        "source_anchor": "Gradients",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Gradients",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked Symbols7 single-color linear gradients across modes/custom symbols and larger-size preference."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "d618037cb5b11a4bc5627ccd4b59c0441177452a89086b3204671337900f937a",
+        "source_anchor": "Variable-color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Variable-color",
+        "evidence": "Checked0–100 thresholds, stable-layer exclusion and change rather than depth."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "6c26a027832e554f249591c3e2e8f0d1685a4e9658bbe88b2316453851213303",
+        "source_anchor": "Variable-color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Variable-color",
+        "evidence": "Checked0–100 thresholds, stable-layer exclusion and change rather than depth."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "4a0da92b23aa9b7c13dfb2a9069785ede3fdb601d4d631b5a67eac0d0a06bfdf",
+        "source_anchor": "Variable-color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Variable-color",
+        "evidence": "Checked0–100 thresholds, stable-layer exclusion and change rather than depth."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/inlineContent/0",
+        "source_unit_hash": "20c223bc169c4b60b3be7655dc97ef470cabab7fb0cbe4ec2bf1e6a030a9f2ab",
+        "source_anchor": "Variable-color",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Variable-color",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked0–100 thresholds, stable-layer exclusion and change rather than depth."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "f9239407a5843c88eb2fe93fd7968e5733b3515566f1f7b4a1fa47887476a4cc",
+        "source_anchor": "Variable-color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Variable-color",
+        "evidence": "Checked0–100 thresholds, stable-layer exclusion and change rather than depth."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "b3fb7d45cffeeb79af71f3ca838f73c3cdfc8f168be91b58f68227d3d8e0a0bb",
+        "source_anchor": "Variable-color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Variable-color",
+        "evidence": "Checked0–100 thresholds, stable-layer exclusion and change rather than depth."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "73492e9bbcc597ab3c50b1d5d1a96b7fdd52ed40e4ee84e8ac7b465b7dea1e4e",
+        "source_anchor": "Weights-and-scales",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Weights-and-scales",
+        "evidence": "Checked nine matching weights and three cap-height-relative scales/default medium."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "0bc5539ce43d6f5f4ec76b664240ce8bc7aa13d724b488e0784ac0dac10b8c42",
+        "source_anchor": "Weights-and-scales",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Weights-and-scales",
+        "evidence": "Checked nine matching weights and three cap-height-relative scales/default medium."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/inlineContent/0",
+        "source_unit_hash": "2a96f8ce0b3a5f95c2aba1539abff025c48691ff3be762b95edbc433d152dfec",
+        "source_anchor": "Weights-and-scales",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Weights-and-scales",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked nine matching weights and three cap-height-relative scales/default medium."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "840ae922b28867795c56e7916b7075738fc9955a4bdb8dedd6a79f9787556d56",
+        "source_anchor": "Weights-and-scales",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Weights-and-scales",
+        "evidence": "Checked nine matching weights and three cap-height-relative scales/default medium."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "0accd229e48e117de5ca4be48aa4281c7abc412e38f8adfbb8e019fa24de5951",
+        "source_anchor": "Weights-and-scales",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Weights-and-scales",
+        "evidence": "Checked nine matching weights and three cap-height-relative scales/default medium."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/columns/0/content/0",
+        "source_unit_hash": "427c1183e32b5bfe86b7920ea5f5a0fcdc386548406bf04cb778af269e1ffdfa",
+        "source_anchor": "Weights-and-scales",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Weights-and-scales",
+        "evidence": "Checked nine matching weights and three cap-height-relative scales/default medium."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "e382fa4e8c02c4d707555d064284bb6226e2b663e545718d741d0de4c91e565b",
+        "source_anchor": "Weights-and-scales",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Weights-and-scales",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked nine matching weights and three cap-height-relative scales/default medium."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/columns/1/content/0",
+        "source_unit_hash": "74f8002290dd01ce9bedeb4d894b2f47aa28fd6f2fae6d29bdc104813d72b503",
+        "source_anchor": "Weights-and-scales",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Weights-and-scales",
+        "evidence": "Checked nine matching weights and three cap-height-relative scales/default medium."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "fcbb864ca3db99e8138b2737403f5f073868e2dd7c6ecfe5663dd8cdedcff51a",
+        "source_anchor": "Weights-and-scales",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Weights-and-scales",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked nine matching weights and three cap-height-relative scales/default medium."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/columns/2/content/0",
+        "source_unit_hash": "19ffc479840a319930f0edf41cdd78d65a1888a4139accacc6734eae2de39dce",
+        "source_anchor": "Weights-and-scales",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Weights-and-scales",
+        "evidence": "Checked nine matching weights and three cap-height-relative scales/default medium."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "fec1ba35248b83a5dbef3d7e25a3d58ae89b6e8d4dbb3f87d836bb8228239708",
+        "source_anchor": "Weights-and-scales",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Weights-and-scales",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked nine matching weights and three cap-height-relative scales/default medium."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "fccabbb5abe89e85d9a2dd471ac0a9885332f9be971e7941d8e79b2d4956863b",
+        "source_anchor": "Weights-and-scales",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Weights-and-scales",
+        "evidence": "Checked nine matching weights and three cap-height-relative scales/default medium."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "9456bc31c0e72274470671d3f4e90c8863c6456709351fe6081c1bf49a41c75f",
+        "source_anchor": "Design-variants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Design-variants",
+        "evidence": "Checked outline/fill/slash/enclosures, contextual defaults, selected emphasis and localized script variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "782db9d614dfd43b2fc9c5cac9bab6aac440723de972b82774e87984fb2ba851",
+        "source_anchor": "Design-variants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Design-variants",
+        "evidence": "Checked outline/fill/slash/enclosures, contextual defaults, selected emphasis and localized script variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "38e8f201c671654d36b74fe31aec78e854162134e5fc8ee02c6fc607b2cc10c5",
+        "source_anchor": "Design-variants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Design-variants",
+        "evidence": "Checked outline/fill/slash/enclosures, contextual defaults, selected emphasis and localized script variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "bc8af33e143a71a5cea283b0bbaca48efe91e4031d9953566261124b871a0756",
+        "source_anchor": "Design-variants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Design-variants",
+        "evidence": "Checked outline/fill/slash/enclosures, contextual defaults, selected emphasis and localized script variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/inlineContent/0",
+        "source_unit_hash": "6f97946ace584a2c0e70670803082536f4cd69ba9e8f8a269c90f56f6b5320ba",
+        "source_anchor": "Design-variants",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Design-variants",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked outline/fill/slash/enclosures, contextual defaults, selected emphasis and localized script variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "248eb9f4e60710a28ad24bf2a8a92a83895f95b35c2d8dc7cc72942c9a6300f9",
+        "source_anchor": "Design-variants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Design-variants",
+        "evidence": "Checked outline/fill/slash/enclosures, contextual defaults, selected emphasis and localized script variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "d4bb1f5bde91080c6f8f500ddd83ae18aaa448c65ceeace2e512ae50ac24d37c",
+        "source_anchor": "Design-variants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Design-variants",
+        "evidence": "Checked outline/fill/slash/enclosures, contextual defaults, selected emphasis and localized script variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/inlineContent/0",
+        "source_unit_hash": "7f7540cf0fd1cd1442d7c7620bbb96e5633eb16929dcee03f65b976d36671221",
+        "source_anchor": "Design-variants",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Design-variants",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked outline/fill/slash/enclosures, contextual defaults, selected emphasis and localized script variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "ff71db1847899baff64e419bdb57688339d8d8c222307c9db06e2246f73a67e9",
+        "source_anchor": "Design-variants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Design-variants",
+        "evidence": "Checked outline/fill/slash/enclosures, contextual defaults, selected emphasis and localized script variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "ebbf4fa5ca7c1e30b2af6ac1ef14425a9b1e0e80c03456a4bbd0e41ef79c6680",
+        "source_anchor": "Design-variants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Design-variants",
+        "evidence": "Checked outline/fill/slash/enclosures, contextual defaults, selected emphasis and localized script variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/46/items/0/content/0",
+        "source_unit_hash": "bf99d690fbb107ce139e1ec5423ae6967e56211bd713496b8099ad7e13c36890",
+        "source_anchor": "Design-variants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Design-variants",
+        "evidence": "Checked outline/fill/slash/enclosures, contextual defaults, selected emphasis and localized script variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/46/items/1/content/0",
+        "source_unit_hash": "32e26e066ee75c0d17d44a8daa4b4769d0df8447bbbc8eb80f80707f53e54093",
+        "source_anchor": "Design-variants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Design-variants",
+        "evidence": "Checked outline/fill/slash/enclosures, contextual defaults, selected emphasis and localized script variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/46/items/2/content/0",
+        "source_unit_hash": "871a8a9b7efdd50f7c7e447cfc3020ee285af68cbeaff127baafe726f6462f5e",
+        "source_anchor": "Design-variants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Design-variants",
+        "evidence": "Checked outline/fill/slash/enclosures, contextual defaults, selected emphasis and localized script variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "077a6aaee4061a4af92ed3fe519c04048457f286bd346792f925735296b25721",
+        "source_anchor": "Design-variants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Design-variants",
+        "evidence": "Checked outline/fill/slash/enclosures, contextual defaults, selected emphasis and localized script variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "5b7841c2c445f9b620649f624752bb18d9f1dfce4025fd0287a77181442c7c2b",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "b960798d813d9a5636cdaf7d11a82bb398b6498029ee95245e4dd6bbad60dcff",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "8d12c228afba777b1f62a9e8200774077376dce8e43d0b07b4920bf04e3dc06c",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "973d46f87c672933fd2b2eda22fa285f40d38bc6fb2400c267edf04d5b675dd3",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "2e589094f83cdc6c7374205fbefa932b7271566a66a5e809643a6e034bf6f068",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "df8ca28fc390b558f6a99fde3e09c9ccc1dfb409cba35a98bed8139fef8d5419",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "dc258ad35c348d4ae7d88f9bbd1485c31e745d606be065e186874fadb842743e",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "ae6e47e51ec823b1560e44c8e44ab546fba9f23835b94ac1072e440df8d55916",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "7c83f654fd19c3c92d2c5e93b38e8077fccb06fb09848ab8e53f78419f23ca4e",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "fc478cb40937c9d299cd5d8030651ebd6a1b1601247177c521f6f7974385caf4",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "bb9a27b264481026a45fb8e1954237aa621c5a1454ef9a31224d509341d9417a",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "ab7d68f0bb96ca80568605f82e9fd00dadd5d3975ccf8c1d36c065e6dfbe6085",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "93e3b87a9339aad59d19336805bdb8f2bcb28ce861999a5451c8527168cd5c47",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "8af9652cf6052991e7484e0ecf9cbde97a173ca4cdf20833b2d413bfc624ee7b",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "076fb5d2c86cd0827867455e401c6784e8b6de95da7cc9f2512d0f9d676a699e",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/64",
+        "source_unit_hash": "92376eff0b58c57198a97cccf003ed85b965214b5943918096cfff05b9c36101",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "0a84ddc32e458ba51e1cd62ed505413aa7bcb545c1417a21694a7c4e0a1a6bfe",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/items/0/content/0",
+        "source_unit_hash": "57e6c70439e9ab85643272c6112b3be14cf656f6689516770e2417188c80ce07",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/items/1/content/0",
+        "source_unit_hash": "97c0b9f9d193eed300bf6618c3cededc965fbd2111460af9ac5b3e1011a34afb",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/items/2/content/0",
+        "source_unit_hash": "56799bc89b1ad2eb2aef1a90968e017c352b402ef4ab8903fdaa8fd307004180",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/66",
+        "source_unit_hash": "b93997a0ddc0520c80c03c88f622357f2f54de419ce4fb8e58607a6526c6c7b5",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/67",
+        "source_unit_hash": "1afb82401b71631a40629fbc265927fb3036a64dabb0c28cf840ca2513c18c5e",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "ba35483fac1f45f7a39516cd99ec4f4a992217e8b900d96a17c0be17ec4f488b",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/69",
+        "source_unit_hash": "f32ddb0e9ff2f104316025074e847271037e0487a4937b630a71e6c37305076a",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/70",
+        "source_unit_hash": "5657898b7d4b09d8632e97b714f92513bb40292deb6cd805fb5a56952ea94e06",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "43bdb7af20cfddb61d7c3507b0fbe7434526cb07204566d4580c317563429691",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/72",
+        "source_unit_hash": "dfa1cdf4bd308908980184f46822e4228d43789303c8e406c9b69f40999bbc18",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/73",
+        "source_unit_hash": "4afc31b457137e2fc09fe4367c6b8a20e8dbce34312115cb260fa45dd81af203",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/74",
+        "source_unit_hash": "60696b325a04ccc8ba5070e5d75b500c87f8577fae83e1c9942d374b65d17ba8",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/75",
+        "source_unit_hash": "33ef9b8b60b29d5c9e4e515e28e055eabd8a128c79858e398c94277b3a0d08bf",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/76",
+        "source_unit_hash": "44f25a3f8054fb60b92d09153bde00629f1ce18593f615aaac49a1acd00d1d02",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/77",
+        "source_unit_hash": "98285e607b7979586f2a3565effdc096120cbcdafb04866c1c026f092df17a2f",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/78",
+        "source_unit_hash": "b7cb6d83fdf77cda1f4852a80725b226030e582af4b06f57eb59f245086635cd",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/79",
+        "source_unit_hash": "b29282234191885299ce3c35a3dda399585fcdcfce8d81574b2447818137b7ed",
+        "source_anchor": "Animations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Animations",
+        "evidence": "Compared all source effect definitions including pulse versus breathe, persistent scale, three Replace variants/Magic fallback, variable-color open/closed loops, selected-layer rotate and Symbols7 drawing; purpose/tone/restraint retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/81",
+        "source_unit_hash": "de5e5e8d1d49ef6eb51e8554969d6c75345b7d9b3e7445b212cbf7d745aeeff2",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/82",
+        "source_unit_hash": "22bdcdcd3879a6fb386a1e7018842484463a2bc5cd5c94127f0a274763198a61",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/82/content/0",
+        "source_unit_hash": "05367b5b3fbafd3ffdaed7e7ac8778aa2d56aaac1a2625e6c47ac08bdfe4b2d3",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/83",
+        "source_unit_hash": "322a38faf8768c7ca78358af2e2bb3d156abefb0cb2f2ba7b3791de62470a9a1",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/84",
+        "source_unit_hash": "3a4c250d2225ca9d2961b2ee0ef6a27ad51689f425719cbc289bf1ea1968a5b9",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/85",
+        "source_unit_hash": "5e7c29669de48b52a7abc665c0678a29d48273502bd7005442818e5c62d5f52a",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/85/items/0/content/0",
+        "source_unit_hash": "7a1bf1b02de54aef475669acbed8004bb3c5df3efbdb3fad0e6aba8bd2c76978",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/85/items/1/content/0",
+        "source_unit_hash": "7a7beec3ee33ab8097d94e23bb2a4b3f5485b1948f1b2f71d335a272ff33bf5f",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/85/items/2/content/0",
+        "source_unit_hash": "a03fd6fc5b1720eeb5c5bad12db8ccff3a7079e07fd58b871348378b93d5d3b0",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/85/items/3/content/0",
+        "source_unit_hash": "3405c0a1cb08e04e83d1115c9d1383dfd6e5670198ad9847ee076afa95eee0e7",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/86",
+        "source_unit_hash": "6b650cc69d6ae7ea805f4185f87dc1ab7a9bbb47462fa4f78d13805a34145c51",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/87",
+        "source_unit_hash": "e0a5279d2d43553e3bd50e6c57b219b65950ec00bb0ede12f48d1ac010e9069c",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/88",
+        "source_unit_hash": "0f5cdeead1aa49658f6629f5d2caa2bf8481c7394906e41a40d354008605a56f",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/89",
+        "source_unit_hash": "6c011e4b4c22453edbb4ba0a92b5c8e5747770407fae4e96d38d80640ee4658f",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/90",
+        "source_unit_hash": "173f75c8f7cd54ce00495f0d233a12a3f503411e431039f4088202865cd54b83",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/91",
+        "source_unit_hash": "db0c22dd5d5497efad64fd543fd0127c9054bfce176978cb2c5f22c10f550ff3",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/92",
+        "source_unit_hash": "e5b1caa11b71c0540cb8a8d129b4f9596faa8b095f4406f8ff54921c12649f7b",
+        "source_anchor": "Custom-symbols",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Custom-symbols",
+        "evidence": "Checked template consistency, Apple-restricted marks, layer annotations, negative margins/naming, Z-order/groups, testing/whole shapes/erase layers, component variants and accessible descriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/94",
+        "source_unit_hash": "509b569829c7a6cfe24bc32528acd622858a84d9d670c9f630306f6689ae12f7",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "No additional platform rules retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/97",
+        "source_unit_hash": "acf27ac0d714a635010911f600ce95cdf84c7c28c747320a68e84c5cec44e7ac",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/98",
+        "source_unit_hash": "1b85a85e09bd0823d5e826066546b4df66c92d0ab1c227e87ab69087b3de2e30",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/99",
+        "source_unit_hash": "80d02f5c90176081e96439082f81ceef411162e7c9c4d59f16ddf863fe25caa8",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/101",
+        "source_unit_hash": "c6140ca0e78a743a693b57c92e8fa5b2a2b7de0947e34c4923c90a1596c1b241",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/102",
+        "source_unit_hash": "6916147dc6c425b51b0441c02b31c901d5b9d32a474b0f024bbd5b0410a9be57",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/103",
+        "source_unit_hash": "1301f05fd780edb371a83972352525c5e5af2ff39dac6d4dc1c0aaca5f8d1e59",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/107",
+        "source_unit_hash": "0873e887fc1231ad43f7c4d5b4183b99d490c8a57a6e26365a8af89c326afbd7",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/107/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/107/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/107/rows/1/0/0",
+        "source_unit_hash": "6b6c5637464a92cb87d288329491841529efe2025957e3268f2ce329e1327b8c",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/107/rows/1/1/0",
+        "source_unit_hash": "4bb79cea53c42089d90a69c981eff8e45b78eb8a885ee9e723dfbc03946ec7ac",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/107/rows/2/0/0",
+        "source_unit_hash": "6fbfd8192538c86013ae1170ead307313ca6290dbe20e9b9a262d8ed4dbef179",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/107/rows/2/1/0",
+        "source_unit_hash": "a0d7ed977713f8ccc1015be04624ee4586cecf189aa7d4d395b4cc5dd8204254",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/107/rows/3/0/0",
+        "source_unit_hash": "937d2d87f6be46489d91c6c598d77898e230787b56f889b2c1e16309f42a1ad2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/107/rows/3/1/0",
+        "source_unit_hash": "60c639cf44a87d204d8fefb636d1231c39d70e288b9d95af1207c2a5ed9a21e2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/107/rows/4/0/0",
+        "source_unit_hash": "ea6021512638756fcb39be44c5cb492cf7f4b4c67d7c547285252b9046997c1f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/107/rows/4/1/0",
+        "source_unit_hash": "1c7e0ef2f4d901d8db3c49a28262b918c493193db2a454abeb867728c9f10c5a",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/107",
+        "source_unit_hash": "0873e887fc1231ad43f7c4d5b4183b99d490c8a57a6e26365a8af89c326afbd7",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

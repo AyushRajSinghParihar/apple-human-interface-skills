@@ -1,0 +1,703 @@
+{
+  "review": {
+    "slug": "split-views",
+    "status": "reviewed",
+    "source_hash": "fc9f828eb3e92b51104bd78477e04117b0d895317a81cddc09e95e21c0bfe9bc",
+    "destination_hash": "77be4895d0aa70a9761cceb8299a6cf19a78fa6d61a3929cbc1bd1b3c929402f",
+    "reviewer": "independent-coverage-auditor",
+    "reviewed_at": "2026-10-25T12:57:12.608039+00:00",
+    "evidence": "Independent complete source-to-local semantic comparison and actual embedded-media inspection; author mappings do not establish approval.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "split-views",
+        "status": "reviewed",
+        "evidence": "Checked primary/secondary/tertiary hierarchy, varied pane content and supporting tools around a canvas."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked persistent selection to explain detail and cross-pane drag/drop."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Structural platform heading retained."
+      },
+      {
+        "source_anchor": "iOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "iOS",
+        "status": "reviewed",
+        "evidence": "Checked regular-width preference and compact readability/interaction constraints."
+      },
+      {
+        "source_anchor": "iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "iPadOS",
+        "status": "reviewed",
+        "evidence": "Checked two/three vertical panes and logical navigation across fluid widths."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Checked filtering, one-third/two-thirds or equal balance, one overall title and content-dependent title alignment."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked supplementary split pane instead of separate windows and sheet for required small tasks."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Checked full-screen list/detail, relevant launch detail and Crown-driven vertical tabs/page position."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "1cbae9bb456296610f8d88a5b204e38f4ffac4b00b7f0ee48addb47ac98de8d8",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "split-views",
+        "evidence": "Checked primary/secondary/tertiary hierarchy, varied pane content and supporting tools around a canvas."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "4dd422260540377434e36f3e3dc04f63e97a44a8a20edf9f8d38365580c46960",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "split-views",
+        "evidence": "Checked primary/secondary/tertiary hierarchy, varied pane content and supporting tools around a canvas."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "56ff21df6edad0bfdb7ef05aeb4423bf14b4beba904332192c5d5be7225fc3bc",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "split-views",
+        "evidence": "Checked primary/secondary/tertiary hierarchy, varied pane content and supporting tools around a canvas."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "c2f0b5c5cd1cf0743e2ea1b515a3671efc57144edf1995a82e665bd7df4c6c02",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "split-views",
+        "evidence": "Checked primary/secondary/tertiary hierarchy, varied pane content and supporting tools around a canvas."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "4fc7198759276f8858c4d11af179745fee855c67129e857e11819c17fb43902e",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked persistent selection to explain detail and cross-pane drag/drop."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "a87051382a58a3801fdba090418b8b00a4470bb51e02853a49e41360a65ae199",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked persistent selection to explain detail and cross-pane drag/drop."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "68de198e828a028f973418934f6cea9a242e953dae557cb53c862173cb9d9135",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "iOS",
+        "evidence": "Checked regular-width preference and compact readability/interaction constraints."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "ecb77a02289e3384b25906f83dcb5ce7afef663b11c38a483ae99fc0bf67541b",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked two/three vertical panes and logical navigation across fluid widths."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "ba27b106219cf8a9eaa013437d258655e0f48b46acd95ec1c13ca8f6ffef5ff0",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked two/three vertical panes and logical navigation across fluid widths."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "24dce8f8fd77f24e957202915732a6f8d0f68cc0b4d84c243dba2469652cfbca",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "5e5e79703d9f75e008519ce66358f83d27021f76066fc58881384f77af76aeb7",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/tabs/0/content/0",
+        "source_unit_hash": "d9274ddcbdb0377ed6e962189a3379273826bb49d9d590557823904b1e32a901",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "40a429ab9e8606b1cb4f5925f6d117f2685e9876add5684c563e81d8b02b49bd",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/tabs/1/content/0",
+        "source_unit_hash": "857b419f08af787d0d59313b2375e426303ad606ba282c30e4fea655c65fe52f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "b99231835b326e9376c6ab8596a118f030e057065b3b3714d34a751703971ab1",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/tabs/2/content/0",
+        "source_unit_hash": "7118f8ff37d4fefdb40fdb90886ecae95b39af580c77f95511580b703f154012",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/tabs/2/content/0/inlineContent/0",
+        "source_unit_hash": "4e2e1f9555bb008cb101b41a517f8d1606479710b22268108ad1b8a576d59242",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "14db48353b495fc4fff2d9008bd67c6a89d0c6371bcf48846a47841fc8d5613b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "07321c64f73544915ce74e0c8e727f3a8c1d582af290b24f52666530d723fb24",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "44ebd730c1c8ed6928de6612e49ad463667b03fc2d9d5a61d2ecfbfb0ad8188b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "88f899ee5230945d6251aec531c2f1ac8f4996f27ec9382e101e197478d0ac91",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "4bde410565f38957ddf43436ca92bc3b56b75a5e8f3d3d6684b59759e2040e36",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked filtering, one-third/two-thirds or equal balance, one overall title and content-dependent title alignment."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "e22c9c2218ae49d05687ada000993db0f27832995cf5ceffaee62cb583b5b931",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked filtering, one-third/two-thirds or equal balance, one overall title and content-dependent title alignment."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "edb3313874650df3802cd5b5e36f2b176d36dd7ef6ed91f9d05b1b4ad4532a09",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked filtering, one-third/two-thirds or equal balance, one overall title and content-dependent title alignment."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "e44192827fde973e74890c0247951e075e6b3e413405e3d4667c60c4135c49bd",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked filtering, one-third/two-thirds or equal balance, one overall title and content-dependent title alignment."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "d2ab19265e836b2da2f65a9b0679028aa181c87a9174963e3805afee2b1fc947",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked supplementary split pane instead of separate windows and sheet for required small tasks."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "5d9df95640fafe0f292d4da8cee9efbfd00caec1a8869676852db24673c6b46a",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen list/detail, relevant launch detail and Crown-driven vertical tabs/page position."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "a3891180718631c0da96bbd849246dfe942eda1475ed5f9c5b2a60f29dacd320",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen list/detail, relevant launch detail and Crown-driven vertical tabs/page position."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "f7345958111e01853bde153584665fe0d03a0b4cfa45d4aa55947f9a862c1794",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen list/detail, relevant launch detail and Crown-driven vertical tabs/page position."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "9c947f1237f580afbf777ba06f54196ab57571a189556f0e3b65de50106dffae",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen list/detail, relevant launch detail and Crown-driven vertical tabs/page position."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/inlineContent/0",
+        "source_unit_hash": "384937c0144f689c2903a391a5b97eb3cada0dd73b6048e46dda7691a40a2837",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen list/detail, relevant launch detail and Crown-driven vertical tabs/page position."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "48bd7017d96299d92e6c95bbab3eb2ce9d5c5cd5ea058a5cf6641c0ab0602bcb",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "bea2941e11070454c5b6ce731b52babbbdc23112f694ae37f2b834c59c4c8d0a",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "fc630747c38955b09778a9451282e8fe933fd90da0b116681aef33524228777b",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "a3e1e4973f3576515eee27321241bf035658e627a564f9ae0ec66bcc5a23c429",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "f65e0fdc45ab88b96f0cbec6a7ddea5f496b59e7b5c0cbc035fe94de09f5f685",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "4edfd9de4c9c7fe642fcdc21dbb61fe5b3968e6a8be43e02a994e5e5ccfd0889",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "f71288e6dbf18cc7daa6632e54c6bee563220f8dab50ebc2e3f4ab7790c37a27",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/1/0/0",
+        "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/1/1/0",
+        "source_unit_hash": "3e6c20884a6448016c00a6ebc39c9458dcc89b6117e5ac48da7bf49a7ce3a0a7",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/2/0/0",
+        "source_unit_hash": "72e15f86b3908e69cbcefc24a6e0b2def83fa8df14342795e2a64fcd3e2ed469",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/2/1/0",
+        "source_unit_hash": "fc23f65b671b556637d8b0ebb7e89c82b8fa4768c2930fb48061eae3cffe28a8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/3/0/0",
+        "source_unit_hash": "937d2d87f6be46489d91c6c598d77898e230787b56f889b2c1e16309f42a1ad2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/3/1/0",
+        "source_unit_hash": "2c3ff2fcf7d5ee2ba822c244de4f24a0f5075a1b483e9fdb71b815921f8922e2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "f71288e6dbf18cc7daa6632e54c6bee563220f8dab50ebc2e3f4ab7790c37a27",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      }
+    ],
+    "supporting_files": [],
+    "issues": []
+  },
+  "media": {
+    "components-split-view-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Topic illustration or correctness marker adds no separate unexpressed requirement.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "decorative or redundant topic/assessment marker",
+      "binary_hash": "923fc67a2543b78efc0f5deff384e80e99f247b7f481f2de2aae68332ec21ac7",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-split-view-intro@2x.png",
+      "reference_metadata_hash": "c90292ea004a5a01b4bb8ce876bfb23fc31d85da8879750f9a13e2c244e89aa3",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+      "destination_hash": "77be4895d0aa70a9761cceb8299a6cf19a78fa6d61a3929cbc1bd1b3c929402f",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+          "hash": "77be4895d0aa70a9761cceb8299a6cf19a78fa6d61a3929cbc1bd1b3c929402f"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-split-view-intro~dark@2x.png",
+          "binary_hash": "aae6a858341534913f634a906617c3a1ecd5f8f8a158e02115c5702960049068",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "vertical-split-view.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "06c97bef907b3263ad644326723a387eb7451c8d6912071bf57f0ede0dd7df43",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/vertical-split-view@2x.png",
+      "reference_metadata_hash": "462113f359d0f62179ef749387f6036d543cc0e88cc14b62eb73451ebdc28269",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+      "destination_hash": "77be4895d0aa70a9761cceb8299a6cf19a78fa6d61a3929cbc1bd1b3c929402f",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+          "hash": "77be4895d0aa70a9761cceb8299a6cf19a78fa6d61a3929cbc1bd1b3c929402f"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/14/tabs/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/vertical-split-view~dark@2x.png",
+          "binary_hash": "ac746c4c896935f1c743f12e2e01dc34715795e732ec2857431ba07caef620c1",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "horizontal-split-view.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "ac01fcb4f0adef5ed60ede6800d1fce2f5d5bf4ec8b8e4442a1e4d685e196992",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/horizontal-split-view@2x.png",
+      "reference_metadata_hash": "62eb9438c892fac32dfc54d59e0b96eeb225c4116e997b06480a271d99ffcfb5",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+      "destination_hash": "77be4895d0aa70a9761cceb8299a6cf19a78fa6d61a3929cbc1bd1b3c929402f",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+          "hash": "77be4895d0aa70a9761cceb8299a6cf19a78fa6d61a3929cbc1bd1b3c929402f"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/14/tabs/1/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/horizontal-split-view~dark@2x.png",
+          "binary_hash": "258043ed8e3745febb7441e67fff71a1e7582931da5f0ade5417ed5ff400fc49",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "multiple-split-view.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Checked vertical/horizontal/mixed panes, draggable dividers, usable min/max sizes, hiding/restoration via toolbar/menu/shortcut, 1pt thin default and stronger-rule exception.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "87eaa54c6ceb248435505db6a401350a96452b678877fb9c5cce7d759765e2c1",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/multiple-split-view@2x.png",
+      "reference_metadata_hash": "ac7bff4f8768365a973069f393e9b4f7dbfdd4552e43eb736edac95a6d25f873",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+      "destination_hash": "77be4895d0aa70a9761cceb8299a6cf19a78fa6d61a3929cbc1bd1b3c929402f",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+          "hash": "77be4895d0aa70a9761cceb8299a6cf19a78fa6d61a3929cbc1bd1b3c929402f"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/14/tabs/2/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/multiple-split-view~dark@2x.png",
+          "binary_hash": "32c02d2f764b09d2474f6e3a62d861bb7024121f0296edbb05515893855f7c03",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "split-view-watch-vertical-tab": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Checked full-screen list/detail, relevant launch detail and Crown-driven vertical tabs/page position.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "4b010ac8216497844f3b2515476bbeae64b82eecb550f19c67a17e7e6ec4acbe",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/split-view-watch-vertical-tab@2x.png",
+      "reference_metadata_hash": "dc21b476a4e9ce4c2e3345183a9ef0ea5b64cac105c21c02b8d393dea383535b",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+      "destination_hash": "77be4895d0aa70a9761cceb8299a6cf19a78fa6d61a3929cbc1bd1b3c929402f",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+          "hash": "77be4895d0aa70a9761cceb8299a6cf19a78fa6d61a3929cbc1bd1b3c929402f"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/30/inlineContent/0"
+      ]
+    }
+  }
+}

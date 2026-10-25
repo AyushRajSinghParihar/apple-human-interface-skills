@@ -1,0 +1,1016 @@
+{
+  "review": {
+    "slug": "game-controls",
+    "status": "reviewed",
+    "source_hash": "81c218913b669504e5a2de0cd514dd295af4c3580a72fb32ed72230a98183f35",
+    "destination_hash": "7ca6b77fc21e8c7a1345edaa671376965bab64e13848c3d90248da58e2a2ef09",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:10:57+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "game-controls",
+        "status": "reviewed",
+        "evidence": "Checked built-in input fallback, controller optionality and unsupported watch controller scope."
+      },
+      {
+        "source_anchor": "Touch-controls",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "status": "reviewed",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "source_anchor": "Physical-controllers",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "source_anchor": "Keyboards",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Keyboards",
+        "status": "reviewed",
+        "evidence": "Checked single keys, Apple Command/WASD comfort, proximity and customizable bindings."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "No extra iOS/iPadOS/macOS/tvOS rules and unsupported watchOS retained."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked spatial-controller trigger semantics for both looked-at indirect and reached direct interaction."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "2dc1def5f44d45e3c0024adfe7b56ddf4a3cda50292af334fd006b49407f944b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "game-controls",
+        "evidence": "Checked built-in input fallback, controller optionality and unsupported watch controller scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "e55471bc8359c2a021e9cd5c5270e6a4373909538ef3309814a87959c181f8e7",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "game-controls",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked built-in input fallback, controller optionality and unsupported watch controller scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "a3ea347facf98c37ce70a7eeef7f0dbf6bb12c588ef370da524f094abfc96e69",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "game-controls",
+        "evidence": "Checked built-in input fallback, controller optionality and unsupported watch controller scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "68d1b0238446f9f1a6ec2296f8318a2104f78d69ca1d60a766452f6c2454803b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "game-controls",
+        "evidence": "Checked built-in input fallback, controller optionality and unsupported watch controller scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/items/0/content/0",
+        "source_unit_hash": "ba57e6a0830223866eeda3a4097d1fbd85acbef827f9d9bd0a66f40538b1cfad",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "game-controls",
+        "evidence": "Checked built-in input fallback, controller optionality and unsupported watch controller scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/items/1/content/0",
+        "source_unit_hash": "5eb05a16e20c1d1e53f1637fe041516b3ff15480651afa0f73405c51a8ed0610",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "game-controls",
+        "evidence": "Checked built-in input fallback, controller optionality and unsupported watch controller scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "be6a24e3056678803660fac95fed94170ad71660d30c80808e12d9f6a78ea6ff",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "game-controls",
+        "evidence": "Checked built-in input fallback, controller optionality and unsupported watch controller scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "df439352f2e88247181f3aa15f3dc0f52581d6f8d6b597f3934488969f355d9c",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "6766c9e88a539dc3d441672524c3059e75fe1a6b60f350ef190fab00818ffde1",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "79fee864819006d4246a915a909b7834323df887d29891621ba28a857399ce1d",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "968654d14ae395a539d632b42f06eb0cbdc0622e1a81e986fb5a03398ba95a65",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/8/inlineContent/0",
+        "source_unit_hash": "1168915299450dc2a1294925709bcbf38c48585e9bd30748d358d1944ac6f9e0",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "204b7f2ecb2882b822a5830aecbac35c2a6afb9ea0ace1f51524b975377e5bb8",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "e22b394f693c893e37119c093fc7d695dbec32fadca765618f8e511609461e37",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "a9cff5e8f6b6874dced24bba3acd8ffaee4b18692f191d73e34671cf558ac882",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/inlineContent/0",
+        "source_unit_hash": "f250cb2f8ab415e452c18ae6b1442645672e907ecaf618e3bd8aa9dc52a38a63",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "6c4df82e9034ddad3aecb6263e3f2df72ddf22e057b1c4ed07143f984c1500d4",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "d1264d03fe75c675337e81b95862981cd8d7a842e0702fd81b504afa7a050cae",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/inlineContent/0",
+        "source_unit_hash": "12c22e90b4526ceb1e29f2767892e54d749f94dcb0eb00e6990722ea9ee2cce2",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "a41005cc10f63bc1089524eaa4620fd32451f11a06f9ee67da0a18e43031f2f9",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "8833afe79b56bfd5125739cb0914398db6f25ccab864a51f0f443db32cb4dea2",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/tabs/0/content/0",
+        "source_unit_hash": "887f1b7c4dd866ea429fecbeb63108609f261cfbfb72df5d0595199d5f46180a",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "9c748ee9746785032febde4f5baccd8ed9281afbb33cba287514d30a8605c6da",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/tabs/1/content/0",
+        "source_unit_hash": "f754246d7d4f62c390b561f919676cb9ee9ba7be21fe4ea7791a171d0bdcf85f",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "492f33dd8e14a42c6ebc993844e70d635ee9bec137fc061598aae4c3cc5661aa",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "b64393931b174cce7de4df7ca7228891013be34c63bf7c84cd2392f3721f83b1",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "8a94191c661d0a7c9d0efbde1afb7e4c4cc86e7a9391934b31fe769e01dbe7c6",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/inlineContent/0",
+        "source_unit_hash": "b6c3658e32bccc73c1ebaa781a0fb4f5e64a4a8231257f6e886239409c620b16",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "661ea8826fed2bbf85a8a161c4fdb51ad8f939a7db770d2fd946d759fd136b58",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "1964c9868077426330d8b3c51aef834e89fe35b3c4a2f7150e3469ec9d9457c1",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/inlineContent/0",
+        "source_unit_hash": "159ccf4e0dae3baf4b096eddbe11d15425b4b1ad9251fe542ba74586322605c6",
+        "source_anchor": "Touch-controls",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Touch-controls",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked direct versus virtual controls, safe areas/thumb placement, 44pt versus 28pt target sizes, perceivable press/audio/haptics, action icons, contextual hiding, combined actions and left-movement/right-direct-camera conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "52b55ab564bc11ba6c4d0c98fda59c22f65ab67cfd4dbc7c58135487cc9f6348",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "965b9825ed80d3310440cf419fe6c93bf9ede60b50454f6e569deaf3ecf4207d",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "ceac098ea4a0abe31d91b03a892dd8022fccbe068665d966e3ceee958aa752ca",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "8d01ed0eda08fdd22af20984eefcf66d16a25c9ba1ff644f2aeea438a1145d1b",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/inlineContent/0",
+        "source_unit_hash": "3c5ddcf921e04e43b59ebd219d8a153afac157d36c9a13610a77faf6f836f891",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "1f30f077254c6ef66d7e13d06baefff9460859d6e18d32d51535cf2debbf6b56",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "2a2ee091ff2d74e6e480acd0ae6228cf74d3c457a479f0cce2be226e70a60635",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "2604be095f500dd6589e5ae93e09aa38c915ae724c918d66d0f9ddc728c433a3",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/0/0/0",
+        "source_unit_hash": "33dbf860af81530821e2b0cae9c21467f6efe1b95b93b75813c0b577e5f88482",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/0/1/0",
+        "source_unit_hash": "1e4224c39dae36d178c43973f07375064fe45ce73b7cedb35a532d288d6d6a33",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/1/0/0",
+        "source_unit_hash": "9e77ea240a0098bfcf7360df8d8b7e4984692e2dd0cfd731a1309187e68b0616",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/1/1/0",
+        "source_unit_hash": "7bcb9af919c5903cbd4af301d75d39db829175982ed4dc4008bd194a69efaaf3",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/2/0/0",
+        "source_unit_hash": "f07c4c6dc6a69fcb017c6f476a9bd86978968077fa0317ac08e1bd63fffe06d8",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/2/1/0",
+        "source_unit_hash": "fea03e7f66735662c7ef0a769fac414f25e69f8557de524d5e7a289dcf014f6d",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/3/0/0",
+        "source_unit_hash": "8ecb596e72ce8886bf9866f7b87e2effb7cbdfac81b08cdc15982df802aeb9e0",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/3/1/0",
+        "source_unit_hash": "b1453bb54f01bd21e5d272791ba79e5dceca84ac0e637fd7dfb42b668ed8b49c",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/4/0/0",
+        "source_unit_hash": "a027063733f9d1ae1c3d185a997db57c467ab27be47dd6af2232cf1b08066711",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/4/1/0",
+        "source_unit_hash": "b1453bb54f01bd21e5d272791ba79e5dceca84ac0e637fd7dfb42b668ed8b49c",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/5/0/0",
+        "source_unit_hash": "75eeb67c23b2f08476d85a45aefb6e145b3660b96162454ea9cb040a866c6c7c",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/5/1/0",
+        "source_unit_hash": "5b323bb5b705a74e7f34c4405000f1ab0d01e7f3d3554dc820aa9e2cbda59d8a",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/6/0/0",
+        "source_unit_hash": "8886e1d85ebb6616a3143b13bc7a5cb2b152fd6606c2773572815f11bf6d9286",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/6/1/0",
+        "source_unit_hash": "e17ab61f3ee39aebb9728055f082cfb07f2b1f58774f6d91fe442f887182ed4c",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/7/0/0",
+        "source_unit_hash": "16c22651c85bd8c15f74126c016a63bfaf80e2162e094769ad9c532f77ddbd59",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/7/1/0",
+        "source_unit_hash": "b1453bb54f01bd21e5d272791ba79e5dceca84ac0e637fd7dfb42b668ed8b49c",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/8/0/0",
+        "source_unit_hash": "d0d5ed55d39a1ee128cdd9c0b001476b765598fc8949c4da29cbcaf11eeb9387",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/8/1/0",
+        "source_unit_hash": "b1453bb54f01bd21e5d272791ba79e5dceca84ac0e637fd7dfb42b668ed8b49c",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/9/0/0",
+        "source_unit_hash": "7546be39746453f809c73164e41a46e4c138fab1cf52ee290c7e7b1894a89ecb",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/9/1/0",
+        "source_unit_hash": "5ec63855fde9ba1c87f46b3fa8b3d083720af31859666864bf640c6eec7ac3e4",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/10/0/0",
+        "source_unit_hash": "ba06567f4aea243f3f82ce2aa1348ededdc080051bc65cb6c0ad6460526134c6",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/10/1/0",
+        "source_unit_hash": "5ec63855fde9ba1c87f46b3fa8b3d083720af31859666864bf640c6eec7ac3e4",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/11/0/0",
+        "source_unit_hash": "7c4dfe6f344b13b396104a1a76ff245f9581815c218b0fc7f3a72dc6ad5c8667",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/11/1/0",
+        "source_unit_hash": "f5cb393907204b1c0b4d83d7ef8d8099c0bc80f85580feddbf03a8ee08e7a481",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/12/0/0",
+        "source_unit_hash": "a894bc5828f014d52d4a53d4a006365d9f01b4a2a97547fb5702f822bd5af08e",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/rows/12/1/0",
+        "source_unit_hash": "33fe5a7d670273b5d8d7f02960e44c18c3c4aabd0fd71058306a468196096e38",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "3f931a8b7f96e88de87412ad61a6ffe6c8c2ca9341bb7d63b9d4f6309be9a3a1",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "f2d0f4684af0fade2e9acf3c0e568f59c9768bf10452ba32a98d500e79e5a9f2",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "3bd9f765e915d2ae3f7d7f943b4983618f6235617d40589be5f5723a03d5b63d",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/inlineContent/0",
+        "source_unit_hash": "ea7a0e4a3602a98653d5f9b70ad87c9fa07b9e030263faa9c62ea4c46ec6e0e3",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "e1dc20bd1b015f74690b790b1f74d98d7c7e327ffacd7141e53ac4fa822bf69b",
+        "source_anchor": "Keyboards",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Keyboards",
+        "evidence": "Checked single keys, Apple Command/WASD comfort, proximity and customizable bindings."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "8661fced61f1768b0782fd3c74d5e7900f167c630557fbd2d1e82345a587de65",
+        "source_anchor": "Keyboards",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Keyboards",
+        "evidence": "Checked single keys, Apple Command/WASD comfort, proximity and customizable bindings."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "3db89d600e91fcdaed88868d855f21179d5f8f464f676ee094ebecf71a593610",
+        "source_anchor": "Keyboards",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Keyboards",
+        "evidence": "Checked single keys, Apple Command/WASD comfort, proximity and customizable bindings."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "6a357eacfa2d64ff225f325f94c493b30ae4f3719b84cc9c868e7315e5585cc9",
+        "source_anchor": "Keyboards",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Keyboards",
+        "evidence": "Checked single keys, Apple Command/WASD comfort, proximity and customizable bindings."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "ba5bb5e01a53c405ba8ad55eb4692fde9be8603d5aafb03a4c6e90a56078db3b",
+        "source_anchor": "Keyboards",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Keyboards",
+        "evidence": "Checked single keys, Apple Command/WASD comfort, proximity and customizable bindings."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "b116fd75f774f309a9a4db201057cf6ea63f36934a8410d31e0317d7e0d75ea4",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "No extra iOS/iPadOS/macOS/tvOS rules and unsupported watchOS retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "d83138de3181ce0ee74f509a313753add3587e17990ba03147209c4cec66f283",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked spatial-controller trigger semantics for both looked-at indirect and reached direct interaction."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "69eaeda22a0ab2657364001caa7f3349b1c328f07811f2a6205f707e150a4b59",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "f520e186969c48d60da0d5cf2333e98ac167b643e7e165acacc9516dfba486be",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "e8900fbd9563e83f32e6b35d575bc5463de7141bdd224904844889a7b1e5f9fa",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "f2c8cf8b357c1f2047a29e21528a743dc9c0c7b7b4f95bbf25636b5fcb138545",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "2fce7d6cf4a425255eea65f280ca3a614f6af33dd297945e626d21c268a2542c",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "ccac99078d5a5a5ba82568da08652c05f504c03e904f5c88564c302a1c39ba6c",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "530f42a583a1c4fa20db0663c4de6a8ce58baf8d247f9214f8c16b517f50d47a",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "2b94766c89825fa5fd8ca2014c8a3fd54d24c7c44982cc445b493cbd1ef0f270",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/rows/1/0/0",
+        "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/rows/1/1/0",
+        "source_unit_hash": "0e4aeeea890fe1de2a253c00c7491a959d3333b664471d9b7530a896a3dae406",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/rows/2/0/0",
+        "source_unit_hash": "6fbfd8192538c86013ae1170ead307313ca6290dbe20e9b9a262d8ed4dbef179",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/rows/2/1/0",
+        "source_unit_hash": "fa1da28770ddc2ff69f6852e5729b397881acaf9d58508ae7fa9abf35fb9c5a4",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "2604be095f500dd6589e5ae93e09aa38c915ae724c918d66d0f9ddc728c433a3",
+        "source_anchor": "Physical-controllers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Physical-controllers",
+        "evidence": "Checked default-input fallback, allowed TV/Vision requirements and badge/presence handling, auto pairing/profile, actual active/multiplayer glyphs and every UI mapping including unassigned X/Y/triggers and reserved Home."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "2b94766c89825fa5fd8ca2014c8a3fd54d24c7c44982cc445b493cbd1ef0f270",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

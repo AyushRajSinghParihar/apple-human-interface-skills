@@ -1,0 +1,580 @@
+{
+  "review": {
+    "slug": "lists-and-tables",
+    "status": "reviewed",
+    "source_hash": "097b55184d9454a7ac24a4c93b7785b16e0332518797e1bb1692120fa57694ad",
+    "destination_hash": "f8c6438e60dc2b5e243bf82ee40c41a97bd80f7e7336b61335c08ce4751951a4",
+    "reviewer": "independent-coverage-auditor",
+    "reviewed_at": "2026-10-25T12:57:12.483352+00:00",
+    "evidence": "Independent complete source-to-local semantic comparison and actual embedded-media inspection; author mappings do not establish approval.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "lists-and-tables",
+        "status": "reviewed",
+        "evidence": "Checked row/column grouping/hierarchy/editing/navigation and sortable attribute data."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked text-vs-image collection choice, reorder/edit-mode handling, persistent navigation selection vs briefly highlighted state selection."
+      },
+      {
+        "source_anchor": "Content",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Content",
+        "status": "reviewed",
+        "evidence": "Checked succinct rows/detail alternative, recognizable middle truncation, descriptive noun headings/title case/no punctuation, context without single-column heading."
+      },
+      {
+        "source_anchor": "Style",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Style",
+        "status": "reviewed",
+        "evidence": "Checked grouped iOS/iPadOS, elliptical watchOS and bordered/alternating macOS styles and standard row configuration."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Structural platform heading retained."
+      },
+      {
+        "source_anchor": "iOS-iPadOS-visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "iOS-iPadOS-visionOS",
+        "status": "reviewed",
+        "evidence": "Checked info-button detail vs chevron hierarchy navigation and avoiding trailing-index target conflicts."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Checked sort/reverse headings, resizing, alternating rows and outline hierarchy alternative."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Checked focus expansion/rounding and avoiding extra image masks."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Checked short but complete data access and short non-scrolling details required for vertical page-to-page navigation."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "0c6eed0ebf4fa7599a13476cbf90865d6446a3351fdff8dbd96921684ec76c04",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "lists-and-tables",
+        "evidence": "Checked row/column grouping/hierarchy/editing/navigation and sortable attribute data."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "b69d51fc805b762af898f40db2ccba435f12f8cd62feb0a03a1f9aa32ca9b263",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "lists-and-tables",
+        "evidence": "Checked row/column grouping/hierarchy/editing/navigation and sortable attribute data."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "f2a70f48a46051a206f01a23de16eae44a7bda80bc26895259cec27c22f4264a",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "lists-and-tables",
+        "evidence": "Checked row/column grouping/hierarchy/editing/navigation and sortable attribute data."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "1ae51b62bb3032ffc964e4e7b0e91acb580b4fcc4275c78cd1c67f41d9481b4d",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "lists-and-tables",
+        "evidence": "Checked row/column grouping/hierarchy/editing/navigation and sortable attribute data."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "d976d874bb382bb8c358840c66c1abacef52396ffbead8a3c0e7580f0ae435ed",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked text-vs-image collection choice, reorder/edit-mode handling, persistent navigation selection vs briefly highlighted state selection."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "91031c2ad42299e4a0937224bf78ef86d84e9ab13aa4bdd5ec621398d1701f9c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked text-vs-image collection choice, reorder/edit-mode handling, persistent navigation selection vs briefly highlighted state selection."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "e008afc65390ecb3dda23c99d522252bd950950b6f87c8c488095cc858fa6654",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked text-vs-image collection choice, reorder/edit-mode handling, persistent navigation selection vs briefly highlighted state selection."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "173c1daaa35ebd15e4f98cffedf021c73cd1af0b0704edb5b84e79c19c193232",
+        "source_anchor": "Content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Content",
+        "evidence": "Checked succinct rows/detail alternative, recognizable middle truncation, descriptive noun headings/title case/no punctuation, context without single-column heading."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "7031cfb3a2fafb8c93e44cd1c36fa38c5af960bf3d8003484505f64db04725c7",
+        "source_anchor": "Content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Content",
+        "evidence": "Checked succinct rows/detail alternative, recognizable middle truncation, descriptive noun headings/title case/no punctuation, context without single-column heading."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "61b7e0fd25c0060b68c4c5995fd8ec1492eecd25688118dd59b4528edbc55a97",
+        "source_anchor": "Content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Content",
+        "evidence": "Checked succinct rows/detail alternative, recognizable middle truncation, descriptive noun headings/title case/no punctuation, context without single-column heading."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "7a1c3a32a6eea9766d1a5da128a0d65cf32b3851e51cf80d7404892cbc4e37fb",
+        "source_anchor": "Style",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Style",
+        "evidence": "Checked grouped iOS/iPadOS, elliptical watchOS and bordered/alternating macOS styles and standard row configuration."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "e8df49a28ee4413ede667aefab649a2154d36b8779d0ddeca9e4ebf87935c2d1",
+        "source_anchor": "Style",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Style",
+        "evidence": "Checked grouped iOS/iPadOS, elliptical watchOS and bordered/alternating macOS styles and standard row configuration."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "b1b30e67d922b822e691e7e5d7ce70139595a6903609ced5915e77f5885ae758",
+        "source_anchor": "iOS-iPadOS-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "iOS-iPadOS-visionOS",
+        "evidence": "Checked info-button detail vs chevron hierarchy navigation and avoiding trailing-index target conflicts."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/columns/0/content/0",
+        "source_unit_hash": "9e6ae2378842eb6556fff5a3f6c5622b96dd3f4ebf44d77d46cc1943f5710d17",
+        "source_anchor": "iOS-iPadOS-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "iOS-iPadOS-visionOS",
+        "evidence": "Checked info-button detail vs chevron hierarchy navigation and avoiding trailing-index target conflicts."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "e3efbad7374a97f521484389c9e047a6d542eca85ee13559c73b56eceaeeecbf",
+        "source_anchor": "iOS-iPadOS-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "iOS-iPadOS-visionOS",
+        "evidence": "Checked info-button detail vs chevron hierarchy navigation and avoiding trailing-index target conflicts."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/columns/1/content/0",
+        "source_unit_hash": "0161a223baca6cd29dfe2739a9b449dc31970788c48f9753d237cefed53524c6",
+        "source_anchor": "iOS-iPadOS-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "iOS-iPadOS-visionOS",
+        "evidence": "Checked info-button detail vs chevron hierarchy navigation and avoiding trailing-index target conflicts."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "a585c8aa1d80f194c3d2547ba40c5d7ae58f665a9aaf2a3e6f6133cae3df6201",
+        "source_anchor": "iOS-iPadOS-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "iOS-iPadOS-visionOS",
+        "evidence": "Checked info-button detail vs chevron hierarchy navigation and avoiding trailing-index target conflicts."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "ff1dafaf3b0f778c57a5eb85faf0c9266dceb96dc0cbbd16132e399a619855fe",
+        "source_anchor": "iOS-iPadOS-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "iOS-iPadOS-visionOS",
+        "evidence": "Checked info-button detail vs chevron hierarchy navigation and avoiding trailing-index target conflicts."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "de6286ec3b736663dffd3910f2de4f71f56405b1f934aacc90dc1a6ff85311bc",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked sort/reverse headings, resizing, alternating rows and outline hierarchy alternative."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "5485935a5faff543edf8ce2fd90077cd8ccd4a0d0df4db6998c5c9f627764bcc",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked sort/reverse headings, resizing, alternating rows and outline hierarchy alternative."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "8153cd7fa60f08f7b947956437b87fbdd61bb0151a0bfceeaaa3c9aedcbf1e79",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked sort/reverse headings, resizing, alternating rows and outline hierarchy alternative."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "fe2f56ad7a5362b0f09e0d3292ac273787e5d377f04e29dbe16e33d7faa52723",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked sort/reverse headings, resizing, alternating rows and outline hierarchy alternative."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "e0dbcae6b4964641987cd2b1ade5cfe047ad2e015edb71708b1c60c7259acde6",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked focus expansion/rounding and avoiding extra image masks."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "41058a31256a4c7cef34208393932d88968fe89c5ca1dd01e671c79601d45340",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked short but complete data access and short non-scrolling details required for vertical page-to-page navigation."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "6931a203087529e61421120dd377110d524fdeff04802a8e26eb519be8a4069e",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked short but complete data access and short non-scrolling details required for vertical page-to-page navigation."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "fc010e51c2a1f27c7858b0c4f8a67ab7fa4fee3d5b1144e3b5cf84667d78dd27",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "4b5f867e4935bc283aaf4724ffa89d895dd0d0937623cc0bf0629575eab84ace",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "fc630747c38955b09778a9451282e8fe933fd90da0b116681aef33524228777b",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "85c6525707fad433404bd20ff8fb00bc4a08dbfea7e085fb46645cef08c670c9",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "8dc549246a733e3256356f4707facc52bfbbd25cda114046ecc8bfca6f672996",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "d76f13b1f51be070c3391c89f335df70f453efdc757019a050a2f77023aa97e2",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "f6d086b2eb7bdc6f050885e0513e5f95e1d87e339829cc75130b4d86d74e4081",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "a8b0f924b7afcd23e0bd73604c1c1390c2b07dfcb62cd31b145ec4a0b3d3ad42",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/1/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/1/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/2/0/0",
+        "source_unit_hash": "937d2d87f6be46489d91c6c598d77898e230787b56f889b2c1e16309f42a1ad2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/rows/2/1/0",
+        "source_unit_hash": "478d54ffbd6891377fd98608d04cc8bae71c24ac7c7dbfd7a1f213d8dbb649bb",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "a8b0f924b7afcd23e0bd73604c1c1390c2b07dfcb62cd31b145ec4a0b3d3ad42",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      }
+    ],
+    "supporting_files": [],
+    "issues": []
+  },
+  "media": {
+    "components-lists-and-tables-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Topic illustration or correctness marker adds no separate unexpressed requirement.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "decorative or redundant topic/assessment marker",
+      "binary_hash": "7fb987ff363c02c7004fabe228a61e61d2c27727447c6d2624853597a8cdc141",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-lists-and-tables-intro@2x.png",
+      "reference_metadata_hash": "56de1b757329b782f5e71265a1c8256df161739b29cb5f014dcbea0cf11e0cd5",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+      "destination_hash": "f8c6438e60dc2b5e243bf82ee40c41a97bd80f7e7336b61335c08ce4751951a4",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+          "hash": "f8c6438e60dc2b5e243bf82ee40c41a97bd80f7e7336b61335c08ce4751951a4"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-lists-and-tables-intro~dark@2x.png",
+          "binary_hash": "c84610f2d1b1ea64e1f242ff09f2bbe65199b7247661c892d90310cedbbe911a",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "info-button-in-list.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Checked info-button detail vs chevron hierarchy navigation and avoiding trailing-index target conflicts.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "de061f44d5dd266b692772dc61c702b1b2ee0c304ee1245a998e7f556eebb4e0",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/info-button-in-list@2x.png",
+      "reference_metadata_hash": "ef9965b5e0c62f6b4dcf651876a9f59e2745b21df7a9ece98f1c970d114ce66a",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+      "destination_hash": "f8c6438e60dc2b5e243bf82ee40c41a97bd80f7e7336b61335c08ce4751951a4",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+          "hash": "f8c6438e60dc2b5e243bf82ee40c41a97bd80f7e7336b61335c08ce4751951a4"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/17/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/info-button-in-list~dark@2x.png",
+          "binary_hash": "a339d33b5d5df35631cd52f606dae4793f52850ed54f26125d5bb82071b424fd",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "disclosure-indicator-in-list.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Checked info-button detail vs chevron hierarchy navigation and avoiding trailing-index target conflicts.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "4876ec3d5eab02a0b92d7f55c216d444e1e52ead0f61db4fa40830f32d3fe8bd",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/disclosure-indicator-in-list@2x.png",
+      "reference_metadata_hash": "46d0e7d388a8cd8c309d76d62e38dfb165a0116468379c65efa88a49de0d83f8",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+      "destination_hash": "f8c6438e60dc2b5e243bf82ee40c41a97bd80f7e7336b61335c08ce4751951a4",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+          "hash": "f8c6438e60dc2b5e243bf82ee40c41a97bd80f7e7336b61335c08ce4751951a4"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/17/columns/1/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/disclosure-indicator-in-list~dark@2x.png",
+          "binary_hash": "de497432fbf752ce5c160d7b2412e942b34e9fd482fc050c83422f0cc3621736",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    }
+  }
+}

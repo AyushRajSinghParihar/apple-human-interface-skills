@@ -1,0 +1,36 @@
+{
+  "source_hash": "e48d60f6f9b018e2d2bdd916b5eaf5feb52c7f63f525b41025dfc8ff3ebdf721",
+  "media": {
+    "inputs-action-button-intro.png": {
+      "status": "reviewed",
+      "reviewer": "root-independent-image-auditor",
+      "reviewed_at": "2026-10-25T13:14:40.839354+00:00",
+      "reference_metadata_hash": "331b476cae298f7e1179a04ea09799b20613af2526362a7fbe31868f27e51cf1",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-action-button-intro@2x.png",
+      "binary_hash": "867304e7b8b72140c4d3bceafe768b6021b085f325a659fdfaa1a7ef7ecc7a43",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "decorative",
+      "evidence": "Inspected actual light and dark introductory illustrations. This tinted topic symbol and construction grid identify the subject; they add no normative interaction, layout, or specification beyond the local article. Theme changes alter symbol/background luminance, not the represented concept.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/action-button.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/action-button.md",
+          "hash": "766c945264277a6334a4e7d45bc6436bf4ff84f5221be6b8dfda971f19c0f7fd"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-action-button-intro~dark@2x.png",
+          "binary_hash": "9b9b1eaf5a8753354d9413c83d3dcfe8bb6417980225f5a33624eaebf8b8238c",
+          "status": "reviewed",
+          "reviewer": "root-independent-image-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,492 @@
+{
+  "source_hash": "84ab181b4a6f14446b092af549fc40f490a244ed368131783f0b84dde8eb99f7",
+  "media": {
+    "error.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.630655+00:00",
+      "reference_metadata_hash": "65896dd66afd13dac3842f5a1777c7e8e3588840ce12c68de636d4e34b23cedf",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/error.mp4",
+      "binary_hash": "4f4e8f66fcadc1274ad744b3a70062c879558f68e0f18a00a48918c4d7cafc2c",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Four separated green pulses with varying strength and moving playhead inspected. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#iphone-patterns",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/error~dark.mp4",
+          "binary_hash": "4021fca6e053cf5787eacdacb31cac460d1a7ea4ebade4b41889d9f5dd63800c",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary/alternate chronological comparison inspected: same pulse arrangement or symbol identities, layer relationships and demonstrated state changes with light/dark rendering. No additional appearance-specific rule omitted.",
+          "decoded_audio_pcm_equal": true,
+          "review_method": "actual primary/alternate chronological frame-sequence comparison at 0, 35, and 75 percent of duration; source-context/local-explanation comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Both actual light/dark representations inspected.",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/25/columns/2/content/0"
+      ]
+    },
+    "haptics-click.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.630747+00:00",
+      "reference_metadata_hash": "1794f8b9a466c0e8726fb3b1cfbe9e7962664b5143635b682553eb758b3e7d0b",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/haptics-click.mp4",
+      "binary_hash": "e4e6b28b1e152e3fd393418b98080129829b61760e0772abf497493c6e3a2b0f",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Isolated brief watch click event and playhead inspected. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#apple-watch-patterns",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/39/tabs/8/content/0"
+      ]
+    },
+    "haptics-failure.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.630869+00:00",
+      "reference_metadata_hash": "62308a8a7507da6a4b6fcc33ccf9313d4179c030cfb931e884c08f093003561c",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/haptics-failure.mp4",
+      "binary_hash": "5b771c0887fc6a60f154c36b1bcbd86a8f40d56635b555c888b836c5f42bb7dd",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Longer multi-part envelope/audio waveform inspected against documented failure meaning. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#apple-watch-patterns",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/39/tabs/4/content/0"
+      ]
+    },
+    "haptics-leveldown.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.631008+00:00",
+      "reference_metadata_hash": "1b53b83cb62ecc3c4513074ecdfd508dc7c0b120db45097c3c7da0e0b4c3b653",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/haptics-leveldown.mp4",
+      "binary_hash": "e672ae17b38cd8b818369a28a584f4674e35c7291c24617d5f0a694d30c9b252",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Two short events and their waveform compared with level-up. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#apple-watch-patterns",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/39/tabs/2/content/0"
+      ]
+    },
+    "haptics-levelup.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.631154+00:00",
+      "reference_metadata_hash": "879ff8bc29df718a4944319ee2f15a0326657fba393449cc64909fb67bc1fcd4",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/haptics-levelup.mp4",
+      "binary_hash": "fa1c2b69d9b85eb13130f52d0c2243009c2e706ee4300f01e7d34383eaa493ec",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Two short events and their waveform compared with level-down. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#apple-watch-patterns",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/39/tabs/1/content/0"
+      ]
+    },
+    "haptics-notification.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.631310+00:00",
+      "reference_metadata_hash": "37faf4b369473f9e6230511009e6c81926a3788707def143b2f70831697ebedd",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/haptics-notification.mp4",
+      "binary_hash": "d2b33ed199915b2377cd22ed2c7baa062fa747833806c213ad64709dccfbe5e9",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Two narrow events followed by extended tapering event inspected. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#apple-watch-patterns",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/39/tabs/0/content/0"
+      ]
+    },
+    "haptics-retry.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.631487+00:00",
+      "reference_metadata_hash": "8fdb8b295aa7e269f1fe31c840cddd64d9c07e4781657e2dd26ce7fc54da27a6",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/haptics-retry.mp4",
+      "binary_hash": "b170ba33adee65429e03a23b4df0f11950691e9b815cae0c3d86a1d067c8490e",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Longer motif compared with failure and source distinction that another attempt is possible. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#apple-watch-patterns",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/39/tabs/5/content/0"
+      ]
+    },
+    "haptics-start.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.631662+00:00",
+      "reference_metadata_hash": "f3422fb22dce42cb9fd4d36cf7f543624ecca9527eaeb747edec4f8296d84704",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/haptics-start.mp4",
+      "binary_hash": "e3651dc35e5ac766a444924eeda9f9a981c24bde7d2a6d1d196be1ae3e56f5ae",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Single initial tactile event and decaying waveform inspected. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#apple-watch-patterns",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/39/tabs/6/content/0"
+      ]
+    },
+    "haptics-stop.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.631845+00:00",
+      "reference_metadata_hash": "a17648b932fedf290e734d52de1bee31b682802a82507bdc67def17261b69002",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/haptics-stop.mp4",
+      "binary_hash": "63347d15d2d9b88fe965ea5372c285f18e50f6a6424d9e2ec7199d58c0a2b17b",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Two separated tactile events/waveform decays inspected. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#apple-watch-patterns",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/39/tabs/7/content/0"
+      ]
+    },
+    "haptics-success.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.632034+00:00",
+      "reference_metadata_hash": "fe9eb582afce968aa64c8f19dd8f6871986c55051ed53b6e8833823f1e524861",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/haptics-success.mp4",
+      "binary_hash": "21150bdfb5f3942b6f336db1cf743e0611d5d6ff55ae511031dc6515dcedfb45",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Three-event watch success motif and changing waveform inspected. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#apple-watch-patterns",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/39/tabs/3/content/0"
+      ]
+    },
+    "impact-heavy.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.632228+00:00",
+      "reference_metadata_hash": "e149d90d3bbbf1df4b2b159df104372b4c16234381f423a9e8a4f28416a82197",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/impact-heavy.mp4",
+      "binary_hash": "30e3a4f4d3eeb791870814b54765ff4098c59a043a93418c31748025bf8ccd17",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Single strong impact pulse inspected. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#iphone-patterns",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/impact-heavy~dark.mp4",
+          "binary_hash": "a79156618b97736066c6eaaf833bd40ee518c69d995ab3700e3bd5f0ec2fa1d4",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary/alternate chronological comparison inspected: same pulse arrangement or symbol identities, layer relationships and demonstrated state changes with light/dark rendering. No additional appearance-specific rule omitted.",
+          "decoded_audio_pcm_equal": true,
+          "review_method": "actual primary/alternate chronological frame-sequence comparison at 0, 35, and 75 percent of duration; source-context/local-explanation comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Both actual light/dark representations inspected.",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/28/columns/2/content/0"
+      ]
+    },
+    "impact-light.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.632430+00:00",
+      "reference_metadata_hash": "c6397fa7f760c609733b25708d5ebeec387f527ba94417bcb66a8263b9964497",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/impact-light.mp4",
+      "binary_hash": "6dddf5db525e5751d856e39478b97933f880fd18ad604854bbfeb5978bd60e3a",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Single lighter pulse compared with medium/heavy. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#iphone-patterns",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/impact-light~dark.mp4",
+          "binary_hash": "91958959f08ee91db0a635798301be0fb73760797c8641b8bf14ca5125ce8132",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary/alternate chronological comparison inspected: same pulse arrangement or symbol identities, layer relationships and demonstrated state changes with light/dark rendering. No additional appearance-specific rule omitted.",
+          "decoded_audio_pcm_equal": true,
+          "review_method": "actual primary/alternate chronological frame-sequence comparison at 0, 35, and 75 percent of duration; source-context/local-explanation comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Both actual light/dark representations inspected.",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/28/columns/0/content/0"
+      ]
+    },
+    "impact-medium.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.632681+00:00",
+      "reference_metadata_hash": "355e8209895ac49aa217cb358a7e47175f840dacf20b08ceb59fa53fde2fe74d",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/impact-medium.mp4",
+      "binary_hash": "404288f0df763272d6c2dfe94bd32fb000616d44fef210feebd2595492b26901",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Single intermediate-strength pulse compared with heavy/light. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#iphone-patterns",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/impact-medium~dark.mp4",
+          "binary_hash": "36e9943c334eefd75d6b25a5b5efd8c12ad852cf272b1a21ecf0503d9a970697",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary/alternate chronological comparison inspected: same pulse arrangement or symbol identities, layer relationships and demonstrated state changes with light/dark rendering. No additional appearance-specific rule omitted.",
+          "decoded_audio_pcm_equal": true,
+          "review_method": "actual primary/alternate chronological frame-sequence comparison at 0, 35, and 75 percent of duration; source-context/local-explanation comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Both actual light/dark representations inspected.",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/28/columns/1/content/0"
+      ]
+    },
+    "impact-rigid.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.632916+00:00",
+      "reference_metadata_hash": "12f93bf8aa345e58e0cac682e047a9a260349aab0346f7464a4e0ad4dc10aff4",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/impact-rigid.mp4",
+      "binary_hash": "17b7b60b42e8233054927c975e20aa27ba800150b66e84038434275f729e0861",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Single narrow abrupt pulse inspected, distinct from broader soft envelope. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#iphone-patterns",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/impact-rigid~dark.mp4",
+          "binary_hash": "f1a9c19f4f21f4eae6f8b92096c00d8de9f3f6ac547babca862c7b279c0d2439",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary/alternate chronological comparison inspected: same pulse arrangement or symbol identities, layer relationships and demonstrated state changes with light/dark rendering. No additional appearance-specific rule omitted.",
+          "decoded_audio_pcm_equal": false,
+          "audio_disposition": "Decoded signal matches exactly over its common duration; only additional silent padding differs.",
+          "review_method": "actual primary/alternate chronological frame-sequence comparison at 0, 35, and 75 percent of duration; source-context/local-explanation comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Both actual light/dark representations inspected.",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/28/columns/3/content/0"
+      ]
+    },
+    "impact-soft.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.633138+00:00",
+      "reference_metadata_hash": "45d70e25a33f9ec24552b2b869d4d1a9163a080e8ab10b3f7d49c142c55a037c",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/impact-soft.mp4",
+      "binary_hash": "6ed6a6552286fe88d81441fb5b1d542d1b1a54e72d441767407293668c1e3c57",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Single broader pulse inspected, distinct from narrow rigid envelope. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#iphone-patterns",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/impact-soft~dark.mp4",
+          "binary_hash": "1e77658cd89fd92e0bc615883ea9cd6db9e61aec7e119f782be5cdff30e1d911",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary/alternate chronological comparison inspected: same pulse arrangement or symbol identities, layer relationships and demonstrated state changes with light/dark rendering. No additional appearance-specific rule omitted.",
+          "decoded_audio_pcm_equal": true,
+          "review_method": "actual primary/alternate chronological frame-sequence comparison at 0, 35, and 75 percent of duration; source-context/local-explanation comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Both actual light/dark representations inspected.",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/28/columns/4/content/0"
+      ]
+    },
+    "retarget.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.633364+00:00",
+      "reference_metadata_hash": "0607ad1f50c650495459d3b81183ef281bb10b1397100609f6b91b0261047fcc",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/retarget.mp4",
+      "binary_hash": "133c7bf0a757a614821b1f3d70cfa772c7d5071460fd2218e06ebb27a537390a",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Short isolated selection pulse inspected. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#iphone-patterns",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/retarget~dark.mp4",
+          "binary_hash": "ce422671552e9a3341f5f1e0dfc7b363aab65d655d2a68502a189cb36a2b9e4e",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary/alternate chronological comparison inspected: same pulse arrangement or symbol identities, layer relationships and demonstrated state changes with light/dark rendering. No additional appearance-specific rule omitted.",
+          "decoded_audio_pcm_equal": true,
+          "review_method": "actual primary/alternate chronological frame-sequence comparison at 0, 35, and 75 percent of duration; source-context/local-explanation comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Both actual light/dark representations inspected.",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/31/columns/0/content/0"
+      ]
+    },
+    "success.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.633615+00:00",
+      "reference_metadata_hash": "f4ef4fa50df61e0960e5300d08bf02598037073ea2ab68e59096213885e1ea2d",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/success.mp4",
+      "binary_hash": "ae1118638556676c2939b707eaeb1123d528a9c01c0d93e9727d843def2b3aa5",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Two pulses with stronger second pulse inspected. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#iphone-patterns",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/success~dark.mp4",
+          "binary_hash": "e74882fd40fcf4fc8839d29ac28188638433e412772c2d31cc2b45cf8703c697",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary/alternate chronological comparison inspected: same pulse arrangement or symbol identities, layer relationships and demonstrated state changes with light/dark rendering. No additional appearance-specific rule omitted.",
+          "decoded_audio_pcm_equal": true,
+          "review_method": "actual primary/alternate chronological frame-sequence comparison at 0, 35, and 75 percent of duration; source-context/local-explanation comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Both actual light/dark representations inspected.",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/25/columns/0/content/0"
+      ]
+    },
+    "warning.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.633867+00:00",
+      "reference_metadata_hash": "0cf94de1edc9a500c89b27422c419d82761d3afcfa3adcf050a0f9ce12137218",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/warning.mp4",
+      "binary_hash": "dcdc48e0b0cbe54eecc250332bf28ced7e4407595eefad235d2d839275819bd5",
+      "review_method": "actual chronological six-frame sequence inspection plus decoded PCM envelope/spectrum analysis and source-pattern meaning; audio audition unsupported by this model; no physical-device tactile test",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Two pulses with weaker second pulse inspected. Audio analyzed from actual binary; public guidance preserves pattern identity and relative envelope, with no invented exact timing/pitch requirement. Audio is an illustrative proxy for predefined patterns: source prose names each semantic use, inspected pulse diagrams preserve relative envelope, decoded spectra/envelopes confirm actual signal structure; no audio-only spoken instruction or app-specific soundtrack is needed by this guidance.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/playing-haptics.md",
+          "hash": "8e051957ec7ef569b7d642ee9bac612a69d1359e55289c7ae831c992e152d473"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/playing-haptics.md#iphone-patterns",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/warning~dark.mp4",
+          "binary_hash": "f44ff1ea0d4063f72cd7737fb807ddd79cc0d9a5e24546759d1d29ba9e02ae77",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary/alternate chronological comparison inspected: same pulse arrangement or symbol identities, layer relationships and demonstrated state changes with light/dark rendering. No additional appearance-specific rule omitted.",
+          "decoded_audio_pcm_equal": true,
+          "review_method": "actual primary/alternate chronological frame-sequence comparison at 0, 35, and 75 percent of duration; source-context/local-explanation comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Both actual light/dark representations inspected.",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/25/columns/1/content/0"
+      ]
+    }
+  }
+}

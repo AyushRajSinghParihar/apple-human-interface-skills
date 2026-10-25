@@ -1,0 +1,26 @@
+{
+  "source_hash": "430c405b0f8986ed42713a915b40b8d8e08b19e5aaf083da9899326ac71a07c7",
+  "media": {
+    "visionos-virtual-keyboard.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.637362+00:00",
+      "reference_metadata_hash": "681ee7affd222a5352ca056b420c356527d40d4fe162b91396efaf4a76062beb",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/visionos-virtual-keyboard.mp4",
+      "binary_hash": "c93ffec80644ecb5c8a27af13d1775dc64742c0e2fb1407a9bf39fd46244ad67",
+      "review_method": "actual chronological six-frame sequence inspection and source-context comparison; additional native-resolution crop where needed; no exact timing/motion-quality claim",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Viewed direct hand typing, key feedback, changed entry/suggestions and keyboard/accessory presentation. Decoded audio contains only sparse low-level interaction transients lasting a few 10ms bins; it adds no spoken or audio-only instruction to the visual sequence.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards.md",
+          "hash": "708059a5fa6b0661e51b391445a2b962d7ab41efbc7322db7c18eb383f649f75"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/virtual-keyboards.md#standard-typing-in-a-spatial-presentation",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/30"
+      ]
+    }
+  }
+}

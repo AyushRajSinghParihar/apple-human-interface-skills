@@ -1,0 +1,1857 @@
+{
+  "review": {
+    "slug": "buttons",
+    "status": "reviewed",
+    "source_hash": "4c7edf3671176be6ea0fe9ea3a8b18f61b5582ed1285b6ec933067c259817cec",
+    "destination_hash": "ce5aa8180f49b2705a3dc5a72cbe709c3baca460b38ecc475d3a6fc176f4c76a",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:10:49.552682+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "buttons",
+        "status": "reviewed",
+        "evidence": "Checked instantaneous action, style/content/semantic role and related specialized-component distinction."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified 44×44 pt general/60×60 pt vision target and mandatory custom press state."
+      },
+      {
+        "source_anchor": "Style",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Style",
+        "status": "reviewed",
+        "evidence": "Checked system states/accessibility/adaptation, 1–2 prominent actions, style not inconsistent sizing and monochrome contrast over rich content."
+      },
+      {
+        "source_anchor": "Content",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Content",
+        "status": "reviewed",
+        "evidence": "Verified familiar glyphs, concise title-case action labels and Mac/vision tooltips."
+      },
+      {
+        "source_anchor": "Role",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Role",
+        "status": "reviewed",
+        "evidence": "Checked all four meanings, accent/red presentation, Return/default behavior and nondestructive-primary rule; added alert-specific synthesis is explicitly labeled Application advice."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked TV no-addition scope."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Verified embedded delayed-action spinner, optional alternate label and hiding image while active."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Checked platform-specific button category scope."
+      },
+      {
+        "source_anchor": "Push-buttons",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Push-buttons",
+        "status": "reviewed",
+        "evidence": "Verified text/image/default/tint, flexible-height conditions, additional-input ellipsis and force-click spring loading."
+      },
+      {
+        "source_anchor": "Square-buttons",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Square-buttons",
+        "status": "reviewed",
+        "evidence": "Checked nearby-view symbol-only push/toggle/pop-up behavior, body-only placement and no redundant introductory label."
+      },
+      {
+        "source_anchor": "Help-buttons",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "status": "reviewed",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "source_anchor": "Image-buttons",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Image-buttons",
+        "status": "reviewed",
+        "evidence": "Checked body versus toolbar items, about 10 pixel hit padding, usual no border and below-image label."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Verified inline capsules/material, corner toolbar/time-title adaptation/Liquid Glass, full-width primary, equal side/stack heights and secondary/context navigation use."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "d6348138262bc0607203aa592b7cf7c40b73983941ba5fa4a12a9cc43f9cc6d2",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "buttons",
+        "evidence": "Checked instantaneous action, style/content/semantic role and related specialized-component distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "4f52380e129d4da980ce372d2340a06fd4bd53e79ef1cc0eb12c79dcdfaf09b7",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "buttons",
+        "evidence": "Checked instantaneous action, style/content/semantic role and related specialized-component distinction. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "fd446ad2d4f79d0ec4cfdd575c4d3771e41c23ffc7dfde97a9aa3cfeb1ca2e8a",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "buttons",
+        "evidence": "Checked instantaneous action, style/content/semantic role and related specialized-component distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "a8524ce8302d84650ba2326a7d46bf9369bea81bce2def025da6649b1540f77d",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "buttons",
+        "evidence": "Checked instantaneous action, style/content/semantic role and related specialized-component distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/items/0/content/0",
+        "source_unit_hash": "5be061dc74d29e1c0fc2e44074e6af04a6d3aad487e6745aca97675c7a993bfd",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "buttons",
+        "evidence": "Checked instantaneous action, style/content/semantic role and related specialized-component distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/items/1/content/0",
+        "source_unit_hash": "1c90ae2367644c722b3fde1b274e9f17b3bff22aa929fb7ebb100d7040584d17",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "buttons",
+        "evidence": "Checked instantaneous action, style/content/semantic role and related specialized-component distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/items/2/content/0",
+        "source_unit_hash": "eb4b57024740afa8acae6c50054b05f7e52bb0e87bcc91f3f5928b39aa3830a5",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "buttons",
+        "evidence": "Checked instantaneous action, style/content/semantic role and related specialized-component distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "c8fc68ba9a480c60837af06694742e253021c61173e6bb2664262b2b813c4145",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "buttons",
+        "evidence": "Checked instantaneous action, style/content/semantic role and related specialized-component distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "62d7be16410dad3f52361f2e240b8a067a89cc8346658f6bd84c3bb3682dde02",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified 44×44 pt general/60×60 pt vision target and mandatory custom press state."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "b52299fb4747cd56ae0d3e8d4f134ace414ecadd5c1b60548d2d02bf4a948b68",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified 44×44 pt general/60×60 pt vision target and mandatory custom press state."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "c4a8555b092094a111e4ed1d84cba0a2b0361e4dc0d0c75288e2531bc938e258",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified 44×44 pt general/60×60 pt vision target and mandatory custom press state."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "e69502fdd05692fd2f39b761f279db35710fc759844592fbc0b20b4993e2e407",
+        "source_anchor": "Style",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Style",
+        "evidence": "Checked system states/accessibility/adaptation, 1–2 prominent actions, style not inconsistent sizing and monochrome contrast over rich content."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "02f167462fc639acc52fb668a3a5f4278e6315164a7fbcf6f9857ef45240b75b",
+        "source_anchor": "Style",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Style",
+        "evidence": "Checked system states/accessibility/adaptation, 1–2 prominent actions, style not inconsistent sizing and monochrome contrast over rich content."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "521b1c27a03fe48732abc0034027c535b2f4b7dd0618b1e84e1f9dee3dc6704d",
+        "source_anchor": "Style",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Style",
+        "evidence": "Checked system states/accessibility/adaptation, 1–2 prominent actions, style not inconsistent sizing and monochrome contrast over rich content."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "aa88af1a08544332f429787078fe0ce84eeea16c74bf4a662d16b35d5eddf67f",
+        "source_anchor": "Style",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Style",
+        "evidence": "Checked system states/accessibility/adaptation, 1–2 prominent actions, style not inconsistent sizing and monochrome contrast over rich content."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "b5c21ac3c53a3e1f4d8e685a5635e81dce28379967b97ce7889dfab01cb45bf8",
+        "source_anchor": "Content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Content",
+        "evidence": "Verified familiar glyphs, concise title-case action labels and Mac/vision tooltips."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "d39746e5aa80c1b6bce29b098e1d1328432cfce0e5dc2b60d6c9481c1efeda19",
+        "source_anchor": "Content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Content",
+        "evidence": "Verified familiar glyphs, concise title-case action labels and Mac/vision tooltips."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/content/0",
+        "source_unit_hash": "ca19c995a9d8602b2dd8c42094f29c0bf167e931858ea3fc253d2f111852faab",
+        "source_anchor": "Content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Content",
+        "evidence": "Verified familiar glyphs, concise title-case action labels and Mac/vision tooltips."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "f9ba906c8e7ff12651386aa2d2ecbdb6cb1200ea91aadc693ae69979a93573a5",
+        "source_anchor": "Content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Content",
+        "evidence": "Verified familiar glyphs, concise title-case action labels and Mac/vision tooltips."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "21eb7c30b6e1999baf8e15e3dcc665ea5bc28c53264ea4a9774c5042b551f2c3",
+        "source_anchor": "Content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Content",
+        "evidence": "Verified familiar glyphs, concise title-case action labels and Mac/vision tooltips."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "dfb421cebba525866e72f697846256c5bed8ef2755450c3d792984946275f2c7",
+        "source_anchor": "Role",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Role",
+        "evidence": "Checked all four meanings, accent/red presentation, Return/default behavior and nondestructive-primary rule; added alert-specific synthesis is explicitly labeled Application advice."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "f66287daa2ec5e39a57626efb5aaaf980cfbb364bbdf708dec1832031698924c",
+        "source_anchor": "Role",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Role",
+        "evidence": "Checked all four meanings, accent/red presentation, Return/default behavior and nondestructive-primary rule; added alert-specific synthesis is explicitly labeled Application advice."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/items/0/content/0",
+        "source_unit_hash": "ce7905cc02d3f57b742e02d6c850f277baef0258596fefb97e7453e18fe468fc",
+        "source_anchor": "Role",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Role",
+        "evidence": "Checked all four meanings, accent/red presentation, Return/default behavior and nondestructive-primary rule; added alert-specific synthesis is explicitly labeled Application advice."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/items/1/content/0",
+        "source_unit_hash": "a7560ede78757ad878e3321192800b390de09a0d908914bd94305bb4975d9ddd",
+        "source_anchor": "Role",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Role",
+        "evidence": "Checked all four meanings, accent/red presentation, Return/default behavior and nondestructive-primary rule; added alert-specific synthesis is explicitly labeled Application advice."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/items/2/content/0",
+        "source_unit_hash": "bb44e9ff39735042071881c571cd57e5fbbeb3e2b7bcfaff82a02a64ee559614",
+        "source_anchor": "Role",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Role",
+        "evidence": "Checked all four meanings, accent/red presentation, Return/default behavior and nondestructive-primary rule; added alert-specific synthesis is explicitly labeled Application advice."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/items/3/content/0",
+        "source_unit_hash": "eae7eb8d4f9823ea265dfbfdde9b0d6254e10cffdd34d59f4060b54cd639a2d2",
+        "source_anchor": "Role",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Role",
+        "evidence": "Checked all four meanings, accent/red presentation, Return/default behavior and nondestructive-primary rule; added alert-specific synthesis is explicitly labeled Application advice."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "db78e071736a8dd8c2a37c8045ef4bc7ef0ac1db1d9b2ce6e69c52f23de5cc3a",
+        "source_anchor": "Role",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Role",
+        "evidence": "Checked all four meanings, accent/red presentation, Return/default behavior and nondestructive-primary rule; added alert-specific synthesis is explicitly labeled Application advice."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/0/content/0",
+        "source_unit_hash": "7383378d4fd5dd5b8af6b17b701fbe1e02bf071fedb5d9128e3a6ba2e6f6d6d9",
+        "source_anchor": "Role",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Role",
+        "evidence": "Checked all four meanings, accent/red presentation, Return/default behavior and nondestructive-primary rule; added alert-specific synthesis is explicitly labeled Application advice."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "d330a9442dd0ff070db98c05dc2cfd28bd59a6a64e9b8e513f53a692d1f9b99c",
+        "source_anchor": "Role",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Role",
+        "evidence": "Checked all four meanings, accent/red presentation, Return/default behavior and nondestructive-primary rule; added alert-specific synthesis is explicitly labeled Application advice. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "1c05ea8da0e203b00f2ee74cdb6a783dcda7587a66982a710b47dc22ad063605",
+        "source_anchor": "Role",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Role",
+        "evidence": "Checked all four meanings, accent/red presentation, Return/default behavior and nondestructive-primary rule; added alert-specific synthesis is explicitly labeled Application advice."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "f00a5897ce73ffc01d4b6c561fd9ea58531650e1e65029290708daea15fa98ae",
+        "source_anchor": "Role",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Role",
+        "evidence": "Checked all four meanings, accent/red presentation, Return/default behavior and nondestructive-primary rule; added alert-specific synthesis is explicitly labeled Application advice."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "8549c0668df733770cc1ceeffee03023bdd8a69b3c1b22127f4ee8a4d582692a",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked TV no-addition scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "3423a6f0e223bb20ab92158e5d2ea48327f9052e80e9544314915776aaeface1",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified embedded delayed-action spinner, optional alternate label and hiding image while active."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/columns/0/content/0",
+        "source_unit_hash": "0e9c847e171cbac4466582cd596654846f39d038f56305f9832990849b0523ca",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified embedded delayed-action spinner, optional alternate label and hiding image while active."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "01f7b57a34996cf7b290feaa8435c07fbaeba0d0ba3e53795f15238aeadd303b",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified embedded delayed-action spinner, optional alternate label and hiding image while active. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/columns/1/content/0",
+        "source_unit_hash": "639bbdad9a39985258077305e2bd2b229c86822cb5c98de55a11842824c957b6",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified embedded delayed-action spinner, optional alternate label and hiding image while active."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "79aa2f74003e3839525836f095457b67cbe76e146867facdc71c86788d190b82",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified embedded delayed-action spinner, optional alternate label and hiding image while active. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "8f67303239c1827faec4db64db4a3ded799a64769cc52c15def0eb6ab5b60669",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked platform-specific button category scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "db1efd55e7b6795eac3be634c3acfe0299e15e6fc107310ee4fd0262ea251d77",
+        "source_anchor": "Push-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Push-buttons",
+        "evidence": "Verified text/image/default/tint, flexible-height conditions, additional-input ellipsis and force-click spring loading."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "5c11c37fef9938e789812ffa1ecd5473085630803470872e6aad172e1bd1a4ac",
+        "source_anchor": "Push-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Push-buttons",
+        "evidence": "Verified text/image/default/tint, flexible-height conditions, additional-input ellipsis and force-click spring loading."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "f5cdbe421dc8bae16b8fd809f7511774b12f431a4afc68c97d33a892eaeb1184",
+        "source_anchor": "Push-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Push-buttons",
+        "evidence": "Verified text/image/default/tint, flexible-height conditions, additional-input ellipsis and force-click spring loading."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "6dc418c737e8f5692472a703f175ac4ae31620b0f5ba87b93d687540a4d536e0",
+        "source_anchor": "Push-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Push-buttons",
+        "evidence": "Verified text/image/default/tint, flexible-height conditions, additional-input ellipsis and force-click spring loading."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "6b12da4a70c3e3fdafa78d53a88c730f1a301a758b52564ce38ab8d2bffc5e63",
+        "source_anchor": "Square-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Square-buttons",
+        "evidence": "Checked nearby-view symbol-only push/toggle/pop-up behavior, body-only placement and no redundant introductory label."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "f3f3b36e5e89870f47964c9799266bb28a9f5b2be95f3d280f84ae01c555eebb",
+        "source_anchor": "Square-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Square-buttons",
+        "evidence": "Checked nearby-view symbol-only push/toggle/pop-up behavior, body-only placement and no redundant introductory label."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "8a25748c13e2705c40ffdd5d0494154a286081a927af0d6f38a6700682572ffe",
+        "source_anchor": "Square-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Square-buttons",
+        "evidence": "Checked nearby-view symbol-only push/toggle/pop-up behavior, body-only placement and no redundant introductory label."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "5e2b9b2dc8a2c3285a71247ab31eea1ae2951794357bc980ececb7e35a3d754c",
+        "source_anchor": "Square-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Square-buttons",
+        "evidence": "Checked nearby-view symbol-only push/toggle/pop-up behavior, body-only placement and no redundant introductory label."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "9d32d8fc56173474dcbb93e2ed4c39932ad2866e565782ed9693af114e170081",
+        "source_anchor": "Square-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Square-buttons",
+        "evidence": "Checked nearby-view symbol-only push/toggle/pop-up behavior, body-only placement and no redundant introductory label."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "5f9606db00bb4bc50f33387b5e412cd91e57685dd469f578def6a5b33a8a634d",
+        "source_anchor": "Square-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Square-buttons",
+        "evidence": "Checked nearby-view symbol-only push/toggle/pop-up behavior, body-only placement and no redundant introductory label."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "fcb7d687555c5b143e70533d63e1322e88c57a19bf42af7f931d99affc8f9886",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "7242a84eedd5c1dc993ccbee9a7f5df909b73e8a0b3b2a970e255082a6f2374a",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "80929a4e4c6a20a154aa48a862c516d68d5869a2789821726af58899d8b55a00",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "bbbfe5020f72b750c4111ccd01819c6be9858f74f69a31176e12e325f7a60a15",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "9718b7cc5b28b045ab6c331f2b4967c3cfc6631be5e7716aa1665f949eb89c05",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "e1ec418583ef336ee4d0131399933d00964b065d4019a16df650bdc0760d2e60",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "e079873281ef6ed99b086a7d316d54586b114d2d9db1aac6a278f3176c615544",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/0/0/0",
+        "source_unit_hash": "cfe9d5db6125658f56692a3d08e053dd3aadcc80003b371dcee2167bb6166385",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/0/1/0",
+        "source_unit_hash": "8715f396086a980aaef45e15b1d689255d062e192519cbbde7410f2a1bd2e1b9",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/1/0/0",
+        "source_unit_hash": "32dc1e41cd1ddafb23095905a2c78c8f2ab3bfe93a4426d281c297c5819b5255",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/1/1/0",
+        "source_unit_hash": "b0d13a5ae3ff7a9d58ae3e0d33de93008052f6fc023cfb3f641b1b8cba22a3a0",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/2/0/0",
+        "source_unit_hash": "246e707a68f12f20dad45980224263d5c402b8eb38eadca735b4526893156ae2",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/2/1/0",
+        "source_unit_hash": "9c4361c3ba12b877c7c8f34095d7b00bbc8af5b586be9721d7bc387b8c7a2b47",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/3/0/0",
+        "source_unit_hash": "e87ac428dec826d5266d9e1be294ef243e8a96392da62dedc6ac072762b03c58",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/3/1/0",
+        "source_unit_hash": "9c4361c3ba12b877c7c8f34095d7b00bbc8af5b586be9721d7bc387b8c7a2b47",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "2a3f50a0b9b1ba3e74de655713cd45504cb8324878a8a3e308424e0d4ceb10b3",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "be066da118bc8c845acb14f3329676da260ab82ddbf274959c551e331d7a37f7",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "a7ba1bd422c1d9ab9a04ec9818c2e466d483146b824795d4b36b40274154bfa4",
+        "source_anchor": "Image-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Image-buttons",
+        "evidence": "Checked body versus toolbar items, about 10 pixel hit padding, usual no border and below-image label."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "1d751dd4d2095fc68111ce6391eb61cb7c501ddc91728764cf46c7b26f41721c",
+        "source_anchor": "Image-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Image-buttons",
+        "evidence": "Checked body versus toolbar items, about 10 pixel hit padding, usual no border and below-image label."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "592cd5e99816a27908f70ad01fff785788d658ef1bc762c1793ce4682ce13be0",
+        "source_anchor": "Image-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Image-buttons",
+        "evidence": "Checked body versus toolbar items, about 10 pixel hit padding, usual no border and below-image label."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "03435ae7509a56315db38b58d8a57cf6098d5537230c8296e0d544dd2b2033b5",
+        "source_anchor": "Image-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Image-buttons",
+        "evidence": "Checked body versus toolbar items, about 10 pixel hit padding, usual no border and below-image label."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "b3a292282f435c8a6e962c62a10877fb20aa185dee35550d02139439e9eff13f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "5883677935bfd85a931047f2b5c13b9288426dd20e3ff71f99a41b61becc0da0",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "06a11fd64500ad59979dd4da25220f62441acb482b13bf3560650ba53061fb14",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "4bf7bf207105a547c2c5e60fb3b4375e29de3a67d7463ee931f5446fdb6baba9",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/64/columns/0/content/0",
+        "source_unit_hash": "2d8685280ab2818debc8ba7e3c92dfed8927c6f28cc055585b2dc66234cbf463",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/64/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "cfc679808577126b5e6437b2de5ff991b5c956629a0b146992423f910d32a732",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/64/columns/1/content/0",
+        "source_unit_hash": "800806288314ddd4f54b50ddff7ec29a8e4d9d5413c37b9adeb9f7f2c7f22dec",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/64/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "031f025f0c1c3a734fd8fc32509f808a35cb8c139d764aabb970582a7d1f1187",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/64/columns/2/content/0",
+        "source_unit_hash": "4e1eb1604ea784f5dede3f8f8f6291cb5c951719248e62170e6e2030ddaff349",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/64/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "7b437f65effa6c9e919ca4038687cd72e4be852a5c5bb5e67e10cd35d9a8ef06",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/64/columns/3/content/0",
+        "source_unit_hash": "04bcc18211f49e309c971529304677caedc8107cafef921f077126e11df6c88f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/64/columns/3/content/0/inlineContent/0",
+        "source_unit_hash": "7d26291d0102ae9af6451fdca89fbbcfd7ac31922cda5237736841df49d12e6c",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "b10d2490bb81ec75739ac0277ccb21feb050b7761c8e7a61ab17f8a55eb3f8cd",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/content/0",
+        "source_unit_hash": "7d7eebc76f8e9b8301ee8f5f33f17925a135b4015a420ad0f5b6effee670c07d",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/66",
+        "source_unit_hash": "83bd9b7db1853abba6cc2a76ca618bc7d47e713394f558b1e12acd7e731142a6",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/67",
+        "source_unit_hash": "be0dcc8392bcbd2b36ce77df4a465958b2d4b6f9c090010689fa8c073a046c6b",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "9263ad6658533795ef7e7b57e32afc68074b9ee2f4a2d40b53d2e7a431856cc9",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69",
+        "source_unit_hash": "b99af228c27b05c86dc353651b57ab88c9eccf4d4f9863b338b098edbf24a3de",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/0/0/0",
+        "source_unit_hash": "2a7a7bb9f8b96aba1ec804a403032e2c20d1227d29d6fc6597a7910358ca41e3",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/0/1/0",
+        "source_unit_hash": "9ac9b678c8db03996f7ef64e8c54b424b23208c8ef810b1b5adb9658f85d1417",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/0/2/0",
+        "source_unit_hash": "7e58ecc9d106132c3f81659181269c764cc6004fda5cfb14f39e159ee19c1b73",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/0/3/0",
+        "source_unit_hash": "87f0f83152881c6ce075396e4f72f648403c148e80655f917fc087c4933bce9d",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/0/4/0",
+        "source_unit_hash": "f463e779373d71a3bc8563cdf3541d6e2e55bf3e872b34c6a456480cc7f7539f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/0/5/0",
+        "source_unit_hash": "298fe60bed1c2d78b2be19bad427d5b565ca457b78a9017b925cdfc59747b202",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/1/0/0",
+        "source_unit_hash": "46ec32985fdaae6f4c5fdc95f18737861a19cbebd230733d8cf6b7d07f96a253",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/1/1/0",
+        "source_unit_hash": "5a3c76f0f34be672b7c3ae214eba49239872e8468f07f9c52efc8db9be013efc",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/1/1/0/inlineContent/0",
+        "source_unit_hash": "465f1651f69efcdc73b917df01e74ff511e4644456532a1604c0c02e5a6e401e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/1/2/0",
+        "source_unit_hash": "5a3c76f0f34be672b7c3ae214eba49239872e8468f07f9c52efc8db9be013efc",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/1/2/0/inlineContent/0",
+        "source_unit_hash": "465f1651f69efcdc73b917df01e74ff511e4644456532a1604c0c02e5a6e401e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/1/3/0",
+        "source_unit_hash": "5a3c76f0f34be672b7c3ae214eba49239872e8468f07f9c52efc8db9be013efc",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/1/3/0/inlineContent/0",
+        "source_unit_hash": "465f1651f69efcdc73b917df01e74ff511e4644456532a1604c0c02e5a6e401e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/1/4/0",
+        "source_unit_hash": "5a3c76f0f34be672b7c3ae214eba49239872e8468f07f9c52efc8db9be013efc",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/1/4/0/inlineContent/0",
+        "source_unit_hash": "465f1651f69efcdc73b917df01e74ff511e4644456532a1604c0c02e5a6e401e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/1/5/0",
+        "source_unit_hash": "5a3c76f0f34be672b7c3ae214eba49239872e8468f07f9c52efc8db9be013efc",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/1/5/0/inlineContent/0",
+        "source_unit_hash": "465f1651f69efcdc73b917df01e74ff511e4644456532a1604c0c02e5a6e401e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/2/0/0",
+        "source_unit_hash": "de977537b0dcd3e8fbd44f618f1e06e6d9eb284bc9308c5c5c92332ad608b995",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/2/1/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/2/2/0",
+        "source_unit_hash": "5a3c76f0f34be672b7c3ae214eba49239872e8468f07f9c52efc8db9be013efc",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/2/2/0/inlineContent/0",
+        "source_unit_hash": "465f1651f69efcdc73b917df01e74ff511e4644456532a1604c0c02e5a6e401e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/2/3/0",
+        "source_unit_hash": "5a3c76f0f34be672b7c3ae214eba49239872e8468f07f9c52efc8db9be013efc",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/2/3/0/inlineContent/0",
+        "source_unit_hash": "465f1651f69efcdc73b917df01e74ff511e4644456532a1604c0c02e5a6e401e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/2/4/0",
+        "source_unit_hash": "5a3c76f0f34be672b7c3ae214eba49239872e8468f07f9c52efc8db9be013efc",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/2/4/0/inlineContent/0",
+        "source_unit_hash": "465f1651f69efcdc73b917df01e74ff511e4644456532a1604c0c02e5a6e401e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/2/5/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/3/0/0",
+        "source_unit_hash": "8fed689a02276bc3c5e0ceb4a35028c05c01f081e32b6c811e3e0d1f48558850",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/3/1/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/3/2/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/3/3/0",
+        "source_unit_hash": "5a3c76f0f34be672b7c3ae214eba49239872e8468f07f9c52efc8db9be013efc",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/3/3/0/inlineContent/0",
+        "source_unit_hash": "465f1651f69efcdc73b917df01e74ff511e4644456532a1604c0c02e5a6e401e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/3/4/0",
+        "source_unit_hash": "5a3c76f0f34be672b7c3ae214eba49239872e8468f07f9c52efc8db9be013efc",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/3/4/0/inlineContent/0",
+        "source_unit_hash": "465f1651f69efcdc73b917df01e74ff511e4644456532a1604c0c02e5a6e401e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/3/5/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/4/0/0",
+        "source_unit_hash": "8676af1ec7db74314f1f640d8217eb685920d3ee67c75ca048a0c8235fb88ab9",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/4/1/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/4/2/0",
+        "source_unit_hash": "5a3c76f0f34be672b7c3ae214eba49239872e8468f07f9c52efc8db9be013efc",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/4/2/0/inlineContent/0",
+        "source_unit_hash": "465f1651f69efcdc73b917df01e74ff511e4644456532a1604c0c02e5a6e401e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/4/3/0",
+        "source_unit_hash": "5a3c76f0f34be672b7c3ae214eba49239872e8468f07f9c52efc8db9be013efc",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/4/3/0/inlineContent/0",
+        "source_unit_hash": "465f1651f69efcdc73b917df01e74ff511e4644456532a1604c0c02e5a6e401e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/4/4/0",
+        "source_unit_hash": "5a3c76f0f34be672b7c3ae214eba49239872e8468f07f9c52efc8db9be013efc",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/4/4/0/inlineContent/0",
+        "source_unit_hash": "465f1651f69efcdc73b917df01e74ff511e4644456532a1604c0c02e5a6e401e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/rows/4/5/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/70",
+        "source_unit_hash": "36b85539820764d3d314e98c56b6e3ccafaf8b7b09cfd36e76bbd60553a90544",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "656b43adf276a33ca8df4407e610a37edc2c96b09bdb432bedb0901fbcde838c",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/items/0/content/0",
+        "source_unit_hash": "e11a626d93c124028746385adbe8e241a436b39785799106ba38f0cdc5e5f99b",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/items/1/content/0",
+        "source_unit_hash": "ba3c04c8252cc2704a0132c4e572728932ffd7b1602828fbe0c6cdbacf79111a",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/72",
+        "source_unit_hash": "4924a6a23a6d010227f4833d68ba92f80b99d5f8a902885bf02fc7f7e77db4ee",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/73",
+        "source_unit_hash": "792434f8293d04f70ad38623a5288ba796c98bcdfbe3728f6bad5f9b426d336f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/74",
+        "source_unit_hash": "c4e6c30a7c27661d5723a7b2b4c4e546d2df107aa48f30e5bd6abd5f5bc6d8e6",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/75",
+        "source_unit_hash": "ebc4d2ae47025dc1e1f1fae948da5a83e3d4f69a7b897a026cf3f776bddcfb60",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/76",
+        "source_unit_hash": "3ce719aeb52d2746e721f91facb98cba12fd257558a4a135cc872bb773b0f4cd",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/78",
+        "source_unit_hash": "5921830b4fd7fde11102496e673453b7c706a0f76c7b52f1d9405dcaba7086df",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified inline capsules/material, corner toolbar/time-title adaptation/Liquid Glass, full-width primary, equal side/stack heights and secondary/context navigation use."
+      },
+      {
+        "id": "primaryContentSections/0/content/79",
+        "source_unit_hash": "b5cb160b416db515f6db7017e11cdba1fe735c693af844809a508710606a7567",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified inline capsules/material, corner toolbar/time-title adaptation/Liquid Glass, full-width primary, equal side/stack heights and secondary/context navigation use."
+      },
+      {
+        "id": "primaryContentSections/0/content/79/inlineContent/0",
+        "source_unit_hash": "f439c1c3799e370d36ce6e4be239055be2ea995da1a1693df5a059673ec0cd1e",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified inline capsules/material, corner toolbar/time-title adaptation/Liquid Glass, full-width primary, equal side/stack heights and secondary/context navigation use. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/80",
+        "source_unit_hash": "de767bfb5fd97c6afc9fc3e4235cc3a5c620c779b019642c63c2a4ed436a5cbc",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified inline capsules/material, corner toolbar/time-title adaptation/Liquid Glass, full-width primary, equal side/stack heights and secondary/context navigation use."
+      },
+      {
+        "id": "primaryContentSections/0/content/81",
+        "source_unit_hash": "35a0b6bad2bf92822e00a7cd72534be2cdb38b71106e56164b928edd252d5229",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified inline capsules/material, corner toolbar/time-title adaptation/Liquid Glass, full-width primary, equal side/stack heights and secondary/context navigation use."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/inlineContent/0",
+        "source_unit_hash": "c839f1022d996da3a31be8715c01dc644ea88aece2b55b4b9ed05a2f6bd38b2a",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified inline capsules/material, corner toolbar/time-title adaptation/Liquid Glass, full-width primary, equal side/stack heights and secondary/context navigation use. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/82",
+        "source_unit_hash": "c99ddf4ff686ea6ab1ad05306be414abf01069d6a29af9b4a72e9cbc74754035",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified inline capsules/material, corner toolbar/time-title adaptation/Liquid Glass, full-width primary, equal side/stack heights and secondary/context navigation use."
+      },
+      {
+        "id": "primaryContentSections/0/content/83",
+        "source_unit_hash": "701015451048c9d6d60637f374e9455675c6fb74047da3bc08977d11ad110d30",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified inline capsules/material, corner toolbar/time-title adaptation/Liquid Glass, full-width primary, equal side/stack heights and secondary/context navigation use."
+      },
+      {
+        "id": "primaryContentSections/0/content/84",
+        "source_unit_hash": "b006fd66c7ea495549fecdc87f7e08fce73b3714e95fb392fbe2e1035efd8291",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified inline capsules/material, corner toolbar/time-title adaptation/Liquid Glass, full-width primary, equal side/stack heights and secondary/context navigation use."
+      },
+      {
+        "id": "primaryContentSections/0/content/87",
+        "source_unit_hash": "4712ae1be8fbd95e6fed9fbc28de14c0fd2f49a940b86e92d082af037baa86dd",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/88",
+        "source_unit_hash": "c17e870fb90d51b20ecf08f9e6e41e7cc439823731dbec79ff19b07b5f10b0e0",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/89",
+        "source_unit_hash": "67bdeee84b6fb1616426ef63bdaf3414d0e486006e02c52171c96242c4b48190",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/90",
+        "source_unit_hash": "00224e7c4e44567eaae877fb88378637c41d375f6702e89b9f4e12a48fd4589f",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/91",
+        "source_unit_hash": "c542e561fc1b00262cea2ea21b018ce417fd1b79814f8888b51ab9eb75e2fdcc",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/93",
+        "source_unit_hash": "cf24d19fedfe477dfa6f5542dc3ad7cb6814e9e1b68523f34602f6f89b108745",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/94",
+        "source_unit_hash": "5253f047befd591d2a33499499796270a989f4da50ccfe0bb9caa6cf3f17fcfe",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/95",
+        "source_unit_hash": "b234c43fce4445e6cd673a7c14f00fe562d8114c130645c0511d329b1df11625",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/97",
+        "source_unit_hash": "580b26a6f4d667f2fc8b442281213705fb2586daa187febc83304c4870421183",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/rows/1/0/0",
+        "source_unit_hash": "2d55066c54eef94e12b95e572efd4dddf6b23a5943e5552da906050d2eb6f8b1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/rows/1/1/0",
+        "source_unit_hash": "8e2ce52850797025f3d7bd67195f1b2b5a70f5a30ce07ea4a2adb1111e86add5",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/rows/2/0/0",
+        "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/rows/2/1/0",
+        "source_unit_hash": "71a5407ed9e6cc7275e17abcd762b5af45fa7739c1c15303af4e0c445b68c19b",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/rows/3/0/0",
+        "source_unit_hash": "d0480ccb4b68180bb1ac3ef3d5a6daedbe67738b3a4986cb29f3b0ee79482b39",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/rows/3/1/0",
+        "source_unit_hash": "432ab20cb6b63d0135da3962d39b21266e4886e16b7da6035e869c5b1657dc86",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/rows/4/0/0",
+        "source_unit_hash": "72e15f86b3908e69cbcefc24a6e0b2def83fa8df14342795e2a64fcd3e2ed469",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/rows/4/1/0",
+        "source_unit_hash": "d49215ce89ee9eaa3e738d7a373cde5670c379c4f7544bdcb6af6f7c36e0e59c",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/rows/5/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/rows/5/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/rows/6/0/0",
+        "source_unit_hash": "937d2d87f6be46489d91c6c598d77898e230787b56f889b2c1e16309f42a1ad2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/rows/6/1/0",
+        "source_unit_hash": "39a1baa7280ddd9bf2f8230f96d24724dc25a7454891dfdc822a73e8dde05add",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "e079873281ef6ed99b086a7d316d54586b114d2d9db1aac6a278f3176c615544",
+        "source_anchor": "Help-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Help-buttons",
+        "evidence": "Verified system question-mark, context/top-level destination, one-per-window, exact dismissal/non-dismissal/settings location table and body-only/no-label rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/69",
+        "source_unit_hash": "b99af228c27b05c86dc353651b57ab88c9eccf4d4f9863b338b098edbf24a3de",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified raw-JSON matrix: circular 28/32/44/52/64 pt, text capsule and rounded rectangle 32/44/52, combined capsule 44/52. Checked all state/material/white-toggled/gaze-shape/60 pt spacing/4 pt large padding/row-stack and audible-no-haptics guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/97",
+        "source_unit_hash": "580b26a6f4d667f2fc8b442281213705fb2586daa187febc83304c4870421183",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

@@ -1,0 +1,612 @@
+{
+  "source_hash": "430c405b0f8986ed42713a915b40b8d8e08b19e5aaf083da9899326ac71a07c7",
+  "media": {
+    "components-virtual-keyboard-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:16:23.235927+00:00",
+      "reference_metadata_hash": "8cc9f6c6cc4c964072b3c00f205bc2435f4a49ca684da6b6a3eb0723a3f63fc5",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-virtual-keyboard-intro@2x.png",
+      "binary_hash": "061342194ab403699791b74c8597f487469fe5dfb438596f73d0f5f04f401a26",
+      "review_method": "actual primary/alternate introductory-image gallery inspection and source topic/context identification",
+      "classification": "illustrative topic introduction; redundant with component/topic identity",
+      "evidence": "Actual introductory illustration and its light/dark representation inspected in numbered galleries. The image identifies or demonstrates this topic/component; the depicted sample labels, symbols and layout add no independent normative specification. Substantive design rules remain subject to the separate article/section audit.",
+      "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-virtual-keyboard-intro~dark@2x.png",
+          "binary_hash": "0a0b04b512afbcbfe8d93debc9e07349b21417b94a45a198881c35e0d61d1fb3",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "virtual-keyboard-ascii-capable.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558178+00:00",
+      "reference_metadata_hash": "244b9f1b89deb21595b4149bd8c132ff7fc3e39fe8fb34b8e1b0ed1bcb61f04f",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-ascii-capable@2x.png",
+      "binary_hash": "33ab545dcbf121742c25731f5ae6552d0ee5e3a5700910f7b46ccd929a61d280",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Actually viewed primary and alternate: ASCII-capable letters, prediction row and numeric switching. The supporting original table retains this visible distinction and explains semantic system selection instead of freezing the example layout.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/5/tabs/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-ascii-capable~dark@2x.png",
+          "binary_hash": "5176d22e0b3a1cbc945d37005f20cfc915c63e7f5f49f4ec81e190c5d667fc8f",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "virtual-keyboard-ascii-capable-number-pad.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558222+00:00",
+      "reference_metadata_hash": "494a3d843bf02e2089f81a77f7bbea625c54a993e20f4e2a95cc132b054c1988",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-ascii-capable-number-pad@2x.png",
+      "binary_hash": "6cc285f2cf00a28f97d639c5f72e29d3b734997b08ca1fd63b8eca378ace24a6",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Actually viewed primary and alternate: ASCII-capable direct digit grid and deletion. The supporting original table retains this visible distinction and explains semantic system selection instead of freezing the example layout.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/5/tabs/1/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-ascii-capable-number-pad~dark@2x.png",
+          "binary_hash": "953430204db235185f48436da9c8ba865be3cd1c734c2d1e093be48d1d23ca70",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "virtual-keyboard-decimal-pad.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558252+00:00",
+      "reference_metadata_hash": "033151c9c5cb983ee516b90e3da8e5f53f13db10001b1b890face1fbfde36d74",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-decimal-pad@2x.png",
+      "binary_hash": "6439781939d4babd4b461cdf275ba021bce3da790de06fce19849183c1ca4573",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Actually viewed primary and alternate: direct digit grid plus decimal separator. The supporting original table retains this visible distinction and explains semantic system selection instead of freezing the example layout.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/5/tabs/2/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-decimal-pad~dark@2x.png",
+          "binary_hash": "2e35c77006949453f1f700b5d1715cf4a11c98049cfd449e45d1fc7a8a83160e",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "virtual-keyboard-default.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558279+00:00",
+      "reference_metadata_hash": "d0db8d871f4db1f7ff1a04f04c5e1c2978df3458a306d02fec31a00dfcf77865",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-default@2x.png",
+      "binary_hash": "f6b23d5ff046fca1119211767d3da5fce364f5094afc37d4c1ce8ee27c3b9e48",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Actually viewed primary and alternate: general letters, predictions and language/emoji access. The supporting original table retains this visible distinction and explains semantic system selection instead of freezing the example layout.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/5/tabs/3/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-default~dark@2x.png",
+          "binary_hash": "da6156b5c812a03f06980f81b946f3e6b117f79e59490d32bd361dd210a67a1f",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "virtual-keyboard-email-address.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558306+00:00",
+      "reference_metadata_hash": "9fae3754ab6344e93c512661d56ea7ec85267aed0e8210d3b51fb7c7869a4c69",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-email-address@2x.png",
+      "binary_hash": "0cbd4b1f0d8c0116a2d55903dfc4fd95149c50e4f0c9fc0c04eadde601a75395",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Actually viewed primary and alternate: letters with immediate @ and period. The supporting original table retains this visible distinction and explains semantic system selection instead of freezing the example layout.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/5/tabs/4/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-email-address~dark@2x.png",
+          "binary_hash": "c099a2bdc554f400cc7806414ee707bcc8b91ecdfddd6a564aa8ad0eaf808538",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "virtual-keyboard-name-phone-pad.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558335+00:00",
+      "reference_metadata_hash": "eb87bfcb581777e84131b5a4bffc262d96d7e1aa47289ce314d8ffda277a792e",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-name-phone-pad@2x.png",
+      "binary_hash": "cae99edd957ec14474ad6501dd84a65671a4e01ddca61b53f1fcc0e2f82b9b48",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Actually viewed primary and alternate: name letter entry with numerical switching. The supporting original table retains this visible distinction and explains semantic system selection instead of freezing the example layout.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/5/tabs/5/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-name-phone-pad~dark@2x.png",
+          "binary_hash": "19a93629fe3085d39c583541033620cc1aaac65d1424d2b42c997e859b741bcd",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "virtual-keyboard-number-pad.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558360+00:00",
+      "reference_metadata_hash": "37ec9f24d41da54ac0e308b6a1b06f54e87f2eb7cab2ca6ff1f9a5c40c28b8f6",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-number-pad@2x.png",
+      "binary_hash": "332a314359260ed94fe7e4000a25a12958926fa10703a7108fb1e0fafdfeecf4",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Actually viewed primary and alternate: direct number grid instead of alphabetic entry. The supporting original table retains this visible distinction and explains semantic system selection instead of freezing the example layout.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/5/tabs/6/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-number-pad~dark@2x.png",
+          "binary_hash": "d92c4430b6a4f40d2ed5ceec918d96a65b344b4fc31e4a7ee777fd0fe50b3217",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "virtual-keyboard-numbers-and-punctuation.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558385+00:00",
+      "reference_metadata_hash": "92a11be47db4744601237088e9404775416a28f95ed4622b5f81b3e30ca9abd9",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-numbers-and-punctuation@2x.png",
+      "binary_hash": "9bfe2e987ac6e22c5d7f246a0873f18be93e48bf42e9a6b663a21d6c0d9d9c1a",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Actually viewed primary and alternate: digits and punctuation directly available. The supporting original table retains this visible distinction and explains semantic system selection instead of freezing the example layout.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/5/tabs/7/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-numbers-and-punctuation~dark@2x.png",
+          "binary_hash": "47652082ab5cd9d07e91375015efd0a1e250fde91c6d5c2c1fa66fa3d36ea1b1",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "virtual-keyboard-phone-pad.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558410+00:00",
+      "reference_metadata_hash": "4a352ef62a2bb7b42823008ea1c1a36fe361df751727e02392b347204bcca9dd",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-phone-pad@2x.png",
+      "binary_hash": "2de2cc2071703e02a1fe57120f0892deb138bd03aca9cdbaac882091b1cf0bd0",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Actually viewed primary and alternate: telephone digit grid and dialing symbols. The supporting original table retains this visible distinction and explains semantic system selection instead of freezing the example layout.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/5/tabs/8/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-phone-pad~dark@2x.png",
+          "binary_hash": "4bf675a5afff6f977ebedc8f70c7f0320b20a078637dfb98b42170e4ecf6a510",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "virtual-keyboard-twitter.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558435+00:00",
+      "reference_metadata_hash": "3ef670dc19edd3d4634a88a893e4400c251dac68d775cf1a5f52a2a70ae5764d",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-twitter@2x.png",
+      "binary_hash": "765a6eab8340c14012cd3a87d335af6a208471626a167db8afe071698d1047ff",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Actually viewed primary and alternate: social text with immediate @ and #. The supporting original table retains this visible distinction and explains semantic system selection instead of freezing the example layout.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/5/tabs/9/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-twitter~dark@2x.png",
+          "binary_hash": "953f50cf657554c66e3bbee97114264b50309c08d8c841323a23562c5ecc1a72",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "virtual-keyboard-url.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558471+00:00",
+      "reference_metadata_hash": "4b59622aa877b29fe5704cddf58c78367801868c3235d200a826674b1362bb05",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-url@2x.png",
+      "binary_hash": "2684f662318eea256c1a262aebe489180d38ed00604db3f8e7d7c2f22d77cf66",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Actually viewed primary and alternate: letters with period/slash/domain controls. The supporting original table retains this visible distinction and explains semantic system selection instead of freezing the example layout.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/5/tabs/10/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-url~dark@2x.png",
+          "binary_hash": "02b040e19f13393494658a0dbc7acd8ac60046c0efbb1816bde47bb9e52c0ba7",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "virtual-keyboard-web-search.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558496+00:00",
+      "reference_metadata_hash": "0260dcca8b6c0c1e5c699c58af83fd47133532b6a9dbb7a0c684dfb314d8bd53",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-web-search@2x.png",
+      "binary_hash": "55734c7551b5e96b90b2e09a26aca161405354d5e90967402ecf5d23979801d8",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Actually viewed primary and alternate: general letter entry with prominent search submission. The supporting original table retains this visible distinction and explains semantic system selection instead of freezing the example layout.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/5/tabs/11/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/virtual-keyboard-web-search~dark@2x.png",
+          "binary_hash": "20be76b47edcc6265c6291780ce1f45f890e390218053f45c53865d2bf013498",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "ui-fully-visible.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558524+00:00",
+      "reference_metadata_hash": "8853331318fbaaf3c953ba205478828e5900ac74dc51ecd7257105bd7f7a3ae4",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/ui-fully-visible@2x.png",
+      "binary_hash": "2c13b5fef60ac1c90c9869a545ccaf4121b42c191141cab4599233f3d9f4f77b",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Viewed correct Account layout leaving email, active password and Sign In action above the keyboard in both appearances. The local guide and supplementary comparison explicitly preserve both field and action clearance.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/22/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/ui-fully-visible~dark@2x.png",
+          "binary_hash": "0bc265ccb5932e8b275414647e8a616cfe312a065033d29c6e506b15e80a0d5e",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "text-field-hidden.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558553+00:00",
+      "reference_metadata_hash": "fadfcbe35610ac106603a3fe5f66cc4079f2891525820fb6ed6078f4d4507b86",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/text-field-hidden@2x.png",
+      "binary_hash": "3e01ead4aae5d11beb953148da73051b0ed9d6817da622562ea90a9ad9fe936c",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Viewed incorrect layout hiding the password field beneath the keyboard. Local keyboard layout-guide advice plus supplementary comparison retain this failure mode.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/22/columns/1/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/text-field-hidden~dark@2x.png",
+          "binary_hash": "8d41d09db61f7e38a0158ea258eafd945fdb0e082c545fc9c54d32a3f90677a6",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "button-hidden.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558579+00:00",
+      "reference_metadata_hash": "46e45187152fab6d1ac730ee20094eb0dfc819cf24d73b571ebe3a19d37b45cd",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/button-hidden@2x.png",
+      "binary_hash": "83ff4ab8a9ff9ece2622056b3f5d8f44efd157ab523b0f2154e00f4d0fc373be",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Viewed incorrect layout where the field is visible but Sign In is obscured by the keyboard. Supplement explicitly states that field visibility alone is insufficient.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/22/columns/2/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/button-hidden~dark@2x.png",
+          "binary_hash": "76c522d6c7b99988d9475a29f5b48b75b28be59649542a8ddcd3f8541c1f70e5",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "checkmark.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558604+00:00",
+      "reference_metadata_hash": "9ffb1d02c75a5e9d6311d2d4a253bb0ad16d4291a212daa346958d93f616a8d9",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png",
+      "binary_hash": "374e10c7f512f20e71739561ee39f5ff1c3f1366bef6071993d7494eb7eecf2c",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Actually inspected the circled check/X and matched its correct/incorrect source examples. This is an evaluation cue, not another UI requirement; the local explanation retains the marked design rule.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/22/columns/0/content/1/inlineContent/0"
+      ]
+    },
+    "crossout.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:34:19.558632+00:00",
+      "reference_metadata_hash": "7b8e81006cad1a4a8808b1d48ac038276862c2880ce588326b139f3869603142",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png",
+      "binary_hash": "1db0f81f40120694a8ddacc3f14c5c5db34f349bbda958e9bc5d5401627701f1",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Actually inspected the circled check/X and matched its correct/incorrect source examples. This is an evaluation cue, not another UI requirement; the local explanation retains the marked design rule.",
+      "destination": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+          "hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc"
+        },
+        {
+          "path": "skills/apple-hig/references/media/virtual-keyboards-images.md",
+          "hash": "e405a81fcb1890249f11e824ff3d1f456121799320db38c433684057e50b741d"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/22/columns/1/content/1/inlineContent/0",
+        "primaryContentSections/0/content/22/columns/2/content/1/inlineContent/0"
+      ]
+    }
+  }
+}

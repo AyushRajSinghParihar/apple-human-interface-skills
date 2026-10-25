@@ -1,0 +1,98 @@
+{
+  "source_hash": "abd75f1c7b44af24d039cf444f84937b676d3f07e931d36d660b07c3fa76c998",
+  "media": {
+    "components-popover-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:16:21.937745+00:00",
+      "reference_metadata_hash": "e0089ca528029b220b1306e48ca8e1b73c4f296615c385a42a35054d6cf81c7c",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-popover-intro@2x.png",
+      "binary_hash": "1b7c223f7f2801aebf37f5de67b1a2a0625ce7fec0eaee29f1fedd12f3ad7827",
+      "review_method": "actual primary/alternate introductory-image gallery inspection and source topic/context identification",
+      "classification": "illustrative topic introduction; redundant with component/topic identity",
+      "evidence": "Actual introductory illustration and its light/dark representation inspected in numbered galleries. The image identifies or demonstrates this topic/component; the depicted sample labels, symbols and layout add no independent normative specification. Substantive design rules remain subject to the separate article/section audit.",
+      "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/popovers.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-presentation/references/popovers.md",
+          "hash": "0cb18d58b9bcc275019942208cc5b33bc8d99f225beeb064564e4dc182179026"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-popover-intro~dark@2x.png",
+          "binary_hash": "5ace4c2f6f6be6afc1cf34f2ec05d20db1bbeedf8540fe1990edc16876a60464",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "attached-popover.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:32:00.599183+00:00",
+      "reference_metadata_hash": "c5290b4e97969564c31866e452a4134e925c43616e596c39c8a76abe2d5e1104",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/attached-popover@2x.png",
+      "binary_hash": "c2779d7d7a198e8aff39d56b54f1fc27de8c7f5fede3067c40f7a3782c1fa664",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Viewed Calendar event detail attached by an arrow to the selected event in both appearances. Local anchor relationship and transient contextual editing retain this form.",
+      "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/popovers.md#macOS",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-presentation/references/popovers.md",
+          "hash": "0cb18d58b9bcc275019942208cc5b33bc8d99f225beeb064564e4dc182179026"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/20/tabs/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/attached-popover~dark@2x.png",
+          "binary_hash": "ea88a9b17326819cdc2e039c75f9471f4e45af8d22b42f2901e5a9fabdf8ad18",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "detached-popover.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:32:00.599215+00:00",
+      "reference_metadata_hash": "0b716fa0ac1cb64832c2ed628810eaefa2a07876170e43db78611d2cdc1a2c77",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/detached-popover@2x.png",
+      "binary_hash": "7e8bfacd08394acb13c1aec9e544f808a397cd17d83593dfef0bb73b0638f58b",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local explanation",
+      "evidence": "Viewed equivalent event details in a separate Info-titled floating window, detached from its event. Local Mac detachment/panel distinction retains the persistent alternative.",
+      "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/popovers.md#macOS",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-presentation/references/popovers.md",
+          "hash": "0cb18d58b9bcc275019942208cc5b33bc8d99f225beeb064564e4dc182179026"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/20/tabs/1/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/detached-popover~dark@2x.png",
+          "binary_hash": "f86adfc3e98a95751347b509bc689a1710c73649277e5236c0b03384a115acb3",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate images on paired contact sheets; light/dark differences preserve the interaction, grouping, state, and design lesson described here.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    }
+  }
+}

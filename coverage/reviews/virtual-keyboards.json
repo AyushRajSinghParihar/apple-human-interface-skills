@@ -1,0 +1,892 @@
+{
+  "review": {
+    "slug": "virtual-keyboards",
+    "status": "reviewed",
+    "source_hash": "430c405b0f8986ed42713a915b40b8d8e08b19e5aaf083da9899326ac71a07c7",
+    "destination_hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:06:04.865184+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "virtual-keyboards",
+        "status": "reviewed",
+        "evidence": "Checked task-specific keys, absence of shortcuts and app-local versus installable scope."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "source_anchor": "Custom-input-views",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Custom-input-views",
+        "status": "reviewed",
+        "evidence": "Verified contextual app-only benefit, system click sound and global sound-setting respect."
+      },
+      {
+        "source_anchor": "Custom-keyboards",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Custom-keyboards",
+        "status": "reviewed",
+        "evidence": "Verified extension platforms, secure/phone exclusions, switchability, unique-systemwide rationale, no duplicated system Globe/Dictation keys and app-hosted tutorial."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked Mac exclusion."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Verified layout-guide clearance, current-task accessory controls, padding and standard/custom Liquid Glass behavior."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Checked remote linear versus other-input grid and numeric-entry keyboard."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Verified independent movable direct/indirect keyboard with no app layout reservation."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Verified display-size keyboard versus dictation/Scribble, fixed keyboard type, semantic content type and paired-phone entry."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "0dc1333f54aae239f37387ce8d391c15838a52d6ce958bc9373470c0ee1de97b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "virtual-keyboards",
+        "evidence": "Checked task-specific keys, absence of shortcuts and app-local versus installable scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "5954323ca5097e17e90269f9bebfe7ec1828efca6a8c1edad9c53119df80f0c1",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "virtual-keyboards",
+        "evidence": "Checked task-specific keys, absence of shortcuts and app-local versus installable scope. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "1217f52cd7c2a5d2713cad6b4b94629da7f213a642b34b34ad790f8df6e38dea",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "virtual-keyboards",
+        "evidence": "Checked task-specific keys, absence of shortcuts and app-local versus installable scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "d3e22e6f02a3de864ef3d3a9d677d273ce03121be6603eec53269be48bb26933",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "virtual-keyboards",
+        "evidence": "Checked task-specific keys, absence of shortcuts and app-local versus installable scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "e29267396464a443575ffa441cfcac1293f66c248ddd17727a04ae363ea6b0ab",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "ebd488d75030e41a252e120c06ac410ccb5460b87dd484496279f961454d56ff",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/0/content/0",
+        "source_unit_hash": "14d16e1ee29ed5aa583a967f6a48c32478bb64facf9efeb906b7c774616d1d5d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "a456e89e07b212344652db9a56ea6a3ff1cf83ae673459a8f5cd09912ff6e954",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/1/content/0",
+        "source_unit_hash": "c595e44562538d28c9028f5d473288812651e51f0431b62a5f2ecfe0ae1d753e",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "1b40ce2109565808fda64dd1b5bac5c43135be99ab80f1408a5bf22f2e3cc5f5",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/2/content/0",
+        "source_unit_hash": "c2157e3847ad663a15266c663e7e889c22990a32f5f1074771c61557a91a6954",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/2/content/0/inlineContent/0",
+        "source_unit_hash": "6f8dab5e373bd251c72603fdef567895bee1095c31fdde5f9159f30d14c156a1",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/3/content/0",
+        "source_unit_hash": "ea82b047c219024b0dd5f8408f93a03b0a281c39920ccab45b6938f1641880b5",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/3/content/0/inlineContent/0",
+        "source_unit_hash": "176fc0d8e71031d48f52943df5827463fa606b0c9a6e94c1ab1e461c1559ebe0",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/4/content/0",
+        "source_unit_hash": "a1a390a3bec8f618807a8724c0dcb2315bc83a22eb520c158be592eeda869290",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/4/content/0/inlineContent/0",
+        "source_unit_hash": "c46aee34cf10d08647b6dc56f0e9d80906a9b849d92c2c24a3e3df889420a31e",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/5/content/0",
+        "source_unit_hash": "f2470b5dbc494e0c838a08dd7e389167c43d3b38ccf2071fbc0b03fa8527e0bb",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/5/content/0/inlineContent/0",
+        "source_unit_hash": "667c068af1bdb822d8e6122c19af45907b3d27fc8f03db6ce3b5e1e0b7187082",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/6/content/0",
+        "source_unit_hash": "8ac3f585814c9707ae0ef1237a808a0ddab863e5f97a50863007ee9280f45af2",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/6/content/0/inlineContent/0",
+        "source_unit_hash": "4fe067bc1f7f3dd08c512477f121df9f4a1a8a9359634e9d16d561061fce228a",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/7/content/0",
+        "source_unit_hash": "a93821df202b601513756c59d1e1a2c0fdc333093b0017ecd9ed6c198a544190",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/7/content/0/inlineContent/0",
+        "source_unit_hash": "bf41b4633b82d02fbf5beec9832374dca15849f8079d85e851e991733ff46d30",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/8/content/0",
+        "source_unit_hash": "98962567e17dc24155e695c2050db7d5232610eec48e973ab027545a0c9e8df9",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/8/content/0/inlineContent/0",
+        "source_unit_hash": "a0357ec73a29b67da5897f333a564c16830411275b3d118a442079fd86d13e8e",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/9/content/0",
+        "source_unit_hash": "388c70978683f97a4e8e8c96138338665ff864c17dcf13e23b33503f2f0a3ee4",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/9/content/0/inlineContent/0",
+        "source_unit_hash": "ab79f02a6114670ac8dee1cdeb081378078f7bc2b7a12fea76e4da5118fc6e09",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/10/content/0",
+        "source_unit_hash": "2068525ee81eee2b6633efa533ae3089bb00f2b258d65b0f0b1b145970b7aeb7",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/10/content/0/inlineContent/0",
+        "source_unit_hash": "094ac3d63501e6a8152e243fbb2713bec75dc8da19a50efa96430ad2eb90d381",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/11/content/0",
+        "source_unit_hash": "dfed9efd3492ed989ae5c2d6140000dceffeecd4817a36877d4810950508b26f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/11/content/0/inlineContent/0",
+        "source_unit_hash": "0b11b5f3f2241f7abc0098fbe832bba8a0a265e98478bce577c212af8b4d0d8e",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "b95aebfd754dd46e2b6fc1e1c3c3ee0c72be057baf34d169eaff16d40be3f4ac",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared every illustrated keyboard category and semantic type/Return-label advice; local guide retains all categories in text."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "60c079d3bf9874c781b5aac645fbfe058136de54ac1faaffe72887672345411d",
+        "source_anchor": "Custom-input-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Custom-input-views",
+        "evidence": "Verified contextual app-only benefit, system click sound and global sound-setting respect."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "d36e1c3531ab9399635fcbea9ed38cf73fb7d6ad25a7825a0d20a303be2f3a38",
+        "source_anchor": "Custom-input-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Custom-input-views",
+        "evidence": "Verified contextual app-only benefit, system click sound and global sound-setting respect."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "9079d9a9f8c60b7ec41baaa68b106b92f24ae79be2c10483afca073e9db47889",
+        "source_anchor": "Custom-input-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Custom-input-views",
+        "evidence": "Verified contextual app-only benefit, system click sound and global sound-setting respect."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "50fd136fc480fb6118968955a68743aec8c730ff51a34b8cde9a40ccf75dc5d0",
+        "source_anchor": "Custom-keyboards",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Custom-keyboards",
+        "evidence": "Verified extension platforms, secure/phone exclusions, switchability, unique-systemwide rationale, no duplicated system Globe/Dictation keys and app-hosted tutorial."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "d6a121020fd812e766c852e057cdc107ab566102201ecdc1630ffb4c28e0c8e0",
+        "source_anchor": "Custom-keyboards",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Custom-keyboards",
+        "evidence": "Verified extension platforms, secure/phone exclusions, switchability, unique-systemwide rationale, no duplicated system Globe/Dictation keys and app-hosted tutorial."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "0f992a0351d0603948ee49b10c49fc41cc2074f966c4475b71b4095ca805bd2a",
+        "source_anchor": "Custom-keyboards",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Custom-keyboards",
+        "evidence": "Verified extension platforms, secure/phone exclusions, switchability, unique-systemwide rationale, no duplicated system Globe/Dictation keys and app-hosted tutorial."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "0b8109d76c650a6d3eb95220628dc9b7fa8731c82045c8e3ec899b6f25869dc8",
+        "source_anchor": "Custom-keyboards",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Custom-keyboards",
+        "evidence": "Verified extension platforms, secure/phone exclusions, switchability, unique-systemwide rationale, no duplicated system Globe/Dictation keys and app-hosted tutorial."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "ce1b258ebbc28f8e4811f60a13726620ce171da7815e57a198231b5eb4f92f57",
+        "source_anchor": "Custom-keyboards",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Custom-keyboards",
+        "evidence": "Verified extension platforms, secure/phone exclusions, switchability, unique-systemwide rationale, no duplicated system Globe/Dictation keys and app-hosted tutorial."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "36c56d7d20265ef3d0f24afe029d5371fb14726b3b5ab15c81982009a24336ae",
+        "source_anchor": "Custom-keyboards",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Custom-keyboards",
+        "evidence": "Verified extension platforms, secure/phone exclusions, switchability, unique-systemwide rationale, no duplicated system Globe/Dictation keys and app-hosted tutorial."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "244e05e3f18cf5544af160abfdacf350865a9a0e41e512ec2ad88faae454a7ea",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked Mac exclusion."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "bd9eee79ec5d109c284a6197e766143f100fb7de76580dd018613304f9c7fde1",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified layout-guide clearance, current-task accessory controls, padding and standard/custom Liquid Glass behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/0/content/0",
+        "source_unit_hash": "bcdeec1d878112fcf8b3c74b10c3917b0f4dae9ca41d8feb19b0a80ce51a6276",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified layout-guide clearance, current-task accessory controls, padding and standard/custom Liquid Glass behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "a185a65c400d8b9e7f84cccc70fe1f726fe391224409c6f0000ef9ee617a8926",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified layout-guide clearance, current-task accessory controls, padding and standard/custom Liquid Glass behavior. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/0/content/1",
+        "source_unit_hash": "b049c12e369eeff0f9cddba689c2133c5782cf39d45adbd248f236d544657894",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified layout-guide clearance, current-task accessory controls, padding and standard/custom Liquid Glass behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "4c3927e3c6a9382202b9b5e28930152213ceb4e076b278c971060c1b55c134f4",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified layout-guide clearance, current-task accessory controls, padding and standard/custom Liquid Glass behavior. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/1/content/0",
+        "source_unit_hash": "582d890bd68763b71fcc62a1cdb3c655555bccf7cc1d6f70c1fbd5251ea9a5db",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified layout-guide clearance, current-task accessory controls, padding and standard/custom Liquid Glass behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "7c7d48e204e1df1d8b37318f5512c14aa0beebace41e919b562f548327465a76",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified layout-guide clearance, current-task accessory controls, padding and standard/custom Liquid Glass behavior. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/1/content/1",
+        "source_unit_hash": "c74db0deb4089682f229e09e5e6002e2af9abd0d5fca3a89f9e07724995a39a8",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified layout-guide clearance, current-task accessory controls, padding and standard/custom Liquid Glass behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "1163ebb86b70d12758896b3633d7ce0b4489c3b43e889e9198ebe623d3bcafdc",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified layout-guide clearance, current-task accessory controls, padding and standard/custom Liquid Glass behavior. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/2/content/0",
+        "source_unit_hash": "27b68a400de86b185d4d9f3b29f71bbdf9e1ea2b35427cac973447fd91a03431",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified layout-guide clearance, current-task accessory controls, padding and standard/custom Liquid Glass behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "b4ecc8f2953c2be2b7f6466382c27ae9877841c3802a8f66775943fad6c329a1",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified layout-guide clearance, current-task accessory controls, padding and standard/custom Liquid Glass behavior. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/2/content/1",
+        "source_unit_hash": "b4b8c47da30a7fad2afd663b1c8b3119199d5d2fc6a5b46e85999171d91f26a4",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified layout-guide clearance, current-task accessory controls, padding and standard/custom Liquid Glass behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/2/content/1/inlineContent/0",
+        "source_unit_hash": "682573db05fdd65a2b146875fbbdbe2c68271701e412fef4768b6f58d90b655f",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified layout-guide clearance, current-task accessory controls, padding and standard/custom Liquid Glass behavior. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "9b08b2321df8fec19d1a66f60a85d25b87e4d4d3d1d344526fa8f78bf6bdecf7",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified layout-guide clearance, current-task accessory controls, padding and standard/custom Liquid Glass behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "297d9e1d00bc6717f0c36b756fa72aafd493f4a9f664753eea824e17a00ecd3e",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked remote linear versus other-input grid and numeric-entry keyboard."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "b1055adea4f869d91c71ee31e11e5fc62266f5d9575f386a3e11a971389f949a",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked remote linear versus other-input grid and numeric-entry keyboard."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/content/0",
+        "source_unit_hash": "3dea7827a2f3404c50999ab85b00bbb907dfde7df28e2cf8bdd45f747afce20c",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked remote linear versus other-input grid and numeric-entry keyboard."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "438cb458aaae200c860f27d3df15f75126f0e4e198ac157450109271760c2053",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked remote linear versus other-input grid and numeric-entry keyboard."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "77ced62283580a45fd8af2a8b555162cd598d6dd72637cc542909eef93f08256",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified independent movable direct/indirect keyboard with no app layout reservation."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "b9968925d00db194381156b8ae9597ba256c73070913e1b5e1663875d4e24b47",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified independent movable direct/indirect keyboard with no app layout reservation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "310f557e41c369aa2d1e2ea30cae1adc62ce467b96b74e50cbec0c068566c740",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified display-size keyboard versus dictation/Scribble, fixed keyboard type, semantic content type and paired-phone entry."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "896ba85b784afd1c6f8023f6ceebf90b1c7215d8751cf131be3e4fe4ce0eb4f3",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified display-size keyboard versus dictation/Scribble, fixed keyboard type, semantic content type and paired-phone entry."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "53a0a277e152d9a7f2ff5b5db7b0ffc028ecfe12baef54c41eea7f1357d798f5",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "e8900fbd9563e83f32e6b35d575bc5463de7141bdd224904844889a7b1e5f9fa",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "fc630747c38955b09778a9451282e8fe933fd90da0b116681aef33524228777b",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "631313cef0b5d17baf5cd2f09327704c34f83980a805d75a71be1606b83e5286",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "307a9fb9544bff7f6ba631fea2056c6496da1a2f2a03cf9c944247d915dc027a",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "9504805393f4e5d32168996a8b926491964b62a2b4ec2da5036501ef78a9bff1",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "0cc118a28f933667868c7620344b17a11c3b110a8bfc4bda57309069f28b4ced",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/rows/1/0/0",
+        "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/rows/1/1/0",
+        "source_unit_hash": "b0014a3573e634a678c87bd92121de5ca51bfb7d33c2e91fc55605078b3bb2c0",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/rows/2/0/0",
+        "source_unit_hash": "d0480ccb4b68180bb1ac3ef3d5a6daedbe67738b3a4986cb29f3b0ee79482b39",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/rows/2/1/0",
+        "source_unit_hash": "3ad725f1482b278b161ff707dd998ff915e116c735c5a9f3ad11cb81679e3b6c",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/rows/3/0/0",
+        "source_unit_hash": "72e15f86b3908e69cbcefc24a6e0b2def83fa8df14342795e2a64fcd3e2ed469",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/rows/3/1/0",
+        "source_unit_hash": "7c2fba092e13ea195a9475e225ed4d000e92477a4f1f878f80edf0201b0283c3",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/rows/4/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/rows/4/1/0",
+        "source_unit_hash": "93418d55c92bc5a8a84747fb4924fccf0e1c5371650717952ceaec2f3677e81b",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "0cc118a28f933667868c7620344b17a11c3b110a8bfc4bda57309069f28b4ced",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

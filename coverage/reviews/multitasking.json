@@ -1,0 +1,625 @@
+{
+  "review": {
+    "slug": "multitasking",
+    "status": "reviewed",
+    "source_hash": "d9a43c0a577e0a17cb5e5da7ea0b14ab8af3bb4edf1d102b9f582f408ae56083",
+    "destination_hash": "898c3aa21eb73b0a5cde0e2682a7d5f2fa40e0bc989c53016161b9a2704d7b3a",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:21:18.811919+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "multitasking",
+        "status": "reviewed",
+        "evidence": "Checked general multitasking expectation, limited games/Full Space exceptions, and readiness to preserve context."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified pause/resume for attention-dependent work, indefinite primary-audio versus temporary duck/pause interruptions, background completion before suspension, and selective important-completion notifications."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Retains the source watchOS unsupported statement."
+      },
+      {
+        "source_anchor": "iOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iOS",
+        "status": "reviewed",
+        "evidence": "iPhone video/FaceTime PiP alongside another app remains explicit."
+      },
+      {
+        "source_anchor": "iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iPadOS",
+        "status": "reviewed",
+        "evidence": "Retains multiple apps and same-app windows, fullscreen app switching versus resizable/tiling/minimize/close controls, frontmost cues, PiP in either mode, and no knowledge/control of chosen configurations."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "The usual multiple-window environment and system window layering/state cues are preserved."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Retains supported browsing/playback alongside movie/show PiP."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Compared one active Shared Space window, gaze activation/recession, backgrounding on close, Now Playing close-pause and Control Center resume, feathered-edge protection, continued video while looking away, and ducking for non-Now-Playing audio."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "cf1e7a31fb3c44ad98412362f5de850d9b9155f8204524aadb25a06c033dd424",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "multitasking",
+        "evidence": "Checked general multitasking expectation, limited games/Full Space exceptions, and readiness to preserve context."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "42ff332a5e399e16df491583d94e15f92218a3f80edaae85413d65918c4535a9",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "multitasking",
+        "evidence": "Checked general multitasking expectation, limited games/Full Space exceptions, and readiness to preserve context. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "8fe7e0e080070a5e993d2f30ed3d8f7aa6e307a17553a4c5e73ea9d2b46d7f52",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "multitasking",
+        "evidence": "Checked general multitasking expectation, limited games/Full Space exceptions, and readiness to preserve context."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "e1f68310b9e6400d522cd7f38313096af9ba1cd57919d8051c276aea654c1aed",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "multitasking",
+        "evidence": "Checked general multitasking expectation, limited games/Full Space exceptions, and readiness to preserve context."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "32651e197b4932d2cddba11ebe6551b42a24c7b2cfb4748b6d0928041c193c2c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified pause/resume for attention-dependent work, indefinite primary-audio versus temporary duck/pause interruptions, background completion before suspension, and selective important-completion notifications."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "a0406c149bb729276152fb1d1985ea3940c872fa79d7991a839d34e9233dc5f9",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified pause/resume for attention-dependent work, indefinite primary-audio versus temporary duck/pause interruptions, background completion before suspension, and selective important-completion notifications."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "6adb405f76440995ecf988600976c6086f31a923ca0e60bcda2d6dff81cbfdf9",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified pause/resume for attention-dependent work, indefinite primary-audio versus temporary duck/pause interruptions, background completion before suspension, and selective important-completion notifications."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "095c57e6c2ee95b572c7d2551542e49a7367cda884bd76cb97081a6e9a1c08ca",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified pause/resume for attention-dependent work, indefinite primary-audio versus temporary duck/pause interruptions, background completion before suspension, and selective important-completion notifications."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/items/0/content/0",
+        "source_unit_hash": "6c0c90f77162215416024a2cc8f3268dd3cc1d7da6e816222dae53df6ffc891f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified pause/resume for attention-dependent work, indefinite primary-audio versus temporary duck/pause interruptions, background completion before suspension, and selective important-completion notifications."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/items/1/content/0",
+        "source_unit_hash": "431f35dd19c7d2522520bdbfb9bbc72ef90f70c7d16a55010940b151f9cc1365",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified pause/resume for attention-dependent work, indefinite primary-audio versus temporary duck/pause interruptions, background completion before suspension, and selective important-completion notifications."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "24d1c49a209099d94a21ac04516dadbcf6a2d88e755c4fd4d95f3a314f972375",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified pause/resume for attention-dependent work, indefinite primary-audio versus temporary duck/pause interruptions, background completion before suspension, and selective important-completion notifications."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "176b38dc40df30d7c3d70b011d83a799ae81568f304369a68d0d98141308ed8c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified pause/resume for attention-dependent work, indefinite primary-audio versus temporary duck/pause interruptions, background completion before suspension, and selective important-completion notifications."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "ae3f1d18908d8102e1b401432f6e0daddd3ffd927f570a25045250db1389cf89",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified pause/resume for attention-dependent work, indefinite primary-audio versus temporary duck/pause interruptions, background completion before suspension, and selective important-completion notifications."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "2fdaec0eb753b1f74fd4db4c1904573bf364d153d593bd179054d22422a8f084",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Retains the source watchOS unsupported statement."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "4868861984147428980d886c214c3ed807ae32dae02ba14b367c7729ec882f77",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iOS",
+        "evidence": "iPhone video/FaceTime PiP alongside another app remains explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/0/content/0",
+        "source_unit_hash": "9faa0b6157a9fb6830d8dc524218b38431137b8656c3347b95bcc65c0d76ae1c",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iOS",
+        "evidence": "iPhone video/FaceTime PiP alongside another app remains explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "23da27a79adce1a1b4bc28c2cebff98a76bd6db51926bef067551709b4317e51",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iOS",
+        "evidence": "iPhone video/FaceTime PiP alongside another app remains explicit. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/1/content/0",
+        "source_unit_hash": "e4bd9fd16176fc5e586161c55b24f7b14fd0e8a6ffce87343e1fb3dd4e9645fb",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iOS",
+        "evidence": "iPhone video/FaceTime PiP alongside another app remains explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "2057717344ca1abd39e0414164dd98323131a6e6932d7df5387f05dea9793bd0",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iOS",
+        "evidence": "iPhone video/FaceTime PiP alongside another app remains explicit. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "86f88f885f81c98a673da2a50d7b4c5cfc1c6b1e5a5bb4a301843db2d0d37e81",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Retains multiple apps and same-app windows, fullscreen app switching versus resizable/tiling/minimize/close controls, frontmost cues, PiP in either mode, and no knowledge/control of chosen configurations."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "d2ad964f1555b267761d5fe075b558eb0b9675d16d4fc736403ad96ffe820518",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Retains multiple apps and same-app windows, fullscreen app switching versus resizable/tiling/minimize/close controls, frontmost cues, PiP in either mode, and no knowledge/control of chosen configurations."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "2a9cc96b5b8f564a6f73f1b21aa9fc7bcbda1fbcdc2553507e4a650924bf5c8a",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Retains multiple apps and same-app windows, fullscreen app switching versus resizable/tiling/minimize/close controls, frontmost cues, PiP in either mode, and no knowledge/control of chosen configurations."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/inlineContent/0",
+        "source_unit_hash": "79dc758cbce5a66a0015fae5fffc44733fd3f653734426a31e871b49291e3b39",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Retains multiple apps and same-app windows, fullscreen app switching versus resizable/tiling/minimize/close controls, frontmost cues, PiP in either mode, and no knowledge/control of chosen configurations. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "97b90c3b759c3b3b5c58da2c76e8c2cae2bd1998ba3bab6cc4f7f6449f84b511",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Retains multiple apps and same-app windows, fullscreen app switching versus resizable/tiling/minimize/close controls, frontmost cues, PiP in either mode, and no knowledge/control of chosen configurations."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "9a949031dd861a96d57cf8a65a0293b86bc98d01af691aa2e6352b228cce09e0",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Retains multiple apps and same-app windows, fullscreen app switching versus resizable/tiling/minimize/close controls, frontmost cues, PiP in either mode, and no knowledge/control of chosen configurations."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/inlineContent/0",
+        "source_unit_hash": "0f35164ff9227d478bd52517a750f498b261a7fcc870d9df6a9b65ed89a2c9b1",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Retains multiple apps and same-app windows, fullscreen app switching versus resizable/tiling/minimize/close controls, frontmost cues, PiP in either mode, and no knowledge/control of chosen configurations. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "b21b3370d3e1a6f56d48de430e85dbd2685643bf0e023b6f58c89809d99c742d",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Retains multiple apps and same-app windows, fullscreen app switching versus resizable/tiling/minimize/close controls, frontmost cues, PiP in either mode, and no knowledge/control of chosen configurations."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "98ee977e76e5a0101ee2d4f2e3346131451494f4cd0e6851444ee8b573d215de",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Retains multiple apps and same-app windows, fullscreen app switching versus resizable/tiling/minimize/close controls, frontmost cues, PiP in either mode, and no knowledge/control of chosen configurations."
+      },
+      {
+        "id": "primaryContentSections/0/content/23/content/0",
+        "source_unit_hash": "18e478383019e4055d10146747c2b875ce19fb233e7021a2343d337cfd1b477f",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Retains multiple apps and same-app windows, fullscreen app switching versus resizable/tiling/minimize/close controls, frontmost cues, PiP in either mode, and no knowledge/control of chosen configurations."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "12f518b6e6e7ebedb2ef9541af678ea13769061e89481693ca6c696d8c73a88a",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Retains multiple apps and same-app windows, fullscreen app switching versus resizable/tiling/minimize/close controls, frontmost cues, PiP in either mode, and no knowledge/control of chosen configurations."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "3344630aeec2e7df3be5c97207532f12e3c030428a029d918f219c07ee9c4fa8",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "macOS",
+        "evidence": "The usual multiple-window environment and system window layering/state cues are preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "eef4349558e193fbcb67d849eecf531c0721791cc1d5ceed7e40b1e9faf1bb98",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Retains supported browsing/playback alongside movie/show PiP."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "08be2e53153100bc870391b23fc876545269c18e120cf85002b18c151ee7644c",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared one active Shared Space window, gaze activation/recession, backgrounding on close, Now Playing close-pause and Control Center resume, feathered-edge protection, continued video while looking away, and ducking for non-Now-Playing audio."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "d54824ef53f13429e9d073d2ba121a4db69a905f4fa16117298a5f11ad622bf3",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared one active Shared Space window, gaze activation/recession, backgrounding on close, Now Playing close-pause and Control Center resume, feathered-edge protection, continued video while looking away, and ducking for non-Now-Playing audio."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "6ec69ac97bea7881e9fed8efcc61b4cde7d6a34bb01fa09f106cc3e93ba16303",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared one active Shared Space window, gaze activation/recession, backgrounding on close, Now Playing close-pause and Control Center resume, feathered-edge protection, continued video while looking away, and ducking for non-Now-Playing audio."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/content/0",
+        "source_unit_hash": "e9a2670e5539bae2cb969172c3c92c2906d0f0d005fe855cb88324d9450dfbc4",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared one active Shared Space window, gaze activation/recession, backgrounding on close, Now Playing close-pause and Control Center resume, feathered-edge protection, continued video while looking away, and ducking for non-Now-Playing audio."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "8184beb0fbd685e400202452b8e9f6037ce3da3a10f7ce4bc6299f32da41fec1",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared one active Shared Space window, gaze activation/recession, backgrounding on close, Now Playing close-pause and Control Center resume, feathered-edge protection, continued video while looking away, and ducking for non-Now-Playing audio."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "76383fba3170de6721dee9ab3aeb501c420c32f30030e116bea41f135f308200",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared one active Shared Space window, gaze activation/recession, backgrounding on close, Now Playing close-pause and Control Center resume, feathered-edge protection, continued video while looking away, and ducking for non-Now-Playing audio. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "d11bdc10b3f42da3b81e63490246361f43144a8c6c1bf107a60b1f080f7cb4f0",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared one active Shared Space window, gaze activation/recession, backgrounding on close, Now Playing close-pause and Control Center resume, feathered-edge protection, continued video while looking away, and ducking for non-Now-Playing audio."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "7e060f0cfd18ae083b3ec3812de829e179f285686d1da35cb2729ab628bd59c9",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared one active Shared Space window, gaze activation/recession, backgrounding on close, Now Playing close-pause and Control Center resume, feathered-edge protection, continued video while looking away, and ducking for non-Now-Playing audio."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "fc630747c38955b09778a9451282e8fe933fd90da0b116681aef33524228777b",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "7c91307d14b7b19bad550d8d08737786bf38f37e9492eae6ec62a6eb30006247",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "9fc675336f754e9abd5df9765cc28d9255a1b2ef4e784a09a68a0d3a106f0ae1",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "26afdbc17b79d6e18e5065cc48577081ebedbdb4b3bd9defe19345a93ff653d1",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "c0e6466bc732e4bd4b7792d3a2e7d8d6bc6547286265b183accebac84e3a0a5d",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "19922bd148c36dc30d0ba4177602a4cb0fe620559510f8055eb5ab6318aa2b41",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/1/0/0",
+        "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/1/1/0",
+        "source_unit_hash": "d71591653aa48d2e55f7d3efacccb70686aa82f67d1ae9ce89ba5d90f382b591",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/2/0/0",
+        "source_unit_hash": "72e15f86b3908e69cbcefc24a6e0b2def83fa8df14342795e2a64fcd3e2ed469",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/2/1/0",
+        "source_unit_hash": "95edee9d0cfdf8b0b06a4740135c589b4122034500d101f9232891de45b5ef1f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/3/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/3/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "19922bd148c36dc30d0ba4177602a4cb0fe620559510f8055eb5ab6318aa2b41",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

@@ -1,0 +1,1879 @@
+{
+  "review": {
+    "slug": "designing-for-iphone-duo",
+    "status": "reviewed",
+    "source_hash": "7ae288090ae8f1e34f2d32b617c0fed94f567919d0e66c84c492fbb80fea3166",
+    "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+    "reviewer": "independent-coverage-auditor",
+    "reviewed_at": "2026-10-25T12:48:53.535615+00:00",
+    "evidence": "Independent complete source-to-local semantic comparison and actual embedded-media inspection; author mappings do not establish approval.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "designing-for-iphone-duo",
+        "status": "reviewed",
+        "evidence": "Checked iPhone continuity across two displays using standard resizable components."
+      },
+      {
+        "source_anchor": "Anatomy",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Anatomy",
+        "status": "reviewed",
+        "evidence": "Checked hinge, cameras and persistent side-bar placement on outer/landscape-inner displays."
+      },
+      {
+        "source_anchor": "Device-poses",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Device-poses",
+        "status": "reviewed",
+        "evidence": "Checked compact/regular adaptation across handheld/supported poses and Xcode device-hub previews."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked safe-area/margin/size-class adaptation, no fixed panel assumptions, feature/state/hierarchy continuity, control availability/system bars, gameplay in all poses and full-screen art/aspect-ratio handling. Sidebar wording corrected before approval."
+      },
+      {
+        "source_anchor": "Dynamic-layouts",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Dynamic-layouts",
+        "status": "reviewed",
+        "evidence": "Checked hardware/software configurations through available regions instead of fixed display sizes."
+      },
+      {
+        "source_anchor": "Reserved-regions",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "source_anchor": "Split-views",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Split-views",
+        "status": "reviewed",
+        "evidence": "Checked expanding/collapsing hierarchy and automatic fold-related width/margin adaptation."
+      },
+      {
+        "source_anchor": "Arrangement-views",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Arrangement-views",
+        "status": "reviewed",
+        "evidence": "Checked primary/secondary split vs overlay relationship, orientation/axis/collapse behavior and navigation outside layout arrangement."
+      },
+      {
+        "source_anchor": "Vertical-controls",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "a6f2ee349523e5926d367efd114b1b6288d45f9acda81d2ffabd28fa63fd731e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "designing-for-iphone-duo",
+        "evidence": "Checked iPhone continuity across two displays using standard resizable components."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "c18d4db7191f66798e91858bf149377663f24b05e4e8e9e359d03356c3e6e7e5",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "designing-for-iphone-duo",
+        "evidence": "Checked iPhone continuity across two displays using standard resizable components."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "6505e8e5c8e77f2431bbd9bd65e96f65c30828c80fe9b81cd3c69eee04525761",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "designing-for-iphone-duo",
+        "evidence": "Checked iPhone continuity across two displays using standard resizable components."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "290ab1fbf3b62a6bf78cf9a91707fbc11544c064b313e2b45e0b3e9b86e7d2bf",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "designing-for-iphone-duo",
+        "evidence": "Checked iPhone continuity across two displays using standard resizable components."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/tabs/0/content/0",
+        "source_unit_hash": "0dd845a691373585dc8d31c713725c06fb4929148b3e9158e450344603a1c58a",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "designing-for-iphone-duo",
+        "evidence": "Checked iPhone continuity across two displays using standard resizable components."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "71add916b0695309c526237496b4a5b05b4758717e2aa8587d4d56df7b3dff93",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "designing-for-iphone-duo",
+        "evidence": "Checked iPhone continuity across two displays using standard resizable components."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/tabs/1/content/0",
+        "source_unit_hash": "5781e0cf2f9c03fe02141c417d81433d6e520771101513646f1126fe6edd1db5",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "designing-for-iphone-duo",
+        "evidence": "Checked iPhone continuity across two displays using standard resizable components."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "dff8d9937daf0a1175394e67f87469475df30025a327bdfb0b2bde3a52d99394",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "designing-for-iphone-duo",
+        "evidence": "Checked iPhone continuity across two displays using standard resizable components."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "75aea7d4c3d8910faeb7abc6269ce77affbf9c097dca8cc29ef36469e0de4f89",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "designing-for-iphone-duo",
+        "evidence": "Checked iPhone continuity across two displays using standard resizable components."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "811c1aba0985659c8721e99c64ceb31fd262d29d8a1dccc4823938a344be31c7",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked hinge, cameras and persistent side-bar placement on outer/landscape-inner displays."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "48ab3589c1dcfc3adf9169bc91572fb529dbfb9f5465ac69aea68fada93c4f55",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked hinge, cameras and persistent side-bar placement on outer/landscape-inner displays."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "20aa9ce5989be1d005f590c6cc16689f30a8f4bb6ba314bb6f03cfdf280fd0f3",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked hinge, cameras and persistent side-bar placement on outer/landscape-inner displays."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "6e1a6e27773045169289ebd1a0e284f85326ea05480621eae91358a0320516a2",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked hinge, cameras and persistent side-bar placement on outer/landscape-inner displays."
+      },
+      {
+        "id": "primaryContentSections/0/content/8/tabs/0/content/0",
+        "source_unit_hash": "aa5f7874d408b0732b3ca9c6867a445a974ee85471a385283eae2112b7da47dd",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked hinge, cameras and persistent side-bar placement on outer/landscape-inner displays."
+      },
+      {
+        "id": "primaryContentSections/0/content/8/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "70a9d4f560648d1dd1c28559fbef5e53acc83745272de908a573ddfdd8ebec52",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked hinge, cameras and persistent side-bar placement on outer/landscape-inner displays."
+      },
+      {
+        "id": "primaryContentSections/0/content/8/tabs/1/content/0",
+        "source_unit_hash": "651c377bacdb01c9249087d902394b42dec1a21f84e516ea11fef87a979ec173",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked hinge, cameras and persistent side-bar placement on outer/landscape-inner displays."
+      },
+      {
+        "id": "primaryContentSections/0/content/8/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "581e159927c7b438e50ddde3509a6330f63e0560c476445b999c571c2964d12e",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked hinge, cameras and persistent side-bar placement on outer/landscape-inner displays."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "4c29d00947f6163106312e23f836e07120be000db7ec8b73e0c13efca79dccc1",
+        "source_anchor": "Device-poses",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Device-poses",
+        "evidence": "Checked compact/regular adaptation across handheld/supported poses and Xcode device-hub previews."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "5d7965d024c7e41a045abbb889059a08974c1598b673240cc58477c63f3d2ac1",
+        "source_anchor": "Device-poses",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Device-poses",
+        "evidence": "Checked compact/regular adaptation across handheld/supported poses and Xcode device-hub previews."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/inlineContent/0",
+        "source_unit_hash": "043693b716d039d21436b1acd20cffde458c32deb0cc29697a02d0436f317669",
+        "source_anchor": "Device-poses",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Device-poses",
+        "evidence": "Checked compact/regular adaptation across handheld/supported poses and Xcode device-hub previews."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "2e057261370f3784d812d7738842aa4e2b6b0e7346aea9ab3139ce3a42ab8fb4",
+        "source_anchor": "Device-poses",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Device-poses",
+        "evidence": "Checked compact/regular adaptation across handheld/supported poses and Xcode device-hub previews."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "1718b9f338b1f30bd3448cc2c450fb84550294482d3639a6c12943650d93f7f4",
+        "source_anchor": "Device-poses",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Device-poses",
+        "evidence": "Checked compact/regular adaptation across handheld/supported poses and Xcode device-hub previews."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "c4cc9dd893ce9a331b9ab8b948d2307782d9b906a4ce20844544995ef1c5dd01",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked safe-area/margin/size-class adaptation, no fixed panel assumptions, feature/state/hierarchy continuity, control availability/system bars, gameplay in all poses and full-screen art/aspect-ratio handling. Sidebar wording corrected before approval."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "c9d30e1841b1f492d755efe0fcc2797154f37eb21647b2be53691172a3189536",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked safe-area/margin/size-class adaptation, no fixed panel assumptions, feature/state/hierarchy continuity, control availability/system bars, gameplay in all poses and full-screen art/aspect-ratio handling. Sidebar wording corrected before approval."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "44290c5d4f19de017e52de4c4c99931de3a7be3ea69aefd1e92dd440dadad7d9",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked safe-area/margin/size-class adaptation, no fixed panel assumptions, feature/state/hierarchy continuity, control availability/system bars, gameplay in all poses and full-screen art/aspect-ratio handling. Sidebar wording corrected before approval."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/tabs/0/content/0",
+        "source_unit_hash": "e1c2f8afa2f41dcc607689e40207fbca0bc50d79aec56ee0c36d892fdc058010",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked safe-area/margin/size-class adaptation, no fixed panel assumptions, feature/state/hierarchy continuity, control availability/system bars, gameplay in all poses and full-screen art/aspect-ratio handling. Sidebar wording corrected before approval."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "bc6d0c22ac9931e66709680fe7f9d7a2ebeb0be57dd18d2d9fe4b4b9c139f93d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked safe-area/margin/size-class adaptation, no fixed panel assumptions, feature/state/hierarchy continuity, control availability/system bars, gameplay in all poses and full-screen art/aspect-ratio handling. Sidebar wording corrected before approval."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/tabs/1/content/0",
+        "source_unit_hash": "cdaa0966762cb5e092166c485760e11de3beb384b55bf7de812fb8c51c15f113",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked safe-area/margin/size-class adaptation, no fixed panel assumptions, feature/state/hierarchy continuity, control availability/system bars, gameplay in all poses and full-screen art/aspect-ratio handling. Sidebar wording corrected before approval."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "2047c08982163895c1f44e57b2adb80d37717010572f42e0b14d0267f78addea",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked safe-area/margin/size-class adaptation, no fixed panel assumptions, feature/state/hierarchy continuity, control availability/system bars, gameplay in all poses and full-screen art/aspect-ratio handling. Sidebar wording corrected before approval."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "2e0a592826217214edb657d8ec047ce334ccebf7810a31dd19a9873a3a2c6d47",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked safe-area/margin/size-class adaptation, no fixed panel assumptions, feature/state/hierarchy continuity, control availability/system bars, gameplay in all poses and full-screen art/aspect-ratio handling. Sidebar wording corrected before approval."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "bd35c9230d743d1cd3f5b7999407065e38a6fb0482edb58ef3de6ec5cbbcba2c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked safe-area/margin/size-class adaptation, no fixed panel assumptions, feature/state/hierarchy continuity, control availability/system bars, gameplay in all poses and full-screen art/aspect-ratio handling. Sidebar wording corrected before approval."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "da86f380b3db49f31bb21432b01cbe4c350d555b5727faf1bc912d857d7837c3",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked safe-area/margin/size-class adaptation, no fixed panel assumptions, feature/state/hierarchy continuity, control availability/system bars, gameplay in all poses and full-screen art/aspect-ratio handling. Sidebar wording corrected before approval."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "ff6ecc6f152d4d80edfe57594f485b15a6caf986d35a52afea8b35321e82a587",
+        "source_anchor": "Dynamic-layouts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Dynamic-layouts",
+        "evidence": "Checked hardware/software configurations through available regions instead of fixed display sizes."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "b61e0e44bb6e1e6c5537b14bdf489cd0e3fd9577432286cb7aa55b1b08587ac5",
+        "source_anchor": "Dynamic-layouts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Dynamic-layouts",
+        "evidence": "Checked hardware/software configurations through available regions instead of fixed display sizes."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "504b90f98823c8beb16ccdd65ad5bec7490581c5bf834534e05a8c0d943c58a0",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "29d0447ac892a4c64e73556e919057b58e25c22eefa6fc0eb80a6cd96ecea81f",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "2e5477ac9387533eff8a8bff273b9ce5d54d72a777d3909f946be8785d3e8fa7",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/items/0/content/0",
+        "source_unit_hash": "e2e2df52557c340e774cebd8212bb6cb271554e05767ace65f76c7a8cc91c8fb",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/items/1/content/0",
+        "source_unit_hash": "bf90e7f41306650d937b6758ec3bb72e53f5628955bc331ec11455c38db0be40",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/items/2/content/0",
+        "source_unit_hash": "45837966d4a276c9c1c892ddf7b06ebc76a320b72a83f3a64610cc8d71df8fc9",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "5c8057eb4770e12945c87e6c691b3c14c23019bffc5adbe0f452d9f73866e3d5",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/tabs/0/content/0",
+        "source_unit_hash": "c0276d0a2218ce9b6bf593812d081864cf17e113311d1a1a8db44130ad944e7e",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "c092e5378922f9e7102fc5c2127df0cba7a8e164cb86ddce37eef1b8256c8654",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/tabs/1/content/0",
+        "source_unit_hash": "b00461fb0a48fd66dbc9f90cfb6e80bed1aabde57976de2897ca4666ab02c679",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "5da5bc266a82115a41c16b03039d2b1dd655c5a798fb632eae11ce689e393635",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "ec7734167d6df2f6c52918ff6b2f060e57813213b840f4e92069917667f0ebc0",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "a53efb45c0f1ee9a07529d96a359e4216ad5a000ba8cb5cd99a95f476a46ee58",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "967f5e2e8f4327da9349d02cd5c1f297066d58dd1bce6af33a4c5de8ca25af66",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/tabs/0/content/0",
+        "source_unit_hash": "41dc007b80551f9c3b13b5c989f673690ce39a38fb7fca88e9a7f69b613f5ddc",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "462596cb467232eab36115f5f3d286f7a441e970dd972d3246c5da071e98cae6",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/tabs/1/content/0",
+        "source_unit_hash": "b7167a2a5c663122721b4acb8b4c5eebdb39bd22dd52725a1bf31f75c803402b",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "4c50b892d9aa11c99360c19b9323745997ef2bfcf1423037d519e3a97f07d204",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "2d9df8e09ad47f34c5283b764fdcfb219a6451c7bd178d7037c10d2681c0c7d4",
+        "source_anchor": "Reserved-regions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Reserved-regions",
+        "evidence": "Checked permanent outer camera/Dynamic Island, active-only inner camera, conditional fold region, standard/custom reserved-region handling, even grids and modest adaptation; original media guidance preserves equal-pane fold example."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "d6086ea379547c935c73909efdec67b6a4d36e34e613e2d4024e54da07ceb8c6",
+        "source_anchor": "Split-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Split-views",
+        "evidence": "Checked expanding/collapsing hierarchy and automatic fold-related width/margin adaptation."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "ba0c9c5c7964549e8160a27edc2532665d3c963b47b77bb2679cebf55bd587e9",
+        "source_anchor": "Split-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Split-views",
+        "evidence": "Checked expanding/collapsing hierarchy and automatic fold-related width/margin adaptation."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "31495907ef7d4ffc71f94defd1833fe383269d5e92bf3b3f38b5a36d118cf58d",
+        "source_anchor": "Arrangement-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Arrangement-views",
+        "evidence": "Checked primary/secondary split vs overlay relationship, orientation/axis/collapse behavior and navigation outside layout arrangement."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "282fa2aa0c2d479b43c309632dca9d1127298b54ca0529de7ca96daa0af6a498",
+        "source_anchor": "Arrangement-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Arrangement-views",
+        "evidence": "Checked primary/secondary split vs overlay relationship, orientation/axis/collapse behavior and navigation outside layout arrangement."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "fb58fbf300814a4f8a73eeb187db2da5df7ef9820799e9fc7a855f81cbb0d31d",
+        "source_anchor": "Arrangement-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Arrangement-views",
+        "evidence": "Checked primary/secondary split vs overlay relationship, orientation/axis/collapse behavior and navigation outside layout arrangement."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/items/0/content/0",
+        "source_unit_hash": "18854a81919235677c32688db6fd2e0ff1f196ad84c6353a71e14c33ec173f3e",
+        "source_anchor": "Arrangement-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Arrangement-views",
+        "evidence": "Checked primary/secondary split vs overlay relationship, orientation/axis/collapse behavior and navigation outside layout arrangement."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/items/1/content/0",
+        "source_unit_hash": "38dd1e9c85b7d7f225127397366e23ade3ad9d0d844bfb68955fdcf8bc106685",
+        "source_anchor": "Arrangement-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Arrangement-views",
+        "evidence": "Checked primary/secondary split vs overlay relationship, orientation/axis/collapse behavior and navigation outside layout arrangement."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "d677bbb4e5f91d4ac929ea0bf8ed3fe5473c4d4a5e46f4b455321e2ce3e1ce71",
+        "source_anchor": "Arrangement-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Arrangement-views",
+        "evidence": "Checked primary/secondary split vs overlay relationship, orientation/axis/collapse behavior and navigation outside layout arrangement."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/tabs/0/content/0",
+        "source_unit_hash": "f15ac005d696a7113573214198757d53ce45cfaa1f3a9480a30b40dacd8c25e8",
+        "source_anchor": "Arrangement-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Arrangement-views",
+        "evidence": "Checked primary/secondary split vs overlay relationship, orientation/axis/collapse behavior and navigation outside layout arrangement."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "2a008635d65e4299059f26f88eaf21d98214ef38b679deadf632735f078048e0",
+        "source_anchor": "Arrangement-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Arrangement-views",
+        "evidence": "Checked primary/secondary split vs overlay relationship, orientation/axis/collapse behavior and navigation outside layout arrangement."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/tabs/1/content/0",
+        "source_unit_hash": "de4b345aa7e52b827c15ce901dace6a9e000cae5b258eda75799124ee3119bcd",
+        "source_anchor": "Arrangement-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Arrangement-views",
+        "evidence": "Checked primary/secondary split vs overlay relationship, orientation/axis/collapse behavior and navigation outside layout arrangement."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "bbcc85532f62ed817dc55994cb5545a4b22ca22c49785a07386a939ee9c4bbeb",
+        "source_anchor": "Arrangement-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Arrangement-views",
+        "evidence": "Checked primary/secondary split vs overlay relationship, orientation/axis/collapse behavior and navigation outside layout arrangement."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "e8bfd8596affa36d5f1a8bfb7c3ea6d31b36631fb71b56c53b7ef1d2d7ae827a",
+        "source_anchor": "Arrangement-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Arrangement-views",
+        "evidence": "Checked primary/secondary split vs overlay relationship, orientation/axis/collapse behavior and navigation outside layout arrangement."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "eac8971201d8628b4a4adbf1f5554f735500c1d59fb07ecf33a347175337872a",
+        "source_anchor": "Arrangement-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Arrangement-views",
+        "evidence": "Checked primary/secondary split vs overlay relationship, orientation/axis/collapse behavior and navigation outside layout arrangement."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "207982bfc97a3c6d560419d9abd3324fb624e9ae345911630a261e355d9ed6d2",
+        "source_anchor": "Arrangement-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Arrangement-views",
+        "evidence": "Checked primary/secondary split vs overlay relationship, orientation/axis/collapse behavior and navigation outside layout arrangement."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "afd23044a98f74769aa1accc511f1bcbdb29cc786cde308801dd9aefa23130de",
+        "source_anchor": "Arrangement-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Arrangement-views",
+        "evidence": "Checked primary/secondary split vs overlay relationship, orientation/axis/collapse behavior and navigation outside layout arrangement."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "97d2ce6d996a385fa9175b377533442b1175516fafc59c7a0c2f174e06fd35c8",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "9ec14469764999f35263a88356c28580ef7a69d181a6774ecef3b73363ca2580",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "df1258b23444c424eb7dcf1618fb779a6047780aa06a9bcf0244d5cc871f61d7",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/inlineContent/0",
+        "source_unit_hash": "b4d9ceca66cc29b46b436a395cafd982481f3793c73fa7b7fab5d22066e911bc",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "0c5600121d59065308fc552f374e8c1e403426ef8731a86b13f1e429e73311f4",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "9d13aba877c500ddf3b07e423e1eef6a430b5ed62f5ad60154c45479caa9209a",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/50/inlineContent/0",
+        "source_unit_hash": "46ec6ad5e01b19b8af68ef0d9b50c4a59a06c101cbc2a564478f23c54f026dd6",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "6c97a09ec0aab4e408993bb99c5689d8df8cbf074a1cdc0a7566f3b0e57e1101",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "b3afae5129fce3fa247074426018c2ca7408600e4caf1db42088acad5f66bc93",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "7f97236eab9ead54ef1357daec3fd1e25d71fa4f0d2ed55e670221893a08a0b1",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "cdd3d13ca2bff210d1199dc8585f6f4989a4f5a23098d54a7c4fa2bd1a48b96c",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "a1e5857579287a4e79ee537f0d7f93a3694e7881ad56b070c98eeea1216335b4",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "4208b8263156ce62d7e73d2be26649d26b11623c005120d4a7578224969122fa",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "b99a01c974de4f2b567b6de43d51a00e4b612731f9867a409a2a70440181ee35",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "8b1b40aafb069e24cf400c62c69d4b68bcbefff3625380077d43e9089eb01e29",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "ef5790e53d9c1a7c1087fd87f4bd4fb624ffa7e87a091654bc771959d2e1ed08",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/inlineContent/0",
+        "source_unit_hash": "5f394cb0bd9776319cd79c08f34ff3ae4418f015fd6564d157a394f1b0953417",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "4d4a165fb41f25061d316308ec8690cc95dbf8abc827cbfd2d25f95f792f596d",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "c540a0e0c38e56f658b7b38a205b9219843c735065d28b4acfdea341ee3e4875",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "437f04e69665853e548c3ddf8e30e004ba033c6803aa58ba140d9c25602ca5d2",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/62/inlineContent/0",
+        "source_unit_hash": "13a0239ac876ed737d0db38e5711d81a41e98c961ff0b00cb070568cd682472d",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "adabf8274b8ed5102e59d472105e94b3ac2982efb0b43df1ede6e06f72cc3dd1",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/64",
+        "source_unit_hash": "62e850a7a7b7ae1055a201718fe7a69fb5ed409e1bbd267bd3b15dbeb1ec5b93",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "a9e2bc3d552413b420df5a5284c82f53d1a3ae39b60185f85c213374a438a72c",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/66",
+        "source_unit_hash": "af7284d8aad889377e3ba19cb7f60b80e0d31a9dd81166068139251c3dafcbc5",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/67",
+        "source_unit_hash": "e6c129a3152aae81f4be31a5c42f56fd9dd93d61114ec341020b7c9524ef4567",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/67/tabs/0/content/0",
+        "source_unit_hash": "a4e71f4db3ed6293afd9d1c7b6b542b670702415314b652977821908275b3018",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/67/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "7eb25b8badd5870a7a85d64544386acb0cab0a5d5354719591a4bdd3e38848a8",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/67/tabs/1/content/0",
+        "source_unit_hash": "190211d4530ae40dd96bbf5f91e66af789fc95a73215456ea21fb504657db49d",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/67/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "baa08ec545475e83fe3dc6f97357d0323143c8b001fd5f46a6153d8bdb8998d8",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "7e768ffd98c75f8ba8714f2db99f4a1eab8f0f89aeb5dff0c3f06d95adf03640",
+        "source_anchor": "Vertical-controls",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Vertical-controls",
+        "evidence": "Checked inner-portrait exception, outside edges for multitasking and hardware-side stability in RTL, asymmetry, stable order/groups/priorities, status visibility, symbol/title behavior, task-vs-navigation compression and system overflow; actual diagrams independently inspected."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "86676dbd75e532edd447cdc11bdcae85c047bc465010de12ca7685cdabf100b2",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/72",
+        "source_unit_hash": "7c93aa17c7d3b5b779025b1e07e65decaab63f4c8b33d2276df1725596991989",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/73",
+        "source_unit_hash": "7c1895e8462b7ced094d3a65ffb0e83d3094886f3ea0bd618b941ca563f46f32",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/74",
+        "source_unit_hash": "fc630747c38955b09778a9451282e8fe933fd90da0b116681aef33524228777b",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/76",
+        "source_unit_hash": "4c6ad3201e85bf8167701314c2be0f1f09e50ae1f19fdf454fd639eee575eb3c",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/77",
+        "source_unit_hash": "0d02e6113721aac5d78302ef74533515a01a9cd21d27132cd16b0f122cf789cd",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/78",
+        "source_unit_hash": "70c23b68b5ebc0174c41154d744c6c04a473285d2b161b1ac34a00ccd7577b61",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/79",
+        "source_unit_hash": "6ba9020bdd6c8dc3e2c72c1349c33715afc9f7f515a49d295eb9e5062d6e2da4",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/80",
+        "source_unit_hash": "b1fd1809704728465f6370b02d27db63735679ef5fa3fbf275f1fe12238552a4",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/84",
+        "source_unit_hash": "d2bb5b52b564c81bce263ec1cbeae0246732ec39928b66e14fb39d9749f90592",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/84/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/84/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/84/rows/1/0/0",
+        "source_unit_hash": "6e918a7722cc53860652aa9635f57139b56fa2911e831afad66b2aa393192a64",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/84/rows/1/1/0",
+        "source_unit_hash": "53485ae29dfb5fec375f2b7ef1cd431b6fc14beaaae5b4fa238094959456ca01",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/84",
+        "source_unit_hash": "d2bb5b52b564c81bce263ec1cbeae0246732ec39928b66e14fb39d9749f90592",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      }
+    ],
+    "supporting_files": [
+      {
+        "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+        "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+      }
+    ],
+    "issues": []
+  },
+  "media": {
+    "platforms-designing-for-iphone-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed actual introductory or principle-symbol image. It identifies the topic or principle; the corresponding rule is fully expressed in the reviewed local prose, without an additional visual-only specification.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "decorative",
+      "binary_hash": "224c440ca4d16ac87462bd2fbbc866abbd5c0658d71cf3456ecd694b65717678",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-iphone-intro@2x.png",
+      "reference_metadata_hash": "72c1c943cce44ce56347c03a97dcbb1976514c956b5f97e0cc06f98e49b44a56",
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted.",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-iphone-intro~dark@2x.png",
+          "binary_hash": "85afb9a7515448d905388a628d0025dd8bb7a0c0c592282b9623004d800c7468",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "designing-for-iphone-hero-outside.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "5f0d41b349e41021a7bbd61ab13d62f1ed0c2dc3e5c2282079b1104de4d04af1",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/2/tabs/0/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-hero-outside@2x.png",
+      "reference_metadata_hash": "e74cf2cf6e3c5b79f88ce1cfb6d2f5f7e3d4135d685e5fc03ea8805a201d1325",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-hero-outside~dark@2x.png",
+          "binary_hash": "43cf3c083750db920683e55ddee2461f7348d8bd62dd1358c10cde038ee25376",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-hero-inside.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "6b02a75e23602688f138dd59a8bb2801b8cdbffe49f8da22dcd00a155af5e2ab",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/2/tabs/1/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-hero-inside@2x.png",
+      "reference_metadata_hash": "ffd361013f45c21fc16c3c9994c7aacf3731b64330f7f544eefcbf7f9dfa5e90",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-hero-inside~dark@2x.png",
+          "binary_hash": "9ecd6e76d069dffd4dd74812b71e96bbda83c82037307692ea10b18fda683af6",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-device-layout-outer.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "bfc32631a14c65b81991d5c26f3177a879b29c01c4fbdefb7c0d37d570ae48be",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/8/tabs/0/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-device-layout-outer@2x.png",
+      "reference_metadata_hash": "bd940e0f4d5c42cd9e86c75c414fe5c82d697897d22bac0cafa76a6dc82b1a60",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-device-layout-outer~dark@2x.png",
+          "binary_hash": "1c63be33a80b263ca1242a8f09b6dcd729393e0833ed1e0de6d658c45d0587f0",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-device-layout-inner.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "cf87eb6a398a6f073547ac2f750b5dad775f456b1bd696fdc15bfb7da2cbce40",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/8/tabs/1/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-device-layout-inner@2x.png",
+      "reference_metadata_hash": "9a1ef34f5c5dcacd37507af85dd041a7b98330d1f7fc176f9486d451d870552d",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-device-layout-inner~dark@2x.png",
+          "binary_hash": "b9e4a4ec8144dd8b7eb72795d7be8b36ef044c9c52a9201a0c111ce243dbd50c",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-poses.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "56950975906c2214ab46eafe0ce0d88b6e95665f24c1274a903488365d1996c5",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/11/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-poses@2x.png",
+      "reference_metadata_hash": "de8dd772451cee4251d9d3e3a200607203230ed6865d420768941f829bc3efca",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-poses~dark@2x.png",
+          "binary_hash": "8046917f67a9999356afc2d396236645f1e9ce6a70232bc420ba166807153517",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-mail-compact.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "16bf2a873d3f6b94788ef73d98cdf5f1c9ec7db606a34ab9d3b0742cb82c9ae8",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/17/tabs/0/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-mail-compact@2x.png",
+      "reference_metadata_hash": "6249c42f8a5e80db985f993ee7e361ee42f8f30cf7cf63ccfe6b61df81921110",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-mail-compact~dark@2x.png",
+          "binary_hash": "4044e2cfc441273c4ad4448d888dfc17d0b3bb5606fea2b40841522404258404",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-mail-full.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "d0d0735c864168ccf694f76e78a86ea732d1714a6d8d0262bb1bd8e541bd49f2",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/17/tabs/1/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-mail-full@2x.png",
+      "reference_metadata_hash": "ad86b24ba7f535c85b90d6405b0b01e215b64d5cfb902908b02b34af8f09fe1d",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-mail-full~dark@2x.png",
+          "binary_hash": "db19e22115c356ecbbaee90dd03798cc14312e2f87904a762d9fcc0c2c3e2114",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-safe-area-outer-camera.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "5b816198538723e0c65e58211baf4c93fce23fc0803fd2f65b16f6e2c74746e6",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/28/tabs/0/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-safe-area-outer-camera@2x.png",
+      "reference_metadata_hash": "e0db66a09a0136a435a4b4b131d5c968236b69406cf1742dbd937fc9969d36f6",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-safe-area-outer-camera~dark@2x.png",
+          "binary_hash": "3f40c05c1fe103108d4897bf956462b4539d81d8aa7338a79ae897c663d9fb56",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-safe-area-inner-camera.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "2a35500030e013841f5a7b7bc70cb63909e968343c7af977f6fc4b947755dd78",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/28/tabs/1/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-safe-area-inner-camera@2x.png",
+      "reference_metadata_hash": "0212997bb3787bcbcdff49d1c9746fe6aea3e0d7b66a6dd543740c46bf58d2e5",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-safe-area-inner-camera~dark@2x.png",
+          "binary_hash": "633ed1232ee3353e23ae561fa3398607510b7a440da2f6c279b7e7de5a45144b",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-notes-sidebar-open.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "3abeabd7e496464c257dfe3ca295b8015933ed3508735c23ca5538304cbca4d4",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/31/tabs/0/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-notes-sidebar-open@2x.png",
+      "reference_metadata_hash": "e78488228db8d78e2e8bcb8a2d4d6bec1f1b0fede6cc286d930dd4e642e5221c",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-notes-sidebar-open~dark@2x.png",
+          "binary_hash": "c519c8e62086261f0c39bc6c360e9c7f28cd52bff8f3c6ea135a653cd78ce6d6",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-notes-sidebar-folded.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "6ef4752a46df6bc784fb376fc6662642ce757b162d72c660d30ae8ff41bbea80",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/31/tabs/1/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-notes-sidebar-folded@2x.png",
+      "reference_metadata_hash": "a999c07cf0d2d1028d735ee4d21811f91a4315c1f53a14d612335989dde5474c",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-notes-sidebar-folded~dark@2x.png",
+          "binary_hash": "4a5a14b56a5028206a41d5c2995282807e19d24d70e5c0f842c3c96d8fa98eaf",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-view-layout-split.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "7bfd28a473bde4ec89397b4c0e50bf32a039db65c8d0e34aadd755a4a6f8da65",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/40/tabs/0/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-view-layout-split@2x.png",
+      "reference_metadata_hash": "a233b14f060b768ee669e6b15c23e263be78d89d62b10656f9d24e48165deb2c",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-view-layout-split~dark@2x.png",
+          "binary_hash": "62766bdf1614c70b2555db2e140d570a068ea42682c2597afc89b4c73980b379",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-view-layout-overlay.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "268eb7dd6c3e57c1543f5abfa1b858932f7168d247aea4dc60d5144d3df87b5e",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/40/tabs/1/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-view-layout-overlay@2x.png",
+      "reference_metadata_hash": "c17a5ab88b7a4aaf72e7c7222c2aea64f2ded599797b1371ca37b7392b6021e0",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-view-layout-overlay~dark@2x.png",
+          "binary_hash": "c07c617936f3a04f22fece4c39950b900b14e54da29a3fc6d41943207c0e515d",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-tab-bar-toolbar-layout.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "4b4572d8d93b76f7bc3d16898d7d38d52d5fdd16bec1da455679441f41014f14",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/48/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-tab-bar-toolbar-layout@2x.png",
+      "reference_metadata_hash": "cab32b800f8750a70138892f5110dd79b063700eb23e8e1ffadd38703f748fc6",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-tab-bar-toolbar-layout~dark@2x.png",
+          "binary_hash": "1075db4e8c0d2f9c3c4c6e5bc579fb9b12401911e7d180a00cdea2e69aff8e20",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-multitasking.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "6240604d6d2586f77e28a39fc2f1c166e000d96757f9e74d2a905ffcdc174da8",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/50/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-multitasking@2x.png",
+      "reference_metadata_hash": "6910d89e7429a7c8f36556f22b2bff04da8e0476f01c593c658d2c0699f9cca9",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-multitasking~dark@2x.png",
+          "binary_hash": "36208787eb0efff59f0d3ef9e8a5ce4cf20bfa1303b6382e95f97a31308ac38c",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-calculator-full-screen.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "450e44966aad8e32c8da5c733a778fa117e14a586f6733648dd59788cb03604b",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/59/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-calculator-full-screen@2x.png",
+      "reference_metadata_hash": "585d9c8235c590a21255dce038b2b6b53a40611d2a7bbf944f551df41dd4e086",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-calculator-full-screen~dark@2x.png",
+          "binary_hash": "c817dd39491b40e97e1d922dbf0d105f19ae609db3c89e9abad0a69aa1846359",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-pane-controls.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "2c1ca08a64c19219abbfebd8fa42bb7e7b54498b902a938f027224e88d866aa7",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/62/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-pane-controls@2x.png",
+      "reference_metadata_hash": "5e662a87ed0ced42e6241dca9509446339211ec66756c9c0e0fc4f20f2a60afd",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-pane-controls~dark@2x.png",
+          "binary_hash": "2c728b0ff3e03ccf16334d3d7e9e0d208358420db21ea2f50aa8a471d34430ee",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-compact-layout-tab-bar.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "a6a47068be6d3f55a5b4cc69eadb1b2b9ef900207dcfb5c9e291f434664bb90e",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/67/tabs/0/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-compact-layout-tab-bar@2x.png",
+      "reference_metadata_hash": "4658a0a11439f2f9fe2d52b59dc9e88d925565dbf1cf86cc2e8ff4d93bd0443c",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-compact-layout-tab-bar~dark@2x.png",
+          "binary_hash": "c3d2fe7e9a66964498d561ccf6b1d977f94acaf15130f013c8d1e07c346716ca",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "designing-for-iphone-compact-layout-toolbar.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed both actual image sheets: camera/fold and pose diagrams, compact/detail continuity, Notes fold-related pane symmetry, split/overlay regions, outside-edge bars, keypad reflow, pane control scope and compression priorities. Main reference plus the original supplementary visual explanation preserves the relevant lesson for this occurrence.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "1f05898ef8629afa64ac9feddf6019cdd0d74ac4aee5ae63ae2a7fca9ce01f93",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "destination_hash": "4475876ff9989b7e3da926bfeb2f64b009083a3bdeffb6bb11e4a978c703e1af",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/designing-for-iphone-duo.md",
+          "hash": "de39486ccd3dce56ec006fb17f1dd97b6ad2ee126de016b7d116d063d367de06"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/67/tabs/1/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-compact-layout-toolbar@2x.png",
+      "reference_metadata_hash": "973839e6a4475ef528d548dae11e314cb3067c30c830baf6262e8ced0fda52f8",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/designing-for-iphone-compact-layout-toolbar~dark@2x.png",
+          "binary_hash": "6691c054089fd42bfd9d62bc933960be723c2e976b5852d6ff54b87792b72e7e",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    }
+  }
+}

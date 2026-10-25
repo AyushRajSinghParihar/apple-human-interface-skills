@@ -1,0 +1,67 @@
+{
+  "source_hash": "1b8498df40c8a4e5fdf64169e943f3a5d4e50a2024d927024287ac00ad41f933",
+  "media": {
+    "patterns-file-management-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:16:20.498466+00:00",
+      "reference_metadata_hash": "4439e10dd329974918e4754343570796ec120094003227df9fbdd40ee544dd13",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-file-management-intro@2x.png",
+      "binary_hash": "a40669970bdd82a7cb1981bf5e81d6b9610bc682807d921ca3d875e89b032890",
+      "review_method": "actual primary/alternate introductory-image gallery inspection and source topic/context identification",
+      "classification": "illustrative topic introduction; redundant with component/topic identity",
+      "evidence": "Actual introductory illustration and its light/dark representation inspected in numbered galleries. The image identifies or demonstrates this topic/component; the depicted sample labels, symbols and layout add no independent normative specification. Substantive design rules remain subject to the separate article/section audit.",
+      "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+          "hash": "d7ca475781533ddecde00adcc703c10237a45ba2a04dfc768bfb3cab22c90669"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-file-management-intro~dark@2x.png",
+          "binary_hash": "913a94d7c3dd33f4aef57877ce787c72cf1ba00bbd0c4313be95bc3b6b5f6325",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "file-management-document-launcher.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:26:15.000268+00:00",
+      "reference_metadata_hash": "0df946f89f6fb5c685cb9f3c88cbd2cb41307c8de5743dbc77e9b970dae85ad8",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/file-management-document-launcher@2x.png",
+      "binary_hash": "a5eb7b0ccf72cfb77e2a85b76eca44fcf859c863538d37b9176b5c0111f87d54",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local prose",
+      "evidence": "Viewed both appearances of the graphical title card, app action, layered robot/accessory artwork, quiet pastel background and file-browser sheet. Local launcher structure, clear title/buttons, restrained accessories and cross-size testing cover the design lesson.",
+      "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md#Document-launcher",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+          "hash": "d7ca475781533ddecde00adcc703c10237a45ba2a04dfc768bfb3cab22c90669"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/21/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/file-management-document-launcher~dark@2x.png",
+          "binary_hash": "08b030b49f059de2dbba2a98125b477e0c0b2e925b3224247d37eac9e536d698",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate on the paired contact sheet; contrast/surface appearance changes preserve the same interaction, hierarchy, and lesson.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    }
+  }
+}

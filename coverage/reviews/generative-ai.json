@@ -1,0 +1,577 @@
+{
+  "review": {
+    "slug": "generative-ai",
+    "status": "reviewed",
+    "source_hash": "21af766f1517d40150d4ee32fe34cb35fe87ecfc69f3349a1768d6271d720b36",
+    "destination_hash": "dbf8c1e9f09e313a4b7f7a801d1f933fe89556b7153464d2eb5790bbd336b31f",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:24:35+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "generative-ai",
+        "status": "reviewed",
+        "evidence": "Verified generation/transformation use cases and nondeterminism."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked direct/indirect impacts, control/reversal/disclosure, inclusive questioning/diverse testing, clear value and complementary-AI fallback exception."
+      },
+      {
+        "source_anchor": "Transparency",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Transparency",
+        "status": "reviewed",
+        "evidence": "Verified AI disclosure/no human-authorship deception, local rules, capabilities/limits and curated onboarding."
+      },
+      {
+        "source_anchor": "Privacy",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Privacy",
+        "status": "reviewed",
+        "evidence": "Checked on-device/server tradeoffs, minimized transfer/disclosure/training/retention, permission/opt-out, sensitive storage/improvement, third parties, output leakage and stricter child data."
+      },
+      {
+        "source_anchor": "Models-and-datasets",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Models-and-datasets",
+        "status": "reviewed",
+        "evidence": "Verified hands-on capability assessment, hardware/network/battery and Foundation Models Apple Intelligence condition, provenance/licenses/diversity and bias testing."
+      },
+      {
+        "source_anchor": "Inputs",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Inputs",
+        "status": "reviewed",
+        "evidence": "Rechecked correction preserving avoid automated destructive/photo-deletion and hard-to-reverse/purchase operations in addition to general significant-action confirmation; checked scoped factual generation/verified current info and policies."
+      },
+      {
+        "source_anchor": "Outputs",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Outputs",
+        "status": "reviewed",
+        "evidence": "Verified edit/undo/retry/adjust feedback, blocked-result coaching, adversarial/ambiguous/sensitive testing, copyright precautions, latency/background handling, specific progress/recovery and meaningful alternatives."
+      },
+      {
+        "source_anchor": "Continuous-improvement",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Continuous-improvement",
+        "status": "reviewed",
+        "evidence": "Checked updates/retraining/prompts/retesting, voluntary accessible feedback, issue response and swappable model integration."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified no additional platform-specific source rules."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "5d34fd5b6c0b696de0f2e21f8f4c7b6a4032e92f20f7f67fa50a87c835cf94d8",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "generative-ai",
+        "evidence": "Verified generation/transformation use cases and nondeterminism."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "74d28c72f91048855e7a3367a446ae8113e3bcca541fa2e97b8d61b76be146da",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "generative-ai",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified generation/transformation use cases and nondeterminism."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "a6cd77086c565fb9a4a623566c66c0bbfc2225d4008aeddc562e88a05a1b253e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "generative-ai",
+        "evidence": "Verified generation/transformation use cases and nondeterminism."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "e60c011e9ab1dffb3e79e741ee53bde007a1b2dda0a44472b7321aa018ccff6b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked direct/indirect impacts, control/reversal/disclosure, inclusive questioning/diverse testing, clear value and complementary-AI fallback exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "b0080fd9658efcb2fa56bb13cec91e650dba87d61731f5c76808648dfc4a642a",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked direct/indirect impacts, control/reversal/disclosure, inclusive questioning/diverse testing, clear value and complementary-AI fallback exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "ed7a682ba077d09e71c3a0ea72b45575fff40541a1e0db36176e7447dca2e355",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked direct/indirect impacts, control/reversal/disclosure, inclusive questioning/diverse testing, clear value and complementary-AI fallback exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "e455ec6ab371dd6a3769ab07d2309bf346db103b2cc451604636b77cdd4bd63f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked direct/indirect impacts, control/reversal/disclosure, inclusive questioning/diverse testing, clear value and complementary-AI fallback exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "ead6b6cb34fe83d0001c5724f2ea4991a5722b4cc8a44cd91132d7d48c4c3872",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked direct/indirect impacts, control/reversal/disclosure, inclusive questioning/diverse testing, clear value and complementary-AI fallback exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "bbb6cbb16758282b15cd55ffe3bf9138665162986a57c034d1068d5bb89021ff",
+        "source_anchor": "Transparency",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Transparency",
+        "evidence": "Verified AI disclosure/no human-authorship deception, local rules, capabilities/limits and curated onboarding."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "afe17fd96ebfb2f14d7bd18747e783b7f5d96b2471262e3f1f8cee50490527a8",
+        "source_anchor": "Transparency",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Transparency",
+        "evidence": "Verified AI disclosure/no human-authorship deception, local rules, capabilities/limits and curated onboarding."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "a7ce110259d7060c6c97c2421bb929471eec02cc3c5fc5b694cbfa5ecd8ad3dd",
+        "source_anchor": "Privacy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Privacy",
+        "evidence": "Checked on-device/server tradeoffs, minimized transfer/disclosure/training/retention, permission/opt-out, sensitive storage/improvement, third parties, output leakage and stricter child data."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "895c449ac8260efc40481793e93ea13a67a7a436ab8388b1262e796b1e764bc2",
+        "source_anchor": "Privacy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Privacy",
+        "evidence": "Checked on-device/server tradeoffs, minimized transfer/disclosure/training/retention, permission/opt-out, sensitive storage/improvement, third parties, output leakage and stricter child data."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "b3e03b94f6185d7e025847be0c62f5cf86f3878680c656857e1a5ceb32d3ebfb",
+        "source_anchor": "Privacy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Privacy",
+        "evidence": "Checked on-device/server tradeoffs, minimized transfer/disclosure/training/retention, permission/opt-out, sensitive storage/improvement, third parties, output leakage and stricter child data."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "4ac8ce69c1447bc920196ffee0c68cf9b24b3e495c8af1be49880b17718002df",
+        "source_anchor": "Models-and-datasets",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Models-and-datasets",
+        "evidence": "Verified hands-on capability assessment, hardware/network/battery and Foundation Models Apple Intelligence condition, provenance/licenses/diversity and bias testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "5934edfabe50c0560b35c4dc7f7edc7bb77c7b0c0d04b921317c727b9a89c751",
+        "source_anchor": "Models-and-datasets",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Models-and-datasets",
+        "evidence": "Verified hands-on capability assessment, hardware/network/battery and Foundation Models Apple Intelligence condition, provenance/licenses/diversity and bias testing."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "f59f761ae341e08f18843028bd6918461724979b199cfe959db29b2742aa7383",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked correction preserving avoid automated destructive/photo-deletion and hard-to-reverse/purchase operations in addition to general significant-action confirmation; checked scoped factual generation/verified current info and policies."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "c3cda4c98b91ee517c3a3054df4cdd51f25ca3aca507338db5d79fb3f71fded3",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked correction preserving avoid automated destructive/photo-deletion and hard-to-reverse/purchase operations in addition to general significant-action confirmation; checked scoped factual generation/verified current info and policies."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "c649a298d30a9914e60feea938cbcdef53673a380bb36419054a777d0ae3d7c8",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked correction preserving avoid automated destructive/photo-deletion and hard-to-reverse/purchase operations in addition to general significant-action confirmation; checked scoped factual generation/verified current info and policies."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "06e157b2da941b24def134ba4308929d1908b9603c68258ab6e70238f239776f",
+        "source_anchor": "Outputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Outputs",
+        "evidence": "Verified edit/undo/retry/adjust feedback, blocked-result coaching, adversarial/ambiguous/sensitive testing, copyright precautions, latency/background handling, specific progress/recovery and meaningful alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "ab860ae136c1d53ef250bb2955a58d267b8b632abd80158720e2df72af3aaa1a",
+        "source_anchor": "Outputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Outputs",
+        "evidence": "Verified edit/undo/retry/adjust feedback, blocked-result coaching, adversarial/ambiguous/sensitive testing, copyright precautions, latency/background handling, specific progress/recovery and meaningful alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "640cd33b9307f4bb7f4ce3a24b9083d3dd1ed02052b1acb9ccf7975266cf4b6a",
+        "source_anchor": "Outputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Outputs",
+        "evidence": "Verified edit/undo/retry/adjust feedback, blocked-result coaching, adversarial/ambiguous/sensitive testing, copyright precautions, latency/background handling, specific progress/recovery and meaningful alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "a37d71e8e4782a27573066f0561e5f6f742fda74c1423fe325a6f57e379184ec",
+        "source_anchor": "Outputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Outputs",
+        "evidence": "Verified edit/undo/retry/adjust feedback, blocked-result coaching, adversarial/ambiguous/sensitive testing, copyright precautions, latency/background handling, specific progress/recovery and meaningful alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "50fbfc720893ca61fca279c434d3463a14bdb97681552921ccf89a72b684241e",
+        "source_anchor": "Outputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Outputs",
+        "evidence": "Verified edit/undo/retry/adjust feedback, blocked-result coaching, adversarial/ambiguous/sensitive testing, copyright precautions, latency/background handling, specific progress/recovery and meaningful alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "d0744c0c055a4e3b9402fe97db863d1c419c39451aaf2d342c8a61114b1c901b",
+        "source_anchor": "Outputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Outputs",
+        "evidence": "Verified edit/undo/retry/adjust feedback, blocked-result coaching, adversarial/ambiguous/sensitive testing, copyright precautions, latency/background handling, specific progress/recovery and meaningful alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "19add6e134fe4d1c01277710b3118438141fa116a5495aeeccc9ba37376b770d",
+        "source_anchor": "Outputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Outputs",
+        "evidence": "Verified edit/undo/retry/adjust feedback, blocked-result coaching, adversarial/ambiguous/sensitive testing, copyright precautions, latency/background handling, specific progress/recovery and meaningful alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "2c9346759c26b045b850d94c06e129e7e676dbd4708734637afc49445139b412",
+        "source_anchor": "Continuous-improvement",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Continuous-improvement",
+        "evidence": "Checked updates/retraining/prompts/retesting, voluntary accessible feedback, issue response and swappable model integration."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "a4a731fe4c974ce74b14430b1529d107ab71b33118b496b7db2edbb6ca8b82fd",
+        "source_anchor": "Continuous-improvement",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Continuous-improvement",
+        "evidence": "Checked updates/retraining/prompts/retesting, voluntary accessible feedback, issue response and swappable model integration."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "9fd7a0ac7e79e4c33a5573ba97f22d4f505cb38cb445dcdf6b0191d9635de825",
+        "source_anchor": "Continuous-improvement",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Continuous-improvement",
+        "evidence": "Checked updates/retraining/prompts/retesting, voluntary accessible feedback, issue response and swappable model integration."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "509b569829c7a6cfe24bc32528acd622858a84d9d670c9f630306f6689ae12f7",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified no additional platform-specific source rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "afa5b70729076bf2785e16428fffee4ad163afabade57aae8a3842264472298f",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "86a447414fbd3f2016e6c95e93eb207052575b6d2b0f7e30f93941bb338aa381",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "a147a3e60155b5358dfa5872d80aeac956318b545b4f80e4d91e15c60f1edebc",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "16dccdc35e324226f2d6e4a778ecc98591227f281f28f2901fe97d8e2ce22b61",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "9b067ca455c70ac20e9ca79e56ff1d8bb61bcc32bfe8f7ff406632b643389e81",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "83b5eaf5cb3e3003c710626187f4bc381697c9f739eee9c21dbadcfdb43a860c",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "6680332680c6ba86e39eceebe202730716561f02003256c8a935500b847a5224",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "7304f16d7cce2cc4e07e0c4552a413e651abf457c3bf80574cd2fac39942029d",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "eb58b1d01c97e249180349615579c45dad77952e0b506c9a878a28e3ed1da9b0",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "2495f283f949d747a3d43bbb917754a0a2437c965d07e275f8b945d2ba0609df",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/1/0/0",
+        "source_unit_hash": "6f585fa1a239d7cd279db778c80344b4ca3bdd1c2601af906b53d277e7be4412",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/1/1/0",
+        "source_unit_hash": "c889a4d016a31bc4bb2005923019b9cf3479fdd2c7d6bbce8a33bf6f74432b6f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/2/0/0",
+        "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/2/1/0",
+        "source_unit_hash": "81a93da0a554cc0183125fbd9de8fe226bc5a79d5a27f9174211a0ffc5780895",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "2495f283f949d747a3d43bbb917754a0a2437c965d07e275f8b945d2ba0609df",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

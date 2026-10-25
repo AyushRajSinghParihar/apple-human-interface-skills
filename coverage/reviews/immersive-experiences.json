@@ -1,0 +1,907 @@
+{
+  "review": {
+    "slug": "immersive-experiences",
+    "status": "reviewed",
+    "source_hash": "c90987cc4865dc74ed0e71b0c0c017ad884e336fba832673e4bdb0b435da095d",
+    "destination_hash": "c1acf7ca60fd88bf6912e873fff78aa07a16ca61b6868323b351cfa21e6dfa6d",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:12:51+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "immersive-experiences",
+        "status": "reviewed",
+        "evidence": "Checked Shared versus Full Space coexistence and unbounded content/transition model."
+      },
+      {
+        "source_anchor": "Immersion-and-passthrough",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-and-passthrough",
+        "status": "reviewed",
+        "evidence": "Checked passthrough, held Crown recenter/double-click clear view, obstacle fading and boundary restore behavior."
+      },
+      {
+        "source_anchor": "Immersion-styles",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "evidence": "Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked alternate/accessibility use, Shared/mixed launch, meaningful chosen immersion, subtle cues and visionOS2 restrained passthrough tint."
+      },
+      {
+        "source_anchor": "Promoting-comfort",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Promoting-comfort",
+        "status": "reviewed",
+        "evidence": "Checked in-view motion, movement-compatible styles, mixed return beyond1.5m, stationary alternatives, passthrough occlusion and sensitive ARKit permission."
+      },
+      {
+        "source_anchor": "Transitioning-between-immersive-styles",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Transitioning-between-immersive-styles",
+        "status": "reviewed",
+        "evidence": "Checked smooth user-controlled entry/exit, no reliance on system-only controls and exit-versus-quit/save clarity."
+      },
+      {
+        "source_anchor": "Displaying-virtual-hands",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Displaying-virtual-hands",
+        "status": "reviewed",
+        "evidence": "Checked permission, familiar mapping, oversize caution and fade to real hands on interrupted tracking."
+      },
+      {
+        "source_anchor": "Creating-an-environment",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Creating-an-environment",
+        "status": "reviewed",
+        "evidence": "Checked restrained movement/detail, selective asset quality, proximity affordance, expansive room, varied/ducked ambience, mesh/shader over panorama, required ground plane and minimal repeated assets."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "visionOS-only scope retained."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "43e0fc94d3cbc7258b4ffd3862111135cb4dea49953eec8dda879ad372079c08",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "immersive-experiences",
+        "evidence": "Checked Shared versus Full Space coexistence and unbounded content/transition model."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "463f2e487629507b3abd0561fd01911e9dda28bab986e89739bca5a7b4783ed4",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "immersive-experiences",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked Shared versus Full Space coexistence and unbounded content/transition model."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "16d6bb752a026016b7da79516e7778a40d67cfbeca2020e99d74954a0c29a0d6",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "immersive-experiences",
+        "evidence": "Checked Shared versus Full Space coexistence and unbounded content/transition model."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "605f5707f20b6aa9e315ef6a5ff7af03244c3d89e54177e601f94aaac4ac6bd5",
+        "source_anchor": "Immersion-and-passthrough",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-and-passthrough",
+        "evidence": "Checked passthrough, held Crown recenter/double-click clear view, obstacle fading and boundary restore behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "3687f3033b8ede01472f6895f40ee26d963944c79b27714ce43589971b4bfaf5",
+        "source_anchor": "Immersion-and-passthrough",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-and-passthrough",
+        "evidence": "Checked passthrough, held Crown recenter/double-click clear view, obstacle fading and boundary restore behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "68e8a200b2296bf8cba416c4c43eea52d19600b355ed6b6ecfedad502e771ff2",
+        "source_anchor": "Immersion-and-passthrough",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-and-passthrough",
+        "evidence": "Checked passthrough, held Crown recenter/double-click clear view, obstacle fading and boundary restore behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "445ef458aca3ec4374440dfeedbb9ba3633fb18e038562f39a2f3a499cd20666",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "48e10ee39fce22d549744f2f26582d0bcc60290923d18452f0fbc4ec29ec6b7c",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "b6fe5b54199d33660b3ace1bda7ef1d4b8fd5789c3b04e62a2cd331b59e15897",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/items/0/content/0",
+        "source_unit_hash": "6b2adbf2970c76d54f87b2f8344bb82886330ec6de26d78a24a7c9e29b0c2c14",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "276eefb5359fe3dfdf9aa1e777deb81c3ac73121bf1b36e12eb3f20378c928f7",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/tabs/0/content/0",
+        "source_unit_hash": "2c685c08c2235cce62aa11304b13270c37029ca5c26bad7f1d379d148a40a022",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "2e1c0832090f8f0db3d8a7ddf03c7058334b6a972c3c7f57ac18198d10ee3eed",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/tabs/1/content/0",
+        "source_unit_hash": "d92e7ffb595104c9049f345c25e2a60ffd7b057991a823f15bc08cf5f27b37af",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "5ce0d5db9d5803db75f93f837f8d071041060539e0ee7210f8fbaa5eb5641628",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "ba3c7fd55bc01cc5720849971854b5d4e3250fbc090540a7d0a3eaeedf70499b",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/0/content/0",
+        "source_unit_hash": "02fb5d328085938a5a531ed24220ae2b5b3276cea44ab7cfed8786a7a201e876",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/1/content/0",
+        "source_unit_hash": "67afb00c80d81bf2fba63aecbaa5b54c6f7550c047d330673d205aa3761153c8",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "c68257e366b06a09342f4f9045b637d3e78660dc6fe37150284d6c8b9d9c6b2c",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "08f847b3a333fd9fe8efadc9a78e5f161cb2862376ff49685cafb2cada6b0b4a",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/items/0/content/0",
+        "source_unit_hash": "a0581acb938f9f9ab21b318e7c9818a4bd609e4f58697e714811bacd0edfae4b",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "be030aafe616e6649aaa58580719107d2db6ea72c6c0ab5d2482e02c3bbcebaa",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/tabs/0/content/0",
+        "source_unit_hash": "92db4863b55a18a284d7d21b8681e9f5de3bf4efbc9ec3835569b21cd5f21b0b",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "3e8a35b4ef20be98e598bc0ba63a4c5b401fa3c8b72d51b77f2d5ba9a355d335",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/tabs/1/content/0",
+        "source_unit_hash": "b56ab7328a977bf1a177144f0cec4ccf9299e0332f9022026c8dc38feae5847c",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "6b218cb504ed9504bf6ff83833fe43c7138f7860924f36c34394f2ecdfd0a2c5",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/tabs/2/content/0",
+        "source_unit_hash": "49baa22704bd1605adfe219cd8dcf8b4e533a4c3e878cd94f644ca2efa6d8eaf",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/tabs/2/content/0/inlineContent/0",
+        "source_unit_hash": "806e1e901e18d11ea5694c3a6b82d3fb6f2b5b37d535b34a058ff4d0d0f5fe17",
+        "source_anchor": "Immersion-styles",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Immersion-styles",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked dim/tint scope, mixed no-boundary/permission, progressive 120–360 or custom range, portrait/landscape, full360 and approximately1.5m progressive/full boundary."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "e0bf23163199f0e2270463b81bfc3a96b6407e74cb3b6cb4e13117ed1238cc88",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked alternate/accessibility use, Shared/mixed launch, meaningful chosen immersion, subtle cues and visionOS2 restrained passthrough tint."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "35a54fb128d647bacc1a81bd8f53032f4f59db50f1d592beb0195d0d41a780ce",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked alternate/accessibility use, Shared/mixed launch, meaningful chosen immersion, subtle cues and visionOS2 restrained passthrough tint."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "4eb89081a22e3528048b95502cef22fdc3cd7197de4f52dc8899f424ef918d14",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked alternate/accessibility use, Shared/mixed launch, meaningful chosen immersion, subtle cues and visionOS2 restrained passthrough tint."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "76db7abafeb14e1f74e44ac4b2266fd548d3a6fb6967555394ca7220255046d3",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked alternate/accessibility use, Shared/mixed launch, meaningful chosen immersion, subtle cues and visionOS2 restrained passthrough tint."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "5d3814fbc7d944434c81cc14444a47fa1e265d87783f9fc2eb8da65002643771",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked alternate/accessibility use, Shared/mixed launch, meaningful chosen immersion, subtle cues and visionOS2 restrained passthrough tint."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "b0ce46807d4ba0355fba1252dee5905cc7f0da1b8ad0246291a15f5d0a43957f",
+        "source_anchor": "Promoting-comfort",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Promoting-comfort",
+        "evidence": "Checked in-view motion, movement-compatible styles, mixed return beyond1.5m, stationary alternatives, passthrough occlusion and sensitive ARKit permission."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "425f1bafec986cdcf15d0d0c74eda973a959d154d9c794d4e2f7a2d7221dccd8",
+        "source_anchor": "Promoting-comfort",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Promoting-comfort",
+        "evidence": "Checked in-view motion, movement-compatible styles, mixed return beyond1.5m, stationary alternatives, passthrough occlusion and sensitive ARKit permission."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "3b50bec523ad03dd8a01d65f411928c23db9d5aed3f34c338c0f15d5dcec60c7",
+        "source_anchor": "Promoting-comfort",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Promoting-comfort",
+        "evidence": "Checked in-view motion, movement-compatible styles, mixed return beyond1.5m, stationary alternatives, passthrough occlusion and sensitive ARKit permission."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "f21cd69e7b68f0d623ea88a781d34d06068ce58e7aa6a93395525175d1632242",
+        "source_anchor": "Promoting-comfort",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Promoting-comfort",
+        "evidence": "Checked in-view motion, movement-compatible styles, mixed return beyond1.5m, stationary alternatives, passthrough occlusion and sensitive ARKit permission."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "66273464b73ca3d06c508a02c7c37c31512054df23ba17b6af27b2c084e7bb9e",
+        "source_anchor": "Promoting-comfort",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Promoting-comfort",
+        "evidence": "Checked in-view motion, movement-compatible styles, mixed return beyond1.5m, stationary alternatives, passthrough occlusion and sensitive ARKit permission."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "7a9af2ee5264a5b31a3b1034ca30f429d7029d7b7b1124934a87b1cf9ebb3bf9",
+        "source_anchor": "Transitioning-between-immersive-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Transitioning-between-immersive-styles",
+        "evidence": "Checked smooth user-controlled entry/exit, no reliance on system-only controls and exit-versus-quit/save clarity."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "4b67d006336bbf13bb72b0c71e05390753679d658d974bdaeb0d3d1f23a2a20b",
+        "source_anchor": "Transitioning-between-immersive-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Transitioning-between-immersive-styles",
+        "evidence": "Checked smooth user-controlled entry/exit, no reliance on system-only controls and exit-versus-quit/save clarity."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "4fc9914ed30701a3ec0a9e5f326754b7be2d2fc50d27011d5f0e0a316beaffd7",
+        "source_anchor": "Transitioning-between-immersive-styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Transitioning-between-immersive-styles",
+        "evidence": "Checked smooth user-controlled entry/exit, no reliance on system-only controls and exit-versus-quit/save clarity."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "8c561b63667374b6b36cb97503fcd771a302413f0a068d045d388607e82ab1f2",
+        "source_anchor": "Displaying-virtual-hands",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Displaying-virtual-hands",
+        "evidence": "Checked permission, familiar mapping, oversize caution and fade to real hands on interrupted tracking."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "a627fa39c8078876fad6832f4b5358507f69cd179ef7df82f2263a71519ed668",
+        "source_anchor": "Displaying-virtual-hands",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Displaying-virtual-hands",
+        "evidence": "Checked permission, familiar mapping, oversize caution and fade to real hands on interrupted tracking."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "917121951b4f864b82c3416452c63d25c103a4571f267662ea17cc09a0681e36",
+        "source_anchor": "Displaying-virtual-hands",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Displaying-virtual-hands",
+        "evidence": "Checked permission, familiar mapping, oversize caution and fade to real hands on interrupted tracking."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "be84f42ddfe655d9017a6f5f726273e6f4b016472602bab4b35d458927995880",
+        "source_anchor": "Displaying-virtual-hands",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Displaying-virtual-hands",
+        "evidence": "Checked permission, familiar mapping, oversize caution and fade to real hands on interrupted tracking."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "17ec200a622ae4d18601af5a744517ace119e93dd0db019516b72b7a6d949af3",
+        "source_anchor": "Creating-an-environment",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Creating-an-environment",
+        "evidence": "Checked restrained movement/detail, selective asset quality, proximity affordance, expansive room, varied/ducked ambience, mesh/shader over panorama, required ground plane and minimal repeated assets."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "307b335bf4563338c7a99368395a4a1532f77a1c595af24912d575ce036d147b",
+        "source_anchor": "Creating-an-environment",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Creating-an-environment",
+        "evidence": "Checked restrained movement/detail, selective asset quality, proximity affordance, expansive room, varied/ducked ambience, mesh/shader over panorama, required ground plane and minimal repeated assets."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "476e7e155534b5a53f9eb563b6c1c9fe2aae284331e47398f35ae29c587228e7",
+        "source_anchor": "Creating-an-environment",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Creating-an-environment",
+        "evidence": "Checked restrained movement/detail, selective asset quality, proximity affordance, expansive room, varied/ducked ambience, mesh/shader over panorama, required ground plane and minimal repeated assets."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "7b904d93feeab895d86187d99ef980a5efffbfcd259feabeadb118856daedfcf",
+        "source_anchor": "Creating-an-environment",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Creating-an-environment",
+        "evidence": "Checked restrained movement/detail, selective asset quality, proximity affordance, expansive room, varied/ducked ambience, mesh/shader over panorama, required ground plane and minimal repeated assets."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "0af6e59cbbc63495624e3e56d66c31a037faf7a7093aa87b5383eb7042ed09d2",
+        "source_anchor": "Creating-an-environment",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Creating-an-environment",
+        "evidence": "Checked restrained movement/detail, selective asset quality, proximity affordance, expansive room, varied/ducked ambience, mesh/shader over panorama, required ground plane and minimal repeated assets."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "e6ef07a9d6a5e7b777334db521b4669eeb9267539daa4493a0c228b050255ed3",
+        "source_anchor": "Creating-an-environment",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Creating-an-environment",
+        "evidence": "Checked restrained movement/detail, selective asset quality, proximity affordance, expansive room, varied/ducked ambience, mesh/shader over panorama, required ground plane and minimal repeated assets."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "ea5470fd5cd9bcc1a96009930a7ca821d6e1785452baccd227be1cf3b3b6937f",
+        "source_anchor": "Creating-an-environment",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Creating-an-environment",
+        "evidence": "Checked restrained movement/detail, selective asset quality, proximity affordance, expansive room, varied/ducked ambience, mesh/shader over panorama, required ground plane and minimal repeated assets."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "bc893e1bd323eaa5785b77a5675e7a4299796a562dd8bd6373567f72d1afb401",
+        "source_anchor": "Creating-an-environment",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Creating-an-environment",
+        "evidence": "Checked restrained movement/detail, selective asset quality, proximity affordance, expansive room, varied/ducked ambience, mesh/shader over panorama, required ground plane and minimal repeated assets."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "66c8fc965d6ec2af1186d27726644b8d8c0bb05362dc501476b8d273b753ab37",
+        "source_anchor": "Creating-an-environment",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Creating-an-environment",
+        "evidence": "Checked restrained movement/detail, selective asset quality, proximity affordance, expansive room, varied/ducked ambience, mesh/shader over panorama, required ground plane and minimal repeated assets."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "8b92f1ffb15df0220afbe72abf3d0e17a9a449d861a5a6277fe7abac3d21cc2b",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "visionOS-only scope retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "9807802a90b160b15274cb2cdca9d3eeae45fbbdbc8e57c1da99a55b0a7c4e6c",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "7511ce79488c09f37583bc8ecf5451c5f7e00af1992d645c4561f8494e9895de",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "59b1ecc4826366cf8df24f1a3844080cd7c2735444662ee852f2d0dd52799c02",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "2fdc1587e02342c79c98747ff55731240a0336f7228d70b10af271da6c3f8b7d",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "c93ce0096b4a45d5a7eb5dfb34eaf664e9de560ed47e4e569fb20f6ec4786bae",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "0bd0996231f25edb10abc0e3df6c1c6fc3d55de1215485890bdb70433e5b3b3b",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "8f7263a18d47cdf6b9feaccb44abd402c90212d6910d12cc97d60a9c40213fb0",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/1/0/0",
+        "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/1/1/0",
+        "source_unit_hash": "da0e3bf6e850a07c757f9f7e2855878b4ab3dd1f703469e039f7bd7f7520e125",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/2/0/0",
+        "source_unit_hash": "ff40c59c584ca270713f797eaa3a0e4ff71c96be51b09915403a671a9aa38bfd",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/2/1/0",
+        "source_unit_hash": "a492617c33ea44d27ce6ad10ec44c87e3252b35dffcb13dd6318390e5a10c57c",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/3/0/0",
+        "source_unit_hash": "6fbfd8192538c86013ae1170ead307313ca6290dbe20e9b9a262d8ed4dbef179",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/3/1/0",
+        "source_unit_hash": "6cfbaa59902ae25f05eb3091466b0a90d6b1991f662873822e1b0a8cdecce60f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/4/0/0",
+        "source_unit_hash": "1f8e7ff71a44e354d376abc5a1120f5d9bce9bff9d82d8d3c565101e36849ec8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/4/1/0",
+        "source_unit_hash": "2d697fb76e8106795e3dab7c8293e7674ad6f77d0cd33ac0df4b1f21cb882c01",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/5/0/0",
+        "source_unit_hash": "d0480ccb4b68180bb1ac3ef3d5a6daedbe67738b3a4986cb29f3b0ee79482b39",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/5/1/0",
+        "source_unit_hash": "b031dafcb9f7dec1f4981e298a9a6bbe453a8fa30cee01336be65efcdd42b233",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/6/0/0",
+        "source_unit_hash": "88e5fea44e511391a9d95f6ff5f6733f5f63076515b25b5b64731375d5cf7f2d",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/6/1/0",
+        "source_unit_hash": "7516975e78fc0bdbcb8160dfcca12fe6a1bfa4eeecbf2bbfcb523c6d2eb3ba25",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/7/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/7/1/0",
+        "source_unit_hash": "81a93da0a554cc0183125fbd9de8fe226bc5a79d5a27f9174211a0ffc5780895",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "8f7263a18d47cdf6b9feaccb44abd402c90212d6910d12cc97d60a9c40213fb0",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

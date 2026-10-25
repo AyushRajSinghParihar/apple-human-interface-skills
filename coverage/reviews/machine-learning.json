@@ -1,0 +1,1900 @@
+{
+  "review": {
+    "slug": "machine-learning",
+    "status": "reviewed",
+    "source_hash": "fca9411af04f2659b3c9d1096de050cc9e6029e1dc2c4a2b455d1ecf3b4a48a7",
+    "destination_hash": "5317357607263ab0843dc6560fbcb869f4cd3967385d62ac89bed41c4e92aa7d",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:27:59+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "machine-learning",
+        "status": "reviewed",
+        "evidence": "Verified joint model/interface design and changing-data premise."
+      },
+      {
+        "source_anchor": "Planning-your-design",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Planning-your-design",
+        "status": "reviewed",
+        "evidence": "Checked model role/data/metrics/experience planning, adjustment latency and intentional input/output patterns."
+      },
+      {
+        "source_anchor": "The-role-of-machine-learning-in-your-app",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "The-role-of-machine-learning-in-your-app",
+        "status": "reviewed",
+        "evidence": "Verified all five role dimensions preserved in subordinate sections."
+      },
+      {
+        "source_anchor": "Critical-or-complementary",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Critical-or-complementary",
+        "status": "reviewed",
+        "evidence": "Checked dependency test and reliability expectation."
+      },
+      {
+        "source_anchor": "Private-or-public",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Private-or-public",
+        "status": "reviewed",
+        "evidence": "Verified sensitivity/consequence distinction and protection for all data."
+      },
+      {
+        "source_anchor": "Proactive-or-reactive",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Proactive-or-reactive",
+        "status": "reviewed",
+        "evidence": "Checked unsolicited relevance/tolerance versus task-triggered assistance."
+      },
+      {
+        "source_anchor": "Visible-or-invisible",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Visible-or-invisible",
+        "status": "reviewed",
+        "evidence": "Verified observable reliability/feedback versus hidden personalization challenges."
+      },
+      {
+        "source_anchor": "Dynamic-or-static",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Dynamic-or-static",
+        "status": "reviewed",
+        "evidence": "Checked live/offline improvements and calibration/feedback effects."
+      },
+      {
+        "source_anchor": "Explicit-feedback",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "evidence": "Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "source_anchor": "Implicit-feedback",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Implicit-feedback",
+        "status": "reviewed",
+        "evidence": "Checked sensitive privacy/cross-app controls, discovery/confirmation bias, multiple signals, shared-device suppression, recency/fallback/cadence and UI-change interpretation."
+      },
+      {
+        "source_anchor": "Calibration",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "status": "reviewed",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "source_anchor": "Mistakes",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "status": "reviewed",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "source_anchor": "Corrections",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Corrections",
+        "status": "reviewed",
+        "evidence": "Verified familiar exposed automation controls, immediate persistent revisable corrections,effort-benefit balance,no poor-result dependence,selective learning,guided versus freeform."
+      },
+      {
+        "source_anchor": "Multiple-options",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Multiple-options",
+        "status": "reviewed",
+        "evidence": "Checked proactive/reactive/correction roles, diversity/limited count, validated/contextual ranking/default,distinct explanations/grouping and learning."
+      },
+      {
+        "source_anchor": "Confidence",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Confidence",
+        "status": "reviewed",
+        "evidence": "Verified quality validation,semantic/actionable versus numeric statistical contexts,threshold-dependent presentation and low-confidence proactive suppression."
+      },
+      {
+        "source_anchor": "Attribution",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Attribution",
+        "status": "reviewed",
+        "evidence": "Checked factual rationale,mental models/differentiation,balanced specificity/privacy,no emotional judgment and technical-domain exception."
+      },
+      {
+        "source_anchor": "Limitations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "status": "reviewed",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified no additional platform distinctions."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "fff86be722f09f1722b088eee1922962acd6bbc4d311df61300791871efa01d3",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "machine-learning",
+        "evidence": "Verified joint model/interface design and changing-data premise."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "43f48fb65e3cb5b5385ae33151df05e6d12ff9d3de10034ea57d2f69beeb345b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "machine-learning",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified joint model/interface design and changing-data premise."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "de422571f477c1d6f8cde101153976c4bb13e7f24d63ad18b672cd155022c7e8",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "machine-learning",
+        "evidence": "Verified joint model/interface design and changing-data premise."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "78348931410b3c222a5f4e7be4ef7ee940ca2b9eb3c4286007255c287fba3a61",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "machine-learning",
+        "evidence": "Verified joint model/interface design and changing-data premise."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "5e7162d24eee6394ac2dd8eeb41db3a2ad8649d1044a5d8748d258a79c4f7c4c",
+        "source_anchor": "Planning-your-design",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Planning-your-design",
+        "evidence": "Checked model role/data/metrics/experience planning, adjustment latency and intentional input/output patterns."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "7917e006fe3d6f6d1f01afa85308d7882f7cc1de8bc2f90fa84736d2b98bb7ed",
+        "source_anchor": "Planning-your-design",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Planning-your-design",
+        "evidence": "Checked model role/data/metrics/experience planning, adjustment latency and intentional input/output patterns."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "ceb8080cdc9aab400ce2bce93d5316d4b865e9475c28a4849330508d3637e7eb",
+        "source_anchor": "Planning-your-design",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Planning-your-design",
+        "evidence": "Checked model role/data/metrics/experience planning, adjustment latency and intentional input/output patterns."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "75145f3ecb20aae9778953ef36fa191cfa8a816e883abf17a3be1ca72233e2f4",
+        "source_anchor": "Planning-your-design",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Planning-your-design",
+        "evidence": "Checked model role/data/metrics/experience planning, adjustment latency and intentional input/output patterns."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "918c06174b92e7ab28dec100d335a3b2ffabf07d13156559871e8236fec55be3",
+        "source_anchor": "Planning-your-design",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Planning-your-design",
+        "evidence": "Checked model role/data/metrics/experience planning, adjustment latency and intentional input/output patterns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "6a2a9ebca3b5a3ea4d091eb5ce61d992a0614435adccad829c9a159a974eab11",
+        "source_anchor": "The-role-of-machine-learning-in-your-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "The-role-of-machine-learning-in-your-app",
+        "evidence": "Verified all five role dimensions preserved in subordinate sections."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "d3593a5609d0e443300c921ca81c72dc82011bf09f2bffa9f94725d06bd156be",
+        "source_anchor": "Critical-or-complementary",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Critical-or-complementary",
+        "evidence": "Checked dependency test and reliability expectation."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "36b52837bc9885bc714495c4ecf8af29106c3bd4576aac40292ac25199976a12",
+        "source_anchor": "Critical-or-complementary",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Critical-or-complementary",
+        "evidence": "Checked dependency test and reliability expectation."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/items/0/content/0",
+        "source_unit_hash": "a1618c8ca687590f1594e48dddf9d2faa55d18c2f529047942fb86d431264522",
+        "source_anchor": "Critical-or-complementary",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Critical-or-complementary",
+        "evidence": "Checked dependency test and reliability expectation."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/items/1/content/0",
+        "source_unit_hash": "b8ded2c1e5e4870b15d15d1c70ada33fc42dbd85edc9bac6e9dbd3b9f87673b9",
+        "source_anchor": "Critical-or-complementary",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Critical-or-complementary",
+        "evidence": "Checked dependency test and reliability expectation."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "74e9e13797329f7216eea9300c4ebcc8c05b2e96e50502f7287f0d541fd20cb4",
+        "source_anchor": "Critical-or-complementary",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Critical-or-complementary",
+        "evidence": "Checked dependency test and reliability expectation."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "7e2152231f5a4422950196c1ce8083961b3d3ed22c22dec36e94452147820e66",
+        "source_anchor": "Private-or-public",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Private-or-public",
+        "evidence": "Verified sensitivity/consequence distinction and protection for all data."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "22c0753e9ee3d14b1a5a808227c87b4a8d5a88daa57cf5303d2d938c51f9e507",
+        "source_anchor": "Private-or-public",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Private-or-public",
+        "evidence": "Verified sensitivity/consequence distinction and protection for all data."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/items/0/content/0",
+        "source_unit_hash": "72c096d8883b59bc90ab1bb1d9f35e80dfd0ea2f4382127a4d45f6eaca79e726",
+        "source_anchor": "Private-or-public",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Private-or-public",
+        "evidence": "Verified sensitivity/consequence distinction and protection for all data."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/items/1/content/0",
+        "source_unit_hash": "d06b991393f0d60b98fa92812f0e731534e36101f5394631feb406942b10e161",
+        "source_anchor": "Private-or-public",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Private-or-public",
+        "evidence": "Verified sensitivity/consequence distinction and protection for all data."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "bdea37f1306701e1b4af0d964ab5adaf9b514d3950d9e8fd6c05731d788e8c80",
+        "source_anchor": "Private-or-public",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Private-or-public",
+        "evidence": "Verified sensitivity/consequence distinction and protection for all data."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "3190709ad3549db5eb57330788bbb7e19481d392e41a219aeabeb0d1be09d72f",
+        "source_anchor": "Proactive-or-reactive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Proactive-or-reactive",
+        "evidence": "Checked unsolicited relevance/tolerance versus task-triggered assistance."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "347fb469975ae144bf6f2e004f1caa134ec54f0566ed4eb9012dfeba8a77cbb1",
+        "source_anchor": "Proactive-or-reactive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Proactive-or-reactive",
+        "evidence": "Checked unsolicited relevance/tolerance versus task-triggered assistance."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/items/0/content/0",
+        "source_unit_hash": "990a9a63c16614fb75ff143b8b843c3bc6b65072f0744302356bbcbbcf52116c",
+        "source_anchor": "Proactive-or-reactive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Proactive-or-reactive",
+        "evidence": "Checked unsolicited relevance/tolerance versus task-triggered assistance."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/items/1/content/0",
+        "source_unit_hash": "823438335d1cafdcca748adf01c563ab915447ae64cc08058bd1da4173715dc4",
+        "source_anchor": "Proactive-or-reactive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Proactive-or-reactive",
+        "evidence": "Checked unsolicited relevance/tolerance versus task-triggered assistance."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "11fac525668ba84cc108c5810902754f41c34a52fdc94755aba7199436024d39",
+        "source_anchor": "Proactive-or-reactive",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Proactive-or-reactive",
+        "evidence": "Checked unsolicited relevance/tolerance versus task-triggered assistance."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "5dfdb10e65689c77da5e5bd7ca1f9abf1baca7d7756b460b00893343c2229827",
+        "source_anchor": "Visible-or-invisible",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Visible-or-invisible",
+        "evidence": "Verified observable reliability/feedback versus hidden personalization challenges."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "326c6685b4f4287b3678cd4d6b387f45d06fa21c46c64b38370f9294d5571f78",
+        "source_anchor": "Visible-or-invisible",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Visible-or-invisible",
+        "evidence": "Verified observable reliability/feedback versus hidden personalization challenges."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "6acb5f056019807ac500656c968e80fed8e1ac4e5ff9544df110ddad45bf17d6",
+        "source_anchor": "Visible-or-invisible",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Visible-or-invisible",
+        "evidence": "Verified observable reliability/feedback versus hidden personalization challenges."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "0f3914404262b421a52504295bfa14dacc4b3b5e600485ef94f5e69172ff6235",
+        "source_anchor": "Dynamic-or-static",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Dynamic-or-static",
+        "evidence": "Checked live/offline improvements and calibration/feedback effects."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "863ae8fa507839ad23cf05bbb95d588e2c647a475232e3bfd690b31573c58023",
+        "source_anchor": "Dynamic-or-static",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Dynamic-or-static",
+        "evidence": "Checked live/offline improvements and calibration/feedback effects."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "0d1b0b99800e7d497eddad5bb586e4b936c3741b415731766edebafb08ec1f23",
+        "source_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "evidence": "Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "2e39f55559a6aded3d5d798d471b6c8277ddf02359ea65da0f068b069ea0e6c4",
+        "source_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "evidence": "Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/inlineContent/0",
+        "source_unit_hash": "b4ad415f3b354e48d0db86ae7c252444787c145e398ca5ef72097552e93df7cc",
+        "source_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "ddaffdb55c7c41b3dd3469b09cb78ddb530f523e5bdeffd7fba1eb2a1f79ee24",
+        "source_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "evidence": "Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "c1a9ed2de41da921a87070dc77a9aa8b07ba68512efa1d7dfa8481ac0dbcc699",
+        "source_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "evidence": "Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "50312445fec07f16c85576e466e72c3dd4ab78a5cbadcfa6b57afd9ec004c401",
+        "source_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "evidence": "Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "c536cec6e24d83dfe907dffed17779dab03655b7921fc24ef1b0afb11136a421",
+        "source_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "evidence": "Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "609edaf616da45dc19a91849d7621fb4896234eeb666b29499184792814ab791",
+        "source_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "evidence": "Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/items/0/content/0",
+        "source_unit_hash": "0ba920a94d88730f650dcffed0871c698ed2babb9a63a869346331285ba8aac5",
+        "source_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "evidence": "Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/items/1/content/0",
+        "source_unit_hash": "21f27da58ca8185784d0150fe339b7113f921d1de276445800f93249e3bd7b48",
+        "source_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "evidence": "Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/items/2/content/0",
+        "source_unit_hash": "6623c6dafc70a36ecf0ef697e709e3f3a5af032435df34c16d58e28a39b02c72",
+        "source_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "evidence": "Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "353311b2cfdc90cf15b19dfd098bbcee63ebcb682cca426392cdca3f5d2ef100",
+        "source_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "evidence": "Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "b55078bcc9657ab7af007958f1a831d2d9c83ecbfd5e523fecf90fc48e9fc143",
+        "source_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "evidence": "Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "85fdf6b5e3195b79a54a7aa4891ee51acd2f4e502e8083d156e9e5511be21f13",
+        "source_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "evidence": "Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "b10f5dec7d31945151122fd2246e8b2b6d08896e84fbf70de5d4c8fdbcbbda95",
+        "source_anchor": "Explicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Explicit-feedback",
+        "evidence": "Verified voluntary necessary-only requests, favoriting/social implicit distinction, concrete consequences/icons-plus-text, progressively specific options, immediate persisted app-wide response and context timing feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "5183b3613d638a208c1cb5e25fa41124518ab35e8f7fe9d1d0ac0749cd6d5ccb",
+        "source_anchor": "Implicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Implicit-feedback",
+        "evidence": "Checked sensitive privacy/cross-app controls, discovery/confirmation bias, multiple signals, shared-device suppression, recency/fallback/cadence and UI-change interpretation."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "48cbe74cc1f9e813979189f77766f1e9f4cfeb6e9d418a6c499031149377e189",
+        "source_anchor": "Implicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Implicit-feedback",
+        "evidence": "Checked sensitive privacy/cross-app controls, discovery/confirmation bias, multiple signals, shared-device suppression, recency/fallback/cadence and UI-change interpretation."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/inlineContent/0",
+        "source_unit_hash": "3ba0ec9631234e7cdd04ba6d42757f641654cf588283b2144f69fd099affda07",
+        "source_anchor": "Implicit-feedback",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Implicit-feedback",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked sensitive privacy/cross-app controls, discovery/confirmation bias, multiple signals, shared-device suppression, recency/fallback/cadence and UI-change interpretation."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "8cfe5da83861373f90b4e45199ade45f77ff60d0b1f35c8dd4859f047c163afe",
+        "source_anchor": "Implicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Implicit-feedback",
+        "evidence": "Checked sensitive privacy/cross-app controls, discovery/confirmation bias, multiple signals, shared-device suppression, recency/fallback/cadence and UI-change interpretation."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "390cd8d462da69d9d561289120823007d9bbf4149d13cf1ce7d5d49938c05643",
+        "source_anchor": "Implicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Implicit-feedback",
+        "evidence": "Checked sensitive privacy/cross-app controls, discovery/confirmation bias, multiple signals, shared-device suppression, recency/fallback/cadence and UI-change interpretation."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "e0d14092a737f3e06cd6e7304d1829b93132dfd7cc8a1f29b6dfd0132e6f9010",
+        "source_anchor": "Implicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Implicit-feedback",
+        "evidence": "Checked sensitive privacy/cross-app controls, discovery/confirmation bias, multiple signals, shared-device suppression, recency/fallback/cadence and UI-change interpretation."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "940d0942219272ae18ffe6dbdbc1b9bfccd52c6b74eb8c5f7a81821a19c887c4",
+        "source_anchor": "Implicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Implicit-feedback",
+        "evidence": "Checked sensitive privacy/cross-app controls, discovery/confirmation bias, multiple signals, shared-device suppression, recency/fallback/cadence and UI-change interpretation."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "1d37b1b087ae4818858a80849a5497add777ca11271417f340959865da39248a",
+        "source_anchor": "Implicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Implicit-feedback",
+        "evidence": "Checked sensitive privacy/cross-app controls, discovery/confirmation bias, multiple signals, shared-device suppression, recency/fallback/cadence and UI-change interpretation."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "8fe0f96173f1f09751218816e5cc028bad375e5c1e13228e68d5ace530ab725f",
+        "source_anchor": "Implicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Implicit-feedback",
+        "evidence": "Checked sensitive privacy/cross-app controls, discovery/confirmation bias, multiple signals, shared-device suppression, recency/fallback/cadence and UI-change interpretation."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "5ceac82d841a9be50c319cf99bd0b51a906bc35b8a9c98c4289678268a8bbea6",
+        "source_anchor": "Implicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Implicit-feedback",
+        "evidence": "Checked sensitive privacy/cross-app controls, discovery/confirmation bias, multiple signals, shared-device suppression, recency/fallback/cadence and UI-change interpretation."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "e6c8195cbe0be9a393f1e9f7f7a8d08dab2145a0c5ad55d8c3b6bf1b7d50e252",
+        "source_anchor": "Implicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Implicit-feedback",
+        "evidence": "Checked sensitive privacy/cross-app controls, discovery/confirmation bias, multiple signals, shared-device suppression, recency/fallback/cadence and UI-change interpretation."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "0294a9b88046d56fe46c95f3202c94dd0bc7531a121a4bd7da2087d67c1786f9",
+        "source_anchor": "Implicit-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Implicit-feedback",
+        "evidence": "Checked sensitive privacy/cross-app controls, discovery/confirmation bias, multiple signals, shared-device suppression, recency/fallback/cadence and UI-change interpretation."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "cbdab21533ddd556994d1567ee016c0f88c13a0d4c99ea869d46dcdd17deb125",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "a87c330756f50de1890e6482f8004514068dfa86ef79c6cd490f6b73304bdf98",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/56/inlineContent/0",
+        "source_unit_hash": "ade3da0939c70b86a9b21b30af8d194acd6ceab3aa7e0f2e7ace3e1b13af88d7",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "c403c607bc0dfe4e14b2c78051c8a616ba6228af06a5d6cf53285a9bf0a82f08",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "df772239d71ccc608d9cf2ba6422807dd3deb3d3ea6281b2c003fc8e8185701d",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "ead5d5628394b9feb3244aaff9c2b6c1c77b27adc8c72d7f6304de98822c0a8d",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "8480763f0bf217b0ee49ebd4723719de1ef4f85d7ac6969a08c591a18e82006e",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "106d7835f191ecb27db075b43be6b53421397cdc917b9c6f9aeb8334a2ba4da4",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "9b9ee6c2fbee6dd48fc532bb58a1c07dc7cb01cc375ad42392f7d5029074e259",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "37c45dbd7a56b0a723a2369c6c4b203579a087c9d7ef3b2efef3e7e4f67903c0",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/63/items/0/content/0",
+        "source_unit_hash": "60e92466c72cce8321a3fe85faa5b9ecbe93a327d473c8eb7185a4e7f9065aa3",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/63/items/1/content/0",
+        "source_unit_hash": "cab788d70f678cc99bc4a7ea6a15b36a0d47aac89062db2907e2047edb9946e8",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/63/items/2/content/0",
+        "source_unit_hash": "43eca687cf2ce5239befbac4ea2e1a795152cefe70174e5620954156d7e1eb9b",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/64",
+        "source_unit_hash": "f1d7fdf211b25609135b1e85913aa7266e8119c3ee6b3a3b46c31dfc1a9cb523",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "bee00390d58f23f67a168414b7f80bf17d41db3b0a09091c1226bcf58588dd41",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/66",
+        "source_unit_hash": "a3a99dd9bf99b7765115afe98c11a305b1b9b53f02672a095e61396fbbf05683",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/67",
+        "source_unit_hash": "d43a4ca1352f7435328af3c37e4aa688f0189a14318800697aa87ec20c2c8227",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "c7267a75da4abea61a806874ab4ab2b5f19a0e3bdf79cc48024cc86415ebfe8d",
+        "source_anchor": "Calibration",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Calibration",
+        "evidence": "Verified essential-only rationale/security, once-early with object/environment exception, quick minimal steps/no lookup difficulty, progress/stall support/success,cancel and later editing/removal."
+      },
+      {
+        "id": "primaryContentSections/0/content/70",
+        "source_unit_hash": "dfeb3f6930378383f83f07e9980edc682724d85d0e46aefa0109785e2929d390",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "c64f4685db4364e711a36625ecd5e4a219d14487c84f387763ab9fefe174745c",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/items/0/content/0",
+        "source_unit_hash": "4a5cebf4a08368f6396e8fc1c970d374a1261cd207f64b36c3c8c1677cee8710",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/items/1/content/0",
+        "source_unit_hash": "9f824d268046f3d1e6e171baa858c3676748e40dfc2cc0f798729c29b2afbe42",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/items/2/content/0",
+        "source_unit_hash": "1b067878d17573c2bc81e94aa80272fb3f5e019510c5412be9b26440d03adc0f",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/72",
+        "source_unit_hash": "e85e42f72ac36aea8201057b8a0e4f029aab504191f06cff62992945f017b160",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/73",
+        "source_unit_hash": "35e2917ada69dc2b1b0cf8ed27f0da2a103ca6ebd6d59aacf5f264239575da4d",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/items/0/content/0",
+        "source_unit_hash": "83b186c1cb3ac09cf1f499070233aeaa96ab4899ff099f8e35925898d95e1572",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/items/1/content/0",
+        "source_unit_hash": "817a8e4f979df29bd5eb7517b070dfa762fad220434668ec41c9ce01db647c7b",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/items/2/content/0",
+        "source_unit_hash": "f56e6061960c44010e73d83a4d4da5529e761331af0129698122f04a0d0bf020",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/items/3/content/0",
+        "source_unit_hash": "04594e879b3eabd71cf5f919dcb61dcd94b78d3f4fb2fd56d071f5fa60764b45",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/73/items/4/content/0",
+        "source_unit_hash": "9500075b6aaff77ef43d99901341f4587cc4d37f158ca676d839cf648c6f15fd",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/74",
+        "source_unit_hash": "5d04bcd8e577e30d4dd7503131a5db4733eaf356dee456512208d753f13c7f02",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/75",
+        "source_unit_hash": "ca0844b4deb547660fbb9177ddcfc7f4ee14b68cc42d6fa982b6216df30bc03a",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/76",
+        "source_unit_hash": "d4f48041040b4277bc1c780511c73259e14bc1128f290183fee90d8be45c895c",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/77",
+        "source_unit_hash": "50db93dde7cf31c1c5966803abba801e04f0c8801bab72b4d1d21b2f7271ac43",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/78",
+        "source_unit_hash": "c7f1dbe86ce00083edb65746861be4fc83ccc3e5f94af666ad49397ca1f485ba",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/79",
+        "source_unit_hash": "15d399f936e78c270276c8412f62222dee83f972f2f6815899a1a342a1fba2e1",
+        "source_anchor": "Mistakes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Mistakes",
+        "evidence": "Rechecked restored simple UI/incorrect-attribution compounding, proactive extra care and cross-category/overall accuracy tradeoffs; checked consequence-matched recovery,updates and selective learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/81",
+        "source_unit_hash": "b61072493d38d3583649638c42a636db9dd5ba4f526c6cdf244c7e0244138733",
+        "source_anchor": "Corrections",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Corrections",
+        "evidence": "Verified familiar exposed automation controls, immediate persistent revisable corrections,effort-benefit balance,no poor-result dependence,selective learning,guided versus freeform."
+      },
+      {
+        "id": "primaryContentSections/0/content/82",
+        "source_unit_hash": "395eb13627f47831bfcb0d192dc5afcf63478e239a7dbc6f4e7fdeb01fdbc5ce",
+        "source_anchor": "Corrections",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Corrections",
+        "evidence": "Verified familiar exposed automation controls, immediate persistent revisable corrections,effort-benefit balance,no poor-result dependence,selective learning,guided versus freeform."
+      },
+      {
+        "id": "primaryContentSections/0/content/82/inlineContent/0",
+        "source_unit_hash": "2865a9094561ee53b013f5e27119221d69d26bf25109992e8ffd1a2db221c4ac",
+        "source_anchor": "Corrections",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Corrections",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified familiar exposed automation controls, immediate persistent revisable corrections,effort-benefit balance,no poor-result dependence,selective learning,guided versus freeform."
+      },
+      {
+        "id": "primaryContentSections/0/content/83",
+        "source_unit_hash": "9565d8126b84f26f7cba7a1af56a58b18b0cdad2345e8cbee28e821d88ea8aa2",
+        "source_anchor": "Corrections",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Corrections",
+        "evidence": "Verified familiar exposed automation controls, immediate persistent revisable corrections,effort-benefit balance,no poor-result dependence,selective learning,guided versus freeform."
+      },
+      {
+        "id": "primaryContentSections/0/content/84",
+        "source_unit_hash": "d52dc2ea6d8eb9c34b03d608d37eb8e2300c7d1af5cb95271ab9eac780a909c9",
+        "source_anchor": "Corrections",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Corrections",
+        "evidence": "Verified familiar exposed automation controls, immediate persistent revisable corrections,effort-benefit balance,no poor-result dependence,selective learning,guided versus freeform."
+      },
+      {
+        "id": "primaryContentSections/0/content/85",
+        "source_unit_hash": "af6b98389013b0058ce6b556527b82fa1d0f0f599f64c22818d9b42ffc2a2c75",
+        "source_anchor": "Corrections",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Corrections",
+        "evidence": "Verified familiar exposed automation controls, immediate persistent revisable corrections,effort-benefit balance,no poor-result dependence,selective learning,guided versus freeform."
+      },
+      {
+        "id": "primaryContentSections/0/content/86",
+        "source_unit_hash": "49826adcfb00c8cb43fa9af0d6d44611499e47907ef83bceccbb25443f5c113a",
+        "source_anchor": "Corrections",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Corrections",
+        "evidence": "Verified familiar exposed automation controls, immediate persistent revisable corrections,effort-benefit balance,no poor-result dependence,selective learning,guided versus freeform."
+      },
+      {
+        "id": "primaryContentSections/0/content/87",
+        "source_unit_hash": "5d050fbacba1f1e7517fea4ef6b61dc6c53841356146a0038dd8ccb40546243a",
+        "source_anchor": "Corrections",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Corrections",
+        "evidence": "Verified familiar exposed automation controls, immediate persistent revisable corrections,effort-benefit balance,no poor-result dependence,selective learning,guided versus freeform."
+      },
+      {
+        "id": "primaryContentSections/0/content/88",
+        "source_unit_hash": "14b788c7ef08e31b64ab9ffcea9b00d54805bd4c0d453b85f21b7aadba680f7b",
+        "source_anchor": "Corrections",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Corrections",
+        "evidence": "Verified familiar exposed automation controls, immediate persistent revisable corrections,effort-benefit balance,no poor-result dependence,selective learning,guided versus freeform."
+      },
+      {
+        "id": "primaryContentSections/0/content/89",
+        "source_unit_hash": "af850586da15ffba2644cf87926535d2a1f271d2771e4a728b555060f0a66738",
+        "source_anchor": "Corrections",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Corrections",
+        "evidence": "Verified familiar exposed automation controls, immediate persistent revisable corrections,effort-benefit balance,no poor-result dependence,selective learning,guided versus freeform."
+      },
+      {
+        "id": "primaryContentSections/0/content/91",
+        "source_unit_hash": "82dd3e9ce6bf4af7a860b9099aa1250a72b0ae40b79a033400554809e88e8ba2",
+        "source_anchor": "Multiple-options",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Multiple-options",
+        "evidence": "Checked proactive/reactive/correction roles, diversity/limited count, validated/contextual ranking/default,distinct explanations/grouping and learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/92",
+        "source_unit_hash": "2a1e7e554544a85f9fdc6c8f3b2af52a33c6dc94a1e4f0fb26299ae183101da4",
+        "source_anchor": "Multiple-options",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Multiple-options",
+        "evidence": "Checked proactive/reactive/correction roles, diversity/limited count, validated/contextual ranking/default,distinct explanations/grouping and learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/92/inlineContent/0",
+        "source_unit_hash": "c3aecb7b421c02a955a9935f2f8d65da3591e1b78de3e68546008df5b9c69847",
+        "source_anchor": "Multiple-options",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Multiple-options",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked proactive/reactive/correction roles, diversity/limited count, validated/contextual ranking/default,distinct explanations/grouping and learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/93",
+        "source_unit_hash": "f0867afb069bd4811f4356a3d09b0aa6bc4618fb162d01fdd8ab78c929387d17",
+        "source_anchor": "Multiple-options",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Multiple-options",
+        "evidence": "Checked proactive/reactive/correction roles, diversity/limited count, validated/contextual ranking/default,distinct explanations/grouping and learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/94",
+        "source_unit_hash": "1bd18b55d7b69251ca8c7787a95a0d3d55303102c037dbf528dc1f4f6e26375f",
+        "source_anchor": "Multiple-options",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Multiple-options",
+        "evidence": "Checked proactive/reactive/correction roles, diversity/limited count, validated/contextual ranking/default,distinct explanations/grouping and learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/94/items/0/content/0",
+        "source_unit_hash": "fa292eda3732cbde0e3268711e2a09d3852129c72eeb276ab0a5e5689a649769",
+        "source_anchor": "Multiple-options",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Multiple-options",
+        "evidence": "Checked proactive/reactive/correction roles, diversity/limited count, validated/contextual ranking/default,distinct explanations/grouping and learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/94/items/1/content/0",
+        "source_unit_hash": "3724c9b3569bffcbe52937dc6332895bad32a75fd369522518b37a3b938482f4",
+        "source_anchor": "Multiple-options",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Multiple-options",
+        "evidence": "Checked proactive/reactive/correction roles, diversity/limited count, validated/contextual ranking/default,distinct explanations/grouping and learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/94/items/2/content/0",
+        "source_unit_hash": "2c78c68336668e057fb72c22847b58abc86087d6fffeb528f0889fa41875e5cf",
+        "source_anchor": "Multiple-options",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Multiple-options",
+        "evidence": "Checked proactive/reactive/correction roles, diversity/limited count, validated/contextual ranking/default,distinct explanations/grouping and learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/95",
+        "source_unit_hash": "784c4124cb9dfdac49ad8b7fcf513fb73788eccb12c4f585bd1f1eae4e133aa2",
+        "source_anchor": "Multiple-options",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Multiple-options",
+        "evidence": "Checked proactive/reactive/correction roles, diversity/limited count, validated/contextual ranking/default,distinct explanations/grouping and learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/96",
+        "source_unit_hash": "07c133296762b02c4225ade5a3b92818a3920875a4299714cde45b81734599ce",
+        "source_anchor": "Multiple-options",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Multiple-options",
+        "evidence": "Checked proactive/reactive/correction roles, diversity/limited count, validated/contextual ranking/default,distinct explanations/grouping and learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/97",
+        "source_unit_hash": "ae01f62676b30a9b880202acb1f223275a81c037fd1ad88e27e5d39ab60e311b",
+        "source_anchor": "Multiple-options",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Multiple-options",
+        "evidence": "Checked proactive/reactive/correction roles, diversity/limited count, validated/contextual ranking/default,distinct explanations/grouping and learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/98",
+        "source_unit_hash": "2a5013291595ae3cc0ae6726b13d08d63294a8af6f56beec8c20eea74f8b4382",
+        "source_anchor": "Multiple-options",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Multiple-options",
+        "evidence": "Checked proactive/reactive/correction roles, diversity/limited count, validated/contextual ranking/default,distinct explanations/grouping and learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/99",
+        "source_unit_hash": "40defa7c983a425db01f8250ef6ed326562954ff5edb3e0a8ec0cc7bee46810b",
+        "source_anchor": "Multiple-options",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Multiple-options",
+        "evidence": "Checked proactive/reactive/correction roles, diversity/limited count, validated/contextual ranking/default,distinct explanations/grouping and learning."
+      },
+      {
+        "id": "primaryContentSections/0/content/101",
+        "source_unit_hash": "9d0592d3c5c23db44f392a57f32d4fee7fe244d1b2223c3acdca761c7fc92a3b",
+        "source_anchor": "Confidence",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Confidence",
+        "evidence": "Verified quality validation,semantic/actionable versus numeric statistical contexts,threshold-dependent presentation and low-confidence proactive suppression."
+      },
+      {
+        "id": "primaryContentSections/0/content/102",
+        "source_unit_hash": "63573ab5ef8f4b09f26f0672a4ef933979f7849eb2855c8c47badc01ae9e73cc",
+        "source_anchor": "Confidence",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Confidence",
+        "evidence": "Verified quality validation,semantic/actionable versus numeric statistical contexts,threshold-dependent presentation and low-confidence proactive suppression."
+      },
+      {
+        "id": "primaryContentSections/0/content/102/inlineContent/0",
+        "source_unit_hash": "e90897b5f0c3abf3b61f04343a2d63820ee1674457851c75712dbaafc5b28d44",
+        "source_anchor": "Confidence",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Confidence",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified quality validation,semantic/actionable versus numeric statistical contexts,threshold-dependent presentation and low-confidence proactive suppression."
+      },
+      {
+        "id": "primaryContentSections/0/content/103",
+        "source_unit_hash": "607bba81f495094c6010bb1085b832dc6463acb86763902136b5eed6f6a17a57",
+        "source_anchor": "Confidence",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Confidence",
+        "evidence": "Verified quality validation,semantic/actionable versus numeric statistical contexts,threshold-dependent presentation and low-confidence proactive suppression."
+      },
+      {
+        "id": "primaryContentSections/0/content/104",
+        "source_unit_hash": "fce0f1ac9ee6eaa83ac71423c02b99973ee14b2924b68e9e70f9485fc2deba55",
+        "source_anchor": "Confidence",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Confidence",
+        "evidence": "Verified quality validation,semantic/actionable versus numeric statistical contexts,threshold-dependent presentation and low-confidence proactive suppression."
+      },
+      {
+        "id": "primaryContentSections/0/content/105",
+        "source_unit_hash": "fb9a7ec08a67581b467b5a19cc233b338384c1d7a4049daaf3462ec2ed8a9587",
+        "source_anchor": "Confidence",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Confidence",
+        "evidence": "Verified quality validation,semantic/actionable versus numeric statistical contexts,threshold-dependent presentation and low-confidence proactive suppression."
+      },
+      {
+        "id": "primaryContentSections/0/content/106",
+        "source_unit_hash": "0b0eefa2f7f75f60cc646b85120d1404e8c005127bc932c953ca06518486574a",
+        "source_anchor": "Confidence",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Confidence",
+        "evidence": "Verified quality validation,semantic/actionable versus numeric statistical contexts,threshold-dependent presentation and low-confidence proactive suppression."
+      },
+      {
+        "id": "primaryContentSections/0/content/107",
+        "source_unit_hash": "f0f83467554396a96d31a99fcf65400fb4777a3e58a09d631fad27247883e91d",
+        "source_anchor": "Confidence",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Confidence",
+        "evidence": "Verified quality validation,semantic/actionable versus numeric statistical contexts,threshold-dependent presentation and low-confidence proactive suppression."
+      },
+      {
+        "id": "primaryContentSections/0/content/108",
+        "source_unit_hash": "797c647b2e82c9cc6492c61447452e394a0af2fb305296fb6061abbcfca5efc0",
+        "source_anchor": "Confidence",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Confidence",
+        "evidence": "Verified quality validation,semantic/actionable versus numeric statistical contexts,threshold-dependent presentation and low-confidence proactive suppression."
+      },
+      {
+        "id": "primaryContentSections/0/content/109",
+        "source_unit_hash": "5cf51a4d1881e65b07ca241dcdefe11ccab56a8c7fcec161b86b34a6b81bff05",
+        "source_anchor": "Confidence",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Confidence",
+        "evidence": "Verified quality validation,semantic/actionable versus numeric statistical contexts,threshold-dependent presentation and low-confidence proactive suppression."
+      },
+      {
+        "id": "primaryContentSections/0/content/110",
+        "source_unit_hash": "93d0eaffa51d937e943a9fbb8a7ee4d22a6b3bb54b1fc3e7ab2dfdbc2c46bfa3",
+        "source_anchor": "Confidence",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Confidence",
+        "evidence": "Verified quality validation,semantic/actionable versus numeric statistical contexts,threshold-dependent presentation and low-confidence proactive suppression."
+      },
+      {
+        "id": "primaryContentSections/0/content/112",
+        "source_unit_hash": "fc3524653eff5b6b32f5d9ff0c73bdb6523b129ab01b5fbe478274a699f10010",
+        "source_anchor": "Attribution",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Attribution",
+        "evidence": "Checked factual rationale,mental models/differentiation,balanced specificity/privacy,no emotional judgment and technical-domain exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/113",
+        "source_unit_hash": "2a261cae9a1a521f93a353e92f8f14b36056d911ae579971ae75ffc6a9c71911",
+        "source_anchor": "Attribution",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Attribution",
+        "evidence": "Checked factual rationale,mental models/differentiation,balanced specificity/privacy,no emotional judgment and technical-domain exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/113/inlineContent/0",
+        "source_unit_hash": "c689a9ddea0d325d74fda6408541ee49566b1d3930ab70f5172382acfdccb825",
+        "source_anchor": "Attribution",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Attribution",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked factual rationale,mental models/differentiation,balanced specificity/privacy,no emotional judgment and technical-domain exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/114",
+        "source_unit_hash": "b12f4ca9ad761af0316fec7821606b2898e960bf2ee21244077be90207c90a89",
+        "source_anchor": "Attribution",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Attribution",
+        "evidence": "Checked factual rationale,mental models/differentiation,balanced specificity/privacy,no emotional judgment and technical-domain exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/115",
+        "source_unit_hash": "137aa2d3f989bca37e40415676865fc82e625b525d3292854a844b9ab3a756ac",
+        "source_anchor": "Attribution",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Attribution",
+        "evidence": "Checked factual rationale,mental models/differentiation,balanced specificity/privacy,no emotional judgment and technical-domain exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/115/items/0/content/0",
+        "source_unit_hash": "f31b19ef6272a552b744f3e1a6b0a804caf0da23686cf0bda856a959790b2f7a",
+        "source_anchor": "Attribution",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Attribution",
+        "evidence": "Checked factual rationale,mental models/differentiation,balanced specificity/privacy,no emotional judgment and technical-domain exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/115/items/1/content/0",
+        "source_unit_hash": "bf99956ece4495165dee72f1edaea764f3b5c1dba4bad07cc9795f1721008843",
+        "source_anchor": "Attribution",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Attribution",
+        "evidence": "Checked factual rationale,mental models/differentiation,balanced specificity/privacy,no emotional judgment and technical-domain exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/115/items/2/content/0",
+        "source_unit_hash": "be26c707165a4844db50c9bc804fc9fb228b64d16d591857861b7cbb396d6703",
+        "source_anchor": "Attribution",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Attribution",
+        "evidence": "Checked factual rationale,mental models/differentiation,balanced specificity/privacy,no emotional judgment and technical-domain exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/115/items/3/content/0",
+        "source_unit_hash": "848e0ce5214e8b89964b129375fad853ccddad803f375d6bb598829a7bd4a99c",
+        "source_anchor": "Attribution",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Attribution",
+        "evidence": "Checked factual rationale,mental models/differentiation,balanced specificity/privacy,no emotional judgment and technical-domain exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/116",
+        "source_unit_hash": "e982170daa21aacd7488d7e26c35de126fba0b85a2beb004582df48abb03122a",
+        "source_anchor": "Attribution",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Attribution",
+        "evidence": "Checked factual rationale,mental models/differentiation,balanced specificity/privacy,no emotional judgment and technical-domain exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/117",
+        "source_unit_hash": "576ac6a3cbbe251db06e591ec47f916f52a4e8c46b1531258038d01be7c7bb64",
+        "source_anchor": "Attribution",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Attribution",
+        "evidence": "Checked factual rationale,mental models/differentiation,balanced specificity/privacy,no emotional judgment and technical-domain exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/118",
+        "source_unit_hash": "842b806e7f77a9c73a96ddd2ff73278a5d5b149ff759e0653a1dd638a41d1eb3",
+        "source_anchor": "Attribution",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Attribution",
+        "evidence": "Checked factual rationale,mental models/differentiation,balanced specificity/privacy,no emotional judgment and technical-domain exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/119",
+        "source_unit_hash": "18f6ce5f49e1555492c6f8827075b54775248e924c894b7f02a57c2bdab81c04",
+        "source_anchor": "Attribution",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Attribution",
+        "evidence": "Checked factual rationale,mental models/differentiation,balanced specificity/privacy,no emotional judgment and technical-domain exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/121",
+        "source_unit_hash": "3e70b840ed888b19b5d1e64131587fab024d8199d2b0117e1337afd56c0f7eac",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/122",
+        "source_unit_hash": "04bee828a9e6c544df27583f3d1012d6a79562d213f4468c9988ba41eee266e6",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/123",
+        "source_unit_hash": "fff0a491e672ede4e8ee6736ce84a2267db7ecd006ee12c8912ee3604495b388",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/123/items/0/content/0",
+        "source_unit_hash": "446cc5d908686a12f3f83913a8b777eb6737423398bafbfb476a7c909b464476",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/123/items/1/content/0",
+        "source_unit_hash": "ca9437b6f7eff0b3c0b3dee0f29873465dd53643ae2c5aeae6ad287b00560892",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/123/items/2/content/0",
+        "source_unit_hash": "06110f307b72507910ccc083175bd98446982808e09abcb41a1146b9b05aaa9e",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/124",
+        "source_unit_hash": "387c106b3bca2e1985da63af434a4b0ce39a567aa555047efabd37b4a5f486bb",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/124/inlineContent/0",
+        "source_unit_hash": "ccf686124eb9b2c6e75979a9f42d4a51da83039b769cca0bcbc8a65f37dd67f6",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/125",
+        "source_unit_hash": "02f4c1523e7f53864c4565129f9905c2c859482c82e9fe3c20b672f2df8b0117",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/126",
+        "source_unit_hash": "68651cdcdc91d041850e2a122b1bcd43441d4d57667d1d073cd08d501f2d7b93",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/127",
+        "source_unit_hash": "b6c4fbf16298a77df8003ff5c4d92e89b4c9da6e9512b6a5a6d3d47e3602b4a0",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/127/items/0/content/0",
+        "source_unit_hash": "83a51229e5f21778fab03c076744e797c4dabfc7e5bf6668f368b1488909e91f",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/127/items/1/content/0",
+        "source_unit_hash": "4656f1cc90ea6d6b0604c89c5509957732c73f57479d34c59409762a4fe9353f",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/127/items/2/content/0",
+        "source_unit_hash": "28a9f466a87ef79f178ba15cf76d851db2fd87f5db3f8b6ab868297da2486c70",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/128",
+        "source_unit_hash": "665f2cda555d082827f989b1e2760eec6fa9dead48c517c6238201d874d500a1",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/129",
+        "source_unit_hash": "e86d7447c48d6f4d3291a1b662a990faaa29076c39412c1b3d4e8ab86bae84bd",
+        "source_anchor": "Limitations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Limitations",
+        "evidence": "Verified weak versus impossible capability,serious early disclosure,examples/contextual coaching/alternatives,explanations and notifying resolved limitations."
+      },
+      {
+        "id": "primaryContentSections/0/content/131",
+        "source_unit_hash": "509b569829c7a6cfe24bc32528acd622858a84d9d670c9f630306f6689ae12f7",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified no additional platform distinctions."
+      },
+      {
+        "id": "primaryContentSections/0/content/134",
+        "source_unit_hash": "ba92314e301253db575acc7ab5315c7ff398ee1efc447f7178d60b17beceb1b7",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/135",
+        "source_unit_hash": "16dccdc35e324226f2d6e4a778ecc98591227f281f28f2901fe97d8e2ce22b61",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/137",
+        "source_unit_hash": "6680332680c6ba86e39eceebe202730716561f02003256c8a935500b847a5224",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/138",
+        "source_unit_hash": "60a2c7596705e1fc59e8e8a878317d5ed0e9883f5d58ecd08c46973f1bf83b91",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/139",
+        "source_unit_hash": "9fc5e90db3f68d5c2fe5eebd36e0b5d109e621a8b31724b536fb89aa0ea8e222",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/143",
+        "source_unit_hash": "61ff24e1221701991655900e67021e83739c468dd73bfd55021a496619ffaf61",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/143/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/143/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/143/rows/1/0/0",
+        "source_unit_hash": "6f585fa1a239d7cd279db778c80344b4ca3bdd1c2601af906b53d277e7be4412",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/143/rows/1/1/0",
+        "source_unit_hash": "462e6138083a2f2ac14f6d392ce844a1f9926d1f98ad3fb2608d4fbb3b08dfd6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/143/rows/2/0/0",
+        "source_unit_hash": "88e5fea44e511391a9d95f6ff5f6733f5f63076515b25b5b64731375d5cf7f2d",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/143/rows/2/1/0",
+        "source_unit_hash": "83cceec372bb1c89a87549170d760e862f7ad4609ffa583eb5f642d1ff895137",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/143/rows/3/0/0",
+        "source_unit_hash": "a3be947823d6b103c429adb07b7ad07c6def605e3e77e14b702e5a9c78d34032",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/143/rows/3/1/0",
+        "source_unit_hash": "4756147f4d61c1086dc4ffd0d8da51a01051e176d19f9b7302eaf645e0f80e63",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/143",
+        "source_unit_hash": "61ff24e1221701991655900e67021e83739c468dd73bfd55021a496619ffaf61",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

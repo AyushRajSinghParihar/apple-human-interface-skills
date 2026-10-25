@@ -1,0 +1,528 @@
+{
+  "review": {
+    "slug": "app-shortcuts",
+    "status": "reviewed",
+    "source_hash": "b2564e9f49a2117e9e93567b53596dd6d14c49ef93a97bc1530c3ddea9cdff27",
+    "destination_hash": "d59d55093cb8cab8814ff9ad20aab47ab6a1b992718d9e74f66581b6e40bb172",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:16:11.299554+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "app-shortcuts",
+        "status": "reviewed",
+        "evidence": "Checked install-time availability, personalized uses, Siri/Spotlight/Shortcuts/hardware entry, combined actions, ten-shortcut maximum and user-composed cross-app intents."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified schemas-first common-domain distinction, important contextual tasks, one optional familiar parameter, omitted-value clarification/default alternatives, simple voice and contextual discovery tips."
+      },
+      {
+        "source_anchor": "Responding-to-App-Shortcuts",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Responding-to-App-Shortcuts",
+        "status": "reviewed",
+        "evidence": "Checked snippet static/confirmation versus Live Activity continuous progress and complete audio-only dialogue."
+      },
+      {
+        "source_anchor": "Editorial-guidelines",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "evidence": "Verified short natural activation variants including app name and App Shortcuts/Shortcuts versus generic shortcut casing/pluralization."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked vision/Watch no-addition and TV exclusion."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Verified Spotlight locations, symbols/previews and initial importance versus later frequency order."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Verified no App Shortcuts but App Intents custom composition support."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "19cd4b4d8a8ccaadc2ff01f7a9c08cd39dafce1f8a72ee6ef8a7fcfa3fff5143",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "app-shortcuts",
+        "evidence": "Checked install-time availability, personalized uses, Siri/Spotlight/Shortcuts/hardware entry, combined actions, ten-shortcut maximum and user-composed cross-app intents."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "efd70f587a6065dbeaeccd8fa49b200dcedb89fcb6e1aaa4f37d4aac712770cc",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "app-shortcuts",
+        "evidence": "Checked install-time availability, personalized uses, Siri/Spotlight/Shortcuts/hardware entry, combined actions, ten-shortcut maximum and user-composed cross-app intents. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "0ab1fae6ec9267bab15f56d4cc7382207d8caf8583f9b6b90cb737a51c8225fa",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "app-shortcuts",
+        "evidence": "Checked install-time availability, personalized uses, Siri/Spotlight/Shortcuts/hardware entry, combined actions, ten-shortcut maximum and user-composed cross-app intents."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "84155247044a16352e9d6a85e97f411d361cc0a14d2f1f67da749a2e0dfc751d",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "app-shortcuts",
+        "evidence": "Checked install-time availability, personalized uses, Siri/Spotlight/Shortcuts/hardware entry, combined actions, ten-shortcut maximum and user-composed cross-app intents."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "523bf1284e6d8c828022d2a5184497642684e70101c9d875e00fae6f8eb54d0b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "app-shortcuts",
+        "evidence": "Checked install-time availability, personalized uses, Siri/Spotlight/Shortcuts/hardware entry, combined actions, ten-shortcut maximum and user-composed cross-app intents."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "5cb174c03e93d7dab0500938f77169a3b7574d23077e966ceecca258ac879e17",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "app-shortcuts",
+        "evidence": "Checked install-time availability, personalized uses, Siri/Spotlight/Shortcuts/hardware entry, combined actions, ten-shortcut maximum and user-composed cross-app intents."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "c7ac0a6c32235a1f30007a5020aa9d2685b7968bc62f4a918f9b3cba0a5dc036",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "app-shortcuts",
+        "evidence": "Checked install-time availability, personalized uses, Siri/Spotlight/Shortcuts/hardware entry, combined actions, ten-shortcut maximum and user-composed cross-app intents."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/content/0",
+        "source_unit_hash": "e4a876896db6b7bd082830ef063575b73801aeb79490ccc3dc7678199aed48b7",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "app-shortcuts",
+        "evidence": "Checked install-time availability, personalized uses, Siri/Spotlight/Shortcuts/hardware entry, combined actions, ten-shortcut maximum and user-composed cross-app intents."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "63380f289997288eeb62316b4173ab4745b38ad7445add317fb7ee1671c4d1d2",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified schemas-first common-domain distinction, important contextual tasks, one optional familiar parameter, omitted-value clarification/default alternatives, simple voice and contextual discovery tips."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "0a25d5cafe18f5001bcd9374ef033bbd27f28e6d2548f03465531aa68844b6c4",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified schemas-first common-domain distinction, important contextual tasks, one optional familiar parameter, omitted-value clarification/default alternatives, simple voice and contextual discovery tips."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "1832ba3391bd0657abb9804d09eed77c44c41d48c24c5726201c617efd90424e",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified schemas-first common-domain distinction, important contextual tasks, one optional familiar parameter, omitted-value clarification/default alternatives, simple voice and contextual discovery tips."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "fdb37c1636d0d4c694f2f6bd5bbda726ec063dc92da79308b2463279f44f9c34",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified schemas-first common-domain distinction, important contextual tasks, one optional familiar parameter, omitted-value clarification/default alternatives, simple voice and contextual discovery tips."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "655ddea42fc4a30f3526b8602ea4508ffc548b28bebee64766cc4742f7430869",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified schemas-first common-domain distinction, important contextual tasks, one optional familiar parameter, omitted-value clarification/default alternatives, simple voice and contextual discovery tips."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/inlineContent/0",
+        "source_unit_hash": "bddd760628416d2a551062979525c5ee8a0399a39c2e272271a684279483fcc8",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified schemas-first common-domain distinction, important contextual tasks, one optional familiar parameter, omitted-value clarification/default alternatives, simple voice and contextual discovery tips. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "047ef63753602aef91f0d0a5f1a99ebdef05b7a91696d5216927ff3bc8873125",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified schemas-first common-domain distinction, important contextual tasks, one optional familiar parameter, omitted-value clarification/default alternatives, simple voice and contextual discovery tips."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "bb41d567c9a6c5bca62531c9289656a13d51649cf92e64a3aefef9c2eb3167b2",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified schemas-first common-domain distinction, important contextual tasks, one optional familiar parameter, omitted-value clarification/default alternatives, simple voice and contextual discovery tips."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "b4d2c1a2708f92c36a333d29113ed690b2acb8421fac7607353607a0718d5fb5",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified schemas-first common-domain distinction, important contextual tasks, one optional familiar parameter, omitted-value clarification/default alternatives, simple voice and contextual discovery tips."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "36948cb0bda7482e00f426cf9599417f5368091fc79597dad74abdcdac78ccbd",
+        "source_anchor": "Responding-to-App-Shortcuts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Responding-to-App-Shortcuts",
+        "evidence": "Checked snippet static/confirmation versus Live Activity continuous progress and complete audio-only dialogue."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "a9a984195e6ffd9ad29f347dc3bf91db97f0f0a4998d4407dae05a5feaafbc74",
+        "source_anchor": "Responding-to-App-Shortcuts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Responding-to-App-Shortcuts",
+        "evidence": "Checked snippet static/confirmation versus Live Activity continuous progress and complete audio-only dialogue."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/items/0/content/0",
+        "source_unit_hash": "926ab72f1fa2dedb79de5ded8e0e0a42b864f87cf2c6962e7aede3ffc53d7159",
+        "source_anchor": "Responding-to-App-Shortcuts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Responding-to-App-Shortcuts",
+        "evidence": "Checked snippet static/confirmation versus Live Activity continuous progress and complete audio-only dialogue."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/items/1/content/0",
+        "source_unit_hash": "b49bd364328806493079a9a41a22a91a1a8695fc19cda991baf0a8cc3937843a",
+        "source_anchor": "Responding-to-App-Shortcuts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Responding-to-App-Shortcuts",
+        "evidence": "Checked snippet static/confirmation versus Live Activity continuous progress and complete audio-only dialogue."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "2b32d3d7a235a5fc4c73f361072ca2b653a7aead734b679ffaaabe314e7e81f6",
+        "source_anchor": "Responding-to-App-Shortcuts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Responding-to-App-Shortcuts",
+        "evidence": "Checked snippet static/confirmation versus Live Activity continuous progress and complete audio-only dialogue."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "8915d13335259bbe5f54f1d52d32fd4ce64e38a0048ddfda0ebda30cb050fadd",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Verified short natural activation variants including app name and App Shortcuts/Shortcuts versus generic shortcut casing/pluralization."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "ba7c4d05ca1b49d2e93f57f01ea08f32ce6fe7edd8fb7c0ba67ec0d6ce52c9e6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Verified short natural activation variants including app name and App Shortcuts/Shortcuts versus generic shortcut casing/pluralization."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "98db948c2e2ab461f1904198d7d3c57269a4ab0b9b09e4876cec9db3be0948f0",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Verified short natural activation variants including app name and App Shortcuts/Shortcuts versus generic shortcut casing/pluralization."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "89286c813c3f68ba4e07c498d81317f83c37e1842abb8903dd7bd45a4ee9442d",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked vision/Watch no-addition and TV exclusion."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "7b0bb58a502f0c5e2ba5653701f2d7dac122da064bdf4ebfc4e9f06957d6e89f",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified Spotlight locations, symbols/previews and initial importance versus later frequency order."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "4e37c8614ec8a8e07c40b63a15838c05d08cb3115b820d57c19f108d79f12e8b",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified Spotlight locations, symbols/previews and initial importance versus later frequency order."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "28359a55be779217b8196244dc79e1b9140ecdb15ef08619fd188d0bafb26365",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified no App Shortcuts but App Intents custom composition support."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "8eae909bb96be6bbec66eae8f34dfee06ea936c687adadb12dbc71f0ceb39d19",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "f8a2745cc389b61887f7e57c14c91f17ac6f24743a2d95356bb04344b84eeb4a",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "dc7cae5d990cbc8a80c0e70826ff774b405d442c65a7d88a324c3061196e38ad",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "56108a722cf74a28c89a04fd408823f89c9b74ed3bdcdf33de498a3d0c770973",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "af946f03cd8ac1482c065668187bdbf1beceb118b792efc9c629e7891d3e3181",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "ff1f2a6152934279f6273c4b2cf78f3202321163a27c3ec496076ccf96b026fe",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "7bcebf920f4be36be61dd528655220341c8ae438cf4211f108e4648f606dcff3",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "96d4009735b20e0dd29a748fff99b9162f7bc6f8abf7ecbc97ca6c701b37d500",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/1/0/0",
+        "source_unit_hash": "6f585fa1a239d7cd279db778c80344b4ca3bdd1c2601af906b53d277e7be4412",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/1/1/0",
+        "source_unit_hash": "865e770d918e9424dfa9b24ad26cc0c9247eb5f548add70e5ae113ae2fe7ef93",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/2/0/0",
+        "source_unit_hash": "05ac618a54b21b5940bcbbde6000f4b16ad48f8eee00c36d0cb441cf7c5270db",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/2/1/0",
+        "source_unit_hash": "9cd38bd7b44b5c69d457a6110577b8973b573657ad703a6eb2c3219bc669c5e1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/3/0/0",
+        "source_unit_hash": "937d2d87f6be46489d91c6c598d77898e230787b56f889b2c1e16309f42a1ad2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/3/1/0",
+        "source_unit_hash": "81a93da0a554cc0183125fbd9de8fe226bc5a79d5a27f9174211a0ffc5780895",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "96d4009735b20e0dd29a748fff99b9162f7bc6f8abf7ecbc97ca6c701b37d500",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

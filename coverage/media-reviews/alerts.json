@@ -1,0 +1,47 @@
+{
+  "source_hash": "ae7311554792de01ebb602d3f331d64668a6cf465a56fce99d34f2a421c5030c",
+  "media": {
+    "alerts-freeform-delete-warning.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.629381+00:00",
+      "reference_metadata_hash": "9d29a4119e8f8863db7ad1f5a6c7bb97d6af641eb6d1e7cfc224a7eebca27e05",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/alerts-freeform-delete-warning.mp4",
+      "binary_hash": "260ab91f5b32c345ffa72dc53187743624848aca512203542bf0ae2792244ad7",
+      "review_method": "chronological six-frame contact sheet spanning the sequence, checked against article context; no exact timing or audio claim",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Permanent deletion produces a frontmost confirmation while its Freeform context remains behind it. The actual asset has no audio stream.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/alerts.md",
+          "hash": "6e646b69d4c8b08798ca926a3aea8f0864b146c87277e0bf67b6a5c77ea143b3"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/alerts.md#confirmation-attached-to-context",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/37"
+      ]
+    },
+    "alerts-shared-space-pinning-to-window.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.629504+00:00",
+      "reference_metadata_hash": "41300955958d928d498ab37dc6a7753bdd1e77884131c08330f65247bcb03c86",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/alerts-shared-space-pinning-to-window.mp4",
+      "binary_hash": "be49d50875ac2c91b3496ed3bf1dc873f23279cf02a85b8ba091b80a8059becb",
+      "review_method": "chronological six-frame contact sheet spanning the sequence, checked against article context; no exact timing or audio claim",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Open confirmation remains attached as its parent moves through different room positions. The actual asset has no audio stream.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/alerts.md",
+          "hash": "6e646b69d4c8b08798ca926a3aea8f0864b146c87277e0bf67b6a5c77ea143b3"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/alerts.md#confirmation-attached-to-context",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/39"
+      ]
+    }
+  }
+}

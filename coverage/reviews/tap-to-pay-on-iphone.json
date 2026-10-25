@@ -1,0 +1,1226 @@
+{
+  "review": {
+    "slug": "tap-to-pay-on-iphone",
+    "status": "reviewed",
+    "source_hash": "508d4f159f7be2f065120a9fe61b856155aa7121008fbe29ba6cc95c5355e5ce",
+    "destination_hash": "a109360359cd96ac83a119dd95447be366f4857a589cc382c969c987f21a565e",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:30:00+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "tap-to-pay-on-iphone",
+        "status": "reviewed",
+        "evidence": "Verified PSP/entitlement/ProximityReader prerequisites,coexisting hardware and PSP-owned UI note."
+      },
+      {
+        "source_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "status": "reviewed",
+        "evidence": "Checked status/necessary-only terms,preconfiguration/admin-only flow,alternate enterprise acceptance and required-iOS sequencing."
+      },
+      {
+        "source_anchor": "Educating-merchants",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "source_anchor": "Checking-out",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "status": "reviewed",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "source_anchor": "Displaying-results",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "status": "reviewed",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "source_anchor": "Additional-interactions",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Additional-interactions",
+        "status": "reviewed",
+        "evidence": "Checked nonamount lookup/store/verify/refund generic labels and separate nonpayment loyalty flow,combined/independent Wallet NFC passes."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified iOS-only and other platforms unsupported."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "9b7f9d8695d03b4177c040e2d862d88e3e7d3a31cde54c753b466b0a3ea48198",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "tap-to-pay-on-iphone",
+        "evidence": "Verified PSP/entitlement/ProximityReader prerequisites,coexisting hardware and PSP-owned UI note."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "feef66c692d83205a6f0c8ec79fb393afb6d56034cf3cca26056501650c37685",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "tap-to-pay-on-iphone",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified PSP/entitlement/ProximityReader prerequisites,coexisting hardware and PSP-owned UI note."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "2bec959c76fa966341272e9b663959eb1254d687509be911d89ddd39a2abc789",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "tap-to-pay-on-iphone",
+        "evidence": "Verified PSP/entitlement/ProximityReader prerequisites,coexisting hardware and PSP-owned UI note."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "362ead9d794e27583e7d3735bc199f0bb1445fed408222ce29bdfe2d5953a532",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "tap-to-pay-on-iphone",
+        "evidence": "Verified PSP/entitlement/ProximityReader prerequisites,coexisting hardware and PSP-owned UI note."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/content/0",
+        "source_unit_hash": "a46120acec8a0873ccd758bba6c784a22096046ffd5e8f5c109bc5d013b0027a",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "tap-to-pay-on-iphone",
+        "evidence": "Verified PSP/entitlement/ProximityReader prerequisites,coexisting hardware and PSP-owned UI note."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "c4ef674421ea1700beab3a872a8fd5131698abb96027189761d82b58ba822acd",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "tap-to-pay-on-iphone",
+        "evidence": "Verified PSP/entitlement/ProximityReader prerequisites,coexisting hardware and PSP-owned UI note."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "07a67a2226368086a1886fb52f35c7179dbe4ab4b84a01c28594d8fc986fba38",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "tap-to-pay-on-iphone",
+        "evidence": "Verified PSP/entitlement/ProximityReader prerequisites,coexisting hardware and PSP-owned UI note."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/content/0",
+        "source_unit_hash": "12a3d586cb35202bf79455425c1d22b9d42f7e268d6968231618cd62059fa3a3",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "tap-to-pay-on-iphone",
+        "evidence": "Verified PSP/entitlement/ProximityReader prerequisites,coexisting hardware and PSP-owned UI note."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "7fc556f798691e2bbfb844ef0a373cc9b3e8b319db482c5ebf83e7f31e3b90bc",
+        "source_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "evidence": "Checked status/necessary-only terms,preconfiguration/admin-only flow,alternate enterprise acceptance and required-iOS sequencing."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "35acb26a8bac29b579624896018543b72e39a1df2137c269276988c3a6b0603b",
+        "source_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "evidence": "Checked status/necessary-only terms,preconfiguration/admin-only flow,alternate enterprise acceptance and required-iOS sequencing."
+      },
+      {
+        "id": "primaryContentSections/0/content/8/columns/0/content/0",
+        "source_unit_hash": "315e0cd41405e2fc57bfb787fd304006663cb88831bc7f29ec8ef3f1a9e1b66b",
+        "source_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "evidence": "Checked status/necessary-only terms,preconfiguration/admin-only flow,alternate enterprise acceptance and required-iOS sequencing."
+      },
+      {
+        "id": "primaryContentSections/0/content/8/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "0c64b330c1c123f822e042ee716ade5d359fc670c3333a682eff7a8ecddfc05e",
+        "source_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked status/necessary-only terms,preconfiguration/admin-only flow,alternate enterprise acceptance and required-iOS sequencing."
+      },
+      {
+        "id": "primaryContentSections/0/content/8/columns/1/content/0",
+        "source_unit_hash": "ed05a9a11e1ba90a49d7c9cae4686e635025a8433d5abf4449a72d8fef06af4d",
+        "source_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "evidence": "Checked status/necessary-only terms,preconfiguration/admin-only flow,alternate enterprise acceptance and required-iOS sequencing."
+      },
+      {
+        "id": "primaryContentSections/0/content/8/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "5dd27d83d94b1724aa0d4d7b159e3a0c8b3be9fdb98f50dacfc84d3178a8e93a",
+        "source_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked status/necessary-only terms,preconfiguration/admin-only flow,alternate enterprise acceptance and required-iOS sequencing."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "0ac60dd62ed91987e75c48b98cac79f340302cc0635a89b4aac6730b1106b674",
+        "source_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "evidence": "Checked status/necessary-only terms,preconfiguration/admin-only flow,alternate enterprise acceptance and required-iOS sequencing."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "2b4707f483e960530b97bff17258cef8d9a1b611ecd774cc1f31112a8c1e2523",
+        "source_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Enabling-Tap-to-Pay-on-iPhone",
+        "evidence": "Checked status/necessary-only terms,preconfiguration/admin-only flow,alternate enterprise acceptance and required-iOS sequencing."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "39b6d2909a24c6f3cdd8c8c1a25893837a36c1cd9fe066f1ae667c90cef8e3bb",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "aad3768ca3a523792990ddbab7219f29b20470ff193c45e6cac2a9b735147496",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "1bd6b56db10cc52dc46f183412a384b155552b2b0c9ca7433b63e5a62971b0f8",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/items/0/content/0",
+        "source_unit_hash": "dd1b0f12db1a3781c7361461f0678a80bebe17e16828932cf093a9e9cbc47241",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/items/1/content/0",
+        "source_unit_hash": "9eacfa72e3733019d13920ce95fab8279c4e3d3f6af533e93a914f3521a06ea1",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/items/2/content/0",
+        "source_unit_hash": "063249898dc4589037487e8a756db72e5e91adb0e0d6d421120c317a31e07396",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/items/3/content/0",
+        "source_unit_hash": "166cdb1debeba6507c2b38d210e9d23dc933aefecc369d2495b515fc26150a85",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "9d5769b411a016089a88fc527b8e5092685995a41a5777aadb1f5ec28cc97301",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/0/content/0",
+        "source_unit_hash": "97da19209c54a86ec9b70064e6d7e77b6caaaecdc83a90acd893e6b0431f7e4f",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "68fe7198eb73bed8307ace1c2ffcba680f8f5563ad12c47f9c437799f3280e8d",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/1/content/0",
+        "source_unit_hash": "daa6221a66d41b38557fcf90dd0d0991e2ef2bc8457d42a512d1090a919248d0",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "ce9780e3f27ac844ccf50aedb9be914105090946af0c686d3bcf48552413051c",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "2da5ac0495e9a7cbb01ae93354c1d3ba71d12fb4f89df286639738a3eb025e75",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "2862022e11f60820516d18ba297c58bec44de676480f63a1469709903188cf51",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/items/0/content/0",
+        "source_unit_hash": "504edf1b5f036224d1a12422c4b465c681deeb0892f20dbe877ec79888136cbd",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/items/1/content/0",
+        "source_unit_hash": "5b54b0ef8e7e5e07f3d04049f1a1eb2d4bcf66dc6ca9830dc5831e3360d59b84",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/items/2/content/0",
+        "source_unit_hash": "6566daf5a6722757899c1226ced10519d3f7160f350d080aff19616c69138e8c",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "c39f130d174ca77ffe575950610160efd5439682a461542bccd68750f3e6babd",
+        "source_anchor": "Educating-merchants",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Educating-merchants",
+        "evidence": "Verified tutorial placement choices,current localized API/approved assets,each payment type/card positioning/PIN accessibility and final acceptance."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "d2a157995289344199d2c73a322405f0addfa018683b723bc28059385e0af1e1",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "24f466dbf873c1c34264ccef49ca56f0be40a689ddf9f192e982c0a2fd86744a",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/items/0/content/0",
+        "source_unit_hash": "7248664ee4668aa94de3345ea0f48724f14334f4f5243a21a312c9aee041319c",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/items/1/content/0",
+        "source_unit_hash": "caf5ca188d2d99ccddaa681c80f5bddc3ae787ba3cfe6330d8205191211a1e3f",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/items/2/content/0",
+        "source_unit_hash": "8acaba0e431c0e408892e4ea5b27cc311611cd7505b66c2a0d8f4b1e35c00096",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/items/3/content/0",
+        "source_unit_hash": "e2f6395f2ad073beb313789829170d5072c06f9345f9dfe8e92f99972d2ab0b8",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "c95e87a2acb541d3a4e4b9aa61bed650634540cb5a5c172874e873b9a7ecf6d1",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "653333d4d3b0dd555f3f8b56d44cdd7797139a4b6e3fbda9bbaaf03acdf3972e",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "11390bb20c8e198ad0143d8b5901c5beb41b45f935bf43fc42475a59ff2ed394",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/0/content/0",
+        "source_unit_hash": "5117c9e29cbb384b8766c0e696539fcff1e532824ade637e4ffbfd51590c2a37",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "1f15d34e368a75bb76a8096bc705035af5a3bcaa744224132145a51bbf196e77",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/1/content/0",
+        "source_unit_hash": "cccbc34f73dde0a5aa4461dbb837e28956702d450a836ddd37d0758c2a37c181",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "fb0c8e78f98992433085ed1f43d1d3e5f2add51bab429996b8cdda8dc453606d",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "2eeff0824a9699c7cc4e230eefe66fc8756cde14eed003629b9c2d1b0be951bd",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "b2aba291da8068965bf02eb15067b1f1ce4d4758f386265f4dc684d2562e2aa7",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "c594ba974e36c025e5ac2665b3d66ad8435f33d5982b446ce6cc0fb95aa4c3ae",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/0/content/0",
+        "source_unit_hash": "57c6e1820949ba39beec37b205e2ed03bcdc19ffaa81e4ca96b8b4b500b1f5b0",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "009a408c32181368fe1ffbaecc9a9f9d4656e0f0f80762573bb7e706c5a5bc3f",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/0/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/1/content/0",
+        "source_unit_hash": "e99c43146debc6911f93cb88e92cdb7e52f2624b8910127ec3b73f643e878e93",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "bb6f1e8212db68104ba6f886b73bae142176e86196116ebf18c749e5c54a6061",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/1/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "202ceec44b816acae6374741e83fff2c2390cc738ce3850c3f20d921599a35f3",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/content/0",
+        "source_unit_hash": "14ae162bb7c40754bd55be1b481dce1623ccbd12f98bb5f93ac3bb184353e3f4",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "255e388a6a800226c687e1f4dd40c43954695539706b35a7c79593598822c201",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "f0da0a4e676a5d9370c9519c007013ecf383d97444267cdeeca114afe644ceb7",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "9f4143d55e1513022e07feb07429f55a1632ee5ddb83fb81cb948f77ea939462",
+        "source_anchor": "Checking-out",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Checking-out",
+        "evidence": "Checked available-before-enabled/during-configuration,automatic continuation,prepare at startup/foreground,progress determination,prominence/sole-method exception,hardware switching,exact labels/symbols/no Apple logo and pre-read final totals/options."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "679d36e12ff03e69941342168b1a343e521cce96a6ff22e6eeec7cac401a07f4",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "d25287c98f38ee1a993b76eeb49928b3d4b74fc046b13b9ab8d32dcd2dbb33c8",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "8624800e22e2ad189eb25c02d7f7cf1b23c76629eab7a402a405c95ef189a390",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "59d8080a581f08e3feec7ac36f70ddadc02857d8f5972667123f764a9d35e9ac",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/inlineContent/0",
+        "source_unit_hash": "13807b8faf4c0cba7f06720e66eddb0c3be9f1635689ecdff0a902206c100d51",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "be70d75e6a5124caf3fd45523b13a399af081902f301a684f923c5f40d0e5b44",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/0/content/0",
+        "source_unit_hash": "6c1ef166900cedbc0dd207f9d5f07f843fee1eed640d898c8b7ae69424923503",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "4193204cff2b65f594a9bd627bda1b48b9c9de2ea5bf1144fa02d0e1c42da883",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/1/content/0",
+        "source_unit_hash": "2a7bd85cfb9771671da4a227075c70121d7fee558b2efc1b630171f991a77309",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "eafb11d4177d3cb31ab1dde33e4f2dbe1e9e0f02cc03d646ee852ac1d1ff8c79",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "860c1c381ea6e0e435b9066c07707fb9191ad4b23a3c4db8f735fd62999ff67a",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "8c35ff6946febd48ede3d3da4fb9a2093552797f7c8b97f8fe91cb63b2f00eaf",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/items/0/content/0",
+        "source_unit_hash": "55603e7c2b08ba72637426b60b547cd615d9bca11585db660a914a7af170f216",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/items/1/content/0",
+        "source_unit_hash": "7847940ed8b4b02555af7517236a3b283767f11f57ce4c77c9e576b6a13d4b7a",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/items/2/content/0",
+        "source_unit_hash": "50d32e57e9bc1a9c53b2821823fae44c04b2c622898a7c57ad2b2c56db79b877",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "5828dff20461b8ce300dfeabacb97018733e77299e27a28aba369b2a6335eea3",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/inlineContent/0",
+        "source_unit_hash": "796d51691f508a38d4dadaec052e97a7c03325f34a04e68c3dcb8283ffd7b4cf",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "75f09345fd1a19a87f39c8063eff6dd1e507ac702bbf9fc54a1deaa726b1a818",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "032a9bd5ed36f93ddc7eb0d54374f22cd8cc49f7160eeea196c7917da991ce5b",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/46/items/0/content/0",
+        "source_unit_hash": "3cb992f6440802898857d5aca10b90ff41301ee456c47a7a5d421bbd9753f73a",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/46/items/1/content/0",
+        "source_unit_hash": "0c936c437878ec005940335909aa1dc9920306cdc69eed93c5764d837344b0a0",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "046645fb24c0ff91fc1f5a6728ba2d1b6d497cd567da526de548ab79a1916fa5",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "4af82637e8fbf40d67221d327f485cdd40ccd19d771fe5b1dad895f0c22f59e0",
+        "source_anchor": "Displaying-results",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Displaying-results",
+        "evidence": "Verified read success versus transaction authorization,prompt encrypted-data processing/early-result option,post-animation progress,clear results/receipts,alternate methods,regional SCA/offline-PIN PSP guidance,actionable errors/support."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "830cf72863195cbc6eefaf4a8eb27bb541d3ed407a729ff7fb793935ec4f136a",
+        "source_anchor": "Additional-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Additional-interactions",
+        "evidence": "Checked nonamount lookup/store/verify/refund generic labels and separate nonpayment loyalty flow,combined/independent Wallet NFC passes."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "42ee14afc50ac9e0babb833322dfc83201c48e205c66bbb13cb8383c8388a740",
+        "source_anchor": "Additional-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Additional-interactions",
+        "evidence": "Checked nonamount lookup/store/verify/refund generic labels and separate nonpayment loyalty flow,combined/independent Wallet NFC passes."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "667264e05aeb1da36e650670d5b136f10d13b9441adc21d955d720a86e2363a7",
+        "source_anchor": "Additional-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Additional-interactions",
+        "evidence": "Checked nonamount lookup/store/verify/refund generic labels and separate nonpayment loyalty flow,combined/independent Wallet NFC passes."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "c5b7141b3a785ed4501ed832ba75e5227f79368881afa0e9a19589f77a696655",
+        "source_anchor": "Additional-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Additional-interactions",
+        "evidence": "Checked nonamount lookup/store/verify/refund generic labels and separate nonpayment loyalty flow,combined/independent Wallet NFC passes."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/columns/0/content/0",
+        "source_unit_hash": "18cae963c8160aca5d9bfa7a9ff5d8ecd046cda5887b2dd907f1d1bc0bd2caa7",
+        "source_anchor": "Additional-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Additional-interactions",
+        "evidence": "Checked nonamount lookup/store/verify/refund generic labels and separate nonpayment loyalty flow,combined/independent Wallet NFC passes."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "551148284dd65a4203fe94825927c1dfe810d94cfa3d5aa126bcf5bfcdcad0bf",
+        "source_anchor": "Additional-interactions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Additional-interactions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked nonamount lookup/store/verify/refund generic labels and separate nonpayment loyalty flow,combined/independent Wallet NFC passes."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/columns/0/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Additional-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Additional-interactions",
+        "evidence": "Checked nonamount lookup/store/verify/refund generic labels and separate nonpayment loyalty flow,combined/independent Wallet NFC passes."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Additional-interactions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Additional-interactions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked nonamount lookup/store/verify/refund generic labels and separate nonpayment loyalty flow,combined/independent Wallet NFC passes."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/columns/1/content/0",
+        "source_unit_hash": "60d9e7c3c4e163cdfd7b95ef20104961e2edd98a0335c5f5d01dfa00536f42dd",
+        "source_anchor": "Additional-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Additional-interactions",
+        "evidence": "Checked nonamount lookup/store/verify/refund generic labels and separate nonpayment loyalty flow,combined/independent Wallet NFC passes."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "f05bf760b51a3ab721c89780836bbf4b277c4db069cb40573656101c04afba86",
+        "source_anchor": "Additional-interactions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Additional-interactions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked nonamount lookup/store/verify/refund generic labels and separate nonpayment loyalty flow,combined/independent Wallet NFC passes."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/columns/1/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Additional-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Additional-interactions",
+        "evidence": "Checked nonamount lookup/store/verify/refund generic labels and separate nonpayment loyalty flow,combined/independent Wallet NFC passes."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Additional-interactions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Additional-interactions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked nonamount lookup/store/verify/refund generic labels and separate nonpayment loyalty flow,combined/independent Wallet NFC passes."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "a9c5f47866cdcaa0a2f7b18c749669bc3765e0087b9b8a89624355dd0a638fc7",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified iOS-only and other platforms unsupported."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "acd2a6f76f0339aa88be83888f66e98826b516f273b274e54df031c38bc7fdc1",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "458944e5462ab4d2833df263c1d01a288ed5ef6ceb4d428d4c368324adefe7fc",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "218ce9dc42fdaa3f0da33516e3df5e36ef3bd6aa38be4a312d5025c33ba823c9",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/63/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/63/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/63/rows/1/0/0",
+        "source_unit_hash": "69930eabe490e3d45c1fa15af338f21ed87dc5fa51bc4b808bf8089bbdd56495",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/63/rows/1/1/0",
+        "source_unit_hash": "0bd6fe927e29b2308f8321dba65bfd25d66465fb15a45a7a9086035beb786a4f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/63/rows/2/0/0",
+        "source_unit_hash": "1f8e7ff71a44e354d376abc5a1120f5d9bce9bff9d82d8d3c565101e36849ec8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/63/rows/2/1/0",
+        "source_unit_hash": "f6058530d261573013688eea49a3988c931ff72b6e559847994cb5fa68e3761e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/63/rows/3/0/0",
+        "source_unit_hash": "ee97ed3360f375cf12494ee4e7d72f84e29f4bffde07d5f99be33246e42f222b",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/63/rows/3/1/0",
+        "source_unit_hash": "248b4c5be45b1ef635c9683121210106fd8c934c27f3de672c50a183a9a2e161",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/63/rows/4/0/0",
+        "source_unit_hash": "ea6021512638756fcb39be44c5cb492cf7f4b4c67d7c547285252b9046997c1f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/63/rows/4/1/0",
+        "source_unit_hash": "2b51223a04b6c171a919f18337ffe529ccad775eb7bd4099563b266d35c0569e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "218ce9dc42fdaa3f0da33516e3df5e36ef3bd6aa38be4a312d5025c33ba823c9",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

@@ -1,0 +1,159 @@
+{
+  "review": {
+    "slug": "web-views",
+    "status": "reviewed",
+    "source_hash": "2837f03996f425ed0113f119eb80c1fcbb5367148ab54295b2b34859d8947664",
+    "destination_hash": "11269cd7a189e456a87cb4921f1081913957dd176a4d49c24b113d2f7a49a863",
+    "reviewer": "independent-coverage-auditor",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/web-views.md",
+        "destination_anchor": "web-views",
+        "status": "reviewed",
+        "evidence": "Checked embedded HTML/web-content purpose and mail-message example."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/web-views.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked explicit forward/back controls for multipage navigation, disabled-by-default behavior, brief contextual browsing, and discouraging Safari replication."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/web-views.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked no extra iOS/iPadOS/macOS/visionOS guidance and explicit lack of tvOS/watchOS support."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "4f07d79b67fcf14bfd5f537abe39613098dbf1cae1631769d3511207074411e5",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/web-views.md",
+        "destination_anchor": "web-views",
+        "evidence": "Checked embedded HTML/web-content purpose and mail-message example."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "7622525172d86950238ff4ab449a2bf320a6b9ed091eb83daef3ee2dd7deaa9f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/web-views.md",
+        "destination_anchor": "web-views",
+        "evidence": "Checked embedded HTML/web-content purpose and mail-message example."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "df1b11dc18d110db3e01fdcab43d49dd18f4fc20d645a96ebd75cab4e2740db4",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/web-views.md",
+        "destination_anchor": "web-views",
+        "evidence": "Checked embedded HTML/web-content purpose and mail-message example."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "6e9ab352fdc05b65245be19f4737757a1e20d067e30addbf6878650859459ad8",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/web-views.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked explicit forward/back controls for multipage navigation, disabled-by-default behavior, brief contextual browsing, and discouraging Safari replication."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "11da1c14b3ca436dad578a918d811b138265ca96d1f084c5a29aaf192d8cc631",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/web-views.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked explicit forward/back controls for multipage navigation, disabled-by-default behavior, brief contextual browsing, and discouraging Safari replication."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "7e7015638ea41a48f03d7f3a5105abf529d9a4b45c5653d3e8f9d1fe817faca4",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/web-views.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked no extra iOS/iPadOS/macOS/visionOS guidance and explicit lack of tvOS/watchOS support."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "24678da53572d7f094bb164a317d0bdbe3acabb6117c18fb643a403d15785c0a",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/web-views.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "060ae7ee419b66f90a7bb0a72c9417362e4b4a15b9e86e078e6f9521670894ca",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/web-views.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      }
+    ],
+    "tables": [],
+    "issues": [],
+    "reviewed_at": "2026-10-25T12:46:59.585643+00:00",
+    "evidence": "Independent complete source Markdown/structured-unit comparison and actual embedded-image inspection. Source resources treated as metadata. No author-provided coverage assertion used as approval."
+  },
+  "media": {
+    "components-web-view-intro.png": {
+      "id": "primaryContentSections/0/content/0/inlineContent/0",
+      "kind": "image",
+      "section": "overview",
+      "context": [],
+      "treatment": "guidance",
+      "reference_metadata_hash": "75aa38b70d59cd0b7acb6aadfdb046a7d469198984093fb30ce274bf708b273e",
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed the actual introductory illustration; it identifies the topic and adds no normative rule beyond the article.",
+      "review_method": "actual-asset contact-sheet visual inspection plus source-context/local-guidance comparison",
+      "classification": "decorative",
+      "destination": "skills/apple-hig/subskills/apple-hig-content/references/web-views.md",
+      "destination_anchor": "web-views",
+      "destination_hash": "11269cd7a189e456a87cb4921f1081913957dd176a4d49c24b113d2f7a49a863",
+      "binary_hash": "58f26d8d26cd276cf1804278cdf5d5f6837179a60f8fa9b59296c09dbaed3052",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-web-view-intro@2x.png",
+      "appearance_variant_disposition": "Final actual paired inspection completed; the decorative appearance contains no additional design rule.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-content/references/web-views.md",
+          "hash": "11269cd7a189e456a87cb4921f1081913957dd176a4d49c24b113d2f7a49a863"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-web-view-intro~dark@2x.png",
+          "binary_hash": "e58a3a22c2a410747e237101b9320e14a28d8b388e64805c6968793a719e80fb",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "reviewed_at": "2026-10-25T13:51:33.696340+00:00",
+          "review_method": "actual primary/alternate image-pair visual comparison in the final decorative-alternate gallery",
+          "evidence": "Actually compared the themed device/component illustration pair. Only appearance/background/foreground contrast changes; the device silhouette or sample content remains equivalent and adds no independent normative rule."
+        }
+      ]
+    }
+  }
+}

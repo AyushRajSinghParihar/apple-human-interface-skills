@@ -1,0 +1,395 @@
+{
+  "review": {
+    "slug": "settings",
+    "status": "reviewed",
+    "source_hash": "56167544505847e0037577f7c3b2cd648cff80ec7db81e4af4efb9b467c35e27",
+    "destination_hash": "12d0e174d13eab3f582a95b56c1e6c502f00e358b4a2b791a3631edc0490ee59",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:21:18.817044+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "settings",
+        "status": "reviewed",
+        "evidence": "Verified defaults/system respect and placement distinction among app-wide, task-local and system settings."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Retains automatically optimized defaults/capability detection, few settings, Command-Comma/game Escape, and no duplicate systemwide accessibility/scroll/authentication preferences."
+      },
+      {
+        "source_anchor": "General-settings",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "General-settings",
+        "status": "reviewed",
+        "evidence": "Experience-wide infrequently changed choices retain window, save, key-map and account examples."
+      },
+      {
+        "source_anchor": "Task-specific-options",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Task-specific-options",
+        "status": "reviewed",
+        "evidence": "Filtering/reordering/view visibility remain local to their effects; game task approaches remain gameplay."
+      },
+      {
+        "source_anchor": "System-settings",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "System-settings",
+        "status": "reviewed",
+        "evidence": "Retains rarest options only in system Settings and useful direct linking."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified the explicit absence of further platform rules; the local platform scope matches the source."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Verified App-menu Settings versus File document options, stable noncustomizable visible pane toolbar/selection, dim minimize/zoom, current-pane or App Name Settings title, restored last pane."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "No custom system Settings entries; small essential set at main-view bottom or More remains explicit."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "410d74efcbd67cc948a7f2649df3ffc33aa20971ac497a33556eb9246a142735",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "settings",
+        "evidence": "Verified defaults/system respect and placement distinction among app-wide, task-local and system settings."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "a407bb6c37ad124f57b49a89aff180b6fc944d05997ee57464c4d03ecc47723a",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "settings",
+        "evidence": "Verified defaults/system respect and placement distinction among app-wide, task-local and system settings. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "dd013a6185d756d0dc4662d31a017544c1ee7fa90fd77a45c005b50f1da0ab44",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "settings",
+        "evidence": "Verified defaults/system respect and placement distinction among app-wide, task-local and system settings."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "7357d07d06b0a29e1cde53f42bc0102350df511a552772a505616c2c94ed5a47",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "settings",
+        "evidence": "Verified defaults/system respect and placement distinction among app-wide, task-local and system settings."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "012d4d5021d9468ca82711e924ca0b74c13a797bca13364069586559c444f270",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains automatically optimized defaults/capability detection, few settings, Command-Comma/game Escape, and no duplicate systemwide accessibility/scroll/authentication preferences."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "b9712688bb305ad99d9810f0c47ba6002567e2f80c8d420c9f6cadf8a5ba8f17",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains automatically optimized defaults/capability detection, few settings, Command-Comma/game Escape, and no duplicate systemwide accessibility/scroll/authentication preferences."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "6f935ddf28ca67578f3a8fc200b9e55af5b21f1546a52759a76c44548127a9c0",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains automatically optimized defaults/capability detection, few settings, Command-Comma/game Escape, and no duplicate systemwide accessibility/scroll/authentication preferences."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "780a9dd317428df798bda34b2ae006556e1a6c7328da5a916ac177e8341e427d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains automatically optimized defaults/capability detection, few settings, Command-Comma/game Escape, and no duplicate systemwide accessibility/scroll/authentication preferences."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "1dec8a279c5f5a9d0a34435996ce9abcaeca21bce2d80e4c01ef32d00797a98f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains automatically optimized defaults/capability detection, few settings, Command-Comma/game Escape, and no duplicate systemwide accessibility/scroll/authentication preferences."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "15547c729997df61d058f6146e6be9bdd4b4ac0b48c854a860ff8959e3439232",
+        "source_anchor": "General-settings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "General-settings",
+        "evidence": "Experience-wide infrequently changed choices retain window, save, key-map and account examples."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "2a23ffeca222d22f7791c04cbecbe681bd2e09b59348f86cb565293172c04102",
+        "source_anchor": "Task-specific-options",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Task-specific-options",
+        "evidence": "Filtering/reordering/view visibility remain local to their effects; game task approaches remain gameplay."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "7db8897278a6ff24f56beac3bbdf14708252845b7e011fed650078048381df34",
+        "source_anchor": "Task-specific-options",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Task-specific-options",
+        "evidence": "Filtering/reordering/view visibility remain local to their effects; game task approaches remain gameplay."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/content/0",
+        "source_unit_hash": "7d967f9d1caf44150f568f081f0da1d19f22348fcb6cf920e8ba220ed9e550a3",
+        "source_anchor": "Task-specific-options",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Task-specific-options",
+        "evidence": "Filtering/reordering/view visibility remain local to their effects; game task approaches remain gameplay."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "6962c62be37c39f3db1c4d2b33e7eed99eb2fbbed0d962469ac82f78526c56c9",
+        "source_anchor": "System-settings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "System-settings",
+        "evidence": "Retains rarest options only in system Settings and useful direct linking."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "cfc25f56eb8e6e1c18c84023a9ae8013b41e558176831ded8720ee09a9454f9b",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified the explicit absence of further platform rules; the local platform scope matches the source."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "c224ac2f226bbe5a0c975afb8625e9e7785811d84563a8b72606e63c3155db93",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified App-menu Settings versus File document options, stable noncustomizable visible pane toolbar/selection, dim minimize/zoom, current-pane or App Name Settings title, restored last pane."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "0e0ecec7457b2d54773e692f31eff80b0fe3817b815c9c8e7a565ace7627523d",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified App-menu Settings versus File document options, stable noncustomizable visible pane toolbar/selection, dim minimize/zoom, current-pane or App Name Settings title, restored last pane."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "33e8203d5104cc778c1f7411b4def507ad683eec8c720bfed24feefb2f4e4e86",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified App-menu Settings versus File document options, stable noncustomizable visible pane toolbar/selection, dim minimize/zoom, current-pane or App Name Settings title, restored last pane."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "17c39535313b520d07b579aac000cff0fc05b36102c8dbcdee6b09d1a7ef791a",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified App-menu Settings versus File document options, stable noncustomizable visible pane toolbar/selection, dim minimize/zoom, current-pane or App Name Settings title, restored last pane."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "2db48bdb1a26c7b324517336277392992c7e0a7055fd3fb775718aa48d90e8d7",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified App-menu Settings versus File document options, stable noncustomizable visible pane toolbar/selection, dim minimize/zoom, current-pane or App Name Settings title, restored last pane."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "389bbea4ca08e244dc08699a16cdff3fca1ab5d8e638e1be203dc076f568d73a",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified App-menu Settings versus File document options, stable noncustomizable visible pane toolbar/selection, dim minimize/zoom, current-pane or App Name Settings title, restored last pane."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "63af6584c32b490e4cad7fcc8e3e4877629b46e653918315f20bee84e53beed4",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "watchOS",
+        "evidence": "No custom system Settings entries; small essential set at main-view bottom or More remains explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "21c110f4b3ffd0aa7367b4bc7a82b6508900d0dd0c180faf47183781dcf80ecb",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "86e403392cc0bef10001ef4f3d01bc61785a28d0a3a8d4606890ed529b5d9f53",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "9dfc6d848b6f93b9fc0d4d8abdcfb2b12d311d82df6dac30b2fab555ab04e86e",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "598fee035a4b365f836debf308a4a597bb14753d8e83a931a34d84dc88aa66fd",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "b3ffd471452bdb11dfad2527bb6dadcbe7ddb9c87b500f98f025c87dfc3bd2e4",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/35/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/35/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/35/rows/1/0/0",
+        "source_unit_hash": "6fbfd8192538c86013ae1170ead307313ca6290dbe20e9b9a262d8ed4dbef179",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/35/rows/1/1/0",
+        "source_unit_hash": "e79f87f73c55decfd8ea6bc1c96487d522e16dc8ffc68dc66ae7bc7253e629c8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "b3ffd471452bdb11dfad2527bb6dadcbe7ddb9c87b500f98f025c87dfc3bd2e4",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

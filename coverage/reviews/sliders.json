@@ -1,0 +1,508 @@
+{
+  "review": {
+    "slug": "sliders",
+    "status": "reviewed",
+    "source_hash": "81d69aa1e84ee39eec378fa34f57b953e9ed03bbc1621ba26bac45832566924e",
+    "destination_hash": "c411451ab4b7e91b5b78ff9c4f49402526658fc4dcf1fffc7065c34690f6451f",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:06:04.861060+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "sliders",
+        "status": "reviewed",
+        "evidence": "Checked bounded thumb/track, filled leading segment and optional endpoint imagery."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified purposeful appearance customization, leading/trailing and bottom/top ordering, exact field/stepper companions."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified TV exclusion."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Checked system volume-view requirement with output-device control."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Verified horizontal gesture preference."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Checked discrete/continuous tracks, fixed side-button increments and custom glyph option."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "27b4f79dc0e57cefb05c7aa7a8e985892d6df1175ba3b92dcf467bc8f1c9d40f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "sliders",
+        "evidence": "Checked bounded thumb/track, filled leading segment and optional endpoint imagery."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "ad180d71c6a3c445721fc65952a634458bc380ac09a31540747253030835c7d5",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "sliders",
+        "evidence": "Checked bounded thumb/track, filled leading segment and optional endpoint imagery. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "6ce34d99b331f8ba3182dd7f5e7a5c7059db407e5c49a950b409e2aae0ceb864",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "sliders",
+        "evidence": "Checked bounded thumb/track, filled leading segment and optional endpoint imagery."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "72f7307445a816c44358fc221a00175fbc9955689ff324aa20f56c8b5cc69cae",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified purposeful appearance customization, leading/trailing and bottom/top ordering, exact field/stepper companions."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "6f10e7a0badc9c00d9945474aefe2788ea54a69f6d7e73f849bdd3c8d3755724",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified purposeful appearance customization, leading/trailing and bottom/top ordering, exact field/stepper companions."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "5b02b80515dac9e38103d10733106b174d39377ea1aaaa0330bdaeecd594d450",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified purposeful appearance customization, leading/trailing and bottom/top ordering, exact field/stepper companions."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "895eba1dba1959b92313376aafc0c7acbf1b6aff12706ce1ac0a4800f9cf9a0e",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified purposeful appearance customization, leading/trailing and bottom/top ordering, exact field/stepper companions."
+      },
+      {
+        "id": "primaryContentSections/0/content/6/inlineContent/0",
+        "source_unit_hash": "50977a7927259ebba5de1e36cdcd7c4d9a854abd4b43c7bd8df41a1431e247fb",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified purposeful appearance customization, leading/trailing and bottom/top ordering, exact field/stepper companions. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "235f21fc4364bb815b0c154616aeec143d31b5b3dc8b2c42682d39d23ee7a6ad",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified TV exclusion."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "326f8df999ff824fca1ef3740f85dbaf624ca1224c6207445f1db6abfe77821c",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked system volume-view requirement with output-device control."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "848cde4e02e8c1b37a38064cb0634df959cf3f86443e1b7882b319bf654b7396",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "c3bd972bce5bbf6a982c3db98e1571cd774740e60cd2d5a03c93476f07ea53d2",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "d1ad21d413970a5b9c9d9995a65957fce3b573d14c1965a81fb11423a78ea40e",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/0/content/0",
+        "source_unit_hash": "a10c75b021dbe8b842f3e6db6cca03b0afdc64318648c01c06a9f26b4f63883e",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "2e0946facb6d7f7f57511809a2e683b9b636ae58da6a6c956d126f6c6c8f971b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/1/content/0",
+        "source_unit_hash": "28fb779fef08fba29e44b905a14f8425d6ce1eaa7de603a6a3384543a253c69c",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "972bacc6271d08e03f88c9967aab18f82c811fea941ac06fe72faa4789e3f046",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/2/content/0",
+        "source_unit_hash": "dac29d5c0c3f3e825a0d1ea0ac13ba6bc0e13bf778080353b85410192736dd2e",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "a3e44de6d6f692039948c4553d5064ad1aba91e602d1b5c4105a36b7b006e87f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "7977aa4215bb27229ce888c73f8881b350ffa69bcb242c0dca06ed128906d56e",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "18b66c7426c75570534da34cf954f2e9a62bca453aa1aa31d5efdd90a6eb1b93",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "588886b3fced80b8f1697d460cd829e917ac31494e2c4f7b511f3ce08e97083d",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "a4d90ef37af35c382ae2d2f6fc7e82b5e90243426c0f69b47542a8cfbaa20d29",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "c2e9a544f17d4bee119714109bb46a1972345f144054247148837a1c56dbc868",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/inlineContent/0",
+        "source_unit_hash": "a003762ba8a15789d1ab295a88b87d5c77d8c0b7aa4741c3625fc1755c6e73ff",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "4c90f8dd4e6a0129157b6e4dd97849cd62cc5b3727d44922f8f4fadec32b86ff",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified linear/circular thumb/tick forms, live feedback, finite versus repeating ranges, 4 turns=1440°, sentence-case colon label, nonlinear tick labels and current-value tooltip."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "e69e75bd132282e96d7adc6ffc08b2abfcd0aa3ebb860430b3824b07549e2620",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified horizontal gesture preference."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "b7ff0456899b8a954c5f2b340f129080853593b025dbcc547568f8a9da8d32a5",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked discrete/continuous tracks, fixed side-button increments and custom glyph option."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/0/content/0",
+        "source_unit_hash": "04420847c0c183c30132683df483d46f85773b921585662164f698796bc87566",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked discrete/continuous tracks, fixed side-button increments and custom glyph option."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "664a3c69e9d55c7d763cc032efb5c6727bec6120d8624d0de15eb53ff3f263b4",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked discrete/continuous tracks, fixed side-button increments and custom glyph option. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/1/content/0",
+        "source_unit_hash": "b940345ca19bd40047efaadeaf795f69dc36948911ca509671e99a14e9805511",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked discrete/continuous tracks, fixed side-button increments and custom glyph option."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "2823eea05ac7f844d8476c4d530cc0c509b1576805e05d9f2a0861b88091f1e8",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked discrete/continuous tracks, fixed side-button increments and custom glyph option. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "ae7e65a095b09dbf237e627cf0c2820aac3d06fcce7807946f65bea3474d5a3a",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked discrete/continuous tracks, fixed side-button increments and custom glyph option."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "0e9d3f3849f42a1841f245982e0d132439cfa0a28769c4f2ffc04ded710c06b2",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "1e601d013dc2a5440c6d6dd7822de9eca645836646e1cfa4f91b3b2989af9e1c",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "0a3111cf7e50103993bddfcda3296a664534f2bab1cddb8dfada02b92b2578e2",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "8ee15bb0076dc80ee2f7ce6a0f5c6ce65f231a2cee73e95031148ac00d81fbdf",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "3f82a0d92fdbea59ae29e8d8cab7e674d5d08fc8628f1e0426360f44b63fa844",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "69a083956f45ac0edfa9f5f180520301584001537c7f2f9969e46170630df53e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/1/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/1/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "69a083956f45ac0edfa9f5f180520301584001537c7f2f9969e46170630df53e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

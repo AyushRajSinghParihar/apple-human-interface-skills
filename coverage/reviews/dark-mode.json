@@ -1,0 +1,683 @@
+{
+  "review": {
+    "slug": "dark-mode",
+    "status": "reviewed",
+    "source_hash": "03503a18d5db7d9a18d9a1d863c2b9f0464258f4c7cd514677f320d5d9147927",
+    "destination_hash": "49f104ff7eae33235be57e03c4525a524a95cb3d02c78c7bddfbc8aa577db9c8",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:11:59+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "dark-mode",
+        "status": "reviewed",
+        "evidence": "Checked supported appearance platforms and semantic dark palette rather than simple inversion."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked no redundant app switch, Auto transitions, combined/separate contrast/transparency tests and immersive dark-only exception."
+      },
+      {
+        "source_anchor": "Dark-Mode-colors",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Dark-Mode-colors",
+        "status": "reviewed",
+        "evidence": "Checked adaptive semantics/asset variants, 4.5:1 minimum and 7:1 custom/small-text aspiration, plus softening white imagery."
+      },
+      {
+        "source_anchor": "Icons-and-images",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "evidence": "Checked adaptive symbols, necessary outlined/mode-specific icons and single asset-name variants."
+      },
+      {
+        "source_anchor": "Text",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Text",
+        "status": "reviewed",
+        "evidence": "Checked four label roles and system text/vibrancy handling."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "No extra TV and unsupported Vision/watch Dark Mode retained."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Checked dim base versus brighter elevation across modal/multitasking/multiwindow states."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Checked graphite desktop tinting, neutral bezelled/background transparency and no color-meaning fluctuation in active colored states."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "1a5b2840af7ade0f404dc0a88426231eb73ad2ba2d5904eaf126510b60997b6f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "dark-mode",
+        "evidence": "Checked supported appearance platforms and semantic dark palette rather than simple inversion."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "0a33bf20f3ef66eebab8716b4f37be31d2260e841a0c97fb654fb28daff644ca",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "dark-mode",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked supported appearance platforms and semantic dark palette rather than simple inversion."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "b583f5ed2a1a8359ab265e63ee8588f5e7a9b63374ea490699296a0430e74f32",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "dark-mode",
+        "evidence": "Checked supported appearance platforms and semantic dark palette rather than simple inversion."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "2622e95fbe6556ed0fe5ae192e94958a16b8e3f2f3f6cff2e3f13489328d5af0",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked no redundant app switch, Auto transitions, combined/separate contrast/transparency tests and immersive dark-only exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "49512ba799a9f5d7d7693e3041f0186032e993044b68533d201fc76686cdd44e",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked no redundant app switch, Auto transitions, combined/separate contrast/transparency tests and immersive dark-only exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "a841065a56a746bc15c370dc1c3d2df7253a8bec6f94a1d5329ade7e607ae00e",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked no redundant app switch, Auto transitions, combined/separate contrast/transparency tests and immersive dark-only exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "ce96a8cfc1b7fcc5785ad18a9668f41c70429963bb526e9080d606601f023dd2",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked no redundant app switch, Auto transitions, combined/separate contrast/transparency tests and immersive dark-only exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "8958c642a5c900ca358abd973e54ef1c2025d7dc4f336b2ca0dbef8e72ea9559",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked no redundant app switch, Auto transitions, combined/separate contrast/transparency tests and immersive dark-only exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/inlineContent/0",
+        "source_unit_hash": "360d1d85bfacb1f1b1fb0493643a680d2d78c01c7b191b538e2163be967e76f8",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked no redundant app switch, Auto transitions, combined/separate contrast/transparency tests and immersive dark-only exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "a9782ad7b2803d96a7d74e8348f01322f9a474f9e7f6a50cc3614c5335274803",
+        "source_anchor": "Dark-Mode-colors",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Dark-Mode-colors",
+        "evidence": "Checked adaptive semantics/asset variants, 4.5:1 minimum and 7:1 custom/small-text aspiration, plus softening white imagery."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "a088e62bf01789adbaf44c7cc3feaa3f63462c4f6f31c6038d11897f102ebbc8",
+        "source_anchor": "Dark-Mode-colors",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Dark-Mode-colors",
+        "evidence": "Checked adaptive semantics/asset variants, 4.5:1 minimum and 7:1 custom/small-text aspiration, plus softening white imagery."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/0/content/0",
+        "source_unit_hash": "02f327b6dee9556b6eca123d0dbd52631aaf5b211643b9b09e4d9afb1180c96c",
+        "source_anchor": "Dark-Mode-colors",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Dark-Mode-colors",
+        "evidence": "Checked adaptive semantics/asset variants, 4.5:1 minimum and 7:1 custom/small-text aspiration, plus softening white imagery."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "0c25e7c6d31625add818d2e1e71ee93f330ec1a470278b47ea0d22463bee644d",
+        "source_anchor": "Dark-Mode-colors",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Dark-Mode-colors",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked adaptive semantics/asset variants, 4.5:1 minimum and 7:1 custom/small-text aspiration, plus softening white imagery."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/1/content/0",
+        "source_unit_hash": "3c51f00875eb2d020c6f6ecae498e9793dbebea34bf62f8e52f16b4740618cc2",
+        "source_anchor": "Dark-Mode-colors",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Dark-Mode-colors",
+        "evidence": "Checked adaptive semantics/asset variants, 4.5:1 minimum and 7:1 custom/small-text aspiration, plus softening white imagery."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "2033b9328f7f0a563f5f50273f4063a1a67588e5bbb13bbba517f94dc14c80d4",
+        "source_anchor": "Dark-Mode-colors",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Dark-Mode-colors",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked adaptive semantics/asset variants, 4.5:1 minimum and 7:1 custom/small-text aspiration, plus softening white imagery."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "5b2aa3fe8081747ba61f79dcfa957599fc2593799953f11a68b738ff2f3089a1",
+        "source_anchor": "Dark-Mode-colors",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Dark-Mode-colors",
+        "evidence": "Checked adaptive semantics/asset variants, 4.5:1 minimum and 7:1 custom/small-text aspiration, plus softening white imagery."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "964eb9dbc07a5205da1579a5a77684760b8871e1f625ab56ebf3adec9962ae2d",
+        "source_anchor": "Dark-Mode-colors",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Dark-Mode-colors",
+        "evidence": "Checked adaptive semantics/asset variants, 4.5:1 minimum and 7:1 custom/small-text aspiration, plus softening white imagery."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "c8b46c26d18bb72a76641c0ba9adf9fd1c7124b6b1ba3d51a73e547c4f1c7656",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Checked adaptive symbols, necessary outlined/mode-specific icons and single asset-name variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "e1d783704e292bf9679d6d92ba1559cfeaff43fd005e10b028b20b3112e6ffb7",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Checked adaptive symbols, necessary outlined/mode-specific icons and single asset-name variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "b1e8969f2c6c36f211e53b4f93aadba79840caf8bd62c28ea8b9242b14b8e542",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Checked adaptive symbols, necessary outlined/mode-specific icons and single asset-name variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/columns/0/content/0",
+        "source_unit_hash": "a249e0c1b79b408f7d57cd192ec27e77906e19aca2a7af83c70ac5b062cf8c5d",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Checked adaptive symbols, necessary outlined/mode-specific icons and single asset-name variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "2ca8f061d09b74c8f77f6301a7f931e8b3477792371e0006c59a47f58ad3d549",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked adaptive symbols, necessary outlined/mode-specific icons and single asset-name variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/columns/1/content/0",
+        "source_unit_hash": "ca1b84cc287ebbe3648ba451fd88895d66a0d83aa582f9c8d36556fdb1d266e0",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Checked adaptive symbols, necessary outlined/mode-specific icons and single asset-name variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "41d1afe71a9ee30163abe3e80e8c061787ad1a59565e75fcb883b143415d4a54",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked adaptive symbols, necessary outlined/mode-specific icons and single asset-name variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "4e477d9f993c8b483a70e5ca6764c76febafc222e7f10a012252da61cb343c6b",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Checked adaptive symbols, necessary outlined/mode-specific icons and single asset-name variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/columns/0/content/0",
+        "source_unit_hash": "a746de879f7247aa6aadf35402f3067ff6899cda061a26ab4d2ef1076da73e84",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Checked adaptive symbols, necessary outlined/mode-specific icons and single asset-name variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "d78aaad84ce7edc91e3b3019316ad2c0384f73ccd6cac82f9fb785c27802b0cc",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked adaptive symbols, necessary outlined/mode-specific icons and single asset-name variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/columns/1/content/0",
+        "source_unit_hash": "c7da7a344bea87bd45f8c495b85b3b908efcd92ada5b73f255376cfa1b6ac7d1",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Checked adaptive symbols, necessary outlined/mode-specific icons and single asset-name variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "10cf42ca1bd16cc375f26ee72fda206c17e98e39797c7ed100bb9a4627459415",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked adaptive symbols, necessary outlined/mode-specific icons and single asset-name variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/columns/2/content/0",
+        "source_unit_hash": "83ce4083bdbfb04279f5a00ee876d4b22a32a723f0f4dd5d66b537dd1ef1cd5b",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Checked adaptive symbols, necessary outlined/mode-specific icons and single asset-name variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "868b4f678efd322ebb34db2995fcc742e7c16db8404b439b15927cdecb4a2318",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked adaptive symbols, necessary outlined/mode-specific icons and single asset-name variants."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "92c0df5859ef06b7734d89daca443a07cafa064a976b39a9e49e664383fe53c1",
+        "source_anchor": "Text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Text",
+        "evidence": "Checked four label roles and system text/vibrancy handling."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "ecf2211c8441e9b74ad833002b7b20031338ff1335e4bff6d07d39fe2bf1c007",
+        "source_anchor": "Text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Text",
+        "evidence": "Checked four label roles and system text/vibrancy handling."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/0/content/0",
+        "source_unit_hash": "55c0cafa3645bdbc19d50b6eb7ef7015bfb94357cbfbdd68d210acb6fe79a052",
+        "source_anchor": "Text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Text",
+        "evidence": "Checked four label roles and system text/vibrancy handling."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "55af1ee712fb87fbec858554abb26de41471c2b44fc2a1476389a55bf59d9acd",
+        "source_anchor": "Text",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Text",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked four label roles and system text/vibrancy handling."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/1/content/0",
+        "source_unit_hash": "19055339340004fdb85d2eb2713bc4153c79be565ec2e0c14b5498bcf16976de",
+        "source_anchor": "Text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Text",
+        "evidence": "Checked four label roles and system text/vibrancy handling."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "9ebbdc93b163c9f8ad5a0a335ac71939feb40b8b81867f1cd8d836c3150471cb",
+        "source_anchor": "Text",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Text",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked four label roles and system text/vibrancy handling."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "616b7074b743463d8ff59a2004c7b0e4e523ae0bc346e1d647de1699dc1e99d3",
+        "source_anchor": "Text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Text",
+        "evidence": "Checked four label roles and system text/vibrancy handling."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "cdbe88b127566ee96a456253843e523707f39651d9e3b088149205be67303e25",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "No extra TV and unsupported Vision/watch Dark Mode retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "982a938de603889dcfff84fc866afd21a7a5945cb3b8d6caad920cbe3e61c2e5",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked dim base versus brighter elevation across modal/multitasking/multiwindow states."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/0/content/0",
+        "source_unit_hash": "c3f64c74f9490c6a832c83b4f9def975fb79d9849504d596e5da6bc1a42425e3",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked dim base versus brighter elevation across modal/multitasking/multiwindow states."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "773557520c294aff176b114e20c94144d62849cfa5334b26a1504e323a9d4bc0",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked dim base versus brighter elevation across modal/multitasking/multiwindow states."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/1/content/0",
+        "source_unit_hash": "cc8fedc24c8432f676144d81d5ddfac90f7468e10c0ffe178b6a884c72094f3e",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked dim base versus brighter elevation across modal/multitasking/multiwindow states."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "1fde5b3bd26d2832c42663d75b6d20f56fb96cabb00a3f0dd1ad52fa474f6a60",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked dim base versus brighter elevation across modal/multitasking/multiwindow states."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/2/content/0",
+        "source_unit_hash": "66a7953ed8f5603455d1f1d65d9dcb9acd6b2344a74a4c9172c495194407015d",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked dim base versus brighter elevation across modal/multitasking/multiwindow states."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "d4d6b7f2e0829daf735135f9be29d96239c762d2358b65ced88440945271df25",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked dim base versus brighter elevation across modal/multitasking/multiwindow states."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "6db963bfba5f24284b706f827971089d6b534aa159fe85897c85c3fd8aa5d308",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked dim base versus brighter elevation across modal/multitasking/multiwindow states."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "d35fbebfd1aafb998d1c3faceabf573cf0d79a517d61f67acde0cefff7260487",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked graphite desktop tinting, neutral bezelled/background transparency and no color-meaning fluctuation in active colored states."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "d3a2a7e8d52bb936d5480ba5c29c03b3e9c93f86f3ccd230666f0922aa18ff99",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked graphite desktop tinting, neutral bezelled/background transparency and no color-meaning fluctuation in active colored states."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "ea7c5dbc5065c266c7ba326d077e501bfe54f74749d967e289e4c18f838d428d",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "9598f58b62313f6df6758483791228d9a51d2391baecf7acb9a71926a4a6d2b2",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "1b85a85e09bd0823d5e826066546b4df66c92d0ab1c227e87ab69087b3de2e30",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "c805e071a880e88bc998671b0759c4b898a322045fa16a2567b4343c0918070e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/1/0/0",
+        "source_unit_hash": "39d9a643a6e12f9fab40622b0131d46817e80c52d21dede6e7e8d4030bc0722d",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/1/1/0",
+        "source_unit_hash": "e9e41d20ae4507e435295d33647e1fd1d11ccd2046112429dd5bd9b9d4f6f87c",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "c805e071a880e88bc998671b0759c4b898a322045fa16a2567b4343c0918070e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

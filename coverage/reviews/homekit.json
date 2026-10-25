@@ -1,0 +1,2831 @@
+{
+  "review": {
+    "slug": "homekit",
+    "status": "reviewed",
+    "source_hash": "895e43a16f1abe5e454fc28aa0a2681e09f32d4cfe604b77423fe732128e7156",
+    "destination_hash": "c6bafb1fa1c12c033810f6bcb4f2a4fd53a84a6b862d8b6ba6e70ff0a8d76fa7",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:25:50+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "homekit",
+        "status": "reviewed",
+        "evidence": "Verified secure Siri/Apple Home accessory integration and setup/configuration/automation/support roles."
+      },
+      {
+        "source_anchor": "Terminology-and-layout",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Terminology-and-layout",
+        "status": "reviewed",
+        "evidence": "Checked hierarchy, accessible room/zone/home detail, multi-home support and no duplicate Home settings."
+      },
+      {
+        "source_anchor": "Homes",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Homes",
+        "status": "reviewed",
+        "evidence": "Verified separate root per meaningful physical home/office location."
+      },
+      {
+        "source_anchor": "Rooms",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Rooms",
+        "status": "reviewed",
+        "evidence": "Checked names without size/location attributes and grouped voice control."
+      },
+      {
+        "source_anchor": "Accessories-services-and-characteristics",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Accessories-services-and-characteristics",
+        "status": "reviewed",
+        "evidence": "Verified physical accessories/categories, switches matching controlled type, independent services, characteristic attributes, meaningful UI names, Siri service naming and grouped service control."
+      },
+      {
+        "source_anchor": "Actions-and-scenes",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Actions-and-scenes",
+        "status": "reviewed",
+        "evidence": "Verified characteristic change/action versus multi-action scene and API action-set terminology exception."
+      },
+      {
+        "source_anchor": "Automations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Automations",
+        "status": "reviewed",
+        "evidence": "Checked location/time/accessory/sensor triggers."
+      },
+      {
+        "source_anchor": "Zones",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Zones",
+        "status": "reviewed",
+        "evidence": "Verified optional multiroom grouping."
+      },
+      {
+        "source_anchor": "Setup",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Setup",
+        "status": "reviewed",
+        "evidence": "Checked system setup first, all setup features/purpose string, no required personal account, optional postsetup services, no forced other platforms and customized features after basic use."
+      },
+      {
+        "source_anchor": "Help-people-choose-useful-names",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "source_anchor": "Siri-interactions",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "source_anchor": "Custom-functionality",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-functionality",
+        "status": "reviewed",
+        "evidence": "Verified custom-versus-Home scope, authoritative HomeKit data, external updates, visual conflict alternatives and consent/intent before writing."
+      },
+      {
+        "source_anchor": "Cameras",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Cameras",
+        "status": "reviewed",
+        "evidence": "Verified unobscured images and bidirectional-only microphone control."
+      },
+      {
+        "source_anchor": "Using-HomeKit-icons",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Using-HomeKit-icons",
+        "status": "reviewed",
+        "evidence": "Checked official technology icon purpose and separate Home-app reference/product-page icon."
+      },
+      {
+        "source_anchor": "Styles",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Styles",
+        "status": "reviewed",
+        "evidence": "Checked subordinate black/white/custom icon choices."
+      },
+      {
+        "source_anchor": "Black-HomeKit-icon",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Black-HomeKit-icon",
+        "status": "reviewed",
+        "evidence": "Verified light-background black peer icons."
+      },
+      {
+        "source_anchor": "White-HomeKit-icon",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "White-HomeKit-icon",
+        "status": "reviewed",
+        "evidence": "Verified dark-background white peer icons."
+      },
+      {
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "source_anchor": "Referring-to-HomeKit",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified source no additional platform-specific rules without treating it as uniform API availability."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "fcc38efe942259f4aaf618beeb73aa8c287055129108c0b147ce6b02f233bc72",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "homekit",
+        "evidence": "Verified secure Siri/Apple Home accessory integration and setup/configuration/automation/support roles."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "b712acc769a93732dd774a52e3be98db75d09e414b0615db24047310bbf30b6e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "homekit",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified secure Siri/Apple Home accessory integration and setup/configuration/automation/support roles."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "5ace4d201655f4a655a3e3c60d237ebafad737d3cf1b851e32574d5beb52f83c",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "homekit",
+        "evidence": "Verified secure Siri/Apple Home accessory integration and setup/configuration/automation/support roles."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "84f87fbd8a3026c49cc3158ec3c92f888bf4c57217a3fde29342695eab976bee",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "homekit",
+        "evidence": "Verified secure Siri/Apple Home accessory integration and setup/configuration/automation/support roles."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "068f675721ef60ba7424f8283b242244f707145769d14a235d50567524caf342",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "homekit",
+        "evidence": "Verified secure Siri/Apple Home accessory integration and setup/configuration/automation/support roles."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/items/0/content/0",
+        "source_unit_hash": "8144fdeee30f598652e7d780785099cd93afde58cab58d95057ba868a682a77e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "homekit",
+        "evidence": "Verified secure Siri/Apple Home accessory integration and setup/configuration/automation/support roles."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/items/1/content/0",
+        "source_unit_hash": "6b899a951d53686a501fcc9eb502b6d457a6880bacc0d37c2a2a3e872de8519c",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "homekit",
+        "evidence": "Verified secure Siri/Apple Home accessory integration and setup/configuration/automation/support roles."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/items/2/content/0",
+        "source_unit_hash": "143f9e101b87babc6e0f2d3fff7a7fe676bee7b6cbfb09ada173b8cee3acc42e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "homekit",
+        "evidence": "Verified secure Siri/Apple Home accessory integration and setup/configuration/automation/support roles."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/items/3/content/0",
+        "source_unit_hash": "45cb5db8f16a562644cf2eef501c7dd843492112688e0ec78e68680ca8cc3b99",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "homekit",
+        "evidence": "Verified secure Siri/Apple Home accessory integration and setup/configuration/automation/support roles."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/items/4/content/0",
+        "source_unit_hash": "508bb4f4336f0a3ab572607c9f4fc6f437520c4d972950ec02cc6fd35b251f65",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "homekit",
+        "evidence": "Verified secure Siri/Apple Home accessory integration and setup/configuration/automation/support roles."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "b650a2cad51c89b37f2b3454d5a49c5f617d423766e0282e36ea2ba5baf4eec7",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "homekit",
+        "evidence": "Verified secure Siri/Apple Home accessory integration and setup/configuration/automation/support roles."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "efcd89d910b04eebe18dfae521d4afcc32b62b612271542f9459c2a11d57183e",
+        "source_anchor": "Terminology-and-layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Terminology-and-layout",
+        "evidence": "Checked hierarchy, accessible room/zone/home detail, multi-home support and no duplicate Home settings."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "676d23a796f92c6737e2c6bfa594ea96ea5d56c1322caa3f7f0287377aa45341",
+        "source_anchor": "Terminology-and-layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Terminology-and-layout",
+        "evidence": "Checked hierarchy, accessible room/zone/home detail, multi-home support and no duplicate Home settings."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "af24492e0dd80ef7a4ab6a75509190692b1e79d74644a161144e933c3b730a61",
+        "source_anchor": "Terminology-and-layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Terminology-and-layout",
+        "evidence": "Checked hierarchy, accessible room/zone/home detail, multi-home support and no duplicate Home settings."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "143465adfd5b36b5f66a9e9b546a1962b5b47f5831dd0f2e571f7b0959afb85d",
+        "source_anchor": "Terminology-and-layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Terminology-and-layout",
+        "evidence": "Checked hierarchy, accessible room/zone/home detail, multi-home support and no duplicate Home settings."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "d4f89d2dc031bb6f89d76844c35b3c6c11c5a0d8080d1d8c24927421dde9696f",
+        "source_anchor": "Terminology-and-layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Terminology-and-layout",
+        "evidence": "Checked hierarchy, accessible room/zone/home detail, multi-home support and no duplicate Home settings."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "321647800026cc8bd205f67d166deac7e3e72e44cb4b3e4920b9f8d232bcbaf7",
+        "source_anchor": "Terminology-and-layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Terminology-and-layout",
+        "evidence": "Checked hierarchy, accessible room/zone/home detail, multi-home support and no duplicate Home settings."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "8f3883c56ca649626d4559012fd460180b5adeeb46c697709f952c6677e651b2",
+        "source_anchor": "Terminology-and-layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Terminology-and-layout",
+        "evidence": "Checked hierarchy, accessible room/zone/home detail, multi-home support and no duplicate Home settings."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "c30f611c72f10fd6578f0744e0251d6f623340f3fd0ffaf16f8fec82941a532c",
+        "source_anchor": "Homes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Homes",
+        "evidence": "Verified separate root per meaningful physical home/office location."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "dab8f4d41483ca32b97d13443c63e0e0e5d1006ef7bed74f9bf32d86897abcae",
+        "source_anchor": "Rooms",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Rooms",
+        "evidence": "Checked names without size/location attributes and grouped voice control."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "f81725995ffc5f2a607972eacf3e1b02c9dd0dfd39d1f2d9d50a8462b0005a8f",
+        "source_anchor": "Accessories-services-and-characteristics",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Accessories-services-and-characteristics",
+        "evidence": "Verified physical accessories/categories, switches matching controlled type, independent services, characteristic attributes, meaningful UI names, Siri service naming and grouped service control."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "0e6628b7a43b47d85b93824c8022b4b16592b4a6d72f0190dcda3fb6d7e895a4",
+        "source_anchor": "Accessories-services-and-characteristics",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Accessories-services-and-characteristics",
+        "evidence": "Verified physical accessories/categories, switches matching controlled type, independent services, characteristic attributes, meaningful UI names, Siri service naming and grouped service control."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "17c1ee5b1ec7cf7ab05ae78e2d8a4ce0cd6f5defe7ded448daa29f25f4584e06",
+        "source_anchor": "Accessories-services-and-characteristics",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Accessories-services-and-characteristics",
+        "evidence": "Verified physical accessories/categories, switches matching controlled type, independent services, characteristic attributes, meaningful UI names, Siri service naming and grouped service control."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "b4cf47638d6d3ca0cac0747b850b04f3a6218d8b18918da3444db3bb945619b0",
+        "source_anchor": "Accessories-services-and-characteristics",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Accessories-services-and-characteristics",
+        "evidence": "Verified physical accessories/categories, switches matching controlled type, independent services, characteristic attributes, meaningful UI names, Siri service naming and grouped service control."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "54944594dd7782234028c36b6fd121f8b972f7c03e2b79248f02091606682b97",
+        "source_anchor": "Actions-and-scenes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Actions-and-scenes",
+        "evidence": "Verified characteristic change/action versus multi-action scene and API action-set terminology exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "de9df8916733d8c62663a36a1dd2eb8bb3f3f27a9fd09dc5291f9d2cb8c2db67",
+        "source_anchor": "Actions-and-scenes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Actions-and-scenes",
+        "evidence": "Verified characteristic change/action versus multi-action scene and API action-set terminology exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "ac25f681975016d7ebcf5234779eae312d6ee751451b58513979a7f9af404f69",
+        "source_anchor": "Actions-and-scenes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Actions-and-scenes",
+        "evidence": "Verified characteristic change/action versus multi-action scene and API action-set terminology exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/content/0",
+        "source_unit_hash": "8f31c2eb74773d23a2444a3a2b87931697d855cf5257c33cdaa86bcfd6887b9e",
+        "source_anchor": "Actions-and-scenes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Actions-and-scenes",
+        "evidence": "Verified characteristic change/action versus multi-action scene and API action-set terminology exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "6c573a2e5a31866ae33acededc2fcb01287c398468c1684e672972a704cc3a7c",
+        "source_anchor": "Automations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Automations",
+        "evidence": "Checked location/time/accessory/sensor triggers."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "97e8351b4d3bcc9b0a607a1670ca62d1408fca5bd73b2c1dfba09d800b204bc2",
+        "source_anchor": "Zones",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Zones",
+        "evidence": "Verified optional multiroom grouping."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "7f38d0e47218d24eb3b72f2b50ef9a122fc615a45a4851b4c4e29c22b12ad68f",
+        "source_anchor": "Setup",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Setup",
+        "evidence": "Checked system setup first, all setup features/purpose string, no required personal account, optional postsetup services, no forced other platforms and customized features after basic use."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "182890ea3f3231804f32c60c44cedc4955cf3e9543743b3c90b2bf9b7859374c",
+        "source_anchor": "Setup",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Setup",
+        "evidence": "Checked system setup first, all setup features/purpose string, no required personal account, optional postsetup services, no forced other platforms and customized features after basic use."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "6a0412364493533e3a94409005f8360ba79b0c17fa7dafc1992bc3a66df8015b",
+        "source_anchor": "Setup",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Setup",
+        "evidence": "Checked system setup first, all setup features/purpose string, no required personal account, optional postsetup services, no forced other platforms and customized features after basic use."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "5f7db12fc79d90d3b19690fa3bcac1190c9d60e5e1a4f0c7bcaf8a367e1b6c29",
+        "source_anchor": "Setup",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Setup",
+        "evidence": "Checked system setup first, all setup features/purpose string, no required personal account, optional postsetup services, no forced other platforms and customized features after basic use."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "3c68c401382fda701e18e4892fe924e78adff1a3241f26815c4452ce3118c30c",
+        "source_anchor": "Setup",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Setup",
+        "evidence": "Checked system setup first, all setup features/purpose string, no required personal account, optional postsetup services, no forced other platforms and customized features after basic use."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "f2662ca5df238cc70097e7c03f09f8ef572e3f999e905ccac4282896cdc949aa",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "b8a6598a427afc1432e6225bb14ce542fef653f3ee04458d24888693945b3343",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "8aba323448cb099d93fdb48bde150fdcb646134e44fe1f84733828d189f06af0",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/items/0/content/0",
+        "source_unit_hash": "478b5b5aeb201d71aada517eb4b5bbc267e4cfc8479c361fd2aa10a85b611f3b",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/items/1/content/0",
+        "source_unit_hash": "a51247c1ea499d7283e807aaa44280162f599d148aca53a6a0ec0cd4b66f3901",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/items/2/content/0",
+        "source_unit_hash": "f9f5b2b1f329d71c6f58ccc131db13be460bbaaec1152f9733bb1f27ce6e2fce",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "611cbe60cb4edaa3d996ccb7d516cd8c58c3c2f2e0928524720930cd341aad83",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/0/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/0/1/0",
+        "source_unit_hash": "56ddf16ca73ca46bb0a135d02e1bc540dbb0681bbde844e308d9cc1d3d0ad2fe",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/1/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/1/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/1/1/0",
+        "source_unit_hash": "f2df4fd20e999803379b0a7335b818a8bb2a2bfc147ac584618f6779fec9b8c8",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/2/0/0",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/2/0/0/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/2/1/0",
+        "source_unit_hash": "364758b2bbc8f33fc46c5acdcffe52bf727bf05df74347f6caacddd334799998",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/3/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/3/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/3/1/0",
+        "source_unit_hash": "847255273b69a06b9ecba49f7f9483d66ca17a1fbb01503eb82076a2a2d2ed36",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/4/0/0",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/4/0/0/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/4/1/0",
+        "source_unit_hash": "b5b359c6146ca08ed39986c48fac25a26b3a1b4ba8584f041b7c3d5b3c2cb5d3",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "fe4adb78431dbaf234f8addc892edd87f57dec548194c71585b3ff5ab6fab8f0",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "eafcc2fb8b072d504ccec877acefadc513a9210b36719d125258285fa50565e5",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "869a305e7b195fe10eb77229b967be272f7041a3f69389e2e6b6dca9e2c1ca4d",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "36f01fb207095638aa3ffae3e02e2a9f8178b8be9e23ec859cb856cb63120494",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "9bce64fca48e018dfb28ea3104d7baaf9a5a635e4a338454366e51a3a7421e43",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "4f274d4244c001ec2769b329c20c609dadd3ee8134a9946f1f2b4814e0237bba",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "d3ee24b5cbada8c56c6ab7a31a1c2cc36a986ee95047726d073c51937a3250cd",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/0/0/0",
+        "source_unit_hash": "b6a216550759b4ba038d75afa6108484a1b5f067e79c35b177e4025ce69835de",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/0/1/0",
+        "source_unit_hash": "eb5a33abd8095f91ea7acb87c22a3a3292bf7a332ca65c43faa9dd1a53ec7563",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/1/0/0",
+        "source_unit_hash": "fd973bde5a14eddcd08f39e01ce55543f15c925300709a56ae92a71fcf59e940",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/1/1/0",
+        "source_unit_hash": "b90f6400721ce8a81aae28b203c01ecd1cc44fd4e7cefd9fde847b4b0ffcdc7a",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/2/0/0",
+        "source_unit_hash": "a6a67ddbfe51c578642e99ba475d9909ff31ef43c1a5bb1c6dc286b9a5c3ad56",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/2/1/0",
+        "source_unit_hash": "f900cf745e6636cb1211fa662cf87b0a40a1c5a816695f8e23373e66c5ec23d4",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/3/0/0",
+        "source_unit_hash": "0cc50533d759d20845e67fc04715dbc0ffc288b9a4a547b65474a0353df792eb",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/3/1/0",
+        "source_unit_hash": "0b6ecdad058b148d167447f6287445f3884c19c2c0266b2f496e8a70d067c6cc",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/4/0/0",
+        "source_unit_hash": "05c050c20df90d1b2f9e17d26b3f40389c60528cec926f904f80b8e4ba71cc22",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/4/1/0",
+        "source_unit_hash": "12243607ce40f8d08a98d07bd7e3f1bd71e8fd160398c46c6320d5736b8267fb",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/5/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/5/1/0",
+        "source_unit_hash": "0b6ecdad058b148d167447f6287445f3884c19c2c0266b2f496e8a70d067c6cc",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/6/0/0",
+        "source_unit_hash": "9bc571d3826e05a3fc9c17877092a42d6e791d82ce6d12203b1006bd6fa08aaa",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/6/1/0",
+        "source_unit_hash": "12243607ce40f8d08a98d07bd7e3f1bd71e8fd160398c46c6320d5736b8267fb",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/7/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/7/1/0",
+        "source_unit_hash": "35244eda76a7557cef60304bbeba684aeb6597ad1f85f24169eef3d1516e6383",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/8/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/8/1/0",
+        "source_unit_hash": "b68c446a1d6885183c53b5bf067250b38b72753634ac9480b100629c7460da01",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/9/0/0",
+        "source_unit_hash": "c0b7ab70526f0c2a35da49dad98d1c1cad17cceb2458f9d42402ffe5941930c0",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/9/1/0",
+        "source_unit_hash": "8a58c4a22248c8085c0b7f23f2706f1eea7ce891cb4c927185b939f04c3eb5b3",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/10/0/0",
+        "source_unit_hash": "86f8da1146f4f6859cff4ee60a1998ebd002910e9c05a1f28381ba0305cd70d1",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/10/1/0",
+        "source_unit_hash": "941176e2971257546d6b66a5bf4d05fffe081a11fe11351511c4282cc82baa41",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/11/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/11/1/0",
+        "source_unit_hash": "08ee8ffbf06a4c5cfc8aa5b89d40d6bfe0202adc2cee158b5ea7dbf93118d70b",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/12/0/0",
+        "source_unit_hash": "ce44cc8e6e310c39916228245e289a4815fe871c1a1155ceeab978323c81fb70",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/12/1/0",
+        "source_unit_hash": "941176e2971257546d6b66a5bf4d05fffe081a11fe11351511c4282cc82baa41",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/13/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/13/1/0",
+        "source_unit_hash": "c6e1766b165534837fc487a197833700feabb127aba9a033eb8a90a7056e9a7b",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/14/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/14/1/0",
+        "source_unit_hash": "860a550b37b0b08370fe458ad377d617a2a319ab09320ecd303aed764e3a0f53",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/15/0/0",
+        "source_unit_hash": "6877db45ff9cb137a1ae9fa616afd912cb688e2a1f359608bfe6694d592a9c96",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/15/1/0",
+        "source_unit_hash": "f9b468927fe52a055ce81866026068b4973f9e9b33df46e31ca261214d2be3e4",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/16/0/0",
+        "source_unit_hash": "2b996dd34195e5299c31acbe7accbcac34d4ae6590339de15bac6b9219e08b43",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/16/1/0",
+        "source_unit_hash": "35244eda76a7557cef60304bbeba684aeb6597ad1f85f24169eef3d1516e6383",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/17/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/17/1/0",
+        "source_unit_hash": "d668202bf74ebe9a1c6154689c85b9ea3dacadb5600b6ab56475b099247016d5",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/18/0/0",
+        "source_unit_hash": "8630c6134966e41eec6ddd7c1ee082d15b880e41be71dd9fe0de6d28cfa48406",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/18/1/0",
+        "source_unit_hash": "bc79411b9bb930342ac917508e31ceff04d8f737ced5e522f8ae8ed557be168a",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/19/0/0",
+        "source_unit_hash": "b811824f20f6f46d37fe1032621c1b9da232817743b884de92c832ac5199f3b1",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/19/1/0",
+        "source_unit_hash": "27432b512e9e91ca13ffdbb595a22b75cc0637287bcbb0f7b0261479acc8ba42",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/20/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/20/1/0",
+        "source_unit_hash": "648a4c2910364912c82ce9860553f7cc13de5a371ab65c3c4ed90293c8b24795",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/21/0/0",
+        "source_unit_hash": "e2b924f8f14e6011c926c26e1c96bc9fe4177fb239181d75d42f36fbc3f353bb",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/21/1/0",
+        "source_unit_hash": "941176e2971257546d6b66a5bf4d05fffe081a11fe11351511c4282cc82baa41",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/22/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/22/1/0",
+        "source_unit_hash": "07f9d191d8d718499beac45ee1dc8038d3ebd7a9b8f2ac861a77addf6c69ee3e",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/23/0/0",
+        "source_unit_hash": "e8b79a3daf23d80ea58da64286b1fe6de1a9f296615518ad1dd53021fb14b718",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/23/1/0",
+        "source_unit_hash": "35d6cbacd96e737f5d2600ea41a93088db912e71f24dc054a1027f0e809a50ae",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/24/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/24/1/0",
+        "source_unit_hash": "dc5267030f8eb2411707de08c464a2cafd7038d5030ec35608872794b7d13bbd",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/25/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/25/1/0",
+        "source_unit_hash": "35244eda76a7557cef60304bbeba684aeb6597ad1f85f24169eef3d1516e6383",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "a1fa20e821231fdbca0c7488b8b924029592dc117f586204920d648dc5589266",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "d0964f4da8c302e56cf3098cd03e90a9c248f8680a5f69ee5806dc2099ada57d",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "1e71c17101fdddb7297049aae3908149dce9c1d6a29d74857106d281202c2833",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "8a75ef5a6a504bb9dd8acc85d89ea35436a78866330d94eed3614f725f4e208c",
+        "source_anchor": "Custom-functionality",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-functionality",
+        "evidence": "Verified custom-versus-Home scope, authoritative HomeKit data, external updates, visual conflict alternatives and consent/intent before writing."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "74257e46ba719e27144d635e9a59e7477c05bc10162f2c838428cca5f5a074a7",
+        "source_anchor": "Custom-functionality",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-functionality",
+        "evidence": "Verified custom-versus-Home scope, authoritative HomeKit data, external updates, visual conflict alternatives and consent/intent before writing."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "99ee69638ad1ff21c93414e17c0a0ed0ae19b3650b2cc03bf0ee49d14588dcd9",
+        "source_anchor": "Custom-functionality",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-functionality",
+        "evidence": "Verified custom-versus-Home scope, authoritative HomeKit data, external updates, visual conflict alternatives and consent/intent before writing."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "2307fbffed158213a5688ffd4599f803584938b1e1eb78415589dc33325fc25c",
+        "source_anchor": "Custom-functionality",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-functionality",
+        "evidence": "Verified custom-versus-Home scope, authoritative HomeKit data, external updates, visual conflict alternatives and consent/intent before writing."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "fef26b5c418486e60bbba527f8058a8cf5413a44d399842dc401fb40b9703d61",
+        "source_anchor": "Cameras",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Cameras",
+        "evidence": "Verified unobscured images and bidirectional-only microphone control."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "f78a9fc05d3271a86bf8840b16efbf08b07f550088bee507823003408018a678",
+        "source_anchor": "Cameras",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Cameras",
+        "evidence": "Verified unobscured images and bidirectional-only microphone control."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "516d7ea8d4ad5c0e280c5af763adda1d78b0327bc83ab469bc2bb5f0c003d79a",
+        "source_anchor": "Cameras",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Cameras",
+        "evidence": "Verified unobscured images and bidirectional-only microphone control."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "c9e45bd4215fc0db7ff4b5fddfeb627ce786975d4d3302e6298ec7fff0e0a145",
+        "source_anchor": "Using-HomeKit-icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Using-HomeKit-icons",
+        "evidence": "Checked official technology icon purpose and separate Home-app reference/product-page icon."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "33b158a68400bc18e1d2eb4671950936002f3113ef899938f4462a0acdd50dba",
+        "source_anchor": "Using-HomeKit-icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Using-HomeKit-icons",
+        "evidence": "Checked official technology icon purpose and separate Home-app reference/product-page icon."
+      },
+      {
+        "id": "primaryContentSections/0/content/63/inlineContent/0",
+        "source_unit_hash": "d8e4438c067c71527fc4a3d850cfd01ca65219d820dfcfed6705f676643a32c6",
+        "source_anchor": "Using-HomeKit-icons",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Using-HomeKit-icons",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked official technology icon purpose and separate Home-app reference/product-page icon."
+      },
+      {
+        "id": "primaryContentSections/0/content/64",
+        "source_unit_hash": "21a1c593c0b5516ab3970ae8acaa2e8c66d69fadab83b5e8eb9759549b3e48ac",
+        "source_anchor": "Using-HomeKit-icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Using-HomeKit-icons",
+        "evidence": "Checked official technology icon purpose and separate Home-app reference/product-page icon."
+      },
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "befca6db25a6cddf10e96fc12be009ae120b340e8ffebb1ba020bfbbce7301b9",
+        "source_anchor": "Using-HomeKit-icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Using-HomeKit-icons",
+        "evidence": "Checked official technology icon purpose and separate Home-app reference/product-page icon."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/inlineContent/0",
+        "source_unit_hash": "c9f0f5cd51a98534401643413ddcfe842e9e122fd11e48c81d60e82005c2f64f",
+        "source_anchor": "Using-HomeKit-icons",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Using-HomeKit-icons",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked official technology icon purpose and separate Home-app reference/product-page icon."
+      },
+      {
+        "id": "primaryContentSections/0/content/66",
+        "source_unit_hash": "d27594c7b7d51b09ae573a240afecebad9af28127283f28c09cd36d147373c96",
+        "source_anchor": "Using-HomeKit-icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Using-HomeKit-icons",
+        "evidence": "Checked official technology icon purpose and separate Home-app reference/product-page icon."
+      },
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "3db1d8df279b939f0c0deb92dce21da6f804028973bd2ecb6ddc6c079bfb7095",
+        "source_anchor": "Styles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Styles",
+        "evidence": "Checked subordinate black/white/custom icon choices."
+      },
+      {
+        "id": "primaryContentSections/0/content/70",
+        "source_unit_hash": "1a06f47fd9a8b8510d182c5ff04637500eecfa73609315257ee2ff6eb01f3f1d",
+        "source_anchor": "Black-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Black-HomeKit-icon",
+        "evidence": "Verified light-background black peer icons."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "68a2f3e262a6de7c4d2663dbc704cb4736427469deb2636b96ebccb51892dd77",
+        "source_anchor": "Black-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Black-HomeKit-icon",
+        "evidence": "Verified light-background black peer icons."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/inlineContent/0",
+        "source_unit_hash": "43baad1d73bd7dd5fb43cc83c46be74def44771feb9a61cab4477001ad3cac93",
+        "source_anchor": "Black-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Black-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified light-background black peer icons."
+      },
+      {
+        "id": "primaryContentSections/0/content/73",
+        "source_unit_hash": "0121872ce34689ac522be7bc5f2307484115b124960a0723dae22fd310e5d940",
+        "source_anchor": "White-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "White-HomeKit-icon",
+        "evidence": "Verified dark-background white peer icons."
+      },
+      {
+        "id": "primaryContentSections/0/content/74",
+        "source_unit_hash": "5e2786654631e39fffac078dcc4ed5acb1ed9fa328da4c39c6eae6e56623f764",
+        "source_anchor": "White-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "White-HomeKit-icon",
+        "evidence": "Verified dark-background white peer icons."
+      },
+      {
+        "id": "primaryContentSections/0/content/74/inlineContent/0",
+        "source_unit_hash": "5f7dbb043746450010eda64a3d630063c885521e10e2cd023e5d644b7f5c26e3",
+        "source_anchor": "White-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "White-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified dark-background white peer icons."
+      },
+      {
+        "id": "primaryContentSections/0/content/76",
+        "source_unit_hash": "9548d3a084853de13d6d74d63d03afae257de7ef6f7f2e75693cbb0314386038",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/77",
+        "source_unit_hash": "54688666c239a0f745193d48f47783af2bba12d02500d07dd6eb4d4061c7eb9a",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/77/inlineContent/0",
+        "source_unit_hash": "b0332aa869484f86df5c5cf0e7bebd9674fbae7342469046d1afcf297e5e8a65",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/78",
+        "source_unit_hash": "1f79ef4ab07b76c2b2e323e99becc629210a149d0c6e07531bd2d45309a9dc23",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/79",
+        "source_unit_hash": "3bbd1e9a1a2ec86d1245ed54aaade6898559c4766845b353a2d27dfdca540bc8",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/79/inlineContent/0",
+        "source_unit_hash": "ed496c5d9c5f8b1f3e6b377525d12fb1acdd6cb836d6a933b50f875d2f374597",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/80",
+        "source_unit_hash": "71205674029ca04f1f20afaf2949f97d06dac01c18a828e8e9e57a439c0643fc",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/0/content/0",
+        "source_unit_hash": "08bc059e035fae9c3b3f8b16e1766278e23ab990620c9b3f8697f886cb2e93bc",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "a37fa9e0e09698334f3657c0096d1fe6be8c4ec026d8004482206e58d323d5a6",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/1/content/0",
+        "source_unit_hash": "6979e93c2b3522b2da2d20d03004a64940eee41f58a48a13a2039ad6f7d114c4",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "fbd49f953d37a9f568311bd664e533a9bb45108b54520eb87235314591ed4094",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/1/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/82",
+        "source_unit_hash": "b1395ad96f20f77c8bcb0ac49a26e4b203eaa54e3481862ff448f2c0a53b16a8",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/columns/0/content/0",
+        "source_unit_hash": "77a3d20d3a360a8832933e22e39ff833553da704d58b54d0416cdb2c9a933f6b",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "e38b19abe40563ea0e9f3a5a6aa0568af7517f442fbb2d12eee6c901163568eb",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/columns/0/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/columns/1/content/0",
+        "source_unit_hash": "4416d371d45022fa23f6c234f39a36feb9c4c680b8dcb27890365cd6673a1506",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "622b9cc0c73b447822a840bfd4bf467ca44da7863cf9d2baffd08e4af21edc94",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/columns/1/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/columns/2/content/0",
+        "source_unit_hash": "a060491aff975a98840ccbf34307357c2d81a6b226b93beccadbd01e8e255441",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "17dbb8d82e50e5792e9e6ecb53a316864b0b2ca7df8b6c35b2e67c7ba0ed5423",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/columns/2/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/83/columns/2/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/84",
+        "source_unit_hash": "37202af5d9e169ef8c1f36bf8f5243ffe78307dd44cbd6489d04873b6a5ac4dc",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/85/columns/0/content/0",
+        "source_unit_hash": "b6287f85d93e363c1726f9567080e4e5b3349519c54fd595ee29579712324234",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/85/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "b0ed84e18e2ddfdddf931c5050aad483c89e7cb28185136d4b36316f8722097c",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/85/columns/1/content/0",
+        "source_unit_hash": "1d8dea4e72023c8b2e8dcc608f81b21c544d9e7f4eb45ec091963adca5e5a56b",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/85/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "a240f975533dfefebfdf59e223d57ea0637d303ba01adf663ac39368020ba5d7",
+        "source_anchor": "Custom-color-HomeKit-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Custom-color-HomeKit-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked peer color/container matching, noninteractive technology name/icon, no inline substitution and consistent paired typography."
+      },
+      {
+        "id": "primaryContentSections/0/content/87",
+        "source_unit_hash": "103d21e4a14028d315d9733ad3174660cdb5db27c48d3229f84d60261a7bf199",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/88",
+        "source_unit_hash": "c727d0e24437d816a5ecec549f2cb1d303ea5199606de3c167c220a5747ead32",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/89",
+        "source_unit_hash": "1c523175539158f4d04e0451958e63e079589f49ed39c0a68c4c35f973e5fae7",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/89/items/0/content/0",
+        "source_unit_hash": "9ae30984acf04ad37357b24cd939dcd2bfd88d065b93f7a27cf16dcf1959ebe6",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/89/items/1/content/0",
+        "source_unit_hash": "b7fd830fbc5814ff56badfff6614c42c3aac192618c77c29236ed4c6a88582c0",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/89/items/2/content/0",
+        "source_unit_hash": "a334986322317aeae3370f97322608507c15cc73b2ab10aa9075e1c98ea89638",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/89/items/3/content/0",
+        "source_unit_hash": "e80fba5902ca31e3fe654411e779f6997cf878f1e3d1dca2eb00185b848d7b34",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/89/items/4/content/0",
+        "source_unit_hash": "52ecba3b0be3f7e921c8d65f36256fb121334510ac9316ac48bf3b77fcbd36a0",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/89/items/5/content/0",
+        "source_unit_hash": "b38edfbe29fbf7db36e785709f8c846e75e09ad1b20c9ec43aecef4339a483a9",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/90/columns/0/content/0",
+        "source_unit_hash": "d1670964329aefdf4f65b8e79384710ca0915274a571d4c126ff22b6bcb71b93",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/90/columns/0/content/0/rows/0/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/90/columns/0/content/0/rows/0/1/0",
+        "source_unit_hash": "072d341792ece94781ce6ccfbd1d6c4921ec98c956f250ca2141a38fce274b63",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/90/columns/0/content/0/rows/1/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/90/columns/0/content/0/rows/1/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/90/columns/0/content/0/rows/1/1/0",
+        "source_unit_hash": "3eaf0add838e871641081b4a58267b27c216e4b58fd2f588233573eaa828dfdc",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/90/columns/0/content/0/rows/2/0/0",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/90/columns/0/content/0/rows/2/0/0/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/90/columns/0/content/0/rows/2/1/0",
+        "source_unit_hash": "3ad641982b5a0bfaacd9ebf1501bdba6a0996a7b87ec745f6e774ca0016d2608",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/91",
+        "source_unit_hash": "10d202333cdb0cdbb32034befb1414016d49465f02d97f51a26d687e970aeb82",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/93",
+        "source_unit_hash": "dfa2fd846d6aff9e99afeb9181c57e90057e55c3aa4104c3008fc240361010ae",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/94",
+        "source_unit_hash": "809f89dd25571eb8668bef72dd6b93abf879bce3de1f4444da4830e6a9da54dd",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0",
+        "source_unit_hash": "09618f56a3ab300345489b689469ef080bb6061d0857510ef23268767cf28847",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0/rows/0/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0/rows/0/1/0",
+        "source_unit_hash": "072d341792ece94781ce6ccfbd1d6c4921ec98c956f250ca2141a38fce274b63",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0/rows/1/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0/rows/1/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0/rows/1/1/0",
+        "source_unit_hash": "938e931ac810e2f696eee84c38ed207e5015da0d0700f8896b21389a7fb8918b",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0/rows/2/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0/rows/2/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0/rows/2/1/0",
+        "source_unit_hash": "e94eeb82ecf7d9b6e7f90f33962bcf34c5dd659eee161ec5b45eaf3735621eec",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0/rows/3/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0/rows/3/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0/rows/3/1/0",
+        "source_unit_hash": "42f569e25c053643be83e640722d788978d0dfeefee652cb7d1cc2a91f1c622b",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0/rows/4/0/0",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0/rows/4/0/0/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0/rows/4/1/0",
+        "source_unit_hash": "72b849b3988648871ac34a4df8b88114b2b310a1d9e4c614127173cb121d7026",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/96",
+        "source_unit_hash": "42577d912e170c34dd2bc869bda63b12a083d9fdaa52805d871eab8ac0a97b4c",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/columns/0/content/0",
+        "source_unit_hash": "8d9c438fed12488c25fde2fe8b675aa05d58501814ce30e8b461b0763ea21e72",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/columns/0/content/0/rows/0/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/columns/0/content/0/rows/0/1/0",
+        "source_unit_hash": "072d341792ece94781ce6ccfbd1d6c4921ec98c956f250ca2141a38fce274b63",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/columns/0/content/0/rows/1/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/columns/0/content/0/rows/1/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/columns/0/content/0/rows/1/1/0",
+        "source_unit_hash": "042c9b70e291cdd1f4339827dc0243c0a248fa9991e7f42d047a2d50244ec4d8",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/columns/0/content/0/rows/2/0/0",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/columns/0/content/0/rows/2/0/0/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/columns/0/content/0/rows/2/1/0",
+        "source_unit_hash": "c03d320d4f7a324e5cdd98d697c0897972010f38a230f663035ece7dba18529e",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/98",
+        "source_unit_hash": "630369c56755a539245c1b6910193f2d678bba7d6c32b2f865650f0ab84e7dfc",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/99/columns/0/content/0",
+        "source_unit_hash": "5349ac1257e62544b8b94975e60db1b1e701594dac38e76f806b0c49c8219b36",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/99/columns/0/content/0/rows/0/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/99/columns/0/content/0/rows/0/1/0",
+        "source_unit_hash": "072d341792ece94781ce6ccfbd1d6c4921ec98c956f250ca2141a38fce274b63",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/99/columns/0/content/0/rows/1/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/99/columns/0/content/0/rows/1/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/99/columns/0/content/0/rows/1/1/0",
+        "source_unit_hash": "cc2f96cdce12a9a344a6b09a516e4a7220bd2bae9151d4e45d37f411455a9dc0",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/100",
+        "source_unit_hash": "4d89581cfcf930b6defea69f2652e37b0f3fd19758acdabd2935aeccb5beacc1",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/101/columns/0/content/0",
+        "source_unit_hash": "c8b156ca799a5ac1a57a9b33a37f7a957f667be196a39eb2891b5f6e9aa5243d",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/101/columns/0/content/0/rows/0/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/101/columns/0/content/0/rows/0/1/0",
+        "source_unit_hash": "072d341792ece94781ce6ccfbd1d6c4921ec98c956f250ca2141a38fce274b63",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/101/columns/0/content/0/rows/1/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/101/columns/0/content/0/rows/1/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/101/columns/0/content/0/rows/1/1/0",
+        "source_unit_hash": "2304fc96b43c1b0f8baa38684960b920389908aeb1c715cfba6c3ec1ba73d91d",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/102",
+        "source_unit_hash": "ce1a707254a9d663cb59a1d927da38cb894f77c1e053f8a7df701140834c3567",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/103/columns/0/content/0",
+        "source_unit_hash": "43f0cff81a56610708ac9ad685c8646e825da62cf3f005bbffc1cc994d2f1534",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/103/columns/0/content/0/rows/0/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/103/columns/0/content/0/rows/0/1/0",
+        "source_unit_hash": "072d341792ece94781ce6ccfbd1d6c4921ec98c956f250ca2141a38fce274b63",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/103/columns/0/content/0/rows/1/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/103/columns/0/content/0/rows/1/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/103/columns/0/content/0/rows/1/1/0",
+        "source_unit_hash": "58820b2aa831550ce6c6eef115a4e182c1c51b8ba21313373db54350e4f1de01",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/103/columns/0/content/0/rows/2/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/103/columns/0/content/0/rows/2/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/103/columns/0/content/0/rows/2/1/0",
+        "source_unit_hash": "0d41d06c6a7031f0b893f2e6babc2930a9999eac3d7b67cb78c488492e91a4d9",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/103/columns/0/content/0/rows/3/0/0",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/103/columns/0/content/0/rows/3/0/0/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/103/columns/0/content/0/rows/3/1/0",
+        "source_unit_hash": "a68bfd2f44d01cb6f32655fceeff5487125ab2da2a5ce33e91938ea5f693a8ae",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/105",
+        "source_unit_hash": "509b569829c7a6cfe24bc32528acd622858a84d9d670c9f630306f6689ae12f7",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified source no additional platform-specific rules without treating it as uniform API availability."
+      },
+      {
+        "id": "primaryContentSections/0/content/108",
+        "source_unit_hash": "e5be23049a604264b1575ab8cda156471066444761f679ee965164ec4ac49e3e",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/109",
+        "source_unit_hash": "429abde57e64405db0d5e1fcc078a0e572136760c7d53a35cfc49d3a270651a6",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/111",
+        "source_unit_hash": "128c8b2f5bcd3e8e6d6f391802f1a85826abc381d97bebd39367b0dee54cdce4",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/115",
+        "source_unit_hash": "d6185da1101ab5cdff0a1447e7f1e91f5eab8d23a802533195658dac94ed79f1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/115/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/115/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/115/rows/1/0/0",
+        "source_unit_hash": "a3be947823d6b103c429adb07b7ad07c6def605e3e77e14b702e5a9c78d34032",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/115/rows/1/1/0",
+        "source_unit_hash": "4756147f4d61c1086dc4ffd0d8da51a01051e176d19f9b7302eaf645e0f80e63",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "611cbe60cb4edaa3d996ccb7d516cd8c58c3c2f2e0928524720930cd341aad83",
+        "source_anchor": "Help-people-choose-useful-names",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Help-people-choose-useful-names",
+        "evidence": "Compared naming examples/rules: alphanumeric/space/apostrophe only, begin/end alphanumeric, no emoji, no brand/model suggestion and no duplicate location names."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "d3ee24b5cbada8c56c6ab7a31a1c2cc36a986ee95047726d073c51937a3250cd",
+        "source_anchor": "Siri-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Siri-interactions",
+        "evidence": "Compared table semantic mappings including corrected implied occupancy category/characteristic, brightness/open state, service/category/room/zone/group/scene/home and HomePod context; checked contextual teaching and nonduplicative Shortcuts."
+      },
+      {
+        "id": "primaryContentSections/0/content/90/columns/0/content/0",
+        "source_unit_hash": "d1670964329aefdf4f65b8e79384710ca0915274a571d4c126ff22b6bcb71b93",
+        "source_anchor": "Referring-to-HomeKit",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referring-to-HomeKit",
+        "evidence": "Compared trademark/credit/no endorsement/no category-descriptor text table facts and app-first identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/95/columns/0/content/0",
+        "source_unit_hash": "09618f56a3ab300345489b689469ef080bb6061d0857510ef23268767cf28847",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/97/columns/0/content/0",
+        "source_unit_hash": "8d9c438fed12488c25fde2fe8b675aa05d58501814ce30e8b461b0763ea21e72",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/99/columns/0/content/0",
+        "source_unit_hash": "5349ac1257e62544b8b94975e60db1b1e701594dac38e76f806b0c49c8219b36",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/101/columns/0/content/0",
+        "source_unit_hash": "c8b156ca799a5ac1a57a9b33a37f7a957f667be196a39eb2891b5f6e9aa5243d",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/103/columns/0/content/0",
+        "source_unit_hash": "43f0cff81a56610708ac9ad685c8646e825da62cf3f005bbffc1cc994d2f1534",
+        "source_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Referencing-HomeKit-and-the-Home-app",
+        "evidence": "Checked case/uppercase exception, compatibility language rather than descriptor/actor, Apple HomeKit permitted, setup term permitted and first Apple Home then Home app naming tables."
+      },
+      {
+        "id": "primaryContentSections/0/content/115",
+        "source_unit_hash": "d6185da1101ab5cdff0a1447e7f1e91f5eab8d23a802533195658dac94ed79f1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

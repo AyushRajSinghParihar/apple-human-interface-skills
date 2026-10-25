@@ -1,0 +1,461 @@
+{
+  "review": {
+    "slug": "text-fields",
+    "status": "reviewed",
+    "source_hash": "a0b575085d2380e038d4b610e51d0fac341896dea802e5b2c4c86270701a3ccc",
+    "destination_hash": "14f9e367004700afec59174b33106efcca4e2ece8d05c4f530f1624c76b21b1b",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:06:04.862652+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "text-fields",
+        "status": "reviewed",
+        "evidence": "Checked short specific input versus extended text-view distinction."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked no extra TV/vision rules."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Verified trailing Clear, leading purpose imagery and trailing auxiliary actions."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Checked combo-box option for editable predefined values."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Verified field only when needed and list-choice preference."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "69e0cbfe37b13025c7d1b116f76e0d1716666be69082e0c8d4cd48fa0ab1fe4e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "text-fields",
+        "evidence": "Checked short specific input versus extended text-view distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "1cd8fa3ce1f01e6e57fd340ff41b725ba776f8b9e932d568c0bc6722d204cc10",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "text-fields",
+        "evidence": "Checked short specific input versus extended text-view distinction. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "0c9918e4d0452d96edd30995bc38c60a3abf877b14d2687995b94e0fd48b2a3c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "dec797f238b784f9e2a8333ce09b807f14e0767db8a12c7f95c6f8b2120535ec",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "6c0ff2dbaf64f2906deaac5e1ef403df85ea73e7d7a6b17e8cf06a8ee0dae3da",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "3b15b6e1502b09bdf7ab55d10db1e8fd5a57242f4bb85e11d1fbfd5437292d4f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "63144a47aae5ef25e9b07ab65fd1d6686ffc9115210611812c804be2e3e1a997",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "4ebb2540fff474293b2471f96b2953fdb1178da440c6067a758e327ea87153fb",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "8fa9a3f29377e1d75d53dfa264a6b6f234b74a7fd3b2f89b0f4d73a24b0ad01a",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "d597f33816e0c7235cfe22228cdeffd2e0309115b8da300f9e0e98ecb463cc57",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "9ffdffeb81412a194b3d733cb9e3338856815f4708db9b3c70697f593df4e75f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/inlineContent/0",
+        "source_unit_hash": "c83a683c6ea3bd406f85596a9ab59f88e377d01fd8bc10a160736e9287717e32",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "64b346eb71b5653c45865ff3191f0d568b434b109614b36c04160c5c4e85efbe",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/columns/0/content/0",
+        "source_unit_hash": "178a30df8e28338f112ad084c2e91ffecaf9ae0f40cb1268e933311545af5965",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "d1307e475d399da27b556b0ab2889e2ef23406c2e95d5f153bd2242c7110881d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/columns/1/content/0",
+        "source_unit_hash": "bbad365c0f0fc3873062d89afdcc203b3b8ccb9fb61a18846f7a4204668161fa",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "739786ca69cdcc209e4c645d8404e300b4843140421571a162763be7eed827c0",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/columns/2/content/0",
+        "source_unit_hash": "f589e47419c84714317151c590e0c7b345816dfad942ef8e7016f8073418da21",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "30f8a8d24b371e1a54fc7122947c8d9e56566e7ffc76cf06a04357656df442ac",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "c849a79dc8f8a2fee691c7fd9bb6bbdab1be9d49984db5995d44f9eecc4bfcf3",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "a579d1f3a7938a225cc104fc05deb15d394260e86c00c275b15d16c766580757",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "3506d0d77a51f769d187025e542106c63e7c742286029e283bcb96455e622c40",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified persistent purpose labels, secure entry, input-sized fields/spacing, logical Tab order, context-dependent validation timing, locale formatters, clipping/wrap/ellipsis/tooltip choices and platform keyboard/minimal-entry requirements."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "02a7a74093ee37c73bf2bf94b4ba56bb3555e57268213d6c0357c66d667612db",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked no extra TV/vision rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "11284617f584b072775e0e568a56d2153a909658f658a598ffc4bd37136e2c22",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified trailing Clear, leading purpose imagery and trailing auxiliary actions."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "e543c867b4d016cd3aa25b9e9c390fb43f80ab7ba9da15fb2b6ff3bd8219f60e",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified trailing Clear, leading purpose imagery and trailing auxiliary actions."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "791f74671801715bf12d1e5519b94cfa4a77e6e5ce3418c1ef63ae1fefa1649e",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked combo-box option for editable predefined values."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "ca586c44503e2c397c7264f4789c8b476305ba4249f239623cdd8acffb165643",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified field only when needed and list-choice preference."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "c610a09c34fb3bae1c752e7d10c90930ca41e43b3c48b38bb51e0e82d61c6e84",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "93708296436ccfa6eb18cd1457ead615e8a84164ca8dd9ca009ce427f20bfd2c",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "53a0a277e152d9a7f2ff5b5db7b0ffc028ecfe12baef54c41eea7f1357d798f5",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "48989ea59b535b4af0f3a50245c791995f378775f5ba37d97e1d6ec54ebcfc99",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "106b3038fb363698807e97b0b11b847e00c2c37cc768dfb70e320cce50d7f54e",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "d1d2858cc5de4d8cb5d9a3806089ea09ec6b5238cca2acd0c9b9d014b2c9c6ae",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "5342411a1c5d3c764f38948688d5fe86574057267f6c467fad8eb085d223c1a9",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "517435cab2f4170822ae61238db094350577e421ec9b03dc83c683dfa0619079",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/rows/1/0/0",
+        "source_unit_hash": "937d2d87f6be46489d91c6c598d77898e230787b56f889b2c1e16309f42a1ad2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/rows/1/1/0",
+        "source_unit_hash": "478d54ffbd6891377fd98608d04cc8bae71c24ac7c7dbfd7a1f213d8dbb649bb",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "517435cab2f4170822ae61238db094350577e421ec9b03dc83c683dfa0619079",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

@@ -1,0 +1,274 @@
+{
+  "review": {
+    "slug": "loading",
+    "status": "reviewed",
+    "source_hash": "945e0f8f1644765cc30925d083c6a71d7ec5f6d5d9bca1d08ed2b8eb095486c3",
+    "destination_hash": "987b5d06d5a73dcf1a707ad794eec8fe5a7b9fd77c0d3a5ac8d930e0fba31d81",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:23:22.262987+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "loading",
+        "status": "reviewed",
+        "evidence": "The local opening preserves nondisruptive loading ideally before people notice waiting."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified prompt placeholders, useful interaction while background loading, interesting content timed to waits without repetition, and large-asset downloads after install/updates/quiet periods."
+      },
+      {
+        "source_anchor": "Showing-progress",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Showing-progress",
+        "status": "reviewed",
+        "evidence": "Retains ongoing-state/time communication after a moment or two, determinate for known duration and indeterminate for unknown, plus game-style custom loading."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified the explicit absence of additional platform rules and retained platform applicability."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Rechecked immediate-content preference and indicator over blank for a second or two. Additional longer-wait advice is now explicitly Application advice rather than source attribution."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "e50db96b7fea5f083e65e67a538967f0414b337e0c3e22792ff98cc88dbed678",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "loading",
+        "evidence": "The local opening preserves nondisruptive loading ideally before people notice waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "2b6d0b65e5b6ac719b3196f0b4af237ce124012e487f6630ceb78530d32aa54f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "loading",
+        "evidence": "The local opening preserves nondisruptive loading ideally before people notice waiting. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "0f1c57c9a49f6168f9e92e312c43397e555c2fb172cf56bd6f0cdcd2cee16f66",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "loading",
+        "evidence": "The local opening preserves nondisruptive loading ideally before people notice waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "fd3372452a246e5df183bd2b4c91a4447f2d0fdca4cefa952f9395088565a842",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified prompt placeholders, useful interaction while background loading, interesting content timed to waits without repetition, and large-asset downloads after install/updates/quiet periods."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "9bfef2f0ca21fae9ddab54fc21cdd10de1dc7373a350070a1dfb6a7a16f43987",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified prompt placeholders, useful interaction while background loading, interesting content timed to waits without repetition, and large-asset downloads after install/updates/quiet periods."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "86c7f5f68bbd7a0ffd152879c5c511174c2d6beb311a9b286c50dd043b0e4ea6",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified prompt placeholders, useful interaction while background loading, interesting content timed to waits without repetition, and large-asset downloads after install/updates/quiet periods."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "ece70b212290e6f39700adb1a7fd99fc3a97020b987b74746a7135c44eabde75",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified prompt placeholders, useful interaction while background loading, interesting content timed to waits without repetition, and large-asset downloads after install/updates/quiet periods."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "41ad3da4655b13fbcc48512005fab2bc7825bb23e51f44fea42afd9e5988ff48",
+        "source_anchor": "Showing-progress",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Showing-progress",
+        "evidence": "Retains ongoing-state/time communication after a moment or two, determinate for known duration and indeterminate for unknown, plus game-style custom loading."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "0aaa0ff77e898cdac68a0410cba478f20eb787651270b174c34f420965bd754e",
+        "source_anchor": "Showing-progress",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Showing-progress",
+        "evidence": "Retains ongoing-state/time communication after a moment or two, determinate for known duration and indeterminate for unknown, plus game-style custom loading."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "419dff4da9c20c346eed34e1af970d92a6620fab245019a8b5c35ceb6d2b9a59",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified the explicit absence of additional platform rules and retained platform applicability."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "e66c637f853d3362147843508b06320f703f8e878d5b8dd5a7756557a050d3a0",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Rechecked immediate-content preference and indicator over blank for a second or two. Additional longer-wait advice is now explicitly Application advice rather than source attribution."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "d0fcc11a838e881bb5fbd073554e02af2ed5696de49a16bf8a07fe40e4912ce6",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "7142dac735bb50701c5855762f23c39cc493a87f0efe02fafaa6aaf2a6d68b81",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "7c4c91c6fa167b0dc9aba2c803c32c82d4488a06b57647d09e6bd1e74c191996",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "7ac6c2cd55fd9a663c60293fd5744b04b09a0eff14968fc49495d8d21f4037af",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/23/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/23/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/23/rows/1/0/0",
+        "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/23/rows/1/1/0",
+        "source_unit_hash": "c25ae30fa3282eee3b8f0258e8ed839c6b28e2f76ee3d19972c9b9762911b1fc",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/23/rows/2/0/0",
+        "source_unit_hash": "6fbfd8192538c86013ae1170ead307313ca6290dbe20e9b9a262d8ed4dbef179",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/23/rows/2/1/0",
+        "source_unit_hash": "86fcc7e422b11fd6a55adee463c3b93a89696e7002a80d499181184a60bcad44",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "7ac6c2cd55fd9a663c60293fd5744b04b09a0eff14968fc49495d8d21f4037af",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

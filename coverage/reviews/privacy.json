@@ -1,0 +1,1394 @@
+{
+  "review": {
+    "slug": "privacy",
+    "status": "reviewed",
+    "source_hash": "de006b73b3a8c4f26ab39a6d65f3f7adbaa407b0a3537214c08e1184ac8093ad",
+    "destination_hash": "ce8f25721e6adb44faea38beea85a5636e8a5de8b5147a354bf5a0ce90e957ba",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:12:51+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "privacy",
+        "status": "reviewed",
+        "evidence": "Checked protection/transparency and accurate App Store privacy disclosures before download."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked minimal precise feature-needed collection, protected system privacy choices, on-device processing and system encryption/key management."
+      },
+      {
+        "source_anchor": "Requesting-permission",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "evidence": "Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "source_anchor": "Tracking-requests",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "evidence": "Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "source_anchor": "Location-button",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "status": "reviewed",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "source_anchor": "Protecting-data",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Protecting-data",
+        "status": "reviewed",
+        "evidence": "Checked passkeys/two-factor/biometrics, encrypted keychain/no plaintext and standard authentication."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "No extra mobile/TV/watch rules retained."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Checked Developer ID, sandbox requirement and fast-user-switching scope."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked Shared Space algorithms without app raw data, Full Space permission gates, private gaze, compatibility back-camera blank input, Persona front input and adapting camera features."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "b362037fd1b71e2cc2d53f0cddca3a31b6e36599de291777c19db4b153b5cef3",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "privacy",
+        "evidence": "Checked protection/transparency and accurate App Store privacy disclosures before download."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "94c517ef0fbc3d229d3b80e640240a3aa9a56cb3770f54d1535e2eb6a93032f5",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "privacy",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked protection/transparency and accurate App Store privacy disclosures before download."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "a4789a6157a5ce34d1a94e5dbc8bf76da77a6c4a15d7cb8148f752c79f507e30",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "privacy",
+        "evidence": "Checked protection/transparency and accurate App Store privacy disclosures before download."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "072f682a5de3c2184b3399775f3567187d19ca99ea0597b577e953d3c23a1fcd",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "privacy",
+        "evidence": "Checked protection/transparency and accurate App Store privacy disclosures before download."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "9c92d8c6f4f948436575548396008e94d7b338b017f8be464e6b3ea71310ea60",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "privacy",
+        "evidence": "Checked protection/transparency and accurate App Store privacy disclosures before download."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/inlineContent/0",
+        "source_unit_hash": "e4c00d352041946329b1050496911396870079e75ac99360a1423c03aad88b1c",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "privacy",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked protection/transparency and accurate App Store privacy disclosures before download."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "46792790c18b62bbf55f0a360577a4a51011bafd541c268f3449e54fb8ad82ad",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked minimal precise feature-needed collection, protected system privacy choices, on-device processing and system encryption/key management."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "a72168ab6d7d77ffbda59b2e684095dedf29cadb77fb772933558541e672b77d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked minimal precise feature-needed collection, protected system privacy choices, on-device processing and system encryption/key management."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "979a7dbb9fcfa227c9c45ace92cbad4bc425c52ca079947d2bab397e9d4bfcbd",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked minimal precise feature-needed collection, protected system privacy choices, on-device processing and system encryption/key management."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "754d70e99e9e549cc382b983cf2e423ba6489a3fb979b532fc18f1d13093b169",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked minimal precise feature-needed collection, protected system privacy choices, on-device processing and system encryption/key management."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "4d48dd5efabb3461139434afa4e9c9b81e8f1d62d7687dfa11de0f69e8217e33",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "8b2ecbd6e7639f381ac6c3df0869b9c261e5b268cef96b03df90ddd7bf38532f",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/0/content/0",
+        "source_unit_hash": "3ac5f4e651d54386c17ff8901c7108426f748ed47f73e8f1e2524c14e404cf0f",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/1/content/0",
+        "source_unit_hash": "44cc4c3cbb1fbf2e1560aa78942f7c7bc20dd469842da4a097258e92abe13621",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/2/content/0",
+        "source_unit_hash": "d2f90f03d4183ee7b8802fca70bac78bda9b155fb424dc1e7a7c0c4e2b3afb66",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/3/content/0",
+        "source_unit_hash": "684394ded13de7b24c72a3a98f063a0da99ceed7f4400855737ba01ec825402c",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/4/content/0",
+        "source_unit_hash": "c3a2cf6e507160c78e9899255bcee2c90b7fa34bdfc3f5fae88f6a7fdc2e52f8",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/5/content/0",
+        "source_unit_hash": "d7c9c9e75628da12dd58e14f3824090863f3f2e834d780951a05a1820c908862",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "20a432e60ed3dbb0fae78565d253925f200628a1cb3df5357d29d60446fbde13",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "a5476e0a487114df89a2494d00ea355827ceece20aded7fcef44e11b32375c49",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "4129a1e308fe061c6064abff47ef20e55db68f39abcac94ecb3b8533cbaef5f2",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "b9c5b7aff463d9eac2b94df9a256b684bc11ff3ab76c008656c1f11b8352dabb",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "7178500526a4d2b69552fa4fb9295ec1db1ffc4d78c1c330f230bf51d31319c4",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/rows/0/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/rows/0/1/0",
+        "source_unit_hash": "a2c9c618add1cd39d21e0b54a2f28fb77fd6d6fb445dfe122b5537d471540cae",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/rows/0/2/0",
+        "source_unit_hash": "44c17c86134789f06308494b6f2acc14c62e0bda9bb42f77068a3f1ed6589240",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/rows/1/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/rows/1/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/rows/1/1/0",
+        "source_unit_hash": "ac0532afee9c475e55d710cc7a3c05bda52a7962fad70672302cd4e5c869f665",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/rows/1/2/0",
+        "source_unit_hash": "5ac0a1fd60da4e98f3fa54a38d369ee3bc63795fc0fccbabdbd4c8bcfd67caf7",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/rows/2/0/0",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/rows/2/0/0/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/rows/2/1/0",
+        "source_unit_hash": "1a90c3ba0ef836dc38d924f3a3086cea9b8e0681d86eea9200e7716c5d0666a4",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/rows/2/2/0",
+        "source_unit_hash": "eae21787fac8f404e6ca68a5b2661855377c3f8437cb9eb411a83a616614c3b7",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/rows/3/0/0",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/rows/3/0/0/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/rows/3/1/0",
+        "source_unit_hash": "1e3048f87b26c7c7badf52f93cb74eb24fe6023a9c9b4721c6406c560d7fd1a5",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/rows/3/2/0",
+        "source_unit_hash": "dcfa7558d74c2291ae45d9c945dac61a922c59a662901a19ecb189406715e8e8",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "0e1388fcb9d771c09482d35ea01c196eacf4f506776f27ccf39dd1c9350a3a04",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "4be5895df918ce0923e8f4634d1506dcdce24399382d9c6f520ea79fbdc9b501",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/tabs/0/content/0",
+        "source_unit_hash": "9f27e01125934544634dec4016e33b6a4a1cd3dd90d66072a678d4c446bb6e2f",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "4d87e5291c8af00f4e3bdbf357dfdd0579376a0edc907c6b3def597fb35589ee",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/tabs/1/content/0",
+        "source_unit_hash": "667515c13fef2bb08c1563ade0dfc48b4e0714e128e9322875b5f337fed2a002",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "aff119b394e7ca1065672d319d55b74438f74ebc3f9a98ee1ad190ea19db4cc9",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/tabs/2/content/0",
+        "source_unit_hash": "0f35bf824d6b58aba22f5bb3020fc8ceeb506858e77fff379267e3a4eaa00e08",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/tabs/2/content/0/inlineContent/0",
+        "source_unit_hash": "59604ac22a8d21320ceb1153bc04ed2eefed722c3e26a3b5b93d0483e07ac6ca",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "60fab43d1767529bc9aef1dadbf9f6495553b68307e0ed3f08a7e769aebf5190",
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "evidence": "Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "98dbe6a648fa8d6ab847e189d11a2964bc635a2cdf0914120ce1af723fb5a07d",
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "evidence": "Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/0/content/0",
+        "source_unit_hash": "a5916985b308ec5e1a35a91ebf335596f2b996e83ac0346dc0ef5343a9f7c113",
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "evidence": "Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "83b957ec3ac8a0bc4a8be67a689b40b70fa781aa795922bdd9caaab0bd84874c",
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/0/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "evidence": "Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "edabc7833d4f433a6d96d8363b2d05ef7e9dd68ec188cbfceb85d120f3d474c6",
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "evidence": "Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/0/content/0",
+        "source_unit_hash": "2d58d786a0999d181b45929ef4fef425899995a90e6ee4c95872b56c1cdce312",
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "evidence": "Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "3979bfafee21a8a1fe9e64c3d5fe5931002a9f3f3a8dc8334c48a0f639596d1f",
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/0/content/1",
+        "source_unit_hash": "aa3ffd219b61742e49bd211001c14dffd940ea8240dbba0f982839284cb16cd1",
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "evidence": "Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "9b0e9804dc678b84e1ee433bc2571f00287122bacd9fa449e2620d0b4f468d97",
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/1/content/0",
+        "source_unit_hash": "97b293b29a2613f5fd39544713132be73e58060dfb24d702deceaa0064a6cf21",
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "evidence": "Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "4b2e68867ac69b31895066e4c23d3cd963258d247c36cde60ff664a5bbcb1050",
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/1/content/1",
+        "source_unit_hash": "88da2daeebc7904a187ce2d65a46d04ca752787bd4b8c751d6ee050502487214",
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "evidence": "Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "865ac282df94b7a5e1e9f726c915724a9d61a23a7a2126d432e94698d29fedda",
+        "source_anchor": "Pre-alert-screens-windows-or-views",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Pre-alert-screens-windows-or-views",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked essential-only explanation, single Continue/Next versus misleading Allow, no close/cancel/additional action except legal-consent needs."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "532c8278920c59f072966a5c55f1117c5b9bfe0cdd401a9607bc13d3be8395d2",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "4114559537ba895c546c0ac5a8ff8430e63e1f8059557d1acacac6218837c545",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "a067c2d9f9adf09480ad4e902aaf8a8950ada798d04b645ced0b42057f280e48",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "4fe1bbc7340314c3df205edcd864ae4c93cf1f585b1f778c6a14ce3dfe1d9714",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/0/content/0",
+        "source_unit_hash": "5ca4a1d24b45a643e1950effdb7dfbe907889ee80fb3a7bc39aeb06b4c02a572",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "834b5b737ee2d9b03d633509593abb19eb4b850ed348e1b9b78beff1897ad489",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/0/content/1",
+        "source_unit_hash": "551471ec844f87e1fe6db3ca89df04fe29bf4dc1c2360cdf8efa448439a6fc28",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/0/content/1/inlineContent/0",
+        "source_unit_hash": "1183ebd7818df34e1db23394c79d0ce3333a6eeaa40c36e621b6c0a6f446e96b",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/1/content/0",
+        "source_unit_hash": "8dc3081c461b3d615cbcdda072052d4b1b5cbb8d8950b1057ca8f1812b5038fc",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "3f329188d1d625b07f4c589f1c7302c06b3f019ac946365481ed80c39f3e6c6f",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/1/content/1",
+        "source_unit_hash": "3546f49595cf4f0ecdbe9ddb7a619606d7e968cdf1c8547292308c346b3c97ae",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/1/content/1/inlineContent/0",
+        "source_unit_hash": "0de5852a226ce3e186c806d660ffbac56ff35d4c983d03c8f039f82a17b990f1",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/2/content/0",
+        "source_unit_hash": "bedaef3f85a1cb7d0db8bd30fb64bfd96cf35dd0d9672ee5a3ad0cc653ba4746",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/2/content/0/inlineContent/0",
+        "source_unit_hash": "958d67efe942f61be3dd2ebf7479e7cecb60d5324c66fddbf8e2eaaf35740ea8",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/2/content/1",
+        "source_unit_hash": "f28e2417a824137b928133658f5f117e05a5e894f3608e0ccd9b59dd4bb485c4",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/2/content/1/inlineContent/0",
+        "source_unit_hash": "4c4d457be0d509d1c247f1dfa51c8ed09a79a426814914cd6b1ce8bc464e881e",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/3/content/0",
+        "source_unit_hash": "948d1b21c9fba0c46cf511cd70851dd7683782fac8bfbef7b8dfb2cf88314bd9",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/3/content/0/inlineContent/0",
+        "source_unit_hash": "582c57da724c27765a1f3e3f2a31846030dbb221a9fd5c096c4f027cca1ecadb",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/3/content/1",
+        "source_unit_hash": "e70298406f95e470e45a5c62ee1e6ac05e9e9ab62652006d5ea7dddd19686a07",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/tabs/3/content/1/inlineContent/0",
+        "source_unit_hash": "a588b514640875b08e901bbd476db17c78650a114461efe749da40e3bad319ec",
+        "source_anchor": "Tracking-requests",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Tracking-requests",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked alert-before-collection and every prohibited incentive/imitation/image/annotation pattern, plus legal-consent exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "9f7a405ad26efc2b6f8efd256d365f0328a448326ea777aa6d592502a1ef8e1f",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "bdd5a324d35f8a1e097dd473c8645b9e1fc6fd62790d0a6e9f7bba8d77425f8f",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/inlineContent/0",
+        "source_unit_hash": "5e57e5d7114cd19184677d046baa18c3402445b7fda10c66ef632f06609e5038",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "600e72f43c2e24e39841fefb88e826c7e8b4f1f6d74abb98e5b6174834bf3d2d",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "85164d8b208d446d7c677254920c0a48949b461a32f1340f103dd9dea8c72f61",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/inlineContent/0",
+        "source_unit_hash": "38ca0d99e69d58d694921dd2c57f92c646080780f8f5b01c3fc8e006d864c096",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "73d9d7df03d69af283fe8412473bc46a97a1d9026f8fedfd387a7df0aacae58d",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "e3be61ced9b86e5854254c1f2f10e94695877990a02d227d3e21f770b437a04c",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/content/0",
+        "source_unit_hash": "bad3ee04c3a98e6f88d97a8408371b77fad5fe9412080483c45de11fe86c82ed",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "29096fccb495d30a336de6dd3a971c78cb09129e4cb2cd06b5f2cb773bc1f3b2",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "f0b1550e93450fab0ce3bcab8f8a6a1422d8ebcab773eda9da154afe2fa85032",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "8178063861746bbd465ce83c280552372110698f926b6f6be4b392b9d094e9cc",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/items/0/content/0",
+        "source_unit_hash": "4b446c87b050ff342a918a21feaafd00840199126efcabd992e4d309be9c97a6",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/items/1/content/0",
+        "source_unit_hash": "1f9dd85eb40357fd1be5b0d6ff72c82ea5722d253dc07baa770ed9693536ec3d",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/items/2/content/0",
+        "source_unit_hash": "7f0d89787e31740cd7c5d47b57d1e682753f66c002d1fc7e80072b89201faee2",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/items/3/content/0",
+        "source_unit_hash": "c444df96fd609f2b98d746cf090353d4ab9f261616970b00123701d2871104fe",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "b08088786fba719be235dc39a9ef8689b392a0d443e25a5fb07f1547fb3290f9",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "09c0ffe9971ddff2519c08573e054d41710658bd078e93e3377c4d755a5e3d5d",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/content/0",
+        "source_unit_hash": "43f3f3616df66d07dce7a1aaf78bb52ad5ac73fddf3b5fcc187aafbbcfd36b9a",
+        "source_anchor": "Location-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Location-button",
+        "evidence": "Checked one-time authorization lifecycle/first education, Allow Once versus While Using behavior, intended uses, exact customization limits, localization/accessibility fit and denial for persistent invalid appearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "a43d2b2625d8edc17c929d3a46dbdb17d5f4ce29892db4d95d235dffc2d8b8d2",
+        "source_anchor": "Protecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Protecting-data",
+        "evidence": "Checked passkeys/two-factor/biometrics, encrypted keychain/no plaintext and standard authentication."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "940b1dab705e86687eff208d98f9ee197276d480d188415ef56f812ff7d55f2e",
+        "source_anchor": "Protecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Protecting-data",
+        "evidence": "Checked passkeys/two-factor/biometrics, encrypted keychain/no plaintext and standard authentication."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "40ca1d3c9d7d512d3704cfc344f6e2bce54c78af892e76af46a278436637b6f9",
+        "source_anchor": "Protecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Protecting-data",
+        "evidence": "Checked passkeys/two-factor/biometrics, encrypted keychain/no plaintext and standard authentication."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "20fd3902d52cd193bcca483ded4f06844dec8f5a6477307e78cc1824784a5537",
+        "source_anchor": "Protecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Protecting-data",
+        "evidence": "Checked passkeys/two-factor/biometrics, encrypted keychain/no plaintext and standard authentication."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "3aece52041117848e7ddd92499364059b73ec7f6c06d28f81c8ee5d0a9e7282b",
+        "source_anchor": "Protecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Protecting-data",
+        "evidence": "Checked passkeys/two-factor/biometrics, encrypted keychain/no plaintext and standard authentication."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "97920690ee118b811baad4f8f0f539135b14ebe4e7c1159bd49b6ad645f86988",
+        "source_anchor": "Protecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Protecting-data",
+        "evidence": "Checked passkeys/two-factor/biometrics, encrypted keychain/no plaintext and standard authentication."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "fe5a8fbf05bc09c67899bb6aacf36ad59819c92be791c9124a66b1a17f154a72",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "No extra mobile/TV/watch rules retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "dcf7c549ee5161d616d824542a7dc2a798a7c54ec932446cf5defbe956706ef1",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked Developer ID, sandbox requirement and fast-user-switching scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "63ef6511004d5705d9b7f21acf855760faada92d80a9612d3179f0ca1baddb47",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked Developer ID, sandbox requirement and fast-user-switching scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "18bbb5589cd91a31ab0e01cdc9224f2bdba61fdd88712f1cab2a22457dabd3e8",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked Developer ID, sandbox requirement and fast-user-switching scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "992364db530a210f689e7af60795db5db41a28e6cc9ead72c98e5faa3526856f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked Shared Space algorithms without app raw data, Full Space permission gates, private gaze, compatibility back-camera blank input, Persona front input and adapting camera features."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "98adfd98d28ed1142067aa9dd3e485ef943e5184753c3b0a4200df126acf091e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked Shared Space algorithms without app raw data, Full Space permission gates, private gaze, compatibility back-camera blank input, Persona front input and adapting camera features."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "34209b1913dc440eb2e70bf7d6a3aeff9c76a433f8ed5bde3212ee9275e08cc2",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked Shared Space algorithms without app raw data, Full Space permission gates, private gaze, compatibility back-camera blank input, Persona front input and adapting camera features."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "fd44e68516d7dbe9e1980f940d6bcfc53b16de42c717b2fa15e0fc0c2343baae",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked Shared Space algorithms without app raw data, Full Space permission gates, private gaze, compatibility back-camera blank input, Persona front input and adapting camera features."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "53a0a277e152d9a7f2ff5b5db7b0ffc028ecfe12baef54c41eea7f1357d798f5",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "21c110f4b3ffd0aa7367b4bc7a82b6508900d0dd0c180faf47183781dcf80ecb",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "a56800bba016acde7833e56dd4a152b3629005e6e36476dd26b68767818f84c6",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/66",
+        "source_unit_hash": "bf9f0f97f092216b442251d02262a7f629de4d9a81b55eb0b6a3e7e95a6f20e0",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/67",
+        "source_unit_hash": "8060f4bd6dbace6bc6f21ff53812754fa2eb9be97fa3c82d0f93d9ebe469f9be",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "196653b595c2957bc986c0e3184baa34666d4a9b741479758859cd8bf7dde756",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/72",
+        "source_unit_hash": "9c385de213fb302f65d095a1cb1d6ca703a8f411c0b7342f2e1594c5c7f0e41c",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/72/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/72/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/72/rows/1/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/72/rows/1/1/0",
+        "source_unit_hash": "9a56b12e2e69611876074b3e5ca40d378019cf0167164c26140b013d6f613439",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "7178500526a4d2b69552fa4fb9295ec1db1ffc4d78c1c330f230bf51d31319c4",
+        "source_anchor": "Requesting-permission",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Requesting-permission",
+        "evidence": "Checked all protected-data/resource categories, feature-time versus essential-launch requests, system purpose display/settings and active specific complete purpose sentences; good/bad purpose-string table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/72",
+        "source_unit_hash": "9c385de213fb302f65d095a1cb1d6ca703a8f411c0b7342f2e1594c5c7f0e41c",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

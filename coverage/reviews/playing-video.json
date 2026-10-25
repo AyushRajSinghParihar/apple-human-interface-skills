@@ -1,0 +1,1022 @@
+{
+  "review": {
+    "slug": "playing-video",
+    "status": "reviewed",
+    "source_hash": "73aa8b30b153aa53a2d3204307832823b7149396973df99b415915b384c4e56c",
+    "destination_hash": "1059ed7c7cf052772828b4100add598286e5316b38bfbd614e43e5cda6384c93",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:21:18.815005+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "playing-video",
+        "status": "reviewed",
+        "evidence": "Verified native-player platforms/TV integration, exact aspect-fill 2:1–2.40:1 and aspect-fit standard/ultrawide modes, explicit source endpoint overlap, transport/content tabs and visionOS ornament."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "source_anchor": "Integrating-with-the-TV-app",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Integrating-with-the-TV-app",
+        "status": "reviewed",
+        "evidence": "Retains black transition without launch/splash barriers, automatic resume/prior stop time, rare Select/Play interstitial behavior, supplied/unspecified profile handling and Bluetooth keyboard Space."
+      },
+      {
+        "source_anchor": "Loading-content",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Loading-content",
+        "status": "reviewed",
+        "evidence": "Verified more-than-two-second black centered-spinner recommendation, immediate start once enough buffers, background continuation and minimal branding on black."
+      },
+      {
+        "source_anchor": "Exiting-playback",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Exiting-playback",
+        "status": "reviewed",
+        "evidence": "Verified exit remains in app with relevant detail/resume or fallback menus; exit context prepared immediately for rapid departure."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified the explicit absence of further platform rules; the local platform scope matches the source."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Retains small/brief overlays, translucent SDR for retention risk, minimum 0.5-second delay before interactive-overlay pause, and clear dismissal/resumption."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Compared voluntary start/small resizable window/visible surroundings, no automatic full immersion, unoccluded default player/ornament placement, 160 px thumbnail width, 2D inline margin and coplanar controls, RealityKit transitional effects with aspect/captions."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "58fd923319d5620e8558f73b45d773a4a4b49e25224f8341bbef3a4bee550f5f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "playing-video",
+        "evidence": "Verified native-player platforms/TV integration, exact aspect-fill 2:1–2.40:1 and aspect-fit standard/ultrawide modes, explicit source endpoint overlap, transport/content tabs and visionOS ornament."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "e5cca512f839cfdee8e54845184d0b047d331433b6147f7eb3aee629a83eb9b8",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "playing-video",
+        "evidence": "Verified native-player platforms/TV integration, exact aspect-fill 2:1–2.40:1 and aspect-fit standard/ultrawide modes, explicit source endpoint overlap, transport/content tabs and visionOS ornament. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "1d36fbfce7090e247a4d872ea46e2ef9021df868af286a610b34038da8019718",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "playing-video",
+        "evidence": "Verified native-player platforms/TV integration, exact aspect-fill 2:1–2.40:1 and aspect-fit standard/ultrawide modes, explicit source endpoint overlap, transport/content tabs and visionOS ornament."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "3c3beab8626be0a77630b0488890c09a6fba2e7f6548a081842e84a10ef9005b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "playing-video",
+        "evidence": "Verified native-player platforms/TV integration, exact aspect-fill 2:1–2.40:1 and aspect-fit standard/ultrawide modes, explicit source endpoint overlap, transport/content tabs and visionOS ornament."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "a86710b0063a51354e66ce8e6f190b7b95bb5c7c07739688768abf3c55cb783d",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "playing-video",
+        "evidence": "Verified native-player platforms/TV integration, exact aspect-fill 2:1–2.40:1 and aspect-fit standard/ultrawide modes, explicit source endpoint overlap, transport/content tabs and visionOS ornament."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/items/0/content/0",
+        "source_unit_hash": "d184c4876dd582ef1cfd068545b3307be8a4fcdef9792c969abac9f814811144",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "playing-video",
+        "evidence": "Verified native-player platforms/TV integration, exact aspect-fill 2:1–2.40:1 and aspect-fit standard/ultrawide modes, explicit source endpoint overlap, transport/content tabs and visionOS ornament."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/items/1/content/0",
+        "source_unit_hash": "ed1c7b696af8b8600e05e02718cef97855f579a3976cd11be2ec493bfdc92268",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "playing-video",
+        "evidence": "Verified native-player platforms/TV integration, exact aspect-fill 2:1–2.40:1 and aspect-fit standard/ultrawide modes, explicit source endpoint overlap, transport/content tabs and visionOS ornament."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "bdda4949440592f14b2cf6f87d9a96ebd44ea9f03fb9dd5c0c1444a8471c5c10",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "playing-video",
+        "evidence": "Verified native-player platforms/TV integration, exact aspect-fill 2:1–2.40:1 and aspect-fit standard/ultrawide modes, explicit source endpoint overlap, transport/content tabs and visionOS ornament."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "74639e71dae98f77764de188045d7ce6c0c8b4bdb77d2d621bcf9d3e1dc14d74",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "11b4089ee8c9c08d1582360767d7fb0e788c5ab1f44c5d6e5f0ca0f957af15ab",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "b296b8150a8b910da239f8d3aa27023bc4c20173a332ed6253d7c28eb2996209",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "b9324f11ad0bd4df8080f76ca302cf4949a223cc43ef0832180a4f5dcaa95fea",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/0/content/0/columns/0/content/0",
+        "source_unit_hash": "03e96d906086ce91a9e369c7034ba38cfb309572abcfced3b8ccd4544c5c2a14",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/0/content/0/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "ee98c1085433b152f07367713f924ad54b82d765ac77bba2144169e9be1ce3b5",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/0/content/0/columns/0/content/1",
+        "source_unit_hash": "2ba8be7a67eab8eadd841d6a27f1eaf141d48b91dc3722c28f5c4571a0b87767",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/0/content/0/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "3395a79de171e1ae51178370f4df45df6faf096279340d943f7acfb8a7c45574",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/0/content/0/columns/1/content/0",
+        "source_unit_hash": "ca12a44a13499f1708d66811498ebe958c4c3cfc374b08ceb622311e88041533",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/0/content/0/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "b6dec177e35e9756c4594ca99856f73945b7d473939ed3fa6fdac402d8cf0558",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/0/content/0/columns/1/content/1",
+        "source_unit_hash": "60740eaee5d29e5c970ce870690a348e147fee2edaf5d84e8fb397e507a3c007",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/0/content/0/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "03024cbc7b1ea1380cf0220bb7153c10cd2965980584d26f9c3b981199a5928f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/0/content/1/columns/0/content/0",
+        "source_unit_hash": "3ca7ba2695b0d9e56a25d7bb7dce5da25a99c1bf96eacca252edb1c30f9a4680",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/0/content/1/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "a005287bbf986e0f098b50a5aa7b72270ff44a0be19c2f3461fdb8bb8e6ede50",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/1/content/0/columns/0/content/0",
+        "source_unit_hash": "9c734004f33ff18d28cb826e12c7242fde31f1ec582e129a59fe1ffa4296fd49",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/1/content/0/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "c17b9d63c82692cd5726d2f4038f67cc09f4e9a5ec72466101df9d726e969b34",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/1/content/0/columns/0/content/1",
+        "source_unit_hash": "18399ba4a3c485c6bc7be2195818e44160dffe6320cd52986624996c56e8b1b7",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/1/content/0/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "d3e3c7105afeab6b74e5c6d7a10aa36ddab8f5f8b1980724c52176cbc48205e7",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/1/content/0/columns/1/content/0",
+        "source_unit_hash": "b5ae2a7e5cde2bfcf13bc02fec153b7f2b251a9ff22e77be201b0005a45a3155",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/1/content/0/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "f5959d9ab9c91e605ee567d09f28045aa68017f0a5d8f0740260e7c42da193b0",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/1/content/0/columns/1/content/1",
+        "source_unit_hash": "7d3499bbcdade7cde662a93da517bfabcfde5546c6404892e405134dd460dab9",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/1/content/0/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "f58600a6200554d86765d2798dd1f0e64b3024e93c7344279f8e37058ffff619",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/1/content/1/columns/0/content/0",
+        "source_unit_hash": "3ca7ba2695b0d9e56a25d7bb7dce5da25a99c1bf96eacca252edb1c30f9a4680",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/tabs/1/content/1/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "a005287bbf986e0f098b50a5aa7b72270ff44a0be19c2f3461fdb8bb8e6ede50",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "0b4e70445dfda8c74a856f4d3a6dada2b86a05b81ca0eed777c05994fc261caf",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "d004163f8d02a1e3146a9dd3b627f0ae0a4b20d65f2848b8ccbbaea3f14c29c6",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "87c29fe556a67a8d9de2662b95eecd5b053c8819522181f15831eafae6a42965",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "b70cd604356d36f2f6e174da5b85cbafddcf87b7e60913796e0015a9d5cfbf94",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system/custom behavioral consistency, original aspect/no embedded padding, nonobscuring metadata, keyboard Space/remote expectations, short extra actions and correct tabs versus controls, and secondary-audio handling for PiP transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "7cac9d3813ef534c4bce223c89868c7937bc0f6ff658d04256d9c103720b8e8e",
+        "source_anchor": "Integrating-with-the-TV-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Integrating-with-the-TV-app",
+        "evidence": "Retains black transition without launch/splash barriers, automatic resume/prior stop time, rare Select/Play interstitial behavior, supplied/unspecified profile handling and Bluetooth keyboard Space."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "04b44618d9fce166cbef5d6d35a4b0fd9031de8a7d06d3fc119424a22542d503",
+        "source_anchor": "Integrating-with-the-TV-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Integrating-with-the-TV-app",
+        "evidence": "Retains black transition without launch/splash barriers, automatic resume/prior stop time, rare Select/Play interstitial behavior, supplied/unspecified profile handling and Bluetooth keyboard Space."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "ab5a3930e209e70fdaa3ee6222bc5959b38214255efe95ad94be588351d83060",
+        "source_anchor": "Integrating-with-the-TV-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Integrating-with-the-TV-app",
+        "evidence": "Retains black transition without launch/splash barriers, automatic resume/prior stop time, rare Select/Play interstitial behavior, supplied/unspecified profile handling and Bluetooth keyboard Space."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "cae46cd4ffccbc8b57a2242df48bf11f37ec36d45123be7fbdc75d73d54709ef",
+        "source_anchor": "Integrating-with-the-TV-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Integrating-with-the-TV-app",
+        "evidence": "Retains black transition without launch/splash barriers, automatic resume/prior stop time, rare Select/Play interstitial behavior, supplied/unspecified profile handling and Bluetooth keyboard Space."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "5adcc04123a12e82ba57b6df652980eebccaf0073d355447c2289606d11f7e3f",
+        "source_anchor": "Integrating-with-the-TV-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Integrating-with-the-TV-app",
+        "evidence": "Retains black transition without launch/splash barriers, automatic resume/prior stop time, rare Select/Play interstitial behavior, supplied/unspecified profile handling and Bluetooth keyboard Space."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "d873ce66220873a7c2301b1a592e0edab345f48232564cade7780fccf8cb2376",
+        "source_anchor": "Integrating-with-the-TV-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Integrating-with-the-TV-app",
+        "evidence": "Retains black transition without launch/splash barriers, automatic resume/prior stop time, rare Select/Play interstitial behavior, supplied/unspecified profile handling and Bluetooth keyboard Space."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "c4325c8c871039444b6afe2961491f0c6d17522042aa4db038b5efd8a50dae05",
+        "source_anchor": "Integrating-with-the-TV-app",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Integrating-with-the-TV-app",
+        "evidence": "Retains black transition without launch/splash barriers, automatic resume/prior stop time, rare Select/Play interstitial behavior, supplied/unspecified profile handling and Bluetooth keyboard Space."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "1556deb60b3495cb8ebed71c570a1495cb4681ebedd4a2c85c8af0c461b4ce46",
+        "source_anchor": "Loading-content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Loading-content",
+        "evidence": "Verified more-than-two-second black centered-spinner recommendation, immediate start once enough buffers, background continuation and minimal branding on black."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "65ee85fd2460d7f0951a66eb9d0a369f72bb01c09dca344c39d3703990791db5",
+        "source_anchor": "Loading-content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Loading-content",
+        "evidence": "Verified more-than-two-second black centered-spinner recommendation, immediate start once enough buffers, background continuation and minimal branding on black."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "10c3e790d196039afdb353f0e55a9fbf6dceff140898ce1273e9dda5655a0ab2",
+        "source_anchor": "Loading-content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Loading-content",
+        "evidence": "Verified more-than-two-second black centered-spinner recommendation, immediate start once enough buffers, background continuation and minimal branding on black."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "ef2c6b1a4e759312be2e36f6a044d4b946c4337c1db03f9a5622d480ed40f720",
+        "source_anchor": "Exiting-playback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Exiting-playback",
+        "evidence": "Verified exit remains in app with relevant detail/resume or fallback menus; exit context prepared immediately for rapid departure."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "77969bafebe96bb75b59d9db601aeca5d49aa21a0ccc985668fbcd8a89f1f242",
+        "source_anchor": "Exiting-playback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Exiting-playback",
+        "evidence": "Verified exit remains in app with relevant detail/resume or fallback menus; exit context prepared immediately for rapid departure."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "deb4a7abf68250a046845fe47b056f59b0ddf65305aabdf0d03d3fafa6a1573c",
+        "source_anchor": "Exiting-playback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Exiting-playback",
+        "evidence": "Verified exit remains in app with relevant detail/resume or fallback menus; exit context prepared immediately for rapid departure."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "ce6009afc940e14c406e95bd4ec23457382b6beb62a5aef9e8662acde42ab8e8",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified the explicit absence of further platform rules; the local platform scope matches the source."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "af69083c88d1f0458f9523fd7408621997b84b149ae50b1c64e5dbf26aa26b2b",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Retains small/brief overlays, translucent SDR for retention risk, minimum 0.5-second delay before interactive-overlay pause, and clear dismissal/resumption."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "4a8a9243da9e1127315aa6bccfe81d50c8ed8bfb37b848961801cbfc563e83c6",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Retains small/brief overlays, translucent SDR for retention risk, minimum 0.5-second delay before interactive-overlay pause, and clear dismissal/resumption."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "974c072f7ca49f5e363472c7911dc399c7e683f89234aa839a959c4a6b610814",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared voluntary start/small resizable window/visible surroundings, no automatic full immersion, unoccluded default player/ornament placement, 160 px thumbnail width, 2D inline margin and coplanar controls, RealityKit transitional effects with aspect/captions."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "47e836ef881bf78146f121c831771091f1687e4b951ebf57567c505848b3a6ca",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared voluntary start/small resizable window/visible surroundings, no automatic full immersion, unoccluded default player/ornament placement, 160 px thumbnail width, 2D inline margin and coplanar controls, RealityKit transitional effects with aspect/captions."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/items/0/content/0",
+        "source_unit_hash": "9cdc99985fe41a7b9f1f72905fe9e16a0c5ecfe80852aef4e5f47fadedd28d84",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared voluntary start/small resizable window/visible surroundings, no automatic full immersion, unoccluded default player/ornament placement, 160 px thumbnail width, 2D inline margin and coplanar controls, RealityKit transitional effects with aspect/captions."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/items/1/content/0",
+        "source_unit_hash": "79798224c17c34a6bb6280377c94c513f69a59faf5b8bf38a971c34b4891ced7",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared voluntary start/small resizable window/visible surroundings, no automatic full immersion, unoccluded default player/ornament placement, 160 px thumbnail width, 2D inline margin and coplanar controls, RealityKit transitional effects with aspect/captions."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/items/2/content/0",
+        "source_unit_hash": "b6a11cd386cae0176a64364c03bc63ad1be7ea1ff1d2b5d01ef2f27e6751bae3",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared voluntary start/small resizable window/visible surroundings, no automatic full immersion, unoccluded default player/ornament placement, 160 px thumbnail width, 2D inline margin and coplanar controls, RealityKit transitional effects with aspect/captions."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "43466affefdbe5a19078eda0eb1d55d64b1ab7eaebbe0db3daac50a5b0f2aad4",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared voluntary start/small resizable window/visible surroundings, no automatic full immersion, unoccluded default player/ornament placement, 160 px thumbnail width, 2D inline margin and coplanar controls, RealityKit transitional effects with aspect/captions."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "ac4079dbc30423bc17c3f8605c279df47bb92c2e254c76f867da8bcf0b6c2655",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared voluntary start/small resizable window/visible surroundings, no automatic full immersion, unoccluded default player/ornament placement, 160 px thumbnail width, 2D inline margin and coplanar controls, RealityKit transitional effects with aspect/captions."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "f93e15949501bcc9970aa11616455b03a912e9c61b6d1d3adcdb3cd9ef821f69",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared voluntary start/small resizable window/visible surroundings, no automatic full immersion, unoccluded default player/ornament placement, 160 px thumbnail width, 2D inline margin and coplanar controls, RealityKit transitional effects with aspect/captions."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "1547c9d39e70b62c6a24ea5614e42d87c3856c1bf99f7e7989ba425fc004f88e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared voluntary start/small resizable window/visible surroundings, no automatic full immersion, unoccluded default player/ornament placement, 160 px thumbnail width, 2D inline margin and coplanar controls, RealityKit transitional effects with aspect/captions."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "b6f14ec4bcebb2464491d2fa935610509b214c629beb9aff2a60f616c3f7dca2",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Compared voluntary start/small resizable window/visible surroundings, no automatic full immersion, unoccluded default player/ornament placement, 160 px thumbnail width, 2D inline margin and coplanar controls, RealityKit transitional effects with aspect/captions."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "80be36f9f6e7b8f00dadeaf79a92d7cde05b3dd42e34cbeb13f50c37960ca1e8",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "4cbcc776e7a0be27ef2d2595c1dd4ba97e3ddd4b4ad6ffd74372a47af1b51c5a",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "0a3643d602489dae926df9ee685add85a84912c8aacc74885ebcc053c92346cf",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "4648caacff8fc30cd7141d9038c0fcabf52777f9cc76c6127c3f3481aacbc4c7",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/rows/0/0/0",
+        "source_unit_hash": "379969b19678bc6ac70ec2bad0d9b21b13e9b09c18cf7f462aac02465d0fe523",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/rows/0/1/0",
+        "source_unit_hash": "1d81e4e6438c4f14f388f9e5a9c557210883b6a1718cafde77b93d597b86105d",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/rows/1/0/0",
+        "source_unit_hash": "d9388ee5419fe69d9351f42e73306ef57b7c11c28b6adcbf57c6ae981907708c",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/rows/1/1/0",
+        "source_unit_hash": "4abe1354d0522eaab54dce4f5881acb6b09dfcc76f3c263019d9d02876aae057",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/rows/2/0/0",
+        "source_unit_hash": "cb238068e3da02bc8f6f94d59e2dd649c51e8441a8f99b48d186b5a4bc550b82",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/rows/2/1/0",
+        "source_unit_hash": "90a70a7484b712ea92db9de79acb8b054320d1e9729834c89b8ef612eea7d869",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/rows/3/0/0",
+        "source_unit_hash": "cd55dfd175be1bb746e65084e685b6668ecb29fc04463a77dd7a1403fd302784",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/rows/3/1/0",
+        "source_unit_hash": "0b30b898b23d568bb4eeedc1f7e4d8c15121bf71cc63d9ba9a3c167cf0e7ff58",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/rows/4/0/0",
+        "source_unit_hash": "1ee8ca1cfd4fffe71d3e8073f0f58d32d70c20b518cad193aa68fbb5edd5a44c",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/rows/4/1/0",
+        "source_unit_hash": "b8ea12427bcb8e07c475751fd89910664859f691fee81c5e60f90648e82d9ada",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/rows/5/0/0",
+        "source_unit_hash": "046b565b077bb6fb5fb7392e7f85c7487800dd3e40c6b21c891d9817bfbf138b",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/rows/5/1/0",
+        "source_unit_hash": "39d136dda0181fea35ff4c3e2cdd53fb21e0e3633f2124df230e337b81b9aa37",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "d4df1aa96d08a87a0f4e1b8ff68b3897a77f2e089f88c7be98b7abf56270c678",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "68a9cd761a95d02b451d1a916cd3a752d6404dda6d4683b5d5816e1803b7d4b9",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "1c440d5701004e170e67868850ba5c3a0100f528dc16e5b74312affa1bbd2cf0",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "6427aa81d9828b0d03c4c78a3b225a41d7af45949cc573a6937b8bbe9ec70e2f",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "aa0ff61fd891af06493c254b60b8b66505094090926f3dc4b0d0c9f3f1fdfd8f",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "84e00b06451b62a6d595572f5c34f73b646c7a2b93d19fca5ff679abd5f7ab3e",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "99dc23065095146788e65800ab83cb5045bf051fe29fb3f700b08e7fc70c8f88",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "3b7776d9a39e63219cb30f63d0cecb9d63eccd846a2de4d38373ee004aaf93bb",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/1/0/0",
+        "source_unit_hash": "2fcab2806aebbb2b0c1f085dd684047a32efe7390a10b69cd154b0b8fc93584d",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/1/1/0",
+        "source_unit_hash": "3e50e39642c44091f726adf77b9085e95c1e012321c11f4b7825c89e67dc5eda",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/2/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/2/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "4648caacff8fc30cd7141d9038c0fcabf52777f9cc76c6127c3f3481aacbc4c7",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Every five-row source specification is retained: H.264 High Profile, 160 kbps up to 30 fps, 208×260 px portrait, 320×180 px 16:9, 64 kbps HE-AAC. Also checked foreground inline/separate playback, 30-second preference, no scaling, meaningful noncontrol poster."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "3b7776d9a39e63219cb30f63d0cecb9d63eccd846a2de4d38373ee004aaf93bb",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

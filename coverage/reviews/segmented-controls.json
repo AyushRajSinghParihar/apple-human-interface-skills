@@ -1,0 +1,485 @@
+{
+  "review": {
+    "slug": "segmented-controls",
+    "status": "reviewed",
+    "source_hash": "6bdc3da24a25a7e7851436c023ff56dfa6db792dddf3c8a15e8ffb22558f3faa",
+    "destination_hash": "71269d2e799162205ba0b77ab59f1c73898e9dac965be6203adea9bf8cb374cf",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:06:04.859568+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "segmented-controls",
+        "status": "reviewed",
+        "evidence": "Checked equal-width related segments, Mac single/multiple selections and momentary action mode."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified grouping/state purpose, consistent action-versus-selection model, 5–7 wide/about 5 phone limits and optical consistency."
+      },
+      {
+        "source_anchor": "Content",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Content",
+        "status": "reviewed",
+        "evidence": "Checked uniform text-or-image content, similar footprint and title-case noun labels without unnecessary intro."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified Watch exclusion."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Checked related subview use versus tab bars for separate app sections."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Verified optional intro/captions/tooltips, main-window tab-view preference and Magic Trackpad spring loading."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Checked split-view filtering alternative and focus-select behavior requiring separation."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked descriptive tooltip text for looked-at icon segments."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "b34866b3ac7f04d648e69e86ccec4d8312ba60b3eded651d988134d17df1d399",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "segmented-controls",
+        "evidence": "Checked equal-width related segments, Mac single/multiple selections and momentary action mode."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "d2f5a6cf5090d2a1c19252d84c371acb678b34d3a3d359340264896c81799e0c",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "segmented-controls",
+        "evidence": "Checked equal-width related segments, Mac single/multiple selections and momentary action mode. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "c2f45c7b9601d5dcf60085c2ce57a7bf0a6e0543f97a185ef408241788936ffb",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "segmented-controls",
+        "evidence": "Checked equal-width related segments, Mac single/multiple selections and momentary action mode."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "7b844c4a7313766ad5197ae403d2094f206a891c4c0bfdd388c2a79b93aa0f2b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "segmented-controls",
+        "evidence": "Checked equal-width related segments, Mac single/multiple selections and momentary action mode."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/columns/0/content/0",
+        "source_unit_hash": "616c1390232901dc8f73bda3dfb12c4343ae604599c86c72449927d671c240ce",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "segmented-controls",
+        "evidence": "Checked equal-width related segments, Mac single/multiple selections and momentary action mode."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "2c5a72a18a02b8d10f738f0e4866a42eaf512abfaef2d4cf364fd9c9fb499cd2",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "segmented-controls",
+        "evidence": "Checked equal-width related segments, Mac single/multiple selections and momentary action mode. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/columns/1/content/0",
+        "source_unit_hash": "62f9395a1ab9534b267b09830bab240cacc944ad0f0e0797952bf24801c5e4d1",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "segmented-controls",
+        "evidence": "Checked equal-width related segments, Mac single/multiple selections and momentary action mode."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "f1ccd3dd22f966779ac6f841a09cda730bb9c5eb3f5c9dfea09ec1fbf9df1d97",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "segmented-controls",
+        "evidence": "Checked equal-width related segments, Mac single/multiple selections and momentary action mode. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "ca7faa86dc039433387da4d7e36e713f9d7e1b43a21339b6aa1d7b6e91fca0ff",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "segmented-controls",
+        "evidence": "Checked equal-width related segments, Mac single/multiple selections and momentary action mode."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "00698e0e8250e4178da106b7d6951c0a20632d6f939a7bc213d366f666c5bd05",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified grouping/state purpose, consistent action-versus-selection model, 5–7 wide/about 5 phone limits and optical consistency."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/columns/0/content/0",
+        "source_unit_hash": "73e49d48d26064ce2f00dc1e219c31f9f18a54f2ec6fa7fd1e2cb1ae6aaef2fb",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified grouping/state purpose, consistent action-versus-selection model, 5–7 wide/about 5 phone limits and optical consistency."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "96e861ba324b626e4f12d87a86fe673c6196723ad6982e5560080e75700b7e3a",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified grouping/state purpose, consistent action-versus-selection model, 5–7 wide/about 5 phone limits and optical consistency. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "ba987519c59daf0ea2dd4c6882cf99dc829f443daac135bb60e2721936e33470",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified grouping/state purpose, consistent action-versus-selection model, 5–7 wide/about 5 phone limits and optical consistency."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "795493d880997f8e106695256c1ca849d82698c5d5743b28f69fbb18b33226d0",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified grouping/state purpose, consistent action-versus-selection model, 5–7 wide/about 5 phone limits and optical consistency."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "a564f68a84ec273ffee27dc72f86ddae98d22e15510698e24d5927530d3335bb",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified grouping/state purpose, consistent action-versus-selection model, 5–7 wide/about 5 phone limits and optical consistency."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "412d30c0e8c88624786fbe5ca9a10d947855fe4e33ab921433ac5357df57f218",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified grouping/state purpose, consistent action-versus-selection model, 5–7 wide/about 5 phone limits and optical consistency."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "1ddb732fbf605060b5e17c03bd7403628b5d063d430a18f7bc1869a126038c0a",
+        "source_anchor": "Content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Content",
+        "evidence": "Checked uniform text-or-image content, similar footprint and title-case noun labels without unnecessary intro."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "f35899d92ab5f8f9caea493e787989bd97ce663f690fe2654a055cfc5ec3aa47",
+        "source_anchor": "Content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Content",
+        "evidence": "Checked uniform text-or-image content, similar footprint and title-case noun labels without unnecessary intro."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "e399ba482a000046af95ba0a8795ad51a0448745201d1f4ed72fadf9c4d96908",
+        "source_anchor": "Content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Content",
+        "evidence": "Checked uniform text-or-image content, similar footprint and title-case noun labels without unnecessary intro."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "2fdaec0eb753b1f74fd4db4c1904573bf364d153d593bd179054d22422a8f084",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified Watch exclusion."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "74e31a2b7d21d3a435ef1fac557eecc24a6d6282089f8ef35c3d579128b2bb2c",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked related subview use versus tab bars for separate app sections."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "680544da33ec4da3a22c972138f3f0a04eea524b60bd5049cf8fd50ab2549ef3",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked related subview use versus tab bars for separate app sections."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/inlineContent/0",
+        "source_unit_hash": "a6f01bddee8d9d0a72f085e0da73394ed00c087475e02c3285c7d88e996d1820",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked related subview use versus tab bars for separate app sections. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "ffdfcb8a30b3455e6de207be546a6c19a20279ddf000e0044d48b5e559d3d675",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified optional intro/captions/tooltips, main-window tab-view preference and Magic Trackpad spring loading."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "4d0870db07b7fa22faf6f0854277dfcccfc5869824cfe9546d3f9fc578923f44",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified optional intro/captions/tooltips, main-window tab-view preference and Magic Trackpad spring loading."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "82a67ec830156823bd722fbae92f6dfbe1059d96447de66b6c68f19c61321938",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified optional intro/captions/tooltips, main-window tab-view preference and Magic Trackpad spring loading."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/inlineContent/0",
+        "source_unit_hash": "675754987ff2a91b19c8c1ababa7643b47b42b61a7671923979aff40752dadae",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified optional intro/captions/tooltips, main-window tab-view preference and Magic Trackpad spring loading. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "cec395381ad4fce9603ca79166dd1915a475ee42ce19d10daae34a9548002236",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified optional intro/captions/tooltips, main-window tab-view preference and Magic Trackpad spring loading."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "c28a2d7eb5f7d2ac39ecf91d77cc246ce412cc8e60109b2784791ec792f86f75",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked split-view filtering alternative and focus-select behavior requiring separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "602cf30b5c2b95241cbd6483d036c3ac84a2338c010a75a263fcb54de57c5f21",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked split-view filtering alternative and focus-select behavior requiring separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "c22ecae8944deb06e9ca4171fc6c395c41300038746fe263e0845737b784109f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked descriptive tooltip text for looked-at icon segments."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "707cfb730165386b0b36840bbfb5d2251a9a10cba513f57ac5118d3db92cbdfb",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "f45f54f1bfe0cb36d0d4fd4736fb29c6f9796083bc8fa17cdac5a931b751d88e",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "84074e0ff341c95c1091dc39b52fb1e02c2d765f0f14484d2ab25558604bf7df",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "ac90ef027ec2d598fa4178d065d39dec1a050a4b1ca88d0cb5cc664c9798f6b7",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "69a083956f45ac0edfa9f5f180520301584001537c7f2f9969e46170630df53e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/1/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/1/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "69a083956f45ac0edfa9f5f180520301584001537c7f2f9969e46170630df53e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

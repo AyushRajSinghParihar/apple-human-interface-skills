@@ -1,0 +1,966 @@
+{
+  "review": {
+    "slug": "search-fields",
+    "status": "reviewed",
+    "source_hash": "e8b7d6bc2f8350dc4677a02e94ffc493934b86257ae08dab7561251cf04908be",
+    "destination_hash": "70e57d8b33bb948a6ca1fecb33278d18966aa84c2e23228bff810ede8c8ce584",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:06:42.442335+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "search-fields",
+        "status": "reviewed",
+        "evidence": "Checked editable Search/Clear/placeholder structure and scope refinement."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified scope placeholder, immediate refinement, recent/predictive suggestions, relevance ranking/categorization and filtering."
+      },
+      {
+        "source_anchor": "Scope-bars-and-tokens",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Scope-bars-and-tokens",
+        "status": "reviewed",
+        "evidence": "Checked broad default, category narrowing, selectable/editable term or attribute tokens and suggestion-based discovery."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked visionOS no-addition scope."
+      },
+      {
+        "source_anchor": "iOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iOS",
+        "status": "reviewed",
+        "evidence": "Verified three entry placement types."
+      },
+      {
+        "source_anchor": "Search-as-a-tab",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-as-a-tab",
+        "status": "reviewed",
+        "evidence": "Checked standard discovery landing page versus button-style immediate keyboard/transient return to prior tab."
+      },
+      {
+        "source_anchor": "Search-in-a-toolbar",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-in-a-toolbar",
+        "status": "reviewed",
+        "evidence": "Verified bottom expanded/button behavior, top button fallback, reachable bottom preference and content-priority exceptions."
+      },
+      {
+        "source_anchor": "Search-as-an-inline-field",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-as-an-inline-field",
+        "status": "reviewed",
+        "evidence": "Verified local-scope proximity, above-list placement and optional toolbar pinning."
+      },
+      {
+        "source_anchor": "iPadOS-macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iPadOS-macOS",
+        "status": "reviewed",
+        "evidence": "Checked toolbar cross-column/detail search, sidebar navigation filtering, dedicated discovery, physical-versus-virtual-keyboard autofocus exception and compact resizing relocation."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Verified keyboard/results composition and popular/contextual/recent suggestions."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Verified fullscreen text-entry and return only via Search/Cancel."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "2042463ed0fec8f2b4a3eef4879c42fc9fd0f19fe7eb9d9d37d8bed99ec0c69c",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "search-fields",
+        "evidence": "Checked editable Search/Clear/placeholder structure and scope refinement."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "079b75614511bd6d048e10b53c70c828f8e9295fce1bcf80f7f1ef2ec7a25604",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "search-fields",
+        "evidence": "Checked editable Search/Clear/placeholder structure and scope refinement. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "e855187f206a58ee5420904e2bddf7167f5fbe93227aa3181c88ba8331e28705",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "search-fields",
+        "evidence": "Checked editable Search/Clear/placeholder structure and scope refinement."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "7b0eb11ae00141e8b27c154dfd56bddbb91e2db26d8d7bc5a4852c079ae42a9a",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "search-fields",
+        "evidence": "Checked editable Search/Clear/placeholder structure and scope refinement."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "45a2f5666eca63312045b7d6a41335e156ec91176644c4eb74eae8a712f4c346",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified scope placeholder, immediate refinement, recent/predictive suggestions, relevance ranking/categorization and filtering."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "1c590da49f36cc6e3c5680950d8208c97c2b1411e611b4b5e0b30a247951f212",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified scope placeholder, immediate refinement, recent/predictive suggestions, relevance ranking/categorization and filtering."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "118abff2c6d33af5b4c8fe22986295d1e2697af3dc41e7cfd04ba3d971909839",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified scope placeholder, immediate refinement, recent/predictive suggestions, relevance ranking/categorization and filtering."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "d9b616159ca98635232ecd116fa2958940b75606b8b0c2179043b2ba70831b59",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified scope placeholder, immediate refinement, recent/predictive suggestions, relevance ranking/categorization and filtering."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "3561e3836bb380e1b4f179d00e8e9ceb584c499aa34921e0a4e8ab7c3c852377",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified scope placeholder, immediate refinement, recent/predictive suggestions, relevance ranking/categorization and filtering."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "4b360a0b20c4fa508223f0fb2eabd36af0152e5ee91acfcf9c32766022d8c0db",
+        "source_anchor": "Scope-bars-and-tokens",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Scope-bars-and-tokens",
+        "evidence": "Checked broad default, category narrowing, selectable/editable term or attribute tokens and suggestion-based discovery."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "9b3ff6ac3906f4ba52b6b94aa19cd419d922a7c2f61e62353687e7a2025fa42e",
+        "source_anchor": "Scope-bars-and-tokens",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Scope-bars-and-tokens",
+        "evidence": "Checked broad default, category narrowing, selectable/editable term or attribute tokens and suggestion-based discovery."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/0/content/0",
+        "source_unit_hash": "551cef2b565b4586f8c9111d2f16ec391478d4655b22e131c9ee7a27beddd3b2",
+        "source_anchor": "Scope-bars-and-tokens",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Scope-bars-and-tokens",
+        "evidence": "Checked broad default, category narrowing, selectable/editable term or attribute tokens and suggestion-based discovery."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/1/content/0",
+        "source_unit_hash": "e6776854c5d17f46687e3359c607c088b95a8247d652ff9012e661b971d21bf3",
+        "source_anchor": "Scope-bars-and-tokens",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Scope-bars-and-tokens",
+        "evidence": "Checked broad default, category narrowing, selectable/editable term or attribute tokens and suggestion-based discovery."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "7fdccf09e5ea5f5add1b06156570d0c2b5149e308cd3b48bfebac2a4a7dfb6f7",
+        "source_anchor": "Scope-bars-and-tokens",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Scope-bars-and-tokens",
+        "evidence": "Checked broad default, category narrowing, selectable/editable term or attribute tokens and suggestion-based discovery."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/inlineContent/0",
+        "source_unit_hash": "ca19fa56d9ad2dece1a4983b089a78b1ed0fda109b907d31573c81a3e3a8f00d",
+        "source_anchor": "Scope-bars-and-tokens",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Scope-bars-and-tokens",
+        "evidence": "Checked broad default, category narrowing, selectable/editable term or attribute tokens and suggestion-based discovery. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "b82897d471b560bedbb9c69f0f5dd9578e43a41fadd87e2fb1ad56762c4d7c2b",
+        "source_anchor": "Scope-bars-and-tokens",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Scope-bars-and-tokens",
+        "evidence": "Checked broad default, category narrowing, selectable/editable term or attribute tokens and suggestion-based discovery."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "02b49a923bf0ddc3c63cb1737a5a15ae0f07da95b87fd7af37ae2d97195fe5a3",
+        "source_anchor": "Scope-bars-and-tokens",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Scope-bars-and-tokens",
+        "evidence": "Checked broad default, category narrowing, selectable/editable term or attribute tokens and suggestion-based discovery."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "e83da84fc45010817fd09156c1a4442a7b021882fb6faaca0ae899b95b87c9d7",
+        "source_anchor": "Scope-bars-and-tokens",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Scope-bars-and-tokens",
+        "evidence": "Checked broad default, category narrowing, selectable/editable term or attribute tokens and suggestion-based discovery."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "c63f9ddb9c3ed206583df5e5700f138a8f6b8f5ba0daa6d7975d1fc52eab14aa",
+        "source_anchor": "Scope-bars-and-tokens",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Scope-bars-and-tokens",
+        "evidence": "Checked broad default, category narrowing, selectable/editable term or attribute tokens and suggestion-based discovery."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "d53df1e3f00b54219a3883c595db560d7236859ca32b8fa4c177ae95433a778d",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked visionOS no-addition scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "9a81404642475420ebfe3b597390b6540524a836059144ca5855256b173a259b",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iOS",
+        "evidence": "Verified three entry placement types."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "09560b71400c04c422ae904e1456e07a99045531edd3ffeadb0aed6d7aff2995",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iOS",
+        "evidence": "Verified three entry placement types."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/items/0/content/0",
+        "source_unit_hash": "032c000392293513d053e024f5524630654831c0cdb689f86fd43efd0b894ddb",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iOS",
+        "evidence": "Verified three entry placement types."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/items/1/content/0",
+        "source_unit_hash": "7b54fd57f473cefb7bc27b60fad6d35f861f39844d3c24840dcbc13937285c84",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iOS",
+        "evidence": "Verified three entry placement types."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/items/2/content/0",
+        "source_unit_hash": "701bb73adb59c5577760b5315583f8dcd56fd0730b1209b70af3188a33459769",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iOS",
+        "evidence": "Verified three entry placement types."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "a1e18b1b7f93a955f2ec8f0b78cf63b02f2444ff911784cfb96e2d5c1499fd7b",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iOS",
+        "evidence": "Verified three entry placement types."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "2143fda4061526aa30ca62133e7c73f835ee4a23e73e4fc11ed8fa3e9efed5a7",
+        "source_anchor": "Search-as-a-tab",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-as-a-tab",
+        "evidence": "Checked standard discovery landing page versus button-style immediate keyboard/transient return to prior tab."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "0f8f55a4946fb1645f4e8435507ac6bf9b90ac1ce31723e12496ac4e8dfe0825",
+        "source_anchor": "Search-as-a-tab",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-as-a-tab",
+        "evidence": "Checked standard discovery landing page versus button-style immediate keyboard/transient return to prior tab."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/items/0/content/0",
+        "source_unit_hash": "3cb050ceb96b2a1b4a5c3b802630825968203985a775a71dcaafa756288faa81",
+        "source_anchor": "Search-as-a-tab",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-as-a-tab",
+        "evidence": "Checked standard discovery landing page versus button-style immediate keyboard/transient return to prior tab."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/items/1/content/0",
+        "source_unit_hash": "f667d6d376faa9e82ae7568333b9d3a7482baccf9465cefcc7a9b70ddd6777b0",
+        "source_anchor": "Search-as-a-tab",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-as-a-tab",
+        "evidence": "Checked standard discovery landing page versus button-style immediate keyboard/transient return to prior tab."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/0/content/0",
+        "source_unit_hash": "f676c4d646cf993227ee2b2d532a92278cedd9216eb6013917fb777b03eddf25",
+        "source_anchor": "Search-as-a-tab",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-as-a-tab",
+        "evidence": "Checked standard discovery landing page versus button-style immediate keyboard/transient return to prior tab."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "77951ce6e2d5999f1fe7401e2ee2b148a4b3481676ae5ad3de2610a5d8cba4f3",
+        "source_anchor": "Search-as-a-tab",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-as-a-tab",
+        "evidence": "Checked standard discovery landing page versus button-style immediate keyboard/transient return to prior tab. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/1/content/0",
+        "source_unit_hash": "6296b7697bc4a2a1fd536de19ea630ae64b4b502e4f96796411f29a64edf0002",
+        "source_anchor": "Search-as-a-tab",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-as-a-tab",
+        "evidence": "Checked standard discovery landing page versus button-style immediate keyboard/transient return to prior tab."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "8cd20a3a01238b7a5556e07fba92b904feacf06f5f41122fe7420a2448c9e64f",
+        "source_anchor": "Search-as-a-tab",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-as-a-tab",
+        "evidence": "Checked standard discovery landing page versus button-style immediate keyboard/transient return to prior tab. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "e64a4c04cdb4ae896b0620fb70969dca478bcaadaef82f6ec5bcf851b8d45e9c",
+        "source_anchor": "Search-as-a-tab",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-as-a-tab",
+        "evidence": "Checked standard discovery landing page versus button-style immediate keyboard/transient return to prior tab."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "2eb142c39d21f87dc1ec22cc8a038c6b795f4144f8bfdcc1fc386c83de5219f4",
+        "source_anchor": "Search-as-a-tab",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-as-a-tab",
+        "evidence": "Checked standard discovery landing page versus button-style immediate keyboard/transient return to prior tab."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "310bc769d44801a6256a49d280c680ed5ca2c6b6cfab3d4f4e0f1c0650bd24d8",
+        "source_anchor": "Search-in-a-toolbar",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-in-a-toolbar",
+        "evidence": "Verified bottom expanded/button behavior, top button fallback, reachable bottom preference and content-priority exceptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "59df65f4f6433d44a8b5161e3a571b562b26e7d30a499099433b0cfc01cb9127",
+        "source_anchor": "Search-in-a-toolbar",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-in-a-toolbar",
+        "evidence": "Verified bottom expanded/button behavior, top button fallback, reachable bottom preference and content-priority exceptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/items/0/content/0",
+        "source_unit_hash": "6db8da5d01b787b33e6bd56ae158ed05f5e97de3f72d226cceb3537f4ad623cc",
+        "source_anchor": "Search-in-a-toolbar",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-in-a-toolbar",
+        "evidence": "Verified bottom expanded/button behavior, top button fallback, reachable bottom preference and content-priority exceptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/items/1/content/0",
+        "source_unit_hash": "0745288f8f3d3c479fa00d784b140302af0b59e7551f8b82f4c2c44d2325afe0",
+        "source_anchor": "Search-in-a-toolbar",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-in-a-toolbar",
+        "evidence": "Verified bottom expanded/button behavior, top button fallback, reachable bottom preference and content-priority exceptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/columns/0/content/0",
+        "source_unit_hash": "7e2691f3cef9830a09b449abe2b4f09c1175a1b8273253fb6c16c49c6c1a705f",
+        "source_anchor": "Search-in-a-toolbar",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-in-a-toolbar",
+        "evidence": "Verified bottom expanded/button behavior, top button fallback, reachable bottom preference and content-priority exceptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "b7eb27144d8d6730a9c59148b799497db791e9bd093b5df2d3232da755e7de20",
+        "source_anchor": "Search-in-a-toolbar",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-in-a-toolbar",
+        "evidence": "Verified bottom expanded/button behavior, top button fallback, reachable bottom preference and content-priority exceptions. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/columns/1/content/0",
+        "source_unit_hash": "3b68c24fe1d0ca1adce359a7fbbbc7ec38d8bdecb1dd6200ff18b536967e9eb2",
+        "source_anchor": "Search-in-a-toolbar",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-in-a-toolbar",
+        "evidence": "Verified bottom expanded/button behavior, top button fallback, reachable bottom preference and content-priority exceptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "2411250d6f8e0cbff47d8915a13feeb212dac6552fd6b144b81c53699527ccf6",
+        "source_anchor": "Search-in-a-toolbar",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-in-a-toolbar",
+        "evidence": "Verified bottom expanded/button behavior, top button fallback, reachable bottom preference and content-priority exceptions. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "8f3e84b839426a264401aea32f1728ab4490c4da4d6d4eeb4ea7c9c3b579cf97",
+        "source_anchor": "Search-in-a-toolbar",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-in-a-toolbar",
+        "evidence": "Verified bottom expanded/button behavior, top button fallback, reachable bottom preference and content-priority exceptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "76e3618916aef63663791632813d838f66788b79b3b7b534cbb71ea5699e6b64",
+        "source_anchor": "Search-in-a-toolbar",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-in-a-toolbar",
+        "evidence": "Verified bottom expanded/button behavior, top button fallback, reachable bottom preference and content-priority exceptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "edccf58a429c51330f0e2f1e0f868d6672da356d4e91b39604462241b143ef16",
+        "source_anchor": "Search-as-an-inline-field",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-as-an-inline-field",
+        "evidence": "Verified local-scope proximity, above-list placement and optional toolbar pinning."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "77365293228d6e5c788199335127461c05f07d1d99ba8914a209661f579d059c",
+        "source_anchor": "Search-as-an-inline-field",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-as-an-inline-field",
+        "evidence": "Verified local-scope proximity, above-list placement and optional toolbar pinning."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "89890f80379cb74186a83448ebc42e01a6d67665140864fedcc26e2010d71967",
+        "source_anchor": "Search-as-an-inline-field",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Search-as-an-inline-field",
+        "evidence": "Verified local-scope proximity, above-list placement and optional toolbar pinning."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "402d36ccdda0153d5b1bda5dafdf397a07ec13d013aee3ed711f35ccbdf6b24c",
+        "source_anchor": "iPadOS-macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iPadOS-macOS",
+        "evidence": "Checked toolbar cross-column/detail search, sidebar navigation filtering, dedicated discovery, physical-versus-virtual-keyboard autofocus exception and compact resizing relocation."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/0/content/0",
+        "source_unit_hash": "b011255974273e5be3e9add327c202850eee4c5e3ff2a919b0978457d22ec176",
+        "source_anchor": "iPadOS-macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iPadOS-macOS",
+        "evidence": "Checked toolbar cross-column/detail search, sidebar navigation filtering, dedicated discovery, physical-versus-virtual-keyboard autofocus exception and compact resizing relocation."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "59a848c2ca977f466d12c98df030f6c7d3b4d8a93ce581ae105b599d321dd82b",
+        "source_anchor": "iPadOS-macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iPadOS-macOS",
+        "evidence": "Checked toolbar cross-column/detail search, sidebar navigation filtering, dedicated discovery, physical-versus-virtual-keyboard autofocus exception and compact resizing relocation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/1/content/0",
+        "source_unit_hash": "d739c009f19ca2ef7068f553a64d7bacbe343926f194ae80ea098afec9e4cd6f",
+        "source_anchor": "iPadOS-macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iPadOS-macOS",
+        "evidence": "Checked toolbar cross-column/detail search, sidebar navigation filtering, dedicated discovery, physical-versus-virtual-keyboard autofocus exception and compact resizing relocation."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "fee1adb48fb533e5e203aca0be85ded6e36953a6b136a1bdffc23c8bd1187010",
+        "source_anchor": "iPadOS-macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iPadOS-macOS",
+        "evidence": "Checked toolbar cross-column/detail search, sidebar navigation filtering, dedicated discovery, physical-versus-virtual-keyboard autofocus exception and compact resizing relocation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "888066e328db75271e56e711c231a0bb63dccca9bd4f325a52f240c4e290639f",
+        "source_anchor": "iPadOS-macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iPadOS-macOS",
+        "evidence": "Checked toolbar cross-column/detail search, sidebar navigation filtering, dedicated discovery, physical-versus-virtual-keyboard autofocus exception and compact resizing relocation."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "12606d632718a6530d18f7bf272e4cfd34263385af86d27928d4d16ea9281d82",
+        "source_anchor": "iPadOS-macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iPadOS-macOS",
+        "evidence": "Checked toolbar cross-column/detail search, sidebar navigation filtering, dedicated discovery, physical-versus-virtual-keyboard autofocus exception and compact resizing relocation."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/columns/0/content/0",
+        "source_unit_hash": "eae7d51bc5bbb3f9f8bfcce7e0bd5513df875c5e6e8e76bbf99b37e55d502209",
+        "source_anchor": "iPadOS-macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iPadOS-macOS",
+        "evidence": "Checked toolbar cross-column/detail search, sidebar navigation filtering, dedicated discovery, physical-versus-virtual-keyboard autofocus exception and compact resizing relocation."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "62f36bc71934f62f0c54f1d70977f8d7b7329eda7f595dbeb9f1a1ed4b11ed43",
+        "source_anchor": "iPadOS-macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iPadOS-macOS",
+        "evidence": "Checked toolbar cross-column/detail search, sidebar navigation filtering, dedicated discovery, physical-versus-virtual-keyboard autofocus exception and compact resizing relocation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "0c8b86690105094b5ecf9464550de0f1bd2136ff67d23c071e555fa1e8b77ea1",
+        "source_anchor": "iPadOS-macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iPadOS-macOS",
+        "evidence": "Checked toolbar cross-column/detail search, sidebar navigation filtering, dedicated discovery, physical-versus-virtual-keyboard autofocus exception and compact resizing relocation."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "86daa5390467a23965430dd48e8035885475d0cca01354b53681555a2f6de977",
+        "source_anchor": "iPadOS-macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iPadOS-macOS",
+        "evidence": "Checked toolbar cross-column/detail search, sidebar navigation filtering, dedicated discovery, physical-versus-virtual-keyboard autofocus exception and compact resizing relocation."
+      },
+      {
+        "id": "primaryContentSections/0/content/46/inlineContent/0",
+        "source_unit_hash": "f15340ed917bfa263aba9fde3741c32c4bfd0c43d30e2c725b680fce71fa715e",
+        "source_anchor": "iPadOS-macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iPadOS-macOS",
+        "evidence": "Checked toolbar cross-column/detail search, sidebar navigation filtering, dedicated discovery, physical-versus-virtual-keyboard autofocus exception and compact resizing relocation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "f3870e7a1544b043d7cc7e3578d03f9e743432bc8cef348c95e9c9fb3a5826b7",
+        "source_anchor": "iPadOS-macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iPadOS-macOS",
+        "evidence": "Checked toolbar cross-column/detail search, sidebar navigation filtering, dedicated discovery, physical-versus-virtual-keyboard autofocus exception and compact resizing relocation."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "a4c3b3a1ab1757323a5acef419f9a521e7be07aa32ac3e651073d4c32793ca1d",
+        "source_anchor": "iPadOS-macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "iPadOS-macOS",
+        "evidence": "Checked toolbar cross-column/detail search, sidebar navigation filtering, dedicated discovery, physical-versus-virtual-keyboard autofocus exception and compact resizing relocation."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "dd9a7f839a8b27bfce24e84377a6e3b2277d50455358e4cfb2399d1fe08ca931",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified keyboard/results composition and popular/contextual/recent suggestions."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "18e63678f758db2c3d203adc363a97616335f39ee72e007433b0bf3c3abc6c2f",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified keyboard/results composition and popular/contextual/recent suggestions."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/inlineContent/0",
+        "source_unit_hash": "ebb3c7f8cfb979fd6f97cbbd6d4ac365297b304c64343be5a7b333de8feeea0e",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified keyboard/results composition and popular/contextual/recent suggestions. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "2899a6dad011bd2aafbb99ac6bb2d7ab684dabf75a694aca918db4ccb7dd34da",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified keyboard/results composition and popular/contextual/recent suggestions."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "f9d705696ccf0be8bc3de169baa73d0f3d589dd8d4314c2f617a7864239cd0e5",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified fullscreen text-entry and return only via Search/Cancel."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "d327cabbe34536a95a215e3068fb8e08b5288a2f4ba21335f39138e4bf850d98",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "e1fdcb678651d13124a828f9e283977339d6f7d5c79a819d500067db206a810b",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "9d3406943099ef05f6f13e0b00a77a1648be10a93a082895de955fa7e4a4aba6",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "97b74fcd097cbc6452ce1dc6461974f28a95db13856f24035daf47454b8c391b",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "40366e9aed5b467508a01446543dd71d4c47a9dd1ed1ef09fccdf19078a3d73a",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "1936b9e20e30af3e165cf4a4f82337f4be6019f23ace5e97a1a4bb13f37980e4",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/64",
+        "source_unit_hash": "2a1cb78edf73e2959c5d8a305e2f8f317bfb856e90b1e09ffa830ea4d0648738",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "955571e53a588f107200f4fda775807276480b529f5eca8897bc7118ae26542c",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/68/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/68/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/68/rows/1/0/0",
+        "source_unit_hash": "6f585fa1a239d7cd279db778c80344b4ca3bdd1c2601af906b53d277e7be4412",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/68/rows/1/1/0",
+        "source_unit_hash": "b918e2033199caa9597f0b8cf89903d51fc0231c14bb50bb93c7cc3d0913b028",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/68/rows/2/0/0",
+        "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/68/rows/2/1/0",
+        "source_unit_hash": "cd4eefecffb3ec5628dfa10be1f2ddaee0476a8cea38ebc30d3ff7a568652492",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/68/rows/3/0/0",
+        "source_unit_hash": "2fcab2806aebbb2b0c1f085dd684047a32efe7390a10b69cd154b0b8fc93584d",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/68/rows/3/1/0",
+        "source_unit_hash": "393da501f68d736b61ae0dfb10d609631f7c305e702964791ea060056573dc68",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/68/rows/4/0/0",
+        "source_unit_hash": "937d2d87f6be46489d91c6c598d77898e230787b56f889b2c1e16309f42a1ad2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/68/rows/4/1/0",
+        "source_unit_hash": "39318ce3e430405b5d24da37c21c792f92932f9f75df2514c878fac9b7c2b437",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "955571e53a588f107200f4fda775807276480b529f5eca8897bc7118ae26542c",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

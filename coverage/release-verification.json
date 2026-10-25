@@ -1,0 +1,113 @@
+{
+  "verified_at": "2026-10-25T13:54:33+00:00",
+  "scope": "Current English Apple HIG snapshot; linked SDK/WWDC libraries and historical content outside article corpus",
+  "manifest_hash": "ff3f170a3a248f372157e92f73280f0e25ae1c63186a0c1f0bce7fbfd4ec2fee",
+  "review_record_set_hash": "4e140f29c7a48f8963a6feab01be2c101637ab705862aa3b0eaa7802ba9981a3",
+  "maintenance_script_hash": "91fcca05e080483c9a3ba84839d2d640851dc88ba78167cb566ddb0305cc7508",
+  "strict_result": {
+    "errors": [],
+    "pending": [],
+    "pages": 173,
+    "articles": 158
+  },
+  "live_command": "agent-run .venv/bin/python scripts/hig.py check --live",
+  "live_result": {
+    "errors": [],
+    "pending": [],
+    "pages": 173,
+    "articles": 158,
+    "pending_count": 0
+  },
+  "live_finished_at": "2026-10-25T13:53:27+00:00",
+  "base_inspected_media_urls_verified": 2284,
+  "additional_media_verifications": [
+    {
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-iOS-intro~dark@2x.png",
+      "binary_hash": "019bfe6ca1dfef1c0aa91300874e9a4a1d93be3c043a16ce71d1964d9b9b6f39",
+      "observed_hash": "019bfe6ca1dfef1c0aa91300874e9a4a1d93be3c043a16ce71d1964d9b9b6f39",
+      "verified_at": "2026-10-25T13:52:10+00:00",
+      "status": "matched"
+    },
+    {
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-watchOS-intro~dark@2x.png",
+      "binary_hash": "9f345ece2118302c725ad6e938d56edaac6df218a216a0e418b6be06e07e9068",
+      "observed_hash": "9f345ece2118302c725ad6e938d56edaac6df218a216a0e418b6be06e07e9068",
+      "verified_at": "2026-10-25T13:52:08+00:00",
+      "status": "matched"
+    },
+    {
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-tvOS-intro~dark@2x.png",
+      "binary_hash": "e892bd5a73a428eac54fcd386de10cff3f1a3063f70dbf68c2bffa792a9fa47e",
+      "observed_hash": "e892bd5a73a428eac54fcd386de10cff3f1a3063f70dbf68c2bffa792a9fa47e",
+      "verified_at": "2026-10-25T13:52:10+00:00",
+      "status": "matched"
+    },
+    {
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-web-view-intro~dark@2x.png",
+      "binary_hash": "e58a3a22c2a410747e237101b9320e14a28d8b388e64805c6968793a719e80fb",
+      "observed_hash": "e58a3a22c2a410747e237101b9320e14a28d8b388e64805c6968793a719e80fb",
+      "verified_at": "2026-10-25T13:52:11+00:00",
+      "status": "matched"
+    },
+    {
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-image-view-intro~dark@2x.png",
+      "binary_hash": "3497b95b7d1750badad87b43d99c81d99844758f5e9a0c05984025b0a1a8e97c",
+      "observed_hash": "3497b95b7d1750badad87b43d99c81d99844758f5e9a0c05984025b0a1a8e97c",
+      "verified_at": "2026-10-25T13:52:10+00:00",
+      "status": "matched"
+    },
+    {
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-macOS-intro~dark@2x.png",
+      "binary_hash": "4ad5414db14a6a1b1196f37b38f515068812f910be9bf234dd446342af87ae3a",
+      "observed_hash": "4ad5414db14a6a1b1196f37b38f515068812f910be9bf234dd446342af87ae3a",
+      "verified_at": "2026-10-25T13:52:11+00:00",
+      "status": "matched"
+    },
+    {
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-text-view-intro~dark@2x.png",
+      "binary_hash": "e553ba0bc57b140c48aa263d32efc4fa91aee1ea880b24c601ba8ac3244bc05b",
+      "observed_hash": "e553ba0bc57b140c48aa263d32efc4fa91aee1ea880b24c601ba8ac3244bc05b",
+      "verified_at": "2026-10-25T13:52:11+00:00",
+      "status": "matched"
+    },
+    {
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-iPadOS-intro~dark@2x.png",
+      "binary_hash": "2f5690ea020690c3ef1a0753c9ef150eb72250195e522f127c1b012bcd536d42",
+      "observed_hash": "2f5690ea020690c3ef1a0753c9ef150eb72250195e522f127c1b012bcd536d42",
+      "verified_at": "2026-10-25T13:52:11+00:00",
+      "status": "matched"
+    },
+    {
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-visionOS-intro~dark@2x.png",
+      "binary_hash": "4f9deaa91cd65ec98a317b9ab428b89db3bb28437bcad3781628504935e5dcdb",
+      "observed_hash": "4f9deaa91cd65ec98a317b9ab428b89db3bb28437bcad3781628504935e5dcdb",
+      "verified_at": "2026-10-25T13:52:12+00:00",
+      "status": "matched"
+    },
+    {
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-games-intro~dark@2x.png",
+      "binary_hash": "7a5205752be9a420b5c19e4bb2847fbd029a92832831eee7f47928e518258981",
+      "observed_hash": "7a5205752be9a420b5c19e4bb2847fbd029a92832831eee7f47928e518258981",
+      "verified_at": "2026-10-25T13:52:12+00:00",
+      "status": "matched"
+    }
+  ],
+  "total_unique_inspected_media_urls_verified": 2294,
+  "reviewed_asset_set_hash": "1b0948d3250d7b11f01fd5eaa74c3fc41d29bba7c3777682ec38edcf5dcc9369",
+  "maintenance_tests": {
+    "command": "agent-run .venv/bin/python -m unittest discover -s tests -v",
+    "passed": 34,
+    "failed": 0
+  },
+  "skill_format_validation": {
+    "entrypoints": 14,
+    "passed": 14
+  },
+  "relocated_package": {
+    "entrypoints_reachable": 14,
+    "article_guides_reachable": 158,
+    "link_errors": 0
+  },
+  "evaluation_evidence": "evaluations.md",
+  "boundaries": "Hash and format checks supplement independent review; no auditory, tactile, hardware, exhaustive model/client, or statistical evaluation claim."
+}

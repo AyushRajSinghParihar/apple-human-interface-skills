@@ -1,0 +1,533 @@
+{
+  "review": {
+    "slug": "motion",
+    "status": "reviewed",
+    "source_hash": "d1a5c0a7c8b171c627ed323aae0cfd4b81ec75fa952936d9a110042ca92d9c9f",
+    "destination_hash": "dcc5011fad1914507dea9ce09ff2fed3b13064a24fa87ce120478ae7166bc052",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:11:59+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "motion",
+        "status": "reviewed",
+        "evidence": "Checked native adaptation to input/accessibility, including touch versus trackpad Liquid Glass emphasis."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked purposeful optional motion and alternative information channels."
+      },
+      {
+        "source_anchor": "Providing-feedback",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Providing-feedback",
+        "status": "reviewed",
+        "evidence": "Checked gesture-consistent, brief precise feedback, frequent-action restraint, interruption and symbol animation."
+      },
+      {
+        "source_anchor": "Leveraging-platform-capabilities",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Leveraging-platform-capabilities",
+        "status": "reviewed",
+        "evidence": "Checked 30–60fps consistency, device-appropriate defaults and performance/battery/power tradeoffs."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "No extra iOS/iPadOS/macOS/tvOS rules retained."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked peripheral brightness, large-object contrast/transparency/window size, fade relocation, no world rotation, stable reference and 0.2Hz low-amplitude caution."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Checked SwiftUI/WatchKit support and unmodifiable built-in easing note."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "5ee8539950dc44ce6dcc775b1044fa66abb2aad826a1fa1bbe50565b3b57f385",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "motion",
+        "evidence": "Checked native adaptation to input/accessibility, including touch versus trackpad Liquid Glass emphasis."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "8fb22a6aacdd8483f6f1a707691e6b9b0204310c14cdf89102dbfa4e8732914f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "motion",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked native adaptation to input/accessibility, including touch versus trackpad Liquid Glass emphasis."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "797b399e8e4ea8e7973b5f4d557a7eea3a95032a2e79b7bda2d0bec17b3bf95c",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "motion",
+        "evidence": "Checked native adaptation to input/accessibility, including touch versus trackpad Liquid Glass emphasis."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "bdbd6345d046bf54c9fe6b47c93c3cd2b049904bde5b24bf47c862624b39f10f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "motion",
+        "evidence": "Checked native adaptation to input/accessibility, including touch versus trackpad Liquid Glass emphasis."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "c6fc2ae61ace27a5bca59968401bc45e31ae7c641b2f5518aeeb0bf62eb89664",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked purposeful optional motion and alternative information channels."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "5400bee634b008440ad3cdeda989479c3ed946a3b4c0d273f0bf6e9a3b68947c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked purposeful optional motion and alternative information channels."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "62e59d19417bf009b117d1ee42b5bcf7231e693597c925253eef0279a8da62ba",
+        "source_anchor": "Providing-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Providing-feedback",
+        "evidence": "Checked gesture-consistent, brief precise feedback, frequent-action restraint, interruption and symbol animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "5bd83d373ef65d0991fc275a3a8561a53f60724f51423ebedd9002cf8b506f66",
+        "source_anchor": "Providing-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Providing-feedback",
+        "evidence": "Checked gesture-consistent, brief precise feedback, frequent-action restraint, interruption and symbol animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "09fc3e8fbcdd82acb2e4871f47c0e7f70d62561348bcbe3ea2c7c94271405a9c",
+        "source_anchor": "Providing-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Providing-feedback",
+        "evidence": "Checked gesture-consistent, brief precise feedback, frequent-action restraint, interruption and symbol animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "6d18b0aab07f6877dda4ca35ea2aa0e871d45de3a114b6439ced32cb6df8b7fc",
+        "source_anchor": "Providing-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Providing-feedback",
+        "evidence": "Checked gesture-consistent, brief precise feedback, frequent-action restraint, interruption and symbol animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "38a96bff5cfe59c0c317363a35ebe9a30730d79f9f0602c6528b6ff4f57d55e2",
+        "source_anchor": "Providing-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Providing-feedback",
+        "evidence": "Checked gesture-consistent, brief precise feedback, frequent-action restraint, interruption and symbol animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "d7e54ab0facc31d3894a868d72399fba3eaf4da0389742c247b15edcf13cbf67",
+        "source_anchor": "Leveraging-platform-capabilities",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Leveraging-platform-capabilities",
+        "evidence": "Checked 30–60fps consistency, device-appropriate defaults and performance/battery/power tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "dad016921157e551f2db73e2b72c87318ea3a9ebaff5579151debaff2d7274c5",
+        "source_anchor": "Leveraging-platform-capabilities",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Leveraging-platform-capabilities",
+        "evidence": "Checked 30–60fps consistency, device-appropriate defaults and performance/battery/power tradeoffs."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "30095e0a79e70c21d7e06d3272637fc78bea42d05a7ebd1db4a8b0109e7f80d3",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "No extra iOS/iPadOS/macOS/tvOS rules retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "f0043f773105d25dd1afcfe8bb024e6ac5cf4eb0704ae4f5b1af23d3e9431b9b",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked peripheral brightness, large-object contrast/transparency/window size, fade relocation, no world rotation, stable reference and 0.2Hz low-amplitude caution."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "27729f40ecacc0b9a9ce7f67d18023b39e0838c457684b4409c62673ae7e8e63",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked peripheral brightness, large-object contrast/transparency/window size, fade relocation, no world rotation, stable reference and 0.2Hz low-amplitude caution."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "6129daef3593aa3eb0ce40cc4eae9d89bec537da00e730659390531d3fbc1340",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked peripheral brightness, large-object contrast/transparency/window size, fade relocation, no world rotation, stable reference and 0.2Hz low-amplitude caution."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "389a9063b2b4ae18c7c646c2fadb1c1ec9adbdaf68534230c632aacdc0d676d5",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked peripheral brightness, large-object contrast/transparency/window size, fade relocation, no world rotation, stable reference and 0.2Hz low-amplitude caution."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/content/0",
+        "source_unit_hash": "312fb8e499cf1de8a102797646addf917d2cc9ad53ba638f422adebddce73091",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked peripheral brightness, large-object contrast/transparency/window size, fade relocation, no world rotation, stable reference and 0.2Hz low-amplitude caution."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "9201de16534a353f3923aa3cbc3f2460d695be8dc6c1f184b8115d6a3adaa63d",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked peripheral brightness, large-object contrast/transparency/window size, fade relocation, no world rotation, stable reference and 0.2Hz low-amplitude caution."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "4eda9b2f7755ada794a7db75d5df67f6998d8985166d54563fa0a8e47ca9454f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked peripheral brightness, large-object contrast/transparency/window size, fade relocation, no world rotation, stable reference and 0.2Hz low-amplitude caution."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "9059bf945fd4480f4e627f6d240eaee6d3f526c9e8c0c425ee3b01e8a212050b",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked peripheral brightness, large-object contrast/transparency/window size, fade relocation, no world rotation, stable reference and 0.2Hz low-amplitude caution."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "58f52a48443a53fbd8dec3fdb1edaa7186134c31fc389f4c0760ac44dbf2b23e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked peripheral brightness, large-object contrast/transparency/window size, fade relocation, no world rotation, stable reference and 0.2Hz low-amplitude caution."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "76380d826848a84108f69e14bebfe29154a2a68649874f4116f6a89767628f25",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked SwiftUI/WatchKit support and unmodifiable built-in easing note."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "5e62d3d1cec27424911e047bf5498d72362ea8d50282e260ef6f3d996f8fb00e",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked SwiftUI/WatchKit support and unmodifiable built-in easing note."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/content/0",
+        "source_unit_hash": "bed93b468a46b34eb1f2a6738a18633ce6821662bf8312067e5e431f932f47c8",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked SwiftUI/WatchKit support and unmodifiable built-in easing note."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "6427aa81d9828b0d03c4c78a3b225a41d7af45949cc573a6937b8bbe9ec70e2f",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "eadd89d7a2bf016ea61adae5c93364febaecad45d7e730b248fa4237b3e815f8",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "9807802a90b160b15274cb2cdca9d3eeae45fbbdbc8e57c1da99a55b0a7c4e6c",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "733cd69c9ecf0a3188ebf5f2cffb13a59d1175239b64143537861d81dbe15e69",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "218d28fe0aaf8a183ce7a0d1f9bf04bfed34409487f3e91c84c9e88f94a650df",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "f276597915f502035299fa6262b915b07c669d5485a15dde78e44013b7a055b8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/1/0/0",
+        "source_unit_hash": "28bc6cd1c2fd4178e3faac9c1a03f367231c25d4818d7f666a37a2d8f3e06275",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/1/1/0",
+        "source_unit_hash": "02e57c19510a2b6a826b73a555a0f7a8323da44555cccb81d9f61686ff54db89",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/2/0/0",
+        "source_unit_hash": "6fbfd8192538c86013ae1170ead307313ca6290dbe20e9b9a262d8ed4dbef179",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/2/1/0",
+        "source_unit_hash": "971fd814b9b58b5004267e2b285c7b6950079080016f56aa83ae1783dbad753a",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/3/0/0",
+        "source_unit_hash": "d0480ccb4b68180bb1ac3ef3d5a6daedbe67738b3a4986cb29f3b0ee79482b39",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/3/1/0",
+        "source_unit_hash": "4f9c6ee68bbae67a030de33fc7fc034df66e31a1554583b5ba6ba3cb169bd1be",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/4/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/rows/4/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "f276597915f502035299fa6262b915b07c669d5485a15dde78e44013b7a055b8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

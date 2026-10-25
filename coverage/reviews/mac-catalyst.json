@@ -1,0 +1,1214 @@
+{
+  "review": {
+    "slug": "mac-catalyst",
+    "status": "reviewed",
+    "source_hash": "7c966fba584bedfb4835bbe6dfdf2c0638779a1acc3063a1b36ce075419b3bfe",
+    "destination_hash": "e9599d100b3805e8c5a5f9860d3b1a398fce458f63b44719acf64c58f34568f6",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:27:59+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "mac-catalyst",
+        "status": "reviewed",
+        "evidence": "Verified iPad-to-Mac continuity with intentional native integration."
+      },
+      {
+        "source_anchor": "Before-you-start",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "status": "reviewed",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "source_anchor": "Choose-an-idiom",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Choose-an-idiom",
+        "status": "reviewed",
+        "evidence": "Compared77%/17pt→13pt default versus100% Mac idiom,detail/power benefits/layout effort,separate assets,semantic styles,metric changes and customization limits."
+      },
+      {
+        "source_anchor": "Integrate-the-Mac-experience",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Integrate-the-Mac-experience",
+        "status": "reviewed",
+        "evidence": "Verified substantive integration criteria across navigation/input/icon/layout/menu subsections."
+      },
+      {
+        "source_anchor": "Navigation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Navigation",
+        "status": "reviewed",
+        "evidence": "Checked sidebar preferred versus flat segmented alternative,child hierarchy/continuity,View-menu access and Next/Previous alternatives."
+      },
+      {
+        "source_anchor": "Inputs",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "status": "reviewed",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "source_anchor": "App-icons",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "App-icons",
+        "status": "reviewed",
+        "evidence": "Verified Mac-specific icon rendering with shared identity."
+      },
+      {
+        "source_anchor": "Layout",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Layout",
+        "status": "reviewed",
+        "evidence": "Checked multiple columns,regular classes,resizing/adjacent inspector,toolbar/menu duplication,top-down order and relocated touch-edge controls."
+      },
+      {
+        "source_anchor": "Menus",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Menus",
+        "status": "reviewed",
+        "evidence": "Verified persistent commands,shortcut/menu/action APIs,automatic popup/context adaptation and additional contextual affordances."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified iPadOS/macOS and unsupported iOS/tvOS/visionOS/watchOS."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "302bec816b969f1f3b38f31b2a4480e75fcc17c109b208484a08f50f3bec5244",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "mac-catalyst",
+        "evidence": "Verified iPad-to-Mac continuity with intentional native integration."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "b96c9c48203e7aad254adf98838065ea4b32c2c2c14aac1ec2c3d17a603e341d",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "mac-catalyst",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified iPad-to-Mac continuity with intentional native integration."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "f3b01ad6d481b0418251ceb5278e87558b5ade6e48acedfe03f4a0c6bfffeb5a",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "a417a5bb26382754f26c9b1844a797b1b1e5a4ecc7369bcf6c9bc6bed6ffc717",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "44d6f69d511c54dbc21c19739231e4b6e8825cd2ff421acbbef45278fe30995e",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "bf85270e9e6066319a03c8a688cf8a701a9074b92890e3422eae5e0361369dc2",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "99e809cc0a661296eac0cfa83f6cd27e18b038172748117b2fef5286a4bfcfb5",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "95658bffa120e44ea263e7b5d1cfd8a550eea08b3e92ebe2b66edb6bd98aac67",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "e0992cc8b0e5864d645e9fcc7631d9d37a3922fa53fff021c3148bf72840ad7d",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "2dcbb4498c0ffee16593d359e374d2eb2b3f916b36b1b8063d67ea7357068df6",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/items/0/content/0",
+        "source_unit_hash": "a381a3daddcd8c295b16584fa5fdd7a3cca0305aabe40f284539606d9e43190b",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/items/1/content/0",
+        "source_unit_hash": "1c44b82c85ccf7ad0cbfad44b4de8e7064e9abb56041bc74eb164fc79a2621e6",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/items/2/content/0",
+        "source_unit_hash": "bb904cc45b2b5b465d0a417a63ad4b591e7cfa25c894b3a7a893f90f2b2b2c53",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/items/3/content/0",
+        "source_unit_hash": "6d22ecec9fb672902312d20a5bf85f3490648beba7e90eb0d6553393f039072b",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/items/4/content/0",
+        "source_unit_hash": "1006706b2e7bee633a0ba8eb27dcd364ba7e5623543a43f30225671950358ec8",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/items/5/content/0",
+        "source_unit_hash": "712359aefb8af2d5181d9479d417560467ecf4a11cd216fbe30fada4c168fd1b",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/9/items/6/content/0",
+        "source_unit_hash": "83d193c2c1bfc34209b3e9ce5f3fb4cb01708613c3a1eb3ea08c254b05cda5ef",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "0f3ea518dd9f30f34ae480d9c3ca9e20875cc77f124d1d35b05734e5daca4a2c",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "3925e054d2ed7ca303e2181d1a2e92e6c025cb8c95a4be6c5cf61d14a1663570",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/0/content/0",
+        "source_unit_hash": "a1290fe938b4029b22905ca01d216a3f07a68f9e19d2ae008a79a8f50486c1d0",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/1/content/0",
+        "source_unit_hash": "76105c164e8427df24f5a20e6674ffd5d8caf8f36a0a0d2520bbb0ae1b75e796",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/2/content/0",
+        "source_unit_hash": "c2ba4c5b9beeda640ce603e123151e5998bdd46b9b4ddaa1b02d35865d1e1a3a",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/3/content/0",
+        "source_unit_hash": "ac04570304af04894cd83e4e8b103ba7e43a01e7e5f48df28664d367bd93dec3",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/4/content/0",
+        "source_unit_hash": "d6da30ce6f355a3ff92ccf96734c4bfc587982ded5452710330435fbd80b94e5",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/items/5/content/0",
+        "source_unit_hash": "f2f8730b23b216fc8b2f42b6922400f0a393ef622602f400a7144cc6c99db041",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "9684d2f01a96ab5ccb34a31a18c0346c39c73ece79583d6e4f815d9e62ccc709",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "f1fc8835f0b29a86e207c33ed2de4a37cab8c5c8e807ec8cc50d4a0ccc9246a8",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/content/0",
+        "source_unit_hash": "32a673d9017b6df2bc7220109e687cfd387a1883a3a07d47b64b431233bb2d27",
+        "source_anchor": "Before-you-start",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Before-you-start",
+        "evidence": "Checked readiness features,unsupported-essential examples,automatic Mac capabilities/adapting components and UIKit Catalog guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "40f4df2d62a31bd021fb20eea11b9dbb53e0337d4477ab5628bad3070837b2af",
+        "source_anchor": "Choose-an-idiom",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Choose-an-idiom",
+        "evidence": "Compared77%/17pt→13pt default versus100% Mac idiom,detail/power benefits/layout effort,separate assets,semantic styles,metric changes and customization limits."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "c5ccc2426e6ffa48ee014588e4b8f18384c5420c350d2fefbd5fa0748ef9b5a2",
+        "source_anchor": "Choose-an-idiom",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Choose-an-idiom",
+        "evidence": "Compared77%/17pt→13pt default versus100% Mac idiom,detail/power benefits/layout effort,separate assets,semantic styles,metric changes and customization limits."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "f2bad3dab5861c3a3ad0353ff57a8e116f1ce9ee9601db97f803736564539c04",
+        "source_anchor": "Choose-an-idiom",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Choose-an-idiom",
+        "evidence": "Compared77%/17pt→13pt default versus100% Mac idiom,detail/power benefits/layout effort,separate assets,semantic styles,metric changes and customization limits."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "d07edde8b34844c6d57eb158ba2597ef427373930e9b38ddcacf3dd5cdf1c4f5",
+        "source_anchor": "Choose-an-idiom",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Choose-an-idiom",
+        "evidence": "Compared77%/17pt→13pt default versus100% Mac idiom,detail/power benefits/layout effort,separate assets,semantic styles,metric changes and customization limits."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "e8ced039a94385ab22890e16e08b817338e17dcca67445e255e1d85f61f548fe",
+        "source_anchor": "Choose-an-idiom",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Choose-an-idiom",
+        "evidence": "Compared77%/17pt→13pt default versus100% Mac idiom,detail/power benefits/layout effort,separate assets,semantic styles,metric changes and customization limits."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "d512044193aa9e7750e6b92a0052207812cc5ab1e30d49e9f699e66faf2ceb4e",
+        "source_anchor": "Choose-an-idiom",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Choose-an-idiom",
+        "evidence": "Compared77%/17pt→13pt default versus100% Mac idiom,detail/power benefits/layout effort,separate assets,semantic styles,metric changes and customization limits."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "bfd2771fa365b70a4eb678c8b524d154d6dc3398e8bccc666e61a806d7a02c0e",
+        "source_anchor": "Choose-an-idiom",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Choose-an-idiom",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared77%/17pt→13pt default versus100% Mac idiom,detail/power benefits/layout effort,separate assets,semantic styles,metric changes and customization limits."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/tabs/0/content/0",
+        "source_unit_hash": "6d02abf72b824675eb1c93e6593e5100a8da885bb5288166fbf0c8470f96b0a5",
+        "source_anchor": "Choose-an-idiom",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Choose-an-idiom",
+        "evidence": "Compared77%/17pt→13pt default versus100% Mac idiom,detail/power benefits/layout effort,separate assets,semantic styles,metric changes and customization limits."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "407f9aa381fc2c9b4f6bb438498721fb31715440b8d94b304fbce6daacad8c8a",
+        "source_anchor": "Choose-an-idiom",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Choose-an-idiom",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared77%/17pt→13pt default versus100% Mac idiom,detail/power benefits/layout effort,separate assets,semantic styles,metric changes and customization limits."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/tabs/1/content/0",
+        "source_unit_hash": "4d1a6d280cd695e312fc8d2177abe9bbf1dcef7d85b7ae91df98e39380a1333e",
+        "source_anchor": "Choose-an-idiom",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Choose-an-idiom",
+        "evidence": "Compared77%/17pt→13pt default versus100% Mac idiom,detail/power benefits/layout effort,separate assets,semantic styles,metric changes and customization limits."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "3fbf492bbbeb80331d1e5bbc37d40fee167f90cc455ee69c10d075dce02a9945",
+        "source_anchor": "Choose-an-idiom",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Choose-an-idiom",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared77%/17pt→13pt default versus100% Mac idiom,detail/power benefits/layout effort,separate assets,semantic styles,metric changes and customization limits."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "3186e263456470139eab89b1dec6eba822b99e494653d9a10c0ad389fd6839c8",
+        "source_anchor": "Choose-an-idiom",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Choose-an-idiom",
+        "evidence": "Compared77%/17pt→13pt default versus100% Mac idiom,detail/power benefits/layout effort,separate assets,semantic styles,metric changes and customization limits."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/content/0",
+        "source_unit_hash": "2df7a96e1bda3d0c3bd224be023222cf026d7d8b97fa48b6aecb83bc054748c7",
+        "source_anchor": "Choose-an-idiom",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Choose-an-idiom",
+        "evidence": "Compared77%/17pt→13pt default versus100% Mac idiom,detail/power benefits/layout effort,separate assets,semantic styles,metric changes and customization limits."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "d0ee3e7158a1aaf9575c82d29cd2473735b3ae324ad86707890d51e14839a8f2",
+        "source_anchor": "Choose-an-idiom",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Choose-an-idiom",
+        "evidence": "Compared77%/17pt→13pt default versus100% Mac idiom,detail/power benefits/layout effort,separate assets,semantic styles,metric changes and customization limits."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "adee7d492f6e2d5368723576695c779b6678df81763ec439c1bd7809a0e21e3b",
+        "source_anchor": "Integrate-the-Mac-experience",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Integrate-the-Mac-experience",
+        "evidence": "Verified substantive integration criteria across navigation/input/icon/layout/menu subsections."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "0e347968919e5bf25a753092c0536f7ce669c7065206cb9629038a2a28383b2b",
+        "source_anchor": "Integrate-the-Mac-experience",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Integrate-the-Mac-experience",
+        "evidence": "Verified substantive integration criteria across navigation/input/icon/layout/menu subsections."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "16e88f35c1e64feeeecfcaa1a4f8192cf1c71488e90756d698cdb6359b336cb7",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Checked sidebar preferred versus flat segmented alternative,child hierarchy/continuity,View-menu access and Next/Previous alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "56fd15444b72799507c25917f553d3fca8c73a4f1a04a1e727a9c5339e65b2b9",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Checked sidebar preferred versus flat segmented alternative,child hierarchy/continuity,View-menu access and Next/Previous alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "6699bed0549d6f7c922d9521fe3cb1a0f65b883157593a4f8d4ca15088cfe32a",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Checked sidebar preferred versus flat segmented alternative,child hierarchy/continuity,View-menu access and Next/Previous alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/items/0/content/0",
+        "source_unit_hash": "9524f13f1dcd4300ed55b4e66948b4e4bf5aed5b0af40c4077c94142a3d1b4a4",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Checked sidebar preferred versus flat segmented alternative,child hierarchy/continuity,View-menu access and Next/Previous alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/items/1/content/0",
+        "source_unit_hash": "6d5388c72f133da4c35e9d5eef97fa5f8a6fe409154c87c143f430e0bef13625",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Checked sidebar preferred versus flat segmented alternative,child hierarchy/continuity,View-menu access and Next/Previous alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/items/2/content/0",
+        "source_unit_hash": "7b6d334b22a8ab6b0cfe3064ce316b5e72cbbcd9568d749b5b2903253ab8474c",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Checked sidebar preferred versus flat segmented alternative,child hierarchy/continuity,View-menu access and Next/Previous alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "36aa20559318325da030ca0217d0316739cecdfd993f39ca41ac21d2e96513a6",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Checked sidebar preferred versus flat segmented alternative,child hierarchy/continuity,View-menu access and Next/Previous alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "b7b193a259941ecdca1d1fe889e6fcdd15c28c486eedbfe5fb19d35adedeb9ea",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Checked sidebar preferred versus flat segmented alternative,child hierarchy/continuity,View-menu access and Next/Previous alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/items/0/content/0",
+        "source_unit_hash": "0a3da406353a17024f21256eb501a22ade73171c8ec40608a3a650272dd9fe60",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Checked sidebar preferred versus flat segmented alternative,child hierarchy/continuity,View-menu access and Next/Previous alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/items/1/content/0",
+        "source_unit_hash": "2d9363d8c2ee74753f97230130084c676f07a0418543954a2859ca88a07cfa99",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Checked sidebar preferred versus flat segmented alternative,child hierarchy/continuity,View-menu access and Next/Previous alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "3ceab29dda0b3a1f1471d9b6d0e7e88eb9533727e133b6973aceb31b8f6f70e7",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Checked sidebar preferred versus flat segmented alternative,child hierarchy/continuity,View-menu access and Next/Previous alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "219e1a3ad2714a83a282aa3389a1a1804fe3c8885ab9578c1ca8532f301ff1b6",
+        "source_anchor": "Navigation",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Navigation",
+        "evidence": "Checked sidebar preferred versus flat segmented alternative,child hierarchy/continuity,View-menu access and Next/Previous alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "b766336ea84d17d5fac0fb4c6257e1c289818bd0382e6b6d9763768a3dd9c831",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "140c3b829be665318fc6542cd85063e5b9f08d2d83bfc66808e5bf3b9a2b48be",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "b414b578a8fc3520b787cdb6d4d2b1e3d641f63e3a02aa44e4c3bd245cce8cb6",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/rows/0/0/0",
+        "source_unit_hash": "161bbafcd5a52ed5731851ad9470a902b714c3eb9582859490bbde69e2eead70",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/rows/0/1/0",
+        "source_unit_hash": "46c15e87688642215baf0cd8ddc95088d83e116692978a246d1f255b0aa993e6",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/rows/1/0/0",
+        "source_unit_hash": "4e11df2a6d7ab88ed4ee805a5a65c6c446599c0b2bd3b14252a0cfcd146078b5",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/rows/1/1/0",
+        "source_unit_hash": "6595bcfd62fc3b11ffab2220f076d4a601d355bdd9f3a94a2486c6f59ed9278f",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/rows/2/0/0",
+        "source_unit_hash": "0b5d913f0335dd15d405ae28888d6229130f04821e12e3d5368f308f36c6b4a0",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/rows/2/1/0",
+        "source_unit_hash": "ad8e76d32e24caf9233cebc5f48ebfc10ec44a1b82f38a1c6b88c3c2089fbf52",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/rows/3/0/0",
+        "source_unit_hash": "12714d9b99ee7f6df31a812e9a129c20d6ee5531f21dda39847dd8f3ee64db46",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/rows/3/1/0",
+        "source_unit_hash": "80a545a618a8ce12e5eb5a1cfa3dc2bae6f5f95c501af96327a8da4e4f1a88ef",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "98e0042c6d156381bb10acf9df0c1587fe700af93368c5187a175570bf2f7e2a",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/0/0/0",
+        "source_unit_hash": "161bbafcd5a52ed5731851ad9470a902b714c3eb9582859490bbde69e2eead70",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/0/1/0",
+        "source_unit_hash": "809a0701b83608509a40a8d5dd625414f580b55b03a4aec776be4ee4b7867198",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/1/0/0",
+        "source_unit_hash": "4e11df2a6d7ab88ed4ee805a5a65c6c446599c0b2bd3b14252a0cfcd146078b5",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/1/1/0",
+        "source_unit_hash": "31d98e492709fc2021fe299f018e4d62a4210310d175b757c54a8a3535928f3f",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/2/0/0",
+        "source_unit_hash": "0b5d913f0335dd15d405ae28888d6229130f04821e12e3d5368f308f36c6b4a0",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/2/1/0",
+        "source_unit_hash": "ad8e76d32e24caf9233cebc5f48ebfc10ec44a1b82f38a1c6b88c3c2089fbf52",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/3/0/0",
+        "source_unit_hash": "12714d9b99ee7f6df31a812e9a129c20d6ee5531f21dda39847dd8f3ee64db46",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/3/1/0",
+        "source_unit_hash": "2091b9bbca470c50ed5f91e802e982e06630c0b937a1177cf8c27581ca433380",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/4/0/0",
+        "source_unit_hash": "c8f022c8b676a604be008f3ab2990c0df21e0615ad6c1a46f351dba7af17afd8",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/4/1/0",
+        "source_unit_hash": "c8f022c8b676a604be008f3ab2990c0df21e0615ad6c1a46f351dba7af17afd8",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/5/0/0",
+        "source_unit_hash": "d58fdfbbc85d67b92de69eceb29a2c76ca753a1b8eb782e17d79d3ab97c851a5",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/39/rows/5/1/0",
+        "source_unit_hash": "d58fdfbbc85d67b92de69eceb29a2c76ca753a1b8eb782e17d79d3ab97c851a5",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "5c7df54981446690bd49d0eb061eda0232c56b8a6e1b32061c5ba24c90bdded4",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/content/0",
+        "source_unit_hash": "12437433ba3f1c7a5524e27d46ed6be9b18252ee19efecc17cc9f370605e8f18",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "32be8f5093e272e59abf6ea8329cdf42674d791375781d040a17d31a1a224297",
+        "source_anchor": "App-icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "App-icons",
+        "evidence": "Verified Mac-specific icon rendering with shared identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "cc0cdb3183b44aebab67a435939ed2f7a6e8b332792f1e087352084ff252d84d",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Layout",
+        "evidence": "Checked multiple columns,regular classes,resizing/adjacent inspector,toolbar/menu duplication,top-down order and relocated touch-edge controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "f3ad02efc837ea408b45597451dd54e817ec4954cf2bf94a0290dfb379cb1bdd",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Layout",
+        "evidence": "Checked multiple columns,regular classes,resizing/adjacent inspector,toolbar/menu duplication,top-down order and relocated touch-edge controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/items/0/content/0",
+        "source_unit_hash": "67b81157e73589b0b842714f40b4762beb33fb699dc565c7ab44cc65428b0996",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Layout",
+        "evidence": "Checked multiple columns,regular classes,resizing/adjacent inspector,toolbar/menu duplication,top-down order and relocated touch-edge controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/items/1/content/0",
+        "source_unit_hash": "59fcc6c40a3c7bbf1026e807389de5754fe29717a9a9190ba6611fd9b57fbada",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Layout",
+        "evidence": "Checked multiple columns,regular classes,resizing/adjacent inspector,toolbar/menu duplication,top-down order and relocated touch-edge controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/items/2/content/0",
+        "source_unit_hash": "7430a3bd18efcfa21e81b89b67aaaca50ac82cff4266d4b15782ebd9410f8b51",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Layout",
+        "evidence": "Checked multiple columns,regular classes,resizing/adjacent inspector,toolbar/menu duplication,top-down order and relocated touch-edge controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "2c7dc4ca785a4bcdea78b3298fa64fd3253a5cc3acf0d03b34779cc5eeac2c19",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Layout",
+        "evidence": "Checked multiple columns,regular classes,resizing/adjacent inspector,toolbar/menu duplication,top-down order and relocated touch-edge controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "252214e827a100cf83a4a45c64aa06e7a201897ee3db5662fb2c08365332cd46",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Layout",
+        "evidence": "Checked multiple columns,regular classes,resizing/adjacent inspector,toolbar/menu duplication,top-down order and relocated touch-edge controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "f086c22cdde21bc5425bd4de3d9a80565dfede1ed079203cb044dc45234d25e9",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Layout",
+        "evidence": "Checked multiple columns,regular classes,resizing/adjacent inspector,toolbar/menu duplication,top-down order and relocated touch-edge controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "b7c32a17716df5b42f284895f178e09da4a327854e156d4caa843e9f29bc1824",
+        "source_anchor": "Menus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Menus",
+        "evidence": "Verified persistent commands,shortcut/menu/action APIs,automatic popup/context adaptation and additional contextual affordances."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "da155727e2825f93b4db5c5c8c10f78241527f288810aa49e66625a3042aa23b",
+        "source_anchor": "Menus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Menus",
+        "evidence": "Verified persistent commands,shortcut/menu/action APIs,automatic popup/context adaptation and additional contextual affordances."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/content/0",
+        "source_unit_hash": "71b974633adf6ea4baba2f82536bb2f61eeb9384891765a6c67fc7741d2609de",
+        "source_anchor": "Menus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Menus",
+        "evidence": "Verified persistent commands,shortcut/menu/action APIs,automatic popup/context adaptation and additional contextual affordances."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "15b6fbccf7eb19eb409fab81cccca3c7099d1b1726f98ea3cff811fb92bad647",
+        "source_anchor": "Menus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Menus",
+        "evidence": "Verified persistent commands,shortcut/menu/action APIs,automatic popup/context adaptation and additional contextual affordances."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "a3307b8ea7dee52f6dcaa79ffd967862b3bbf8bbca4e3650d69aceb57fa941cb",
+        "source_anchor": "Menus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Menus",
+        "evidence": "Verified persistent commands,shortcut/menu/action APIs,automatic popup/context adaptation and additional contextual affordances."
+      },
+      {
+        "id": "primaryContentSections/0/content/53/content/0",
+        "source_unit_hash": "5b41de82dd1f3d99c341aea01607b0f946de2b71cb06c3ad24b8586932e8f003",
+        "source_anchor": "Menus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Menus",
+        "evidence": "Verified persistent commands,shortcut/menu/action APIs,automatic popup/context adaptation and additional contextual affordances."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "a979f6ab870da17ca151b1dba685e0c74b7adef28f315788cf790a6fd71beefd",
+        "source_anchor": "Menus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Menus",
+        "evidence": "Verified persistent commands,shortcut/menu/action APIs,automatic popup/context adaptation and additional contextual affordances."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "711b43a9f564abbcdd60730ae6457a71ffcfec2e07fb3455f3cd038c6d7eef6b",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified iPadOS/macOS and unsupported iOS/tvOS/visionOS/watchOS."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "7d6848777e3fb1a8f738913c544a74f799d20e67c51c7557e057094fb2df1f08",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "3e62822b9f2e2ce15b72e09f866928a84ec6d032d6e076853865d8db15356127",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "d6185da1101ab5cdff0a1447e7f1e91f5eab8d23a802533195658dac94ed79f1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/1/0/0",
+        "source_unit_hash": "a3be947823d6b103c429adb07b7ad07c6def605e3e77e14b702e5a9c78d34032",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/65/rows/1/1/0",
+        "source_unit_hash": "4756147f4d61c1086dc4ffd0d8da51a01051e176d19f9b7302eaf645e0f80e63",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "b414b578a8fc3520b787cdb6d4d2b1e3d641f63e3a02aa44e4c3bd245cce8cb6",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "98e0042c6d156381bb10acf9df0c1587fe700af93368c5187a175570bf2f7e2a",
+        "source_anchor": "Inputs",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Inputs",
+        "evidence": "Rechecked mouse tap→left OR right click,hold→click/hold,pan→LEFT click/drag separately from full trackpad mapping; verified pinch/rotate both touches target pointer view."
+      },
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "d6185da1101ab5cdff0a1447e7f1e91f5eab8d23a802533195658dac94ed79f1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

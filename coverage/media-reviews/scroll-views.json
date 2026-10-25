@@ -1,0 +1,26 @@
+{
+  "source_hash": "65be51338450269782c9bf7f687c99add35aed6b9a901c43aea2c243e8024a8e",
+  "media": {
+    "visionos-scroll-indicator-jog-bar.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.634828+00:00",
+      "reference_metadata_hash": "c4f1ec43739d64f9d873cabe1f3c95865db6fd1b5f7ae945575ced5770721bcd",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/visionos-scroll-indicator-jog-bar.mp4",
+      "binary_hash": "5b44943547eb0ac62e3046d0cc54dd3eb0efe9e345681631177ed92cef868058",
+      "review_method": "actual chronological six-frame sequence inspection and source-context comparison; additional native-resolution crop where needed; no exact timing/motion-quality claim",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Viewed scrolling sequence plus native-resolution cropped 6.2s frame confirming trailing-edge jog indicator/ticks; source explains speed versus position. The actual asset has no audio stream.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/scroll-views.md",
+          "hash": "c992c0816ccc1f7ddb57aac0380bffc036bd3d167b6f219141e35ad4d56271d8"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/scroll-views.md#position-and-speed-are-different-interactions",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/29"
+      ]
+    }
+  }
+}

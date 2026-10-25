@@ -1,0 +1,622 @@
+{
+  "review": {
+    "slug": "file-management",
+    "status": "reviewed",
+    "source_hash": "1b8498df40c8a4e5fdf64169e943f3a5d4e50a2024d927024287ac00ad41f933",
+    "destination_hash": "d7ca475781533ddecde00adcc703c10237a45ba2a04dfc768bfb3cab22c90669",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:21:18.809374+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "file-management",
+        "status": "reviewed",
+        "evidence": "Checked Finder versus Files on iPhone/iPad/Vision Pro and absent normal browsing on watchOS/tvOS."
+      },
+      {
+        "source_anchor": "Creating-and-opening-files",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Creating-and-opening-files",
+        "status": "reviewed",
+        "evidence": "Verified familiar Mac/iPad New/Open shortcuts, discoverable Add, File-menu creation, and custom-browser access beyond its initially relevant folder."
+      },
+      {
+        "source_anchor": "Saving-work",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Saving-work",
+        "status": "reviewed",
+        "evidence": "Retains periodic/close/app-switch autosaving, preservation unless canceled/deleted, hidden extensions with a consistent user-controlled reveal choice."
+      },
+      {
+        "source_anchor": "Quick-Look-previews",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Quick-Look-previews",
+        "status": "reviewed",
+        "evidence": "Viewer support for unsupported attachments and generators for custom types are both retained, including Finder/Files/Spotlight discovery and audio/markup/3D interaction."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified the explicit absence of further platform rules; the local platform scope matches the source."
+      },
+      {
+        "source_anchor": "Document-launcher",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Document-launcher",
+        "status": "reviewed",
+        "evidence": "Verified iOS/iPadOS 18 introduction, title card/two buttons, background/accessories and browser-sheet structure, action priorities, clear layering, size/orientation testing, and restrained animation."
+      },
+      {
+        "source_anchor": "File-provider-app-extension",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "File-provider-app-extension",
+        "status": "reviewed",
+        "evidence": "Compared import/export/open/move scope, context filtering and metadata, destination browsing except single-directory storage, optional subdirectories, avoiding duplicate top toolbars, and browsing other providers."
+      },
+      {
+        "source_anchor": "Custom-file-management",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Custom-file-management",
+        "status": "reviewed",
+        "evidence": "Retains standard-browser preference, recents/filter/multiselect, task-specific Open labels, name/format/location and Untitled defaults, and justified Save accessory options."
+      },
+      {
+        "source_anchor": "Finder-Sync-extensions",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Finder-Sync-extensions",
+        "status": "reviewed",
+        "evidence": "Checked badge/context/toolbar capabilities and autosave-off behavior on close/quit/logout/restart; close-button/Window-menu dots only when autosave is off, Edited suffix cleared after either save type."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "c0d856d8f17aa29ffc60f0a96f15e469e24ea39d662408e28a9ee8c921df6b6e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "file-management",
+        "evidence": "Checked Finder versus Files on iPhone/iPad/Vision Pro and absent normal browsing on watchOS/tvOS."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "61f4c00a866f377dd45bf73c950daada3dac1ac20b1bad28a19c8c1d94ed88bc",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "file-management",
+        "evidence": "Checked Finder versus Files on iPhone/iPad/Vision Pro and absent normal browsing on watchOS/tvOS. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "c80ea29bd871c899a08f9983c4377b4794db1ec318490b98072deb7a6b4b8551",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "file-management",
+        "evidence": "Checked Finder versus Files on iPhone/iPad/Vision Pro and absent normal browsing on watchOS/tvOS."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "5dfbeaa069f3fc5055b29f8654016e7439bf5054f9e8a604ca482b9314d78e6f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "file-management",
+        "evidence": "Checked Finder versus Files on iPhone/iPad/Vision Pro and absent normal browsing on watchOS/tvOS."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "278742f0337ad6a4475e998b7fc28a30326782a70be3e58848f8102859aa41c0",
+        "source_anchor": "Creating-and-opening-files",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Creating-and-opening-files",
+        "evidence": "Verified familiar Mac/iPad New/Open shortcuts, discoverable Add, File-menu creation, and custom-browser access beyond its initially relevant folder."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "f4a7ebe0c73447a40926a0eef429455e65bd353cac6c9173b9e74ec257631281",
+        "source_anchor": "Creating-and-opening-files",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Creating-and-opening-files",
+        "evidence": "Verified familiar Mac/iPad New/Open shortcuts, discoverable Add, File-menu creation, and custom-browser access beyond its initially relevant folder."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "e51ca251b354945fadbc048dffb8dd568c8f44150319b6317d1ac9c5e0e7c1d0",
+        "source_anchor": "Saving-work",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Saving-work",
+        "evidence": "Retains periodic/close/app-switch autosaving, preservation unless canceled/deleted, hidden extensions with a consistent user-controlled reveal choice."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "62fe5661c3bcd7178fc2dcc78aab58d13eada81c915fd807eae188579ec5a282",
+        "source_anchor": "Saving-work",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Saving-work",
+        "evidence": "Retains periodic/close/app-switch autosaving, preservation unless canceled/deleted, hidden extensions with a consistent user-controlled reveal choice."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "fb1f8d3f05bbff15733d720c66945e3987202fa3963004c3fac669937debf62d",
+        "source_anchor": "Quick-Look-previews",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Quick-Look-previews",
+        "evidence": "Viewer support for unsupported attachments and generators for custom types are both retained, including Finder/Files/Spotlight discovery and audio/markup/3D interaction."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "4c0d08aa6786818f1d6313e08663abd94c75563a7c7a44eecf72fe139dbc5e63",
+        "source_anchor": "Quick-Look-previews",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Quick-Look-previews",
+        "evidence": "Viewer support for unsupported attachments and generators for custom types are both retained, including Finder/Files/Spotlight discovery and audio/markup/3D interaction."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "529122a4402645d3132521cb5dbc55861628b97da76ca4fd5fefbe179b82d147",
+        "source_anchor": "Quick-Look-previews",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Quick-Look-previews",
+        "evidence": "Viewer support for unsupported attachments and generators for custom types are both retained, including Finder/Files/Spotlight discovery and audio/markup/3D interaction."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "cd273082b0bce50669ee73937f089bca9acfa62b9916346a29702271a1e57ef5",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified the explicit absence of further platform rules; the local platform scope matches the source."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "a22567d309188cc0a6d8f2f03097601ff947db186d38a60ea899f83205d0ed59",
+        "source_anchor": "Document-launcher",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Document-launcher",
+        "evidence": "Verified iOS/iPadOS 18 introduction, title card/two buttons, background/accessories and browser-sheet structure, action priorities, clear layering, size/orientation testing, and restrained animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "04d2923628b366a6725fe1b31340957c65641c4b4e8d25527eb2384c2a8da247",
+        "source_anchor": "Document-launcher",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Document-launcher",
+        "evidence": "Verified iOS/iPadOS 18 introduction, title card/two buttons, background/accessories and browser-sheet structure, action priorities, clear layering, size/orientation testing, and restrained animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "66a507969bab60178789196d9de4f69ddedd76b5963ec7246d0b820a3662626c",
+        "source_anchor": "Document-launcher",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Document-launcher",
+        "evidence": "Verified iOS/iPadOS 18 introduction, title card/two buttons, background/accessories and browser-sheet structure, action priorities, clear layering, size/orientation testing, and restrained animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/items/0/content/0",
+        "source_unit_hash": "b4fff0fe2ef530a9fde734b90f4fde324dc8a0e29c124cc373554f125849c690",
+        "source_anchor": "Document-launcher",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Document-launcher",
+        "evidence": "Verified iOS/iPadOS 18 introduction, title card/two buttons, background/accessories and browser-sheet structure, action priorities, clear layering, size/orientation testing, and restrained animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/items/1/content/0",
+        "source_unit_hash": "3884750a88676b4f038c7fc7bd568b4eac24898073e679dd78694424aa4f8353",
+        "source_anchor": "Document-launcher",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Document-launcher",
+        "evidence": "Verified iOS/iPadOS 18 introduction, title card/two buttons, background/accessories and browser-sheet structure, action priorities, clear layering, size/orientation testing, and restrained animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/items/2/content/0",
+        "source_unit_hash": "8aa5fca55328d98f306d7c435b84ddcda91340aaba0e8ffb14c582848fa9a5c7",
+        "source_anchor": "Document-launcher",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Document-launcher",
+        "evidence": "Verified iOS/iPadOS 18 introduction, title card/two buttons, background/accessories and browser-sheet structure, action priorities, clear layering, size/orientation testing, and restrained animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "edd421cc6cfb183269411c086c94dc6d12e0c31462c35b47c2ede51376b2013b",
+        "source_anchor": "Document-launcher",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Document-launcher",
+        "evidence": "Verified iOS/iPadOS 18 introduction, title card/two buttons, background/accessories and browser-sheet structure, action priorities, clear layering, size/orientation testing, and restrained animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "bbfb7aa06aac15d1f9126a5434759f62434046f13ab5ee8c212c4c3642d4f319",
+        "source_anchor": "Document-launcher",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Document-launcher",
+        "evidence": "Verified iOS/iPadOS 18 introduction, title card/two buttons, background/accessories and browser-sheet structure, action priorities, clear layering, size/orientation testing, and restrained animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/inlineContent/0",
+        "source_unit_hash": "71345df24e3fcf3381929b1b37dc8d943cb6d6599cb0a3657c55479d61b5d7dd",
+        "source_anchor": "Document-launcher",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Document-launcher",
+        "evidence": "Verified iOS/iPadOS 18 introduction, title card/two buttons, background/accessories and browser-sheet structure, action priorities, clear layering, size/orientation testing, and restrained animation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "9946fa7c8215067e7d933bfe50775eb5eb60419dfc3105ff1e9318ad67f835b0",
+        "source_anchor": "Document-launcher",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Document-launcher",
+        "evidence": "Verified iOS/iPadOS 18 introduction, title card/two buttons, background/accessories and browser-sheet structure, action priorities, clear layering, size/orientation testing, and restrained animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "14eff00c7fd6f2037168f09b3744286803d3a2e9cd66992b7f8a4348252c268d",
+        "source_anchor": "Document-launcher",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Document-launcher",
+        "evidence": "Verified iOS/iPadOS 18 introduction, title card/two buttons, background/accessories and browser-sheet structure, action priorities, clear layering, size/orientation testing, and restrained animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "e05aea6404deeba8dec9fa6c3097e5816782ed9c4d19593cac477e89bad6ed0d",
+        "source_anchor": "Document-launcher",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Document-launcher",
+        "evidence": "Verified iOS/iPadOS 18 introduction, title card/two buttons, background/accessories and browser-sheet structure, action priorities, clear layering, size/orientation testing, and restrained animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "6bc6a78ae0205ebc1983919918a1fe0a8aa09b6d7d4d12c4e4d973acb54923dc",
+        "source_anchor": "Document-launcher",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Document-launcher",
+        "evidence": "Verified iOS/iPadOS 18 introduction, title card/two buttons, background/accessories and browser-sheet structure, action priorities, clear layering, size/orientation testing, and restrained animation."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "1b817aefefcf2940f022937a81a2f042df13ab02118cb0337cf3b9e8bcabafc1",
+        "source_anchor": "File-provider-app-extension",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "File-provider-app-extension",
+        "evidence": "Compared import/export/open/move scope, context filtering and metadata, destination browsing except single-directory storage, optional subdirectories, avoiding duplicate top toolbars, and browsing other providers."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "0a64f5460a177aa76e59da1222412d042e4b6b85e1125a7b889fefff50083493",
+        "source_anchor": "File-provider-app-extension",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "File-provider-app-extension",
+        "evidence": "Compared import/export/open/move scope, context filtering and metadata, destination browsing except single-directory storage, optional subdirectories, avoiding duplicate top toolbars, and browsing other providers."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "d4e575b83a4aedb7a0721e8cb3c575b353654554ba620b1194194b1f1697064a",
+        "source_anchor": "File-provider-app-extension",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "File-provider-app-extension",
+        "evidence": "Compared import/export/open/move scope, context filtering and metadata, destination browsing except single-directory storage, optional subdirectories, avoiding duplicate top toolbars, and browsing other providers."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "bbb9c5cf207e1741e23a30e3b3a01e5e7280ef1d8c39d3d8a4a0ef5bb6687bb7",
+        "source_anchor": "File-provider-app-extension",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "File-provider-app-extension",
+        "evidence": "Compared import/export/open/move scope, context filtering and metadata, destination browsing except single-directory storage, optional subdirectories, avoiding duplicate top toolbars, and browsing other providers."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "d6ce052e4c5e338579357cf53ec6730f7be6b9a24f6bbc7f69af8a11f60b1051",
+        "source_anchor": "File-provider-app-extension",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "File-provider-app-extension",
+        "evidence": "Compared import/export/open/move scope, context filtering and metadata, destination browsing except single-directory storage, optional subdirectories, avoiding duplicate top toolbars, and browsing other providers."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "172710f35e04caf2d79513bbc30648823d9cafcd28d65787971918d73ec7640e",
+        "source_anchor": "Custom-file-management",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Custom-file-management",
+        "evidence": "Retains standard-browser preference, recents/filter/multiselect, task-specific Open labels, name/format/location and Untitled defaults, and justified Save accessory options."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "357aefca36629bdd7d0132248a8f284873dda5f5af31681a939c387459e12ab7",
+        "source_anchor": "Custom-file-management",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Custom-file-management",
+        "evidence": "Retains standard-browser preference, recents/filter/multiselect, task-specific Open labels, name/format/location and Untitled defaults, and justified Save accessory options."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "f11d7225585b3f862ada7a2fb419074c470f77882f75c3de48284d6d494c196b",
+        "source_anchor": "Custom-file-management",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Custom-file-management",
+        "evidence": "Retains standard-browser preference, recents/filter/multiselect, task-specific Open labels, name/format/location and Untitled defaults, and justified Save accessory options."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "89d005374f823c93027c7c7c45b1a1676f97d5a2609717f685e4dece3f54817d",
+        "source_anchor": "Custom-file-management",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Custom-file-management",
+        "evidence": "Retains standard-browser preference, recents/filter/multiselect, task-specific Open labels, name/format/location and Untitled defaults, and justified Save accessory options."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "51b1d3f855677e0cedd87a4916a4fa7e3ea1f6e2965806397601d67b7c506fe8",
+        "source_anchor": "Finder-Sync-extensions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Finder-Sync-extensions",
+        "evidence": "Checked badge/context/toolbar capabilities and autosave-off behavior on close/quit/logout/restart; close-button/Window-menu dots only when autosave is off, Edited suffix cleared after either save type."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "f9bf99a2c330abd2a0b41ee9773a96c5d4fae26e54714d328e21797dc0820ee1",
+        "source_anchor": "Finder-Sync-extensions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Finder-Sync-extensions",
+        "evidence": "Checked badge/context/toolbar capabilities and autosave-off behavior on close/quit/logout/restart; close-button/Window-menu dots only when autosave is off, Edited suffix cleared after either save type."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "e1252168148b4c800bbc6e31bd537216676ba5aeae2cf8231e22d1ea169537ac",
+        "source_anchor": "Finder-Sync-extensions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Finder-Sync-extensions",
+        "evidence": "Checked badge/context/toolbar capabilities and autosave-off behavior on close/quit/logout/restart; close-button/Window-menu dots only when autosave is off, Edited suffix cleared after either save type."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/items/0/content/0",
+        "source_unit_hash": "24191670e299fbfee1780016b9057a953e8c5c15f5c67152732f410c5fd959eb",
+        "source_anchor": "Finder-Sync-extensions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Finder-Sync-extensions",
+        "evidence": "Checked badge/context/toolbar capabilities and autosave-off behavior on close/quit/logout/restart; close-button/Window-menu dots only when autosave is off, Edited suffix cleared after either save type."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/items/1/content/0",
+        "source_unit_hash": "1e2545fff3e6bb08aa3164225823b8265d49de61efd8d732ac7f89bb7c25ecef",
+        "source_anchor": "Finder-Sync-extensions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Finder-Sync-extensions",
+        "evidence": "Checked badge/context/toolbar capabilities and autosave-off behavior on close/quit/logout/restart; close-button/Window-menu dots only when autosave is off, Edited suffix cleared after either save type."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/items/2/content/0",
+        "source_unit_hash": "fb2864c01c28c4dbf59d52b84ef8d61b1450d3fb13ceb7194ef894fc5dc141ed",
+        "source_anchor": "Finder-Sync-extensions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Finder-Sync-extensions",
+        "evidence": "Checked badge/context/toolbar capabilities and autosave-off behavior on close/quit/logout/restart; close-button/Window-menu dots only when autosave is off, Edited suffix cleared after either save type."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "116af20fbb0e2ea4c3a838135a2bbaedb1970367718145d52ff8f0e901aece65",
+        "source_anchor": "Finder-Sync-extensions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Finder-Sync-extensions",
+        "evidence": "Checked badge/context/toolbar capabilities and autosave-off behavior on close/quit/logout/restart; close-button/Window-menu dots only when autosave is off, Edited suffix cleared after either save type."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "0679e64beec3116bafb75a30d4149340115ed9ba02bfb11ffcbda444a7ba407f",
+        "source_anchor": "Finder-Sync-extensions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Finder-Sync-extensions",
+        "evidence": "Checked badge/context/toolbar capabilities and autosave-off behavior on close/quit/logout/restart; close-button/Window-menu dots only when autosave is off, Edited suffix cleared after either save type."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "9895c6126e621cac279a62c114c8a6bd7c5d72aa0c6f2a6e560bc26d6abc20da",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "7f57d3665ae245a1fa78e21477f4aafcf113d5e8d5f2549c4c71c65945019cd7",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "2e5214c2f7056be3d054e53d55c21cd01838e8924e8ebfb831d595a32f1b2be3",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "f1f596a97aaa6473fd8cd6f8bbddf5888c53a2d577f378450437a57c208e211a",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "fe023860aa9846b26535eab661fcda48ebeb7322cb626e1c3a43284215d94e26",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/rows/1/0/0",
+        "source_unit_hash": "6fbfd8192538c86013ae1170ead307313ca6290dbe20e9b9a262d8ed4dbef179",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/rows/1/1/0",
+        "source_unit_hash": "db40e687718edb21102ddd866f7a97bdc6af15d3aa18a736672d1a06ccc8c2bd",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/rows/2/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/rows/2/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "fe023860aa9846b26535eab661fcda48ebeb7322cb626e1c3a43284215d94e26",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

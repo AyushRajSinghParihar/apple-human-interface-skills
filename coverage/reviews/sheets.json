@@ -1,0 +1,1105 @@
+{
+  "review": {
+    "slug": "sheets",
+    "status": "reviewed",
+    "source_hash": "49ef3457d70e046d2dc9327071bc137dd68bd4b26a5e96806a75eec4b54c3661",
+    "destination_hash": "40447c58d38c99c40a1f70895a46f876a46d34804955bffe19c047eba76b5e6a",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:07:49.132211+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "sheets",
+        "status": "reviewed",
+        "evidence": "Checked short scoped parent-related tasks."
+      },
+      {
+        "source_anchor": "Anatomy",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Anatomy",
+        "status": "reviewed",
+        "evidence": "Verified modal platforms versus iOS/iPad nonmodal support and Cancel/Close, Done and Back semantics."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked TV no-addition scope."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Checked dimmed parent with usable other windows, default/resizable dimensions, parent/modeless-panel foregrounding and panel alternative for repeated results."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Verified floating parent relation, centered field of view, retained parent context and optional sizing."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "325ffcb20c0176af9acc0cc6d720ba799d61becdb822343fd0f6dcdbb2a2ec26",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "sheets",
+        "evidence": "Checked short scoped parent-related tasks."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "08ef9c8303aaa438d8a22cdfe4f939a89d0853a79e057c157a0cd2ca72a2dbce",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "sheets",
+        "evidence": "Checked short scoped parent-related tasks. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "147904a6cdce5fbb2ff6ae41ad41ae0d1d577f3e8d59a48cf95621d806e7cb2b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "sheets",
+        "evidence": "Checked short scoped parent-related tasks."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "9c449e84ba7790febdbc51717c13df637b8a00440c3848227809e84b7d517bb3",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Verified modal platforms versus iOS/iPad nonmodal support and Cancel/Close, Done and Back semantics."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "fb2dc4fb7f829e2b24a324ef6eee2ae4cff4c069c1486ab3ee813a026cb0b5bf",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Verified modal platforms versus iOS/iPad nonmodal support and Cancel/Close, Done and Back semantics."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/columns/0/content/0",
+        "source_unit_hash": "3b0896c18fe3505566315b1640a16a169e4fd28dce2229eeabf04938ca62a97c",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Verified modal platforms versus iOS/iPad nonmodal support and Cancel/Close, Done and Back semantics."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "8dbfc68c22fc01319470661514d1670a3a000490540cf025fac217698fda3397",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Verified modal platforms versus iOS/iPad nonmodal support and Cancel/Close, Done and Back semantics. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/columns/1/content/0",
+        "source_unit_hash": "ea3e9f37b28c3da6cfc93c21969a4554563ec537d0479b9e919ef7dd161e3b0f",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Verified modal platforms versus iOS/iPad nonmodal support and Cancel/Close, Done and Back semantics."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "2f87971e56b2f2b38790553a398d79b570d3554056a7dea93c37ff4f7e8303f3",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Verified modal platforms versus iOS/iPad nonmodal support and Cancel/Close, Done and Back semantics. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "a5844e0d9ab77b756d1fe520ffa2e9ec93e35085178ca3e7fd58be4acef19132",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Verified modal platforms versus iOS/iPad nonmodal support and Cancel/Close, Done and Back semantics."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "7f461175a4877bb29febc970f577c7a981882ca097213bf34e386e87dce1dfc6",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Verified modal platforms versus iOS/iPad nonmodal support and Cancel/Close, Done and Back semantics."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/items/0/content/0",
+        "source_unit_hash": "b6db4eea3923df5c93b429cdbac81abb5afeef6222aca44bec9dc834a00695f7",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Verified modal platforms versus iOS/iPad nonmodal support and Cancel/Close, Done and Back semantics."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/items/1/content/0",
+        "source_unit_hash": "6ac7ba59190656f7d080438d45e147ac69371acd4a02f1fd55648f33d487a41a",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Verified modal platforms versus iOS/iPad nonmodal support and Cancel/Close, Done and Back semantics."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/items/2/content/0",
+        "source_unit_hash": "691378a1149af66c11ae51473fa816c16d756ec86433322b029447c89c9f8ed4",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Verified modal platforms versus iOS/iPad nonmodal support and Cancel/Close, Done and Back semantics."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "bbb2f1c0c3e37acd5995e27c1afdc67222d689709008aee130b489e01cf4b47a",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Verified modal platforms versus iOS/iPad nonmodal support and Cancel/Close, Done and Back semantics."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "4e32d054ec1a520d18e9f00b6760edcc2be4f3c775d943d6218afac8d935fe86",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "1b6c848a29b1a5e18a17a4b79f1749470e26c3aa2e12b861f16efd45b9aa5909",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "518301926c95a88cb2e4da5df0185b4c54e79d53b7798e73a6f009028fdeaa87",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "201630a51a8ea2e5ce965d228da727ee809e68212c328fe36199cf999749d970",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/0/content/0",
+        "source_unit_hash": "720f6ff8bc114345c4db92bfe18b066e0ddf3acc0a0d66662d02e3bb26712378",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "8cc990b95ba30cd9e34ce4d19812a36ff0d0764b94d4837a8dc4ec061f1daaed",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/1/content/0",
+        "source_unit_hash": "ba587c9ef0d1f712227df0eea3f7110d44f011ef28abd85077d9106d86853fca",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "69873d62aaea49722bf6af27e3944c6bd5f50c835cccc41694326c032ce0878e",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/1/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "fcaded23f5798d3573622ee9e7aa6df551036f10355bc77c9a862d42c78763ef",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/0/content/0",
+        "source_unit_hash": "511cce0d3ca3a10da54a69c57a658665336511f06294ee2efa4eac448ecdbc05",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "9eb8f2181ed8b2dabcf816c674bd06e095618c10db8b0064eac1f7de5e448413",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked prolonged-task alternatives, one-sheet replacement/restoration, nonmodal supplementary alternatives and Done plus Cancel-or-Back without all three. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "8549c0668df733770cc1ceeffee03023bdd8a69b3c1b22127f4ee8a4d582692a",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked TV no-addition scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "9d6d60d3793dac8c88ac47c901ea2dc6bd8f632a745fa5e1e2fc76004bfa8bc0",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "ba587c9ef0d1f712227df0eea3f7110d44f011ef28abd85077d9106d86853fca",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/inlineContent/0",
+        "source_unit_hash": "69873d62aaea49722bf6af27e3944c6bd5f50c835cccc41694326c032ce0878e",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "7ca43749fc04b8f71d6cfe7dee9f61f201f199b3aea7298f648089bd6c818dc1",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "eb96c4b56fbfbf7d4953c7a9ad066795dc7f99fd9dd60391a41883da582effcb",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "id": "primaryContentSections/0/content/23/tabs/0/content/0",
+        "source_unit_hash": "e98be0ac91bd79336150b34e0ca8ae08f52a5d02a7eaac2759275f30ce5fc440",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "id": "primaryContentSections/0/content/23/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "d5226cd650a746545ccf7208957de41c394b04f3487de9d3a76d3450817c8ab9",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/23/tabs/1/content/0",
+        "source_unit_hash": "70bed20e90b350ece53c825b3847a83c8e844046d67d6f4c333d64667c2de332",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "id": "primaryContentSections/0/content/23/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "4c1495ada6baa771d4b354d16e6344b951be191d04b5ef7000165bbd8d809941",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/23/tabs/2/content/0",
+        "source_unit_hash": "cbc1b6db1ce02a76954522aa6b72177188d0fc72b78d0782f9ccef5c82394f8f",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "id": "primaryContentSections/0/content/23/tabs/2/content/0/inlineContent/0",
+        "source_unit_hash": "72dc51b81b70cfe3fb40e5e291974eb1daae0ec097cddcaa714e029a0467c936",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "d2b03dd3553dea2f4a6ad04e5333f6118ee5b3daa533baa068f269cb097bd459",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/columns/0/content/0",
+        "source_unit_hash": "c5a88b72e9e485226d90dc24acffed06cf2f3cd03a9cc97d1886b84a7e8f4b9e",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "f9f978911dd984767f216f95d23e0df0ac003000315c06b8260cc73abcc69064",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/columns/1/content/0",
+        "source_unit_hash": "8ef828dedf02f62625d5f98d21f9d040fbb1bf35646bee62f3f710e88f14ccee",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "720d73a03decdb55049600905a4c267725add94ec743554c14d7b1c82ad87201",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "7cfa941ec09344425f1a46e0a09b3e868b3a27b3c72f7fd67d117d2603c4d2a9",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "6acb4c3da1bf31e318f063a1975c365116060416db3fd1afac8697d28a44397e",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "962627a660557e58825bfcfb326ae7c5dbe29b51f29b9ef6c69675e687a0ab99",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "66bbd7ee83630060e6ba8e62972b4fce3eb7beea3855a104623b2576e336b98e",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "bd9cd45c17680eef22b6d5c44ea3a579d79cc24f2ff0bc7e9ae77e6902aa4c9e",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified per-step button placements/states, large/medium/custom detents including medium-only limit, progressive-disclosure/compose exception, grabber tap/drag/VoiceOver, unsaved swipe confirmation and centered iPad page/form style."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "a3af4f2c07a4ec54ae0960fe0dc114d6219620ecc17767114ad9a31a10c6ce3c",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked dimmed parent with usable other windows, default/resizable dimensions, parent/modeless-panel foregrounding and panel alternative for repeated results."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "9feb421298ca8c2bff7ee72b89bf998c2d56ad55b90887f31caab729bd5f4866",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked dimmed parent with usable other windows, default/resizable dimensions, parent/modeless-panel foregrounding and panel alternative for repeated results."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/inlineContent/0",
+        "source_unit_hash": "6e8abec03b932de01a19e9f198c4f298cc5a526aebdab3f40d56025ea14723d8",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked dimmed parent with usable other windows, default/resizable dimensions, parent/modeless-panel foregrounding and panel alternative for repeated results. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "53f03f526e353a2c5608722d308e53dfd88ac5f3681881db1a730cb639bcdf92",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked dimmed parent with usable other windows, default/resizable dimensions, parent/modeless-panel foregrounding and panel alternative for repeated results."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "4bcda00de582e792e0310b032d971df7e61de70cfeb94691e33bf17c042f0378",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked dimmed parent with usable other windows, default/resizable dimensions, parent/modeless-panel foregrounding and panel alternative for repeated results."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "f430951e509cec0d061d7db42bd4e577f16d18ddc495f1bdb9cbdf33e603f112",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked dimmed parent with usable other windows, default/resizable dimensions, parent/modeless-panel foregrounding and panel alternative for repeated results."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "ec7a78758df182023cc13827fc9e53c069aa2701ceeabe349a7dee4ac86ebfab",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified floating parent relation, centered field of view, retained parent context and optional sizing."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "2bda156df57e16989e862c59df3531d143af074817620cf56e7eb4f7704a8c97",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified floating parent relation, centered field of view, retained parent context and optional sizing. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "97cecedbef05302cb51528d1581f99525124a82acf5ce276095bbebbafc4bff8",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified floating parent relation, centered field of view, retained parent context and optional sizing."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "e5e127bfe7a2ec05340ca62dabea3b61c06ff67b574e8aef38df24d322cb7d19",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified floating parent relation, centered field of view, retained parent context and optional sizing."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "89bdf8acdcb1bd4829ba04dc5dcf95c98a21fef2cba0878c0b762ce9b38f14b2",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "3bd802c941003f90a690ee1609a15408886561d6ad6300251f2c4b4006a94477",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/inlineContent/0",
+        "source_unit_hash": "452e55cdc9fb823b8e707d5f28031f3e72329408247554a9e4f4f5f549d57297",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "87f41800a2700c88eb4fdd28c1a0bafc61ee477f32add156a22a649fb3df85cd",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "5d372c8ec50ee1a754d9e78f9124d54111aa7443f6898a6cc20c48c9a4f8c988",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "209fc1b6e7ba9e2bcb9a7cb5069ea2da8f616f12c50a1000583898bf6e4202ba",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/0/content/0",
+        "source_unit_hash": "636b3e305c8aa7d21259db1bc66fd8810fc08d64d918c4e71453f1063f3532ec",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "5d8daaf1472d1e4bc447c70c7ced7761c1bc243f8b0b7f3fe3de4261607de679",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/1/content/0",
+        "source_unit_hash": "f57c9c22166061ec13a0ebba88f77a5a3bef87d45ef9da14d773e0e810cba72f",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "b357c6805e5e32ebda120dba096064cffa455e3b876c9721733b18c9290ea750",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/1/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/columns/0/content/0",
+        "source_unit_hash": "818682bbefabb14b80c37215330c43add921e89cc054cf6775e6db276891427b",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "9ab352e05851c804f2ee1ac0a8554f14c5bba895346426ef9a75e4cec774e0db",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/columns/0/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked full-screen material, brief custom-task scope, alert/action-sheet alternatives, no content-navigation and unambiguous symbolic/default dismissal. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "46636c5a48bf484ce2afdbada65a74df397e3cf0027dfffa070a9ea5ec0a006a",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "ab39ba70ab704f61d88c779cccf6ba4931412d023b32faa390309ae8ae08c150",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "36d0f5e3b047379b555075ff1603c32f447f7b45f3deb326bade4736262b9180",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "601d096a8f8544033961219c674f367b716bf867c02bf0db3cc7cc1659583284",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "a7f6ff8e11f5b327125ea817b2fe5a03317a8d187cedeacce0bf876eba263870",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "b0c6da2f6728dc26215489ac9900eeb8fedb5c108d69dbf563c679f89c0dd5bf",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "de04bc7b2489a6a81bb3d86f002a1529f2ad328f7a4c08a2e5ba7583c289d822",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "4a15d38c2ae0eeda822be1b24a1e8c96ec4fb2b2b9a9d10dfb4627ab82da1d56",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/1/0/0",
+        "source_unit_hash": "2c5485a0aa7206e9e2bbf52932d8c0ddb920693cf090d05c1ec9c066a6eed5b0",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/1/1/0",
+        "source_unit_hash": "5154a4a50d2877fa031d738287331e708a2229be861c53e215223b64b9e67101",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/2/0/0",
+        "source_unit_hash": "ea68a9f819300ad266346ba5ee320b5b17debece8a1b159a1dce74ab2d41f857",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/2/1/0",
+        "source_unit_hash": "bd2a4c6f8e97de8d919ed66a5a402bdc18e615d0244f37455eaa681f51bcec73",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/3/0/0",
+        "source_unit_hash": "72e15f86b3908e69cbcefc24a6e0b2def83fa8df14342795e2a64fcd3e2ed469",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/3/1/0",
+        "source_unit_hash": "58ddd25b040a7ef47c2529e6817d194058ebb7d1abbf2831f3c92ab1b2b797f7",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/4/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/4/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/5/0/0",
+        "source_unit_hash": "937d2d87f6be46489d91c6c598d77898e230787b56f889b2c1e16309f42a1ad2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/61/rows/5/1/0",
+        "source_unit_hash": "f1b5264186d4e7f45f0d9f94b923ac20935233408fdcce274a6268f23ceb32e3",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "4a15d38c2ae0eeda822be1b24a1e8c96ec4fb2b2b9a9d10dfb4627ab82da1d56",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

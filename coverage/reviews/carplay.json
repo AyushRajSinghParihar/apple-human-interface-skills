@@ -1,0 +1,730 @@
+{
+  "review": {
+    "slug": "carplay",
+    "status": "reviewed",
+    "source_hash": "544f839158a390da1d102e4dcca77d8c0a6c761593f38a59b63ac0e873520643",
+    "destination_hash": "c27578d2222ecdb6abe03ae66cd4681a38445bcafcc7a0c9ea7fab95068faa82",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:22:13+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "carplay",
+        "status": "reviewed",
+        "evidence": "Checked iPhone installation/vehicle presentation, template-driven hardware/display handling, low-interaction driving context and Apple HomeView audio/video note."
+      },
+      {
+        "source_anchor": "iPhone-interactions",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "iPhone-interactions",
+        "status": "reviewed",
+        "evidence": "Verified prior setup, locked/inaccessible phone operation, no lockout for phone input and stopped-vehicle resolution."
+      },
+      {
+        "source_anchor": "Audio",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Audio",
+        "status": "reviewed",
+        "evidence": "Checked explicit playback with single-source/resume exceptions, audio-session timing, buffering/spinner and metadata timing, resumable-vs-Siri interruptions and user volume."
+      },
+      {
+        "source_anchor": "Layout",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "status": "reviewed",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "source_anchor": "Color",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Color",
+        "status": "reviewed",
+        "evidence": "Verified restrained brand palette, interactive distinction, real-car lighting tests, automatic appearances and inclusive color."
+      },
+      {
+        "source_anchor": "Icons-and-images",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "evidence": "Compared @2x/@3x 120×120/180×180 pixel specs, portrait/landscape support and black-background separation."
+      },
+      {
+        "source_anchor": "Error-handling",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Error-handling",
+        "status": "reviewed",
+        "evidence": "Verified minimal necessary reporting within CarPlay without directing phone use."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified iOS-only support and all other named platforms unsupported."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "d58f852844c34d83e46cd89b70f7647f193c54affd811498da262da78de48923",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "carplay",
+        "evidence": "Checked iPhone installation/vehicle presentation, template-driven hardware/display handling, low-interaction driving context and Apple HomeView audio/video note."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "e1c9f180dcba0e89264ac3bc3015b21fd6e8c110149f50e7a1756c4bbaf4e4e4",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "carplay",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked iPhone installation/vehicle presentation, template-driven hardware/display handling, low-interaction driving context and Apple HomeView audio/video note."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "d95c007b940058fb877db1b5a6babae73713496db8cecf5d5972b9d930686cb9",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "carplay",
+        "evidence": "Checked iPhone installation/vehicle presentation, template-driven hardware/display handling, low-interaction driving context and Apple HomeView audio/video note."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "5486bcfdb4baf27df911f2022b750e396c70b739ca918beeca8232ab1fec077b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "carplay",
+        "evidence": "Checked iPhone installation/vehicle presentation, template-driven hardware/display handling, low-interaction driving context and Apple HomeView audio/video note."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "9080debe6a538def668c8c03f9d4305afec919039d6bace34e1c6399fcfd451c",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "carplay",
+        "evidence": "Checked iPhone installation/vehicle presentation, template-driven hardware/display handling, low-interaction driving context and Apple HomeView audio/video note."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "5ba357510a55ff0f4088daef1c24cfff3b1c66f0fdbbd2af98da788da28418d9",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "carplay",
+        "evidence": "Checked iPhone installation/vehicle presentation, template-driven hardware/display handling, low-interaction driving context and Apple HomeView audio/video note."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "e885af6985d44b2dc06ff9f1d1737b4a470a27072a2cd68669f03cbf82f7d120",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "carplay",
+        "evidence": "Checked iPhone installation/vehicle presentation, template-driven hardware/display handling, low-interaction driving context and Apple HomeView audio/video note."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/content/0",
+        "source_unit_hash": "b9a6f8de6d21898c3a429f8b334de98498b51d005801b5d04231cab0b100393a",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "carplay",
+        "evidence": "Checked iPhone installation/vehicle presentation, template-driven hardware/display handling, low-interaction driving context and Apple HomeView audio/video note."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "1dd950d256e52cd85b7adabe6ad3a6a902f135ea68e8e9d8a8e639b901ad9be9",
+        "source_anchor": "iPhone-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "iPhone-interactions",
+        "evidence": "Verified prior setup, locked/inaccessible phone operation, no lockout for phone input and stopped-vehicle resolution."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "331af2a231326db0ad9404e0e58b22fc631aefe437daab33b8192234df1552f7",
+        "source_anchor": "iPhone-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "iPhone-interactions",
+        "evidence": "Verified prior setup, locked/inaccessible phone operation, no lockout for phone input and stopped-vehicle resolution."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "7fb16b9c3c3434f5e82dcebb101c6e3e8a75798eee6209a945431f5fc54d2133",
+        "source_anchor": "iPhone-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "iPhone-interactions",
+        "evidence": "Verified prior setup, locked/inaccessible phone operation, no lockout for phone input and stopped-vehicle resolution."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "d085988c6fa0c3027e7002e40e1d6079d8b2cbf746df115cfa9b42f1e05401c5",
+        "source_anchor": "iPhone-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "iPhone-interactions",
+        "evidence": "Verified prior setup, locked/inaccessible phone operation, no lockout for phone input and stopped-vehicle resolution."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "d6057d636cb843aa4b54bafe5be4ffe5e6689d8a4921be97118afce6f54915e3",
+        "source_anchor": "Audio",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Audio",
+        "evidence": "Checked explicit playback with single-source/resume exceptions, audio-session timing, buffering/spinner and metadata timing, resumable-vs-Siri interruptions and user volume."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "7891d315d4a855719b33e451190cf7f80830b8071134caee16f92e8006ffce56",
+        "source_anchor": "Audio",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Audio",
+        "evidence": "Checked explicit playback with single-source/resume exceptions, audio-session timing, buffering/spinner and metadata timing, resumable-vs-Siri interruptions and user volume."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "7f8d908b9a69af1cad8eba6de3cca5271b496d4762e7d3068e999dedf46c3ebb",
+        "source_anchor": "Audio",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Audio",
+        "evidence": "Checked explicit playback with single-source/resume exceptions, audio-session timing, buffering/spinner and metadata timing, resumable-vs-Siri interruptions and user volume."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "3b3d6ab8b0936494655121ccbeb08d930ab6e2fe810b3e3bcde96b088e97838a",
+        "source_anchor": "Audio",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Audio",
+        "evidence": "Checked explicit playback with single-source/resume exceptions, audio-session timing, buffering/spinner and metadata timing, resumable-vs-Siri interruptions and user volume."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "4575a2befba3a3fb892ff94d43209fe6923a9c79f5e5f4f15ffc7ab3b5852c31",
+        "source_anchor": "Audio",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Audio",
+        "evidence": "Checked explicit playback with single-source/resume exceptions, audio-session timing, buffering/spinner and metadata timing, resumable-vs-Siri interruptions and user volume."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "d88b9fa01426bf6cc070aa88d9079a52d9c43a68a0d3878acedd7013bd201f7c",
+        "source_anchor": "Audio",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Audio",
+        "evidence": "Checked explicit playback with single-source/resume exceptions, audio-session timing, buffering/spinner and metadata timing, resumable-vs-Siri interruptions and user volume."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "eab8c140b6200103e036a083df406ccb1f082c7716101b6bb12d2ffe324fe698",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "c8bcece3ffaf6ce7b0811f3ce2ce73f8a2cbec08c63fb450a1948b2e1ed92151",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/0/0/0",
+        "source_unit_hash": "a6f953f6caf3794cb2f1b5cc7d617b2a225dd29287b7a908d4d3dbd262a0e4f0",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/0/1/0",
+        "source_unit_hash": "da7f90d9c9de4733fe7869f5c32de99391751ef3f5ab38c74e1aaea43f951744",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/1/0/0",
+        "source_unit_hash": "afe3653dddcaf744e35bada01aeab7855b07f7eca190ce2bd3f0f7498c542500",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/1/1/0",
+        "source_unit_hash": "4d457a776dda79114bd621f6102f8390ca583ee030585dfbe308f95f087fce5a",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/2/0/0",
+        "source_unit_hash": "6b396a114798c2f6233066fab62a9cfbd3fc02c3e7355019284d521b07f310b0",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/2/1/0",
+        "source_unit_hash": "f78e71d2538cdaae68a21d3c462bf32b49c521992f4583b5b733a6995e38c63f",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/3/0/0",
+        "source_unit_hash": "953deb0cc91cd09d3ad4b4123482a707c89e6effd3d5c81bffe74d39b07c2623",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/3/1/0",
+        "source_unit_hash": "f78e71d2538cdaae68a21d3c462bf32b49c521992f4583b5b733a6995e38c63f",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/4/0/0",
+        "source_unit_hash": "f7b79a8ef8fbd1e838c1910c2efc59a85f39bbc2e04af3f690a9b7329cc49273",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/4/1/0",
+        "source_unit_hash": "8f0140811b81815e41f21ef752fbc8dce399d2b8794244f3e2269b2ce40833df",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "9267d4a2ec4dc5db4d717dae7e8870e19ef6e47bb8ccc570ed95933f168be63b",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "33d1f6d4c6f616bd2d462547e0e2160150fbbaa58152259fb917c21d0dd6e858",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "7fb661ae64f4854a7cf5c13a701ea47b06689eb10d45bd0ebdd29b15ed9266b1",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "57734c3b56a07813893537118a634371e610340d8ce9b473158374507dccac15",
+        "source_anchor": "Color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Color",
+        "evidence": "Verified restrained brand palette, interactive distinction, real-car lighting tests, automatic appearances and inclusive color."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "3f3de83e6ce04a41d03985ff8ef3259ced378b2729353bb26a78b1fb97863de8",
+        "source_anchor": "Color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Color",
+        "evidence": "Verified restrained brand palette, interactive distinction, real-car lighting tests, automatic appearances and inclusive color."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "7bc37744ac7776828ebbc2031dda02ac9ff01a64f4b7e9794db330513e99b988",
+        "source_anchor": "Color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Color",
+        "evidence": "Verified restrained brand palette, interactive distinction, real-car lighting tests, automatic appearances and inclusive color."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "7b30075632df70f07401931c1481e588f2274e69a8aba49a0d7ea79b9f0ae901",
+        "source_anchor": "Color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Color",
+        "evidence": "Verified restrained brand palette, interactive distinction, real-car lighting tests, automatic appearances and inclusive color."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "7375f8adf96af71196c41bbd4561d6ed4c1f24afe88aa84eec7b72885762fca1",
+        "source_anchor": "Color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Color",
+        "evidence": "Verified restrained brand palette, interactive distinction, real-car lighting tests, automatic appearances and inclusive color."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "22b12f784ac0e043d89c32e27bec14146b6fa65e390fd00c3d2d04fdcdc9d867",
+        "source_anchor": "Color",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Color",
+        "evidence": "Verified restrained brand palette, interactive distinction, real-car lighting tests, automatic appearances and inclusive color."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "abf991b014bc05fd34f3eaf925f116b970343f770ca8d5b507f4f3c5bce37731",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Compared @2x/@3x 120×120/180×180 pixel specs, portrait/landscape support and black-background separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "30771561ee63ff04f6d4bc089f68ed53f312dfa2e9fc9106d9f9d3345b509637",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Compared @2x/@3x 120×120/180×180 pixel specs, portrait/landscape support and black-background separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "1bdb3ea5190c300659af2021f52ce7fd61773382e7ab79b5ad26e5da2bf12e9d",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Compared @2x/@3x 120×120/180×180 pixel specs, portrait/landscape support and black-background separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "67191c96185bb745decb0d4a41dd949b93ba790cf4ca2f6cfa5b205e92e514e3",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Compared @2x/@3x 120×120/180×180 pixel specs, portrait/landscape support and black-background separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "815efb0438919aae4ec5d666aad39712a0d4b32005c9bd5d24e44153219117b0",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Compared @2x/@3x 120×120/180×180 pixel specs, portrait/landscape support and black-background separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "44776dc6e50bffe4874dd75ac5a699562795110e2a657cae3afc145f1c447e52",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Compared @2x/@3x 120×120/180×180 pixel specs, portrait/landscape support and black-background separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/0/0/0",
+        "source_unit_hash": "80445f6cab098c7a43f64473f5ffd599691892ce80067f23d1156c699fd00b47",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Compared @2x/@3x 120×120/180×180 pixel specs, portrait/landscape support and black-background separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/0/1/0",
+        "source_unit_hash": "f9940b698a6e3ee67d20b6e1d9a9e160feb7c122b208869386dd2796859bc0ac",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Compared @2x/@3x 120×120/180×180 pixel specs, portrait/landscape support and black-background separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/1/0/0",
+        "source_unit_hash": "e1a7839a8b2c3f7d88f38251a4a3d703f86e29d92a15af9743e047e10334c69b",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Compared @2x/@3x 120×120/180×180 pixel specs, portrait/landscape support and black-background separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/1/1/0",
+        "source_unit_hash": "5fad66da23426e84aa8c450866b90dd521c28003af00b227cfec09e0a43a6a5f",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Compared @2x/@3x 120×120/180×180 pixel specs, portrait/landscape support and black-background separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "686bc3f15eeae9c7b0e8ae3919543fd1f183ed0ae4f368cebbe96081fe0fa4a6",
+        "source_anchor": "Error-handling",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Error-handling",
+        "evidence": "Verified minimal necessary reporting within CarPlay without directing phone use."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "9ed863907c5a101fdfa8a277a66e900c7599b0d7f7e2e343725b1337e532320f",
+        "source_anchor": "Error-handling",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Error-handling",
+        "evidence": "Verified minimal necessary reporting within CarPlay without directing phone use."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "a9c5f47866cdcaa0a2f7b18c749669bc3765e0087b9b8a89624355dd0a638fc7",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified iOS-only support and all other named platforms unsupported."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "f431d6c963c7d1f9fc043611f19c7879f86b5c70fb788744db42ef31f06b499e",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "3f29941577890079a88938c3fc2abdb54783db3d289f3de1a68ebbc76350506d",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "d6185da1101ab5cdff0a1447e7f1e91f5eab8d23a802533195658dac94ed79f1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/1/0/0",
+        "source_unit_hash": "a3be947823d6b103c429adb07b7ad07c6def605e3e77e14b702e5a9c78d34032",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/1/1/0",
+        "source_unit_hash": "4756147f4d61c1086dc4ffd0d8da51a01051e176d19f9b7302eaf645e0f80e63",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "c8bcece3ffaf6ce7b0811f3ce2ce73f8a2cbec08c63fb450a1948b2e1ed92151",
+        "source_anchor": "Layout",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Layout",
+        "evidence": "Compared all four display samples including 800×480 5:3 and 1920×720 8:3; verified scaling, upper-half primary controls and consistent uncluttered design."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "44776dc6e50bffe4874dd75ac5a699562795110e2a657cae3afc145f1c447e52",
+        "source_anchor": "Icons-and-images",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Icons-and-images",
+        "evidence": "Compared @2x/@3x 120×120/180×180 pixel specs, portrait/landscape support and black-background separation."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "d6185da1101ab5cdff0a1447e7f1e91f5eab8d23a802533195658dac94ed79f1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

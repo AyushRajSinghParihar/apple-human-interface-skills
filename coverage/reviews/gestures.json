@@ -1,0 +1,1482 @@
+{
+  "review": {
+    "slug": "gestures",
+    "status": "reviewed",
+    "source_hash": "f2496f66ea076130ddc6bbecf73970d90ad52962f1b2ec5bac162adbadc9efbd",
+    "destination_hash": "5f9857088a6b5bd5c29b6cc7dd82b39f5147a66817f07f37f9095282da3b4950",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:10:57+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "gestures",
+        "status": "reviewed",
+        "evidence": "Checked common gesture semantics across touchscreen, air and accessory input."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked alternative inputs, familiar standard meanings, immediate predictive feedback and unavailable-state explanation."
+      },
+      {
+        "source_anchor": "Custom-gestures",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Custom-gestures",
+        "status": "reviewed",
+        "evidence": "Checked necessity, discoverability/ease/distinctness/alternative requirements, instruction/testing, standard-navigation fallback and system gesture conflicts."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Platform-specific details are retained below."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Checked all three-finger copy/paste/undo/redo directions, iPad four-finger switching, shake and simultaneous game gestures."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Checked keyboard/mouse primary input and Magic Trackpad/Mouse/controller gestures."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Checked standard remote and touch-controller navigation."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "source_anchor": "Designing-custom-gestures-in-visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Designing-custom-gestures-in-visionOS",
+        "status": "reviewed",
+        "evidence": "Checked Full Space/hand permission, ergonomics, complex/two-hand alternatives and no required specific hand."
+      },
+      {
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Checked watch-specific double-tap behavior detailed below."
+      },
+      {
+        "source_anchor": "Double-tap",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Double-tap",
+        "status": "reviewed",
+        "evidence": "Checked watchOS11 scrolling/tab advance, no competing primary action in scrolling containers, frequent-action designation and first nondestructive notification action."
+      },
+      {
+        "source_anchor": "Specifications",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Specifications",
+        "status": "reviewed",
+        "evidence": "Source gesture compatibility facts are retained as prose mappings."
+      },
+      {
+        "source_anchor": "Standard-gestures",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "fadc87286ca31b94b409692d4623b75535e13b7da511c2bfd775ad133435c46e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "gestures",
+        "evidence": "Checked common gesture semantics across touchscreen, air and accessory input."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "83165c5394c5053897af69e9711b37cc0786408b017bde5a0c78e246c27a358b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "gestures",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked common gesture semantics across touchscreen, air and accessory input."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "96672b50515fd9ef106737930537a3e2edfbf906f8f106fa2437dfa2b57c10a6",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "gestures",
+        "evidence": "Checked common gesture semantics across touchscreen, air and accessory input."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "ee13cb03556163518d1580a71596e226fccdac576d8304d0c8ad2ac489a643d4",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "gestures",
+        "evidence": "Checked common gesture semantics across touchscreen, air and accessory input."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "b7ce92f30432f1f3ad20edafcca142eb4ef6835d8716861c70297a5c1ccfde36",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked alternative inputs, familiar standard meanings, immediate predictive feedback and unavailable-state explanation."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "cf963e5b5d493f5692a319d4b8157b7f1da3b0716bd931b9110e73e8eb031653",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked alternative inputs, familiar standard meanings, immediate predictive feedback and unavailable-state explanation."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "532fe0dae43e7f9b39183684433f1137229f95604bb6f63f143abf3d0b25ccb4",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked alternative inputs, familiar standard meanings, immediate predictive feedback and unavailable-state explanation."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "fd561b847be1135c5867501e26fbb0dc78a6c1a13a09fb496e37e45a35a27e31",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked alternative inputs, familiar standard meanings, immediate predictive feedback and unavailable-state explanation."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "8a6b393dc11c1d9e71f9e4d3dffdc3b02b4e7c50a848132cdfed27abe06b6a06",
+        "source_anchor": "Custom-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Custom-gestures",
+        "evidence": "Checked necessity, discoverability/ease/distinctness/alternative requirements, instruction/testing, standard-navigation fallback and system gesture conflicts."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "22a920f49572b917987f9050866d1f696aa5d3b7553e39b47efcc5ec562b5cd7",
+        "source_anchor": "Custom-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Custom-gestures",
+        "evidence": "Checked necessity, discoverability/ease/distinctness/alternative requirements, instruction/testing, standard-navigation fallback and system gesture conflicts."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/items/0/content/0",
+        "source_unit_hash": "e0565b1761de04bdd995e9ab64d1127051223fd818b44dc8c285c8e6ca465237",
+        "source_anchor": "Custom-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Custom-gestures",
+        "evidence": "Checked necessity, discoverability/ease/distinctness/alternative requirements, instruction/testing, standard-navigation fallback and system gesture conflicts."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/items/1/content/0",
+        "source_unit_hash": "336ad0912f6fd1bcaed38903f60cf3cd70137d8362baf6c5aea625e61967c0ce",
+        "source_anchor": "Custom-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Custom-gestures",
+        "evidence": "Checked necessity, discoverability/ease/distinctness/alternative requirements, instruction/testing, standard-navigation fallback and system gesture conflicts."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/items/2/content/0",
+        "source_unit_hash": "036c2073276b43d608a19d84de551d659ebd5542f43789d01a69274c2ab0e5e6",
+        "source_anchor": "Custom-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Custom-gestures",
+        "evidence": "Checked necessity, discoverability/ease/distinctness/alternative requirements, instruction/testing, standard-navigation fallback and system gesture conflicts."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/items/3/content/0",
+        "source_unit_hash": "2eb10a5ffe65e750ac9cf67e1baa40720511f8ea3b22de642b2e59a818689d41",
+        "source_anchor": "Custom-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Custom-gestures",
+        "evidence": "Checked necessity, discoverability/ease/distinctness/alternative requirements, instruction/testing, standard-navigation fallback and system gesture conflicts."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "acfe65f569bc81fb0fe93178228af38996dc71013d3c0e8cdf429e83c6d3c7bc",
+        "source_anchor": "Custom-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Custom-gestures",
+        "evidence": "Checked necessity, discoverability/ease/distinctness/alternative requirements, instruction/testing, standard-navigation fallback and system gesture conflicts."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "5aaa71ffff314dd215fe2fcc1db6915108f14d370954abfbd4f3d74794f7abe8",
+        "source_anchor": "Custom-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Custom-gestures",
+        "evidence": "Checked necessity, discoverability/ease/distinctness/alternative requirements, instruction/testing, standard-navigation fallback and system gesture conflicts."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "1aba31fb2e38b8ae282d239f2a2b740f2a87815309532ff0b20d399b69adc839",
+        "source_anchor": "Custom-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Custom-gestures",
+        "evidence": "Checked necessity, discoverability/ease/distinctness/alternative requirements, instruction/testing, standard-navigation fallback and system gesture conflicts."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "d02c76fc2ce42f13fa04ff25decd2d1d56d72b4d2156743f6b3c6c017600bbd5",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all three-finger copy/paste/undo/redo directions, iPad four-finger switching, shake and simultaneous game gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "1c19b3a1bd01c5e4666ef8b350e73e76e1a010756e1bbccfa46647b014e45b91",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all three-finger copy/paste/undo/redo directions, iPad four-finger switching, shake and simultaneous game gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/rows/0/0/0",
+        "source_unit_hash": "a50b542575e99fb78818e069fa2f191e589587035872abc5d8e5c22ca7d2217c",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all three-finger copy/paste/undo/redo directions, iPad four-finger switching, shake and simultaneous game gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/rows/0/1/0",
+        "source_unit_hash": "fb37ce6e520a8c7cd98420c205ee9f79a7c211c0d1d0a9006bebcf8b80727a3f",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all three-finger copy/paste/undo/redo directions, iPad four-finger switching, shake and simultaneous game gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/rows/1/0/0",
+        "source_unit_hash": "e4a857253d12e416e71265f00985e4094e0cd379b3f15cd10c48e1f12c4d07f2",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all three-finger copy/paste/undo/redo directions, iPad four-finger switching, shake and simultaneous game gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/rows/1/1/0",
+        "source_unit_hash": "e92ebf9ee760f58e270353957a690f58ff4942630583ba84de0cdaf917a49636",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all three-finger copy/paste/undo/redo directions, iPad four-finger switching, shake and simultaneous game gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/rows/2/0/0",
+        "source_unit_hash": "da7dca1d5470c0c04bf2452921b2563d469bb5a8c881861fb8b406af9fe2e9b2",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all three-finger copy/paste/undo/redo directions, iPad four-finger switching, shake and simultaneous game gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/rows/2/1/0",
+        "source_unit_hash": "2cdd839d4c91ed645d98f47f0e232964828eafdb033b989fcaf12d8259b69ea5",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all three-finger copy/paste/undo/redo directions, iPad four-finger switching, shake and simultaneous game gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/rows/3/0/0",
+        "source_unit_hash": "646bc02679354120aa4ce711e2c3c8e74047a65b998db33d4e44714d6f3e3e5f",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all three-finger copy/paste/undo/redo directions, iPad four-finger switching, shake and simultaneous game gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/rows/3/1/0",
+        "source_unit_hash": "76e42bf5b4fbe2c6fa34cf90192ac7c5161cf8d6de2bcde1256cbbd857ae45ea",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all three-finger copy/paste/undo/redo directions, iPad four-finger switching, shake and simultaneous game gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/rows/4/0/0",
+        "source_unit_hash": "073d6dc6f13239781ca99988fb6c300750e46a65a66082ecea2a70abaf6c34a4",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all three-finger copy/paste/undo/redo directions, iPad four-finger switching, shake and simultaneous game gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/rows/4/1/0",
+        "source_unit_hash": "2c770e2fc8b098ac95eb14961ea44586efc26011390f9bffdcb14302eaaf5517",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all three-finger copy/paste/undo/redo directions, iPad four-finger switching, shake and simultaneous game gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "1c85452bcf8dd2ce16814c54b2be2db0c62de74280b4651ba6ec689d7d365562",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all three-finger copy/paste/undo/redo directions, iPad four-finger switching, shake and simultaneous game gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "568ef65a20dffbe07e33e982ae551bee93145b876dbd37f308db2f571d17514a",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked keyboard/mouse primary input and Magic Trackpad/Mouse/controller gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "ceadc202b3f62135b651888be068e2e1c7ed48a40015b4f28f482671a76c6f97",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked standard remote and touch-controller navigation."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "1864f6e2aa736f0265cd70fc966c46af0c30caa6258471c59cb3fcc6266c0c7a",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "376b26bc403f9a1a145711f39c10831725406834f4b8e86e2632024793f8f838",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "5039f921c41f93325f32854936d2fc1b3699fa8d47f98483857fc5be8b13d84e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "8007b7c19a40806a9f9021d6121db404ee579df6dc79f31da76d6d9e0bb5644d",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "6dea34dd0ae7c1da1d696b90d54f5380b195b80a4b95c96064032a1800aca257",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "5c0d0908ece6a4bfc4511cd43b91bb79370ecf723f198399918c128fc8b6215a",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "c68b76bed16c1f6bc0762da337ee7a7796e407247a41caaace3095e41f181852",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/0/0/0",
+        "source_unit_hash": "c10134e89cf076a9aa66963c90ed5708d6ecf9581f485176e0a7c647617f70a7",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/0/1/0",
+        "source_unit_hash": "44a1ae695a959b76433b1d8cb2bb2002b6fca8ae20a4cf30bb13d7f7758f5a22",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/1/0/0",
+        "source_unit_hash": "93896785fe75bb12f1c1b1c2c967f4e24d039b29e2bb3d6e1d916b8ad1758e16",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/1/1/0",
+        "source_unit_hash": "5d8753583dd39455a33a0af86d5d9e20f0fd63a81940bb98cfd2915319c5fdff",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/2/0/0",
+        "source_unit_hash": "0b5d913f0335dd15d405ae28888d6229130f04821e12e3d5368f308f36c6b4a0",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/2/1/0",
+        "source_unit_hash": "21b88a9dcdbdd1e529cf007842715963f62fb3848a236584284f90b0746eb960",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/3/0/0",
+        "source_unit_hash": "9941dbc8ebcbc77b3917137fba29c3a88c677328eeb4d5206144f7b1b6c55a0c",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/3/1/0",
+        "source_unit_hash": "67867f72edb5c994bd2ff2beee88cd255c6146743f2d20a8ae1c6983612f89f8",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/4/0/0",
+        "source_unit_hash": "b57abe6a5a85372a162bc030e1581434be926d3ee17245cb586c82d86a0e8f18",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/4/1/0",
+        "source_unit_hash": "06a6dbd6990aac3ca5f4859f982cd8c0e6d18603ec4b29673c506c61921edbde",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/5/0/0",
+        "source_unit_hash": "c4aa6937ddae72e6f6fd3634778116b7cb32a6cdc8a433c39482dc483bbcf08b",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/5/1/0",
+        "source_unit_hash": "fd08ea828302b03951777522242b57df5a711d313ec5e80ada0416b944981242",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/6/0/0",
+        "source_unit_hash": "41faa3bc4d0e7426b3a9beadc6a7e2355eebf2775dde7a6e797004bc293c02ae",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/6/1/0",
+        "source_unit_hash": "7694bddd288953f33a2ce9b2aaa10b030be058a59f114952a343c345529a0c1c",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/7/0/0",
+        "source_unit_hash": "0e45a2a3ed9fa91d7bc533fe11dd50b636cdbd8d19e584b4e39d8ad62ea7210c",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/7/1/0",
+        "source_unit_hash": "112cd4a1872d90c8f2fdb30ade1fd67095cf6667e8b505fb7d3fd07493b414b6",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "3826971afef6d890096a32ea2ed8f1d0d70b6987803c4aa6d7a7f32c8e07dccc",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "7a95d72bf6d1815f5b331a1757f71ef2ef253eb971d977bd1ea606deeeaeb319",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "1042363d4a4e12c9a83b4cdee8bb506f1a28d0e76d8aa8d5972e6994ad1d9b00",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "aa675a86b0b9cebb71b9107ea3ab64b6073fca214890fed78ce25e440d403f63",
+        "source_anchor": "Designing-custom-gestures-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Designing-custom-gestures-in-visionOS",
+        "evidence": "Checked Full Space/hand permission, ergonomics, complex/two-hand alternatives and no required specific hand."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "7108d43979ca5a083fbe1b0ac037a2feadb9570ed77c6ed408c289aaa398f7e5",
+        "source_anchor": "Designing-custom-gestures-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Designing-custom-gestures-in-visionOS",
+        "evidence": "Checked Full Space/hand permission, ergonomics, complex/two-hand alternatives and no required specific hand."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/inlineContent/0",
+        "source_unit_hash": "7c6f8b9bf623f79e39f2d9874e6c8f932d4dd8bbc59e19ec1d40173cef32fa93",
+        "source_anchor": "Designing-custom-gestures-in-visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Designing-custom-gestures-in-visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked Full Space/hand permission, ergonomics, complex/two-hand alternatives and no required specific hand."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "0dd7abe538ac79a85eae073755b33b2a6e17245fa05a5e6e1f794a8099997ba9",
+        "source_anchor": "Designing-custom-gestures-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Designing-custom-gestures-in-visionOS",
+        "evidence": "Checked Full Space/hand permission, ergonomics, complex/two-hand alternatives and no required specific hand."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "738ad34d55f16d59b05332cb44279234f1a9c98d05b8b402ad42bbfa27d8956f",
+        "source_anchor": "Designing-custom-gestures-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Designing-custom-gestures-in-visionOS",
+        "evidence": "Checked Full Space/hand permission, ergonomics, complex/two-hand alternatives and no required specific hand."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "cc6511e1639e6bf9edb16bd469e8e841504aee2640e636a7e6f492ef7da7183c",
+        "source_anchor": "Designing-custom-gestures-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Designing-custom-gestures-in-visionOS",
+        "evidence": "Checked Full Space/hand permission, ergonomics, complex/two-hand alternatives and no required specific hand."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "0e9efc2f83f0cd2cd1eee360b8fb3395510b4ce602989a082d9595c49a7b6351",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "8c0e4f9c5bd7cd8190b539654e48b88e0d19a911e22d7969c1c8ccbcf1a61cc2",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/content/0",
+        "source_unit_hash": "932ef0e647d00af2c4545ea600e1bcb3c0d6e0b832e86597726a7eed304cb8d1",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "8e76759ddf2cbe6d128b34adcd9723b880c544992047629335a21f0423cc297c",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "1c570d7d0d6b93a3151c724a1fbcacb20cf08d84d22bc3974d406609efa4f56c",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/columns/0/content/0",
+        "source_unit_hash": "03ab99dab958f28524e34d934b30d89b58926899cec5048462ffc630f4a1f995",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "7e32950573f72332684458239fdeb114cffefff7041a0dcd3e70b65d982b04c7",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/columns/1/content/0",
+        "source_unit_hash": "f91090979594cfe68f4ffcd06feb420bddbefdf3178143403f8a7646ce628387",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "6964ca8856bf4ebcfce6923bc81922cf1295cd506181a9d28b539b9317e8b554",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/columns/2/content/0",
+        "source_unit_hash": "83137d9b18bdc973aef6c4fb36774156ced43374a2ce9ce3001d1d959d301a07",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "f4fe4ba187f7082a3e4e41280f6d388bb8d055b18e4532bf8039f388b79d64d8",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "b60e7700ed5cae3f752f479236ce80de5b04f06a5f18465972bbf60741c48025",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/columns/0/content/0",
+        "source_unit_hash": "75644bf629b9d71952bcbf165c5ebe3e126c51f04c615e6958f1d657f8239af3",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "cf564162205371be4b926aba5e530122fe0e9a660ceaffb04c340c3c7549ca6b",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/columns/1/content/0",
+        "source_unit_hash": "13be820e6a7fe9253f4a64b02ce526649fa962fc733dabf68d8a4422db73974f",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "cbe51c50c8ad0da1a5c7eabc5b4f97c9b83f9833fb274bc3d35d1950d03d307a",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/columns/2/content/0",
+        "source_unit_hash": "29746f3ac20e935840ad52acf7446451d79adb93cd1577b3d1fdb294a684accc",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "ec4bf7757fe20e05aad10aa6182e45c6aa7023e4a5e72a99c14c56ecddd874f7",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "5a8aa4f71fb2de818d51543882455e8f04199e63231e3210a37502d43dd48ccb",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/content/0",
+        "source_unit_hash": "8411816c16a192c719e4a12e3e5ca0dd774bc46791295325d8390e340a04bbe4",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "96dd303a15dbae7a12cb92200e1ca800457a80bf03440d62e48016947b1eaa60",
+        "source_anchor": "Working-with-system-overlays-in-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Working-with-system-overlays-in-visionOS",
+        "evidence": "Checked visionOS2 palm system gestures, older accessibility alternative, reserved hand region, supported deferral, visionOS1 default and undetectable overlay conflict."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "534fa411324b5e6d3bb5a1d636eaedd738a8af1831b244643dcf74563d874a48",
+        "source_anchor": "Double-tap",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Double-tap",
+        "evidence": "Checked watchOS11 scrolling/tab advance, no competing primary action in scrolling containers, frequent-action designation and first nondestructive notification action."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "e06e35dba326bb0067ff6219f632f43ce73b68ef8063a5274979df8abda87153",
+        "source_anchor": "Double-tap",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Double-tap",
+        "evidence": "Checked watchOS11 scrolling/tab advance, no competing primary action in scrolling containers, frequent-action designation and first nondestructive notification action."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "3ecc1d1b0795f4d0a07ac865669ab2370293c10a38249dc8de06229bd6db54f0",
+        "source_anchor": "Double-tap",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Double-tap",
+        "evidence": "Checked watchOS11 scrolling/tab advance, no competing primary action in scrolling containers, frequent-action designation and first nondestructive notification action."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "01e30df383947be8b97de55dd1f3e9a17ef18fef5575bb1aa0bf45f19bedf0a4",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "d6218020be9a1a2740505ac9516f4609a53b7a2600fceacdf2e6e740d0263a12",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/0/0/0",
+        "source_unit_hash": "a50b542575e99fb78818e069fa2f191e589587035872abc5d8e5c22ca7d2217c",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/0/1/0",
+        "source_unit_hash": "e9f062d0eb27e3b5172f1326c7a9e8581f3829bce5c4131a6cdc5b1614931ea8",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/0/2/0",
+        "source_unit_hash": "fb37ce6e520a8c7cd98420c205ee9f79a7c211c0d1d0a9006bebcf8b80727a3f",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/1/0/0",
+        "source_unit_hash": "4e11df2a6d7ab88ed4ee805a5a65c6c446599c0b2bd3b14252a0cfcd146078b5",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/1/1/0",
+        "source_unit_hash": "62ae4bbf0160e726120b54a2e0a5807f523fc33f815cf417d67bebd756f61f2d",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/1/2/0",
+        "source_unit_hash": "623caae4480e459db48d9e7195858501630f7b0a27cbbca1c505f3e82b7422a6",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/2/0/0",
+        "source_unit_hash": "c4aa6937ddae72e6f6fd3634778116b7cb32a6cdc8a433c39482dc483bbcf08b",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/2/1/0",
+        "source_unit_hash": "62ae4bbf0160e726120b54a2e0a5807f523fc33f815cf417d67bebd756f61f2d",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/2/2/0",
+        "source_unit_hash": "fd08ea828302b03951777522242b57df5a711d313ec5e80ada0416b944981242",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/3/0/0",
+        "source_unit_hash": "b7dc33698ad9c36a171a70924d32ca3251ff76fc937a66ee46bbec3dd0ac638b",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/3/1/0",
+        "source_unit_hash": "62ae4bbf0160e726120b54a2e0a5807f523fc33f815cf417d67bebd756f61f2d",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/3/2/0",
+        "source_unit_hash": "53b12713f543495dc202d1cad609afb5bb5b47841786857d9a2809087036ad1c",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/4/0/0",
+        "source_unit_hash": "c23ed120956e18b2d0adbf7094b43199089da7f36a2d0c2362ca67b9b24fce21",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/4/1/0",
+        "source_unit_hash": "48739571946f8f90e2b71a710ca83c1301326d23cf75bcb5b6e83cb044f74916",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/4/2/0",
+        "source_unit_hash": "97bb7e4e66ecfabcf3b81dfd69268cd647e50d24d51d9de312c59ba0b4c62213",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/5/0/0",
+        "source_unit_hash": "5fd8314970236178725eb1cc1ce2c207d84d11916b376901355070c154ba8162",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/5/1/0",
+        "source_unit_hash": "62ae4bbf0160e726120b54a2e0a5807f523fc33f815cf417d67bebd756f61f2d",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/5/2/0",
+        "source_unit_hash": "c6e1516ebc29f96da7b437914ad810a76ba9efe120436c32715482fbcfe4e05c",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/6/0/0",
+        "source_unit_hash": "657390dc44712281c047769e49abac1397066552b1b2ddf022cdfed7b52e5e4d",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/6/1/0",
+        "source_unit_hash": "68bce1b053b1bc3a509103db523c6e5e2db90d42b1d0e57cfcea35d8c5d6d1ef",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/6/2/0",
+        "source_unit_hash": "68f838afe1f51888af5d8e6a54a1bf7f759337dbc28b027e552b8ddb11f5f599",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/7/0/0",
+        "source_unit_hash": "d58fdfbbc85d67b92de69eceb29a2c76ca753a1b8eb782e17d79d3ab97c851a5",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/7/1/0",
+        "source_unit_hash": "68bce1b053b1bc3a509103db523c6e5e2db90d42b1d0e57cfcea35d8c5d6d1ef",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/7/2/0",
+        "source_unit_hash": "e199143810c591ef4618295582813e8454fbe0f8b838e69a6d14ecced343e0c6",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "6bb5e48a9fc6c64dc17c8c2ca07c36e0f323fccc0fdc6b932254353964cdc4c9",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "6427aa81d9828b0d03c4c78a3b225a41d7af45949cc573a6937b8bbe9ec70e2f",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "dc51939e071a5e852c8c830ea5e17033b145b6413ec32f5287a255df6742f766",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/64",
+        "source_unit_hash": "f2c8cf8b357c1f2047a29e21528a743dc9c0c7b7b4f95bbf25636b5fcb138545",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/66",
+        "source_unit_hash": "1147ee60ef605e136088135c1a8e43fa3c94a63306585f6e262cc9e5ace012bf",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/67",
+        "source_unit_hash": "88069bfc2c29120154573024bc2c6aca7f232b81eeb3033774e9494b7c4f9aa3",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "21f0c7978d9c0564d5867244d37146709101fe395d6105dd83cc80a113152ba5",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/1/0/0",
+        "source_unit_hash": "5ed3d376d48c9ad0672aec6ba068962e1bca86d373b51d8c6225f2cef4f842f4",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/1/1/0",
+        "source_unit_hash": "47b8a7438b509051386ac6b5c2d870a90e4521b4f9e32f6dab35fc138feed72e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/2/0/0",
+        "source_unit_hash": "dc9cb8105c2d7101aa06ba530b7bcadd321cb736d7d6b53addf7c93e802073d0",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/2/1/0",
+        "source_unit_hash": "38e224cd89db8c4683b730a7ee45bab13721158510e24af711034694ab9d6f28",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/3/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/3/1/0",
+        "source_unit_hash": "a40a4630d633e98b742f895c6295fd5272d51317884a1c23ae7bd86bbfea3de0",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "1c19b3a1bd01c5e4666ef8b350e73e76e1a010756e1bbccfa46647b014e45b91",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked all three-finger copy/paste/undo/redo directions, iPad four-finger switching, shake and simultaneous game gestures."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "c68b76bed16c1f6bc0762da337ee7a7796e407247a41caaace3095e41f181852",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked indirect versus direct interaction, standard direct gesture table, fatigue and posture alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "d6218020be9a1a2740505ac9516f4609a53b7a2600fceacdf2e6e740d0263a12",
+        "source_anchor": "Standard-gestures",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Standard-gestures",
+        "evidence": "Checked every gesture/platform/action matrix entry, including the corrected explicit Series 9 and Ultra 2 hardware names for primary-action double tap."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "21f0c7978d9c0564d5867244d37146709101fe395d6105dd83cc80a113152ba5",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

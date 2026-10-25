@@ -1,0 +1,918 @@
+{
+  "review": {
+    "slug": "tab-bars",
+    "status": "reviewed",
+    "source_hash": "ba98ca512b19d588888ea38eb519b69498fd9494f14241b8c096367879dfba8e",
+    "destination_hash": "2112ffc7d971ca76b2bdc2499a6a3a47270d76450fb8539c00485be3cc21abda",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:06:42.445453+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tab-bars",
+        "status": "reviewed",
+        "evidence": "Checked top-level destination and independent navigation-state preservation."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked Mac no-addition and Watch exclusion."
+      },
+      {
+        "source_anchor": "iOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iOS",
+        "status": "reviewed",
+        "evidence": "Verified bottom Liquid Glass, accessory minimization/restoration and trailing search."
+      },
+      {
+        "source_anchor": "iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iPadOS",
+        "status": "reviewed",
+        "evidence": "Checked top fixed/convertible bars, sidebar-only navigation alternative, customization and ≤5 default tabs."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Verified vertical leading-relative floating bar, gaze expansion/tap, occlusion, symbol+label and tab-confined secondary sidebar."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "deaf37c70d5cf7163aa91e4fa75d2fd6f1c766921eed5c9ba0f0506af6ebc0e1",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tab-bars",
+        "evidence": "Checked top-level destination and independent navigation-state preservation."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "377ada8a059a3037860e4b5b16deba50bd72252ba13ef7cb3038582df0e1b7f3",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tab-bars",
+        "evidence": "Checked top-level destination and independent navigation-state preservation. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "b807952d77ac36d485a88ed24c6b1d55488c974779adf026350364b1db6a86df",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tab-bars",
+        "evidence": "Checked top-level destination and independent navigation-state preservation."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "5c4c85dd335b248f44d3b47185cef1021bc6f2e0030832a327a78ffd4b434fe7",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "7b3d0f356bf7adbf3123c782244b30009aaf3798012bb1424d2703103ae23a13",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "dbfb4004d8409e2f56185a4e96c627a20d096ab91ad84bb4ec359e7e45a021e2",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "be0243dee577fd09c9377844a837d4e1ebfe80f780b00e16ceba973402d3627f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "216c3c71443f44104b49fe4bf838a32509c7dd5364c00895edcaae3f0757fb0d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "464fb40dc21e12e5cd27ef1cb587a9daa4c98ef51899b6a0a0d27fcdc91c4845",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "5c9a75224b0c7ae672375860dfdcb4d2d18b338aa5b66a6e77c8588f51e46efd",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "580f67dde28eb8934e9e66d8adfb063bf77e383682d804a317b212b23be14769",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/inlineContent/0",
+        "source_unit_hash": "f9058757bb3a877041d0b9fcb3e36cc9bcc6d62ae8159829f4550ed9bbd89ad8",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "a25c92599750bf6509addd8dea93c6d1f77d6724bb44fad8b12d2bab502b84db",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "59f5bec0aa0106d9385cc4b6837225f07a52dabd0be4917c7c3ff1eb80d43b4c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/inlineContent/0",
+        "source_unit_hash": "8caf50fc97337c27c497a54032c920edda5dd979763984c755cd9fda576b1ad0",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "ea05896d1c315c75831de82c993adbdf235d7febc79a6e6d4b8e24d6faa27a2f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "3ddee944cccd6cc3cb5f5b20942f6de5f1ef7c275108cefdc477ba6f12db4561",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/inlineContent/0",
+        "source_unit_hash": "14c4df572e56ee164a64259712e9ae4e8ca6204876bf78ccae96e89e49d23283",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "acd213a1bd07c05dc3ffaf7cdb82808bce79f5747dc3c66d138d3246adca2422",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified navigation/action distinction, persistent availability/modal exception, complexity/More avoidance, empty-tab stability, labels/filled icons, compact/regular layout, critical badges and background color contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "55693b69cdd94768f22a42f7ad0af45e17dc5dd38818d9d7846a8ab9d843a3bf",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked Mac no-addition and Watch exclusion."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "b6b6b727c29d2dfdac97f58e56643e9cd86fb10b6f953b4dbe7c86a60dbb7ebf",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iOS",
+        "evidence": "Verified bottom Liquid Glass, accessory minimization/restoration and trailing search."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "75f2f1aeeef66707cad4f1374602dfba9fede68ab01e47ceb2a462df5a3fe3a9",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iOS",
+        "evidence": "Verified bottom Liquid Glass, accessory minimization/restoration and trailing search."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/columns/0/content/0",
+        "source_unit_hash": "9bca47a373de9345c49c6d440efec3336c78ced10b0ab4a3133a8bb705eabbf6",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iOS",
+        "evidence": "Verified bottom Liquid Glass, accessory minimization/restoration and trailing search."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "ce7bd51ef299fe3b776b7e62d41a4f40ab677b126a634a2886c0a0aa7f1a282e",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iOS",
+        "evidence": "Verified bottom Liquid Glass, accessory minimization/restoration and trailing search. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/columns/1/content/0",
+        "source_unit_hash": "75811e35e610860f0cac5e885ecf3e5ac7ef6642594f3274941d08ec7aae0957",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iOS",
+        "evidence": "Verified bottom Liquid Glass, accessory minimization/restoration and trailing search."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "154ccb008f580008c141dc99e89b56078e2c5ac824a06654057a2f7ab510e31d",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iOS",
+        "evidence": "Verified bottom Liquid Glass, accessory minimization/restoration and trailing search. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "749ea082954b41a89a4b4cb0d562f7825fa028185f53592d30b4dc0bbe7ffc8a",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iOS",
+        "evidence": "Verified bottom Liquid Glass, accessory minimization/restoration and trailing search."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "dbc1a69364b80d20693287f96106b77d43f6a0dc90b7d582e92f02e34a0129db",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked top fixed/convertible bars, sidebar-only navigation alternative, customization and ≤5 default tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "9ca1d172e262db1e0b22af49d410d9cfbe3f552ee826b007bc3ee8afc64a2e39",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked top fixed/convertible bars, sidebar-only navigation alternative, customization and ≤5 default tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/tabs/0/content/0/columns/0/content/0",
+        "source_unit_hash": "a4548c017e590d67552fd7f4efb72b92df861d5c2705bdfedd3de580c468420a",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked top fixed/convertible bars, sidebar-only navigation alternative, customization and ≤5 default tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/tabs/0/content/0/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "196f8f88f3aee12ed807855fc9cf80b02b86c0d58c3bb572d0c5e63d6a514542",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked top fixed/convertible bars, sidebar-only navigation alternative, customization and ≤5 default tabs. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/tabs/1/content/0/columns/0/content/0",
+        "source_unit_hash": "2336376c62fd0af23122163b5022e5e77945df98f9be480db564711a1f6062d5",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked top fixed/convertible bars, sidebar-only navigation alternative, customization and ≤5 default tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/tabs/1/content/0/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "bcedb9d2d5bfe332061fa54cd2a050040757f7695025a4d5bba63e51d77c1dd1",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked top fixed/convertible bars, sidebar-only navigation alternative, customization and ≤5 default tabs. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "6ebbb918242fe24ed39d07e64bb2162e009a8b6ab8bb195ded77e0483538696c",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked top fixed/convertible bars, sidebar-only navigation alternative, customization and ≤5 default tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/content/0",
+        "source_unit_hash": "8155347186cb305f8fad56bc94cb440efa78f3b181add3eb875b52b12553cb93",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked top fixed/convertible bars, sidebar-only navigation alternative, customization and ≤5 default tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "65f6916f74c3d1102fcae2ebf4556fedd8803be478d7cf1f77b3714a296de0ed",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked top fixed/convertible bars, sidebar-only navigation alternative, customization and ≤5 default tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "bb50ccf30331a4cb91470d774fabb5f83102606c6393c1bb9a09f569cbc8f861",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked top fixed/convertible bars, sidebar-only navigation alternative, customization and ≤5 default tabs."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "ab8f07936e597e410da7891635450146dc223d558cbf0146e84685fb5790efb8",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "25d7a80636a2f1bf3d278e716e577b0cbaf643b8d36be4a46d24e5f32f0df756",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/items/0/content/0",
+        "source_unit_hash": "3995ce93b804975e1fb7265ca12456265b5840d8617b6891140fead3a8dfd38d",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/items/1/content/0",
+        "source_unit_hash": "b18f4f9e11153bca1a30927020253367405f627c51b28b8e100ece1267d81bf9",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/items/2/content/0",
+        "source_unit_hash": "0b2fe09f37f198d9a682226a6d4653b910806be6671e9d341e1238dc5dc41042",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/items/3/content/0",
+        "source_unit_hash": "884b3e1675b42ec485851f520f4620a75a365e42626085c80ebe4793e1840c49",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "77dc63e519a11f911da2f99e5ec36ac1b736afc1954e2af27b68c1b988ac2113",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "492b52e68b19c35f7cabe9441effb5de2acbabaaa9016073089584706ba9c5dc",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "76110ce3dfae47e41850b325c47a578a7d504c361db2eee2c7874a70b3924afe",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "387c73c64fc52bbf0a3c238e399f683769e7e3558080985c3d454f6c6b010cde",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "44458079e4ad01b892e3ccb9d939f8fb67a1cf0949f8a1207442fa9dde167a88",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/items/0/content/0",
+        "source_unit_hash": "6877cede55bede8edcb7b71b061d9820e50b7575d73701e7583ec2a462ad527b",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/items/1/content/0",
+        "source_unit_hash": "d319e144212efee2999675ac8a7a7abbe9f59b162bec94883fc6a2a2e020669a",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/items/2/content/0",
+        "source_unit_hash": "5796a60adefec9c97fe32a0db00ff6da6797ee1dfd92d550cfcd000c49181a41",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "a1bef5787f947b784a43c4999f9e926404f1d5bda255b65fc725118eeb92e23d",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified all customization categories, translucent/selected appearance, immutable 68 pt height/46 pt top inset, both overflow fades, single/split scroll distinctions, Menu focus return and live/DVR/other order."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "bbd9bc8770389c21311967bbe06378b12a9b4a91ba59746d45523fbe84453d01",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified vertical leading-relative floating bar, gaze expansion/tap, occlusion, symbol+label and tab-confined secondary sidebar."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "297f9a773df188f988cda7e520c280d2651732e7ac496ae69015b6714a97e707",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified vertical leading-relative floating bar, gaze expansion/tap, occlusion, symbol+label and tab-confined secondary sidebar. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "5d07006b078a36408026a43d1117a0cce6ab9159cd662060a177b5758470d502",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified vertical leading-relative floating bar, gaze expansion/tap, occlusion, symbol+label and tab-confined secondary sidebar."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/columns/0/content/0",
+        "source_unit_hash": "532943dc192183c947d53ef814e79e6b7ea6c885a753aeb5eed7e063d2fb0e51",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified vertical leading-relative floating bar, gaze expansion/tap, occlusion, symbol+label and tab-confined secondary sidebar."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "119ccd777930ce418c68aed4f69b826d28244b04aae7bbf55765706734176ac4",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified vertical leading-relative floating bar, gaze expansion/tap, occlusion, symbol+label and tab-confined secondary sidebar. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/columns/1/content/0",
+        "source_unit_hash": "3bf360ee2f326ee1be82cb0a6607a820525294402946ec3830c7089c891a98e5",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified vertical leading-relative floating bar, gaze expansion/tap, occlusion, symbol+label and tab-confined secondary sidebar."
+      },
+      {
+        "id": "primaryContentSections/0/content/42/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "02faefa4aa02b1d80c4bc4df86ed4381aa9482ea91a5b5a13f7c38bf2bcb5f7d",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified vertical leading-relative floating bar, gaze expansion/tap, occlusion, symbol+label and tab-confined secondary sidebar. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "07a398eebc2f9fd10d0631c3a34819e999637fd41890605c1f6673b7e9c5173b",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified vertical leading-relative floating bar, gaze expansion/tap, occlusion, symbol+label and tab-confined secondary sidebar."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "29a343671906cd1391092ad7cd7ece0c05d2ded92fbf38c44d1678159c045e01",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "9895c6126e621cac279a62c114c8a6bd7c5d72aa0c6f2a6e560bc26d6abc20da",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "48bd7017d96299d92e6c95bbab3eb2ce9d5c5cd5ea058a5cf6641c0ab0602bcb",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "9598f58b62313f6df6758483791228d9a51d2391baecf7acb9a71926a4a6d2b2",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "a005d76ad8ce98caea14beb21342aa3f58f8e3e7fe91136fc9d72c2123515777",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "08a86b016f175c6247a45a5643aee9d460683f65b3b53f66b20d272f5641dd56",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "1dfd42f53495bf271d526b59528894f66c4fc5e747468c8a9d58801ef1b35500",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "65faf8980e8299a25c6e662d54bd3a385f152ec5fe0565680df0072f4cf5ca9c",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "d14b2624539888dd9ea83ae2639c0ba6932525f1fde1af2232f464286a7a9b07",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "b3d39f66c3c7097039c083237ed7c9723cc2f9941b6b9802a77ef054cf098964",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/rows/1/0/0",
+        "source_unit_hash": "6f585fa1a239d7cd279db778c80344b4ca3bdd1c2601af906b53d277e7be4412",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/rows/1/1/0",
+        "source_unit_hash": "327ab7fb9e7a7179052d4c4b93a28ce6c5da94ac4652ffcabb35b46e4a4d04ee",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/rows/2/0/0",
+        "source_unit_hash": "2d55066c54eef94e12b95e572efd4dddf6b23a5943e5552da906050d2eb6f8b1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/rows/2/1/0",
+        "source_unit_hash": "8e2ce52850797025f3d7bd67195f1b2b5a70f5a30ce07ea4a2adb1111e86add5",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/rows/3/0/0",
+        "source_unit_hash": "6b6c5637464a92cb87d288329491841529efe2025957e3268f2ce329e1327b8c",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/rows/3/1/0",
+        "source_unit_hash": "02e57c19510a2b6a826b73a555a0f7a8323da44555cccb81d9f61686ff54db89",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/rows/4/0/0",
+        "source_unit_hash": "5ed3d376d48c9ad0672aec6ba068962e1bca86d373b51d8c6225f2cef4f842f4",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/rows/4/1/0",
+        "source_unit_hash": "254bbaddf259027431b7d0dde397e2d319088dcfdaedb68d558f62abcc6f5237",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/rows/5/0/0",
+        "source_unit_hash": "39d9a643a6e12f9fab40622b0131d46817e80c52d21dede6e7e8d4030bc0722d",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/rows/5/1/0",
+        "source_unit_hash": "3a38e9a55c119107dcf240d1a02dff2fcf33fb15727f299e5e6d57370265a1bd",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/rows/6/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/rows/6/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "b3d39f66c3c7097039c083237ed7c9723cc2f9941b6b9802a77ef054cf098964",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

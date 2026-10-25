@@ -1,0 +1,522 @@
+{
+  "source_hash": "cefad5cdaa2f516254f7ba2f7c9d82ca11179f2b6ca89d43aab835041319278f",
+  "media": {
+    "foundations-layout-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:16:20.942182+00:00",
+      "reference_metadata_hash": "3e7264a16d51f127330880930cbb6db565d28d493e1c34616b9c6d818fb39323",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-layout-intro@2x.png",
+      "binary_hash": "ebac7aaeebee5211716a46569cc3e10a38a3083fcdb7c5947d44149445217f4c",
+      "review_method": "actual primary/alternate introductory-image gallery inspection and source topic/context identification",
+      "classification": "illustrative topic introduction; redundant with component/topic identity",
+      "evidence": "Actual introductory illustration and its light/dark representation inspected in numbered galleries. The image identifies or demonstrates this topic/component; the depicted sample labels, symbols and layout add no independent normative specification. Substantive design rules remain subject to the separate article/section audit.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-layout-intro~dark@2x.png",
+          "binary_hash": "e46178871da56bab0c77b2a5979cdd18210814a2d741a4df298d0bc4dd4e464a",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "layout-background-extention-view.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200350+00:00",
+      "reference_metadata_hash": "a815e978fabb433eff985f1812012bfc2e99457b70a1d13a37d6c9dc21836c32",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/layout-background-extention-view@2x.png",
+      "binary_hash": "252f15c5b1373a3342ed90a647ea9bf5f4a44ccebe9b6c4eecda1bd9e1ccf4c8",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual page mirrors/blurs the Mount Fuji image under the sidebar while preserving the original content view. Local Visual hierarchy explicitly explains this extension rather than moving important art behind a bar.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#Visual-hierarchy",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/10/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/layout-background-extention-view~dark@2x.png",
+          "binary_hash": "e75662bdd12b55ad9b24a94ef9cf104f944c8fa95142d6bf2a83163ba4483dc6",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "app-layout-square.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200384+00:00",
+      "reference_metadata_hash": "9f8f9ec0fe6d4940f287021bb7e213d0cc8b2bd10221bdb96cd652b4095644ec",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/app-layout-square@2x.png",
+      "binary_hash": "7a91cd1c19daf89fb4770ec07dc7cf267755d3a2cd9af4a64b25160f7e1241d5",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual differently proportioned windows show available space varying independently of the app identity. Local Size classes and Adaptability require reacting to width/height classes and resizing instead of assuming device orientation.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#Size-classes",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/25/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/app-layout-square~dark@2x.png",
+          "binary_hash": "618a233da9d45cbfd658e9abd283ec2c96d9f352393880076a76cdb4cd47ac39",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "app-layout-vertical.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200404+00:00",
+      "reference_metadata_hash": "e3841d6606370c6e6f96e61835c91cf6cfcbbaf11b9d75ab3cc41d1e2d963955",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/app-layout-vertical@2x.png",
+      "binary_hash": "b5893599f2ae4facb67d85f707469782c9e6de45f44efa5fe9215db725af0eec",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual differently proportioned windows show available space varying independently of the app identity. Local Size classes and Adaptability require reacting to width/height classes and resizing instead of assuming device orientation.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#Size-classes",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/25/columns/1/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/app-layout-vertical~dark@2x.png",
+          "binary_hash": "ef8773e6efd4e0250f33b6abb11199873ded430a65373487a484992bcb89beb1",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "app-layout-horizontal.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200422+00:00",
+      "reference_metadata_hash": "2ea0b589d1c84867d5839d76305fdc428ffaaae13d26995a867dc026f16a31ca",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/app-layout-horizontal@2x.png",
+      "binary_hash": "06aaa9e4f093403c91df598473d6f720780134b7382066db44374f85b80fd902",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual differently proportioned windows show available space varying independently of the app identity. Local Size classes and Adaptability require reacting to width/height classes and resizing instead of assuming device orientation.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#Size-classes",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/26/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/app-layout-horizontal~dark@2x.png",
+          "binary_hash": "2c123fde1d7bc7ec6848aa8c16a5d82a6e11deef61ff31df42d8aa5c0480e043",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "app-layout-full.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200444+00:00",
+      "reference_metadata_hash": "33e4620738ae84ce4ece24656fc37fe1dc8d611c06202a7297d313aa94e6d5d5",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/app-layout-full@2x.png",
+      "binary_hash": "5044cf859173ea7a9dc74123177116c8b073a19dd1273977d9acea4aabb5d76d",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual differently proportioned windows show available space varying independently of the app identity. Local Size classes and Adaptability require reacting to width/height classes and resizing instead of assuming device orientation.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#Size-classes",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/26/columns/1/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/app-layout-full~dark@2x.png",
+          "binary_hash": "3d24fb10ed31736ae4f6e917e84902735478d2ec52e482b4e13d2830a4fea191",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "visual-design-safe-zone.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200465+00:00",
+      "reference_metadata_hash": "c7b466087865bbe74c10ea4a5dff2d62c6d993b7926d30d8dc4e95af0c9f4d9a",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-safe-zone@2x.png",
+      "binary_hash": "e281154a9f7798d68488d07901e0039ae6437e8587dc3b6979f8439a0c0a60ec",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual TV diagram labels 60-point vertical and 80-point horizontal insets. Local tvOS retains these exact insets and the overscan rationale.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#tvOS",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/43/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-safe-zone~dark@2x.png",
+          "binary_hash": "0d4049d0058d362e75666dc004067bccc28e8de4dd44fdb8fbe35af10b15786d",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "visual-design-padding.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200482+00:00",
+      "reference_metadata_hash": "59e1ac2521c9df3f7fe2740e7b0a68d94fcbc4a306800c810354433dbce1e027",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-padding@2x.png",
+      "binary_hash": "76c4875d64c3badd5f43b5ca89e7a1cc07e61f56a530d6542a7cdfca4cec0e98",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual focused TV tile expands into reserved space without covering adjacent content. Local tvOS/Grids requires padding for focus enlargement and consistent spacing.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#tvOS",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/45/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-padding~dark@2x.png",
+          "binary_hash": "9f1d7a6b2cee741808e3422add62f0abcecc5b9b657b5463eca74cfd2dc85270",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "visual-design-grid-2-column.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200500+00:00",
+      "reference_metadata_hash": "2e37d50118abdb518f02d4b9a9a5db5f6505a478f34d047ad012c8560af44826",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-2-column@2x.png",
+      "binary_hash": "240a4a6fe5ab6b914695aecd17d9df91589929f6a96a415685d453304acf07db",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual two-through-nine-column TV grids preserve aligned rows, consistent gaps, and symmetric partial items at both edges while emphasizing a focused item. Local Grids and dedicated column sections retain layout rules plus each source table measurement.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#Grids",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/49/tabs/0/content/0/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-2-column~dark@2x.png",
+          "binary_hash": "12814c2a9994095893e2932d708ba8ba5d4bc38f317000bf70c41fcd29685d11",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "visual-design-grid-3-column.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200517+00:00",
+      "reference_metadata_hash": "37070c9c3fc34638b8ba47044d15d8ad8f4bc2fdca379c2159dc33cc02cbe215",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-3-column@2x.png",
+      "binary_hash": "838868ad7aa309d0b473d24cf9454837a5872f27b44dc139e439a218b45b49d8",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual two-through-nine-column TV grids preserve aligned rows, consistent gaps, and symmetric partial items at both edges while emphasizing a focused item. Local Grids and dedicated column sections retain layout rules plus each source table measurement.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#Grids",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/49/tabs/1/content/0/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-3-column~dark@2x.png",
+          "binary_hash": "386c34af4e42c1fa60523c171b345cb431c3367b77eddbac86889ee5d116c802",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "visual-design-grid-4-column.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200533+00:00",
+      "reference_metadata_hash": "785860f02454311c3bcb9700393df2395b75c1ec20b44813daaa540ea325370a",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-4-column@2x.png",
+      "binary_hash": "6ef3ed054fd461b0ef8081d112995ae090a83293358c68ff019367760531f7cd",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual two-through-nine-column TV grids preserve aligned rows, consistent gaps, and symmetric partial items at both edges while emphasizing a focused item. Local Grids and dedicated column sections retain layout rules plus each source table measurement.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#Grids",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/49/tabs/2/content/0/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-4-column~dark@2x.png",
+          "binary_hash": "0444fa374e36d0a812faf9fc702bb041c3e541c83e5bbcbe31b2dd9fe4fc19ee",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "visual-design-grid-5-column.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200549+00:00",
+      "reference_metadata_hash": "889012ed11a098df786b3f37f40fe71a7987f0e5d393d4323f7fdadb5ff416dc",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-5-column@2x.png",
+      "binary_hash": "2a4cf696950e0479c0ff7adfd119cea4d0beb7698d1d8528a749aa55845532cd",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual two-through-nine-column TV grids preserve aligned rows, consistent gaps, and symmetric partial items at both edges while emphasizing a focused item. Local Grids and dedicated column sections retain layout rules plus each source table measurement.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#Grids",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/49/tabs/3/content/0/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-5-column~dark@2x.png",
+          "binary_hash": "1fd1a1bb41c517bdf8927740711d822cce498f6f1fdb58d9396b310cad934a65",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "visual-design-grid-6-column.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200565+00:00",
+      "reference_metadata_hash": "fd9e3d14afeb3164bdf48193d4a4228688fcd3d7a0fbe0d7088a99bcbbd82ba7",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-6-column@2x.png",
+      "binary_hash": "f84e2e81a82acb36ae59b71274ad330ccf44fade818944918d5e9c333d82d651",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual two-through-nine-column TV grids preserve aligned rows, consistent gaps, and symmetric partial items at both edges while emphasizing a focused item. Local Grids and dedicated column sections retain layout rules plus each source table measurement.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#Grids",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/49/tabs/4/content/0/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-6-column~dark@2x.png",
+          "binary_hash": "0c36a004d5d141275da42782f0bc421dac5f5722607779f330d6c042cd7ad9a7",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "visual-design-grid-7-column.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200581+00:00",
+      "reference_metadata_hash": "7c60856cd97f9ff7f100f6d27d7e2d5a51d6905621614537361fe6bfc788a7ed",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-7-column@2x.png",
+      "binary_hash": "47d995e0ee041e30bffc74583dccd169257209106cdd84b5f2a68ef983dadd13",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual two-through-nine-column TV grids preserve aligned rows, consistent gaps, and symmetric partial items at both edges while emphasizing a focused item. Local Grids and dedicated column sections retain layout rules plus each source table measurement.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#Grids",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/49/tabs/5/content/0/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-7-column~dark@2x.png",
+          "binary_hash": "7746847fc8eb23a57e5340c15fa0a5760a775fac0c94f040971638026951d776",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "visual-design-grid-8-column.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200597+00:00",
+      "reference_metadata_hash": "7d7ec7b6bc25d9b501428dc267e2bbdfb4d7dd5670e1456b1215a51d2010fd4a",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-8-column@2x.png",
+      "binary_hash": "79500f3eeef722b02362b6384c5e4a540b4952d0c1fe762c24bb34c2c80e039f",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual two-through-nine-column TV grids preserve aligned rows, consistent gaps, and symmetric partial items at both edges while emphasizing a focused item. Local Grids and dedicated column sections retain layout rules plus each source table measurement.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#Grids",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/49/tabs/6/content/0/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-8-column~dark@2x.png",
+          "binary_hash": "947877de01f01be6833027c76b55c1b74a5badc802f2d00c7f5092df18e85a03",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "visual-design-grid-9-column.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200616+00:00",
+      "reference_metadata_hash": "9eea2df0e7165dece9daed6567310db52bbde87534cb044721d59d7ed058b872",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-9-column@2x.png",
+      "binary_hash": "2b7d360499c575dfac7b6ccf595adea0b2dfe00ae6ec01c31cbe790ba3288c37",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual two-through-nine-column TV grids preserve aligned rows, consistent gaps, and symmetric partial items at both edges while emphasizing a focused item. Local Grids and dedicated column sections retain layout rules plus each source table measurement.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#Grids",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/49/tabs/7/content/0/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visual-design-grid-9-column~dark@2x.png",
+          "binary_hash": "03769481fc29386a1e7a993a504da2e426be1485b6ebd2629a82bd09e2788512",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "layout-controls.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:23:40.200633+00:00",
+      "reference_metadata_hash": "a42e585559fb1fdcd6a5e834565c2d5368f32709c67b4c178827d8da56269324",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/layout-controls@2x.png",
+      "binary_hash": "a41205f213453b4744f50bde589d604eb711704bc4ff45c76cb33f0cd5331f92",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual watch display uses one full-width text button. Local watchOS retains full-width text controls and limits side-by-side glyph/text buttons.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md#watchOS",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+          "hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/63/inlineContent/0"
+      ]
+    }
+  }
+}

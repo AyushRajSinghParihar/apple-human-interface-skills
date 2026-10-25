@@ -1,0 +1,47 @@
+{
+  "source_hash": "8963a528599921939efb883c3a5cbb0b706e6d8d2abd9e712e71b9197e061d58",
+  "media": {
+    "visionos-accessibility-hand-pointer.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.628914+00:00",
+      "reference_metadata_hash": "e287212dc61e6ce352529f22480f57244b80088b354b45aba6447273ed03f0da",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/visionos-accessibility-hand-pointer.mp4",
+      "binary_hash": "c429c988e2621ed515c2d73a1500d4d303ce9ae7815ed211186f30246700f697",
+      "review_method": "chronological six-frame contact sheet spanning the sequence, checked against article context; no exact timing or audio claim",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Hand movement changes a projected targeting ray across the same spatial window; review sampled the complete 0–6.34s span. The decoded audio track is exact digital silence.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/accessibility.md",
+          "hash": "63c467dca84422f2c9786353878c2f2889869cc709d2e765700d9b3fd2b2c588"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/accessibility.md#alternative-pointing",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/67/tabs/0/content/0"
+      ]
+    },
+    "visionos-accessibility-head-pointer.mp4": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:08:18.629204+00:00",
+      "reference_metadata_hash": "fce439c48417ec46138319a388f12c8412f672fb6b4d5c7751c60b69d4807c9d",
+      "asset_url": "https://developer.apple.com/tutorials/videos/com.apple.HIG/visionos-accessibility-head-pointer.mp4",
+      "binary_hash": "249ac51c0adfefaef8e0c8144c980590bd9052f6305b8137787563fd08fda5e3",
+      "review_method": "chronological six-frame contact sheet spanning the sequence, checked against article context; no exact timing or audio claim",
+      "classification": "guidance-bearing sequence explained in original local guidance",
+      "evidence": "Central pointer remains near viewport center while the room/window move with head direction; review sampled 0–7.84s. The actual asset has no audio stream.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/references/media/accessibility.md",
+          "hash": "63c467dca84422f2c9786353878c2f2889869cc709d2e765700d9b3fd2b2c588"
+        }
+      ],
+      "destination": "skills/apple-hig/references/media/accessibility.md#alternative-pointing",
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/67/tabs/1/content/0"
+      ]
+    }
+  }
+}

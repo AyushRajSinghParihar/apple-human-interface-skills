@@ -1,0 +1,715 @@
+{
+  "review": {
+    "slug": "playing-audio",
+    "status": "reviewed",
+    "source_hash": "1342caf1c35a3ef40d72b287a84218e7fdf6135bbdab3240a76e7076238f429a",
+    "destination_hash": "2045ec6be9ef8298d732281850ba81805f35c1f3e019ec72c4c20f1e9badb1eb",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:23:22.269133+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "playing-audio",
+        "status": "reviewed",
+        "evidence": "Verified silence versus explicit playback/alarms/messages, global volume versus separate iPhone ringer, smooth headphone attach and immediate disconnect pause."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "source_anchor": "Handling-interruptions",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Handling-interruptions",
+        "status": "reviewed",
+        "evidence": "Rechecked restored incoming-call noninterruption until accepted for recording/audio work. Smart Folio VoIP termination/privacy, resumable versus new-playlist nonresumable distinction, media conditional resume and game incidental-audio exception remain."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "System short-sound/vibration services retained."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Default mixing notification sound retained."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Audio only by intentional interaction/calibration rather than alert/notification sounds retained."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked meaningful sounds with redundant information, custom control sounds, ambient/localized moving sources, range of origins and moving-window continuity, randomized pitch/volume variation, tracked/fixed semantics, Now Playing close-pause and other-app ducking."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Foreground clips versus continuing longer playback, exact 64 kbps HE-AAC, and Now Playing current/recent watch/iPhone source selection all match."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "59d9cf5513ff041f973473eaae635847e8fcdba1c0de3760e0e6a37f34b245dd",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "playing-audio",
+        "evidence": "Verified silence versus explicit playback/alarms/messages, global volume versus separate iPhone ringer, smooth headphone attach and immediate disconnect pause."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "b845177cbfa6444d556e78a3c49dc808b2199c82cc3264b5423f343f38ca5de7",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "playing-audio",
+        "evidence": "Verified silence versus explicit playback/alarms/messages, global volume versus separate iPhone ringer, smooth headphone attach and immediate disconnect pause. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "8967adcf9d1df21d09fb8a220f76089aa96198c401d52b0ad4c918b3fc0d5613",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "playing-audio",
+        "evidence": "Verified silence versus explicit playback/alarms/messages, global volume versus separate iPhone ringer, smooth headphone attach and immediate disconnect pause."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "5c2f339db969131b48ecf4f5433b4738e33e08c663283e576ec9fa52d072ca11",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "playing-audio",
+        "evidence": "Verified silence versus explicit playback/alarms/messages, global volume versus separate iPhone ringer, smooth headphone attach and immediate disconnect pause."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "42b9e57394c9cda2e2e4b358c5c5e6603140af3bb99268b84516f5e77b8f9a3f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "playing-audio",
+        "evidence": "Verified silence versus explicit playback/alarms/messages, global volume versus separate iPhone ringer, smooth headphone attach and immediate disconnect pause."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "0e52e7123b9bbf9ca3d95336486ad45d7f4877317ee051d10e9eec2e5777cc1d",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "playing-audio",
+        "evidence": "Verified silence versus explicit playback/alarms/messages, global volume versus separate iPhone ringer, smooth headphone attach and immediate disconnect pause."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "37e546b5fd62b491f1c7b39e7f401611477ec41cf97032f27761d3c5d4c75e75",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "f9da9756a92f69202e8d2d865d4490a21c3ebc648a30b54fafa11e46062a024b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "f342a25c46acd41dc6abf4dfbc7755226adc632c9adaff13856c3dc6b803298b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "18acd19ee15232009256f4d4dd82cb97008e666fedc78f4d61a913b882da1686",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "abb1ba7bb441f7b340c32d5acd12268ae3eef0290e090af88f255b95948904be",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/0/0/0",
+        "source_unit_hash": "7dbb8106224b692e55945fdf52c1312f12d2ca9d6241b2f8d9332a35fff485ed",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/0/1/0",
+        "source_unit_hash": "c6f47e1641526c8142f9049d79deb5bb0efa2184f2b5b38b1317b59da9e9ab88",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/0/2/0",
+        "source_unit_hash": "3e396f7e228a278b73841374b3e1ea13fecfe32576fbbbf8a757f5756f99a2a8",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/1/0/0",
+        "source_unit_hash": "05d73e07c606e35323ce248f3ece9d16a9eab4f38982d65a0e7e0ddbf18ec155",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/1/1/0",
+        "source_unit_hash": "95bfe9851ba88aec20b6980ee835461bd9f8e6aa97266ed1932d5907d5910f85",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/1/2/0",
+        "source_unit_hash": "c57d7569d0a29d093d939e09715f59070e675d8b679595d4393a9ae68e029703",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/2/0/0",
+        "source_unit_hash": "4be6aaf695ccd4b152c37033e1ba5e654d3d52b64d6af956d7ca5f61857a778a",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/2/1/0",
+        "source_unit_hash": "776453b4dac724fc7141c1d95e18f8fb7e58e7c325201c4bf2634f804dcd6a7d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/2/2/0",
+        "source_unit_hash": "b2764e81d28da32e99f9d5f54ff12c6fa64e7b88d042120e355e89731a3901ce",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/3/0/0",
+        "source_unit_hash": "f7ca4ca07788c94242225115588a9f05266c0d41bf5d1c5047f448260a75c934",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/3/1/0",
+        "source_unit_hash": "4fea1a6e48a17a5d9170177221fedf25a02e488f73b7d8efe8841c505bb584f7",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/3/2/0",
+        "source_unit_hash": "bee55e61c190d3bf6c5917d2101ce7ef5ca818aef26d364804b5b32da16e0118",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/4/0/0",
+        "source_unit_hash": "5e3399ea44786f4016be258497c62f73299ad00e469a59c8fb0dd89a07900baf",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/4/1/0",
+        "source_unit_hash": "78aa71b4a34757c38fc7d47acc16bf0660c55e21afd65da349aa96d93037d61a",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/4/2/0",
+        "source_unit_hash": "fb0ab43d250cb91b0d300a5119ba3f307dd61ddba6006e8a93bb49f1bdbbe230",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/5/0/0",
+        "source_unit_hash": "b40189404d9d9f8a17ab4993f6e8b7b78373a2549351fb271e60f066aaf0441e",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/5/1/0",
+        "source_unit_hash": "116e32d4641f686364fef093d02449b83632710eb9f9009c6c9ce2cd60d44311",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/5/2/0",
+        "source_unit_hash": "85a11f1ba394b7faacd714d8b0e500758c753d75d37bf68d7a7a3996903ca71c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "557519a13f44d3486b5122aa0dacd5101a13458a0775dd1089eb5f19f49eace3",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "69f6d18684105ce4081dd7691bccf00483df4a7eba30b6eac0304d5ca58d0d00",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "a1b97c0134fd25fd06d36f6dec72f7b8384ab1d8f04ec01b40301a83b1f9ec39",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "730b44d7ab8d4195b216814b435a1f3257b1699679cd614c345c2abc05908e60",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "699be8d5dfeeab4a7049341950b20948f6fd1d50393036e62c98d9a5de72e8b3",
+        "source_anchor": "Handling-interruptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Handling-interruptions",
+        "evidence": "Rechecked restored incoming-call noninterruption until accepted for recording/audio work. Smart Folio VoIP termination/privacy, resumable versus new-playlist nonresumable distinction, media conditional resume and game incidental-audio exception remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "b9c7a51622c938e46d28913c76279b63f2505a3902d0eedeb340fd2ae301c7dc",
+        "source_anchor": "Handling-interruptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Handling-interruptions",
+        "evidence": "Rechecked restored incoming-call noninterruption until accepted for recording/audio work. Smart Folio VoIP termination/privacy, resumable versus new-playlist nonresumable distinction, media conditional resume and game incidental-audio exception remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "f4edfb885d6e7e9d699ba088a136f3ef14a3d28251a1980e2ba1e8c534181d4d",
+        "source_anchor": "Handling-interruptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Handling-interruptions",
+        "evidence": "Rechecked restored incoming-call noninterruption until accepted for recording/audio work. Smart Folio VoIP termination/privacy, resumable versus new-playlist nonresumable distinction, media conditional resume and game incidental-audio exception remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "bd56740d14371f89f80973431712f361f4b12ffae2688f29da305e0f20439367",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "System short-sound/vibration services retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "280a34d0a3efe405d9cb0e3106f5eb2961b8a6c74405cf3909ffbad6803fc9e3",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "macOS",
+        "evidence": "Default mixing notification sound retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "d0fafebb088ba471e52d2f8288aa6a21922407037bc935dde1e0c708ee9280df",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Audio only by intentional interaction/calibration rather than alert/notification sounds retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "8cc5b0a6dc28c2b7dba198357e2cc9216e3fee32c5dd41e6a2d3b6786f89d40e",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked meaningful sounds with redundant information, custom control sounds, ambient/localized moving sources, range of origins and moving-window continuity, randomized pitch/volume variation, tracked/fixed semantics, Now Playing close-pause and other-app ducking."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "8996a72020c150040a50eb62b5d4ac4eb105a19c47a6fd723940b34d67ef180f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked meaningful sounds with redundant information, custom control sounds, ambient/localized moving sources, range of origins and moving-window continuity, randomized pitch/volume variation, tracked/fixed semantics, Now Playing close-pause and other-app ducking."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/content/0",
+        "source_unit_hash": "ddab0cd777416272b9c2f6c4f8318c5924fc53fad610b13bd72210df11c0316c",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked meaningful sounds with redundant information, custom control sounds, ambient/localized moving sources, range of origins and moving-window continuity, randomized pitch/volume variation, tracked/fixed semantics, Now Playing close-pause and other-app ducking."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "0041e6de92dc87868a064fe94957d2c98d7424c5a9644614784cdc573596da58",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked meaningful sounds with redundant information, custom control sounds, ambient/localized moving sources, range of origins and moving-window continuity, randomized pitch/volume variation, tracked/fixed semantics, Now Playing close-pause and other-app ducking."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "99aba65fda67e776e8314d47c6220049d7b647ac8851592211e8b6487b66c8f4",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked meaningful sounds with redundant information, custom control sounds, ambient/localized moving sources, range of origins and moving-window continuity, randomized pitch/volume variation, tracked/fixed semantics, Now Playing close-pause and other-app ducking."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "e3a2cfcd584eebe2ad8aac40fba1d4be94210b94216a41b47cc091a8e3ccc84f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked meaningful sounds with redundant information, custom control sounds, ambient/localized moving sources, range of origins and moving-window continuity, randomized pitch/volume variation, tracked/fixed semantics, Now Playing close-pause and other-app ducking."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "edcc588e747c63d5f60b9025bdcbc2e5bff8650dd80b263182b89ecdead43ccc",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked meaningful sounds with redundant information, custom control sounds, ambient/localized moving sources, range of origins and moving-window continuity, randomized pitch/volume variation, tracked/fixed semantics, Now Playing close-pause and other-app ducking."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "d1db5bc97c7b401aab69399c18464ae05ca2e12cf72114d7a5ed4d9c761a7613",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked meaningful sounds with redundant information, custom control sounds, ambient/localized moving sources, range of origins and moving-window continuity, randomized pitch/volume variation, tracked/fixed semantics, Now Playing close-pause and other-app ducking."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "cdf08fdfda1b899bff164eaa9e5ed44b5ad19851db7dc26a1c6ed052bde8745f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked meaningful sounds with redundant information, custom control sounds, ambient/localized moving sources, range of origins and moving-window continuity, randomized pitch/volume variation, tracked/fixed semantics, Now Playing close-pause and other-app ducking."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "ae914f39aa1ce2dd8369d9b31203efe829eae19a2e583aa8dd3d044b8c74c9fa",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked meaningful sounds with redundant information, custom control sounds, ambient/localized moving sources, range of origins and moving-window continuity, randomized pitch/volume variation, tracked/fixed semantics, Now Playing close-pause and other-app ducking."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "9c80d05cbd97eda2409fcc26191bec3ed0b3238db4aedd17daa17a07227d06a7",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Foreground clips versus continuing longer playback, exact 64 kbps HE-AAC, and Now Playing current/recent watch/iPhone source selection all match."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "c1907e1b61048afb7189c046ee7057b8c44ea54f70d0d726bdfb431d22d65805",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Foreground clips versus continuing longer playback, exact 64 kbps HE-AAC, and Now Playing current/recent watch/iPhone source selection all match."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "a41e93fa40383f28633bc091da343b982b9d515c42a261256fd09b576c343198",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Foreground clips versus continuing longer playback, exact 64 kbps HE-AAC, and Now Playing current/recent watch/iPhone source selection all match."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "9fc675336f754e9abd5df9765cc28d9255a1b2ef4e784a09a68a0d3a106f0ae1",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "6427aa81d9828b0d03c4c78a3b225a41d7af45949cc573a6937b8bbe9ec70e2f",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "aa0ff61fd891af06493c254b60b8b66505094090926f3dc4b0d0c9f3f1fdfd8f",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "301008e7e5e0bfdb8d64c07cad807aa242fa17aa124b250523be002ed8a406eb",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "7b12ffd6a72519ef6109514764406a7ba77b96aae9fb90a119183f564ff8fff5",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "69a083956f45ac0edfa9f5f180520301584001537c7f2f9969e46170630df53e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/1/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/1/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "abb1ba7bb441f7b340c32d5acd12268ae3eef0290e090af88f255b95948904be",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Compared all five category rows: solo/ambient silence-respecting versus playback/record/play-record ignoring, respective mixing and background rules, plus correct nonessential/essential/recording meanings. Also verified relative mix without global volume changes, output routing/system view, appropriate external control response, no repurposing, justified custom commands and notify-on-deactivation."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "69a083956f45ac0edfa9f5f180520301584001537c7f2f9969e46170630df53e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

@@ -1,0 +1,42 @@
+name: Validate skill package
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      live:
+        description: Check current Apple sources for drift
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/hig.py check
+      - name: Check upstream drift
+        if: github.event_name == 'workflow_dispatch' && inputs.live
+        run: python scripts/hig.py check --live
+      - name: Reject cached sources and downloaded assets
+        shell: bash
+        run: |
+          python - <<'PY'
+          import pathlib, subprocess
+          files = subprocess.check_output(['git', 'ls-files', '-z']).decode().split('\0')
+          forbidden = [p for p in files if p and (
+              p.startswith(('.cache/', '.venv/')) or
+              pathlib.Path(p).suffix.lower() in {'.mp4', '.mov', '.png', '.jpg', '.jpeg', '.webp', '.heic', '.gif', '.svg', '.tif', '.tiff', '.pdf', '.wav', '.mp3', '.aiff'}
+          )]
+          if forbidden:
+              raise SystemExit('Unreviewed source/media publication: ' + ', '.join(forbidden))
+          PY

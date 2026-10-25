@@ -1,0 +1,447 @@
+{
+  "review": {
+    "slug": "managing-accounts",
+    "status": "reviewed",
+    "source_hash": "e9235d9cc5c92b3e3a3942024dd6de0d9017e365d3c57b730ad93c2df0260a4c",
+    "destination_hash": "c55f6e126bd3f6b11b84aeee7bae3b45c193b8508db7343d08795abe47d35541",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:21:18.810922+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "managing-accounts",
+        "status": "reviewed",
+        "evidence": "Verified accounts only when core functionality requires them, useful access otherwise, and trusted sign-in reducing credential burden."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked brief benefit explanation and deferred commitment, Sign in with Apple, passkeys on the four listed platforms, password two-factor fallback, accurate capability-specific method labels, no redundant biometric opt-in, and reserved passcode terminology."
+      },
+      {
+        "source_anchor": "Deleting-accounts",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "source_anchor": "TV-provider-accounts",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "TV-provider-accounts",
+        "status": "reviewed",
+        "evidence": "Verified system provider authentication, no misleading app sign-out, Settings > TV Provider route when necessary, and Privacy controls distinguished from sign-out."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified the explicit absence of further platform rules; the local platform scope matches the source."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Retains other-device signup/associated domains, tvOS 16 shared credentials with separate current profiles, minimized input and recent-address email keyboard."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "iCloud/keychain autofill and persistent settings remain explicit."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "4d617833b894e11efbe1120f26ca1814c6b14b1965eaf461b094bc6bccec5f13",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "managing-accounts",
+        "evidence": "Verified accounts only when core functionality requires them, useful access otherwise, and trusted sign-in reducing credential burden."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "1cad9bd0571914992d2b19ed556249f1c31659aaf14e052f7cc4f198cec4411f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "managing-accounts",
+        "evidence": "Verified accounts only when core functionality requires them, useful access otherwise, and trusted sign-in reducing credential burden. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "87ba6ab544badf61b4370af96317399bcf80395357ef32a9df07c881942297e4",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "managing-accounts",
+        "evidence": "Verified accounts only when core functionality requires them, useful access otherwise, and trusted sign-in reducing credential burden."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "905f6aa09d13d803683f225c95f396a27b3485f3e96d6374c96d39228979cb0b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked brief benefit explanation and deferred commitment, Sign in with Apple, passkeys on the four listed platforms, password two-factor fallback, accurate capability-specific method labels, no redundant biometric opt-in, and reserved passcode terminology."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "a544503af6b4036e1301316f4b9ecde730af570901cc38a0318f3ca04ba30a5d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked brief benefit explanation and deferred commitment, Sign in with Apple, passkeys on the four listed platforms, password two-factor fallback, accurate capability-specific method labels, no redundant biometric opt-in, and reserved passcode terminology."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "7c7264be340c282b72a3a67ce06e155b7f1de85eb49677185cfeaa79c10ffe15",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked brief benefit explanation and deferred commitment, Sign in with Apple, passkeys on the four listed platforms, password two-factor fallback, accurate capability-specific method labels, no redundant biometric opt-in, and reserved passcode terminology."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "d0c0240cda921c5d6b64230c1ad28c462910a3964463f0523cea9fa3eb5d2856",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked brief benefit explanation and deferred commitment, Sign in with Apple, passkeys on the four listed platforms, password two-factor fallback, accurate capability-specific method labels, no redundant biometric opt-in, and reserved passcode terminology."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "1f6138ad3e73579344e8983323ef51ee753ff618f7c027d15ff9ea9acab86d47",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked brief benefit explanation and deferred commitment, Sign in with Apple, passkeys on the four listed platforms, password two-factor fallback, accurate capability-specific method labels, no redundant biometric opt-in, and reserved passcode terminology."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "780399ab85dee6b7d35360393b3123cc41bc80bc1582674c74464be76a6dd58a",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked brief benefit explanation and deferred commitment, Sign in with Apple, passkeys on the four listed platforms, password two-factor fallback, accurate capability-specific method labels, no redundant biometric opt-in, and reserved passcode terminology."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "aab86dc50f1d9deaaff9ef4b4be0503f0c38129649dd63ae4cfa2333280d55a4",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked brief benefit explanation and deferred commitment, Sign in with Apple, passkeys on the four listed platforms, password two-factor fallback, accurate capability-specific method labels, no redundant biometric opt-in, and reserved passcode terminology."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "31b95cb4c0bd459aa3028fa0c28e2a938d14c6ca3c747d89b24b918cd6fd577b",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "a4940b9c7a4267f6d5e844e8175ef4f1e4e60cc54842d4c15074f04250463f9b",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/content/0",
+        "source_unit_hash": "d965ae39796f364b163301c5daac46c089a42b537065d1192f17de0c8c668299",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "c80946451dd0066eedc68b727d5351ac1ebcccd419ee6efc9e96a12f707558de",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "2007cc925d7ec2cca56b2d2acb76f62184be9c9f452915584bdb8cf2a6b4ca39",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/content/0",
+        "source_unit_hash": "6d1264f2b60e6cd439f234050d281d7866c77d763f4354fbe73e312cd5fcc4dc",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "d390cee68f47b343490602966909834ded5b91dc1d2393cdfa2da8035e9869e5",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "b9a72fbdd744d95607054ae59cdd6598fec588e95fa8010f02d769ff8d95621c",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "1c496898feb06a95dd110a37ebb325096ecdc9cbeb8b12f6843857efe3f6c0de",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "3a70facd0c79cec1f449b7b3045dbe9f8dade852da9356a4a408c38652de4366",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "9b481b9a87490d1eb4d381b9c083d173281c1ba9219b4478d2502feb18b4d1ca",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/items/0/content/0",
+        "source_unit_hash": "b883ce31d6663094697c23001784ceb96aada5a7d21b909a2b2e5d5679f0de84",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/items/1/content/0",
+        "source_unit_hash": "f40d39e69094ca4536916fadb5a4b0f7c78b23efc219a476efb593b31f2f98ac",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "1414178953da17724c5b0ec6c08381d2cbd580d2ac1ae7d6c0681143387ab916",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "ae1ce14e6d97942a145ebc5d3c6367da85f10e94af472f39135a5aeab7060998",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/content/0",
+        "source_unit_hash": "0e424033f1af83a3cb3b8e37b08ab11331edc6021d741cc4d61bd15dba89fc0b",
+        "source_anchor": "Deleting-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Deleting-accounts",
+        "evidence": "Compared deletion rather than deactivation, legal-retention/process disclosure, discoverable in-app/direct-web route, Apple token revocation, equivalent flows, scheduled plus immediate deletion, completion information, subscription billing/cancel/refund explanation and deletion even for externally purchased subscriptions."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "3b60a47a03a17937f52e9a8393fa6573ed73372ed75558284b6745e9dec2eebd",
+        "source_anchor": "TV-provider-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "TV-provider-accounts",
+        "evidence": "Verified system provider authentication, no misleading app sign-out, Settings > TV Provider route when necessary, and Privacy controls distinguished from sign-out."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "191828c5d85aa948b192389e9fc34f8ad514b9787584024e6cc52711ca5b9181",
+        "source_anchor": "TV-provider-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "TV-provider-accounts",
+        "evidence": "Verified system provider authentication, no misleading app sign-out, Settings > TV Provider route when necessary, and Privacy controls distinguished from sign-out."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "aa940492662483e009e9fb6cb750e57a4346cbaf84691f3153eb1784e02263ef",
+        "source_anchor": "TV-provider-accounts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "TV-provider-accounts",
+        "evidence": "Verified system provider authentication, no misleading app sign-out, Settings > TV Provider route when necessary, and Privacy controls distinguished from sign-out."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "1664f57ab5c750d2755a208569a78046d74a5cc2291717916d75821969e41aa8",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified the explicit absence of further platform rules; the local platform scope matches the source."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "83a271cc7c9345603ae6a235e09434291384b7cf09b1a10c200c40bb571705f2",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Retains other-device signup/associated domains, tvOS 16 shared credentials with separate current profiles, minimized input and recent-address email keyboard."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "1a471b6e1c7e93d1d0ec84f24f4ebad1bc3f3d645726c7cdd7017fd24800dc7e",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Retains other-device signup/associated domains, tvOS 16 shared credentials with separate current profiles, minimized input and recent-address email keyboard."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "bb13c9e141cdeb19b462fac94b1c4411fe1b66bbdfb9af956e7782f5241133d3",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Retains other-device signup/associated domains, tvOS 16 shared credentials with separate current profiles, minimized input and recent-address email keyboard."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "99234e25bb582fd56fc56224df1b9e98263d3036513ac8efc985c4cce9206dc4",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Retains other-device signup/associated domains, tvOS 16 shared credentials with separate current profiles, minimized input and recent-address email keyboard."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "e1daad749fe2925425a3f919dffdfc3c4f9281c5f072e50c9c77d0d651b649f0",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "watchOS",
+        "evidence": "iCloud/keychain autofill and persistent settings remain explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "21c110f4b3ffd0aa7367b4bc7a82b6508900d0dd0c180faf47183781dcf80ecb",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "717383ba2fecafbb96e24e5a6c931c73b814163b6048d196f713c822b70acb7e",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "aea4fd0d3dba118a11a9f0424eff0727a4202bed03149ce924327841cca53800",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [],
+    "issues": []
+  },
+  "media": {}
+}

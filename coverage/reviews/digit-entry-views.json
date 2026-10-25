@@ -1,0 +1,119 @@
+{
+  "review": {
+    "slug": "digit-entry-views",
+    "status": "reviewed",
+    "source_hash": "5982f6ced0c0bacd533b33d8538fb7b278a880c1fcd8d6ddfd4f95255d82a7dc",
+    "destination_hash": "4d080a5de979386966658fc56e8b66095ca622512270174ac00ed7828191f5da",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:06:04.857244+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/digit-entry-views.md",
+        "destination_anchor": "digit-entry-views",
+        "status": "reviewed",
+        "evidence": "Checked full-screen numeric sequence/PIN entry and optional title/prompt."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/digit-entry-views.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified secure asterisk masking for sensitive input and clear stated purpose."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/digit-entry-views.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified tvOS-only component scope."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "08b57ce3437d0e1f72307eaf62ceb41008953ad02574277e0d417405aac9431f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/digit-entry-views.md",
+        "destination_anchor": "digit-entry-views",
+        "evidence": "Checked full-screen numeric sequence/PIN entry and optional title/prompt."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "4ea98f9d1c808b6e808e1b9fa1c960f86f41e2af28cc20c0bd5b22cdc6d43c1f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/digit-entry-views.md",
+        "destination_anchor": "digit-entry-views",
+        "evidence": "Checked full-screen numeric sequence/PIN entry and optional title/prompt. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "c89c39ca3ac3bbf62843d25aa7aa50f2c67f9bd788a2526237e6a45d2a9b1cb2",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/digit-entry-views.md",
+        "destination_anchor": "digit-entry-views",
+        "evidence": "Checked full-screen numeric sequence/PIN entry and optional title/prompt."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "3e318906d38bde3d96eab51b61d8ae4f9cb116b6e41bd13e1d6f488d82579905",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/digit-entry-views.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified secure asterisk masking for sensitive input and clear stated purpose."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "91718de13ee604babda670a44de8c99fd25f6222ba60f6059e6601da327bcb28",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/digit-entry-views.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified secure asterisk masking for sensitive input and clear stated purpose."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "4fa374592d972e21d57c801e02511c27f5d372a6131f372b842452cb1b72ef86",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/digit-entry-views.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified tvOS-only component scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "67cb14a804f0541facf54740ac9200543f375cc0f37d218cb27d83395161f465",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/digit-entry-views.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "1c8eb17ead7bf0462ae817740f6b716f9ef04250eb704bde20d3027dc2ff9351",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/digit-entry-views.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [],
+    "issues": []
+  },
+  "media": {}
+}

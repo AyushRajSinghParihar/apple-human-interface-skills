@@ -1,0 +1,1156 @@
+{
+  "review": {
+    "slug": "designing-for-games",
+    "status": "reviewed",
+    "source_hash": "0c42ac0a9e5a8f0b10a217b29e8796bab7292d44ffa1d32265b885ab89cbb7ee",
+    "destination_hash": "feed7736b867947871db55afead07598f6727cf043b987a4177cc092726ffcb9",
+    "reviewer": "independent-coverage-auditor",
+    "reviewed_at": "2026-10-25T12:48:53.578686+00:00",
+    "evidence": "Independent complete source-to-local semantic comparison and actual embedded-media inspection; author mappings do not establish approval.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "designing-for-games",
+        "status": "reviewed",
+        "evidence": "Checked game identity combined with platform conventions."
+      },
+      {
+        "source_anchor": "Jump-into-gameplay",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Jump-into-gameplay",
+        "status": "reviewed",
+        "evidence": "Checked playable initial install, 30-minute download target, background content, device/accessory/accessibility defaults, playable onboarding and contextual permission/rating requests."
+      },
+      {
+        "source_anchor": "Look-stunning-on-every-display",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "source_anchor": "Enable-intuitive-interactions",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "source_anchor": "Welcome-everyone",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Welcome-everyone",
+        "status": "reviewed",
+        "evidence": "Checked multimodal perceivability, readable cutscenes, personalized text/control/motion/audio, system/Unity access support, broad self-representation and respectful bias/stereotype review."
+      },
+      {
+        "source_anchor": "Adopt-Apple-technologies",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Adopt-Apple-technologies",
+        "status": "reviewed",
+        "evidence": "Checked Game Center functions, GameSave cross-device state, stated Core Haptics platforms/controllers and optional audio, multichannel Spatial Audio, permissioned AR/ML/health/camera/mic/location integration and purchase relationship."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "a58544425e9db0cac2122ffa10028c0115c8c577bee71b23006f3d3f728ec23e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "designing-for-games",
+        "evidence": "Checked game identity combined with platform conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "b2868f391b8c9e782af4c3e3b481197da1a050372b0f9215681f4677e54119b1",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "designing-for-games",
+        "evidence": "Checked game identity combined with platform conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "81ca6146f571cfb3132061fb051cf0fbf04147e6d533c39aaf59c9d80eeafaed",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "designing-for-games",
+        "evidence": "Checked game identity combined with platform conventions."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "a822aa64a0534fab4b7beb71d04eae01efcbb0221a848cd2dfea1a0cfce04375",
+        "source_anchor": "Jump-into-gameplay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Jump-into-gameplay",
+        "evidence": "Checked playable initial install, 30-minute download target, background content, device/accessory/accessibility defaults, playable onboarding and contextual permission/rating requests."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "a4d70865dbdab30f55752c79b7e9bb698874efbf059fc9a2343609ce6f7f0e95",
+        "source_anchor": "Jump-into-gameplay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Jump-into-gameplay",
+        "evidence": "Checked playable initial install, 30-minute download target, background content, device/accessory/accessibility defaults, playable onboarding and contextual permission/rating requests."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "e8abc1317d2f33d8adb57b6bd7d8f315dce99fb4c7fafdad960c26c27b4aa347",
+        "source_anchor": "Jump-into-gameplay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Jump-into-gameplay",
+        "evidence": "Checked playable initial install, 30-minute download target, background content, device/accessory/accessibility defaults, playable onboarding and contextual permission/rating requests."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "57e4b6585264744834e79ff871da25c0b49fd563f52ca6ca4e04bae74eebbe50",
+        "source_anchor": "Jump-into-gameplay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Jump-into-gameplay",
+        "evidence": "Checked playable initial install, 30-minute download target, background content, device/accessory/accessibility defaults, playable onboarding and contextual permission/rating requests."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "bc6ed3f0eb0d9be2091b111f5ffa12862c312f6651fdba031c2f7b56c941d180",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "af34a701e2adc1336bcddd5185f97a66b483e01b10e1568100d5bf024e69eb7e",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/0/0/0",
+        "source_unit_hash": "b195e67d72a3684d969adde85939d362031c077e178354caf599e37e1ab1fa7e",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/0/1/0",
+        "source_unit_hash": "35568bd88ca341ed067b4d77b0143d2625afb8e15833c67eaf531d6e553ea8d9",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/0/2/0",
+        "source_unit_hash": "b94312f4d2a222bf2d7cd4713b31f7d44384dc6f416fb550adcc735dffdb9fca",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/1/0/0",
+        "source_unit_hash": "982cef755dc6b3c4f9138e67dd6ac89f05f8ae5d017296a31d9529048f2383ad",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/1/1/0",
+        "source_unit_hash": "f05f078092e7d3320165f817557a017f39315198f07f38e9862dc7e4f35ff566",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/1/2/0",
+        "source_unit_hash": "4c6edafd59e7871ac772dd1b88a0b389ac4adbf3606eb86d089b83117dadebb8",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/2/0/0",
+        "source_unit_hash": "ba2817ca022a17a8c3f0dad6512080a9a526f08488742351ad875fd7d927755a",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/2/1/0",
+        "source_unit_hash": "336b3e263d81a04999d728845913de39eb484ed6b9daf4d7ec842ecda869de6c",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/2/2/0",
+        "source_unit_hash": "3f0a07bd76983f523d051714bf9e34f322eca5c388a1d8e0127804e287ea073b",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/3/0/0",
+        "source_unit_hash": "fa02c770fafd6d83157a92459ca66ad871e76ecf6ffa9f6d7d6d915eadbf32a3",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/3/1/0",
+        "source_unit_hash": "985ed988a4b76f9f66515f4b0d413ef1f0bbc393ac3035d025075b8270162ded",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/3/2/0",
+        "source_unit_hash": "016109fa4358280ddb698f90578a4755783ca3b2eae8a01817785b8f8cee7544",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/4/0/0",
+        "source_unit_hash": "dfec64c3148675d7ee6b4b3594f050562320edad6716894c0fe5aa03fc3ac279",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/4/1/0",
+        "source_unit_hash": "f05f078092e7d3320165f817557a017f39315198f07f38e9862dc7e4f35ff566",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/4/2/0",
+        "source_unit_hash": "fc9fc47ba5007e5686a18b048e0e4e91ce71a67b0a89660ec4dccf516be640aa",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/5/0/0",
+        "source_unit_hash": "de59d66e5d72811fd89564cf1be88f7013c18fd5371bfc795e89d52251c54156",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/5/1/0",
+        "source_unit_hash": "c0a9bbd537c3a2a35796172309411d3aa169db8f497f24503adf514868a6db80",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/5/2/0",
+        "source_unit_hash": "fc9fc47ba5007e5686a18b048e0e4e91ce71a67b0a89660ec4dccf516be640aa",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "56baccc58a42da533c58cb0c1797107668f28723278c3d0b0827feef1990ccb9",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "a680a80b7c521c16add04ac9e94e3729130aa701260b595449adab5ab8dea718",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/0/0/0",
+        "source_unit_hash": "b195e67d72a3684d969adde85939d362031c077e178354caf599e37e1ab1fa7e",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/0/1/0",
+        "source_unit_hash": "a12d8a01592b403206c07aae59cea21a7cee85bcb0931739e49b3cc37cb17514",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/0/2/0",
+        "source_unit_hash": "d0567f33ea7bfceb68c8296a7a21872892c7b67552bca00bdf0796feac18de51",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/1/0/0",
+        "source_unit_hash": "982cef755dc6b3c4f9138e67dd6ac89f05f8ae5d017296a31d9529048f2383ad",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/1/1/0",
+        "source_unit_hash": "246917ae4dca5154d0ccd31e88faa8458f89a4ff4ddd20c592c50bc2bbb4f267",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/1/2/0",
+        "source_unit_hash": "7cacf57933c1a10bb56be14774b2f18dcf4143671e2b55ff6398e0d96a552d8f",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/2/0/0",
+        "source_unit_hash": "ba2817ca022a17a8c3f0dad6512080a9a526f08488742351ad875fd7d927755a",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/2/1/0",
+        "source_unit_hash": "7cacf57933c1a10bb56be14774b2f18dcf4143671e2b55ff6398e0d96a552d8f",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/2/2/0",
+        "source_unit_hash": "28b5b5f3abcd85d4f69f1e78d0425f1a68e5223b09c81b895696749b1e27f64d",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/3/0/0",
+        "source_unit_hash": "fa02c770fafd6d83157a92459ca66ad871e76ecf6ffa9f6d7d6d915eadbf32a3",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/3/1/0",
+        "source_unit_hash": "3d4437a838cfb15778e331ad70737833af8c8d0083560ffe3b3764bb14de1522",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/3/2/0",
+        "source_unit_hash": "2663d3397d305f086da8a8a0f6df283680723bbace6b9035258a659bbb15ae3a",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/4/0/0",
+        "source_unit_hash": "dfec64c3148675d7ee6b4b3594f050562320edad6716894c0fe5aa03fc3ac279",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/4/1/0",
+        "source_unit_hash": "e9c5fa31809c8b7009447ceb1a83287d77870f10e516db9a6f84a0fa1538ae4c",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/4/2/0",
+        "source_unit_hash": "7cacf57933c1a10bb56be14774b2f18dcf4143671e2b55ff6398e0d96a552d8f",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/5/0/0",
+        "source_unit_hash": "de59d66e5d72811fd89564cf1be88f7013c18fd5371bfc795e89d52251c54156",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/5/1/0",
+        "source_unit_hash": "246917ae4dca5154d0ccd31e88faa8458f89a4ff4ddd20c592c50bc2bbb4f267",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/5/2/0",
+        "source_unit_hash": "7cacf57933c1a10bb56be14774b2f18dcf4143671e2b55ff6398e0d96a552d8f",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "23236eede74317b7c82b8b7e3dc7b073a5c59fe7627532ddadbfe35836d84fc8",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "4dc8ace7945aa1bd3eabfdec99e2d6021c7954c893dfd26f027bf3524663efd5",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "2c032432f2184de7ea23d36baa5c64c257a949c3c62847bba029dcdef5ee9435",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "2dfea1531a135bcdea70b8c63cff9c1e79fd21c9356c713b81bc6e4e9432f7ff",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "2d372c1ce7b2e4a7d923f8bffb1a1e64df2563c8fd5d9a2f84211513847ab28b",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "440151f9e5de9c5d383ef286c223a48f6eac0bcfeb21aa5739bd2c6c32f896f3",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/0/0/0",
+        "source_unit_hash": "b195e67d72a3684d969adde85939d362031c077e178354caf599e37e1ab1fa7e",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/0/1/0",
+        "source_unit_hash": "dd921c923ad64ce4a33beb13986e4daabef27c8c5581e73ddce876ba27a1ce85",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/0/2/0",
+        "source_unit_hash": "2e351e3652b5d9557c1ac244ffc3c7c9bd7a197fbb5ce2dda7d9f1a752768feb",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/1/0/0",
+        "source_unit_hash": "6513b7f43abd6bccf130e54db68e978591b084d5e0202a889c7ebd36701eb921",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/1/1/0",
+        "source_unit_hash": "93896785fe75bb12f1c1b1c2c967f4e24d039b29e2bb3d6e1d916b8ad1758e16",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/1/2/0",
+        "source_unit_hash": "a73d995d59c48876ba4155250c1c34ac3f8d28d4cab94b3edf949ef757ea2c89",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/2/0/0",
+        "source_unit_hash": "d6217a2cef0dc71e7e5288b51c388a31ca962e5f17719dbee1777edc4c1c2e79",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/2/1/0",
+        "source_unit_hash": "93896785fe75bb12f1c1b1c2c967f4e24d039b29e2bb3d6e1d916b8ad1758e16",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/2/2/0",
+        "source_unit_hash": "641b386a361420671e8c94521f2974914648f77ad1e95a65b2629bd95a0b5224",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/3/0/0",
+        "source_unit_hash": "ba2817ca022a17a8c3f0dad6512080a9a526f08488742351ad875fd7d927755a",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/3/1/0",
+        "source_unit_hash": "0203b4529188b37984a75bbbe612c1158951302b6b953ecdb21ee83a75624ed5",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/3/2/0",
+        "source_unit_hash": "a73d995d59c48876ba4155250c1c34ac3f8d28d4cab94b3edf949ef757ea2c89",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/4/0/0",
+        "source_unit_hash": "fa02c770fafd6d83157a92459ca66ad871e76ecf6ffa9f6d7d6d915eadbf32a3",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/4/1/0",
+        "source_unit_hash": "2a1284383389f518f045b3ff16dfd893d960ed3e87a09f3a466aa9037f4961cc",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/4/2/0",
+        "source_unit_hash": "eac8ca8623a25300f3e6e081e155d1a2a4530e08e5e3fb10fa6e2b56d935b76d",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/5/0/0",
+        "source_unit_hash": "dfec64c3148675d7ee6b4b3594f050562320edad6716894c0fe5aa03fc3ac279",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/5/1/0",
+        "source_unit_hash": "93896785fe75bb12f1c1b1c2c967f4e24d039b29e2bb3d6e1d916b8ad1758e16",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/5/2/0",
+        "source_unit_hash": "278f8941252505799f02c9d2d149c31330db073508e2c333cbfefe1e49e0191a",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/6/0/0",
+        "source_unit_hash": "de59d66e5d72811fd89564cf1be88f7013c18fd5371bfc795e89d52251c54156",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/6/1/0",
+        "source_unit_hash": "93896785fe75bb12f1c1b1c2c967f4e24d039b29e2bb3d6e1d916b8ad1758e16",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/6/2/0",
+        "source_unit_hash": "c193ed361facc5ff94a8607952832cf632e50b2367a57c499d8dc229285bc7fc",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "4e1206e6914473840471d440f6913f384acad9a9300835b23151899fe1373c66",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "513600d0be59094e3157d91e4d5199b88de2ec4e9a2f49fb33602961a531ca4a",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "b4250172e9a65e9b13aa733742fa7b9ec78a9b3786d77491f95a4bd2e49bd0e7",
+        "source_anchor": "Welcome-everyone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Welcome-everyone",
+        "evidence": "Checked multimodal perceivability, readable cutscenes, personalized text/control/motion/audio, system/Unity access support, broad self-representation and respectful bias/stereotype review."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "42ca7817bdae98f5823e2c3d8ed71f23b6ca1f288b8a3ea37a0ba76068cd21fc",
+        "source_anchor": "Welcome-everyone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Welcome-everyone",
+        "evidence": "Checked multimodal perceivability, readable cutscenes, personalized text/control/motion/audio, system/Unity access support, broad self-representation and respectful bias/stereotype review."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/items/0/content/0",
+        "source_unit_hash": "8cceffa6cdf3f1c03fa399037b0c336861e00816fc96d81fde4e3ec4148e9b80",
+        "source_anchor": "Welcome-everyone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Welcome-everyone",
+        "evidence": "Checked multimodal perceivability, readable cutscenes, personalized text/control/motion/audio, system/Unity access support, broad self-representation and respectful bias/stereotype review."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/items/1/content/0",
+        "source_unit_hash": "d72d1c88bd62d617618b683958c9a3a0764f70def38d24305e04c95446ef5852",
+        "source_anchor": "Welcome-everyone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Welcome-everyone",
+        "evidence": "Checked multimodal perceivability, readable cutscenes, personalized text/control/motion/audio, system/Unity access support, broad self-representation and respectful bias/stereotype review."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/items/2/content/0",
+        "source_unit_hash": "23626b91f579b767e5ab4b528a4b9a3ea0473aa10a9fab7cf713ab1e70102923",
+        "source_anchor": "Welcome-everyone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Welcome-everyone",
+        "evidence": "Checked multimodal perceivability, readable cutscenes, personalized text/control/motion/audio, system/Unity access support, broad self-representation and respectful bias/stereotype review."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/items/3/content/0",
+        "source_unit_hash": "a3064cbbf9b7c0717f64ba2970caecdce7082b077e6c6b5861f9d53010975a04",
+        "source_anchor": "Welcome-everyone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Welcome-everyone",
+        "evidence": "Checked multimodal perceivability, readable cutscenes, personalized text/control/motion/audio, system/Unity access support, broad self-representation and respectful bias/stereotype review."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/items/4/content/0",
+        "source_unit_hash": "19f8250c019adae84bf31e0a3fa7a26919787a8cf79dce43670995b9609be96e",
+        "source_anchor": "Welcome-everyone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Welcome-everyone",
+        "evidence": "Checked multimodal perceivability, readable cutscenes, personalized text/control/motion/audio, system/Unity access support, broad self-representation and respectful bias/stereotype review."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "92a513392c465204fb320ff1e6ad76029f3de5f752ab06d04b68054208088eda",
+        "source_anchor": "Welcome-everyone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Welcome-everyone",
+        "evidence": "Checked multimodal perceivability, readable cutscenes, personalized text/control/motion/audio, system/Unity access support, broad self-representation and respectful bias/stereotype review."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "fb29d3890a93f6cae951f008489e28e4eb0aff81348bc0293ea11defb3235dd1",
+        "source_anchor": "Welcome-everyone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Welcome-everyone",
+        "evidence": "Checked multimodal perceivability, readable cutscenes, personalized text/control/motion/audio, system/Unity access support, broad self-representation and respectful bias/stereotype review."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "3c7e109d1e56a01914ca91ace910fdeea3bb1f0e9d6b41b619373e88d52e7a87",
+        "source_anchor": "Welcome-everyone",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Welcome-everyone",
+        "evidence": "Checked multimodal perceivability, readable cutscenes, personalized text/control/motion/audio, system/Unity access support, broad self-representation and respectful bias/stereotype review."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "c9f693a6827fea417317b813d50b2c3b85d30f28f997c7d2d444890eb6fee4b1",
+        "source_anchor": "Adopt-Apple-technologies",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Adopt-Apple-technologies",
+        "evidence": "Checked Game Center functions, GameSave cross-device state, stated Core Haptics platforms/controllers and optional audio, multichannel Spatial Audio, permissioned AR/ML/health/camera/mic/location integration and purchase relationship."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "27561b2539dec73c259c2c2d5b8e1fd626282617dde57383eb433bcf98b12920",
+        "source_anchor": "Adopt-Apple-technologies",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Adopt-Apple-technologies",
+        "evidence": "Checked Game Center functions, GameSave cross-device state, stated Core Haptics platforms/controllers and optional audio, multichannel Spatial Audio, permissioned AR/ML/health/camera/mic/location integration and purchase relationship."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "67110150d74abd7cd3f9d81adbae99e9f6abaa832e7248e7c8751268e5de89f0",
+        "source_anchor": "Adopt-Apple-technologies",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Adopt-Apple-technologies",
+        "evidence": "Checked Game Center functions, GameSave cross-device state, stated Core Haptics platforms/controllers and optional audio, multichannel Spatial Audio, permissioned AR/ML/health/camera/mic/location integration and purchase relationship."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "24f24d42edd37e24af85cf80baeeff17e049bfc3247c45ccad026299b7b5ec6e",
+        "source_anchor": "Adopt-Apple-technologies",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Adopt-Apple-technologies",
+        "evidence": "Checked Game Center functions, GameSave cross-device state, stated Core Haptics platforms/controllers and optional audio, multichannel Spatial Audio, permissioned AR/ML/health/camera/mic/location integration and purchase relationship."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "234e6a3c1cb017a20e7ae0aa5c2b8ea5096c3412569fda67e14818217c9c5d4f",
+        "source_anchor": "Adopt-Apple-technologies",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Adopt-Apple-technologies",
+        "evidence": "Checked Game Center functions, GameSave cross-device state, stated Core Haptics platforms/controllers and optional audio, multichannel Spatial Audio, permissioned AR/ML/health/camera/mic/location integration and purchase relationship."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "8ed2048ca0988883d3537650b31754f7fc2b86619f8a32c5f8579499c9013be7",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "ccaf8b5c17a56cba7f23bdb5fba4dff3e4d43ef89df0c85bd3a2da010c791c1f",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "6e8b1ee7237ba4defd17970539f7bff9327a2d80eba6ec7980e4c19ccf07b49b",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "2fce7d6cf4a425255eea65f280ca3a614f6af33dd297945e626d21c268a2542c",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "62ad63487fb067f26438794eb6b97bbb4bf883586275c7e580682d79488f7992",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/1/0/0",
+        "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/1/1/0",
+        "source_unit_hash": "69620c8ab0700a911f11f661fa9e6a304f9e4da354612bcd6e5068868e436142",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/2/0/0",
+        "source_unit_hash": "6fbfd8192538c86013ae1170ead307313ca6290dbe20e9b9a262d8ed4dbef179",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/48/rows/2/1/0",
+        "source_unit_hash": "81a93da0a554cc0183125fbd9de8fe226bc5a79d5a27f9174211a0ffc5780895",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "af34a701e2adc1336bcddd5185f97a66b483e01b10e1568100d5bf024e69eb7e",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "a680a80b7c521c16add04ac9e94e3729130aa701260b595449adab5ab8dea718",
+        "source_anchor": "Look-stunning-on-every-display",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Look-stunning-on-every-display",
+        "evidence": "Verified every default/minimum font and button-table value/unit against source, documented source prose/table discrepancy explicitly, resolution-independent/scalable art, safe areas, aspect ratios/orientations and full-screen/Full Space behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "440151f9e5de9c5d383ef286c223a48f6eac0bcfeb21aa5739bd2c6c32f896f3",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "62ad63487fb067f26438794eb6b97bbb4bf883586275c7e580682d79488f7992",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      }
+    ],
+    "supporting_files": [],
+    "issues": []
+  },
+  "media": {
+    "platforms-games-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed actual introductory or principle-symbol image. It identifies the topic or principle; the corresponding rule is fully expressed in the reviewed local prose, without an additional visual-only specification.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "decorative",
+      "binary_hash": "9511e80fafa956ca979ac26e24a8a5cb9f299db86dc6dfe536b22e2a915ad069",
+      "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+      "destination_hash": "feed7736b867947871db55afead07598f6727cf043b987a4177cc092726ffcb9",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+          "hash": "feed7736b867947871db55afead07598f6727cf043b987a4177cc092726ffcb9"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-games-intro@2x.png",
+      "reference_metadata_hash": "786684121fcfd5c31cc51a2cf95b6df3ea31904d822567c07bd750452da94228",
+      "appearance_variant_disposition": "Final actual paired inspection completed; the decorative appearance contains no additional design rule.",
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-games-intro~dark@2x.png",
+          "binary_hash": "7a5205752be9a420b5c19e4bb2847fbd029a92832831eee7f47928e518258981",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "reviewed_at": "2026-10-25T13:51:33.711696+00:00",
+          "review_method": "actual primary/alternate image-pair visual comparison in the final decorative-alternate gallery",
+          "evidence": "Actually compared the themed device/component illustration pair. Only appearance/background/foreground contrast changes; the device silhouette or sample content remains equivalent and adds no independent normative rule."
+        }
+      ]
+    }
+  }
+}

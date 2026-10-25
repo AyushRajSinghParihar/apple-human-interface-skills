@@ -1,0 +1,336 @@
+{
+  "review": {
+    "slug": "nearby-interactions",
+    "status": "reviewed",
+    "source_hash": "41106c7febc75ea6958c89cf12aa0e243be8931ab1995d59b5f201f946a0ccd3",
+    "destination_hash": "e02f50b1a2fabf368de838d8777fa77d76936beb44eb403f6eca870392d6f02d",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:09:19+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "nearby-interactions",
+        "status": "reviewed",
+        "evidence": "Checked UWB compatibility, in-use permission and session-scoped random identifiers."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked physical-world task design, combined direction/distance/context, proximity detail, continuous multimodal feedback and mandatory task alternatives."
+      },
+      {
+        "source_anchor": "Device-usage",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Device-usage",
+        "status": "reviewed",
+        "evidence": "Checked portrait guidance, directional field of view, distance-only fallback and occlusion by people/animals/large objects."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "No extra iPadOS rules and unsupported Mac/TV/Vision retained."
+      },
+      {
+        "source_anchor": "iOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "iOS",
+        "status": "reviewed",
+        "evidence": "Distance plus direction retained."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Distance-only and foreground requirement for every participating watch app retained."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "66378a2a0620233544cc9a58464ca46337eb58acc36f574d9a84850bdb53494a",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "nearby-interactions",
+        "evidence": "Checked UWB compatibility, in-use permission and session-scoped random identifiers."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "7cda8a975231f7c6fc4d6b22e24f9a34fe43d556574a4a97c2fa36bf8e28de57",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "nearby-interactions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked UWB compatibility, in-use permission and session-scoped random identifiers."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "0286fd9a73a91b652166c9328daa8bed4d8e57294d465acedcde869d724e67a0",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "nearby-interactions",
+        "evidence": "Checked UWB compatibility, in-use permission and session-scoped random identifiers."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "d86923c0ca33b4b8d336571ca48d2f4899ba0cf4edb6c1846cb7a129f6000e3f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "nearby-interactions",
+        "evidence": "Checked UWB compatibility, in-use permission and session-scoped random identifiers."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "d9bc18506242753a8d678758775174cf996b63fe986794bdbd37f048ddc52c3c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-world task design, combined direction/distance/context, proximity detail, continuous multimodal feedback and mandatory task alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "e1406fa77efac8adac11b5c13c827c271703ee0c895d7874dbc385928561f805",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-world task design, combined direction/distance/context, proximity detail, continuous multimodal feedback and mandatory task alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "f15b69cd542f993824af40b1114e40b78607132c4415e06a76172608f9f2c05b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-world task design, combined direction/distance/context, proximity detail, continuous multimodal feedback and mandatory task alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "afc0cf24ffebab952327d43f4cc5563b84ef5ef14d53917f9f17d6c238890239",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-world task design, combined direction/distance/context, proximity detail, continuous multimodal feedback and mandatory task alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "46132af395b936c1662407d86757653656dc532acf47dd8e5b1e237a5ef98b82",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-world task design, combined direction/distance/context, proximity detail, continuous multimodal feedback and mandatory task alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "c7c0813442b9ff43607b3a2ba346a59d7dce54ba93114816c699b8290daaa06f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-world task design, combined direction/distance/context, proximity detail, continuous multimodal feedback and mandatory task alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "366449de1700d4cff5f4ffbfe60de94c58fdd1aa161cb9632d2ffe38e4a55db9",
+        "source_anchor": "Device-usage",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Device-usage",
+        "evidence": "Checked portrait guidance, directional field of view, distance-only fallback and occlusion by people/animals/large objects."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "e995906ad3d180b4d8014be4fb5b431099fb7b7d2ea7186b6fe4e6060153ffb5",
+        "source_anchor": "Device-usage",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Device-usage",
+        "evidence": "Checked portrait guidance, directional field of view, distance-only fallback and occlusion by people/animals/large objects."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "36a6df141db947f0f8de00089b6c3ceda1200626721d58739daa6857182b2874",
+        "source_anchor": "Device-usage",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Device-usage",
+        "evidence": "Checked portrait guidance, directional field of view, distance-only fallback and occlusion by people/animals/large objects."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "f8f60b5a02c14f7d0fa6a1bd4b020b667f56693394045d0e9d4589cfcfad5e91",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "No extra iPadOS rules and unsupported Mac/TV/Vision retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "1b3968f96ceec579882c052988a907b1ac3b5a77c4794ea0aedf3c9070275392",
+        "source_anchor": "iOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "iOS",
+        "evidence": "Distance plus direction retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "b3ebb9b565be641e92a375a9d2136566d7e306780eb5c50e3eb3af8fe1bcd351",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Distance-only and foreground requirement for every participating watch app retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "6427aa81d9828b0d03c4c78a3b225a41d7af45949cc573a6937b8bbe9ec70e2f",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "94bb5035d54e64233250d1c8a5571a9547e184166fd47c8d7d97dd22a7689d42",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "3ba5c369722006fe04f96eb88d718ac5d159fa6daa94e3adb01028046e909d21",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/1/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/1/1/0",
+        "source_unit_hash": "d7ba8ed460d9b4de3a5d5f1ceba8c55f73216705ae3635ef4792529f67f81fb8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "3ba5c369722006fe04f96eb88d718ac5d159fa6daa94e3adb01028046e909d21",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

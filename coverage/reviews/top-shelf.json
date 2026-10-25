@@ -1,0 +1,936 @@
+{
+  "review": {
+    "slug": "top-shelf",
+    "status": "reviewed",
+    "source_hash": "a251b36a7dedbe55d5de8d2872a3fb716d9556d789b3d844e1c623e6ae029366",
+    "destination_hash": "2d1aea6ae84561d6b563b11355edb320cb70bb82d79c5c17ca1cd4fafef44efd",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:16:11.318861+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "top-shelf",
+        "status": "reviewed",
+        "evidence": "Checked Home/Dock content discovery, fullscreen previews and Play/More Info interaction."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified direct content, fresh/personalized recommendations, ads/pricing restraint, dynamic/layered preference and exact 2320×720 pt/@1x/@2x fallback plus 1920 px/16:9 noninteractive treatment."
+      },
+      {
+        "source_anchor": "Dynamic-layouts",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Dynamic-layouts",
+        "status": "reviewed",
+        "evidence": "Checked three layout choices."
+      },
+      {
+        "source_anchor": "Carousel-actions",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Carousel-actions",
+        "status": "reviewed",
+        "evidence": "Verified familiar-content scope and short title/subtitle."
+      },
+      {
+        "source_anchor": "Carousel-details",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Carousel-details",
+        "status": "reviewed",
+        "evidence": "Checked contextual metadata, current-title placement and attribution."
+      },
+      {
+        "source_anchor": "Sectioned-content-row",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Sectioned-content-row",
+        "status": "reviewed",
+        "evidence": "Verified full-width minimum, labels/focus behavior and multiple labels."
+      },
+      {
+        "source_anchor": "Poster-23",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Poster-23",
+        "status": "reviewed",
+        "evidence": "Compared all actual/focused/unfocused poster dimensions and @1x/@2x units."
+      },
+      {
+        "source_anchor": "Square-11",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Square-11",
+        "status": "reviewed",
+        "evidence": "Compared all square dimensions."
+      },
+      {
+        "source_anchor": "169",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "169",
+        "status": "reviewed",
+        "evidence": "Compared all widescreen dimensions and mixed-height 500 px scaling example."
+      },
+      {
+        "source_anchor": "Scrolling-inset-banner",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified tvOS-only scope."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "a7a9820d856d68181e7b26c4fa913a1d9e3311b33f596d3510e52f53ae9b86a9",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "top-shelf",
+        "evidence": "Checked Home/Dock content discovery, fullscreen previews and Play/More Info interaction."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "d70840e0ff90622e8c99b2925de3a1765a8b1a6d4eb51823479860d78b5036a1",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "top-shelf",
+        "evidence": "Checked Home/Dock content discovery, fullscreen previews and Play/More Info interaction. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "225c7fce12f7889feba8c088f72a644aa4d99923c11311a269e4643ba6972b54",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "top-shelf",
+        "evidence": "Checked Home/Dock content discovery, fullscreen previews and Play/More Info interaction."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "3a1b30729c2c901fd5a7eece6ef162060372ffea20f93a0b2d9758d3b17ac73d",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "top-shelf",
+        "evidence": "Checked Home/Dock content discovery, fullscreen previews and Play/More Info interaction."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "790156e5b12279ea5f2a625cd813b78a472af787a7b362c20cc60eae805f4130",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "top-shelf",
+        "evidence": "Checked Home/Dock content discovery, fullscreen previews and Play/More Info interaction."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "6ba3cf9dcf21ea82d1c95c63d670aa7b76a00f92863e6bbb0ececa63e2f01f26",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified direct content, fresh/personalized recommendations, ads/pricing restraint, dynamic/layered preference and exact 2320×720 pt/@1x/@2x fallback plus 1920 px/16:9 noninteractive treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "5ae072504a4fca7fc971550c2233308d3e619c8c5eb7905cb7f734b09019ad48",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified direct content, fresh/personalized recommendations, ads/pricing restraint, dynamic/layered preference and exact 2320×720 pt/@1x/@2x fallback plus 1920 px/16:9 noninteractive treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "740d6525977c66dbbd363584fdf9ab0fa1fc94d36d7f9b6847a56d6c99ea738b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified direct content, fresh/personalized recommendations, ads/pricing restraint, dynamic/layered preference and exact 2320×720 pt/@1x/@2x fallback plus 1920 px/16:9 noninteractive treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "d0785494f23a1a170ae227ec70ce5c7c2f7bd767110b210fcebaac4870f8222a",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified direct content, fresh/personalized recommendations, ads/pricing restraint, dynamic/layered preference and exact 2320×720 pt/@1x/@2x fallback plus 1920 px/16:9 noninteractive treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "40138c766c19f24f02c887e3e0141c225a7d9c9dc6416229c59427798a6db177",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified direct content, fresh/personalized recommendations, ads/pricing restraint, dynamic/layered preference and exact 2320×720 pt/@1x/@2x fallback plus 1920 px/16:9 noninteractive treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "8b9079769c844a307a0a1f3665af2cd78d64c4aaf0f61402022e5c2a823e83cf",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified direct content, fresh/personalized recommendations, ads/pricing restraint, dynamic/layered preference and exact 2320×720 pt/@1x/@2x fallback plus 1920 px/16:9 noninteractive treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "1cdf79036ec9bd3e761d88478ed071de71ee36ae1d1c3ad817c75ba87a9cc376",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified direct content, fresh/personalized recommendations, ads/pricing restraint, dynamic/layered preference and exact 2320×720 pt/@1x/@2x fallback plus 1920 px/16:9 noninteractive treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/rows/0/0/0",
+        "source_unit_hash": "354f655c9f25a7265756f9c056550818bdfc770453a589a9f1778504467861bc",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified direct content, fresh/personalized recommendations, ads/pricing restraint, dynamic/layered preference and exact 2320×720 pt/@1x/@2x fallback plus 1920 px/16:9 noninteractive treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/rows/1/0/0",
+        "source_unit_hash": "9ae7c62e7201cc6f91f9724bdf2cb5f46c273e1d2f4b4db78d7fbbc02b7c4a08",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified direct content, fresh/personalized recommendations, ads/pricing restraint, dynamic/layered preference and exact 2320×720 pt/@1x/@2x fallback plus 1920 px/16:9 noninteractive treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "ed1927300aa21e8e9e11c18d970a559d073616daacfd68d77f998b6ba5303cdd",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified direct content, fresh/personalized recommendations, ads/pricing restraint, dynamic/layered preference and exact 2320×720 pt/@1x/@2x fallback plus 1920 px/16:9 noninteractive treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "ed9dad011bdd9b44940581e1caa8c9b51265bc0570514f1c54353b3bd5e9c5f8",
+        "source_anchor": "Dynamic-layouts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Dynamic-layouts",
+        "evidence": "Checked three layout choices."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "13627866d1587b8ce4aa840ea41ed22e6293bf914e28fe8726cdffc87a31ac4b",
+        "source_anchor": "Dynamic-layouts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Dynamic-layouts",
+        "evidence": "Checked three layout choices."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/items/0/content/0",
+        "source_unit_hash": "8295d87ca08faedac6cca5ad4ae53eefac1ac720a6dbb64f8499c9a24dbdcda1",
+        "source_anchor": "Dynamic-layouts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Dynamic-layouts",
+        "evidence": "Checked three layout choices."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/items/1/content/0",
+        "source_unit_hash": "1e329a0a46f3f06b11700526c19685187d8addc7a4d9611d9e1d95752237b867",
+        "source_anchor": "Dynamic-layouts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Dynamic-layouts",
+        "evidence": "Checked three layout choices."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/items/2/content/0",
+        "source_unit_hash": "f5fb399570cd4d9fb7197683bec34eb06d235b00c8f57099622e41cce59c7f66",
+        "source_anchor": "Dynamic-layouts",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Dynamic-layouts",
+        "evidence": "Checked three layout choices."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "510143f84540c8c4385ce79cdb58cde2bbf155939cb896be3e67e0059b67ffe0",
+        "source_anchor": "Carousel-actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Carousel-actions",
+        "evidence": "Verified familiar-content scope and short title/subtitle."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "f703f0f5a058aac259c13f6027221d1e53cab9a833550e301af09bb76668a29d",
+        "source_anchor": "Carousel-actions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Carousel-actions",
+        "evidence": "Verified familiar-content scope and short title/subtitle."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "25216e765e143db2854c7d913974686ce500848f59ba170409d5847b16aa491f",
+        "source_anchor": "Carousel-details",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Carousel-details",
+        "evidence": "Checked contextual metadata, current-title placement and attribution."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "b622887d66f99696ffa0d1d3ba291c4fad8a2596ea7e74226bdc7f22a91b10d1",
+        "source_anchor": "Carousel-details",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Carousel-details",
+        "evidence": "Checked contextual metadata, current-title placement and attribution."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "d85fe84236863e796b5565bc3babe5e95ad9027a970a3fd480ae8d7b5d3320f8",
+        "source_anchor": "Sectioned-content-row",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Sectioned-content-row",
+        "evidence": "Verified full-width minimum, labels/focus behavior and multiple labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "8a1ee88101738845d2a172c4d3ed2b46ae69be7f74e22f55f7ff848ea602cb18",
+        "source_anchor": "Sectioned-content-row",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Sectioned-content-row",
+        "evidence": "Verified full-width minimum, labels/focus behavior and multiple labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "973f268b0dd0849cfd1c62fb7d5e5abdb65bc403264edff101332b726cbe52d3",
+        "source_anchor": "Sectioned-content-row",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Sectioned-content-row",
+        "evidence": "Verified full-width minimum, labels/focus behavior and multiple labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "57d01b2f870fd13b87a994ea24d3edb3486b11393e7389873645d7dc27beb522",
+        "source_anchor": "Poster-23",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Poster-23",
+        "evidence": "Compared all actual/focused/unfocused poster dimensions and @1x/@2x units."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/inlineContent/0",
+        "source_unit_hash": "ea827f9f19f1ba30a8d3a588ee0dc12a61585f94de29f95d82ac9fa13eaebfe7",
+        "source_anchor": "Poster-23",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Poster-23",
+        "evidence": "Compared all actual/focused/unfocused poster dimensions and @1x/@2x units. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "af80cdb971a4012c03d3d5e499ac46f415ac847e9b06539c61d45614057f8181",
+        "source_anchor": "Poster-23",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Poster-23",
+        "evidence": "Compared all actual/focused/unfocused poster dimensions and @1x/@2x units."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/0/0/0",
+        "source_unit_hash": "87a6e94b35f58bca7aece866e75e43d16b2a3b477c88279ca358a200a023df55",
+        "source_anchor": "Poster-23",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Poster-23",
+        "evidence": "Compared all actual/focused/unfocused poster dimensions and @1x/@2x units."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/0/1/0",
+        "source_unit_hash": "354f655c9f25a7265756f9c056550818bdfc770453a589a9f1778504467861bc",
+        "source_anchor": "Poster-23",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Poster-23",
+        "evidence": "Compared all actual/focused/unfocused poster dimensions and @1x/@2x units."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/1/0/0",
+        "source_unit_hash": "e1b33b46fdea92a701aa81804835cc3e2f8e229931985e912cc8160b7b9bbded",
+        "source_anchor": "Poster-23",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Poster-23",
+        "evidence": "Compared all actual/focused/unfocused poster dimensions and @1x/@2x units."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/1/1/0",
+        "source_unit_hash": "165ab1e86120b62263ec31ac36dde296bc64709961bc0c9d0924d45cffb7d5f2",
+        "source_anchor": "Poster-23",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Poster-23",
+        "evidence": "Compared all actual/focused/unfocused poster dimensions and @1x/@2x units."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/2/0/0",
+        "source_unit_hash": "347b6dc32fe3329aeffe5492940f21ab7cfd2004a8ed320ca520b6cf762e9384",
+        "source_anchor": "Poster-23",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Poster-23",
+        "evidence": "Compared all actual/focused/unfocused poster dimensions and @1x/@2x units."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/2/1/0",
+        "source_unit_hash": "d845fd371c7d09b3137968c3440ee45d3d2638e12a3e927d6a0a6a2cd6bd0453",
+        "source_anchor": "Poster-23",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Poster-23",
+        "evidence": "Compared all actual/focused/unfocused poster dimensions and @1x/@2x units."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/3/0/0",
+        "source_unit_hash": "e231a2425f5706dc3b763bc669bd8417e5cbcb2cbb59ecb88f6584c1a144bd7a",
+        "source_anchor": "Poster-23",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Poster-23",
+        "evidence": "Compared all actual/focused/unfocused poster dimensions and @1x/@2x units."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/3/1/0",
+        "source_unit_hash": "7889f7cc452c60faa80984af446a3ce4efa2430add7e479865353f0d88eaf6be",
+        "source_anchor": "Poster-23",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Poster-23",
+        "evidence": "Compared all actual/focused/unfocused poster dimensions and @1x/@2x units."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "2d199ed64bb8aeb03f93e751ae739ad39e4117b6c0a4369941d3676f82af669d",
+        "source_anchor": "Square-11",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Square-11",
+        "evidence": "Compared all square dimensions."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/inlineContent/0",
+        "source_unit_hash": "c0e5734c42ecac996dde754d17c36a8c56be5b878b88bafadb390dd0f812259c",
+        "source_anchor": "Square-11",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Square-11",
+        "evidence": "Compared all square dimensions. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "5d9587ef463289f68dfb5bfd78340c9963f72e897f937bb8c0914aa2003e38b0",
+        "source_anchor": "Square-11",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Square-11",
+        "evidence": "Compared all square dimensions."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/rows/0/0/0",
+        "source_unit_hash": "87a6e94b35f58bca7aece866e75e43d16b2a3b477c88279ca358a200a023df55",
+        "source_anchor": "Square-11",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Square-11",
+        "evidence": "Compared all square dimensions."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/rows/0/1/0",
+        "source_unit_hash": "354f655c9f25a7265756f9c056550818bdfc770453a589a9f1778504467861bc",
+        "source_anchor": "Square-11",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Square-11",
+        "evidence": "Compared all square dimensions."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/rows/1/0/0",
+        "source_unit_hash": "e1b33b46fdea92a701aa81804835cc3e2f8e229931985e912cc8160b7b9bbded",
+        "source_anchor": "Square-11",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Square-11",
+        "evidence": "Compared all square dimensions."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/rows/1/1/0",
+        "source_unit_hash": "5934f6df7bb10333d0bdbe3ab67942d007e616d9a29b124c9a1ed658e7774cba",
+        "source_anchor": "Square-11",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Square-11",
+        "evidence": "Compared all square dimensions."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/rows/2/0/0",
+        "source_unit_hash": "347b6dc32fe3329aeffe5492940f21ab7cfd2004a8ed320ca520b6cf762e9384",
+        "source_anchor": "Square-11",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Square-11",
+        "evidence": "Compared all square dimensions."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/rows/2/1/0",
+        "source_unit_hash": "a83438b3ca680061724a0c067ebfde044196bb11172c86097f4d4d1421e7d7f2",
+        "source_anchor": "Square-11",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Square-11",
+        "evidence": "Compared all square dimensions."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/rows/3/0/0",
+        "source_unit_hash": "e231a2425f5706dc3b763bc669bd8417e5cbcb2cbb59ecb88f6584c1a144bd7a",
+        "source_anchor": "Square-11",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Square-11",
+        "evidence": "Compared all square dimensions."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/rows/3/1/0",
+        "source_unit_hash": "fe84df0a536a384a2073c1ce7bc512cabb88bdbb0f8f8d9626448070fccf01d4",
+        "source_anchor": "Square-11",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Square-11",
+        "evidence": "Compared all square dimensions."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "dc8004fcd92b812935cdcd792efe785e51aa967616b048ddda0dd99cfcef77d2",
+        "source_anchor": "169",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "169",
+        "evidence": "Compared all widescreen dimensions and mixed-height 500 px scaling example."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/inlineContent/0",
+        "source_unit_hash": "c0479122ec45c07010950a2b3be007eed81b2ab6389e1eee23164b1895a60bbf",
+        "source_anchor": "169",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "169",
+        "evidence": "Compared all widescreen dimensions and mixed-height 500 px scaling example. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "e1cea3f6cc5d06040b5e26fcdf33d47177509bad82bdb3ec06b92378e7c2cdbd",
+        "source_anchor": "169",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "169",
+        "evidence": "Compared all widescreen dimensions and mixed-height 500 px scaling example."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/0/0/0",
+        "source_unit_hash": "87a6e94b35f58bca7aece866e75e43d16b2a3b477c88279ca358a200a023df55",
+        "source_anchor": "169",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "169",
+        "evidence": "Compared all widescreen dimensions and mixed-height 500 px scaling example."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/0/1/0",
+        "source_unit_hash": "354f655c9f25a7265756f9c056550818bdfc770453a589a9f1778504467861bc",
+        "source_anchor": "169",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "169",
+        "evidence": "Compared all widescreen dimensions and mixed-height 500 px scaling example."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/0/0",
+        "source_unit_hash": "e1b33b46fdea92a701aa81804835cc3e2f8e229931985e912cc8160b7b9bbded",
+        "source_anchor": "169",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "169",
+        "evidence": "Compared all widescreen dimensions and mixed-height 500 px scaling example."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/1/0",
+        "source_unit_hash": "c8e3ac153c3f86afc59f5076eae41fab2e75ab712b382668f44b0a7135ffb3f4",
+        "source_anchor": "169",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "169",
+        "evidence": "Compared all widescreen dimensions and mixed-height 500 px scaling example."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/2/0/0",
+        "source_unit_hash": "347b6dc32fe3329aeffe5492940f21ab7cfd2004a8ed320ca520b6cf762e9384",
+        "source_anchor": "169",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "169",
+        "evidence": "Compared all widescreen dimensions and mixed-height 500 px scaling example."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/2/1/0",
+        "source_unit_hash": "490a1c9de1f50e895138ed2122cba49b3e1b74cc4a61abcbfdc0989373257125",
+        "source_anchor": "169",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "169",
+        "evidence": "Compared all widescreen dimensions and mixed-height 500 px scaling example."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/3/0/0",
+        "source_unit_hash": "e231a2425f5706dc3b763bc669bd8417e5cbcb2cbb59ecb88f6584c1a144bd7a",
+        "source_anchor": "169",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "169",
+        "evidence": "Compared all widescreen dimensions and mixed-height 500 px scaling example."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/3/1/0",
+        "source_unit_hash": "15d8558451973d7ab4cc4c914b54a7d24b205c8c654efefad704d42cb3a345cb",
+        "source_anchor": "169",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "169",
+        "evidence": "Compared all widescreen dimensions and mixed-height 500 px scaling example."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "1288c18da67fd67f2814c62bc065c0e426282cf5dd3ca74dd7450b4ca8a89657",
+        "source_anchor": "169",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "169",
+        "evidence": "Compared all widescreen dimensions and mixed-height 500 px scaling example."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "2ed300046f051f8219f7c7ce2018895c587debb53d26a53faf04f2fca0238785",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "2a0edad8612be29761caef71c67eeaab68fa434a0981423842b91d24e11f9dbe",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "b03162f4d4c3d96394b6e9822886fe4388be38c29ae9549de0b3bbc28fb875ae",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "c97c7ceed9822f7a354a221f801c20199a4f97d299e26cf68c4b6df95b424a1e",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "c81db6252b1332ca68b5ea83ddbf7710a5cb3f536b85b29dcd7b20be83db1797",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/inlineContent/0",
+        "source_unit_hash": "2664619a203686b59c66e63a295cb4c0735f23af536a43c6c8ffb3981f592dde",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "23521aafa0a718bae972636348edbfb78f3bb06f0fada09d3e3af7d55e283c34",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "27508579d4cca12765560dfe793ebb6963a3a7f08cdc2004f4957370c4e62593",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/0/0/0",
+        "source_unit_hash": "87a6e94b35f58bca7aece866e75e43d16b2a3b477c88279ca358a200a023df55",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/0/1/0",
+        "source_unit_hash": "354f655c9f25a7265756f9c056550818bdfc770453a589a9f1778504467861bc",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/1/0/0",
+        "source_unit_hash": "e1b33b46fdea92a701aa81804835cc3e2f8e229931985e912cc8160b7b9bbded",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/1/1/0",
+        "source_unit_hash": "171ddf88c772d579c15228052630ee8d10472203419bda12b5d951ae829947bf",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/2/0/0",
+        "source_unit_hash": "347b6dc32fe3329aeffe5492940f21ab7cfd2004a8ed320ca520b6cf762e9384",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/2/1/0",
+        "source_unit_hash": "798e2c0bb1ab12f806c07c4a59dc85761f5aaee5747d5e1ddbf2c90b1d11a17e",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/3/0/0",
+        "source_unit_hash": "e231a2425f5706dc3b763bc669bd8417e5cbcb2cbb59ecb88f6584c1a144bd7a",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/3/1/0",
+        "source_unit_hash": "eecc3c82882f68db433c865be499dc5d941362be613d712ca152342b514eb100",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "4fa374592d972e21d57c801e02511c27f5d372a6131f372b842452cb1b72ef86",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified tvOS-only scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "60bd38a37030465cb6fc437e0fc733c211d96f329cef52dbe9ae74c0192af764",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "1cdf79036ec9bd3e761d88478ed071de71ee36ae1d1c3ad817c75ba87a9cc376",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified direct content, fresh/personalized recommendations, ads/pricing restraint, dynamic/layered preference and exact 2320×720 pt/@1x/@2x fallback plus 1920 px/16:9 noninteractive treatment."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "af80cdb971a4012c03d3d5e499ac46f415ac847e9b06539c61d45614057f8181",
+        "source_anchor": "Poster-23",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Poster-23",
+        "evidence": "Compared all actual/focused/unfocused poster dimensions and @1x/@2x units."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "5d9587ef463289f68dfb5bfd78340c9963f72e897f937bb8c0914aa2003e38b0",
+        "source_anchor": "Square-11",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Square-11",
+        "evidence": "Compared all square dimensions."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "e1cea3f6cc5d06040b5e26fcdf33d47177509bad82bdb3ec06b92378e7c2cdbd",
+        "source_anchor": "169",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "169",
+        "evidence": "Compared all widescreen dimensions and mixed-height 500 px scaling example."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "27508579d4cca12765560dfe793ebb6963a3a7f08cdc2004f4957370c4e62593",
+        "source_anchor": "Scrolling-inset-banner",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+        "destination_anchor": "Scrolling-inset-banner",
+        "evidence": "Verified timer/focus/loop/swipe behavior, 3–8 range, image/accessibility text and every state dimension."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

@@ -1,0 +1,368 @@
+{
+  "review": {
+    "slug": "launching",
+    "status": "reviewed",
+    "source_hash": "26630c1224aa0bdab0411ebd52e8208887955d193f069d6b58c6d8544aeff459",
+    "destination_hash": "2ca0c0b8f2fc859c80c116e6d4f61677b102ddacfe5fe995ecc5aebb9d9b22e2",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:23:22.262262+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "launching",
+        "status": "reviewed",
+        "evidence": "Verified launch includes initial download and ends at the first usable screen, with onboarding afterward."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Retains prompt interaction, required launch screens on iOS/iPadOS/tvOS versus not required elsewhere, branded splash placement after launch/in onboarding, and granular state/scroll/window restoration."
+      },
+      {
+        "source_anchor": "Launch-screens",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Launch-screens",
+        "status": "reviewed",
+        "evidence": "Rechecked corrected exception: logos/branding allowed only as fixed parts of the first screen. Also verified first-screen/color/orientation/appearance matching, unlocalized-text avoidance, no advertising/About presentation, and Mac/vision/watch inapplicability."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Launch-screen platform applicability and no additional Mac/watch rules remain consistent."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Current supported orientation and both landscape rotation directions are preserved."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Static rather than layered imagery and optional live playback after a few idle seconds are retained."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Initial Shared Space context/loading window and person-chosen Full Space transition remain explicit."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "d685d3bc7de7452bb7abb3e71b011f60faf560dc21e1847a21821c2f0b1d7756",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "launching",
+        "evidence": "Verified launch includes initial download and ends at the first usable screen, with onboarding afterward."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "617c5c432f0e65cac093edd939fd42182136bf462dbb17e6673126bcd9f8dc9b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "launching",
+        "evidence": "Verified launch includes initial download and ends at the first usable screen, with onboarding afterward. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "521797a4b5c447df7249766505ce6b5c78b6aa36e12e0da01730771a80758b1d",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "launching",
+        "evidence": "Verified launch includes initial download and ends at the first usable screen, with onboarding afterward."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "2c480ed9ca0ebc75b3e1dfed1053e0f9b03dcb3740bd249eed0e6d5db5d07185",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains prompt interaction, required launch screens on iOS/iPadOS/tvOS versus not required elsewhere, branded splash placement after launch/in onboarding, and granular state/scroll/window restoration."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "d82adbb8ea0c3b744b046dbe2bb8a6723e36a2a50409c417e868287007dc2651",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains prompt interaction, required launch screens on iOS/iPadOS/tvOS versus not required elsewhere, branded splash placement after launch/in onboarding, and granular state/scroll/window restoration."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "6606010ffc97e4a4f5c022229d715b866721f46cf5e1fe0f43edba08b7d14543",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains prompt interaction, required launch screens on iOS/iPadOS/tvOS versus not required elsewhere, branded splash placement after launch/in onboarding, and granular state/scroll/window restoration."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "5ac78a14325f9e505804153149154993f778e8350e295c03a68f039b40856c93",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains prompt interaction, required launch screens on iOS/iPadOS/tvOS versus not required elsewhere, branded splash placement after launch/in onboarding, and granular state/scroll/window restoration."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "d7fffb50bf25dff010823f54a210d8ba67210ac24b8e2508fa0b3684d7abf7c4",
+        "source_anchor": "Launch-screens",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Launch-screens",
+        "evidence": "Rechecked corrected exception: logos/branding allowed only as fixed parts of the first screen. Also verified first-screen/color/orientation/appearance matching, unlocalized-text avoidance, no advertising/About presentation, and Mac/vision/watch inapplicability."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "45cb4c1af685d4e811ca94380e7b2f9ae71fdca6aed1b3bc02d3323b2c72322a",
+        "source_anchor": "Launch-screens",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Launch-screens",
+        "evidence": "Rechecked corrected exception: logos/branding allowed only as fixed parts of the first screen. Also verified first-screen/color/orientation/appearance matching, unlocalized-text avoidance, no advertising/About presentation, and Mac/vision/watch inapplicability."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "980a976aaf45d50c885aa6aab2875e25104bdfba682220839b3cfb01d27344c9",
+        "source_anchor": "Launch-screens",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Launch-screens",
+        "evidence": "Rechecked corrected exception: logos/branding allowed only as fixed parts of the first screen. Also verified first-screen/color/orientation/appearance matching, unlocalized-text avoidance, no advertising/About presentation, and Mac/vision/watch inapplicability."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "5c0bdf92901bee409cced3fbf38cd4acedb460579e11cee5e5a4a34e876d47ac",
+        "source_anchor": "Launch-screens",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Launch-screens",
+        "evidence": "Rechecked corrected exception: logos/branding allowed only as fixed parts of the first screen. Also verified first-screen/color/orientation/appearance matching, unlocalized-text avoidance, no advertising/About presentation, and Mac/vision/watch inapplicability."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "08565253ec4173edb47285bdd8c2bfd3d27e234dadfd55c6aefdbf038822b2dc",
+        "source_anchor": "Launch-screens",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Launch-screens",
+        "evidence": "Rechecked corrected exception: logos/branding allowed only as fixed parts of the first screen. Also verified first-screen/color/orientation/appearance matching, unlocalized-text avoidance, no advertising/About presentation, and Mac/vision/watch inapplicability."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "07c0b546b84116deae910d720660efb9158845e1d1693c666eedea77a1b3c75e",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Launch-screen platform applicability and no additional Mac/watch rules remain consistent."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "64e16fd66725351e5b5933fd706910f4d4d4833c4417a63a468db23e5d60c973",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Current supported orientation and both landscape rotation directions are preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "a0918ade8d066a3a406508e0430604b7278760214c583af703422d565a7193bd",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Static rather than layered imagery and optional live playback after a few idle seconds are retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/content/0",
+        "source_unit_hash": "6c9fafaf4ac07cd0b74d21b8486f7a9746d469e138e31d9350c79d16daddc91c",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Static rather than layered imagery and optional live playback after a few idle seconds are retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "384e1d8d5fb6d65882cecfe989234cccd4796c3ef894fa25a8e7d06ce2b03ccb",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Static rather than layered imagery and optional live playback after a few idle seconds are retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "ab2e836386cba5a91fe8f7d9286a130889a32e97739d363fb94e6eebdc8d353f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Initial Shared Space context/loading window and person-chosen Full Space transition remain explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "21c110f4b3ffd0aa7367b4bc7a82b6508900d0dd0c180faf47183781dcf80ecb",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "9b067ca455c70ac20e9ca79e56ff1d8bb61bcc32bfe8f7ff406632b643389e81",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "7e3a508ebc86afca9e72124f35e46a109392ed2a2a98f76ed7798f231a022d35",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "26afdbc17b79d6e18e5065cc48577081ebedbdb4b3bd9defe19345a93ff653d1",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "78bd057335a1836dbe7856a8d4395aa5b1c4f4259c4b76ce6e3ae5d1eb9d4b5b",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/1/0/0",
+        "source_unit_hash": "6fbfd8192538c86013ae1170ead307313ca6290dbe20e9b9a262d8ed4dbef179",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/1/1/0",
+        "source_unit_hash": "2b784a720df9c11cea017cd0ac0faadb57219234d7d7622d29766d7c7588e86c",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/2/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/2/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "78bd057335a1836dbe7856a8d4395aa5b1c4f4259c4b76ce6e3ae5d1eb9d4b5b",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

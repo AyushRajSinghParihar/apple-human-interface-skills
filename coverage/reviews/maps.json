@@ -1,0 +1,1190 @@
+{
+  "review": {
+    "slug": "maps",
+    "status": "reviewed",
+    "source_hash": "2c6183482589353538df84a43060d9f90ab57e5154915a964c52e230f6317f88",
+    "destination_hash": "c0b68f037389ba4825ae5068b2f1f2dc7b2c55df7bdd2136b07be4490103bd96",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:25:50+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "maps",
+        "status": "reviewed",
+        "evidence": "Verified indoor/outdoor map interaction, annotation/overlay/routing and graphical/satellite/hybrid options."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "source_anchor": "Custom-information",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Custom-information",
+        "status": "reviewed",
+        "evidence": "Verified default marker and2–3character custom text, independent system features, above-road versus above-label layering and control contrast."
+      },
+      {
+        "source_anchor": "Place-cards",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Place-cards",
+        "status": "reviewed",
+        "evidence": "Verified current structured hours/contact/address information."
+      },
+      {
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "source_anchor": "Adding-place-cards-outside-of-a-map",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Adding-place-cards-outside-of-a-map",
+        "status": "reviewed",
+        "evidence": "Verified mandatory included map when card is outside map view and location cues for discoverability."
+      },
+      {
+        "source_anchor": "Indoor-maps",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "evidence": "Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified no extra rules for five named platforms."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Checked static tap-to-Maps behavior, runtime region, maximum five annotations, full onscreen element and smallest encompassing region."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "5def1f10d108f102fdec478c204727ca6b0b54e18e80e01b2c8026f3bf626359",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "maps",
+        "evidence": "Verified indoor/outdoor map interaction, annotation/overlay/routing and graphical/satellite/hybrid options."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "8a6ca598a564930122f14f0a2bd4855e79e75480764d7a42f094773b5fb6f7b1",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "maps",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified indoor/outdoor map interaction, annotation/overlay/routing and graphical/satellite/hybrid options."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "485398b931708c71bbe276a45a2a05e3dac1d2d746c2e2be265d5822cbb6eb42",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "maps",
+        "evidence": "Verified indoor/outdoor map interaction, annotation/overlay/routing and graphical/satellite/hybrid options."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "f245d38759403c2e90f058f9f7c9fac7b42cbc373f98443009b51255b48890ee",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "cee9dfa74378e4aefa8dee9f961e547914d9b0bf463e3b33190c4226da79ebb5",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "9cc70e4eed363f06e96a06a10bb64ec0ee1aa6d54e389a702d9d0ffc4f6ac2b5",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/items/0/content/0",
+        "source_unit_hash": "1e9f9862afbf533fff6abecdc781914f7b21b52c364e368a493e09468eea4768",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/items/1/content/0",
+        "source_unit_hash": "ad434715a23e7b0877f3a747b358d8afffd23e924a5e6628b642024e90eae648",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/6/columns/0/content/0",
+        "source_unit_hash": "8fc72eb6214d01bef0016c2b047529d45b155c7202e6698f3983db79f37814e3",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/6/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "f42abf47d52129f6110e033ed220c1896305c2f797ad27067c2db52390199ad4",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/6/columns/1/content/0",
+        "source_unit_hash": "74c1195b8c71ced6960bacf57446aca73bd090adff5659a124a36ad66d30b341",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/6/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "fcb2f969f32d13418b9741f0a4704f4917ff89ad4d3b54663c7262067972a297",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "41fb8998b4d86de8bfd815737d51ca20bdfde65952d7aa80a829a8a095a01706",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "ae4016af1b9d79ef85d29c103d08f2d86052946957213dfe2ce0e207da5bc2d7",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "93156c3d9e3337c7adcba03b40bbd17812d0e896a68f3817f27eb7df5afbb25a",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "ee968ca15b8d629367fa102b665a96f34a726d219ec9bcb2823bbb122b340519",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/0/content/0",
+        "source_unit_hash": "6723bba93dbc9b366afa3e848351e76d8ccc53bf29bdca4e32b10b2c2ebe3277",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "35ddd668c0d132c46e642defffc36f242d4ebbc32cdca39a2777e3b7f3cecab4",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/1/content/0",
+        "source_unit_hash": "90eeda2aead01537a80a8ba80349f92ede29a68e95152f755d7adfa27190a802",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "6de669000710f3e6528e301ae325949f4ea7840f9edd13db6c0d2b6ba94a16a4",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "1856e9594716a63de3f74e5e937ec406d215992c32b228027d1daa619c9e167f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "d31a3d1de8bb841afef6e4bd3b012cf6b2e44fcce3159a890763d65b183d253a",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/items/0/content/0",
+        "source_unit_hash": "c5d551d80977d7e40776d1a12c3b4cf2e2ef2890bb22ad8b3311ffd452709947",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/items/1/content/0",
+        "source_unit_hash": "a38001d632865f4ab68980e4ef64fbec28649b190a9d4b13020c2bf5ed61843b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/items/2/content/0",
+        "source_unit_hash": "4f02adc2eab6506fe69e21987ed9bc72e74415411b13c27e07db47558aac5412",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "89417b6e1c7d748530d0b6fdce0d04d6a17ae5c3944fa97b595c5fa5f4465b61",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/content/0",
+        "source_unit_hash": "b2eea3b6190347684ca549a914ee9314ad3694af7a316af5e1a09f8b5c9130c1",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked interaction, saturated/default versus muted emphasis, search/filter/selection/clustering, stable Apple legal/logo positioning,7pt sides/10pt vertical/card offset and200×100px omission threshold."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "ada318af80db0ae1835c647ce834da3cfab66e20fd7ea339473c8a05fbb096f9",
+        "source_anchor": "Custom-information",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Custom-information",
+        "evidence": "Verified default marker and2–3character custom text, independent system features, above-road versus above-label layering and control contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "5e58a63611baf2b09b7280e4f9068a2173db8bb66f7897cded5267d91c5e1c24",
+        "source_anchor": "Custom-information",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Custom-information",
+        "evidence": "Verified default marker and2–3character custom text, independent system features, above-road versus above-label layering and control contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "c0d15e76660f00685bdb657d4611b36a295b456f3a5781b2550aee0d9e008181",
+        "source_anchor": "Custom-information",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Custom-information",
+        "evidence": "Verified default marker and2–3character custom text, independent system features, above-road versus above-label layering and control contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "180257417f37017142ddc57d6f6b196348c7ef833e32f2d9c54ee24d4cc1444a",
+        "source_anchor": "Custom-information",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Custom-information",
+        "evidence": "Verified default marker and2–3character custom text, independent system features, above-road versus above-label layering and control contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/items/0/content/0",
+        "source_unit_hash": "de4944cf9d3cacd460701a36c384295a5f6f28eacaf478f4c7b67c462c4ee46a",
+        "source_anchor": "Custom-information",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Custom-information",
+        "evidence": "Verified default marker and2–3character custom text, independent system features, above-road versus above-label layering and control contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/items/1/content/0",
+        "source_unit_hash": "7bf220398049830bd0c9e00a70368437341e9955160a9add315d6bd542290249",
+        "source_anchor": "Custom-information",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Custom-information",
+        "evidence": "Verified default marker and2–3character custom text, independent system features, above-road versus above-label layering and control contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "9a90e100354787b2fbe801b808a10b5d512ccd8bf2afc3f58bfaeb08352da560",
+        "source_anchor": "Custom-information",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Custom-information",
+        "evidence": "Verified default marker and2–3character custom text, independent system features, above-road versus above-label layering and control contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "465831f60aec6f3fe44cb6a524a6d511edf16c30ecb534211044900dfc512999",
+        "source_anchor": "Custom-information",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Custom-information",
+        "evidence": "Verified default marker and2–3character custom text, independent system features, above-road versus above-label layering and control contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "20a0742ec0366832adcd90ac0116e812b1f43fa3d0817bdad76466311c28eaae",
+        "source_anchor": "Place-cards",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Place-cards",
+        "evidence": "Verified current structured hours/contact/address information."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "5b89d79be323103b6d1e540046e5dc0e93fc124cf8aeadf69c1db9f68d150a13",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "95b57c7066bbfbaed98e2ab2f789b2a68739ed878a1dc474a666aeeb6c5c91f1",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "fbf93f64dac64e205f5e3d08ee44ce23f006ffc1d73ceabadc1d7257ede02212",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/content/0",
+        "source_unit_hash": "cc8cb15030129210560fcf0067a2f18b67cd14c026e22a379fcad265ca7ab718",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "ea8fc2475aeeb3eb03440aca5070ee24e3957f2f5e5353056ae2a3d00058b8ac",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "62fd58529db19e69f6bdebf20abf11660e1c0c77c5608d6a443444fddbf42249",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/items/0/content/0",
+        "source_unit_hash": "a867bdd95ae99c330f3cbbb8f50ad8df3ba42c0ea4c58cdc9936b85caca73606",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/items/1/content/0",
+        "source_unit_hash": "9dc442e8992e0e70b41ac4e0293baddf7beea91dd914414d5ae63ade0bdf6ff4",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/items/2/content/0",
+        "source_unit_hash": "3702dd446f1219069405e6fb519b07410da55bf9156ca34b4621ddb4ea4a4a3d",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/items/3/content/0",
+        "source_unit_hash": "524bc4c651014a908bee613f1ef88e7b0e7a5f1b8ff141ff642c071947d4d738",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "e954bfa2b4d87c1c07f2543d4430eb378a58dd9e7a34486e02fd39b52e9a0736",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "e2141a2f9c95ce96c2c2f989114d3c0a2a61e8f4a1ded221ff846e2fc5ae9221",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/tabs/0/content/0",
+        "source_unit_hash": "86ad42d4797111ceedf21393adeb2a626238f4b693dd71a265651b603a0129e4",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "755a3cc69839555f5ba65fa4d728998b68555bc33d9e69bd57f467f105caa819",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/tabs/1/content/0",
+        "source_unit_hash": "c53ebe3efdc033cca7207ec425fa8e2e280a223b6dbbe3b416b1a7950d15736e",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "a5065d83781ab265fc25e9ebef009378b0a7babc7033b1879770f5dc9eda4a8b",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/tabs/2/content/0",
+        "source_unit_hash": "4dc8b8d4e04892c4bc6eb690f0cac5cc53d6d8f9477895a1f5a83796b6cf6e01",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/tabs/2/content/0/inlineContent/0",
+        "source_unit_hash": "0ff3345df78e787e7e6937b2501bc34331f28d4d3ae1b8feb864f90ac3537cdb",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/tabs/3/content/0",
+        "source_unit_hash": "8c88895411348321e6ccfb6267904aff866bbb658c0e11beaa35283dd8a70824",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/tabs/3/content/0/inlineContent/0",
+        "source_unit_hash": "7f1cb6890f022b265be5ecec899ed15503d9794951e68ce78e0b97263aa031fd",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "1d7ab00d5fa455748acbe3bcdaf7d75c7fea35dab68f764376199a961cbc259e",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "803e3173dac0d408d13e649f16092f979f2d50a6fd86fd774bffe06f09b4b398",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/inlineContent/0",
+        "source_unit_hash": "c87e0d5a3c01ef73235464dc059a14e3f6b67ace4dddb7f6fb82ca7ab6fe1072",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "d92c02374c98b819354b0886c799d62e5152e8acfb7c849ec39757b37aaa10d6",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "4ed90525938500591089ea9dcde665bfea5edcc09e08b0bc1cab9212b9da1dbb",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "49f3ce25524be429c452d215905c650dc4ff6d86aefbf238d1bfdd1c137e3438",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "426334cd085a2c2d00e36c88d87a8a011f8f3c9b2ab19038e563d0fea1ca0d0d",
+        "source_anchor": "Displaying-place-cards-in-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Displaying-place-cards-in-a-map",
+        "evidence": "Checked app/system selections, web single-place embed, automatic/full/compact/caption/sheet, full-callout iPad/Mac popover versus iOS sheet, fit/width/duplication and visible selected location."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "93910cbffba5c42f0a70f4bc6c652b00c59533d3bfad4ee3a789594619c5b612",
+        "source_anchor": "Adding-place-cards-outside-of-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Adding-place-cards-outside-of-a-map",
+        "evidence": "Verified mandatory included map when card is outside map view and location cues for discoverability."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "5eec5d224e7314bb71132948345cf2e1dfc51ce53da87cf5c8e96b523ea5f449",
+        "source_anchor": "Adding-place-cards-outside-of-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Adding-place-cards-outside-of-a-map",
+        "evidence": "Verified mandatory included map when card is outside map view and location cues for discoverability."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/content/0",
+        "source_unit_hash": "7fdbbd6220174991d76edbe62dd5170956c626aae66b2a21a53f539ed827585c",
+        "source_anchor": "Adding-place-cards-outside-of-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Adding-place-cards-outside-of-a-map",
+        "evidence": "Verified mandatory included map when card is outside map view and location cues for discoverability."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "9679af4cf1de1e88c02c05c0b0ddd9750ebaa843746506f7fe14da8571b3bcb1",
+        "source_anchor": "Adding-place-cards-outside-of-a-map",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Adding-place-cards-outside-of-a-map",
+        "evidence": "Verified mandatory included map when card is outside map view and location cues for discoverability."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "76a746bf18baec1df487af61b48c27e800301cc3bf57fc403ba0ce632e56df2e",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "34988a3fd98d762994c86cc83853762d38ee04b74db394b8e556a2626bd93929",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/tabs/0/content/0",
+        "source_unit_hash": "f418a37d9fef0451d329233ee39144b5ea76250d8ed3170a4cee047f5ba07484",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "b6f9db6da3304ba8e957bb7a318a994347ca9ba2946a69b9432a0b918ec37dd3",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/tabs/1/content/0",
+        "source_unit_hash": "b71148fa6e59e63543ef12f85b25370a7d11c1dc98c70b4ad1dd5a7b9bdfae7f",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "02a7dcfdb8acf98bf27395897b536205cab4a75f5ceabece3f282cdddbaa0a29",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/tabs/2/content/0",
+        "source_unit_hash": "cf83115ab19c9b008574157a8bcb1b87e20ef7bd5aafec27cba1c022d5c1e5d8",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/tabs/2/content/0/inlineContent/0",
+        "source_unit_hash": "d0fbae0598d7f9355037a6fc200d84dd541982bb90d23371a41ce7497ff8f148",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "792af5fe21173dadd2ed1287f3bf32ac96ca40b4e9db393fad8e4989e31e84e7",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "8de75f1fdd0a041d0e5d949bd48bba52b8a4a4ac11462e0b58e18fb4549fc1e6",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/46/inlineContent/0",
+        "source_unit_hash": "1654cf918377f0d68d5ad685ef089e54eb991fb285caada54e4ab81bc9f5d4ee",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "cd7be04965032675223103e89b799dcf5325ad5e3c8b3e6adb9ec82677036f61",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "ae8583667152e9e328a725a0a94d3a1b4195fc1eb5ecb6187d9e1cd075797cc5",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "d424da8b87409f59d32d66ed360ef03b90a78f0bb1c488342709f4b4d68215ff",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "ba80edc270cbb8d8ad3b8caa141e5b81b2b4f714aecb270b2dd214b331470e9e",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/50/inlineContent/0",
+        "source_unit_hash": "efb80f2603bbe197e4ba4c336cb4d533563d579a5c90e055bf53aa3e147f6f2f",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "d5444406bb53183099c55ab96a3930b203b555f021c1ecaff1ae297b5ccee813",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "160a153d9fc4f92a680264c370ddc2ea744aea9488f64e425fa5101706ae27d4",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "92b3cae2203180176f03d1085f72c31c8f97bb76be68a93a4db24770c8acc643",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "12b2ace2c9f7fe3ab61e5b723d06f2f5b3c32e57bb1fa577846c94e5b8c27464",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/inlineContent/0",
+        "source_unit_hash": "037ebce88d9b8c2fd381f274ac49489b221198927d7157f65263bc261ac4adbb",
+        "source_anchor": "Indoor-maps",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Indoor-maps",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked progressive detail, color plus icons, concise floor picker, nearby/transit context, supplemental styling, routes/Maps handoff, zoom-aware pan limits and app-consistent styling."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "419dff4da9c20c346eed34e1af970d92a6620fab245019a8b5c35ceb6d2b9a59",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified no extra rules for five named platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "c84ebde88d6089375909138ead70dd8fc07a27fcc1aa2044bc279f99ae913e97",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked static tap-to-Maps behavior, runtime region, maximum five annotations, full onscreen element and smallest encompassing region."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "14942575475ae9332a26113a76f8e448b5278ebedb5e0be4858749e657963c34",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked static tap-to-Maps behavior, runtime region, maximum five annotations, full onscreen element and smallest encompassing region."
+      },
+      {
+        "id": "primaryContentSections/0/content/59/inlineContent/0",
+        "source_unit_hash": "028e3fd3b62313f8a50e674be221c277daacdf33e3d3ece7b04969ee7085c96f",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked static tap-to-Maps behavior, runtime region, maximum five annotations, full onscreen element and smallest encompassing region."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "ad639b3966821aa50c62fbd135eadc773b37fb7e59699b4f55daa25923063d45",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked static tap-to-Maps behavior, runtime region, maximum five annotations, full onscreen element and smallest encompassing region."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "6bc393d4a60ee2130ebacd9998332afc3018bb60a2f6fdaaa176a3974d18e785",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked static tap-to-Maps behavior, runtime region, maximum five annotations, full onscreen element and smallest encompassing region."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "d204644fc54dcf2f8a5d09f21e52081b330c9c636d6aa9396235e8d1e87ee510",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked static tap-to-Maps behavior, runtime region, maximum five annotations, full onscreen element and smallest encompassing region."
+      },
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "e425660aed1bf27ea48a96ef1259725182998b217dd68b7a186207de2fd99a31",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/66",
+        "source_unit_hash": "897fda4d85514d0eb19402b44b7bdd8b90c7b1ef7e30f4a65bcadaa528484a66",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/67",
+        "source_unit_hash": "35a6cf6a98d5dbb54f55ea27b0a2d9131d59870e56398af125b55efdcedfe37d",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "dd4a669beff210ed9ac5ad84c86595cfdb2d9da8151f0fc0de6179d5ee4d36c1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/1/0/0",
+        "source_unit_hash": "42bd410e891319619f25f4b9d6d2461fea6a3d0511593ec389874ab52065aa87",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/1/1/0",
+        "source_unit_hash": "c08f6b1c77e3f52ebd48c93d4b8fd41743de94350147020a419d56b54633b414",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/2/0/0",
+        "source_unit_hash": "2fcab2806aebbb2b0c1f085dd684047a32efe7390a10b69cd154b0b8fc93584d",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/2/1/0",
+        "source_unit_hash": "27797b19c7d968a74900a2af66bb935b05110a62810b62981b5cf125467cc5f9",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/3/0/0",
+        "source_unit_hash": "358e96e47c9e4a7908766a7bb75bbb9a0857f8fa06a063ef9468901c36f77969",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/3/1/0",
+        "source_unit_hash": "1072c9aa7e15c62388da8f32685e5f2e41799843313481803cd755684b515874",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "dd4a669beff210ed9ac5ad84c86595cfdb2d9da8151f0fc0de6179d5ee4d36c1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

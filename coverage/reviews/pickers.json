@@ -1,0 +1,668 @@
+{
+  "review": {
+    "slug": "pickers",
+    "status": "reviewed",
+    "source_hash": "fdb6c5bb1568158abea7a691df570559180c5666787769643dc6c8699d28fc42",
+    "destination_hash": "3826e5ad2149d97273bcdf1ae0b29f9fdbde9e4404f87ed02b3fa9fa2cccdc4d",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:06:04.858476+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "pickers",
+        "status": "reviewed",
+        "evidence": "Checked single/multipart scrollable values and localized ordering plus calendar/numeric date entry."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified medium-list versus short pull-down/very-large indexed table decision, logical order, contextual presentation and minute increments dividing 60 with 15-minute example."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked visionOS no-addition scope."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Checked textual precision/space versus graphical browse/range/clock use."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Checked SwiftUI Picker availability."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Verified Crown navigation, wheels for values/date/time, outline/caption/scroll indicators and long-list navigationLink scrubbing without opening."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "66c3627ffafab49d1c30c23808d369fea0b6cc7e4bbbe6cf381e82ec22273881",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "pickers",
+        "evidence": "Checked single/multipart scrollable values and localized ordering plus calendar/numeric date entry."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "fded89b6322168541b18bf4c93bcff6066735f7fed538bf42550cbdbaf8345c0",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "pickers",
+        "evidence": "Checked single/multipart scrollable values and localized ordering plus calendar/numeric date entry. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "4df79a984eb4b2e3341bac5fca7c6a20eb9c601692001f1fe37611ff5fd7d9f1",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "pickers",
+        "evidence": "Checked single/multipart scrollable values and localized ordering plus calendar/numeric date entry."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "8b503a603f474d541b78426e46b829a24b47e51501cf975228310c1b5390d8d6",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "pickers",
+        "evidence": "Checked single/multipart scrollable values and localized ordering plus calendar/numeric date entry."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "e041fd0e11c9862ae23a50d620dcb28f0e17840083dcbd72c5addbedc51e6bbd",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified medium-list versus short pull-down/very-large indexed table decision, logical order, contextual presentation and minute increments dividing 60 with 15-minute example."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "f2047e45fed0787f7dbab1616715ddbe763acaa33648168b061be5a936f85a05",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified medium-list versus short pull-down/very-large indexed table decision, logical order, contextual presentation and minute increments dividing 60 with 15-minute example."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "30a7eb72bb0c9689ad2646fbc1b29515ae00ab08171ee5ecc72a37d874945324",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified medium-list versus short pull-down/very-large indexed table decision, logical order, contextual presentation and minute increments dividing 60 with 15-minute example."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "2de9c5d4288246b0f5b42b34a7663eed1283f3d1a9c1a643531b3056df95af86",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified medium-list versus short pull-down/very-large indexed table decision, logical order, contextual presentation and minute increments dividing 60 with 15-minute example."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "a45332a699aeabd8e49924ccd54e8f3315ea473c132058fa1357a3bd033d9954",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked visionOS no-addition scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "74085544e77f58b82c6e4699f2827b9a6c7e36c4838eb2aa0f65ba23bfe28b03",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "1fcc29b5bc09cfd68568c72c485b3269580f1acf3b979109562605ac18444083",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/items/0/content/0",
+        "source_unit_hash": "9e608df160f25c0e9d7a64b873c0e0d1393baf4291eb198ff10cd567af42f9e9",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/items/1/content/0",
+        "source_unit_hash": "0075308a71265fa78a2bddc3315b94b21ae86aaa0036be2c49381866883f0f3c",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/items/2/content/0",
+        "source_unit_hash": "9f56361c8f49935f9130feeb8a8b60daab3efc995483bf02c04243f0739a1311",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/items/3/content/0",
+        "source_unit_hash": "37340e526b17077cc7ded1258ed831b0e625f3ebac849748be2ed254934bca37",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "b08d364228c6054f1e6784238b1cc597f56ba80a670a0227f5586f0e83a10675",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "07b14124c96fb39b87305608d2c916e5d7d3e6d7b70f76ce79b0f784d047e5f5",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/items/0/content/0",
+        "source_unit_hash": "9a02e524b7ba472790f48b37d83db07f44af2af13ce43365a2fc8f45fb65c1df",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/items/1/content/0",
+        "source_unit_hash": "dafa1c6b4ab73059e9bc640437147ff38023c25065abf12c074732c3af47e896",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/items/2/content/0",
+        "source_unit_hash": "a8a6cc63c407d0699526d73e5f1786e060aa1c4678f6d6a033e0015ee6a07523",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/items/3/content/0",
+        "source_unit_hash": "89fec59d215e55091007bac715eb40fd3ed44441e0f419c596906428f38d596b",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "625ff053093899d2525a8bdfc142c910ebbc0a421a427569048852e039faa0a5",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "796dab74381ee71db7137f1bc393ca0f319935d377a7b522fd8efac40fcc6f82",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "086b0244b6e988f23a8a982fa9b8f1bb4c484d81c64aa4c7cc04f64de221809d",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/tabs/0/content/0",
+        "source_unit_hash": "773f9cfe809950221106171f0bcf1c0a1d57e749623b6685d6a5b432a0c28925",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "a812c3568fe40c71fa072e9b67720a389a50e997c27b83a77b288a89b860acbe",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/tabs/1/content/0",
+        "source_unit_hash": "b0a92a01548789ee85cfd85fc3ab7dea21f189b9ed7780085260747009161b09",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "87de8798e492f2588f789a78d8e30dd71338f28c5f0c7482e30ebbfac3103fe5",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/tabs/2/content/0",
+        "source_unit_hash": "ca5bc503cd678333a2d577efa8d4dd5ebe5a0c1ca1c2a84b3f508eee343e2487",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/tabs/2/content/0/inlineContent/0",
+        "source_unit_hash": "db8aa06cdc63f890fdb1fd01f9288de00845bb7cacf7110ddc0ce248b586f9ca",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "79181d00332cdfccdd2ded0334f9515848b02fa47f677370e758276dbf86c131",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified all four styles/modes, 23h59m countdown limit and style exclusions, locale ordering, compact multiple-edit modal behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "a9c358f3eebfff047cd1fbf62d54f29336d4d34e8cc360e0d82e175bcf51d5ef",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked textual precision/space versus graphical browse/range/clock use."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "8dca74ca8897348263c6e37f6bc8afa97a956d148ccb52a6673118beee64ab3d",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked textual precision/space versus graphical browse/range/clock use."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "7f1b64e46d473330307b4f1f652a3ca6cb0971655d976df8da6f80f7ae32541f",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked SwiftUI Picker availability."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "76a13251fc6a74f61c49ebd9ef2c3e51cc9fdba26c1c3eaded0ca5384af7e8f8",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified Crown navigation, wheels for values/date/time, outline/caption/scroll indicators and long-list navigationLink scrubbing without opening."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "28601897037a494bf6b6f4105bf2686b0c4a663db38add7ce1a65b27482f670b",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified Crown navigation, wheels for values/date/time, outline/caption/scroll indicators and long-list navigationLink scrubbing without opening."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/0/content/0",
+        "source_unit_hash": "6941cff55903f0e9c380611efa2004efdc2e0a35b68ee568a3dfc35c8e0942d6",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified Crown navigation, wheels for values/date/time, outline/caption/scroll indicators and long-list navigationLink scrubbing without opening."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "951378aec3e2388bc095030ef772ac49a01c9e1bb6be0eb3817047738f9fc762",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified Crown navigation, wheels for values/date/time, outline/caption/scroll indicators and long-list navigationLink scrubbing without opening. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/1/content/0",
+        "source_unit_hash": "9312310a45a23b296210da30cc6580d5a2a563518db92f836e898f23d69fe3cb",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified Crown navigation, wheels for values/date/time, outline/caption/scroll indicators and long-list navigationLink scrubbing without opening."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "6f116a049fbd25ca6c09390b124ac7a5890e28b8f64282259c9db4d1e6930e24",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified Crown navigation, wheels for values/date/time, outline/caption/scroll indicators and long-list navigationLink scrubbing without opening. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/2/content/0",
+        "source_unit_hash": "529eecc0f51ab91be9a6ad964717e94ce4bd86e722289f2b3e184ffff9f89d83",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified Crown navigation, wheels for values/date/time, outline/caption/scroll indicators and long-list navigationLink scrubbing without opening."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "1e57c548e1d3558bd09541ec2120f21aa1324f48842e02459e5c7f93b4cfa919",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified Crown navigation, wheels for values/date/time, outline/caption/scroll indicators and long-list navigationLink scrubbing without opening. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "4b1cec5bfee326b26ccf24a61b2591d10b5bb1dcec69448c7293fef1ae7fc318",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified Crown navigation, wheels for values/date/time, outline/caption/scroll indicators and long-list navigationLink scrubbing without opening."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "de181ae3c0b49979da901152ba250904615ec7febce146ad226aa69aa5b6073d",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified Crown navigation, wheels for values/date/time, outline/caption/scroll indicators and long-list navigationLink scrubbing without opening."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/0/content/0",
+        "source_unit_hash": "dedc21beff62cf6017ea6c2439e8840515d8e474d6a15571d0065cc999f75d54",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified Crown navigation, wheels for values/date/time, outline/caption/scroll indicators and long-list navigationLink scrubbing without opening."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "47e9209b80f66ca42eb6adf7787a1fca9666590426bf7a5fd440dca34c97cba5",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified Crown navigation, wheels for values/date/time, outline/caption/scroll indicators and long-list navigationLink scrubbing without opening. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/1/content/0",
+        "source_unit_hash": "f0a49e0ea55288642df0beca98fadbb84e3c6a227739ba6221cc2abd02ca14e1",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified Crown navigation, wheels for values/date/time, outline/caption/scroll indicators and long-list navigationLink scrubbing without opening."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "2e859a5b5c1a66fe7d8b3f05d5fd78e45b2d70f61bac940ccd8dd9d282b1eeab",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified Crown navigation, wheels for values/date/time, outline/caption/scroll indicators and long-list navigationLink scrubbing without opening. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "c17e870fb90d51b20ecf08f9e6e41e7cc439823731dbec79ff19b07b5f10b0e0",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "98f7ad5f4df271605643a1fc3f4eb38436ac99aa0a888ee36bccd4a8c4d4ad3b",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "c14a848fb3bc231547615fa880200533b5d511e0072cc286ac7d5b90cc9ad249",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "e0c7714743e8f3ba3a6e6a8a75eb711cb2792050b77f2524d0b9cb6d9a261f2c",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "43464f09791fb1f85a13fc4f191136a708f24617926e9265463def11bd80e2e2",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "e1fac765f6a2952d80eabaa98440bdb871d84a838c15f40210f695d3350a87dd",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "ae782a6848cb76136d8383a376507859734c8a1c686ff881ac56f57fc6ed454e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/rows/1/0/0",
+        "source_unit_hash": "937d2d87f6be46489d91c6c598d77898e230787b56f889b2c1e16309f42a1ad2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/rows/1/1/0",
+        "source_unit_hash": "0a07ef55cee855e020e16ad20c886c7438b1b30ae5f1a54efc598b5d467184c0",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "ae782a6848cb76136d8383a376507859734c8a1c686ff881ac56f57fc6ed454e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

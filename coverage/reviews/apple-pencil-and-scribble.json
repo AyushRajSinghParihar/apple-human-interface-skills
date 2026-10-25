@@ -1,0 +1,877 @@
+{
+  "review": {
+    "slug": "apple-pencil-and-scribble",
+    "status": "reviewed",
+    "source_hash": "cee04b305194f25e5570a2d76d9f1f9994eac6aeceefc8e0639d5d6902efae65",
+    "destination_hash": "0fcee0116f268e458f9e47f275ed5fae76219ffc6b760942c1507305fcb0f5a2",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:07:50+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "apple-pencil-and-scribble",
+        "status": "reviewed",
+        "evidence": "Checked precise iPad drawing/marking/control input and private on-device handwriting recognition."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "source_anchor": "Hover",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "status": "reviewed",
+        "evidence": "Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "source_anchor": "Double-tap",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Double-tap",
+        "status": "reviewed",
+        "evidence": "Checked all system mappings, opt-in custom behavior with visible mode, and nondestructive reversible use."
+      },
+      {
+        "source_anchor": "Squeeze",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Squeeze",
+        "status": "reviewed",
+        "evidence": "Checked Pencil Pro/system shortcut choice, screen-on/no-contact constraint, possible eyes-away result, single discrete gesture and nearby reversible UI."
+      },
+      {
+        "source_anchor": "Barrel-roll",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Barrel-roll",
+        "status": "reviewed",
+        "evidence": "Checked marking-only rotation rather than navigation or control display."
+      },
+      {
+        "source_anchor": "Scribble",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Scribble",
+        "status": "reviewed",
+        "evidence": "Checked standard components excluding password fields, natural blank-area entry, no prerequisite focus, placeholder/autocomplete handling, stationary field and transcription, no autoscroll during writing/selection, and enlargement before or between strokes."
+      },
+      {
+        "source_anchor": "Custom-drawing",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Custom-drawing",
+        "status": "reviewed",
+        "evidence": "Checked PencilKit latency/tooling, disabling adaptive color over fixed artwork, regular versus compact undo/redo and three-finger support."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "iPadOS-only support explicitly retained."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "a22e274239623e551906fa730df0014ce8fe347d748e770bcab7e1a478445d9e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "apple-pencil-and-scribble",
+        "evidence": "Checked precise iPad drawing/marking/control input and private on-device handwriting recognition."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "30e7c79d20c78b214d864b3ab6124580855ac09362cfb905477293fdc6e73031",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "apple-pencil-and-scribble",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked precise iPad drawing/marking/control input and private on-device handwriting recognition."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "37f42f7ed66847e3468e307613d81a8f898ff8aae4ba6e66690e54ac44f3fa5d",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "apple-pencil-and-scribble",
+        "evidence": "Checked precise iPad drawing/marking/control input and private on-device handwriting recognition."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "d9fb268558f198460c575fa48c138507999da4fe4287a4c3b4c10527227c652b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "apple-pencil-and-scribble",
+        "evidence": "Checked precise iPad drawing/marking/control input and private on-device handwriting recognition."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "0692519d3c0b546536b0a80f8e62b21efc089766eb299895306e6eb65be6c811",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "bc35d0b29eca7fec40c0bee181cf3ee7374200c17a8666e082604460d88d0b67",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "9bf638bf00a65ef3a28fc38025e78ab5fd7086aae7fe68e5cbb269bcdb310420",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "75c134d4ea8e8d69b62b9ecf9ec3f56c887d34563056536df5d6d1ba384947c0",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/8/columns/0/content/0",
+        "source_unit_hash": "2c2db1daa37ffd13f56ac8c768d882cac9b6fd15bbac60eea1c9d504ad504827",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/8/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "866afd0da9c3b82f92eed8f40c4daeb6e31e8d67c45dd6b84d8b3e3a10401fa7",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/8/columns/1/content/0",
+        "source_unit_hash": "4c9e4e29761800ee9c312411dd8682f9bcf048fbd701e4a50020e1060c7ed1f5",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/8/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "bd6539dc67d9030d228aa67185eecd0bf98f7f639af8e5167e4ad39e95977223",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/8/columns/2/content/0",
+        "source_unit_hash": "0a31ab36501ffecc9450bd21a34bf5d79ad54b3ca8c15aac683c57a4d78ba39b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/8/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "252d3416958921cf9e88907ff60435920de167fac55455b57228861f28379708",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "836b41313029a2f0d9377fa0ccf1c2a8f36a38c92d638abe00ad3cc05cac6ec4",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "68c26028ddbf650684421cfb7f8ecc9a9e145c6713c633341440a8f1392da05f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/0/content/0",
+        "source_unit_hash": "5950902f2deba6656209f4cacd1185a75033abba9e62af57cf1409c78d2610ec",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "9ad7d34ec1eb55eda3a2ba92a4cf576565e5729f4672803bf38dc87948dc314b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/1/content/0",
+        "source_unit_hash": "111b129be1d1cdf5324ed3dd7eafa02c021dc3dc5b7bfc38ce02a97284f26634",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "93ef6b524c0778d49c37b1d2f54b9cea5ac9679637e23ac8730ff38258092e60",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked physical-tool expectations, immediate marks, control activation without switching input, supported sensing, direct feedback and left/right-handed clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "fa2539ab0a2567a0d4db5925fc8bd4998c26a2dd82f2d2bdd6c263d3b96b20e4",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "ce49b34ecdfe5ea5caa535056e6f12b096c251b2ba6f384fc4c682a9630a2799",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "10d789b7412fbd9ed5c65ccb6752fd0fd517ee970e4f6c32ec8b58ee15b04fe4",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/0/content/0",
+        "source_unit_hash": "5650295670eb1f3ea50a667875296098ec808acab249e2056f54ba5724932a37",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "7b7383329f78900cca4e74d6c8294517f60fe4cdff8639ff77b62559ae206598",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/0/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/1/content/0",
+        "source_unit_hash": "cd1fda28d7b464c611a73c9844227b81a50a7bec50ebfc9fab200f962a441227",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "19f1a4497e9dad0f08ed6587ad1ebdfe99d76eab26dce58aa0fe33bd254b8d71",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/1/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/2/content/0",
+        "source_unit_hash": "99dc11e1a20bdd297574c33c3c900b3ef190976d9d45022ca53b05fb1679d2fb",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "165e8e2dbc7ea34e28bc8b160e91f9e90ca0a1676947dd199f436b167ab0c9ed",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/2/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/columns/2/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "ec01f88ac5744fcd0e7499b484d1cfcd7c5f053cb9ecfd43284905bd450aa8c8",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "c5da98e0f67a4d4bb9e0568e3cedb141e35ab4aef948688984fa756f3e0c1139",
+        "source_anchor": "Hover",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Hover",
+        "evidence": "Checked stable predictive size/color previews, no hover action, middle dynamic preview values, nearby tools and Pencil-specific preview restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "8ceec8889aad3e32b7eb63186c78f5cdb4b7b6f844e4d21f15f075a8ed503bcf",
+        "source_anchor": "Double-tap",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Double-tap",
+        "evidence": "Checked all system mappings, opt-in custom behavior with visible mode, and nondestructive reversible use."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "1af96beb477e7cc103aa0bf516726c9bda62706b7c76b2be7e7375d2589aaacc",
+        "source_anchor": "Double-tap",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Double-tap",
+        "evidence": "Checked all system mappings, opt-in custom behavior with visible mode, and nondestructive reversible use."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "1520f5cf16da4db029f1b661b382ed0c36dd3a04d8c0beec321fd3bef07e3037",
+        "source_anchor": "Double-tap",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Double-tap",
+        "evidence": "Checked all system mappings, opt-in custom behavior with visible mode, and nondestructive reversible use."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "2975f065bea3a0c3ffa073beaec6692246ef0301fed211e3ee3d3c0b77325125",
+        "source_anchor": "Squeeze",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Squeeze",
+        "evidence": "Checked Pencil Pro/system shortcut choice, screen-on/no-contact constraint, possible eyes-away result, single discrete gesture and nearby reversible UI."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "dc0055e49f9558adc313a6d16507d56dc224dfa17a3fc69f03dd6b54f295cd65",
+        "source_anchor": "Squeeze",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Squeeze",
+        "evidence": "Checked Pencil Pro/system shortcut choice, screen-on/no-contact constraint, possible eyes-away result, single discrete gesture and nearby reversible UI."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/content/0",
+        "source_unit_hash": "016e5060361f21c46f74b6e26fb8263f0eed8d77422fe12d692f568d773c721a",
+        "source_anchor": "Squeeze",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Squeeze",
+        "evidence": "Checked Pencil Pro/system shortcut choice, screen-on/no-contact constraint, possible eyes-away result, single discrete gesture and nearby reversible UI."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "eb06df7da05fe24f3d141aac31850ffaae414833a60e046a198cf36330d65e47",
+        "source_anchor": "Squeeze",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Squeeze",
+        "evidence": "Checked Pencil Pro/system shortcut choice, screen-on/no-contact constraint, possible eyes-away result, single discrete gesture and nearby reversible UI."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "e9120c8ba8e4713d4bfd94bd91f130af879acee66f3687d9e6d34f5f0bb5b496",
+        "source_anchor": "Squeeze",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Squeeze",
+        "evidence": "Checked Pencil Pro/system shortcut choice, screen-on/no-contact constraint, possible eyes-away result, single discrete gesture and nearby reversible UI."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "b59c7594d237ceef325cbeae61dd313b0a4f3806f806d5d0902ba1a0d1cad40b",
+        "source_anchor": "Squeeze",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Squeeze",
+        "evidence": "Checked Pencil Pro/system shortcut choice, screen-on/no-contact constraint, possible eyes-away result, single discrete gesture and nearby reversible UI."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "29ffea71718136be56321b70c4dae900a95596899736a8ed0d9bbf14f76a4c1d",
+        "source_anchor": "Barrel-roll",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Barrel-roll",
+        "evidence": "Checked marking-only rotation rather than navigation or control display."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "548f2c6f1bbeb24dd1cab41f7fe48142923187eeb7ed3c4c13de2fdf8ef68c5e",
+        "source_anchor": "Barrel-roll",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Barrel-roll",
+        "evidence": "Checked marking-only rotation rather than navigation or control display."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "64dda0407fcd9b22c6f85d8e6c84da0c64c75feb503fe113a7290a4edacdb5f4",
+        "source_anchor": "Scribble",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Scribble",
+        "evidence": "Checked standard components excluding password fields, natural blank-area entry, no prerequisite focus, placeholder/autocomplete handling, stationary field and transcription, no autoscroll during writing/selection, and enlargement before or between strokes."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "c96e9155b04d95d9c0cadda34569cca7222be20dc3b271e8946c5891e027f817",
+        "source_anchor": "Scribble",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Scribble",
+        "evidence": "Checked standard components excluding password fields, natural blank-area entry, no prerequisite focus, placeholder/autocomplete handling, stationary field and transcription, no autoscroll during writing/selection, and enlargement before or between strokes."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "13fcb6ec0ba8aaea8d845d1e8d8ff35dd8d074ebe4cd1e427db6c25af60240ac",
+        "source_anchor": "Scribble",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Scribble",
+        "evidence": "Checked standard components excluding password fields, natural blank-area entry, no prerequisite focus, placeholder/autocomplete handling, stationary field and transcription, no autoscroll during writing/selection, and enlargement before or between strokes."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "a413ab15d6304c055f6ccae941419e3f8e1c4fabd7cf670495f88658fb5ee6b2",
+        "source_anchor": "Scribble",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Scribble",
+        "evidence": "Checked standard components excluding password fields, natural blank-area entry, no prerequisite focus, placeholder/autocomplete handling, stationary field and transcription, no autoscroll during writing/selection, and enlargement before or between strokes."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "c9acfee00c910d086d90cc355cc70adcce0ed191b48e3bbe2baf80ffee402351",
+        "source_anchor": "Scribble",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Scribble",
+        "evidence": "Checked standard components excluding password fields, natural blank-area entry, no prerequisite focus, placeholder/autocomplete handling, stationary field and transcription, no autoscroll during writing/selection, and enlargement before or between strokes."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "71976792d5e958e65dcc06da23ceb82414977589143b3bac37549cf04602c404",
+        "source_anchor": "Scribble",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Scribble",
+        "evidence": "Checked standard components excluding password fields, natural blank-area entry, no prerequisite focus, placeholder/autocomplete handling, stationary field and transcription, no autoscroll during writing/selection, and enlargement before or between strokes."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "4e77f630b09a756f33774ea4f6d214b829d61bcc879cb4b3fe1f851e12567931",
+        "source_anchor": "Scribble",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Scribble",
+        "evidence": "Checked standard components excluding password fields, natural blank-area entry, no prerequisite focus, placeholder/autocomplete handling, stationary field and transcription, no autoscroll during writing/selection, and enlargement before or between strokes."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "5f701a1f429dea1f8f2718b429f1b85d9884935891cd147bd04a9f935ba5b399",
+        "source_anchor": "Scribble",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Scribble",
+        "evidence": "Checked standard components excluding password fields, natural blank-area entry, no prerequisite focus, placeholder/autocomplete handling, stationary field and transcription, no autoscroll during writing/selection, and enlargement before or between strokes."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/inlineContent/0",
+        "source_unit_hash": "a0da0021fa8e3a23578dc880e3973f5f98456643bf94402327eaf57197a49e7c",
+        "source_anchor": "Scribble",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Scribble",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked standard components excluding password fields, natural blank-area entry, no prerequisite focus, placeholder/autocomplete handling, stationary field and transcription, no autoscroll during writing/selection, and enlargement before or between strokes."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "7d5dabf9a82ae8323471294194815ba210e3947c76cf147ac2871e05de214247",
+        "source_anchor": "Custom-drawing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Custom-drawing",
+        "evidence": "Checked PencilKit latency/tooling, disabling adaptive color over fixed artwork, regular versus compact undo/redo and three-finger support."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "1d827e417d8b575b4aea821e21bef8ec557275fbc9d5e4500fabe86421cbc3c8",
+        "source_anchor": "Custom-drawing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Custom-drawing",
+        "evidence": "Checked PencilKit latency/tooling, disabling adaptive color over fixed artwork, regular versus compact undo/redo and three-finger support."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "76b80b28dec81d4045cb5027b6bbdd1c3c8ff3dab0b1f5473d73ef9243dcd3ee",
+        "source_anchor": "Custom-drawing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Custom-drawing",
+        "evidence": "Checked PencilKit latency/tooling, disabling adaptive color over fixed artwork, regular versus compact undo/redo and three-finger support."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "85ff703aff41f3e02948da5436a330ece03a9a92c383f67ec5a19eeaecc31d87",
+        "source_anchor": "Custom-drawing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Custom-drawing",
+        "evidence": "Checked PencilKit latency/tooling, disabling adaptive color over fixed artwork, regular versus compact undo/redo and three-finger support."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/inlineContent/0",
+        "source_unit_hash": "a982fa18b21a12483559c38ab7e4c4e983d027ae6b6222f3edcaaef7017a45a6",
+        "source_anchor": "Custom-drawing",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Custom-drawing",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked PencilKit latency/tooling, disabling adaptive color over fixed artwork, regular versus compact undo/redo and three-finger support."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "98c8ed0576862808243eae4da4bb5c87e435515c731ace56971de3c0c48ed604",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "iPadOS-only support explicitly retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "53a0a277e152d9a7f2ff5b5db7b0ffc028ecfe12baef54c41eea7f1357d798f5",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "357c82884d45ff258ff77b4f10e8707a5b7927aedec6ad4041563326fa6d4658",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "0a4d43071f984c38df0fea89c0927a0d1241f89ab6f1df3ea54626e4787fe8fd",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "dbbcce63d3496d93d3070d92a5f146e27babd06d86d29bc4ab1f617fed2e42d9",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/1/0/0",
+        "source_unit_hash": "1f8e7ff71a44e354d376abc5a1120f5d9bce9bff9d82d8d3c565101e36849ec8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/1/1/0",
+        "source_unit_hash": "9048fe8c4784c8b313a970c4a2304d32776260b6b4013bb5336964fc69a11065",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/2/0/0",
+        "source_unit_hash": "2fcab2806aebbb2b0c1f085dd684047a32efe7390a10b69cd154b0b8fc93584d",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/2/1/0",
+        "source_unit_hash": "7516975e78fc0bdbcb8160dfcca12fe6a1bfa4eeecbf2bbfcb523c6d2eb3ba25",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/3/0/0",
+        "source_unit_hash": "748c11e10bd133d79c84e996594500ba552ad300e6d542649a08c73641d54cd8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/3/1/0",
+        "source_unit_hash": "09bea58d18006411b38d254262cc308395816b3e484677e980a90c11c532d947",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "dbbcce63d3496d93d3070d92a5f146e27babd06d86d29bc4ab1f617fed2e42d9",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

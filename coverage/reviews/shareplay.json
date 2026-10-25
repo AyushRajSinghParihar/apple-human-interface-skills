@@ -1,0 +1,770 @@
+{
+  "review": {
+    "slug": "shareplay",
+    "status": "reviewed",
+    "source_hash": "98756fe331786ccee78b88fe8e6c41aa8456b1120563c9bb1954ea55b2fd2e53",
+    "destination_hash": "3e1234c51c3229e5fe0f2640565e3aab24bf393440b4361307734d11474ada6a",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:26:50+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "shareplay",
+        "status": "reviewed",
+        "evidence": "Verified real-time synchronization/communication, start routes/system installation and individual purchased-content access."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked synchronous vs later saved/link collaboration, common/role-specific views, crossplatform adaptation, recognizable start, frictionless prerequisites/provisional or Family access, concise invites, causal change cues and exact term usage."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified tvOS no added rules and unsupported watchOS."
+      },
+      {
+        "source_anchor": "iOS-iPadOS-macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "iOS-iPadOS-macOS",
+        "status": "reviewed",
+        "evidence": "Verified shared-video PiP on iPhone/iPad and continuing window playback on Mac."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Verified default standard-window mirroring Share button versus adopted volumes/immersive content."
+      },
+      {
+        "source_anchor": "Designing-shared-activities",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Designing-shared-activities",
+        "status": "reviewed",
+        "evidence": "Checked shared relative context, window-first entry/custom immersive initiation, natural conflict handling, view/immersion synchronization and personal-view contact-photo exception, midtask opt-in, per-person comfort and leave/rejoin."
+      },
+      {
+        "source_anchor": "Personas",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Personas",
+        "status": "reviewed",
+        "evidence": "Verified remote spatial versus contact-photo fallback, other-device2D video, colocated passthrough alignment and non-Persona participation alternatives."
+      },
+      {
+        "source_anchor": "Spatial-templates",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Spatial-templates",
+        "status": "reviewed",
+        "evidence": "Checked side-by-side/surround/conversational geometry and activity criteria, stage-specific mixes, explicit transitions/fades and reorientation."
+      },
+      {
+        "source_anchor": "Custom-templates",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Custom-templates",
+        "status": "reviewed",
+        "evidence": "Verified seats only for spatial participants, real-person markers, orientation, five stable seats/spectators,minimum1m,contact-photo proximity consequence,balanced order and roles independent except true positional requirement."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "013e350cf93225e4e014f178f39afe8aa8ff5ffaefad98afb74922e3446ee948",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "shareplay",
+        "evidence": "Verified real-time synchronization/communication, start routes/system installation and individual purchased-content access."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "c6856340732e93830baeb2ab5dd2529a0e834e7145f42ff7d6bdf4b503612dcf",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "shareplay",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified real-time synchronization/communication, start routes/system installation and individual purchased-content access."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "2a32587bf2d729a3ad786c1b3be43a597b15926c3f561b9576f31fd68cbaf623",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "shareplay",
+        "evidence": "Verified real-time synchronization/communication, start routes/system installation and individual purchased-content access."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "4ab7fdaf7391458dd88072226c399e269afeb4ae4a53c6773173530d28bab11e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "shareplay",
+        "evidence": "Verified real-time synchronization/communication, start routes/system installation and individual purchased-content access."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/columns/0/content/0",
+        "source_unit_hash": "bad37cc511d2a80dae457bbf13006182f0ee1601080d2b32f6f9eb87e43698eb",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "shareplay",
+        "evidence": "Verified real-time synchronization/communication, start routes/system installation and individual purchased-content access."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "ff2b4818c2be9cce631f6747c780ecf2fd421432b027f7e3c0a947cf0bb2bc14",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "shareplay",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified real-time synchronization/communication, start routes/system installation and individual purchased-content access."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/columns/1/content/0",
+        "source_unit_hash": "e78b38b8060fd490bc2a0f3ba7bfd3f7c8f9e9ee95ae3f8a37009109c3599eeb",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "shareplay",
+        "evidence": "Verified real-time synchronization/communication, start routes/system installation and individual purchased-content access."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "9ba7bb4519606bb12685ee5cdfc775910a054b99011f3d8e51e510fe7a8f8c62",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "shareplay",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified real-time synchronization/communication, start routes/system installation and individual purchased-content access."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "278e2a88286de3824db174966a0d823f8e0dd9d89ecb7b891e2c32d1ba35e9d6",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "shareplay",
+        "evidence": "Verified real-time synchronization/communication, start routes/system installation and individual purchased-content access."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/content/0",
+        "source_unit_hash": "8fc770d6575adf25244653a645b73fd97a20ac112cd83f3785d609694fbda669",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "shareplay",
+        "evidence": "Verified real-time synchronization/communication, start routes/system installation and individual purchased-content access."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "a654ae860deb76c62b99c2a7b673752ae89e4a0a913591969648679e6cef5536",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked synchronous vs later saved/link collaboration, common/role-specific views, crossplatform adaptation, recognizable start, frictionless prerequisites/provisional or Family access, concise invites, causal change cues and exact term usage."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "7107e3e334452dd0ed9c99d9a7fda69a1246d9ae70c644ce56093931f9bf8879",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked synchronous vs later saved/link collaboration, common/role-specific views, crossplatform adaptation, recognizable start, frictionless prerequisites/provisional or Family access, concise invites, causal change cues and exact term usage."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "0faae48789bd1f86a0952c969f295258f3765c30505ac608e3a4900d394f6f25",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked synchronous vs later saved/link collaboration, common/role-specific views, crossplatform adaptation, recognizable start, frictionless prerequisites/provisional or Family access, concise invites, causal change cues and exact term usage."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "3c0cc8e8240261ddb09a8e8eaf03f6ae2cd1cd6897c23e9cb86d5bb1205e6a29",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked synchronous vs later saved/link collaboration, common/role-specific views, crossplatform adaptation, recognizable start, frictionless prerequisites/provisional or Family access, concise invites, causal change cues and exact term usage."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "19445b1f677051027a84250eaa8de66b16f2a153adfee3173527fd2e3205b829",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked synchronous vs later saved/link collaboration, common/role-specific views, crossplatform adaptation, recognizable start, frictionless prerequisites/provisional or Family access, concise invites, causal change cues and exact term usage."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/inlineContent/0",
+        "source_unit_hash": "37ed92f247c54e79f7441e42c3107d2cab13dd45824137e49f9167fc36337088",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked synchronous vs later saved/link collaboration, common/role-specific views, crossplatform adaptation, recognizable start, frictionless prerequisites/provisional or Family access, concise invites, causal change cues and exact term usage."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "47404d8d0a35e224a447a9300855f99959eb851082a822ee992706e3e25ae58f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked synchronous vs later saved/link collaboration, common/role-specific views, crossplatform adaptation, recognizable start, frictionless prerequisites/provisional or Family access, concise invites, causal change cues and exact term usage."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "cb9e4fe29f52733ffb7adb5b36d69c7ac5aea55a821aff06328a4fbbee5f3592",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked synchronous vs later saved/link collaboration, common/role-specific views, crossplatform adaptation, recognizable start, frictionless prerequisites/provisional or Family access, concise invites, causal change cues and exact term usage."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "8171569698a5e45a85058f5f7b6021e24b0414d0e52c9798ff8ababb0a69d03f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked synchronous vs later saved/link collaboration, common/role-specific views, crossplatform adaptation, recognizable start, frictionless prerequisites/provisional or Family access, concise invites, causal change cues and exact term usage."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "e1a8997fd808a53f9b0a60705e4b69af353df7973bbafeb10d4b9a02bbd12c0d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked synchronous vs later saved/link collaboration, common/role-specific views, crossplatform adaptation, recognizable start, frictionless prerequisites/provisional or Family access, concise invites, causal change cues and exact term usage."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "c0dfa8dcd97f8f0aedfda3b33fd9a401f7887880afeb3b0c24251f5dfc68d68b",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified tvOS no added rules and unsupported watchOS."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "0510e43b6dfaff7411d8a6bde8d213276794dd347dee3d4b8f708e3b0dc3a91d",
+        "source_anchor": "iOS-iPadOS-macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "iOS-iPadOS-macOS",
+        "evidence": "Verified shared-video PiP on iPhone/iPad and continuing window playback on Mac."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "bcc9fb34fd6318d056c72f563639b06da9bd84b9c1ef3fa9645870099b01e547",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified default standard-window mirroring Share button versus adopted volumes/immersive content."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "7a900d925b598d39ae8f82afd608dcc6e54cf169fce54f91a26079308c4badde",
+        "source_anchor": "Designing-shared-activities",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Designing-shared-activities",
+        "evidence": "Checked shared relative context, window-first entry/custom immersive initiation, natural conflict handling, view/immersion synchronization and personal-view contact-photo exception, midtask opt-in, per-person comfort and leave/rejoin."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "d8537a2e32f3d75c9836bf9bebbfaad7148c2924e67c8bd79c3829062db0f7c2",
+        "source_anchor": "Designing-shared-activities",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Designing-shared-activities",
+        "evidence": "Checked shared relative context, window-first entry/custom immersive initiation, natural conflict handling, view/immersion synchronization and personal-view contact-photo exception, midtask opt-in, per-person comfort and leave/rejoin."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "31beec73c6150f5b00b990d13277c8d0f938dfc11104adb32f667f8933fc49ed",
+        "source_anchor": "Designing-shared-activities",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Designing-shared-activities",
+        "evidence": "Checked shared relative context, window-first entry/custom immersive initiation, natural conflict handling, view/immersion synchronization and personal-view contact-photo exception, midtask opt-in, per-person comfort and leave/rejoin."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "5863c8a03c11b65c75261ca40027ad7567fe2c6d9b1b06a6ef8867348d4b91cb",
+        "source_anchor": "Designing-shared-activities",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Designing-shared-activities",
+        "evidence": "Checked shared relative context, window-first entry/custom immersive initiation, natural conflict handling, view/immersion synchronization and personal-view contact-photo exception, midtask opt-in, per-person comfort and leave/rejoin."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "b7b7706f0cb71d99e588a0495faa2e20f8573972ee76f9c723510f0126208431",
+        "source_anchor": "Designing-shared-activities",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Designing-shared-activities",
+        "evidence": "Checked shared relative context, window-first entry/custom immersive initiation, natural conflict handling, view/immersion synchronization and personal-view contact-photo exception, midtask opt-in, per-person comfort and leave/rejoin."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "29e479a361fc32f7df2263ad41379a52c62c23603e25622156e80c0cbc0c3a8b",
+        "source_anchor": "Designing-shared-activities",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Designing-shared-activities",
+        "evidence": "Checked shared relative context, window-first entry/custom immersive initiation, natural conflict handling, view/immersion synchronization and personal-view contact-photo exception, midtask opt-in, per-person comfort and leave/rejoin."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "a69ae1742e7948186707e3062b8e5c56c0a89468d20a5c02a6b031f6862b0dfd",
+        "source_anchor": "Designing-shared-activities",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Designing-shared-activities",
+        "evidence": "Checked shared relative context, window-first entry/custom immersive initiation, natural conflict handling, view/immersion synchronization and personal-view contact-photo exception, midtask opt-in, per-person comfort and leave/rejoin."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "81dc0ef88da21a2317033c4adabd292c3f74f8da97fd8f1a92b65e1ef3eb3691",
+        "source_anchor": "Personas",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Personas",
+        "evidence": "Verified remote spatial versus contact-photo fallback, other-device2D video, colocated passthrough alignment and non-Persona participation alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "f2929ff3e729a208bb2e56501feda49b6941d6211363f915421337fbb91e673a",
+        "source_anchor": "Personas",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Personas",
+        "evidence": "Verified remote spatial versus contact-photo fallback, other-device2D video, colocated passthrough alignment and non-Persona participation alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "1b79d754e446f09e222f6f7600c515efd456829e211fe46e7a0aef5a88a0731f",
+        "source_anchor": "Personas",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Personas",
+        "evidence": "Verified remote spatial versus contact-photo fallback, other-device2D video, colocated passthrough alignment and non-Persona participation alternatives."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "067c1bbc726b7536e7a2f3da999f7f9ac10233661f11a26b46a36aa7e8a81553",
+        "source_anchor": "Spatial-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Spatial-templates",
+        "evidence": "Checked side-by-side/surround/conversational geometry and activity criteria, stage-specific mixes, explicit transitions/fades and reorientation."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "65d44b075c3ebbac262dbecc5c5e896cd82ac404a475dbd25d0083cdc9372d5f",
+        "source_anchor": "Spatial-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Spatial-templates",
+        "evidence": "Checked side-by-side/surround/conversational geometry and activity criteria, stage-specific mixes, explicit transitions/fades and reorientation."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "2b37bbf52f18c7c2dd470cfff244b00c652c7bcb681f40b4fe9f194d5c5b4dce",
+        "source_anchor": "Spatial-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Spatial-templates",
+        "evidence": "Checked side-by-side/surround/conversational geometry and activity criteria, stage-specific mixes, explicit transitions/fades and reorientation."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/inlineContent/0",
+        "source_unit_hash": "d15f95a34d6a9d3fb1694cca35432a174b1b7eebf3ada3f134d046b22fd42899",
+        "source_anchor": "Spatial-templates",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Spatial-templates",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked side-by-side/surround/conversational geometry and activity criteria, stage-specific mixes, explicit transitions/fades and reorientation."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "7742762a2ffee788640942b6f0b986dc156350087d0fdcfa512da2470aff5999",
+        "source_anchor": "Spatial-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Spatial-templates",
+        "evidence": "Checked side-by-side/surround/conversational geometry and activity criteria, stage-specific mixes, explicit transitions/fades and reorientation."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "7a047154be4d5a347123085b010422298dd310f4fede638aa8669c5c43b6e247",
+        "source_anchor": "Spatial-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Spatial-templates",
+        "evidence": "Checked side-by-side/surround/conversational geometry and activity criteria, stage-specific mixes, explicit transitions/fades and reorientation."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/inlineContent/0",
+        "source_unit_hash": "aaf4bb5f67a6877a55402e39246253be11234839df277061e87f91cc21a328f1",
+        "source_anchor": "Spatial-templates",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Spatial-templates",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked side-by-side/surround/conversational geometry and activity criteria, stage-specific mixes, explicit transitions/fades and reorientation."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "520cb516382daf8cc091fb42c1e04212621d70277bb00b33ed0da52d096f3f21",
+        "source_anchor": "Spatial-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Spatial-templates",
+        "evidence": "Checked side-by-side/surround/conversational geometry and activity criteria, stage-specific mixes, explicit transitions/fades and reorientation."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "595f31ff172deb0d7184e1c7367afbf2a6507b72440bf8666b71184e60a4382a",
+        "source_anchor": "Spatial-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Spatial-templates",
+        "evidence": "Checked side-by-side/surround/conversational geometry and activity criteria, stage-specific mixes, explicit transitions/fades and reorientation."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/inlineContent/0",
+        "source_unit_hash": "8f667a1d04775871b51b3ce02edc5ce50792d9a53e4283ddca7d5f9b88b1ec9b",
+        "source_anchor": "Spatial-templates",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Spatial-templates",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked side-by-side/surround/conversational geometry and activity criteria, stage-specific mixes, explicit transitions/fades and reorientation."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "5b3835f06a38ac3a53df914bc22a8ef146312a3b2842690259ebdd75b5c459c9",
+        "source_anchor": "Spatial-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Spatial-templates",
+        "evidence": "Checked side-by-side/surround/conversational geometry and activity criteria, stage-specific mixes, explicit transitions/fades and reorientation."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "3526bf660b028dc8933658788670ec4dc26bc1debc9f7a5d382a3295be55b90d",
+        "source_anchor": "Spatial-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Spatial-templates",
+        "evidence": "Checked side-by-side/surround/conversational geometry and activity criteria, stage-specific mixes, explicit transitions/fades and reorientation."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "e03ab91c634a97d515a38ae214724d2854a4cbc33154b11e8a68938698d1bb84",
+        "source_anchor": "Spatial-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Spatial-templates",
+        "evidence": "Checked side-by-side/surround/conversational geometry and activity criteria, stage-specific mixes, explicit transitions/fades and reorientation."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "ecfe6b8be0efbaca2c897eabb4666b178524ee8a61989af641bdbc864cd2618f",
+        "source_anchor": "Custom-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Custom-templates",
+        "evidence": "Verified seats only for spatial participants, real-person markers, orientation, five stable seats/spectators,minimum1m,contact-photo proximity consequence,balanced order and roles independent except true positional requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "70ff4f16b90cdf4f5dc2ef10e3731ab2be2f6115f7c55a986060a88c5a152ace",
+        "source_anchor": "Custom-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Custom-templates",
+        "evidence": "Verified seats only for spatial participants, real-person markers, orientation, five stable seats/spectators,minimum1m,contact-photo proximity consequence,balanced order and roles independent except true positional requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "3dd424381936b7ab4b0e3e4613dcbd9b140e34cc72f50487237d20e060f54c17",
+        "source_anchor": "Custom-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Custom-templates",
+        "evidence": "Verified seats only for spatial participants, real-person markers, orientation, five stable seats/spectators,minimum1m,contact-photo proximity consequence,balanced order and roles independent except true positional requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "b286d0346bdc01ceb5e7ee8882f77e5f43fd1cb2781014539625736983b3e0b2",
+        "source_anchor": "Custom-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Custom-templates",
+        "evidence": "Verified seats only for spatial participants, real-person markers, orientation, five stable seats/spectators,minimum1m,contact-photo proximity consequence,balanced order and roles independent except true positional requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "257b836a3661bfeba3b3681ded4b7df3d2261800c8a3bfd753cd8e7c0ee5c167",
+        "source_anchor": "Custom-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Custom-templates",
+        "evidence": "Verified seats only for spatial participants, real-person markers, orientation, five stable seats/spectators,minimum1m,contact-photo proximity consequence,balanced order and roles independent except true positional requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "d7f47e191a7ee6646dc829c3ff14bcfbef7bc0b49a1efa62a51221b5e19764b3",
+        "source_anchor": "Custom-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Custom-templates",
+        "evidence": "Verified seats only for spatial participants, real-person markers, orientation, five stable seats/spectators,minimum1m,contact-photo proximity consequence,balanced order and roles independent except true positional requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "764e541be8ebe41f86c332b9dd1ae2c9a99f3cd953d5a8385054c5fbdbdf896e",
+        "source_anchor": "Custom-templates",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Custom-templates",
+        "evidence": "Verified seats only for spatial participants, real-person markers, orientation, five stable seats/spectators,minimum1m,contact-photo proximity consequence,balanced order and roles independent except true positional requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "968ea5e5f0cf121bd84d4d1612b7406090362a2f3489659a41dfcf2603af7240",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "955af6af5fbf7b56e7aa4d97140fe1969a5d7fe5cd33491b280ed832d8c54412",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/1/0/0",
+        "source_unit_hash": "6e918a7722cc53860652aa9635f57139b56fa2911e831afad66b2aa393192a64",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/1/1/0",
+        "source_unit_hash": "413fbfbf63105153217442f349bfd564248eb6f66a83ed4b6464036acd33048e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/2/0/0",
+        "source_unit_hash": "72e15f86b3908e69cbcefc24a6e0b2def83fa8df14342795e2a64fcd3e2ed469",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/2/1/0",
+        "source_unit_hash": "7c2fba092e13ea195a9475e225ed4d000e92477a4f1f878f80edf0201b0283c3",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/3/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/3/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/4/0/0",
+        "source_unit_hash": "9b7b0319509b6917ca3918a6f034af7e0b167aa18d5f173e115e4c11f8e010b4",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/rows/4/1/0",
+        "source_unit_hash": "0495312c5c972fd00cd9b2a9f961870fbff0f89a9449e7941f8a952d48469a8f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "955af6af5fbf7b56e7aa4d97140fe1969a5d7fe5cd33491b280ed832d8c54412",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

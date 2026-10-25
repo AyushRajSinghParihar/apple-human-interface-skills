@@ -1,0 +1,591 @@
+{
+  "review": {
+    "slug": "managing-notifications",
+    "status": "reviewed",
+    "source_hash": "db50cc72ba78fd51a0048d0e4184cdbdb90a595c160dd31d341798c26d92d106",
+    "destination_hash": "2af2aa73f8af6392692d1224beb543f94d459baffa295fe837414b9840884b04",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:23:22.264553+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "managing-notifications",
+        "status": "reviewed",
+        "evidence": "Rechecked corrected government-alert exception to complete silencing in some locales, plus permission/system choices and distinction between deferred alerts and immediately available notifications."
+      },
+      {
+        "source_anchor": "Integrating-with-Focus",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Honest urgency and now/within-one-hour Time Sensitive requirement remain, with system introduction and periodic user reevaluation."
+      },
+      {
+        "source_anchor": "Sending-marketing-notifications",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Sending-marketing-notifications",
+        "status": "reviewed",
+        "evidence": "Explicit content opt-in/decline, never Time Sensitive, and in-app settings for changing informational/marketing choices all match."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified the explicit absence of additional platform rules and retained platform applicability."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Companion settings inheritance, Watch-app management, left-swipe options and temporary/Time Sensitive examples remain."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "9acfbae8f900ba55f4acedc21342b8fc18862010d9b019c51e22409519aa7609",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "managing-notifications",
+        "evidence": "Rechecked corrected government-alert exception to complete silencing in some locales, plus permission/system choices and distinction between deferred alerts and immediately available notifications."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "abd560d5e934c7e75e4381128e1ea907bd866df7f2ddbcc457b254f729ebe468",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "managing-notifications",
+        "evidence": "Rechecked corrected government-alert exception to complete silencing in some locales, plus permission/system choices and distinction between deferred alerts and immediately available notifications. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "cd420b3169d3ab4ae22e16925df990a353c17dfca42100650110f2fecaee9f55",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "managing-notifications",
+        "evidence": "Rechecked corrected government-alert exception to complete silencing in some locales, plus permission/system choices and distinction between deferred alerts and immediately available notifications."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "aa8a51eefd311d826618db35bbe5d4a12e70129b0decfb11b878197d175c2906",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "de459604d1c76cb1c31deb1afb215437414992166dae0078dc01895a8429a16b",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/items/0/content/0",
+        "source_unit_hash": "c50d950e697f30994fad392a34bbd9f607a54759a5fec6cc0ef169fc1bf00e12",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/items/1/content/0",
+        "source_unit_hash": "ae12d2ce0e686270f4b71d750eaa7110c4906b24f810760e6c5d1a02cee859b2",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "e7cf665edbd3fb14a009febc61f0804b3b7eb420b1ce9fdcb551f0413bf98475",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "5981c5eb735320c1447d71e2a5e9de86b4203cd635952363a858f6ca082d4f5e",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/6/content/0",
+        "source_unit_hash": "a390fa1904064bb67bc71a781eb53720ba99d34a88303204fc3f855795883a13",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "6b14ffc95f6caa3dee7151339a01ee2b031c5410d844fa8b1539148386d344c4",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "1e2bfe1ceb725e64341be50c03a936afec7a94950d0cba05a968dafb90f540c9",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "f8046fbf265c3fe929b97bd4be113340e27aa8956d83ea834d77b1869a82d5a5",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "988e6c1d6847bdf01e5ed03e06fafb2bfbb479b4de165125c6c30bd5c17dd0e5",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/items/0/content/0",
+        "source_unit_hash": "510eb2775bedc9e4aa46df413e82d369acd4777f16068b39d36b79e48a17919b",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/items/1/content/0",
+        "source_unit_hash": "2b6cbd943150e71bd31d9ba9155bba2bd31e47a72a44d18d58851910d6eaa623",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/items/2/content/0",
+        "source_unit_hash": "e1dba9b32244c50eac7f54920054b117c173a9ec07b8ef8f6ecb8c3fbdef194b",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/items/3/content/0",
+        "source_unit_hash": "decfb0061cad35dead367f1c159cf82aa92d91dce6b467aab93f6a77011493cc",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "84b40d2a308a81d273ca7f1aaff44794f6c5b8d3199ebb590457c38343227507",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "0ea003d400fd722b5ea0a834acf9848a37db52ea37b95a3df281fd0dcdc25ab0",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/0/0/0",
+        "source_unit_hash": "03380f5e6abe10e99238f5c35863fe53ec288f3d0890a9c6ddac50e867528a04",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/0/1/0",
+        "source_unit_hash": "a455529ccb9bc50fd06f66eaa0eace039be22670c51adb4e7504885d16459e1f",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/0/2/0",
+        "source_unit_hash": "bf67703518ca9d4802bd642b6c8140e2099fa4d02fa0bd79bd0d28458834924f",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/0/3/0",
+        "source_unit_hash": "b957a2e9e38b5fd52807141c04616758c921f6bbd15d1bb934f72dd9580e66e9",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/1/0/0",
+        "source_unit_hash": "8a6bd09b49cd910b581568de7b575a3686d6ca6a8b9e0156fa0d6ad72c5698e5",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/1/1/0",
+        "source_unit_hash": "7aa1a106895cc725e2548726bfcdcacecc76ead94d8fc065771fa1d8f1b228da",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/1/2/0",
+        "source_unit_hash": "7aa1a106895cc725e2548726bfcdcacecc76ead94d8fc065771fa1d8f1b228da",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/1/3/0",
+        "source_unit_hash": "7aa1a106895cc725e2548726bfcdcacecc76ead94d8fc065771fa1d8f1b228da",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/2/0/0",
+        "source_unit_hash": "655dd2be5f4488b25fcc367eb3e3e6c0dee901f1b6cd807bea1868cac4bf342c",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/2/1/0",
+        "source_unit_hash": "7aa1a106895cc725e2548726bfcdcacecc76ead94d8fc065771fa1d8f1b228da",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/2/2/0",
+        "source_unit_hash": "7aa1a106895cc725e2548726bfcdcacecc76ead94d8fc065771fa1d8f1b228da",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/2/3/0",
+        "source_unit_hash": "7aa1a106895cc725e2548726bfcdcacecc76ead94d8fc065771fa1d8f1b228da",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/3/0/0",
+        "source_unit_hash": "12752e09788d5a482e16b3ee99f82155494e1937cc693b37ef0b9a3de4955110",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/3/1/0",
+        "source_unit_hash": "d3d55d837bad5873d967f1c6d564dc5aed906443df7a4731350806f33964824f",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/3/2/0",
+        "source_unit_hash": "d3d55d837bad5873d967f1c6d564dc5aed906443df7a4731350806f33964824f",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/3/3/0",
+        "source_unit_hash": "7aa1a106895cc725e2548726bfcdcacecc76ead94d8fc065771fa1d8f1b228da",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/4/0/0",
+        "source_unit_hash": "0ee77cf1eac4acd8a6b83bafc54c186bd5dd1ff2a81a76b26b1a456e0aad906a",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/4/1/0",
+        "source_unit_hash": "d3d55d837bad5873d967f1c6d564dc5aed906443df7a4731350806f33964824f",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/4/2/0",
+        "source_unit_hash": "d3d55d837bad5873d967f1c6d564dc5aed906443df7a4731350806f33964824f",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/rows/4/3/0",
+        "source_unit_hash": "d3d55d837bad5873d967f1c6d564dc5aed906443df7a4731350806f33964824f",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "c2cbc9c7cf1720d4e3134993f8cc4588afe5c1f0f524c4f08a07784f1b697d11",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/content/0",
+        "source_unit_hash": "84dc9f589f878f17c73203f4f0289911f9b6aecb702185fd5a50e09b0b8893a2",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "3d2b7e3c8dfd11a0f01c958dd83cbae5221d2759bea085497d41ad59f6b7a3cf",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Honest urgency and now/within-one-hour Time Sensitive requirement remain, with system introduction and periodic user reevaluation."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "61cf21f9501468184ce3e68221effe9c21e5e4007d6228ac59e922be1e1fe690",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Honest urgency and now/within-one-hour Time Sensitive requirement remain, with system introduction and periodic user reevaluation."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "19d5283721abe8b253de1e14fd93f5eeaca0693ed79f8ed6f6fc5d1fa880501d",
+        "source_anchor": "Sending-marketing-notifications",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Sending-marketing-notifications",
+        "evidence": "Explicit content opt-in/decline, never Time Sensitive, and in-app settings for changing informational/marketing choices all match."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "0d541f8eead506c5f9f5d9d4354223b3c593a1b7de1a8fb7939ce2fbdc6b1526",
+        "source_anchor": "Sending-marketing-notifications",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Sending-marketing-notifications",
+        "evidence": "Explicit content opt-in/decline, never Time Sensitive, and in-app settings for changing informational/marketing choices all match."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "c28cd5e2f5a7324e2c0a244524a6f7f94a7de7c55cb46c71f1be96f6df532b7f",
+        "source_anchor": "Sending-marketing-notifications",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Sending-marketing-notifications",
+        "evidence": "Explicit content opt-in/decline, never Time Sensitive, and in-app settings for changing informational/marketing choices all match."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "1fec2bdf3f24865db6bd9ac53b108f60d697d03c05a4e38bb1d664c28e271d81",
+        "source_anchor": "Sending-marketing-notifications",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Sending-marketing-notifications",
+        "evidence": "Explicit content opt-in/decline, never Time Sensitive, and in-app settings for changing informational/marketing choices all match."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "419dff4da9c20c346eed34e1af970d92a6620fab245019a8b5c35ceb6d2b9a59",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified the explicit absence of additional platform rules and retained platform applicability."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "5a83fffd23177ba83c2647e89b2c4a26bc07ed3c36029c508648388fb7a7f4bb",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Companion settings inheritance, Watch-app management, left-swipe options and temporary/Time Sensitive examples remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "16dccdc35e324226f2d6e4a778ecc98591227f281f28f2901fe97d8e2ce22b61",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "8a466707e2aab71e76a07b2e936255f55456c76e29ea565bbb247d3e0ad3ad41",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "0ea003d400fd722b5ea0a834acf9848a37db52ea37b95a3df281fd0dcdc25ab0",
+        "source_anchor": "Integrating-with-Focus",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+        "destination_anchor": "Integrating-with-Focus",
+        "evidence": "Compared communication sender-based SiriKit versus assigned noncommunication levels. The four-row matrix exactly retains delivery/Focus/silent No-No-No for Passive/Active, Yes-Yes-No Time Sensitive, Yes-Yes-Yes Critical; default Active, Critical entitlement and user-controlled breakthrough are explicit."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

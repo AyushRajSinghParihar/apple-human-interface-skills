@@ -1,0 +1,167 @@
+{
+  "review": {
+    "slug": "gyro-and-accelerometer",
+    "status": "reviewed",
+    "source_hash": "d51a076e8fd1cde249d229795c398c691a92c356ff4e17c9ee1dddbe6e9f31a1",
+    "destination_hash": "3b8edcfeb8e57b56a012c51c972c656ebe9d5e8765f63283857b416207a2af6a",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:09:19+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "gyroscope-and-accelerometer",
+        "status": "reviewed",
+        "evidence": "Checked Core Motion availability in iOS/iPadOS/watchOS and remote gyroscope use in tvOS."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked tangible purpose, permission-purpose copy, avoiding direct motion UI outside gameplay, accessibility/precision and power rationale."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "No additional source platform rules asserted."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "b3c4f73c4f82a57590cdd0344641724489ba8f587c376901efbf155f166a63cb",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "gyroscope-and-accelerometer",
+        "evidence": "Checked Core Motion availability in iOS/iPadOS/watchOS and remote gyroscope use in tvOS."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "b7a9076f452a5eca3349b8771e82f79e06c5efbce561da0e7fb9f8d1a83a3eb8",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "gyroscope-and-accelerometer",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked Core Motion availability in iOS/iPadOS/watchOS and remote gyroscope use in tvOS."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "80173977f5ae58e7cbba1c07181836116870c2aa382d553b72ee17aa7d2799de",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "gyroscope-and-accelerometer",
+        "evidence": "Checked Core Motion availability in iOS/iPadOS/watchOS and remote gyroscope use in tvOS."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "e9f4da71082eb9e5042cfbf3373db875a0821d7983f304d5f864935ed662b82f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked tangible purpose, permission-purpose copy, avoiding direct motion UI outside gameplay, accessibility/precision and power rationale."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "f8926135d9a3db7469850a7afb818e149185446658e5566ec74935d1efeb6e8b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked tangible purpose, permission-purpose copy, avoiding direct motion UI outside gameplay, accessibility/precision and power rationale."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/content/0",
+        "source_unit_hash": "1542cab85df7c36e22eed40200a4b2e4f2a27c041f4f9f65750a9d9dad9c95b0",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked tangible purpose, permission-purpose copy, avoiding direct motion UI outside gameplay, accessibility/precision and power rationale."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "ceab706a1c762eea90206a66a656524bc6968d54e932d67f85f531d90d4ea004",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked tangible purpose, permission-purpose copy, avoiding direct motion UI outside gameplay, accessibility/precision and power rationale."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "509b569829c7a6cfe24bc32528acd622858a84d9d670c9f630306f6689ae12f7",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "No additional source platform rules asserted."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "6427aa81d9828b0d03c4c78a3b225a41d7af45949cc573a6937b8bbe9ec70e2f",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "06316804be19aac2b518f5f5474d28b0f92a9acede20ef4e355167adf9f41d27",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [],
+    "issues": []
+  },
+  "media": {}
+}

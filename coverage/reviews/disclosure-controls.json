@@ -1,0 +1,522 @@
+{
+  "review": {
+    "slug": "disclosure-controls",
+    "status": "reviewed",
+    "source_hash": "03e583027ff1f08704b4e9e2d6916fecaa429efb8aa953b3dd5833aadd5c06b2",
+    "destination_hash": "587fb8b4a9fd285c89ee491eca175418b57cdcf2754ee4598ef3993e637e0953",
+    "reviewer": "independent-coverage-auditor",
+    "reviewed_at": "2026-10-25T12:57:12.394899+00:00",
+    "evidence": "Independent complete source-to-local semantic comparison and actual embedded-media inspection; author mappings do not establish approval.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "disclosure-controls",
+        "status": "reviewed",
+        "evidence": "Checked progressive reveal tied to a control/view."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked frequently used controls stay visible and advanced detail starts hidden."
+      },
+      {
+        "source_anchor": "Disclosure-triangles",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-triangles",
+        "status": "reviewed",
+        "evidence": "Checked inward/down collapsed/expanded directions, content resizing and predictive descriptive labels."
+      },
+      {
+        "source_anchor": "Disclosure-buttons",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-buttons",
+        "status": "reviewed",
+        "evidence": "Checked distinct down/up directions, nearby placement and maximum one disclosure button per view."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked macOS shared guidance and unsupported tvOS/watchOS."
+      },
+      {
+        "source_anchor": "iOS-iPadOS-visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "iOS-iPadOS-visionOS",
+        "status": "reviewed",
+        "evidence": "Checked DisclosureGroup availability."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "40199c036ddafa2a7b53a5aa1d24a1b23703bd00102a3bfcf4045072604bbeec",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "disclosure-controls",
+        "evidence": "Checked progressive reveal tied to a control/view."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "bbd192134b282400676f4b14bf62b88f45cf9a43f57393593c6ac99640904079",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "disclosure-controls",
+        "evidence": "Checked progressive reveal tied to a control/view."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "3d0ca9b906a64b73bfde7b8e4c8e41a00c78960e8721e09364203f77c7c728a5",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked frequently used controls stay visible and advanced detail starts hidden."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "06d57e10114bff96643117e6025fd5139803da549aa1b3f21172ef009d792b8b",
+        "source_anchor": "Disclosure-triangles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-triangles",
+        "evidence": "Checked inward/down collapsed/expanded directions, content resizing and predictive descriptive labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "ab6037cf5cc9424f15c1c6375a7b11e9b5202742a7f0a76b57af23114d3c26ef",
+        "source_anchor": "Disclosure-triangles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-triangles",
+        "evidence": "Checked inward/down collapsed/expanded directions, content resizing and predictive descriptive labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/0/content/0",
+        "source_unit_hash": "881485dcf4dccd17dcd4e685f9c341dfffe56172908da855b7c6fb1059fce2cf",
+        "source_anchor": "Disclosure-triangles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-triangles",
+        "evidence": "Checked inward/down collapsed/expanded directions, content resizing and predictive descriptive labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "2272feb812f7e5021b2a6150ae382a0f40728bafdc52f9b6dd8d51c44ec80776",
+        "source_anchor": "Disclosure-triangles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-triangles",
+        "evidence": "Checked inward/down collapsed/expanded directions, content resizing and predictive descriptive labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/1/content/0",
+        "source_unit_hash": "464a86acd325a04a2b1a712bc826460b0a02dfa58b6662f925d1bd92ccaf4931",
+        "source_anchor": "Disclosure-triangles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-triangles",
+        "evidence": "Checked inward/down collapsed/expanded directions, content resizing and predictive descriptive labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "435c189b91c5deeef1c0f52fb3c5ff1fde075d3f025ccd2075a2181926108d98",
+        "source_anchor": "Disclosure-triangles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-triangles",
+        "evidence": "Checked inward/down collapsed/expanded directions, content resizing and predictive descriptive labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "9d32c7c44764978cc3c87bcef3f4a5a88be24d754304b28414ffbcd5327e4075",
+        "source_anchor": "Disclosure-triangles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-triangles",
+        "evidence": "Checked inward/down collapsed/expanded directions, content resizing and predictive descriptive labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "6399d7bed0237a7e8885e82f696ff3448614b3219e5467f407868ac51354a7cc",
+        "source_anchor": "Disclosure-triangles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-triangles",
+        "evidence": "Checked inward/down collapsed/expanded directions, content resizing and predictive descriptive labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "2095dc60bd0b90066fba7e9d35915ac42c3c07732518e186d06ba39364ddd243",
+        "source_anchor": "Disclosure-triangles",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-triangles",
+        "evidence": "Checked inward/down collapsed/expanded directions, content resizing and predictive descriptive labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "a9be6d985e29f03f60e0d5ad183b85653899ff90bffc739aee572ce364fa9080",
+        "source_anchor": "Disclosure-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-buttons",
+        "evidence": "Checked distinct down/up directions, nearby placement and maximum one disclosure button per view."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "ecab1ce5721220ba1f624170a1f4ddc24344a2eeb5b99424c10554f6c49cb624",
+        "source_anchor": "Disclosure-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-buttons",
+        "evidence": "Checked distinct down/up directions, nearby placement and maximum one disclosure button per view."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "c977013ed3b61e74d7544f507c8df05134538b6ee51fe6d34358f33c499f8c10",
+        "source_anchor": "Disclosure-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-buttons",
+        "evidence": "Checked distinct down/up directions, nearby placement and maximum one disclosure button per view."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/tabs/0/content/0",
+        "source_unit_hash": "6b6766ab29db1bd46a72f8e9f2884dc6a77c0e09ce242c42423a35e01fe24a2b",
+        "source_anchor": "Disclosure-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-buttons",
+        "evidence": "Checked distinct down/up directions, nearby placement and maximum one disclosure button per view."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "406ae14ad811c3fac78d0c2339c3fc27f2f553b26f0b2cfdf3226dfdcc005c5c",
+        "source_anchor": "Disclosure-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-buttons",
+        "evidence": "Checked distinct down/up directions, nearby placement and maximum one disclosure button per view."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/tabs/1/content/0",
+        "source_unit_hash": "6c38e8ee9a7d36c0528bb35261e931cb88d972103b99efad80f592b8fbddc092",
+        "source_anchor": "Disclosure-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-buttons",
+        "evidence": "Checked distinct down/up directions, nearby placement and maximum one disclosure button per view."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "8751c75518ba9b04db053c0bcc95b10027050344b56e322dd6ccb499f651f719",
+        "source_anchor": "Disclosure-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-buttons",
+        "evidence": "Checked distinct down/up directions, nearby placement and maximum one disclosure button per view."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "7c02e5cd213d2d6e73324e0f65c446cee48c7631afc9a8e68f1f2c116ae4ae6d",
+        "source_anchor": "Disclosure-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-buttons",
+        "evidence": "Checked distinct down/up directions, nearby placement and maximum one disclosure button per view."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "317e7eafe02e16ed428a236d36bd1e34c833cf7d436965c96e83723b947d0d9e",
+        "source_anchor": "Disclosure-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-buttons",
+        "evidence": "Checked distinct down/up directions, nearby placement and maximum one disclosure button per view."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "6b91ca6746e195809d8d103e18f69dcb992d512b855621e4e7544db839ddefc0",
+        "source_anchor": "Disclosure-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Disclosure-buttons",
+        "evidence": "Checked distinct down/up directions, nearby placement and maximum one disclosure button per view."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "0590d92e1184172525c4e6f68f4994e8cd6d44b773abd863388744277cfcf7da",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked macOS shared guidance and unsupported tvOS/watchOS."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "1d93f42408490fcc05332e53e32d59822ca550b9d1f30c92862fe91aec05a5f9",
+        "source_anchor": "iOS-iPadOS-visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "iOS-iPadOS-visionOS",
+        "evidence": "Checked DisclosureGroup availability."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "4b5f867e4935bc283aaf4724ffa89d895dd0d0937623cc0bf0629575eab84ace",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "98f7ad5f4df271605643a1fc3f4eb38436ac99aa0a888ee36bccd4a8c4d4ad3b",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "f6ef989b762ae3322abbfe6161e0b654a8add6f6d74baebc20c4c4cbefa846d6",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "099e3f07cf79b537a2d39eea2b414fcc73df24dad100f10fdf0d472a8dc0da82",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "d9cdaa0ea3250cf4f7a32e9bbbbb06c825a4365ec397601fbd732fd09776e776",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "732f52b4e74b6f3381973e6b32b96ca3f6cce3b4f47c1ab27f7baef2e82e5c49",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      }
+    ],
+    "tables": [],
+    "supporting_files": [],
+    "issues": []
+  },
+  "media": {
+    "components-disclosure-control-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Topic illustration or correctness marker adds no separate unexpressed requirement.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "decorative or redundant topic/assessment marker",
+      "binary_hash": "a65d043f57e49ca8aa14930372e358c3ba96881169f61fbdc33f05b072720d16",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-disclosure-control-intro@2x.png",
+      "reference_metadata_hash": "2ba83aad08fdd17b9b5cb631c78def23912bd8e9818a21225d7d73b7a730391d",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+      "destination_hash": "587fb8b4a9fd285c89ee491eca175418b57cdcf2754ee4598ef3993e637e0953",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+          "hash": "587fb8b4a9fd285c89ee491eca175418b57cdcf2754ee4598ef3993e637e0953"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-disclosure-control-intro~dark@2x.png",
+          "binary_hash": "4d6827ee6dea77a6925e9af4e46d3a25180aea9f9b051f67e1d99b2a738757de",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "disclosure-triangle-before.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Checked inward/down collapsed/expanded directions, content resizing and predictive descriptive labels.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "b2f7d1f8ee5433d64c792dc6dc7252ff0b99f0346309da7fe8a1071541f9ebb8",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/disclosure-triangle-before@2x.png",
+      "reference_metadata_hash": "7de012baa899d5401b556931756f32646b942dc825db07abbf7006b5330c5252",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+      "destination_hash": "587fb8b4a9fd285c89ee491eca175418b57cdcf2754ee4598ef3993e637e0953",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+          "hash": "587fb8b4a9fd285c89ee491eca175418b57cdcf2754ee4598ef3993e637e0953"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/5/tabs/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/disclosure-triangle-before~dark@2x.png",
+          "binary_hash": "be2815cfa7dd78d6032b91c9090d649f2ffcdcf5b7bf8c4f3da5a0e487a33e2d",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "disclosure-triangle-after.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Checked inward/down collapsed/expanded directions, content resizing and predictive descriptive labels.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "8c90a92687ef3b86b8bbd76b86b4998c96b09c1142c475a0123913b0977f6478",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/disclosure-triangle-after@2x.png",
+      "reference_metadata_hash": "ecfeb450e626b4aecd2887a59e9257f2fb712056097b98917e009f285331d2fa",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+      "destination_hash": "587fb8b4a9fd285c89ee491eca175418b57cdcf2754ee4598ef3993e637e0953",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+          "hash": "587fb8b4a9fd285c89ee491eca175418b57cdcf2754ee4598ef3993e637e0953"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/5/tabs/1/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/disclosure-triangle-after~dark@2x.png",
+          "binary_hash": "f7f1a972c6219b80569712cf6e745fd7ef74ebc35d545f1d58ca0e6554b698b4",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "disclosure-button-before.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Checked distinct down/up directions, nearby placement and maximum one disclosure button per view.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "874853a152c551caedace2e611a4be7155115fd368b5f9e09890970dcd36619d",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/disclosure-button-before@2x.png",
+      "reference_metadata_hash": "e38c4b90014f9995b4f72a010a486dd2a4de26d7fff07ecd29b66947338fb667",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+      "destination_hash": "587fb8b4a9fd285c89ee491eca175418b57cdcf2754ee4598ef3993e637e0953",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+          "hash": "587fb8b4a9fd285c89ee491eca175418b57cdcf2754ee4598ef3993e637e0953"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/12/tabs/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/disclosure-button-before~dark@2x.png",
+          "binary_hash": "af9d2e8c9430c91c0d79afb70d0a26fb1762e1e32d94ab180eb53c603e97c82b",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "disclosure-button-after.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Checked distinct down/up directions, nearby placement and maximum one disclosure button per view.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "38a789e857f12f5d1b43ae924ef734a3cfdadd76b1d060feba909f5d1c54125c",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/disclosure-button-after@2x.png",
+      "reference_metadata_hash": "00a9d1551ea4462b8485dba5f87c56139d21a63138b48f98786588c9ef968dfa",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+      "destination_hash": "587fb8b4a9fd285c89ee491eca175418b57cdcf2754ee4598ef3993e637e0953",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+          "hash": "587fb8b4a9fd285c89ee491eca175418b57cdcf2754ee4598ef3993e637e0953"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/12/tabs/1/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/disclosure-button-after~dark@2x.png",
+          "binary_hash": "a8ec282c0b8e511fc1c57c27c93a4950676c330d9841415058219a36f68a5403",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    }
+  }
+}

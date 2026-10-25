@@ -1,0 +1,1498 @@
+{
+  "review": {
+    "slug": "augmented-reality",
+    "status": "reviewed",
+    "source_hash": "b24534c5a0e81446909e7ffe474d2499f5a01570ad935a51cc22617f7b5a09f8",
+    "destination_hash": "b49ab71be7c33e51c01607346c1728e5d881ec60ae058e28e7e5e1e7fc47f088",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:23:19+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "augmented-reality",
+        "status": "reviewed",
+        "evidence": "Checked capability gating versus hidden optional unsupported features, iOS/iPadOS scope and separate visionOS ARKit model."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified display priority, realism/light/shadows/grain/60fps, approximate reflective surfaces, audio/haptics, screen-space/indirect controls, environmental requirements, fatigue/motion ramp and physical safety."
+      },
+      {
+        "source_anchor": "Providing-coaching",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Providing-coaching",
+        "status": "reviewed",
+        "evidence": "Verified initialization/relocalization system coaching, hiding unrelated UI, plane configuration and custom-coaching reference."
+      },
+      {
+        "source_anchor": "Helping-people-place-objects",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Helping-people-place-objects",
+        "status": "reviewed",
+        "evidence": "Checked plane-aligned placement cue, immediate placement/refinement, offscreen direction, uncertain edges and classified surface selection."
+      },
+      {
+        "source_anchor": "Designing-object-interactions",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "evidence": "Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "source_anchor": "Offering-a-multiuser-experience",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Offering-a-multiuser-experience",
+        "status": "reviewed",
+        "evidence": "Checked independent mapping/merge, people occlusion and late-join exception."
+      },
+      {
+        "source_anchor": "Reacting-to-real-world-objects",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Reacting-to-real-world-objects",
+        "status": "reviewed",
+        "evidence": "Verified 2D/3D references, up-to-one-second disappearance delay,100-or-fewer active references/context switching and precise tracking only when needed."
+      },
+      {
+        "source_anchor": "Communicating-with-people",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "source_anchor": "Handling-interruptions",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Handling-interruptions",
+        "status": "reviewed",
+        "evidence": "Verified relocalization coaching/pose, hidden unstable objects, embedded non-AR tasks, indefinite retry/cancel and0.5s face-loss indication."
+      },
+      {
+        "source_anchor": "Suggesting-problem-resolutions",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "evidence": "Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "source_anchor": "Icons-and-badges",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified iOS/iPadOS and macOS/tvOS/watchOS exclusions."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Verified consent-based surfaces/hands/physical-object capabilities without applying all phone rules uniformly."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "5f6a27b75cadb3654da043f7b98571c323fe46819f230c679ff21f835fffd01e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "augmented-reality",
+        "evidence": "Checked capability gating versus hidden optional unsupported features, iOS/iPadOS scope and separate visionOS ARKit model."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "7aa66b46260d199eb82464a627c65d05479d4180d270826ea5ce093f5f0df1d7",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "augmented-reality",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked capability gating versus hidden optional unsupported features, iOS/iPadOS scope and separate visionOS ARKit model."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "283d66922da406a3f003a34ca6f2b9ab2be9a9bb3b10d06dc40c3d3da90d8982",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "augmented-reality",
+        "evidence": "Checked capability gating versus hidden optional unsupported features, iOS/iPadOS scope and separate visionOS ARKit model."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "843bc28c85bb429202a43bcb45c92d3c4d3ba7276791b9ba30f1924e2cd4c07f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "augmented-reality",
+        "evidence": "Checked capability gating versus hidden optional unsupported features, iOS/iPadOS scope and separate visionOS ARKit model."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "8f39bd2e9607db1a6e5a46ece8d8b5e8c9942995e021925b2927deaf5abc7c07",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "augmented-reality",
+        "evidence": "Checked capability gating versus hidden optional unsupported features, iOS/iPadOS scope and separate visionOS ARKit model."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/content/0",
+        "source_unit_hash": "90ef45bbc5fd21a6de51a6827c558f8d770497d5bad53c97bf53719892f200d2",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "augmented-reality",
+        "evidence": "Checked capability gating versus hidden optional unsupported features, iOS/iPadOS scope and separate visionOS ARKit model."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "4ffb7a51e047579ff8bb52e70ae0c9e1456317bf281127640f5f0666129a8392",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified display priority, realism/light/shadows/grain/60fps, approximate reflective surfaces, audio/haptics, screen-space/indirect controls, environmental requirements, fatigue/motion ramp and physical safety."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "24d3a8d961ff1b24df2c8ca2de97b242f333df299e6e398d4a9980f65338dd35",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified display priority, realism/light/shadows/grain/60fps, approximate reflective surfaces, audio/haptics, screen-space/indirect controls, environmental requirements, fatigue/motion ramp and physical safety."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "7c53f11fbcf6c4a4157916c0c5596b74b4fddd445e1fd79d5951127e330b8b49",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified display priority, realism/light/shadows/grain/60fps, approximate reflective surfaces, audio/haptics, screen-space/indirect controls, environmental requirements, fatigue/motion ramp and physical safety."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "77796ee2d25ddee48d2446602dda0da7502a89d7c678ab4f6eda41c67ae55ae1",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified display priority, realism/light/shadows/grain/60fps, approximate reflective surfaces, audio/haptics, screen-space/indirect controls, environmental requirements, fatigue/motion ramp and physical safety."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "21a07de4ef6a2f7f3104e3dcaea99491cd4d10615d20e7b992d3fc0865e8312c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified display priority, realism/light/shadows/grain/60fps, approximate reflective surfaces, audio/haptics, screen-space/indirect controls, environmental requirements, fatigue/motion ramp and physical safety."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "402770dfc144f9d4b3458de7655d72271bd372533ed82e3b9fdb01b87df8725a",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified display priority, realism/light/shadows/grain/60fps, approximate reflective surfaces, audio/haptics, screen-space/indirect controls, environmental requirements, fatigue/motion ramp and physical safety."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "5ad394c335e6bbe8aa7a250c6df21a45234bd13e4519e2ee6c0ef83235a5d3b9",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified display priority, realism/light/shadows/grain/60fps, approximate reflective surfaces, audio/haptics, screen-space/indirect controls, environmental requirements, fatigue/motion ramp and physical safety."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "f0ca5539dfcf4476bfe07ad6fbd3a03651f8f51e39e589393410a01288f4a598",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified display priority, realism/light/shadows/grain/60fps, approximate reflective surfaces, audio/haptics, screen-space/indirect controls, environmental requirements, fatigue/motion ramp and physical safety."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/inlineContent/0",
+        "source_unit_hash": "1da7836c3efced639babc9d2842f4ae645290932c6832c39e6a66d78f219992f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified display priority, realism/light/shadows/grain/60fps, approximate reflective surfaces, audio/haptics, screen-space/indirect controls, environmental requirements, fatigue/motion ramp and physical safety."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "050eb2ee7eea8f03d346ddd8bd668e2bd6bc9bc16e682275d222856e9f33903f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified display priority, realism/light/shadows/grain/60fps, approximate reflective surfaces, audio/haptics, screen-space/indirect controls, environmental requirements, fatigue/motion ramp and physical safety."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "84ab305d907550bbcf1c229d3d8888dcb807d3c19ffd341f6c0e0ea35518845c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified display priority, realism/light/shadows/grain/60fps, approximate reflective surfaces, audio/haptics, screen-space/indirect controls, environmental requirements, fatigue/motion ramp and physical safety."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "77e3aab7465c7fc4634c252b5924a8013936e33aa33c7fc70e96ff26ed50ef81",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified display priority, realism/light/shadows/grain/60fps, approximate reflective surfaces, audio/haptics, screen-space/indirect controls, environmental requirements, fatigue/motion ramp and physical safety."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "6ea312bb22cb7d781810d5b1b9717452129bd08f82ff1c765c1aea2e18389a4c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified display priority, realism/light/shadows/grain/60fps, approximate reflective surfaces, audio/haptics, screen-space/indirect controls, environmental requirements, fatigue/motion ramp and physical safety."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "2c19d50a7a78db3df74a38cd06cc2ba902b0802d4b328a54036a3765496a9a62",
+        "source_anchor": "Providing-coaching",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Providing-coaching",
+        "evidence": "Verified initialization/relocalization system coaching, hiding unrelated UI, plane configuration and custom-coaching reference."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/0/content/0",
+        "source_unit_hash": "ba02d16685185824fb3bd5f39cbbae3f1fb2a7deb60c05229d5884b902dfa633",
+        "source_anchor": "Providing-coaching",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Providing-coaching",
+        "evidence": "Verified initialization/relocalization system coaching, hiding unrelated UI, plane configuration and custom-coaching reference."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "b956b0b8ce70996194573d3cd015c0dc6a06af17f7977482a294f5d5afc26302",
+        "source_anchor": "Providing-coaching",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Providing-coaching",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified initialization/relocalization system coaching, hiding unrelated UI, plane configuration and custom-coaching reference."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "0330effd9be67ba47ffab96cb25eebf2976dc2b828a535abd9abc6f7bb587b6f",
+        "source_anchor": "Providing-coaching",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Providing-coaching",
+        "evidence": "Verified initialization/relocalization system coaching, hiding unrelated UI, plane configuration and custom-coaching reference."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "ccd7c424cb756448e1e70aa1acadf81ac599e60f90e2bdb1516609a3f9a2decd",
+        "source_anchor": "Providing-coaching",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Providing-coaching",
+        "evidence": "Verified initialization/relocalization system coaching, hiding unrelated UI, plane configuration and custom-coaching reference."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "8b6f91c2e994accbdc64b47b66bd896597d1dd3f85216f7171f04bc68a67ada2",
+        "source_anchor": "Helping-people-place-objects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Helping-people-place-objects",
+        "evidence": "Checked plane-aligned placement cue, immediate placement/refinement, offscreen direction, uncertain edges and classified surface selection."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/0/content/0",
+        "source_unit_hash": "05f5174e5381a484e862f17009a264d2ef4e0802a40f7de1acd6706ff01cafe5",
+        "source_anchor": "Helping-people-place-objects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Helping-people-place-objects",
+        "evidence": "Checked plane-aligned placement cue, immediate placement/refinement, offscreen direction, uncertain edges and classified surface selection."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "c6131f359d246f19c39255aee10f42f7514fda96fa5deffb412f685ba232c18c",
+        "source_anchor": "Helping-people-place-objects",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Helping-people-place-objects",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked plane-aligned placement cue, immediate placement/refinement, offscreen direction, uncertain edges and classified surface selection."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "edb19a8515317434ced5b9b4b8f31743ab7a858ada768f0d1e27a6a598771a19",
+        "source_anchor": "Helping-people-place-objects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Helping-people-place-objects",
+        "evidence": "Checked plane-aligned placement cue, immediate placement/refinement, offscreen direction, uncertain edges and classified surface selection."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "41878f6c45655c55af277cf8807e45d072638e1e52a39f6fac86e3e2f8cc4543",
+        "source_anchor": "Helping-people-place-objects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Helping-people-place-objects",
+        "evidence": "Checked plane-aligned placement cue, immediate placement/refinement, offscreen direction, uncertain edges and classified surface selection."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "5947ee134f633336f8f1dba6a8cb0f64222a8f79e9652ed738997d627937b5ce",
+        "source_anchor": "Helping-people-place-objects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Helping-people-place-objects",
+        "evidence": "Checked plane-aligned placement cue, immediate placement/refinement, offscreen direction, uncertain edges and classified surface selection."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "22512b4297e72ca1915327d832384a0c2e49f926a46a4d3d14c4a609e39d0c21",
+        "source_anchor": "Helping-people-place-objects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Helping-people-place-objects",
+        "evidence": "Checked plane-aligned placement cue, immediate placement/refinement, offscreen direction, uncertain edges and classified surface selection."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "4998e3e7dccb08a4327cf2135ba07d50b989ecf9cdcb069cc10c23512f3d6c16",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/columns/0/content/0",
+        "source_unit_hash": "da31e9748bb7a2b57991e61e78c945bca9facc3145e6bf5d476b011b22f36b28",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "d574cc1308a8311191052185bf524f9061a04473a801ba5396a651962d624213",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/columns/1/content/0",
+        "source_unit_hash": "482ac4064ffce34cf706716a9bd7b738a204dbce6e5108f60600fee74e74090e",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "f47d1ad3906dbf260b664f4b9b5ee5c42654c6aed56bbf04b78954abd392a14f",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "9a28c0f827840de1369216e13113f1ea04acd6286aece552aee4cc47e948a969",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "8e4d8cef9a16d796cbdf2b19e04a7fd67b406e5e9aa77f7f424bb93f2fdcec3b",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/columns/0/content/0",
+        "source_unit_hash": "e3f4e6523edb916b74ebe533372482bc2942728e04a128ac345746c82115b7e4",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "0464055f372e7d48a56805e44cd2672b19f1eec0bb37341cdff63945f182e094",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/columns/1/content/0",
+        "source_unit_hash": "6870ef5a6d203097e667e7380c101caa7e14f31b5006e2376ca6e74e599d594a",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "1189b0764dfb37a59bfbf6c6df41b417a5c248f680913373116590d0cb721a01",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "f4fb1a133c53ca96f1a7f287137f638a04e295614600fb6949e464f5b0013df5",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "fcf0fefca0bff6b12e2c3264935d70e5e5c36b0accdaa89317dcc9a3fe11335d",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "04f5cc5b28ababbb55c8efc691abefc3dc1174e24d161e0373c844ed36b43cb5",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/content/0",
+        "source_unit_hash": "3069f77d90a13f86e673a180dc50a455bf84abac80cd9f201af293014b5c8858",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "1106302e5a1ed9b7787804d92857ac44e6bf95c311424d6ddf405f10d3c42c9e",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "3ec62d67d0af1076819797f33fe6a2d6afab456489c62d7a3195960361c7e6a8",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "961934887183d3c4862cd0f2bbd2aad1438238898b006499ff28445de49e9f6c",
+        "source_anchor": "Designing-object-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Designing-object-interactions",
+        "evidence": "Rechecked one-finger move/two-finger spin correction; verified 2D/depth simplification, direct/indirect choice, forgiving proximity, real-size scaling exception, no scaling-for-distance, gesture conflicts and visible surface-bound motion."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "db700b5d30173ff7d16b141b54ebe5d6ede604af81b90778df6cd1cb34178319",
+        "source_anchor": "Offering-a-multiuser-experience",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Offering-a-multiuser-experience",
+        "evidence": "Checked independent mapping/merge, people occlusion and late-join exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "06b8ef768963bd7a7280bf649a5061dc67e8e0b517b1634531cd7e2aa06d3be6",
+        "source_anchor": "Offering-a-multiuser-experience",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Offering-a-multiuser-experience",
+        "evidence": "Checked independent mapping/merge, people occlusion and late-join exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "8ce0ea8d4190e56967454cb5ae8eb42d64cb9a131f2cd4d880dcd52dbfa405c6",
+        "source_anchor": "Offering-a-multiuser-experience",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Offering-a-multiuser-experience",
+        "evidence": "Checked independent mapping/merge, people occlusion and late-join exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "6f41348880c3b374e11ac0e94315e2a536dcc607c309ef5e6404bca51dc9e4f7",
+        "source_anchor": "Reacting-to-real-world-objects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Reacting-to-real-world-objects",
+        "evidence": "Verified 2D/3D references, up-to-one-second disappearance delay,100-or-fewer active references/context switching and precise tracking only when needed."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "5d1b72efc50fd22c259e0c943a215454e682ad3a16c0f46122ccb1f18137e409",
+        "source_anchor": "Reacting-to-real-world-objects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Reacting-to-real-world-objects",
+        "evidence": "Verified 2D/3D references, up-to-one-second disappearance delay,100-or-fewer active references/context switching and precise tracking only when needed."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "284297f6dafc3f16204c79adfc049133f1f6432c7cab18e5c6f9364cd191b6b6",
+        "source_anchor": "Reacting-to-real-world-objects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Reacting-to-real-world-objects",
+        "evidence": "Verified 2D/3D references, up-to-one-second disappearance delay,100-or-fewer active references/context switching and precise tracking only when needed."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "fc64ada2c401c8c246482ed1e640ab56b12ee57049c931ba3b66fd2c6ca1b9bd",
+        "source_anchor": "Reacting-to-real-world-objects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Reacting-to-real-world-objects",
+        "evidence": "Verified 2D/3D references, up-to-one-second disappearance delay,100-or-fewer active references/context switching and precise tracking only when needed."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "e62c959160fdbb1fba24c1209becb7690c9a8262d7be5f7fc1f1d4a36ce1204d",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "9a383c098e102476d908992a20f925409d1299cac4bbd8da633802040359dd66",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/0/0/0",
+        "source_unit_hash": "0d2fa44dbcfa4d737b9aec2e914ae86f7ab70c33e5b2d26efaadfdb6fc48590c",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/0/1/0",
+        "source_unit_hash": "05336d857c79384bf0f53a1f1d462df6fc13a19cdd29b327cc092859332d224d",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/1/0/0",
+        "source_unit_hash": "133b87bf3fbec5c5086bc180a913f3f8aff5c72c19d2f469a9a610ed9513f8de",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/1/1/0",
+        "source_unit_hash": "b68f68d684d47d1375acf06f76cbe379d997a02481a1d965cd30b46a60119e97",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/2/0/0",
+        "source_unit_hash": "98562b634022c360ba98a61438c38705600d8b9b68a3bb009d38c0a6a98c9b50",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/2/1/0",
+        "source_unit_hash": "8701e5d2f9d3b7735fc62d4ef63f66199843b9b7beaf4cd8136610586fdffd5b",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/3/0/0",
+        "source_unit_hash": "661559e70075159b0a290e6f91b86d055dccc8f82c1499b7d42b258a1edaf007",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/3/1/0",
+        "source_unit_hash": "dd056ba6239e3d813d8571da36e3c8c86ba48678a183aa5d05ad150559252479",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/4/0/0",
+        "source_unit_hash": "804f7d18bc316e99a293e887f2ce827e2443c8777a35a2ec1b2e500e6cf9b784",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/4/1/0",
+        "source_unit_hash": "09a94ba0aacad9772f32addcbcda58a271606ea83f8de4246a6b4b23a7ef4931",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "f01c0be156f73ec16991e5c9c567f0ba1a085a929ed771264f484627804e7645",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/columns/0/content/0",
+        "source_unit_hash": "a270c461af290a2400b25ed69d0938c7b1825cd3faa29fbfebae3af8472ccdcc",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "2cfbd553ecc62cdc7cd6c75e2fdf6558f6af15151e1cb3f8feb9ed847b2b3f65",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/columns/1/content/0",
+        "source_unit_hash": "ca445be866c27a5e8f46ce41c5c4e14a2ac629b6223f5dbda32995b8db95d2c1",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "4662401970a5f1fc66a9a581ff378f07b705992a76543bebb4f006b82bd6a463",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "58346b545eafb2dac5819c011b181460327b1347af28c9705b22cb13d01f0094",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "d8f0c5a5625a2de28e9ae001e8a0fbcb0f06012c25f4b8acd7327cd5d324ebe3",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/columns/0/content/0",
+        "source_unit_hash": "0c8aeb12a44688d563254e133302fb29ea06177a39e0ad3cc87ce7139654cc82",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "57ee66ffecc8494f85d821b7ab1d483acb4741b4542711e60d901b1e29ebe4cf",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/columns/0/content/0",
+        "source_unit_hash": "ffd846020080ab2703e413a961c957b7a35772b33c6dbbdd7e3a60d12d59b0b7",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/58/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "ba21fb002f461ce9dd8e0eacbbd0c4296348dcddb7a812e2c3253550cf8196c4",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "cc1143b2f960b218b1b2f2e45e6df8c337f73755961fb015bb0aad53be367fd7",
+        "source_anchor": "Handling-interruptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Handling-interruptions",
+        "evidence": "Verified relocalization coaching/pose, hidden unstable objects, embedded non-AR tasks, indefinite retry/cancel and0.5s face-loss indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "bec32c5d7ffc6e94a9661ab1025a9e85ba2c7f6c81592e58f8ef1b9a8b780cc8",
+        "source_anchor": "Handling-interruptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Handling-interruptions",
+        "evidence": "Verified relocalization coaching/pose, hidden unstable objects, embedded non-AR tasks, indefinite retry/cancel and0.5s face-loss indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/62/columns/0/content/0",
+        "source_unit_hash": "e5cd7c48f4c36dbd79e46531cc015ede3af02121ae142af6dc1e068f70208ee5",
+        "source_anchor": "Handling-interruptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Handling-interruptions",
+        "evidence": "Verified relocalization coaching/pose, hidden unstable objects, embedded non-AR tasks, indefinite retry/cancel and0.5s face-loss indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/62/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "c386fb0d46cdf10da5ee7a19722cd354cc6f0afe261dad32676f384694a89251",
+        "source_anchor": "Handling-interruptions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Handling-interruptions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified relocalization coaching/pose, hidden unstable objects, embedded non-AR tasks, indefinite retry/cancel and0.5s face-loss indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "e6873831aca58434d87da671454d658700f62faa34f980ea386c2a49d9acca89",
+        "source_anchor": "Handling-interruptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Handling-interruptions",
+        "evidence": "Verified relocalization coaching/pose, hidden unstable objects, embedded non-AR tasks, indefinite retry/cancel and0.5s face-loss indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/64",
+        "source_unit_hash": "c89b5bd4beded003022a9e19f6f5ab7f103926986f16199a11e0d15e9a745f84",
+        "source_anchor": "Handling-interruptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Handling-interruptions",
+        "evidence": "Verified relocalization coaching/pose, hidden unstable objects, embedded non-AR tasks, indefinite retry/cancel and0.5s face-loss indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "a1e29cc3f5f7d64c0cc79326e9a57001f5695ee86da56bca78ffbb26ab9b1871",
+        "source_anchor": "Handling-interruptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Handling-interruptions",
+        "evidence": "Verified relocalization coaching/pose, hidden unstable objects, embedded non-AR tasks, indefinite retry/cancel and0.5s face-loss indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/66",
+        "source_unit_hash": "af4fe24793aa9c1241d18f259773496ec620094f59871a02b8e8952e88229b2a",
+        "source_anchor": "Handling-interruptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Handling-interruptions",
+        "evidence": "Verified relocalization coaching/pose, hidden unstable objects, embedded non-AR tasks, indefinite retry/cancel and0.5s face-loss indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "cbca9647f57fd3bd575506d25afc48cc770c326cf8fde2d7cba867e47613225d",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/columns/0/content/0",
+        "source_unit_hash": "1125a561a6c4b85c047bb674b6599f65551b9a86f40222e88f675575a2e43914",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "4ce26c4179860b1ce9fb5e4644af40aef3d60702be42383ceca42836ecf4facc",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/columns/1/content/0",
+        "source_unit_hash": "087998a73508e56da4b6598640727185b087178d859f1ec80238f4f640041103",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "1209a0faa8b49003c59a500b7ddc9d9688faa612387d5c6c33b92ece0eb96926",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/70",
+        "source_unit_hash": "90769a5767adb061291e537a8b3421d709256a26bd33b67eb598696b0a4114c0",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "8337b0d06ca0e8d8f617ee2fd2be0648df87e30c10cc272b3920ea5cb984de3a",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/0/0/0",
+        "source_unit_hash": "235897327f349f887185609d207a8e667a7035b6ea8c63ceef498c366a36a164",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/0/1/0",
+        "source_unit_hash": "8577268e833448ab990dd817dd68d5bad723492a75035a151a8b682f7006db91",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/1/0/0",
+        "source_unit_hash": "3956977c78636d5e255c1761a5a551f0c4e124267bf6f0c0b6ea157711782056",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/1/1/0",
+        "source_unit_hash": "661559e70075159b0a290e6f91b86d055dccc8f82c1499b7d42b258a1edaf007",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/2/0/0",
+        "source_unit_hash": "09a94ba0aacad9772f32addcbcda58a271606ea83f8de4246a6b4b23a7ef4931",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/2/1/0",
+        "source_unit_hash": "803c9dc95c495979165c25c5a070657b3f77d2bf4895587059bda4ba8502df69",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/3/0/0",
+        "source_unit_hash": "0bdde894d033db0aa5b473550f58d71674e2f43844482d62015143f96b2ba518",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/71/rows/3/1/0",
+        "source_unit_hash": "dce586584c6f935d44a02c08b14222385b395adad9efe3800024a7a26d72e87b",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      },
+      {
+        "id": "primaryContentSections/0/content/73",
+        "source_unit_hash": "39b709745b063e573ea16a6a6fdc9845c59f3808158b77a4214c8930cf38b1b6",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/74/columns/0/content/0",
+        "source_unit_hash": "b4e0d4cf5741edc96fe6b9e5035bf14c2cd6418a495eba390e75c90aa2259d73",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/74/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "ac2c652dc33635d35d65f222ffa8ea661dd6e3e47912cbcdc35ba0a99cac33ea",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/74/columns/1/content/0",
+        "source_unit_hash": "fdc5b3485c809b938a2b5354c21e8f0b9d5464dba8110b90d835c47ffb34ebe2",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/74/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "a20ea7da74e973adfbfcc138fb25c909ce8f0a6b3c67576cf61c99e12e264d7d",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/75",
+        "source_unit_hash": "00c47865b13b3ecff12ee71446cca1cb99b76f00929a7e21da210b30f7887fc5",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/76",
+        "source_unit_hash": "c9dbf00e8fb0efc9f50e705e25df33c26729330a19430358beecd7a032a21a35",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/77",
+        "source_unit_hash": "17bbc3b190dbd7baaceec390b74beb2a477878dc0d83808cce06a3974052422f",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/77/inlineContent/0",
+        "source_unit_hash": "7d7c7787d5a06260a337050cf7e5e3371cd66db30d134704363e9a25f4e1fa58",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/78",
+        "source_unit_hash": "c0a39196f47a3a4cb26ac68be820aba000a2dfcb9d261f48d8fc9a5bb569b81a",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/79",
+        "source_unit_hash": "5ff3e4356a3d374c740c7463dd75a4adaa8df16b99e11cd6dbe9763a61f0e90d",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/79/inlineContent/0",
+        "source_unit_hash": "da79c3f1b385686ec5c029fbe37b253f6294150544ced09c72b73a66a8c5d1b1",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/80",
+        "source_unit_hash": "97d30ae6d570576acdb69b9c250d16e05f577b2d77d1716284c494227e4ab380",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/0/content/0",
+        "source_unit_hash": "59465b8c407d4576713d21efb5d6c636a9a080f0a9702f46c74287c133416af7",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "fba489b7be77a60619880272d36358472e5001f6c3e8aa360e63423dc4eb61cd",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/1/content/0",
+        "source_unit_hash": "ba5cdd8ca9e538e5e940445b4f9b105d691d156b8d3e3c9e6a6e41ad2d30db96",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "f3c18bb9318e3deadcb7ad81f53bdb880bb3b4fbd80becbf3480bba310e705d2",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/82",
+        "source_unit_hash": "9ea848d08aa1fa1c0ef300060bd9f0ba89072a3710b81a396ff6d6b9543bd7da",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/83",
+        "source_unit_hash": "d8748e3fd9b21192f0bb39027cf19eac91e09891cfcee6841b916ff2736d97ec",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/84",
+        "source_unit_hash": "10b42ad5d816395fd7a7040ecc97bc5856fa364d09e3824315bd2484c7aa4ee8",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/85",
+        "source_unit_hash": "db233b7fa3aee1ec3de906e9164ef34d3b6dec819e37cde342b70222d6b4be5d",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/86/columns/0/content/0",
+        "source_unit_hash": "1af935344debf8ed8828979000feb03fbbe42746fe9e8fe8ddbb618945d09011",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/86/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "4784d29472a285944aa0b816ee27d6425ae4aa2b034c1205574c62ffe81ac1f7",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/86/columns/1/content/0",
+        "source_unit_hash": "5bde97febb2fd0196bb7b2d33c6e970c06712077cc292ea552515fa8bb68426f",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/86/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "078724a922d78fb6d6e25a1787dc738d3119a2964b6d55932080932fce470a6a",
+        "source_anchor": "Icons-and-badges",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Icons-and-badges",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked ARKit-only glyph/badge roles, glyph size/color-only changes, unaltered badges, mixed-collection-only use, constrained glyph badge and10% clear spaces."
+      },
+      {
+        "id": "primaryContentSections/0/content/88",
+        "source_unit_hash": "fac3eea86b2e8fb7c618bb55bfe1b2df9cad0f9748e630a42d00ec9cee9fb721",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified iOS/iPadOS and macOS/tvOS/watchOS exclusions."
+      },
+      {
+        "id": "primaryContentSections/0/content/90",
+        "source_unit_hash": "da6afd97f3859d0115b5ae32a933fbbddffa46552e15d119431a13a9b5e70c27",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Verified consent-based surfaces/hands/physical-object capabilities without applying all phone rules uniformly."
+      },
+      {
+        "id": "primaryContentSections/0/content/91",
+        "source_unit_hash": "4dc7523b896ce105892b93a40762306551937357549348248bf687ea0d47d8c5",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified consent-based surfaces/hands/physical-object capabilities without applying all phone rules uniformly."
+      },
+      {
+        "id": "primaryContentSections/0/content/94",
+        "source_unit_hash": "f2c8cf8b357c1f2047a29e21528a743dc9c0c7b7b4f95bbf25636b5fcb138545",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/95",
+        "source_unit_hash": "f520e186969c48d60da0d5cf2333e98ac167b643e7e165acacc9516dfba486be",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/96",
+        "source_unit_hash": "749b1aacdbead9614fbf2396f9b5072bbe3bc7b9dc6feccfc82d9eff8b6b4f52",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/98",
+        "source_unit_hash": "6375f7ed14dc0bcb2ab47adecd55751f9466490aad12195dbd2772f476e4c205",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "9a383c098e102476d908992a20f925409d1299cac4bbd8da633802040359dd66",
+        "source_anchor": "Communicating-with-people",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Communicating-with-people",
+        "evidence": "Compared friendly-vs-technical table facts in prose, contextual3D hints, critical screen-space text, viewer-facing constant-size3D labels and more-information cue."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "8337b0d06ca0e8d8f617ee2fd2be0648df87e30c10cc272b3920ea5cb984de3a",
+        "source_anchor": "Suggesting-problem-resolutions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+        "destination_anchor": "Suggesting-problem-resolutions",
+        "evidence": "Compared problem-remedy table: lighting/features/texture/movement, slower camera and restart without indefinite waiting."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

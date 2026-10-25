@@ -1,0 +1,78 @@
+{
+  "source_hash": "7c966fba584bedfb4835bbe6dfdf2c0638779a1acc3063a1b36ce075419b3bfe",
+  "media": {
+    "technologies-Mac-Catalyst-intro.png": {
+      "status": "reviewed",
+      "reviewer": "root-independent-image-auditor",
+      "reviewed_at": "2026-10-25T13:28:58.667932+00:00",
+      "reference_metadata_hash": "ee8b3beea765beefa90a59a3cef7ea413cab00fad89bb3cecc239ed6305cb087",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-Mac-Catalyst-intro@2x.png",
+      "binary_hash": "fd212464a8dd331166edf8eed9999b11dbac6833e49b941891d2f3ae07cccaad",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "decorative",
+      "evidence": "Actual light/dark introductory topic symbol inspected; it adds no separate normative design rule.",
+      "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+          "hash": "e9599d100b3805e8c5a5f9860d3b1a398fce458f63b44719acf64c58f34568f6"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-Mac-Catalyst-intro~dark@2x.png",
+          "binary_hash": "75de8a2817af282abea24c0279e1392191da4cc56156350dbe912419a096dcb2",
+          "status": "reviewed",
+          "reviewer": "root-independent-image-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "ipad-idiom.png": {
+      "status": "reviewed",
+      "reviewer": "root-independent-image-auditor",
+      "reviewed_at": "2026-10-25T13:28:58.667983+00:00",
+      "reference_metadata_hash": "af5250e0ed41945a5b760de1ecdbcd76470555e6f5e20fcb0fceab675b38bc97",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/ipad-idiom@2x.png",
+      "binary_hash": "7911818b473955c90eea89048403dbaf89d250cedc7e7d485b539ae5d755f047",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "guidance",
+      "evidence": "Actual enlarged iPad-idiom icon inspected with visibly reduced fine detail. Local Choose an idiom preserves 77% scaling and the resulting asset/layout review implications.",
+      "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+          "hash": "e9599d100b3805e8c5a5f9860d3b1a398fce458f63b44719acf64c58f34568f6"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/21/tabs/0/content/0/inlineContent/0"
+      ]
+    },
+    "mac-idiom.png": {
+      "status": "reviewed",
+      "reviewer": "root-independent-image-auditor",
+      "reviewed_at": "2026-10-25T13:28:58.668003+00:00",
+      "reference_metadata_hash": "757bf1c60e18b038dacbdc20e80822518489c6972e8715f3e0048758b65f4426",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/mac-idiom@2x.png",
+      "binary_hash": "5c6be35f1631444966369c7905d9634f801654e2d84d4fc2f89e1e024072b240",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "guidance",
+      "evidence": "Actual enlarged Mac-idiom icon inspected with retained architectural detail. Local Choose an idiom preserves 100% rendering and the need for Mac-suitable assets rather than assuming identical scale.",
+      "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+          "hash": "e9599d100b3805e8c5a5f9860d3b1a398fce458f63b44719acf64c58f34568f6"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/21/tabs/1/content/0/inlineContent/0"
+      ]
+    }
+  }
+}

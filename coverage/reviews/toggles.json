@@ -1,0 +1,725 @@
+{
+  "review": {
+    "slug": "toggles",
+    "status": "reviewed",
+    "source_hash": "e796dd5c68c74305cab5f8052679fd1f45f106c03fff817bca84c7e8559d66f4",
+    "destination_hash": "f6a8bbd4d1dfb37b90594a7a583835a1ea6f016c0770f7120547b4e82d31ad67",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:06:04.863748+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "toggles",
+        "status": "reviewed",
+        "evidence": "Checked opposing state semantics and switch/checkbox/stateful-button styles."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified state rather than arbitrary action/list choice, affected-content clarity and noncolor-only state feedback."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked no extra TV/vision/Watch rules."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Verified switches only in rows, meaningful green/accent contrast, icon stateful buttons outside rows without explanatory visible labels."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Checked body-only location, excluding frame/tool/status bars."
+      },
+      {
+        "source_anchor": "Switches",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Switches",
+        "status": "reviewed",
+        "evidence": "Verified stronger group-level emphasis, mini grouped-form rows, primary/subordinate sizes and preserving established checkboxes."
+      },
+      {
+        "source_anchor": "Checkboxes",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Checkboxes",
+        "status": "reviewed",
+        "evidence": "Checked empty/check/dash states, trailing titles/checklist exception, aligned indented hierarchy, baseline group label and aggregate mixed-state behavior."
+      },
+      {
+        "source_anchor": "Radio-buttons",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Radio-buttons",
+        "status": "reviewed",
+        "evidence": "Verified 2–5 mutually exclusive choices, rare mixed state, checkbox for multi/lone binary choice, paired-radio exception, pop-up above about five and longest-label horizontal spacing."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "d6ac5648a5ffc52855051b5a210f1454a2694356013f5eabe8e6b32070322948",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "toggles",
+        "evidence": "Checked opposing state semantics and switch/checkbox/stateful-button styles."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "b0f60dd6c9f6108be0188f96248e1ffce4e544ca1da2dd3633da9610cc33d7a3",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "toggles",
+        "evidence": "Checked opposing state semantics and switch/checkbox/stateful-button styles. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "983007d611ca07b83b3d591602727f5d7a971ce9a92b4fc83b6e70370d4016e0",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "toggles",
+        "evidence": "Checked opposing state semantics and switch/checkbox/stateful-button styles."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "c053647ad801ba137fa65ba23b519dedc227f3ef702948b7ea916ca9789c26aa",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "toggles",
+        "evidence": "Checked opposing state semantics and switch/checkbox/stateful-button styles."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "30df1aba1de5a380a3e70dcd1764cac382c39e789e61b5dcba675963827c208a",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified state rather than arbitrary action/list choice, affected-content clarity and noncolor-only state feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "ee3e2f4791b1d946cfdb5b9cafd30b22fe32ff397f6eb0cef33ca6e1c7ecae10",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified state rather than arbitrary action/list choice, affected-content clarity and noncolor-only state feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "f5a7bab98b390c4d16ea2745f3cd0c9cbcf5ed845c5403e4a4e17dfb2e8d224e",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified state rather than arbitrary action/list choice, affected-content clarity and noncolor-only state feedback."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "cd273082b0bce50669ee73937f089bca9acfa62b9916346a29702271a1e57ef5",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked no extra TV/vision/Watch rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "242b7d41f18b236adc0fa45b7584e7e953162525d296a630d62458b38761229a",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified switches only in rows, meaningful green/accent contrast, icon stateful buttons outside rows without explanatory visible labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "d78a6bf006262bdf2a08f91c096637cb18ac8f3fb3a1a51e587f12e39ce1853d",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified switches only in rows, meaningful green/accent contrast, icon stateful buttons outside rows without explanatory visible labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/columns/0/content/0",
+        "source_unit_hash": "0cdf56e63e7a207e18487cb60a9147855f0afdc2fe87b8d9072e874eda98f580",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified switches only in rows, meaningful green/accent contrast, icon stateful buttons outside rows without explanatory visible labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "df0d30975478b4d440b0d65c2d518d2965f04a829633184051473fbcba9f1a64",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified switches only in rows, meaningful green/accent contrast, icon stateful buttons outside rows without explanatory visible labels. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/columns/1/content/0",
+        "source_unit_hash": "1953a794f31f55f454570f9bd8853265726e4777e40510c778856706f8e62571",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified switches only in rows, meaningful green/accent contrast, icon stateful buttons outside rows without explanatory visible labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "b0174f6e73425398dcc7e725a5b0fba3ae4cd9af353418fc71c062a2e5a9d293",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified switches only in rows, meaningful green/accent contrast, icon stateful buttons outside rows without explanatory visible labels. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "7afdd0777ada015d3b03587440ac58f461f541cc6393556dac3dedaea9a78a52",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified switches only in rows, meaningful green/accent contrast, icon stateful buttons outside rows without explanatory visible labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/0/content/0",
+        "source_unit_hash": "5e3feda7cc3a397c8695833bcdb0aa3fe729447775c5a3e0b6efe9ece8cf1dc3",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified switches only in rows, meaningful green/accent contrast, icon stateful buttons outside rows without explanatory visible labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "08b9339dc40981bb8bedc3d4f821d03960349556ea4d501da025e3678acff574",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified switches only in rows, meaningful green/accent contrast, icon stateful buttons outside rows without explanatory visible labels. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/1/content/0",
+        "source_unit_hash": "357d9874160d5e588efe417859d9ac3c18157a9286e886a2daa0afd99643d2a6",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified switches only in rows, meaningful green/accent contrast, icon stateful buttons outside rows without explanatory visible labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "d7b0c5622753c0c605ffae8ef2cf0392afe30a9dfe72ad74c96b6cf428e3f429",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified switches only in rows, meaningful green/accent contrast, icon stateful buttons outside rows without explanatory visible labels. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "49d9a76576061292b8b927d0f86d77ef14c5c4586a694300b392c07a58d7786a",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Verified switches only in rows, meaningful green/accent contrast, icon stateful buttons outside rows without explanatory visible labels."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "c2748566e188832d4ce9c90e160f038c2a3c5f2d84c718e1abc5e5fb82f49c41",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked body-only location, excluding frame/tool/status bars."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "949561244e463bb14277363216264c3e8258299eca436843b1e867cbfbd323a8",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked body-only location, excluding frame/tool/status bars."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "a7426e58eb96900ecaff584080b31300c54d4d318635860b20e391cfdb944653",
+        "source_anchor": "Switches",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Switches",
+        "evidence": "Verified stronger group-level emphasis, mini grouped-form rows, primary/subordinate sizes and preserving established checkboxes."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "33be129ac604ed91f58e6b0637378567de200ec87dd5dab4818f76656f577b1b",
+        "source_anchor": "Switches",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Switches",
+        "evidence": "Verified stronger group-level emphasis, mini grouped-form rows, primary/subordinate sizes and preserving established checkboxes."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "5277ac09e03e324938edcf91d9105115d10359835f80d58fe6f49b89525bfc2f",
+        "source_anchor": "Switches",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Switches",
+        "evidence": "Verified stronger group-level emphasis, mini grouped-form rows, primary/subordinate sizes and preserving established checkboxes."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "f041a0f11ea7fb6df8c080556d662876cd7eebb7a800cca053f839fa6d1e0383",
+        "source_anchor": "Checkboxes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Checkboxes",
+        "evidence": "Checked empty/check/dash states, trailing titles/checklist exception, aligned indented hierarchy, baseline group label and aggregate mixed-state behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "8c20a3601661e828a22cd7d1161353436f5ec6268e3187a421a2d7534f9203cb",
+        "source_anchor": "Checkboxes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Checkboxes",
+        "evidence": "Checked empty/check/dash states, trailing titles/checklist exception, aligned indented hierarchy, baseline group label and aggregate mixed-state behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "a18ffd9e6bf4ac0dc88bb9dc1cb9564c4174bb01e11d3656894fac5421722391",
+        "source_anchor": "Checkboxes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Checkboxes",
+        "evidence": "Checked empty/check/dash states, trailing titles/checklist exception, aligned indented hierarchy, baseline group label and aggregate mixed-state behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/inlineContent/0",
+        "source_unit_hash": "67a736076f30bd29df467873f38bd8bacfabe43cdce2c1358e7123daca95ac20",
+        "source_anchor": "Checkboxes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Checkboxes",
+        "evidence": "Checked empty/check/dash states, trailing titles/checklist exception, aligned indented hierarchy, baseline group label and aggregate mixed-state behavior. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "340e61abc1b8f111c83bdb77a7d3e866a87805a2ab257bf68e20e2b5942c8a6a",
+        "source_anchor": "Checkboxes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Checkboxes",
+        "evidence": "Checked empty/check/dash states, trailing titles/checklist exception, aligned indented hierarchy, baseline group label and aggregate mixed-state behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "c1a43bc9d89c02f4d50f14a5335830f581fd34f46d03a40fed1c190f60736412",
+        "source_anchor": "Checkboxes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Checkboxes",
+        "evidence": "Checked empty/check/dash states, trailing titles/checklist exception, aligned indented hierarchy, baseline group label and aggregate mixed-state behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "5850bcdcf1989f35b47a788a2869a344af3917bc3ffcc824e848bf1e771eb7fa",
+        "source_anchor": "Checkboxes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Checkboxes",
+        "evidence": "Checked empty/check/dash states, trailing titles/checklist exception, aligned indented hierarchy, baseline group label and aggregate mixed-state behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/0/content/0",
+        "source_unit_hash": "4c7578d494535d584d15bee27cf55c4bad78c0bd9a5544f40cb0d94676f63822",
+        "source_anchor": "Checkboxes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Checkboxes",
+        "evidence": "Checked empty/check/dash states, trailing titles/checklist exception, aligned indented hierarchy, baseline group label and aggregate mixed-state behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "0d4b9d750d24a62c7eb56521942689be8745dd856528a933c1290ed3f7295128",
+        "source_anchor": "Checkboxes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Checkboxes",
+        "evidence": "Checked empty/check/dash states, trailing titles/checklist exception, aligned indented hierarchy, baseline group label and aggregate mixed-state behavior. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/1/content/0",
+        "source_unit_hash": "09dc5b50f7334dffd93a1b055c0ee49a9e1df77b47b0b8906bd91bfbf2e97263",
+        "source_anchor": "Checkboxes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Checkboxes",
+        "evidence": "Checked empty/check/dash states, trailing titles/checklist exception, aligned indented hierarchy, baseline group label and aggregate mixed-state behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "9de567a2bb9eec7ae1b0ecb0466e5919a15cc83d74de0c730541e61967fc2419",
+        "source_anchor": "Checkboxes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Checkboxes",
+        "evidence": "Checked empty/check/dash states, trailing titles/checklist exception, aligned indented hierarchy, baseline group label and aggregate mixed-state behavior. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/2/content/0",
+        "source_unit_hash": "34c6eb8fcd1cd89d6308f89086baf0a274b393e98b096648e63ce3a4bced7f01",
+        "source_anchor": "Checkboxes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Checkboxes",
+        "evidence": "Checked empty/check/dash states, trailing titles/checklist exception, aligned indented hierarchy, baseline group label and aggregate mixed-state behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "2e2c0194a15c631d30c043da1bc82c7905770863df3c0a3b9ab48161ff9ec07d",
+        "source_anchor": "Checkboxes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Checkboxes",
+        "evidence": "Checked empty/check/dash states, trailing titles/checklist exception, aligned indented hierarchy, baseline group label and aggregate mixed-state behavior. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "ed0a89c2f0aeb53e8181b16ace75ff9d73feef02796377afe33e50b3a7bbde27",
+        "source_anchor": "Radio-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Radio-buttons",
+        "evidence": "Verified 2–5 mutually exclusive choices, rare mixed state, checkbox for multi/lone binary choice, paired-radio exception, pop-up above about five and longest-label horizontal spacing."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "20bcbfcafba7aa022c3088c6a8cfa82ae6f7a595d94378995b346d44d6e078c3",
+        "source_anchor": "Radio-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Radio-buttons",
+        "evidence": "Verified 2–5 mutually exclusive choices, rare mixed state, checkbox for multi/lone binary choice, paired-radio exception, pop-up above about five and longest-label horizontal spacing."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/inlineContent/0",
+        "source_unit_hash": "6bbdf2cac0d2586cce30a73e4d3e77e394a82f18047077a205eb5d24be5c32bb",
+        "source_anchor": "Radio-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Radio-buttons",
+        "evidence": "Verified 2–5 mutually exclusive choices, rare mixed state, checkbox for multi/lone binary choice, paired-radio exception, pop-up above about five and longest-label horizontal spacing. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "264ba78e825de47cae227eae153afe3ce2533f083f05f498f3bc5b0d8bc9a511",
+        "source_anchor": "Radio-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Radio-buttons",
+        "evidence": "Verified 2–5 mutually exclusive choices, rare mixed state, checkbox for multi/lone binary choice, paired-radio exception, pop-up above about five and longest-label horizontal spacing."
+      },
+      {
+        "id": "primaryContentSections/0/content/35/columns/0/content/0",
+        "source_unit_hash": "d6a16904c2ff7b0e123940306157859783532ebb57960d90ae0abd3ac5a156e4",
+        "source_anchor": "Radio-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Radio-buttons",
+        "evidence": "Verified 2–5 mutually exclusive choices, rare mixed state, checkbox for multi/lone binary choice, paired-radio exception, pop-up above about five and longest-label horizontal spacing."
+      },
+      {
+        "id": "primaryContentSections/0/content/35/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "7c166e4811da94ed0e711e9b4f5712366e93cbab3fe0629227946872daaef525",
+        "source_anchor": "Radio-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Radio-buttons",
+        "evidence": "Verified 2–5 mutually exclusive choices, rare mixed state, checkbox for multi/lone binary choice, paired-radio exception, pop-up above about five and longest-label horizontal spacing. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/35/columns/1/content/0",
+        "source_unit_hash": "e1efaba2e4a92bade74b3e82d50d4beb8f6908496f6983ee6eed62961de60562",
+        "source_anchor": "Radio-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Radio-buttons",
+        "evidence": "Verified 2–5 mutually exclusive choices, rare mixed state, checkbox for multi/lone binary choice, paired-radio exception, pop-up above about five and longest-label horizontal spacing."
+      },
+      {
+        "id": "primaryContentSections/0/content/35/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "222204835937dad5b0b7327bb9a3e54abe376b1089cd4f941932aa60c079ec17",
+        "source_anchor": "Radio-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Radio-buttons",
+        "evidence": "Verified 2–5 mutually exclusive choices, rare mixed state, checkbox for multi/lone binary choice, paired-radio exception, pop-up above about five and longest-label horizontal spacing. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "88084545c0ba7ab6be081b4c0f2513c95f6c25802eac53cd1230cbc67d3c86f2",
+        "source_anchor": "Radio-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Radio-buttons",
+        "evidence": "Verified 2–5 mutually exclusive choices, rare mixed state, checkbox for multi/lone binary choice, paired-radio exception, pop-up above about five and longest-label horizontal spacing."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "a1b22caae3aa19ad4b68c27f5bfd33413cc471fc5394d57685a1f400ba2fa4e4",
+        "source_anchor": "Radio-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Radio-buttons",
+        "evidence": "Verified 2–5 mutually exclusive choices, rare mixed state, checkbox for multi/lone binary choice, paired-radio exception, pop-up above about five and longest-label horizontal spacing."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "ddefd65e800d5b37ab8bb60e26047d8b4e66f1feaa71b75f2b1febbf10a68b85",
+        "source_anchor": "Radio-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Radio-buttons",
+        "evidence": "Verified 2–5 mutually exclusive choices, rare mixed state, checkbox for multi/lone binary choice, paired-radio exception, pop-up above about five and longest-label horizontal spacing."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "e704432a35a77a170d1d541a18ce2622d6f0605ee94808f211b4e908434210bc",
+        "source_anchor": "Radio-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Radio-buttons",
+        "evidence": "Verified 2–5 mutually exclusive choices, rare mixed state, checkbox for multi/lone binary choice, paired-radio exception, pop-up above about five and longest-label horizontal spacing."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "fb339cbfddf416a299539719e3880b61b45477f5b380fdafa806f6a39c6fc5e5",
+        "source_anchor": "Radio-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Radio-buttons",
+        "evidence": "Verified 2–5 mutually exclusive choices, rare mixed state, checkbox for multi/lone binary choice, paired-radio exception, pop-up above about five and longest-label horizontal spacing."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/inlineContent/0",
+        "source_unit_hash": "a782192232c3e54565468fff6113dd8545abe4d5bf676c5c42b681e4cf33debc",
+        "source_anchor": "Radio-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Radio-buttons",
+        "evidence": "Verified 2–5 mutually exclusive choices, rare mixed state, checkbox for multi/lone binary choice, paired-radio exception, pop-up above about five and longest-label horizontal spacing. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "fc630747c38955b09778a9451282e8fe933fd90da0b116681aef33524228777b",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "1376ee798e8e60d8fb5dd7ed5e4e80f356cc67ea458144bd6ad863c19f26b692",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "d3ef1d96d949e4dff128a1efa024e5a0058a6e40e8bfe98a3666c34e097aaff2",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "747f5a9d38d2854dbf980d1e7d7672698c573c36901b6929acbb511675c72afd",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "f7ebaf0bd8dc91859d0b995a126cce956d6fd609e43b98adad6dd774220d94bf",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "3abf0abecf37f089d4f20ded5e6c71d08c8b5d4fbe64f8e1df3d2795353e5e93",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/50/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/50/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/50/rows/1/0/0",
+        "source_unit_hash": "ea68a9f819300ad266346ba5ee320b5b17debece8a1b159a1dce74ab2d41f857",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/50/rows/1/1/0",
+        "source_unit_hash": "b3f3a382dfe698d1eeab5a255fbca8007720797f6a8d53cff83d8696cf15c641",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/50/rows/2/0/0",
+        "source_unit_hash": "2fcab2806aebbb2b0c1f085dd684047a32efe7390a10b69cd154b0b8fc93584d",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/50/rows/2/1/0",
+        "source_unit_hash": "7516975e78fc0bdbcb8160dfcca12fe6a1bfa4eeecbf2bbfcb523c6d2eb3ba25",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "3abf0abecf37f089d4f20ded5e6c71d08c8b5d4fbe64f8e1df3d2795353e5e93",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

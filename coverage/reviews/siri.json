@@ -1,0 +1,1486 @@
+{
+  "review": {
+    "slug": "siri",
+    "status": "reviewed",
+    "source_hash": "d55fac84b8061ede433ab93a066898c676ffe556be650ef059f6e792361f1777",
+    "destination_hash": "b9773b8c70746d3b2141b55bd3eb0c8b4ff625041dd7c94a5d3b21c4d92aafbd",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:30:00+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "siri",
+        "status": "reviewed",
+        "evidence": "Checked voice/system/Siri app/Dynamic Island access and supported Apple Intelligence contextual actions."
+      },
+      {
+        "source_anchor": "Getting-your-app-to-work-with-Siri",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Getting-your-app-to-work-with-Siri",
+        "status": "reviewed",
+        "evidence": "Verified App Intents actions/entities,system discovery across Siri/Spotlight/Shortcuts and schema-domain benefits."
+      },
+      {
+        "source_anchor": "Sharing-contextual-information",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Sharing-contextual-information",
+        "status": "reviewed",
+        "evidence": "Checked onscreen annotations,entity donation to on-device Spotlight and actual action/interest donation."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified popular/context-specific actions,familiar terminology,relevant indexing with email/message full-catalog exception,no advertising and built-in-response preference."
+      },
+      {
+        "source_anchor": "Customizing-your-apps-experience-with-Siri",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Customizing-your-apps-experience-with-Siri",
+        "status": "reviewed",
+        "evidence": "Checked App Shortcuts beyond schemas,optional snippets may be omitted,clear succinct followups,audible standalone/visual forms,inclusion,open-ended narrowing,device-independent phrasing,no repeated attribution,parental controls and specific errors."
+      },
+      {
+        "source_anchor": "Editorial-guidelines",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "e2f596980096118f307a1f2dd85683c5f448f96248973705e760defc5b89c15b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "siri",
+        "evidence": "Checked voice/system/Siri app/Dynamic Island access and supported Apple Intelligence contextual actions."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "5b16fb7cc65daa7b1b6fa7cf4ef0996e2857632b8bbf1674dd2c0f6ba3039269",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "siri",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked voice/system/Siri app/Dynamic Island access and supported Apple Intelligence contextual actions."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "7575e59f3e9d49a6358b1cd38784de9a8ab07b2c0676baf52cf2d29262c3738e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "siri",
+        "evidence": "Checked voice/system/Siri app/Dynamic Island access and supported Apple Intelligence contextual actions."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "33e37ca84be8937a52cc8d59973031d4a9b1cc43ebdda0007036f993e33f7a15",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "siri",
+        "evidence": "Checked voice/system/Siri app/Dynamic Island access and supported Apple Intelligence contextual actions."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "cb12cd2ac7aeeb6c8903db1f379be33fd2b4e1b99000427f9dd23f3ff95be94b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "siri",
+        "evidence": "Checked voice/system/Siri app/Dynamic Island access and supported Apple Intelligence contextual actions."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "2e438f39ee9ad75221ebe0fc12a190e42698fc09f8f20ae3ba4b27661461e07f",
+        "source_anchor": "Getting-your-app-to-work-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Getting-your-app-to-work-with-Siri",
+        "evidence": "Verified App Intents actions/entities,system discovery across Siri/Spotlight/Shortcuts and schema-domain benefits."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "204389b1fe7685122888cf0c53bcfe090ae9585bee484063aa176b10617c0019",
+        "source_anchor": "Getting-your-app-to-work-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Getting-your-app-to-work-with-Siri",
+        "evidence": "Verified App Intents actions/entities,system discovery across Siri/Spotlight/Shortcuts and schema-domain benefits."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "724873409765934549605eaeaf560536c43713481ef127f38c72455f111b4739",
+        "source_anchor": "Getting-your-app-to-work-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Getting-your-app-to-work-with-Siri",
+        "evidence": "Verified App Intents actions/entities,system discovery across Siri/Spotlight/Shortcuts and schema-domain benefits."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "a873b0055266771153680709e5f4794e33c9ea40294a4b027656fbf0c10d7116",
+        "source_anchor": "Sharing-contextual-information",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Sharing-contextual-information",
+        "evidence": "Checked onscreen annotations,entity donation to on-device Spotlight and actual action/interest donation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "058be426bca0df498f53f2bcbbafa256e3804e4b97e121f51ca02d11182d0b98",
+        "source_anchor": "Sharing-contextual-information",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Sharing-contextual-information",
+        "evidence": "Checked onscreen annotations,entity donation to on-device Spotlight and actual action/interest donation."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "ba7b5f42e858e4e352a600e664d5b2ae251acdb3cb46c2779801d04305dd271f",
+        "source_anchor": "Sharing-contextual-information",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Sharing-contextual-information",
+        "evidence": "Checked onscreen annotations,entity donation to on-device Spotlight and actual action/interest donation."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "ca80f939850f501bcc6a1b4b4b2282700bd4352e343d070a198e409a5918616f",
+        "source_anchor": "Sharing-contextual-information",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Sharing-contextual-information",
+        "evidence": "Checked onscreen annotations,entity donation to on-device Spotlight and actual action/interest donation."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "397666c99495d8d6be8e2c0e48c524e7d1c0ec83ceadabd6acdf2faaba2e3ea6",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified popular/context-specific actions,familiar terminology,relevant indexing with email/message full-catalog exception,no advertising and built-in-response preference."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "ed81c17e76c3793d01d46f382881e91dee03230894a93e0da57d33f7c88cdef7",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified popular/context-specific actions,familiar terminology,relevant indexing with email/message full-catalog exception,no advertising and built-in-response preference."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "a59b813e38d97159bd0b4e4c73233a8a845aaca444f5c922658f59688ec64650",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified popular/context-specific actions,familiar terminology,relevant indexing with email/message full-catalog exception,no advertising and built-in-response preference."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "21f30ae7094bc0d32d8d82c128cdc7431bfc0c483a7b104876473a5266241ff1",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified popular/context-specific actions,familiar terminology,relevant indexing with email/message full-catalog exception,no advertising and built-in-response preference."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "1a393f9d8dfabb9388d017bea60eb73534c355ddf8b645009b54e1a604454691",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified popular/context-specific actions,familiar terminology,relevant indexing with email/message full-catalog exception,no advertising and built-in-response preference."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "11beae46d64f1f250e312bfd94cbca883da47114b50c7e690a18d91c7e12d5e5",
+        "source_anchor": "Customizing-your-apps-experience-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Customizing-your-apps-experience-with-Siri",
+        "evidence": "Checked App Shortcuts beyond schemas,optional snippets may be omitted,clear succinct followups,audible standalone/visual forms,inclusion,open-ended narrowing,device-independent phrasing,no repeated attribution,parental controls and specific errors."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "90c22af32891490c244c311ddccfb945fd27b2275a7328c4b4b7301174a7e0f8",
+        "source_anchor": "Customizing-your-apps-experience-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Customizing-your-apps-experience-with-Siri",
+        "evidence": "Checked App Shortcuts beyond schemas,optional snippets may be omitted,clear succinct followups,audible standalone/visual forms,inclusion,open-ended narrowing,device-independent phrasing,no repeated attribution,parental controls and specific errors."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "87f5acf587239d36991e06c57acc623c919f5873fd3af8324422151f41e956a3",
+        "source_anchor": "Customizing-your-apps-experience-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Customizing-your-apps-experience-with-Siri",
+        "evidence": "Checked App Shortcuts beyond schemas,optional snippets may be omitted,clear succinct followups,audible standalone/visual forms,inclusion,open-ended narrowing,device-independent phrasing,no repeated attribution,parental controls and specific errors."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/content/0",
+        "source_unit_hash": "57cfe60b6947da36e024fb5f61fc1289f27b7ef77400f7883d30da4417d5a2da",
+        "source_anchor": "Customizing-your-apps-experience-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Customizing-your-apps-experience-with-Siri",
+        "evidence": "Checked App Shortcuts beyond schemas,optional snippets may be omitted,clear succinct followups,audible standalone/visual forms,inclusion,open-ended narrowing,device-independent phrasing,no repeated attribution,parental controls and specific errors."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "11fc297d714dd6c4db2e4e4dbc140ae0857306913d043ea8fc522c761d281b7e",
+        "source_anchor": "Customizing-your-apps-experience-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Customizing-your-apps-experience-with-Siri",
+        "evidence": "Checked App Shortcuts beyond schemas,optional snippets may be omitted,clear succinct followups,audible standalone/visual forms,inclusion,open-ended narrowing,device-independent phrasing,no repeated attribution,parental controls and specific errors."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "579089a9fb22223cebf3a4e1198de5b7bc5e62a96627a72c230cebe96e97e54b",
+        "source_anchor": "Customizing-your-apps-experience-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Customizing-your-apps-experience-with-Siri",
+        "evidence": "Checked App Shortcuts beyond schemas,optional snippets may be omitted,clear succinct followups,audible standalone/visual forms,inclusion,open-ended narrowing,device-independent phrasing,no repeated attribution,parental controls and specific errors."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "2cbf637ba008466bad4ee22a5997fae21d40043eba3d301d2f183bb4b5edbcab",
+        "source_anchor": "Customizing-your-apps-experience-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Customizing-your-apps-experience-with-Siri",
+        "evidence": "Checked App Shortcuts beyond schemas,optional snippets may be omitted,clear succinct followups,audible standalone/visual forms,inclusion,open-ended narrowing,device-independent phrasing,no repeated attribution,parental controls and specific errors."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "8b158de9a6276df2410f314f84ac80d91a04f41ce5a5b4631e0c5b16ddd73c00",
+        "source_anchor": "Customizing-your-apps-experience-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Customizing-your-apps-experience-with-Siri",
+        "evidence": "Checked App Shortcuts beyond schemas,optional snippets may be omitted,clear succinct followups,audible standalone/visual forms,inclusion,open-ended narrowing,device-independent phrasing,no repeated attribution,parental controls and specific errors."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "76e4d60aa5eaed0a116c3d72d525ca60a206cf2a53369a0a1cedbd01366a86ef",
+        "source_anchor": "Customizing-your-apps-experience-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Customizing-your-apps-experience-with-Siri",
+        "evidence": "Checked App Shortcuts beyond schemas,optional snippets may be omitted,clear succinct followups,audible standalone/visual forms,inclusion,open-ended narrowing,device-independent phrasing,no repeated attribution,parental controls and specific errors."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "406d6621503589ed1e32b591e3a64c9fd5488c081e93afd4b35d959364ad5224",
+        "source_anchor": "Customizing-your-apps-experience-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Customizing-your-apps-experience-with-Siri",
+        "evidence": "Checked App Shortcuts beyond schemas,optional snippets may be omitted,clear succinct followups,audible standalone/visual forms,inclusion,open-ended narrowing,device-independent phrasing,no repeated attribution,parental controls and specific errors."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "8277f5dd5e3374ec7248a06898a1c1e515544a1985bb6139e21b8ad6dd9fa783",
+        "source_anchor": "Customizing-your-apps-experience-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Customizing-your-apps-experience-with-Siri",
+        "evidence": "Checked App Shortcuts beyond schemas,optional snippets may be omitted,clear succinct followups,audible standalone/visual forms,inclusion,open-ended narrowing,device-independent phrasing,no repeated attribution,parental controls and specific errors."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "6a4464796317106f3629ec0533dd9e39874c0b14f071d6329ca9c2d2a8900805",
+        "source_anchor": "Customizing-your-apps-experience-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Customizing-your-apps-experience-with-Siri",
+        "evidence": "Checked App Shortcuts beyond schemas,optional snippets may be omitted,clear succinct followups,audible standalone/visual forms,inclusion,open-ended narrowing,device-independent phrasing,no repeated attribution,parental controls and specific errors."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "bc7c86eb640afc6aa6459cd3db27c712e5aa2a3dc1da571d50cc3b6acc39833f",
+        "source_anchor": "Customizing-your-apps-experience-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Customizing-your-apps-experience-with-Siri",
+        "evidence": "Checked App Shortcuts beyond schemas,optional snippets may be omitted,clear succinct followups,audible standalone/visual forms,inclusion,open-ended narrowing,device-independent phrasing,no repeated attribution,parental controls and specific errors."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "f2ec5f2167d3fa1767b8bd39c9abfcbd33fb7a6a71ed20b32426ad3d9091309d",
+        "source_anchor": "Customizing-your-apps-experience-with-Siri",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Customizing-your-apps-experience-with-Siri",
+        "evidence": "Checked App Shortcuts beyond schemas,optional snippets may be omitted,clear succinct followups,audible standalone/visual forms,inclusion,open-ended narrowing,device-independent phrasing,no repeated attribution,parental controls and specific errors."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "1c00ce1102b4e98549bcbc7f198230222db0662ca4c845538678bd3adf248223",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "6ae54a9078b12ab8fe5799ebcea045b030f7f843c5524d6f2d6d9e266014d939",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "08d96d8843a9bfa9c758f0be9f094fb131f97aca9807518d61d92d8b488f6683",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "0e2459a60ff6e3f1b8846714aad166239c49a6919c66863bb3f4eeb9c10a78f8",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/0/0/0",
+        "source_unit_hash": "92b1e0d4c16432f9619b44f042f88bf2e87262f0a0178a6dd583c11997a3ff30",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/0/1/0",
+        "source_unit_hash": "673cb2bdad944d05e58c7c32380b4a5814347cc7aa3d5a43f6b5310ddb2ef377",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/0/2/0",
+        "source_unit_hash": "92b1e0d4c16432f9619b44f042f88bf2e87262f0a0178a6dd583c11997a3ff30",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/0/3/0",
+        "source_unit_hash": "673cb2bdad944d05e58c7c32380b4a5814347cc7aa3d5a43f6b5310ddb2ef377",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/1/0/0",
+        "source_unit_hash": "a05f55614f6dc80883c6148024c76c13f43915415674253f4cde9766f59c40f6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/1/1/0",
+        "source_unit_hash": "b1bec515c7420ffd9430a5fc90daf9b9c00057afdf8ec29202501c574faab8ce",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/1/2/0",
+        "source_unit_hash": "32f1836e8a86911a47ecda229fe911f82ded7a080e7d276f6feaab40ed8da79f",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/1/3/0",
+        "source_unit_hash": "117880a2b1bc4f1951758971429fb17a4d08d7421a875ca245b060ef47a5e9b6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/2/0/0",
+        "source_unit_hash": "4f8007400e7c1b127b4cd87ddeec249ee6f94786b2bf118be7e6758804bfff3b",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/2/1/0",
+        "source_unit_hash": "b1bec515c7420ffd9430a5fc90daf9b9c00057afdf8ec29202501c574faab8ce",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/2/2/0",
+        "source_unit_hash": "7cdbbf93bec4c33f3a1f75f2e935dd471a38b4e41c2a764789b1dca4aaab8e6e",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/2/3/0",
+        "source_unit_hash": "117880a2b1bc4f1951758971429fb17a4d08d7421a875ca245b060ef47a5e9b6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/3/0/0",
+        "source_unit_hash": "6ac5ecc9ede56c3055809207ee65137d2431f1e09475a83c8dd0bb441df93329",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/3/1/0",
+        "source_unit_hash": "09b58fb088c4772314a085070f4eb05e2ebe3f4ea7d39e87629a68957bf6f60d",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/3/2/0",
+        "source_unit_hash": "4361e761a73263718971670abc341751c0b0ed3137afed139a864421479b05e4",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/3/3/0",
+        "source_unit_hash": "117880a2b1bc4f1951758971429fb17a4d08d7421a875ca245b060ef47a5e9b6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/4/0/0",
+        "source_unit_hash": "8e716415c5d8d3faa9b2ef95b44d58a363d433c0edf9eb0fbc23686524d8d613",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/4/1/0",
+        "source_unit_hash": "bb9a36472ab7abd80bf1c16bc4cdc84f4e6bf3d3715ad32789158e33378abbd6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/4/2/0",
+        "source_unit_hash": "c4790a5fcd82d2f90fb9b0f36fbd5181064231c102c40b5b1d4d678f236d563c",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/4/3/0",
+        "source_unit_hash": "891be3b85cccd57877c7bdb851a03b168a9f9454bac0381885db13cd8e2d4afe",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/5/0/0",
+        "source_unit_hash": "c16362344340b91df3fa2bd3bc4c71e6ac7e89953c36a917bec9530f4c00e90a",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/5/1/0",
+        "source_unit_hash": "bb9a36472ab7abd80bf1c16bc4cdc84f4e6bf3d3715ad32789158e33378abbd6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/5/2/0",
+        "source_unit_hash": "6fc96d065b61e688b0c3ebd33e368c77234a555c93b4576f684cae33e7797c89",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/5/3/0",
+        "source_unit_hash": "891be3b85cccd57877c7bdb851a03b168a9f9454bac0381885db13cd8e2d4afe",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/6/0/0",
+        "source_unit_hash": "467a36cb4427282ea9cce1f5f2afeb2c11a8df76aaeb940900006b422a2bfe96",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/6/1/0",
+        "source_unit_hash": "bb9a36472ab7abd80bf1c16bc4cdc84f4e6bf3d3715ad32789158e33378abbd6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/6/2/0",
+        "source_unit_hash": "085054dd4c0c7ad26a8b5a3062ee636d659929b45bba2edab1a580c82dcb0d4b",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/6/3/0",
+        "source_unit_hash": "bb9a36472ab7abd80bf1c16bc4cdc84f4e6bf3d3715ad32789158e33378abbd6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/7/0/0",
+        "source_unit_hash": "ac531d512ca68c9a0c1c26f72c4b4d34e2a5b27f605182a2b8770c306dec2ade",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/7/1/0",
+        "source_unit_hash": "bb9a36472ab7abd80bf1c16bc4cdc84f4e6bf3d3715ad32789158e33378abbd6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/7/2/0",
+        "source_unit_hash": "7f32d788e581f8e4a24a1d530c4715c66a37e608c9f862f586a9ea6254e397e4",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/7/3/0",
+        "source_unit_hash": "989de4c5949f66f04d6926ca89616ef2d6e60b21d331c334789e1688a4596b3e",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/8/0/0",
+        "source_unit_hash": "00d8ae622937d9eb6bf9707cb9f3a2164693036e3cb188fd8cd1585bd1170e19",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/8/1/0",
+        "source_unit_hash": "bb9a36472ab7abd80bf1c16bc4cdc84f4e6bf3d3715ad32789158e33378abbd6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/8/2/0",
+        "source_unit_hash": "ea294ecbdc57de5b6c911629c2bbf3a48877632f0f3a88acb5b73babe3f06c63",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/8/3/0",
+        "source_unit_hash": "04b8b08a4c3fec8a1a5a66023c106fa6067615cfaa830a28da99608dce8ccc83",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/9/0/0",
+        "source_unit_hash": "ce6625e5556aba474bbc3571546ecf5d6987e091a64965e62a15e4038df94ba6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/9/1/0",
+        "source_unit_hash": "bb9a36472ab7abd80bf1c16bc4cdc84f4e6bf3d3715ad32789158e33378abbd6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/9/2/0",
+        "source_unit_hash": "ef86030c2ba2506ece6cf5d519da28b659b4c6bcdc5d62e001f04c6b4c8ff7b9",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/9/3/0",
+        "source_unit_hash": "0eb2600ffcbd69db1018ca09c6e3415e4d0e730565ed5193cea1f75965722b3f",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/10/0/0",
+        "source_unit_hash": "98a0f59e43664968f088d44d4b7dc1182c565acb081db9288ebb1995752b61e9",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/10/1/0",
+        "source_unit_hash": "bb9a36472ab7abd80bf1c16bc4cdc84f4e6bf3d3715ad32789158e33378abbd6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/10/2/0",
+        "source_unit_hash": "525cd4c25e7ecb037646c7474290c11adc4386aa98650dc42ece05b3279c1df2",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/10/3/0",
+        "source_unit_hash": "7b53cf9f2ce4f906495671bb2f4af0644db540ad2d84bd0af4875dfd59b8f44b",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/11/0/0",
+        "source_unit_hash": "9a5c6a680f062138126137ccf5f6efa371f2d28452c3d50f9b6106f371b77065",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/11/1/0",
+        "source_unit_hash": "bb9a36472ab7abd80bf1c16bc4cdc84f4e6bf3d3715ad32789158e33378abbd6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/11/2/0",
+        "source_unit_hash": "acdfcb9af465a25912d68fae5d6659767a543cd4c8981f3b090659653fe58dd0",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/11/3/0",
+        "source_unit_hash": "6f539ddc5fa966b15b2392606c50a260aec19f49e2d07fc364ae8a5b00279432",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/12/0/0",
+        "source_unit_hash": "df5aed5d01fe04499347f7059b6903fd7c6cc63f4da57e948aa77e8cde01293f",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/12/1/0",
+        "source_unit_hash": "bb9a36472ab7abd80bf1c16bc4cdc84f4e6bf3d3715ad32789158e33378abbd6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/12/2/0",
+        "source_unit_hash": "67d15a91b95d876e4fa0f58b01e341e708002b65b599418fac222e021c4caf1f",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/12/3/0",
+        "source_unit_hash": "0eb2600ffcbd69db1018ca09c6e3415e4d0e730565ed5193cea1f75965722b3f",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/13/0/0",
+        "source_unit_hash": "611783998e6fe283733784bb05bac09fae70f8af89d09f504789446652426116",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/13/1/0",
+        "source_unit_hash": "bb9a36472ab7abd80bf1c16bc4cdc84f4e6bf3d3715ad32789158e33378abbd6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/13/2/0",
+        "source_unit_hash": "da6b869c83d5269279cd40c8aeeeb842266bef3fcd08ebd0a07b4d673f52a723",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/13/3/0",
+        "source_unit_hash": "212b93f351ce844a6a473c1ddd6f618ada1a7725afffc314cca42e715099f2d9",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/14/0/0",
+        "source_unit_hash": "af688369bb0c26b70c990d3658b6953bf9bdf20bf678d57d1dd644bbaed605f2",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/14/1/0",
+        "source_unit_hash": "bb9a36472ab7abd80bf1c16bc4cdc84f4e6bf3d3715ad32789158e33378abbd6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/14/2/0",
+        "source_unit_hash": "2024a9fc1ef35cb0956daa0f414f8a1c4dcf418f70ee97c85e4168f1e35d4c9f",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/14/3/0",
+        "source_unit_hash": "0b0e0039eb7dee969953dd50daeaffaac1f0443a19c2fe2913bead518b3a80f7",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/15/0/0",
+        "source_unit_hash": "f815229038f468492ecf122faf22209cc388964058d9aaf5d006589a15c75e1d",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/15/1/0",
+        "source_unit_hash": "bb9a36472ab7abd80bf1c16bc4cdc84f4e6bf3d3715ad32789158e33378abbd6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/15/2/0",
+        "source_unit_hash": "ffe502d69737990509f447f0d1d26a483120a18c139ccdac77770d913fa9356b",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/15/3/0",
+        "source_unit_hash": "09b58fb088c4772314a085070f4eb05e2ebe3f4ea7d39e87629a68957bf6f60d",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/16/0/0",
+        "source_unit_hash": "cd2f55ae8af667fb7741ef05e6303315135ea8db4fa3bcce2e3b4328e7aa6f86",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/16/1/0",
+        "source_unit_hash": "81f6424466f6c49e09ac3d3b585fae0122431cc24ba4a809e68a9eeb6baf34c3",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/16/2/0",
+        "source_unit_hash": "23678b822ec2cef0f01777ad485a8280743ec42f5d288d7244403061f690c55c",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/16/3/0",
+        "source_unit_hash": "55c6707edcff8b55ef3ef58293375ca7ca8c5da08eeb26a8dbba5081866e4ec3",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/17/0/0",
+        "source_unit_hash": "d389e25aa5a9314d7442387c020782f94810bbde5025282296c8498c2ff603d5",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/17/1/0",
+        "source_unit_hash": "81f6424466f6c49e09ac3d3b585fae0122431cc24ba4a809e68a9eeb6baf34c3",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/17/2/0",
+        "source_unit_hash": "5c7d60265cb7a5c1a79970b2725f65dc004ff4a24615d32d335bff6b215abb83",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/17/3/0",
+        "source_unit_hash": "bb9a36472ab7abd80bf1c16bc4cdc84f4e6bf3d3715ad32789158e33378abbd6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/18/0/0",
+        "source_unit_hash": "b6013811b78eb6e38ba572da866e78c8dfd8a205ea85f0e479bb21164ea4cc7f",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/18/1/0",
+        "source_unit_hash": "81f6424466f6c49e09ac3d3b585fae0122431cc24ba4a809e68a9eeb6baf34c3",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/18/2/0",
+        "source_unit_hash": "6dde1462c90f81649b7b81e09c24f7e76c1e612113361a18860c19b65f92cd17",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/18/3/0",
+        "source_unit_hash": "bcada08d9c296ac0e23392f31f218d442dea159943a407d5034bf3b5c6e99f55",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/19/0/0",
+        "source_unit_hash": "8cc033df356c714b361736ece30cbcd4927e37034a6ae9f9e5bfb9ecd18ec93a",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/19/1/0",
+        "source_unit_hash": "81f6424466f6c49e09ac3d3b585fae0122431cc24ba4a809e68a9eeb6baf34c3",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/19/2/0",
+        "source_unit_hash": "d5ed9796b2a2fcc6f9daf1db7e269f21c85902707a5dcc4cae7bdda6341fc0e9",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/19/3/0",
+        "source_unit_hash": "28cd48cdfb98a38dd373c348d2394f0565f531330a0758cc2e63750889ae68be",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/20/0/0",
+        "source_unit_hash": "a84a5f8d233d66de79cd68a9fe339eadefa799676b6016629f207950d0c0b83e",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/20/1/0",
+        "source_unit_hash": "0eb2600ffcbd69db1018ca09c6e3415e4d0e730565ed5193cea1f75965722b3f",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/20/2/0",
+        "source_unit_hash": "041f34468139b90477fd6ea57f3096eab4336c930cd2dc8a707eecc69e846437",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/20/3/0",
+        "source_unit_hash": "8f0d6882a9f4f13e6b3a9d5128104866a6e11959223f17763acd38bf8727ae1f",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/21/0/0",
+        "source_unit_hash": "b544d5e5891a42ea353c3c9f848a718b3f4e9f54636e0a99f8cea85cbbad49d6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/21/1/0",
+        "source_unit_hash": "117880a2b1bc4f1951758971429fb17a4d08d7421a875ca245b060ef47a5e9b6",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/21/2/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/37/rows/21/3/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "cb2ae638edb4e44c47d50cc0fe996fb30b83ceef025b58bbe9e97040acd78e00",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "81ae88c999d320f6b33b63cb45ed47120c59a56c5642001857487da9ad8edbbd",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "56108a722cf74a28c89a04fd408823f89c9b74ed3bdcdf33de498a3d0c770973",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "e4e799dc66243416212f9f3d07d9ae8c26b180e48d2d2ba510860322aa00593a",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "1b87d15ed734e9372f50ccab49e34fef95a081211d393332520d27f522fa4443",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "36924a4e80802d93ceb75f31ad015712a961d4df005242be90e620d32faa7852",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/rows/1/0/0",
+        "source_unit_hash": "6f585fa1a239d7cd279db778c80344b4ca3bdd1c2601af906b53d277e7be4412",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/rows/1/1/0",
+        "source_unit_hash": "2819bdeb8a6f8e696ec9a9bce86014ca4376c02ff00d31bb836300d4f99514be",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/rows/2/0/0",
+        "source_unit_hash": "937d2d87f6be46489d91c6c598d77898e230787b56f889b2c1e16309f42a1ad2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/rows/2/1/0",
+        "source_unit_hash": "520e6b2b21c3e3626c0798f73899a57eb80e4326fd6dd8108d80e94ec98ebf04",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/rows/3/0/0",
+        "source_unit_hash": "a3be947823d6b103c429adb07b7ad07c6def605e3e77e14b702e5a9c78d34032",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/rows/3/1/0",
+        "source_unit_hash": "4756147f4d61c1086dc4ffd0d8da51a01051e176d19f9b7302eaf645e0f80e63",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "0e2459a60ff6e3f1b8846714aad166239c49a6919c66863bb3f4eeb9c10a78f8",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Compared all41 locale invocation mappings against grouped local table including distinct nl_BE/nl_NL and zh_CN/zh_TW spacing; checked name/pronoun/trademark rules,no impersonation or reserved functionality/phrases."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "36924a4e80802d93ceb75f31ad015712a961d4df005242be90e620d32faa7852",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

@@ -1,0 +1,980 @@
+{
+  "review": {
+    "slug": "airplay",
+    "status": "reviewed",
+    "source_hash": "1330860d69fddd0299a5b53cc4f53115b8b20fea8ec0159a05e41e337d04b807",
+    "destination_hash": "f108a2c76d0ce2492e2223205827d64606761db2bf7a401d84686bf186645ec9",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:18:25+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "airplay",
+        "status": "reviewed",
+        "evidence": "Checked wireless media origin/receiver context."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked standard player/features,complete HLS resolution range,expected-only content,stream+mirror,remote events,background/lock continuation,no unintended mirroring,no incidental interruption,app usability and exact custom-player symbol/state/lower-right rules."
+      },
+      {
+        "source_anchor": "Using-AirPlay-icons",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Using-AirPlay-icons",
+        "status": "reviewed",
+        "evidence": "Checked artwork rules distinguished from playback-control guidance."
+      },
+      {
+        "source_anchor": "Black-AirPlay-icon",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Black-AirPlay-icon",
+        "status": "reviewed",
+        "evidence": "Checked black compatibility art on light backgrounds matching neighbors."
+      },
+      {
+        "source_anchor": "White-AirPlay-icon",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "White-AirPlay-icon",
+        "status": "reviewed",
+        "evidence": "Checked white art on dark backgrounds matching neighbors."
+      },
+      {
+        "source_anchor": "Custom-color-AirPlay-icon",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Custom-color-AirPlay-icon",
+        "status": "reviewed",
+        "evidence": "Checked same-color/container consistency,noninteractive art/name,beside/below naming,no inline substitution and subordinate branding."
+      },
+      {
+        "source_anchor": "Referring-to-AirPlay",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "No extra five-platform rules and watch exclusion retained."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "379711eb12e4dc455d291085c1fca17ca2a7981807a4017dd7765ed9e40e60d9",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "airplay",
+        "evidence": "Checked wireless media origin/receiver context."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "64580eb35509e386ad593f08c295ee7ef00d0ec9c93870a01160a3839b69aa55",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "airplay",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked wireless media origin/receiver context."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "842c0a1a391e7f33b738c7bf8d5eb8539ddfa5b7cfcad726a1cd386856788a60",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked standard player/features,complete HLS resolution range,expected-only content,stream+mirror,remote events,background/lock continuation,no unintended mirroring,no incidental interruption,app usability and exact custom-player symbol/state/lower-right rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "5442cd1c07b9baa87b22b0bf1d10f116c87cf61a7b696062fe5872d70cca05ba",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked standard player/features,complete HLS resolution range,expected-only content,stream+mirror,remote events,background/lock continuation,no unintended mirroring,no incidental interruption,app usability and exact custom-player symbol/state/lower-right rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/inlineContent/0",
+        "source_unit_hash": "b4c08166cbf4f145032b40d3511c89b6e290d41a0153c03d782f2dcfedde638d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked standard player/features,complete HLS resolution range,expected-only content,stream+mirror,remote events,background/lock continuation,no unintended mirroring,no incidental interruption,app usability and exact custom-player symbol/state/lower-right rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "68e2f41530af4a78999c8b3e964778ec5801a9ce5e8285a78d7e9017de4dba43",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked standard player/features,complete HLS resolution range,expected-only content,stream+mirror,remote events,background/lock continuation,no unintended mirroring,no incidental interruption,app usability and exact custom-player symbol/state/lower-right rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "3f151355f5ea111e4f76259eedd3af09b6943ca41698389b61c0cc7859bd8c8a",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked standard player/features,complete HLS resolution range,expected-only content,stream+mirror,remote events,background/lock continuation,no unintended mirroring,no incidental interruption,app usability and exact custom-player symbol/state/lower-right rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "e7798028ea5f7f267ad799030aa9702f4d9f40865f39cdc18458c85af51cfcee",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked standard player/features,complete HLS resolution range,expected-only content,stream+mirror,remote events,background/lock continuation,no unintended mirroring,no incidental interruption,app usability and exact custom-player symbol/state/lower-right rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "97c6535bbb937961e460a1461a8eebdaad99a43c645df3c8631b7cdbab5cb07d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked standard player/features,complete HLS resolution range,expected-only content,stream+mirror,remote events,background/lock continuation,no unintended mirroring,no incidental interruption,app usability and exact custom-player symbol/state/lower-right rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "d065a6fa53f85ed3563a709fe0b22a5e39dee08813ebc5f7e453902ed89208cd",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked standard player/features,complete HLS resolution range,expected-only content,stream+mirror,remote events,background/lock continuation,no unintended mirroring,no incidental interruption,app usability and exact custom-player symbol/state/lower-right rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "38e29c045378c1c15019acd0a5cffde213154150d246042b28c4779bfe3483b4",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked standard player/features,complete HLS resolution range,expected-only content,stream+mirror,remote events,background/lock continuation,no unintended mirroring,no incidental interruption,app usability and exact custom-player symbol/state/lower-right rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "013cd3ec8588bf7778ba804d3ea7eb9e8bbc8cf08fc2f7176771972fc9b113f0",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked standard player/features,complete HLS resolution range,expected-only content,stream+mirror,remote events,background/lock continuation,no unintended mirroring,no incidental interruption,app usability and exact custom-player symbol/state/lower-right rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "d56c8137df06406862d0a2c706d7313ff03b27e00f73cc509a60ad2126ffd00b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked standard player/features,complete HLS resolution range,expected-only content,stream+mirror,remote events,background/lock continuation,no unintended mirroring,no incidental interruption,app usability and exact custom-player symbol/state/lower-right rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "dcbcfae00faebbf81bd9a21038b71de5489fc050407d1c5e7c06a6af7e9f5556",
+        "source_anchor": "Using-AirPlay-icons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Using-AirPlay-icons",
+        "evidence": "Checked artwork rules distinguished from playback-control guidance."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "c666a4525517e74501839b4b3537ec5843f69ea76a4e0d94c781ea7e00f76741",
+        "source_anchor": "Black-AirPlay-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Black-AirPlay-icon",
+        "evidence": "Checked black compatibility art on light backgrounds matching neighbors."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "f5ddde22e95b3a957cb3d3550eebeab79245a15c560a2afc5a3b3f62c5238089",
+        "source_anchor": "Black-AirPlay-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Black-AirPlay-icon",
+        "evidence": "Checked black compatibility art on light backgrounds matching neighbors."
+      },
+      {
+        "id": "primaryContentSections/0/content/16/inlineContent/0",
+        "source_unit_hash": "e57cdfb1050e9c4c65bd100400827107e7bcb058360faf501d25ded06a20dcbb",
+        "source_anchor": "Black-AirPlay-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Black-AirPlay-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked black compatibility art on light backgrounds matching neighbors."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "cd613a600e6a42659dbfe37e7c26d1605e66cc5d57c6888c5cfc810aaba12b81",
+        "source_anchor": "White-AirPlay-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "White-AirPlay-icon",
+        "evidence": "Checked white art on dark backgrounds matching neighbors."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "b0507620470364dc1a1266574d6af9c21b028807aa22aed979170aefef53ff7a",
+        "source_anchor": "White-AirPlay-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "White-AirPlay-icon",
+        "evidence": "Checked white art on dark backgrounds matching neighbors."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/inlineContent/0",
+        "source_unit_hash": "be2f969bb8dd959bcaa3d47084c2db4c4587a2e9e57daebd65c143b5f3713a7f",
+        "source_anchor": "White-AirPlay-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "White-AirPlay-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked white art on dark backgrounds matching neighbors."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "9f5a7aa800b3beb0d00a7772550e191394db1a59420cdb28225b09beac51d9ae",
+        "source_anchor": "Custom-color-AirPlay-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Custom-color-AirPlay-icon",
+        "evidence": "Checked same-color/container consistency,noninteractive art/name,beside/below naming,no inline substitution and subordinate branding."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "be708042c9e7e85b7b8780089b260bc4ea8a0886af57e8df67fdd8b7ceaeb4d4",
+        "source_anchor": "Custom-color-AirPlay-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Custom-color-AirPlay-icon",
+        "evidence": "Checked same-color/container consistency,noninteractive art/name,beside/below naming,no inline substitution and subordinate branding."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/inlineContent/0",
+        "source_unit_hash": "9a8ef48a194d15f9b730515812407a38983e415dd6d7f2abf2df7150768bcbdf",
+        "source_anchor": "Custom-color-AirPlay-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Custom-color-AirPlay-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked same-color/container consistency,noninteractive art/name,beside/below naming,no inline substitution and subordinate branding."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "77f8db59c600a33e49005fc695d9fe204860a61032e66a26ccee942c509bd8f2",
+        "source_anchor": "Custom-color-AirPlay-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Custom-color-AirPlay-icon",
+        "evidence": "Checked same-color/container consistency,noninteractive art/name,beside/below naming,no inline substitution and subordinate branding."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "0f417320eb2f6725300dba0fe2d0f268587ca2a4d5ec8cea0d46c8e489071ce5",
+        "source_anchor": "Custom-color-AirPlay-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Custom-color-AirPlay-icon",
+        "evidence": "Checked same-color/container consistency,noninteractive art/name,beside/below naming,no inline substitution and subordinate branding."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "dac260544fb6e8538db43770cce9d9d01d7612aca125abeffa16293b01654048",
+        "source_anchor": "Custom-color-AirPlay-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Custom-color-AirPlay-icon",
+        "evidence": "Checked same-color/container consistency,noninteractive art/name,beside/below naming,no inline substitution and subordinate branding."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "c32023d1787b9f461b4986848fc68911c7bae3ce9d75748ec1e726b86bf9dc43",
+        "source_anchor": "Custom-color-AirPlay-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Custom-color-AirPlay-icon",
+        "evidence": "Checked same-color/container consistency,noninteractive art/name,beside/below naming,no inline substitution and subordinate branding."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "9801779988679c1ccb4d7afbd616c411d7574aecc43223f4f2e57251632670c5",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "72467e57e92188f34d4369873bb16524696eee858def041faa999679566b5255",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "d19dc4682c23e288af6b2c038459eae0caf2f269e8c1e4340f5391a54dad07bd",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/0/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/0/1/0",
+        "source_unit_hash": "072d341792ece94781ce6ccfbd1d6c4921ec98c956f250ca2141a38fce274b63",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/1/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/1/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/1/1/0",
+        "source_unit_hash": "cb6e11b7dddd84fb0007133ebab42f2b8cc359fe71bf1686095226f459a4406e",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/2/0/0",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/2/0/0/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/2/1/0",
+        "source_unit_hash": "85c6b2ccfbb9d58889e14c1cf6925cea1eb35e5c577d39a3798a3d3140ef4518",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/3/0/0",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/3/0/0/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/30/rows/3/1/0",
+        "source_unit_hash": "97ee8ba1999efb9865fb583105e06feb57ab6b6b5a3c3a62abe95f17b2c3935f",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "9c4ddd3a2f9e726d29b44ca0fad8cb4b90c426e9151ca650def04d03b6b493d5",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "7730fcaa58562ae75e712c625dec3da25deb1391c1edb09a582334d793cf71e6",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/0/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/0/1/0",
+        "source_unit_hash": "072d341792ece94781ce6ccfbd1d6c4921ec98c956f250ca2141a38fce274b63",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/1/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/1/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/1/1/0",
+        "source_unit_hash": "825df8c39ebe06f70a409001299e9cab8e0a15b427714be396bc7df1ca38bab1",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/2/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/2/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/2/1/0",
+        "source_unit_hash": "e6e87c0154c94824e72fdd41c57f22ef18119971b0dffebb71828bd639c9a99c",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/3/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/3/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/3/1/0",
+        "source_unit_hash": "9aa04da0fcf3488e3319c475fa9af36f44afcad7398c83dc83738edede3acb3d",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/4/0/0",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/4/0/0/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/rows/4/1/0",
+        "source_unit_hash": "9d7d5aa5bc54011af516d29454fa6c27d3a50169ce4ef16adb8c995255bffdb7",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "330f7486da29d48b968de0ebefc701c27cd08830c27c0551389479077474a115",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "e84ab0c10ae90a18edf5caecb5b6c567215ee0198d104b15bc5b18b8898d81be",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/0/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/0/1/0",
+        "source_unit_hash": "072d341792ece94781ce6ccfbd1d6c4921ec98c956f250ca2141a38fce274b63",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/1/0",
+        "source_unit_hash": "a0a1d9e593f63cf08ceab0cf8258aab514852962496aa5d51975c90ee91c7138",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "5e30df29f3be46178398dee8a006bbbbfa3a8ce6326a458c3cc7f55fce3dcbe9",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "dc2bc87b441fc37c68d82b35874510ffb04eb0b071a9d725b0d6735edafe374d",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/rows/0/0/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/rows/0/1/0",
+        "source_unit_hash": "072d341792ece94781ce6ccfbd1d6c4921ec98c956f250ca2141a38fce274b63",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/rows/1/0/0",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/rows/1/0/0/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/rows/1/1/0",
+        "source_unit_hash": "24b6dbddf14f8e58e8ccc19bcb5072894ecfe6ae61a3f0f2d1aef2880357b479",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "163a5deaa1f06dea0b6d8b1272039e5c8a00a73a9424cbc89b47587fc599e0f8",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "No extra five-platform rules and watch exclusion retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "e5be23049a604264b1575ab8cda156471066444761f679ee965164ec4ac49e3e",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "299a53424e8923f731df3ddce87fd209400e4958e3b42b58d4fc1d7344c1df78",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "07ea5a22397d1b3386046b5dbe1f51da5af321456f221836f85d3709e785c717",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "ee6518b258d32e123524490c2eceec0adf0330c7cb4ca9e296c51315171eacfb",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "84e00b06451b62a6d595572f5c34f73b646c7a2b93d19fca5ff679abd5f7ab3e",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "d6185da1101ab5cdff0a1447e7f1e91f5eab8d23a802533195658dac94ed79f1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/50/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/50/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/50/rows/1/0/0",
+        "source_unit_hash": "a3be947823d6b103c429adb07b7ad07c6def605e3e77e14b702e5a9c78d34032",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/50/rows/1/1/0",
+        "source_unit_hash": "4756147f4d61c1086dc4ffd0d8da51a01051e176d19f9b7302eaf645e0f80e63",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "d19dc4682c23e288af6b2c038459eae0caf2f269e8c1e4340f5391a54dad07bd",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "7730fcaa58562ae75e712c625dec3da25deb1391c1edb09a582334d793cf71e6",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "e84ab0c10ae90a18edf5caecb5b6c567215ee0198d104b15bc5b18b8898d81be",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "dc2bc87b441fc37c68d82b35874510ffb04eb0b071a9d725b0d6735edafe374d",
+        "source_anchor": "Referring-to-AirPlay",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Referring-to-AirPlay",
+        "evidence": "Checked noun-only capitalization/allcaps exception,compatible/use/support terminology,no ownership/verb usage and optional Apple prefix;all source editorial example-table distinctions retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "d6185da1101ab5cdff0a1447e7f1e91f5eab8d23a802533195658dac94ed79f1",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

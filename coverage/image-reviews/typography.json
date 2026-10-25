@@ -1,0 +1,348 @@
+{
+  "source_hash": "c774c2bc6300618f91169ee107d0da7fcddb74553b5f603d9f032aad5fd35b1d",
+  "media": {
+    "foundations-typography-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:16:23.156594+00:00",
+      "reference_metadata_hash": "4506db0c6e89ef50fe57de521d143606ed014f96819d45099999b8b2244fd29a",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-typography-intro@2x.png",
+      "binary_hash": "0f705a6274378c1604d4a28800ea9e3c86a808e496f124201e3da2f9a06ec850",
+      "review_method": "actual primary/alternate introductory-image gallery inspection and source topic/context identification",
+      "classification": "illustrative topic introduction; redundant with component/topic identity",
+      "evidence": "Actual introductory illustration and its light/dark representation inspected in numbered galleries. The image identifies or demonstrates this topic/component; the depicted sample labels, symbols and layout add no independent normative specification. Substantive design rules remain subject to the separate article/section audit.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md",
+          "hash": "37277ae8d9bbc84ad0fc2352993545a7f9f3ac02d567b736c979587a83340082"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-typography-intro~dark@2x.png",
+          "binary_hash": "b139f4f1d2cb720abbb193cc53f97a955c31b1c23ec4b97ec6ded761d64ee43f",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "game-typography-incorrect": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:25:25.445012+00:00",
+      "reference_metadata_hash": "18fe790a0d9cb4dd621da42e5a91a4b5558b6003285c458a6a82ad7124f0aed7",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/game-typography-incorrect@2x.png",
+      "binary_hash": "9dcbf2ec92b0081b604a7299556bd00f04ba2d8b8c4bc415c60f2141a08cff87",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual plant-game pair enlarges small in-world plant labels and a collection counter while retaining hierarchy and gameplay. Local Ensuring legibility requires enlargement and real-condition checks; hierarchy guidance prioritizes intended reading.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md#Ensuring-legibility",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md",
+          "hash": "37277ae8d9bbc84ad0fc2352993545a7f9f3ac02d567b736c979587a83340082"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/5/inlineContent/0"
+      ]
+    },
+    "game-typography-correct": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:25:25.445058+00:00",
+      "reference_metadata_hash": "a6185987fb2d012de5d04fc21f7214e8ad6eff3d914e79b8eaed8fcd8e4a438f",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/game-typography-correct@2x.png",
+      "binary_hash": "20164fb4bfd6f312e6c190762ad914a5d08739d712cbc8faa2891a169bdeb487",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual plant-game pair enlarges small in-world plant labels and a collection counter while retaining hierarchy and gameplay. Local Ensuring legibility requires enlargement and real-condition checks; hierarchy guidance prioritizes intended reading.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md#Ensuring-legibility",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md",
+          "hash": "37277ae8d9bbc84ad0fc2352993545a7f9f3ac02d567b736c979587a83340082"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/6/inlineContent/0"
+      ]
+    },
+    "typography-sanfrancisco.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:25:25.445090+00:00",
+      "reference_metadata_hash": "c6c199e84f4c834b532982fe3b6e05670d34633822f630a88f0aaf24bcbfbc5c",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/typography-sanfrancisco@2x.png",
+      "binary_hash": "af63f4a51a8251215fb5458c73a2dd7dbb3cac6c5445bbba4ba8becd15e81510",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual same-pangram sans-serif and serif samples illustrate system font families in both appearances. Local Using system fonts identifies San Francisco and complementary New York and directs runtime use through APIs.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md#Using-system-fonts",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md",
+          "hash": "37277ae8d9bbc84ad0fc2352993545a7f9f3ac02d567b736c979587a83340082"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/15/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/typography-sanfrancisco~dark@2x.png",
+          "binary_hash": "8a0cebcd86093d315717418c05776e8a5c6b816f44db730d597232f424d6d4ba",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "typography-new-york.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:25:25.445121+00:00",
+      "reference_metadata_hash": "e168e1ff4b38b5aa4e385c7b22013d7722b46a01933f7a3a8bb6e54edfd1dce1",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/typography-new-york@2x.png",
+      "binary_hash": "daf2a222377dc91588509d9474e08d0a736fad950aa1258db34c5133cf508597",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual same-pangram sans-serif and serif samples illustrate system font families in both appearances. Local Using system fonts identifies San Francisco and complementary New York and directs runtime use through APIs.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md#Using-system-fonts",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md",
+          "hash": "37277ae8d9bbc84ad0fc2352993545a7f9f3ac02d567b736c979587a83340082"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/18/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/typography-new-york~dark@2x.png",
+          "binary_hash": "af0ca2c2fc0a357cb7477263c0526131a8cb152ed1018b1486f284509ba93e32",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "font-weight-sf-pro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:25:25.445151+00:00",
+      "reference_metadata_hash": "3bb38623ce87995463fe803b028eb568d62e064de04aa79db17d63e0df784b65",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/font-weight-sf-pro@2x.png",
+      "binary_hash": "86133da0f7fec2e6c259710fa3ad8a5b74beff55bd5bd407fef198e308bb5598",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual specimen ranges from ultralight to black in upright/italic forms. Local Using system fonts and Ensuring legibility retain continuous weight options and avoidance of very thin small text.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md#Using-system-fonts",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md",
+          "hash": "37277ae8d9bbc84ad0fc2352993545a7f9f3ac02d567b736c979587a83340082"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/23/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/font-weight-sf-pro~dark@2x.png",
+          "binary_hash": "32c2959cdd27f546f0a6fce2f626cd6697387e5ed366e393d16ef7e7c908c004",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "typography-text-hierarchy-levels.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:25:25.445181+00:00",
+      "reference_metadata_hash": "698c95c22006c74eac9db2ee1dae29f44bb0f4d47c39dbdf245546d99cc4525a",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/typography-text-hierarchy-levels@2x.png",
+      "binary_hash": "dbe6ec8ce8b0bcd2c2225fcf99f788f9d87a9039ab93cbca9accda18dc74d7df",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual Mail hierarchy labels large title, title, body and subtitle. Local system-text-style and hierarchy guidance preserves coordinated weight, size and leading rather than arbitrary unrelated fonts.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md#Using-system-fonts",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md",
+          "hash": "37277ae8d9bbc84ad0fc2352993545a7f9f3ac02d567b736c979587a83340082"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/26/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/typography-text-hierarchy-levels~dark@2x.png",
+          "binary_hash": "5442b8a699982a6a895d42315e7933c23f33e2a6d4f26dea03024bf63a740583",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "typography-default-type.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:25:25.445210+00:00",
+      "reference_metadata_hash": "9d71e4da832301fd046aba0d56c740fdb1c81ced0cb3d3e71ea4d3a4ace703ee",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/typography-default-type@2x.png",
+      "binary_hash": "27540e3589aefecc7130357b1ff4d2629c3f181d1f4899ec06991e0f4495349d",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual Mail message grows into multiline name, date, subject and body while preserving their relationships. Local Supporting Dynamic Type retains wrapping, growing containers and useful information at the largest sizes.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md#Supporting-Dynamic-Type",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md",
+          "hash": "37277ae8d9bbc84ad0fc2352993545a7f9f3ac02d567b736c979587a83340082"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/36/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/typography-default-type~dark@2x.png",
+          "binary_hash": "2c75980fc89cb8491d61da88a11e6d1236e8aac61ad63b4faff83f82791de2c5",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "typography-dynamic-type.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:25:25.445239+00:00",
+      "reference_metadata_hash": "5a66889899f050dd77c1126528f7b9ae50d084e6974e34492227730fa280ad8d",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/typography-dynamic-type@2x.png",
+      "binary_hash": "86acd59667da024772e1697d9782afbd79c2587c6892dd59db60c8ae47d5e363",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual Mail message grows into multiline name, date, subject and body while preserving their relationships. Local Supporting Dynamic Type retains wrapping, growing containers and useful information at the largest sizes.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md#Supporting-Dynamic-Type",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md",
+          "hash": "37277ae8d9bbc84ad0fc2352993545a7f9f3ac02d567b736c979587a83340082"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/36/columns/1/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/typography-dynamic-type~dark@2x.png",
+          "binary_hash": "d1c319b8b32230d3d7c0ebe0b774247d9726a3ccb1ad21c12f58d41200e8f59d",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "visionos-typography-2d-text-correct": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:25:25.445267+00:00",
+      "reference_metadata_hash": "6d74631e5ee166078349fa0e01919f94d9c6f1a63ec298d38394323e4650f00f",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-typography-2d-text-correct@2x.png",
+      "binary_hash": "46d6508da5b6219dfc3ccac2d91cf2d0804001be880bf5eed51c5679bb6279d9",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual spatial comparison favors flat readable hello over heavily extruded dimensional letters. Local visionOS requires little/no extrusion and avoids unpredictable cast-shadow reliance.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md#visionOS",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md",
+          "hash": "37277ae8d9bbc84ad0fc2352993545a7f9f3ac02d567b736c979587a83340082"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/57/columns/0/content/0/inlineContent/0"
+      ]
+    },
+    "visionos-typography-3d-text-incorrect": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:25:25.445295+00:00",
+      "reference_metadata_hash": "38d3f96679b76c084d3fe5bf94d752213aa7568def16d1b8595d7946754943a5",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-typography-3d-text-incorrect@2x.png",
+      "binary_hash": "512158d8d0ff3a47347c015135b85ec62cb0fea9850fea2223656fc8b7dc7088",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual spatial comparison favors flat readable hello over heavily extruded dimensional letters. Local visionOS requires little/no extrusion and avoids unpredictable cast-shadow reliance.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md#visionOS",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md",
+          "hash": "37277ae8d9bbc84ad0fc2352993545a7f9f3ac02d567b736c979587a83340082"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/57/columns/1/content/0/inlineContent/0"
+      ]
+    },
+    "crossout.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:25:25.445327+00:00",
+      "reference_metadata_hash": "0c2c3d7b2564f5f9655160122b86bc474eb5237ae9d8863767258fb7a3a501d5",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png",
+      "binary_hash": "1db0f81f40120694a8ddacc3f14c5c5db34f349bbda958e9bc5d5401627701f1",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "evaluative-marker",
+      "evidence": "Actual evaluative marks distinguish readable flat spatial type from rejected heavy extrusion.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md#visionOS",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md",
+          "hash": "37277ae8d9bbc84ad0fc2352993545a7f9f3ac02d567b736c979587a83340082"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/57/columns/1/content/1/inlineContent/0"
+      ]
+    },
+    "checkmark.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:25:25.445358+00:00",
+      "reference_metadata_hash": "a7b390cf6fdba6325d814ead62cf41781d068a9bc6b3d7157608b43e5309f15e",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png",
+      "binary_hash": "374e10c7f512f20e71739561ee39f5ff1c3f1366bef6071993d7494eb7eecf2c",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "evaluative-marker",
+      "evidence": "Actual evaluative marks distinguish readable flat spatial type from rejected heavy extrusion.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md#visionOS",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md",
+          "hash": "37277ae8d9bbc84ad0fc2352993545a7f9f3ac02d567b736c979587a83340082"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/57/columns/0/content/1/inlineContent/0"
+      ]
+    }
+  }
+}

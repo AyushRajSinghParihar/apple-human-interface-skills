@@ -1,0 +1,236 @@
+{
+  "source_hash": "73aa8b30b153aa53a2d3204307832823b7149396973df99b415915b384c4e56c",
+  "media": {
+    "patterns-playing-video-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:16:21.850125+00:00",
+      "reference_metadata_hash": "6733ba7493868562888651224b507dff05c0758b33af5ab68b52af0aec748974",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-playing-video-intro@2x.png",
+      "binary_hash": "f417213c744d997d9808a20742b7e7ea400c6869030165a6cfb31add1f266eba",
+      "review_method": "actual primary/alternate introductory-image gallery inspection and source topic/context identification",
+      "classification": "illustrative topic introduction; redundant with component/topic identity",
+      "evidence": "Actual introductory illustration and its light/dark representation inspected in numbered galleries. The image identifies or demonstrates this topic/component; the depicted sample labels, symbols and layout add no independent normative specification. Substantive design rules remain subject to the separate article/section audit.",
+      "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+          "hash": "1059ed7c7cf052772828b4100add598286e5316b38bfbd614e43e5cda6384c93"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-playing-video-intro~dark@2x.png",
+          "binary_hash": "dc5238ef1a2fa25924981dbf0e95f3a2148a27a2de815632c1dd44262faf2830",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "video-fill-4-3-right.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:26:15.847565+00:00",
+      "reference_metadata_hash": "16909af0ccd73dc9db9efb253059769504c14a4567058c4cf082995fac96eb58",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/video-fill-4-3-right@2x.png",
+      "binary_hash": "b4774103dc0a3657e628bf95376c6623a41c172c88a58f602f46d8e356c42bc3",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local prose",
+      "evidence": "Viewed both appearance diagrams: native video rectangle extends outside the landscape display for aspect-fill, without encoded padding; the screen is covered. Local original-aspect/no-baked-bars rule retains the correct scaling lesson.",
+      "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md#Best-practices",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+          "hash": "1059ed7c7cf052772828b4100add598286e5316b38bfbd614e43e5cda6384c93"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/9/tabs/0/content/0/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/video-fill-4-3-right~dark@2x.png",
+          "binary_hash": "61a60ab1df823fbc8eb7818b7a1605aaeed9c56b21b0015579316ebfb05efabc",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate on the paired contact sheet; contrast/surface appearance changes preserve the same interaction, hierarchy, and lesson.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "video-fill-4-3-wrong.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:26:15.847599+00:00",
+      "reference_metadata_hash": "22939a5c62ee7a51f2f9abfd5fbc0e52dab825aad3830e2b103db6eeb05e3c30",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/video-fill-4-3-wrong@2x.png",
+      "binary_hash": "af68e44a0b51f2aa0f163a726aeec67b58b9683843e758d13c327eaf781355b9",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local prose",
+      "evidence": "Viewed pink encoded side padding occupying visible screen edges around the 4:3 video in both appearances. Local guidance explains embedded pillarbox bars break fullscreen scaling, unlike crop of the native video.",
+      "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md#Best-practices",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+          "hash": "1059ed7c7cf052772828b4100add598286e5316b38bfbd614e43e5cda6384c93"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/9/tabs/0/content/0/columns/1/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/video-fill-4-3-wrong~dark@2x.png",
+          "binary_hash": "ad35d41501b384bec5f891de9d5acebd00b4998f873a8fbef2e65e6732616744",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate on the paired contact sheet; contrast/surface appearance changes preserve the same interaction, hierarchy, and lesson.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "legend-letter-pillar.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:26:15.847619+00:00",
+      "reference_metadata_hash": "ee15ac6a0fac879dfca82bad96b50d3871f9077ae6e15019003ec69c9b37e3fe",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/legend-letter-pillar@2x.png",
+      "binary_hash": "a793525d555331bef45deedd3d337b05740d16485b5b9b15546720f8790db1c3",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local prose",
+      "evidence": "Viewed both legend appearances identifying safe area, video, and encoded padding. These colors are explanatory diagram keys, not interface palette specifications; local prose retains the three concepts and padding prohibition.",
+      "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md#Best-practices",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+          "hash": "1059ed7c7cf052772828b4100add598286e5316b38bfbd614e43e5cda6384c93"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/9/tabs/0/content/1/columns/0/content/0/inlineContent/0",
+        "primaryContentSections/0/content/9/tabs/1/content/1/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/legend-letter-pillar~dark@2x.png",
+          "binary_hash": "f30f97fa5059b955002003478c20bfe41797e11a648c79b1879c766315120c16",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate on the paired contact sheet; contrast/surface appearance changes preserve the same interaction, hierarchy, and lesson.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "video-fit-21-9-right.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:26:15.847636+00:00",
+      "reference_metadata_hash": "a721e33622cf2efd8ccb1edb66b34dccfb016ab2cc8fcfad4c42483951060c2c",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/video-fit-21-9-right@2x.png",
+      "binary_hash": "676b6b6d852d2ab294d46eb49a7d4eb0e6c770db12fbafbbf14343ba5936504f",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local prose",
+      "evidence": "Viewed native 21:9 video fitted within the display with system-managed unused area, in both appearances. Local aspect-fit/original-aspect treatment preserves full image and permits necessary system bars.",
+      "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md#Best-practices",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+          "hash": "1059ed7c7cf052772828b4100add598286e5316b38bfbd614e43e5cda6384c93"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/9/tabs/1/content/0/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/video-fit-21-9-right~dark@2x.png",
+          "binary_hash": "78de0336f638adf137aca3d78ea1310519b8e3bcccb445b443a3d7a1135ada59",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate on the paired contact sheet; contrast/surface appearance changes preserve the same interaction, hierarchy, and lesson.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "video-fit-21-9-wrong.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:26:15.847655+00:00",
+      "reference_metadata_hash": "466a3bfbb2215aae1a3939a133bfcc4a203206fd842026ab9f30b944d2d270ba",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/video-fit-21-9-wrong@2x.png",
+      "binary_hash": "2ea1add125971d6c073774aa268c3ebde372fd7740b714063aef791ef837377b",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local prose",
+      "evidence": "Viewed encoded top/bottom padding shrinking the real ultrawide video inside its fitted frame. Local no-embedded-letterbox guidance directly covers the error.",
+      "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md#Best-practices",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+          "hash": "1059ed7c7cf052772828b4100add598286e5316b38bfbd614e43e5cda6384c93"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/9/tabs/1/content/0/columns/1/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/video-fit-21-9-wrong~dark@2x.png",
+          "binary_hash": "b20980cdfc85a16c95a46d032d30cc4a7efea065f7a2cc5ec270086fbc76831a",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate on the paired contact sheet; contrast/surface appearance changes preserve the same interaction, hierarchy, and lesson.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    },
+    "crossout.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:26:15.847671+00:00",
+      "reference_metadata_hash": "0c2c3d7b2564f5f9655160122b86bc474eb5237ae9d8863767258fb7a3a501d5",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png",
+      "binary_hash": "1db0f81f40120694a8ddacc3f14c5c5db34f349bbda958e9bc5d5401627701f1",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local prose",
+      "evidence": "Actually inspected the green check/circled X convention and its nearby correct/incorrect source example. This is an evaluation marker, not an additional interface requirement; the applicable prose states the lesson.",
+      "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md#Best-practices",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+          "hash": "1059ed7c7cf052772828b4100add598286e5316b38bfbd614e43e5cda6384c93"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/9/tabs/0/content/0/columns/1/content/1/inlineContent/0",
+        "primaryContentSections/0/content/9/tabs/1/content/0/columns/1/content/1/inlineContent/0"
+      ]
+    },
+    "checkmark.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:26:15.847688+00:00",
+      "reference_metadata_hash": "a7b390cf6fdba6325d814ead62cf41781d068a9bc6b3d7157608b43e5309f15e",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png",
+      "binary_hash": "374e10c7f512f20e71739561ee39f5ff1c3f1366bef6071993d7494eb7eecf2c",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local prose",
+      "evidence": "Actually inspected the green check/circled X convention and its nearby correct/incorrect source example. This is an evaluation marker, not an additional interface requirement; the applicable prose states the lesson.",
+      "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md#Best-practices",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+          "hash": "1059ed7c7cf052772828b4100add598286e5316b38bfbd614e43e5cda6384c93"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/9/tabs/0/content/0/columns/0/content/1/inlineContent/0",
+        "primaryContentSections/0/content/9/tabs/1/content/0/columns/0/content/1/inlineContent/0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,635 @@
+{
+  "review": {
+    "slug": "page-controls",
+    "status": "reviewed",
+    "source_hash": "73eb5339760c74fcddaffeb57df0f9a3afb3afed28525f53cef6dde849877cf2",
+    "destination_hash": "0e92a8285c75f6099e883dde2c890539879044a44f0b561283670d7cf8ed73f2",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:07:49.129212+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "page-controls",
+        "status": "reviewed",
+        "evidence": "Checked flat ordered peer pages, arbitrary count, default filled/equidistant dots and overflow behavior."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified sequence-not-hierarchy, centered lower placement and about-ten-dot limit/grid alternative."
+      },
+      {
+        "source_anchor": "Customizing-indicators",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Customizing-indicators",
+        "status": "reviewed",
+        "evidence": "Verified meaningful simple defaults/special pages, ≤2 image types, no text/inner detail/negative space and system color for contrast."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked Mac exclusion."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Checked edge shrink, tapping/pointer/scrubbing/end acceleration, tap-only animation, all three background purposes and minimal-style no-scrub rule."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Verified fullscreen peers and focus simplicity."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked display-only page indicators."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Verified horizontal/vertical positions, Crown transitions, purposeful vertical pages and screen-height/variable-page ordering."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "e5aae9ae9890af0fcd067e9c15704b7cb61b8d5f08d045cf2df678d9b0a33719",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "page-controls",
+        "evidence": "Checked flat ordered peer pages, arbitrary count, default filled/equidistant dots and overflow behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "7cca7cc6231c2eae9496cc16057c92ffc440bffae79bde46bfcec0fbadd98651",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "page-controls",
+        "evidence": "Checked flat ordered peer pages, arbitrary count, default filled/equidistant dots and overflow behavior. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "1f10f8d4a1f9e20849651de75f41a97607c2d345a556ad87f0e94653a2e130dd",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "page-controls",
+        "evidence": "Checked flat ordered peer pages, arbitrary count, default filled/equidistant dots and overflow behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "3fdee22a5dd8ee6eb6b4a5a495bdbf10872e5c1f792732c66d2ddf7b5186bfc7",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "page-controls",
+        "evidence": "Checked flat ordered peer pages, arbitrary count, default filled/equidistant dots and overflow behavior."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "bff5dd8954f8ca4886b5af9b92bc7ccd32325c75b7d6d72c8b81ffc4e26caa84",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified sequence-not-hierarchy, centered lower placement and about-ten-dot limit/grid alternative."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "7d049fe9317c355e29966ea71a6b032014b1e0d0ba26935128289672b0f9c652",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified sequence-not-hierarchy, centered lower placement and about-ten-dot limit/grid alternative."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "df30ce0939b7040dea36cb063d3871de4b4b15d7c90e7b6baa1fe37decb5ca63",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified sequence-not-hierarchy, centered lower placement and about-ten-dot limit/grid alternative."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "b1360330790a80f2ec3a1d370a74799cd313ed351793f02b42040bc526cb26ff",
+        "source_anchor": "Customizing-indicators",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Customizing-indicators",
+        "evidence": "Verified meaningful simple defaults/special pages, ≤2 image types, no text/inner detail/negative space and system color for contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "4ae62710f814a3b84ea65e7356982aceee3ebaee481c08354c25fbf1b349a7e7",
+        "source_anchor": "Customizing-indicators",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Customizing-indicators",
+        "evidence": "Verified meaningful simple defaults/special pages, ≤2 image types, no text/inner detail/negative space and system color for contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "b283f7c7370fc08bdb8a457dd0b2a066f216386a55b9666fa0853c517597d03f",
+        "source_anchor": "Customizing-indicators",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Customizing-indicators",
+        "evidence": "Verified meaningful simple defaults/special pages, ≤2 image types, no text/inner detail/negative space and system color for contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "cd9b1c982084a18386bc8f588ebcd504766cbfa61f611ae74df6d90211e1b5aa",
+        "source_anchor": "Customizing-indicators",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Customizing-indicators",
+        "evidence": "Verified meaningful simple defaults/special pages, ≤2 image types, no text/inner detail/negative space and system color for contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "2a6717d48194135bc546aa84d30aea130fbb00b78f5b32eb3e9460da89852dde",
+        "source_anchor": "Customizing-indicators",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Customizing-indicators",
+        "evidence": "Verified meaningful simple defaults/special pages, ≤2 image types, no text/inner detail/negative space and system color for contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/columns/0/content/0",
+        "source_unit_hash": "7474d4ed372df720f7c4c0f71acd4b055d1ebd6d152ce422045fb6490471d387",
+        "source_anchor": "Customizing-indicators",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Customizing-indicators",
+        "evidence": "Verified meaningful simple defaults/special pages, ≤2 image types, no text/inner detail/negative space and system color for contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "77976bf7e969ddffee97ab5cc426983c8ffd322e91edb6742f49f679262c3c75",
+        "source_anchor": "Customizing-indicators",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Customizing-indicators",
+        "evidence": "Verified meaningful simple defaults/special pages, ≤2 image types, no text/inner detail/negative space and system color for contrast. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/columns/0/content/1",
+        "source_unit_hash": "7ba75204bfcf3a91309ae65d9520ad1a720c79fbcc3dd673452b4b0a13bc5fcb",
+        "source_anchor": "Customizing-indicators",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Customizing-indicators",
+        "evidence": "Verified meaningful simple defaults/special pages, ≤2 image types, no text/inner detail/negative space and system color for contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "ee701c0df1723f053a61ee5ae6728471360ee98b0676e169ba55fe156bf793a5",
+        "source_anchor": "Customizing-indicators",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Customizing-indicators",
+        "evidence": "Verified meaningful simple defaults/special pages, ≤2 image types, no text/inner detail/negative space and system color for contrast. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/columns/1/content/0",
+        "source_unit_hash": "16f98d97e8294a966716d24e1b813b852ab0b2ce7ebe42d43a91a6e96217fed1",
+        "source_anchor": "Customizing-indicators",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Customizing-indicators",
+        "evidence": "Verified meaningful simple defaults/special pages, ≤2 image types, no text/inner detail/negative space and system color for contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "651b12899052c8edfb20343ba705da7c07cd7b1da768db9121c9b38f9a095060",
+        "source_anchor": "Customizing-indicators",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Customizing-indicators",
+        "evidence": "Verified meaningful simple defaults/special pages, ≤2 image types, no text/inner detail/negative space and system color for contrast. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/columns/1/content/1",
+        "source_unit_hash": "be8feabd9a55212bf18bb2d1f1d549423eeb4ddfa2da04842085036ecb8395b1",
+        "source_anchor": "Customizing-indicators",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Customizing-indicators",
+        "evidence": "Verified meaningful simple defaults/special pages, ≤2 image types, no text/inner detail/negative space and system color for contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/13/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "5b342dbc49a49e709f2a3d289db30e3f38978c14a4d498bebffd6c7ed0270ec1",
+        "source_anchor": "Customizing-indicators",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Customizing-indicators",
+        "evidence": "Verified meaningful simple defaults/special pages, ≤2 image types, no text/inner detail/negative space and system color for contrast. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "667378fe2823c43384dbc1abe0c09150f34917c7d02a30766743319a56c67018",
+        "source_anchor": "Customizing-indicators",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Customizing-indicators",
+        "evidence": "Verified meaningful simple defaults/special pages, ≤2 image types, no text/inner detail/negative space and system color for contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "244e05e3f18cf5544af160abfdacf350865a9a0e41e512ec2ad88faae454a7ea",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked Mac exclusion."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "372319929a5c095fcd62053490952943dfcf3e9a3aeee74654028c468b25b515",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked edge shrink, tapping/pointer/scrubbing/end acceleration, tap-only animation, all three background purposes and minimal-style no-scrub rule."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "0ead4f2bad964353f23d7823587058902fbfd6d8e1777b9987f039608817c6c0",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked edge shrink, tapping/pointer/scrubbing/end acceleration, tap-only animation, all three background purposes and minimal-style no-scrub rule."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/inlineContent/0",
+        "source_unit_hash": "981d096339f3a528ecab084a5a5bd91c357188673ebb3a97e6a0ea7ad0fda2f8",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked edge shrink, tapping/pointer/scrubbing/end acceleration, tap-only animation, all three background purposes and minimal-style no-scrub rule. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "8ac7e5b187ea392ace2402b6d22a1dc86d2aacd79c4ec12d10feeded2699a5e4",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked edge shrink, tapping/pointer/scrubbing/end acceleration, tap-only animation, all three background purposes and minimal-style no-scrub rule."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "3e8958f1abd303ce79380f755e12a998761052e9c7211043240acc947f030998",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked edge shrink, tapping/pointer/scrubbing/end acceleration, tap-only animation, all three background purposes and minimal-style no-scrub rule."
+      },
+      {
+        "id": "primaryContentSections/0/content/21/content/0",
+        "source_unit_hash": "c30ca25c71c3ea0804073496580740c50e3aced18ed7e970f765081f8d774957",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked edge shrink, tapping/pointer/scrubbing/end acceleration, tap-only animation, all three background purposes and minimal-style no-scrub rule."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "137b2b32bb2c0af776799107055612fb59a55953de7005cbb66bcd42142ae23b",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked edge shrink, tapping/pointer/scrubbing/end acceleration, tap-only animation, all three background purposes and minimal-style no-scrub rule."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "26705474b7c85fb9e801d30de7c80c08594a7016a395c0d1438426b65fb8c264",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked edge shrink, tapping/pointer/scrubbing/end acceleration, tap-only animation, all three background purposes and minimal-style no-scrub rule."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "46239aeb56f1946e808a6964a412e3497fe4f839856b147d61a364564422a592",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked edge shrink, tapping/pointer/scrubbing/end acceleration, tap-only animation, all three background purposes and minimal-style no-scrub rule."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/items/0/content/0",
+        "source_unit_hash": "46f0b6e1da2965bec97e6fee7d150b6d2ad559628190f25e8252ef2db466fddf",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked edge shrink, tapping/pointer/scrubbing/end acceleration, tap-only animation, all three background purposes and minimal-style no-scrub rule."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/items/1/content/0",
+        "source_unit_hash": "6d7f37f15ad8a09b31f2efb5d8a6e3c6e954db6aa9633f164933b818e38beeea",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked edge shrink, tapping/pointer/scrubbing/end acceleration, tap-only animation, all three background purposes and minimal-style no-scrub rule."
+      },
+      {
+        "id": "primaryContentSections/0/content/24/items/2/content/0",
+        "source_unit_hash": "a23c364b29ebef2439a5d8405a6db2d4ab46e3eec019f97567f94d98591feb8b",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked edge shrink, tapping/pointer/scrubbing/end acceleration, tap-only animation, all three background purposes and minimal-style no-scrub rule."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "e2fc41313374e71f812ae0f4dd1d3cdbc46ded0279f1f10db21bd005b0092a1d",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked edge shrink, tapping/pointer/scrubbing/end acceleration, tap-only animation, all three background purposes and minimal-style no-scrub rule."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "b03e1802688dfaa109920b525f8f541d981d813aef7cdbe328d935883c5f5423",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked edge shrink, tapping/pointer/scrubbing/end acceleration, tap-only animation, all three background purposes and minimal-style no-scrub rule."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "4fa0d3e71f3b5b5ed61c1c745507acef630bd5ae37c71d80fac00f0095072498",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Verified fullscreen peers and focus simplicity."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "98564eb1efaebf329fcafec15af3509b8607586a6c796fc32f7d0b2924eb6049",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked display-only page indicators."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "b51b77be84f4dcab5309b6d2dc5fb714d2078077dab7745b649ab8fbc6a26b0f",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified horizontal/vertical positions, Crown transitions, purposeful vertical pages and screen-height/variable-page ordering."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/columns/0/content/0",
+        "source_unit_hash": "70afcd5f6e09c779d97f1ff2139aa4052847c8c1a9be051c42e58825193534df",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified horizontal/vertical positions, Crown transitions, purposeful vertical pages and screen-height/variable-page ordering."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "b89a733f4de0cbb41a1bb663788fcc1acadcf84750e53e2a77eb38a8ea5fdc24",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified horizontal/vertical positions, Crown transitions, purposeful vertical pages and screen-height/variable-page ordering. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/columns/1/content/0",
+        "source_unit_hash": "edb2e3cff9e2c02eac262fce3a9dc89e5c079a4fd08d164e5812a29cbf9461d3",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified horizontal/vertical positions, Crown transitions, purposeful vertical pages and screen-height/variable-page ordering."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "ac4b3f6c6a568673c77943ad7c4c1beded4073820ca4da5dd1d3fc29ab31169d",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified horizontal/vertical positions, Crown transitions, purposeful vertical pages and screen-height/variable-page ordering. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "0ce3c23c19d08b1fc21d7e40785c7a2db412bb0a98fc524139063fe6bb25e305",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified horizontal/vertical positions, Crown transitions, purposeful vertical pages and screen-height/variable-page ordering."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "9055c3a36d7b8d5866774fd21c9018512dcf79884798af67b97c25a2bbafcf0d",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified horizontal/vertical positions, Crown transitions, purposeful vertical pages and screen-height/variable-page ordering."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "dea79f25113ce551e564f061903afde598f1a3116a31f90d23ec50e809df5c10",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "adc56661134484d510627711ddd64fe66429667816b340f8f117fba94ca6f18c",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "102828445cbabafc33fae364b820da0d356302432b0339faf7f5fc38d718cd33",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "25db9b8d92b3d72a2b25b2bf243fd8fc730fcc7000e2bfe291d54a1e39021323",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/1/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/1/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/2/0/0",
+        "source_unit_hash": "937d2d87f6be46489d91c6c598d77898e230787b56f889b2c1e16309f42a1ad2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/rows/2/1/0",
+        "source_unit_hash": "f86f5e0c73c329dd64d9dc16f22a0cdb18b22fcf7f65deabfbae3c482ce1bf08",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "25db9b8d92b3d72a2b25b2bf243fd8fc730fcc7000e2bfe291d54a1e39021323",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

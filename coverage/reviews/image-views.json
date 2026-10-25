@@ -1,0 +1,395 @@
+{
+  "review": {
+    "slug": "image-views",
+    "status": "reviewed",
+    "source_hash": "f3450aecc58c42ad47f345ea644301b086c6f5d575951921fac6f115775cfc9b",
+    "destination_hash": "16c295f2d929259cc8ae271e3c99fc8614ab62b0673554f226abe9f2933061a5",
+    "reviewer": "independent-coverage-auditor",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "image-views",
+        "status": "reviewed",
+        "evidence": "Checked still/animated image purpose, opaque/transparent background, fit/scale/stretch/pin behavior, and normally noninteractive presentation."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked system image button instead of retrofitted image interaction, and SF Symbols/template icons with contextual/accent rendering."
+      },
+      {
+        "source_anchor": "Content",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Content",
+        "status": "reviewed",
+        "evidence": "Checked rich formats, text-overlay contrast/supporting layers, and consistently sized prescaled animation frames."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "No additional iOS/iPadOS rules are invented."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Checked image wells for copy/paste/drag/Delete and image buttons for immediate actions."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Checked transparency/layers as the basis for depth."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked windowed 2D/stereoscopic/spatial images, RealityKit presentation alongside 3D content, and spatial scenes from 2D images."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Checked SwiftUI preference and WatchKit image-sequence fallback."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "00942e978f210a162f897cf9da4996f20732aa74ce9d32bebe6e80cc75e4c8bc",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "image-views",
+        "evidence": "Checked still/animated image purpose, opaque/transparent background, fit/scale/stretch/pin behavior, and normally noninteractive presentation."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "f2f93670379da2f4188aef7b87bf3990c07ce915aa4f2ef764e8d7e950e8b8e0",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "image-views",
+        "evidence": "Checked still/animated image purpose, opaque/transparent background, fit/scale/stretch/pin behavior, and normally noninteractive presentation."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "ba42767d8f9959b5dc81c95a79deed72718995def3788b591d5a2952949b3e9d",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "image-views",
+        "evidence": "Checked still/animated image purpose, opaque/transparent background, fit/scale/stretch/pin behavior, and normally noninteractive presentation."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "a3560774b7a9414b994ca469530f3265582894225db1b9311f4e11e7aa707877",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system image button instead of retrofitted image interaction, and SF Symbols/template icons with contextual/accent rendering."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "f7d56ec82d0713b3be5ec0d718b75b7ece1e98ea65f7a0b824674bd09ec8cbc3",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system image button instead of retrofitted image interaction, and SF Symbols/template icons with contextual/accent rendering."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "ef4c5da69e54f4d517b4421ebf7ba39297ed42b7a7e9284177faa611284a3181",
+        "source_anchor": "Content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Content",
+        "evidence": "Checked rich formats, text-overlay contrast/supporting layers, and consistently sized prescaled animation frames."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "67bc4bac04e8313075d1517f32525ea3cefa9baf4fa818096bfe38f77e95a4f5",
+        "source_anchor": "Content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Content",
+        "evidence": "Checked rich formats, text-overlay contrast/supporting layers, and consistently sized prescaled animation frames."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "2343380ba04064f18a0f96d7b43a0c3f53e8954b4cb55c336dd6a145b72ffe23",
+        "source_anchor": "Content",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Content",
+        "evidence": "Checked rich formats, text-overlay contrast/supporting layers, and consistently sized prescaled animation frames."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "0913e822d1a1b470021017c88efa37e4ff336772786db7c5922024ac84e61a74",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "No additional iOS/iPadOS rules are invented."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "cb3e841dd477033d616b22887e1f242908f2ce2652d4345ff13ca64ab7ee217d",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked image wells for copy/paste/drag/Delete and image buttons for immediate actions."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "56d13b8da8620400985bbe99db431fee0e41c7f11b1dbe393f2980ab4ed1460d",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked image wells for copy/paste/drag/Delete and image buttons for immediate actions."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "2c92fd06d5e53abaee53a647f46b73fb6c7c91acfb09303ef296750f0c90cca3",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked transparency/layers as the basis for depth."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "f6312c7985eea961d37a7432f2662de2bd4fcb1997a6d85571508603a1018d67",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked windowed 2D/stereoscopic/spatial images, RealityKit presentation alongside 3D content, and spatial scenes from 2D images."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "3fa2f6d6698da3cf4f1388bd1074ed9e92c8a4d910ab5b0de34f83d8ea1090a8",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked windowed 2D/stereoscopic/spatial images, RealityKit presentation alongside 3D content, and spatial scenes from 2D images."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "9295a89e8d7c4b176662c621cef33eedb1ff3a46375e3c67c158b0e9f0eb2954",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked SwiftUI preference and WatchKit image-sequence fallback."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "94bd68778e73867f589aad4739c1f99cedc8447ac5f42cf879dc48ab227e0b97",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "c9f628b24a786d7fa6f954ec6dd1d8f9b8db1ff3385aafc7a6e93c9f7d42274b",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "da62ed63e976dca3b7ff1c307e87e12a0343733bce358f6071398c482083943f",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "2b42e5a212eaa89cb940697ef0902cd1c7f5e3afb9a41023d5a25df22304cb7a",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "d08357c059d0d1df3259c87290b499a3e7798ab094671e4ea32ea00b735ec999",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "89aa64e46adf3c72ebf0c48636bc96f7925198eec15c83fd9244c019abfe7fae",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "00955b08a191f82a74d51d9915ca3f9ef403c4baf7038815723b3eadf6b5364d",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "69a083956f45ac0edfa9f5f180520301584001537c7f2f9969e46170630df53e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/rows/1/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "69a083956f45ac0edfa9f5f180520301584001537c7f2f9969e46170630df53e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only or revision metadata; implementation links and documented dates are preserved, outside substantive-design denominator."
+      }
+    ],
+    "issues": [],
+    "reviewed_at": "2026-10-25T12:46:59.584641+00:00",
+    "evidence": "Independent complete source Markdown/structured-unit comparison and actual embedded-image inspection. Source resources treated as metadata. No author-provided coverage assertion used as approval."
+  },
+  "media": {
+    "components-image-view-intro.png": {
+      "id": "primaryContentSections/0/content/0/inlineContent/0",
+      "kind": "image",
+      "section": "overview",
+      "context": [],
+      "treatment": "guidance",
+      "reference_metadata_hash": "bd2142230988fc72bbd6e99911573c98c899ec4b80aed3c0d0f243b5e1a55da9",
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Viewed the actual introductory illustration; it identifies the topic and adds no normative rule beyond the article.",
+      "review_method": "actual-asset contact-sheet visual inspection plus source-context/local-guidance comparison",
+      "classification": "decorative",
+      "destination": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+      "destination_anchor": "image-views",
+      "destination_hash": "16c295f2d929259cc8ae271e3c99fc8614ab62b0673554f226abe9f2933061a5",
+      "binary_hash": "bc4eb6fa87c55bb04a481ed07238728118c801503f7a7dd5bbfadac8f4e48957",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-image-view-intro@2x.png",
+      "appearance_variant_disposition": "Final actual paired inspection completed; the decorative appearance contains no additional design rule.",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+          "hash": "16c295f2d929259cc8ae271e3c99fc8614ab62b0673554f226abe9f2933061a5"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-image-view-intro~dark@2x.png",
+          "binary_hash": "3497b95b7d1750badad87b43d99c81d99844758f5e9a0c05984025b0a1a8e97c",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "reviewed_at": "2026-10-25T13:51:33.696586+00:00",
+          "review_method": "actual primary/alternate image-pair visual comparison in the final decorative-alternate gallery",
+          "evidence": "Actually compared the themed device/component illustration pair. Only appearance/background/foreground contrast changes; the device silhouette or sample content remains equivalent and adds no independent normative rule."
+        }
+      ]
+    }
+  }
+}

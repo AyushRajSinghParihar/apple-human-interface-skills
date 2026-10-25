@@ -1,0 +1,223 @@
+{
+  "review": {
+    "slug": "undo-and-redo",
+    "status": "reviewed",
+    "source_hash": "bd20daca9c404789b870784152c49113fb35c7df7be0bc1d075db7b441e79c8c",
+    "destination_hash": "63bb3d62d092f9c4d228e06c8be445388fb3908702a94ddae96600bbeed5eff6",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:21:18.817598+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "undo-and-redo",
+        "status": "reviewed",
+        "evidence": "Retains predictable target/outcome and visible results to prevent repeated unintended undo."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "All five rules remain: descriptive labels/shake confirmation, reveal offscreen changes, no arbitrary history limits since logical open/save, grouped/revert changes, standard initiation before optional standard-symbol toolbar buttons."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified visionOS no extras and tvOS/watchOS unsupported."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Retains standard three-finger/iPhone shake and exact system Undo/Redo prefix including trailing space with one/two descriptive words."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Top-of-Edit placement and Command-Z/Shift-Command-Z mapping both match."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "05833682e5d36df274f6287bae86aeff5d1ef176bf322a44d6f2ef0c11e08f74",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "undo-and-redo",
+        "evidence": "Retains predictable target/outcome and visible results to prevent repeated unintended undo."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "db43b8127dadc2ef0afc68954e1af34a9a68baeec00984eeee6ea6c3e9711f92",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "undo-and-redo",
+        "evidence": "Retains predictable target/outcome and visible results to prevent repeated unintended undo. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "27ba793ac98ef322e852ba29b980257516116892d054e7ca44039a31a397b7e8",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "undo-and-redo",
+        "evidence": "Retains predictable target/outcome and visible results to prevent repeated unintended undo."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "58f4eec95a396de8077432fd97c7bee954090eac98917f1dbff2daa8e456fec9",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "All five rules remain: descriptive labels/shake confirmation, reveal offscreen changes, no arbitrary history limits since logical open/save, grouped/revert changes, standard initiation before optional standard-symbol toolbar buttons."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "1289634cc960b0fcf327478946ff570ee8f9c83be454fa3bb9eedaf7acdfcc1d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "All five rules remain: descriptive labels/shake confirmation, reveal offscreen changes, no arbitrary history limits since logical open/save, grouped/revert changes, standard initiation before optional standard-symbol toolbar buttons."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "5baf1b3efe39ad8ce46dc4514b92e59ecdf559e9dd412a6238da6a5d9d8d28f1",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "All five rules remain: descriptive labels/shake confirmation, reveal offscreen changes, no arbitrary history limits since logical open/save, grouped/revert changes, standard initiation before optional standard-symbol toolbar buttons."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "b9a34be7a46c03a19fd4e5e9cafe588a8e2be846c2c5f73310ffaa04de1ad5a8",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "All five rules remain: descriptive labels/shake confirmation, reveal offscreen changes, no arbitrary history limits since logical open/save, grouped/revert changes, standard initiation before optional standard-symbol toolbar buttons."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "303367bd561b6ee6b49f68412ce47d9e7291706bd8bf99d09e31646966652e31",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "All five rules remain: descriptive labels/shake confirmation, reveal offscreen changes, no arbitrary history limits since logical open/save, grouped/revert changes, standard initiation before optional standard-symbol toolbar buttons."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "cdd0fe34252abca8d3cb2dffde801e0e52ea1f3bb1a0d8e20e40ae8548d1474b",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified visionOS no extras and tvOS/watchOS unsupported."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "40b6c03341e782a300a6caab151c12a40902a85cf2af34c4d131afd4bca31184",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Retains standard three-finger/iPhone shake and exact system Undo/Redo prefix including trailing space with one/two descriptive words."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "cc234d6f10e733ab02f65bf202114764a59df1631a6d11cad8f55723a1672e70",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Retains standard three-finger/iPhone shake and exact system Undo/Redo prefix including trailing space with one/two descriptive words."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "c30957f2edde50247503e25510da153f763f84d777391e8d5adbfa863a658398",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "macOS",
+        "evidence": "Top-of-Edit placement and Command-Z/Shift-Command-Z mapping both match."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "6427aa81d9828b0d03c4c78a3b225a41d7af45949cc573a6937b8bbe9ec70e2f",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "73b2f6272718819749c01453e64e6a2aa4fdec9b8e798117079c2b0adb0c848a",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "57b0720a55f6b7d30eec2efe700e4ffce0be8dd1ed7974a05ba412aa4f9d6947",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "1e2bcf67f5a442a146b9423edc28e88cd3e1ee22371c394a2a8c8d96972cd22d",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "e9da40a6f82775e1445a247d146851cb522b2d40eb3cd523135619a9e29b77df",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [],
+    "issues": []
+  },
+  "media": {}
+}

@@ -1,0 +1,309 @@
+{
+  "source_hash": "03503a18d5db7d9a18d9a1d863c2b9f0464258f4c7cd514677f320d5d9147927",
+  "media": {
+    "foundations-dark-mode-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:16:20.201276+00:00",
+      "reference_metadata_hash": "20c3384572ee16582f0f647b238d506739287dfe998ad85236ca3de743c3829f",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-dark-mode-intro@2x.png",
+      "binary_hash": "a95c7eab22779669662f95d7fce1adf0308309b67417654ca809fcffd4d95dc9",
+      "review_method": "actual primary/alternate introductory-image gallery inspection and source topic/context identification",
+      "classification": "illustrative topic introduction; redundant with component/topic identity",
+      "evidence": "Actual introductory illustration and its light/dark representation inspected in numbered galleries. The image identifies or demonstrates this topic/component; the depicted sample labels, symbols and layout add no independent normative specification. Substantive design rules remain subject to the separate article/section audit.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+          "hash": "49f104ff7eae33235be57e03c4525a524a95cb3d02c78c7bddfbc8aa577db9c8"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-dark-mode-intro~dark@2x.png",
+          "binary_hash": "3ef5b726ae1e139d6977a986cc4feb75d3da1c418260b9dbbf0aa18e07e59ae2",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "dark-mode-system-colors-light.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:22:07.737948+00:00",
+      "reference_metadata_hash": "f72fe6a519701c181ca98ab8a3dc16296dcb536727af13995f25d5ef56e9949b",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-system-colors-light@2x.png",
+      "binary_hash": "fba3af8b6711856aab1f732968f975d4e1e69c5124092ca2526fa67c9f375f42",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Inspected the four semantic color swatches on light/dark backgrounds: their brightness changes while their identities remain. Local Dark Mode colors retains adaptive semantic colors and appearance-specific custom Color Sets rather than inversion.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md#Dark-Mode-colors",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+          "hash": "49f104ff7eae33235be57e03c4525a524a95cb3d02c78c7bddfbc8aa577db9c8"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/11/columns/0/content/0/inlineContent/0"
+      ]
+    },
+    "dark-mode-system-colors-dark.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:22:07.737979+00:00",
+      "reference_metadata_hash": "6510f3972bedcd06c00087a7c24e99211c4e261f804ae6043623ff670767a2f8",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-system-colors-dark@2x.png",
+      "binary_hash": "82a4cd19c23f5329ba126220a0c30cff6d52c2ba530ea8a6860b4d209af6a7d5",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Inspected the four semantic color swatches on light/dark backgrounds: their brightness changes while their identities remain. Local Dark Mode colors retains adaptive semantic colors and appearance-specific custom Color Sets rather than inversion.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md#Dark-Mode-colors",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+          "hash": "49f104ff7eae33235be57e03c4525a524a95cb3d02c78c7bddfbc8aa577db9c8"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/11/columns/1/content/0/inlineContent/0"
+      ]
+    },
+    "dark-mode-icon-in-light-mode.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:22:07.737997+00:00",
+      "reference_metadata_hash": "762b772a437a0309363e151d99d3545c4b1f075c3d9657efb1ab08a7ec9d2537",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-icon-in-light-mode@2x.png",
+      "binary_hash": "22019fb84d789b81cdb9c255953c49db67ac4eb1c9b110443c1115a18db9340e",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Inspected the filled black droplet on white and the outlined light droplet on black. Local Icons and images explicitly retains appearance-specific outlines to preserve edges.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md#Icons-and-images",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+          "hash": "49f104ff7eae33235be57e03c4525a524a95cb3d02c78c7bddfbc8aa577db9c8"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/18/columns/0/content/0/inlineContent/0"
+      ]
+    },
+    "dark-mode-icon-in-dark-mode.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:22:07.738013+00:00",
+      "reference_metadata_hash": "5501a6a08f28414890eae9f2de0a5d2a4688039bb3ec9c29190f6612369474fe",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-icon-in-dark-mode@2x.png",
+      "binary_hash": "ed99db163d0418b0b7a7c0b19466c37aaf80d2c9416e57428ae0ded5c4cf86cf",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Inspected the filled black droplet on white and the outlined light droplet on black. Local Icons and images explicitly retains appearance-specific outlines to preserve edges.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md#Icons-and-images",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+          "hash": "49f104ff7eae33235be57e03c4525a524a95cb3d02c78c7bddfbc8aa577db9c8"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/18/columns/1/content/0/inlineContent/0"
+      ]
+    },
+    "dark-mode-illustration-in-light-mode.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:22:07.738028+00:00",
+      "reference_metadata_hash": "b6fb4c880763517a378ca74ebabf8914a4b4b4141cfa9b24c8b8de6c2430762a",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-illustration-in-light-mode@2x.png",
+      "binary_hash": "753f5b576b2668feb242b964249feed6692c99957479706f0f7b617036cd8dc2",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Inspected restaurant illustration triplet: simple background inversion hides clothing/table detail, while the corrected dark artwork redistributes light areas and retains contours. Local Icons and images requires testing full-color art in both modes and supplying alternate artwork when reuse fails.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md#Icons-and-images",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+          "hash": "49f104ff7eae33235be57e03c4525a524a95cb3d02c78c7bddfbc8aa577db9c8"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/20/columns/0/content/0/inlineContent/0"
+      ]
+    },
+    "dark-mode-illustration-in-dark-mode-incorrect.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:22:07.738043+00:00",
+      "reference_metadata_hash": "3d9f992a2ff5f7bea5bc482df7ec9d6d281b8e2af938f309945e185faf38b3d2",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-illustration-in-dark-mode-incorrect@2x.png",
+      "binary_hash": "08ac64d596fba50d2c17f17c16dbd780730fdb5a85b752122073563df52862e2",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Inspected restaurant illustration triplet: simple background inversion hides clothing/table detail, while the corrected dark artwork redistributes light areas and retains contours. Local Icons and images requires testing full-color art in both modes and supplying alternate artwork when reuse fails.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md#Icons-and-images",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+          "hash": "49f104ff7eae33235be57e03c4525a524a95cb3d02c78c7bddfbc8aa577db9c8"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/20/columns/1/content/0/inlineContent/0"
+      ]
+    },
+    "dark-mode-illustration-in-dark-mode-correct.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:22:07.738058+00:00",
+      "reference_metadata_hash": "52059cbfa5ef3cd5ad7c651452e856013fa7172584f002f86a490f17897d0f08",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-illustration-in-dark-mode-correct@2x.png",
+      "binary_hash": "57108eb2bc9e1e7175994e2d1fdc2de08ebafdc72785350dcb555edf79f64be4",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Inspected restaurant illustration triplet: simple background inversion hides clothing/table detail, while the corrected dark artwork redistributes light areas and retains contours. Local Icons and images requires testing full-color art in both modes and supplying alternate artwork when reuse fails.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md#Icons-and-images",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+          "hash": "49f104ff7eae33235be57e03c4525a524a95cb3d02c78c7bddfbc8aa577db9c8"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/20/columns/2/content/0/inlineContent/0"
+      ]
+    },
+    "dark-mode-label-in-light-mode.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:22:07.738073+00:00",
+      "reference_metadata_hash": "b9dd00b2b6eb01226f195b11444c775c6da105ab217ff06c853e36c2728dd77b",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-label-in-light-mode@2x.png",
+      "binary_hash": "5661c7ead5775d100cf3648b70b4dbb9f52342c6a68ff0f00e893abc1c88b858",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Inspected black-on-white versus light-on-black label pair. Local Text retains semantic primary-through-quaternary labels and system text views for background-adaptive text.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md#Text",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+          "hash": "49f104ff7eae33235be57e03c4525a524a95cb3d02c78c7bddfbc8aa577db9c8"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/24/columns/0/content/0/inlineContent/0"
+      ]
+    },
+    "dark-mode-label-in-dark-mode.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:22:07.738088+00:00",
+      "reference_metadata_hash": "fa94231eb08e5fcfa20bd5f2bd0e3f909c1682a4c2e1f9d0537f153a6a281570",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-label-in-dark-mode@2x.png",
+      "binary_hash": "f3a8b059eeb07791ea35363910f7fe22c2117eb26d0acdac0d77a468e846e487",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Inspected black-on-white versus light-on-black label pair. Local Text retains semantic primary-through-quaternary labels and system text views for background-adaptive text.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md#Text",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+          "hash": "49f104ff7eae33235be57e03c4525a524a95cb3d02c78c7bddfbc8aa577db9c8"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/24/columns/1/content/0/inlineContent/0"
+      ]
+    },
+    "base-with-four-semantic-colors.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:22:07.738102+00:00",
+      "reference_metadata_hash": "5ef3aa3bf8c7fed628325f3c93d5b8dfbca725a3b45bce9ff335da60f92a6196",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/base-with-four-semantic-colors@2x.png",
+      "binary_hash": "c608048f11d55d08312f1c3acb82e6eb5b36d67f404d80bfdf27830a1bf612c5",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Inspected four ranked label colors on black base, brighter charcoal elevated, and white light backgrounds. Local Text and iOS/iPadOS retain semantic hierarchy plus automatic base/elevated background adaptation.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md#iOS-iPadOS",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+          "hash": "49f104ff7eae33235be57e03c4525a524a95cb3d02c78c7bddfbc8aa577db9c8"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/30/columns/0/content/0/inlineContent/0"
+      ]
+    },
+    "elevated-with-four-semantic-colors.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:22:07.738116+00:00",
+      "reference_metadata_hash": "c6ea317cda3c95d0c7e29a9eacdeaf9f49d676dd373ed3321187b3fc037ab516",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/elevated-with-four-semantic-colors@2x.png",
+      "binary_hash": "fa88bd0847114e8fba94a412f8febe53cfbc109f53f82e93ee14289a62c35eda",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Inspected four ranked label colors on black base, brighter charcoal elevated, and white light backgrounds. Local Text and iOS/iPadOS retain semantic hierarchy plus automatic base/elevated background adaptation.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md#iOS-iPadOS",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+          "hash": "49f104ff7eae33235be57e03c4525a524a95cb3d02c78c7bddfbc8aa577db9c8"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/30/columns/1/content/0/inlineContent/0"
+      ]
+    },
+    "light-with-four-semantic-colors.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:22:07.738131+00:00",
+      "reference_metadata_hash": "61086b0349406c1526edddc22bb54bc75ab4505ff144c9aad9d655e6a55f9b4a",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/light-with-four-semantic-colors@2x.png",
+      "binary_hash": "c225874e0a6fb45ace21b07b422451b322d8ad4fc7aa0005eec094cffe048c25",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Inspected four ranked label colors on black base, brighter charcoal elevated, and white light backgrounds. Local Text and iOS/iPadOS retain semantic hierarchy plus automatic base/elevated background adaptation.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md#iOS-iPadOS",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+          "hash": "49f104ff7eae33235be57e03c4525a524a95cb3d02c78c7bddfbc8aa577db9c8"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/30/columns/2/content/0/inlineContent/0"
+      ]
+    },
+    "dark-mode-stocks-app-dark-only-mode.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:22:07.738145+00:00",
+      "reference_metadata_hash": "663e11b3dfef51e53d3f0e4e9ad5add40b744141268c15acc7b00a29399624bf",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-stocks-app-dark-only-mode@2x.png",
+      "binary_hash": "f033eb1de1b3a64e866d5d5e2f77a680339583dcc21880934e712a10c62052bb",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual Stocks image uses a permanent dark chart presentation. Local Best practices treats permanent darkness as an uncommon content-led exception rather than a reason to ignore system preferences generally.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md#Best-practices",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+          "hash": "49f104ff7eae33235be57e03c4525a524a95cb3d02c78c7bddfbc8aa577db9c8"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/7/inlineContent/0"
+      ]
+    }
+  }
+}

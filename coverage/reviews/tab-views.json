@@ -1,0 +1,428 @@
+{
+  "review": {
+    "slug": "tab-views",
+    "status": "reviewed",
+    "source_hash": "d4afe1e2ea1b20fef4638e454595d9b692afcd20e38ee306f5062517ec61fc86",
+    "destination_hash": "1ab7e1bbf8568adf5716b798ebfc298d8ff957ebad8684f3737ce8f616153045",
+    "reviewer": "independent-coverage-auditor",
+    "reviewed_at": "2026-10-25T12:57:12.656562+00:00",
+    "evidence": "Independent complete source-to-local semantic comparison and actual embedded-media inspection; author mappings do not establish approval.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "tab-views",
+        "status": "reviewed",
+        "evidence": "Checked mutually exclusive related panes and distinction from top-level tab bars."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked related/self-contained scope, predictive title-case labels, visible one-activation choices vs two-step pop-up, and source six-tab threshold wording preserved."
+      },
+      {
+        "source_anchor": "Anatomy",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Anatomy",
+        "status": "reviewed",
+        "evidence": "Checked top control, hidden programmatic switching, bezel/border/transparency choices and usual external inset."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked conventional pane-tab support restrictions."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Checked segmented alternative."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Checked page controls and enlarged active dot conveying scrollable content."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "cb22d86f6c02420c3016e07a0a279437dc51455c0bb29b054b92239fe71ae378",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "tab-views",
+        "evidence": "Checked mutually exclusive related panes and distinction from top-level tab bars."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "44c0eef46ec08f0eb64359d60bb4072d04f9638ba7ecac130b07e6db25260aa6",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "tab-views",
+        "evidence": "Checked mutually exclusive related panes and distinction from top-level tab bars."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "dde0ff5af1c5a6d517ecaeea3ea9aafe1597dacd3b24329cbb69e2c54ba2417c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked related/self-contained scope, predictive title-case labels, visible one-activation choices vs two-step pop-up, and source six-tab threshold wording preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "f27b61aa869904877260e2a1b4dbd57a513f90c35d3bf53df28d1b4072221485",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked related/self-contained scope, predictive title-case labels, visible one-activation choices vs two-step pop-up, and source six-tab threshold wording preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "077ec3f4c293f5a0de1c14424252196ef9108de9134ce0c0606fa9e49eb50cd8",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked related/self-contained scope, predictive title-case labels, visible one-activation choices vs two-step pop-up, and source six-tab threshold wording preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "7eddbc3246b958ca254ff3df3d9e1db457cb2cc620963c14b579bcf56dd59b4d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked related/self-contained scope, predictive title-case labels, visible one-activation choices vs two-step pop-up, and source six-tab threshold wording preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "aceca405720e5bbe1578b16562b1df3e5dc5632729431476ec11cb70df08664b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked related/self-contained scope, predictive title-case labels, visible one-activation choices vs two-step pop-up, and source six-tab threshold wording preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "72b3244360284a984e083d1cc8d659461a59fb0a7d79970e72ceb8ecc3e55da8",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked related/self-contained scope, predictive title-case labels, visible one-activation choices vs two-step pop-up, and source six-tab threshold wording preserved."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "c527f834034468ad4f2687a21546589bc65253d77fd856ce0d61e49f960dd1be",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked top control, hidden programmatic switching, bezel/border/transparency choices and usual external inset."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/columns/0/content/0",
+        "source_unit_hash": "71986a470257d18ccc7f6f797051c2824156d940d3bf90c617ce91433f303b84",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked top control, hidden programmatic switching, bezel/border/transparency choices and usual external inset."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "e6da109fcfbe97611dda09c126301b5ab69f0c761bdc1b5be20a0d92bf5fd2fd",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked top control, hidden programmatic switching, bezel/border/transparency choices and usual external inset."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "8efe100066602bffaf0a2fcff23f1e15ad61ffbfec52311df360b60db058429f",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked top control, hidden programmatic switching, bezel/border/transparency choices and usual external inset."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "8d52e0c813f0c020f7f5041cf84f97a3fb6c2628280e216a7e24ea1b86894967",
+        "source_anchor": "Anatomy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Anatomy",
+        "evidence": "Checked top control, hidden programmatic switching, bezel/border/transparency choices and usual external inset."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "61d2da494f52b24c2881e5b33374038840b611c4d72e6cde2bdaa340eb82c8be",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked conventional pane-tab support restrictions."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "435de580c4faf6bcb483ff65af3e02b4d9df0bd5a223151a41443b6b442e365f",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked segmented alternative."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "93b94e6b4435128efc907f83d0f19074b4b87f00f490d4e751024441e62b1571",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked page controls and enlarged active dot conveying scrollable content."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "ae5bb6fc4987703c342bd3d395571dd3614e783636790f37cacd60a025df0c81",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked page controls and enlarged active dot conveying scrollable content."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/inlineContent/0",
+        "source_unit_hash": "6353f3302f41f82ac0c0da16e9c25807b7f1e798a0571156be4e08be7b449927",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked page controls and enlarged active dot conveying scrollable content."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "bea2941e11070454c5b6ce731b52babbbdc23112f694ae37f2b834c59c4c8d0a",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "00224e7c4e44567eaae877fb88378637c41d375f6702e89b9f4e12a48fd4589f",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "a005d76ad8ce98caea14beb21342aa3f58f8e3e7fe91136fc9d72c2123515777",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "e20c0951671d76ee925a819fb2b50896194c2f78f7d65c197a2054bd348f6358",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "fe3e278331597ac159d11ea31fb8f96258b8d77a4f73f3d9e9ea83f672e76696",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/1/0/0",
+        "source_unit_hash": "937d2d87f6be46489d91c6c598d77898e230787b56f889b2c1e16309f42a1ad2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/rows/1/1/0",
+        "source_unit_hash": "bb93bf504d30293e40ffa48c26bea9bbf7097e7a8f7b9a22697729158d5c0a60",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "fe3e278331597ac159d11ea31fb8f96258b8d77a4f73f3d9e9ea83f672e76696",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      }
+    ],
+    "supporting_files": [],
+    "issues": []
+  },
+  "media": {
+    "components-tab-view-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Topic illustration or correctness marker adds no separate unexpressed requirement.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "decorative or redundant topic/assessment marker",
+      "binary_hash": "e153891cbfe2fa5ddffeadccfb12addf3125d5ab9d947930a295ad20a905426b",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-tab-view-intro@2x.png",
+      "reference_metadata_hash": "b9d08110567a9be1f9ec0218b36ee5a18fed0a7792f08b6506ccb5ba90b5b45b",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+      "destination_hash": "1ab7e1bbf8568adf5716b798ebfc298d8ff957ebad8684f3737ce8f616153045",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+          "hash": "1ab7e1bbf8568adf5716b798ebfc298d8ff957ebad8684f3737ce8f616153045"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-tab-view-intro~dark@2x.png",
+          "binary_hash": "988de349624b50834a63e0d95746856a41ea0b15010302cd511213b44f61e48e",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "tab-views-top.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Checked top control, hidden programmatic switching, bezel/border/transparency choices and usual external inset.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "5c1d27a7aa7cb362b2edc7161a32c837f898bf546395a9785504b19165c36911",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/tab-views-top@2x.png",
+      "reference_metadata_hash": "6a199bca622f883d723848f4cc87703a6812c04384a87dbf37416c7542e8e430",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+      "destination_hash": "1ab7e1bbf8568adf5716b798ebfc298d8ff957ebad8684f3737ce8f616153045",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+          "hash": "1ab7e1bbf8568adf5716b798ebfc298d8ff957ebad8684f3737ce8f616153045"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/10/columns/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/tab-views-top~dark@2x.png",
+          "binary_hash": "801ccd86d6aa84c19daf882c6afcedc5f0029b80c948ad260ba7e7a6f7aa727d",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "tab-view-watch-vertical": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Checked page controls and enlarged active dot conveying scrollable content.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "194c218e02db3ecc8542c51485e3a7f13d0add2ba1d6a7acff356ce72ae72e77",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/tab-view-watch-vertical@2x.png",
+      "reference_metadata_hash": "43f6e2e375cb090863cdbf99fb694367d344c8f56adb506d5ae2378b6bd093cd",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+      "destination_hash": "1ab7e1bbf8568adf5716b798ebfc298d8ff957ebad8684f3737ce8f616153045",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+          "hash": "1ab7e1bbf8568adf5716b798ebfc298d8ff957ebad8684f3737ce8f616153045"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/19/inlineContent/0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "review": {
+    "slug": "going-full-screen",
+    "status": "reviewed",
+    "source_hash": "6624b73c3b544d54f56731f8ad7eb2097879b89dd64281456104f85b15baf219",
+    "destination_hash": "ebc194a407363f425457c9a4c4f26d1eb915290422275b22db5a3bd8808e5ad3",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:23:22.268027+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "going-full-screen",
+        "status": "reviewed",
+        "evidence": "Rechecked visionOS Digital Crown hiding passthrough versus larger windows; tvOS/watch already full-display and iPhone/iPad/Mac fullscreen scope remain."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Retains justified fullscreen, subtle layout adaptation without programmatic resize, essential controls, Dock access except games, pause/resume after switching, person-controlled exit and familiar reveal gestures for hidden chrome."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "tvOS/visionOS/watchOS lack the distinct fullscreen mode as in source."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Home-indicator fade/reappearance and usual one-swipe exit retained; optional two-swipe deferral only against accidental exits."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Standard fullscreen handles camera housings; no display-mode changes/performance claim; standard controls/View/Control-Command-F and optional game toggle instead of mode menu remain."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "dc9e6302083de7076e4e626fcb11864f608be4fe9127bec7f6b583a2907a91aa",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "going-full-screen",
+        "evidence": "Rechecked visionOS Digital Crown hiding passthrough versus larger windows; tvOS/watch already full-display and iPhone/iPad/Mac fullscreen scope remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "6edec346bd3f6758f1acc7848f743bec0087755c9016e4e713de10155c847080",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "going-full-screen",
+        "evidence": "Rechecked visionOS Digital Crown hiding passthrough versus larger windows; tvOS/watch already full-display and iPhone/iPad/Mac fullscreen scope remain. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "4bd64f7534df9e8aaa806e10fa383ac3890027541fb2a1d480f093e696c4d70f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "going-full-screen",
+        "evidence": "Rechecked visionOS Digital Crown hiding passthrough versus larger windows; tvOS/watch already full-display and iPhone/iPad/Mac fullscreen scope remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "d2eef7790a2d0a723fb6ae16c1be6f5e158d36333b63a4944a5b1f0409ef22d1",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains justified fullscreen, subtle layout adaptation without programmatic resize, essential controls, Dock access except games, pause/resume after switching, person-controlled exit and familiar reveal gestures for hidden chrome."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "dc6cb23aa449da22c3f511aba915f89328a3b1d2c3701bd7798af0afe81ce7a7",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains justified fullscreen, subtle layout adaptation without programmatic resize, essential controls, Dock access except games, pause/resume after switching, person-controlled exit and familiar reveal gestures for hidden chrome."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "1707efcf6c470c020f11199dc7ad5eea15450807c52e73c0f01e097a6581b11f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains justified fullscreen, subtle layout adaptation without programmatic resize, essential controls, Dock access except games, pause/resume after switching, person-controlled exit and familiar reveal gestures for hidden chrome."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "a8a777c5f7cd787150ab7a3b41a7fdf8b5c2a0948f0bb6cfebd06edaf42dfae2",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains justified fullscreen, subtle layout adaptation without programmatic resize, essential controls, Dock access except games, pause/resume after switching, person-controlled exit and familiar reveal gestures for hidden chrome."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "c900c9da8438ce07c7bc407a300e8d599a19ced7df0d6385b4b7f471aa4b222d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains justified fullscreen, subtle layout adaptation without programmatic resize, essential controls, Dock access except games, pause/resume after switching, person-controlled exit and familiar reveal gestures for hidden chrome."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "80b4b874172a88afe1efb9d8e22be2c4728f24f6a18adf60a1662bad576bc5cd",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains justified fullscreen, subtle layout adaptation without programmatic resize, essential controls, Dock access except games, pause/resume after switching, person-controlled exit and familiar reveal gestures for hidden chrome."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "733396678aacf518469c23fb270daca15624c2131c589eddd7c0999576ae360c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Retains justified fullscreen, subtle layout adaptation without programmatic resize, essential controls, Dock access except games, pause/resume after switching, person-controlled exit and familiar reveal gestures for hidden chrome."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "d06e82415cb4542a70f860b25ed8ee21d21a9c8b9881d5fc12626da3a3e097d8",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "tvOS/visionOS/watchOS lack the distinct fullscreen mode as in source."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "990ca7e02d3b8c945e233658f380639d4a22d18bd0ad7b977d73f321dd0c7ad7",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Home-indicator fade/reappearance and usual one-swipe exit retained; optional two-swipe deferral only against accidental exits."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "cd178dde13fed8f2f6de9a1696e38371e3b7955dbd6b00a00130fb5ce7469f1b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "macOS",
+        "evidence": "Standard fullscreen handles camera housings; no display-mode changes/performance claim; standard controls/View/Control-Command-F and optional game toggle instead of mode menu remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "0ca1b48ccb825d696fcee8b3d8a8e4929155785f3467ea59fc6c4f741e97f50f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "macOS",
+        "evidence": "Standard fullscreen handles camera housings; no display-mode changes/performance claim; standard controls/View/Control-Command-F and optional game toggle instead of mode menu remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "e1b7015204bb31c71e90c5fb8637d6ee8cc6d64e26654f2bf9cedb309cb6013d",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "macOS",
+        "evidence": "Standard fullscreen handles camera housings; no display-mode changes/performance claim; standard controls/View/Control-Command-F and optional game toggle instead of mode menu remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "b42ee727c2c2015e7697de152df4454fd0ae95acd179a7df3c1ff4006d7ba827",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "macOS",
+        "evidence": "Standard fullscreen handles camera housings; no display-mode changes/performance claim; standard controls/View/Control-Command-F and optional game toggle instead of mode menu remain."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "fc630747c38955b09778a9451282e8fe933fd90da0b116681aef33524228777b",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "41394b38c14fb517a86b72d36d32c97815b53ff23784b2c98309251e4508004c",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "7c91307d14b7b19bad550d8d08737786bf38f37e9492eae6ec62a6eb30006247",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "c9896ed1d368f2497dfd3424914ecb45017fc0ca8532bad477d29fdd6aa49a3c",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "e5f19b461f6db7a78b1445b8b752a878629c7a632b0d377dd30984ab5967ee7d",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "fd533d3653890a247da4396854c3418cbdc36ebca981778e3a1204bdb67e021a",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "a9d8181289660a624b6ff623a0ffda416787ed33e9f4ab116a34d4684c1ecc09",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "74e6ce213f58d456b328d64ddbc2f5356447bea616ed9d72d26113ae3250f1e4",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "a1f02d0ddb83ad330a507063092bf1a7812e3d40c535484d50db623c32230c7c",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/rows/1/0/0",
+        "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/rows/1/1/0",
+        "source_unit_hash": "7f134470a6205182e64dd14c68ebd9fef7042bda631316322a6cc9e52818cfef",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/rows/2/0/0",
+        "source_unit_hash": "6fbfd8192538c86013ae1170ead307313ca6290dbe20e9b9a262d8ed4dbef179",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/rows/2/1/0",
+        "source_unit_hash": "40c4b0e953ac8ec283514fff367d4cbd9024fbcd3d6458ab49a5fbda2c634fc9",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "a1f02d0ddb83ad330a507063092bf1a7812e3d40c535484d50db623c32230c7c",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

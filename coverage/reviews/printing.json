@@ -1,0 +1,206 @@
+{
+  "review": {
+    "slug": "printing",
+    "status": "reviewed",
+    "source_hash": "b873ec6ca345b0d4b742fc4afdcf5ecb66a9ce4a46458cdf5ca02c04e2d4ca81",
+    "destination_hash": "b736169720d6c9e52043ce44d4b64f12ab83af13a9fba6fa4b8a0e3675a84075",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:21:18.815807+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "printing",
+        "status": "reviewed",
+        "evidence": "System-printing scope explicitly retains iOS/iPadOS/macOS/visionOS and only justified custom options."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked File menu/optional customized Mac toolbar and mobile action sheet discovery, dim versus remove unavailable commands, custom-control hide/dim, and only supported page/copy/duplex options."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified no additional mobile/vision rules and tvOS/watchOS unsupported."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "All six recommendations remain: uniquely named custom category, rare document Page Setup without duplicate system options, interdependencies, Advanced Options disclosure, preview effects, and stored document settings at least until closure."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "d6c6e6d9cf5296eb13551cc47f3d39b0cc1dc4c34c593ed9b76bf08aee6ac255",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "printing",
+        "evidence": "System-printing scope explicitly retains iOS/iPadOS/macOS/visionOS and only justified custom options."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "900082f336d730933eb2a76ee962edcba176d1a8e8c82d73a40938298814250e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "printing",
+        "evidence": "System-printing scope explicitly retains iOS/iPadOS/macOS/visionOS and only justified custom options. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "e8fc640cc0a148065bd4c4e1d3d19b2c269975d7ad544ed28614a62103f0e72c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked File menu/optional customized Mac toolbar and mobile action sheet discovery, dim versus remove unavailable commands, custom-control hide/dim, and only supported page/copy/duplex options."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "508f61bfafae182c4ba34f175a28e9b343d92d2a3a9d9cd3d42c1d07721836bd",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked File menu/optional customized Mac toolbar and mobile action sheet discovery, dim versus remove unavailable commands, custom-control hide/dim, and only supported page/copy/duplex options."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "ef80324a28f9936e3be0f73f43252ec99e4f1cfb8fd6a117860280b6a09e2104",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked File menu/optional customized Mac toolbar and mobile action sheet discovery, dim versus remove unavailable commands, custom-control hide/dim, and only supported page/copy/duplex options."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "639106185dc02a1710cce849da6c0e275917366f7eeb991060e19cfdeaf46fe9",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified no additional mobile/vision rules and tvOS/watchOS unsupported."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "9d37690e58bb1fcb2a9a08c880b366f1bcf4fadcc5dd303814a12a9ac6a5e568",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "macOS",
+        "evidence": "All six recommendations remain: uniquely named custom category, rare document Page Setup without duplicate system options, interdependencies, Advanced Options disclosure, preview effects, and stored document settings at least until closure."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "0aa30da1e8a6fcd48552d027f4e49fe5181d62c1443458b742b032e9ac9d5f01",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "macOS",
+        "evidence": "All six recommendations remain: uniquely named custom category, rare document Page Setup without duplicate system options, interdependencies, Advanced Options disclosure, preview effects, and stored document settings at least until closure."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "816cd3f8779cfd09c46d79c7f29859a969d5d2f8993ab42964401eaffb15ada6",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "macOS",
+        "evidence": "All six recommendations remain: uniquely named custom category, rare document Page Setup without duplicate system options, interdependencies, Advanced Options disclosure, preview effects, and stored document settings at least until closure."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "761961df00b745c784cd3f574e6a3b4a89e8a936d8fc2b3bac17be7246c0028b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "macOS",
+        "evidence": "All six recommendations remain: uniquely named custom category, rare document Page Setup without duplicate system options, interdependencies, Advanced Options disclosure, preview effects, and stored document settings at least until closure."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "43daf2e5de62c208e0ffff89c3263b15ec5af2298186071435e4dd58e5c60302",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "macOS",
+        "evidence": "All six recommendations remain: uniquely named custom category, rare document Page Setup without duplicate system options, interdependencies, Advanced Options disclosure, preview effects, and stored document settings at least until closure."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "11182fc7236e426e1f4cb7c315614a6cdf6f6976af7645b8684edf1b1081f8c3",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "macOS",
+        "evidence": "All six recommendations remain: uniquely named custom category, rare document Page Setup without duplicate system options, interdependencies, Advanced Options disclosure, preview effects, and stored document settings at least until closure."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "6ace2e845c4a734ad20c07552a967b65193c8e0733dd71dd0c7a87bb4d4dc23a",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "7f57d3665ae245a1fa78e21477f4aafcf113d5e8d5f2549c4c71c65945019cd7",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "ef058bacddf838b0d940d86bd6e654b218a47374d9cab7d91545e3cf50398796",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "56b6b26b40caf0e548a8191d2264332b13d3c39ad093ce438785253bf8dcc816",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [],
+    "issues": []
+  },
+  "media": {}
+}

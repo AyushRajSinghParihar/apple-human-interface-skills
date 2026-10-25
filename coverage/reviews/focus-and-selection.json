@@ -1,0 +1,766 @@
+{
+  "review": {
+    "slug": "focus-and-selection",
+    "status": "reviewed",
+    "source_hash": "e14bbde7c1a82925e3f96520f2438b151802228cc4470862c14f6f9d9a2b9fbf",
+    "destination_hash": "047a59cbaede962d61a854258581b40279a4a9409eeb26b9fa2492761e4a4705",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:09:19+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "focus-and-selection",
+        "status": "reviewed",
+        "evidence": "Checked focus versus activation, platform ring/highlight/parallax distinction and separate tvOS selection."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked system effects, disappearance exception for discrete navigation, hide-versus-relocate choice, Full Keyboard Access reachability, rings versus row highlights and selected context."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Unsupported iOS/watchOS source scope retained."
+      },
+      {
+        "source_anchor": "iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "status": "reviewed",
+        "evidence": "Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked connected-input focus and separate gaze-hover note."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "46e1248d6af6c7d9b78e3d5b245b158e33cedfc95f11d39ce1d97d4a6241777d",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "focus-and-selection",
+        "evidence": "Checked focus versus activation, platform ring/highlight/parallax distinction and separate tvOS selection."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "279bfe1f72f0ea401649237331681097b2b195fe5935f1743c1c9bcf745cc85e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "focus-and-selection",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked focus versus activation, platform ring/highlight/parallax distinction and separate tvOS selection."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "610af7f6033fc7b10538da30178bba0b70c0a8fcf1825fbb0166057de179a743",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "focus-and-selection",
+        "evidence": "Checked focus versus activation, platform ring/highlight/parallax distinction and separate tvOS selection."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "e5ce8ac2096cb8a9bb8a5578d24b3b6653c2bd77858e96741f199d9011bf2cec",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "focus-and-selection",
+        "evidence": "Checked focus versus activation, platform ring/highlight/parallax distinction and separate tvOS selection."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "363b7d44928bb12e8690818168f7a67b6d02cfe164fbe4df00ee5610fd5441d9",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "focus-and-selection",
+        "evidence": "Checked focus versus activation, platform ring/highlight/parallax distinction and separate tvOS selection."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "3be2bf5bf163028dd16c22642ac83f42e9bb8e10927287a0762a1cb413520147",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system effects, disappearance exception for discrete navigation, hide-versus-relocate choice, Full Keyboard Access reachability, rings versus row highlights and selected context."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "6f87ea968f1ccbe74b56deaa5010738eaaf77d4778c07691ae10618c039ebab9",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system effects, disappearance exception for discrete navigation, hide-versus-relocate choice, Full Keyboard Access reachability, rings versus row highlights and selected context."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "b1938fa9c3d4c414d7c415600a3a5fd8b9282eed1afe4de901f0bb57fe29cb0a",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system effects, disappearance exception for discrete navigation, hide-versus-relocate choice, Full Keyboard Access reachability, rings versus row highlights and selected context."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "78e388186ccbcbdbce83715174291bb7e47b82bfc9b6fb442a570dcc7b3cc269",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system effects, disappearance exception for discrete navigation, hide-versus-relocate choice, Full Keyboard Access reachability, rings versus row highlights and selected context."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "0557b3c6215e791363a8ecdbd1260fcb1018452b2e9f3912c215d0c212cf389f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked system effects, disappearance exception for discrete navigation, hide-versus-relocate choice, Full Keyboard Access reachability, rings versus row highlights and selected context."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "17979c77ddad85f533879a16135d504baf6142cfb2583efda96bb62b11843d16",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Unsupported iOS/watchOS source scope retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "1b772deaa93376f290df839fe819ad253a8b18e197efe9b0024fc5638802a705",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "2187990794092c84eccc4e0ed2386564bc348e93bb0bfe380db071beed328982",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "f294c621d164fb425023619126a68e492a2f5090e2616a7ecf11f197df812963",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/items/0/content/0",
+        "source_unit_hash": "a9d07532238c856b909a16e83c6fbe954fdcb809def7aeb2da527c0336ac0867",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/items/1/content/0",
+        "source_unit_hash": "81407016b5f9bc51b6be2a917497a9cecb4194815c5129ba64b544ae93922b30",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "41396ec5502191612cd1e5fc3a05113946996f9577a0b7f29e6a29773901aaff",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "439e42bd3b2516e06d400c6cf03108849193493d598073ae2c678639b823b237",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "07607223151ad1a97fd2610c45b98cf7dd60b25119fc26b98bbe2bbad4a41b4f",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/inlineContent/0",
+        "source_unit_hash": "c0ef63fce222c038f49b7bbeb7b64b680d258345771ff004b9c33c0462500d96",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "bfa4744c0688eda313fb24497cd345c4e14cc1a35ed79ee580369158a61b8685",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "c7a90535c646f6ca96de927809c380076a5c3580b55474c773423469271a5415",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/inlineContent/0",
+        "source_unit_hash": "b30a42fbb6db1c4dbe8a1c690e5b9e0b0e3d469663646efd48d98c3c0d5aed95",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "ed20b000c3747ac27690742eaab65fbf14cc18fdad084c75f22647dc183ab787",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "9a8ea77d06d4928dad7fc4edcd4b808ad7c7f3962da7ffca6a9a3a35bba10ca7",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/22/inlineContent/0",
+        "source_unit_hash": "6395f4d4a4b3bc10f913705b6fbb8483492201f083da38e78552422f3572aa14",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "43536d02fb7bfd129f9d698f756b0ce9586335e9873249ab38cd65a582e9fef5",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "b4d67697dd7212cac198069e1ad68c577f6f257f624d9839581cf7d680b2a4d7",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 groups, Tab versus arrows, reading order/custom stack grouping, primary priority, halo refinement and separate cell highlighting."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "52d3308190db4d3453896c778f4b1879bac9e72e8e352cc546643563e423d00d",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "a5166e2fb3747a34a23b536a575a9d907f999fa85c37a83b7cd0cb5144b365bd",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "c868208b1b1d5da766082e369edee3f99e37732134f8b073c4f05786eb72790f",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "2874cab1109cd81e0fe7feedb0007ea97fc81a4adbb788054be4c38f3a6a9a14",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/0/0/0",
+        "source_unit_hash": "0c8ac34a3cf223a7c455a89131c901474490132fa6d9f4cd59e5beb9b18674d8",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/0/1/0",
+        "source_unit_hash": "d27cfe2be6d725f2cf2f5d293f665f7d4f0ae353a9ab5ae8e5f5559e01bdc216",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/1/0/0",
+        "source_unit_hash": "1a1113aa9d016073b4d9714a039913eae28fb85b0e417976ca9917bc8fc66d77",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/1/0/0/inlineContent/0",
+        "source_unit_hash": "66f7e56de5eaa8d4f000f070b3699731e2a12906031af36b2fafe048f8da40e7",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/1/1/0",
+        "source_unit_hash": "7a8e2b26aa8b6cc316f3d413299e39f05dc333e80115eaacb36480be6dd83459",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/2/0/0",
+        "source_unit_hash": "522d5da3664551be8e200f63dc07b6d302a183e55a25d8257a4d374489cb4b1c",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/2/0/0/inlineContent/0",
+        "source_unit_hash": "ed7956d016a9d77f0c8e12774222b9262be29e40d125b46daef0b1b6dd43a33b",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/2/1/0",
+        "source_unit_hash": "f3036782210ed9840323f7052b1b2a369fcdf185d9487981b2441ddcf422ac5e",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/3/0/0",
+        "source_unit_hash": "a9562908caa119d50e0cad59965b9bf4de660c2bedf6f82c9bf26e9c044808ef",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/3/0/0/inlineContent/0",
+        "source_unit_hash": "15974943bd6a114e47ae81ce21ae67373f26ce362f53d8c0eb16fe2aae1d488b",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/3/1/0",
+        "source_unit_hash": "42089468c2219a18e1d1a6730c218cae8e82b537245a6527adba5d6ea8b227e2",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/4/0/0",
+        "source_unit_hash": "c28a6f13cd74285fb20294eadeffec58c4ce9a9d5bbd3c3a33d428aa46d4abf7",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/4/0/0/inlineContent/0",
+        "source_unit_hash": "a0b43f20042ad1244cb0c7a902f4aa27328911497a09a231080b504f983432df",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/4/1/0",
+        "source_unit_hash": "c7631e9037ccbfb0d6b347ad927107dfa6e879664e6e3b3aba86030df3335c92",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/5/0/0",
+        "source_unit_hash": "817ce79b6ec313ecf93791844310781209a77d4c7cfd90f6410b4a0920adaecf",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/5/0/0/inlineContent/0",
+        "source_unit_hash": "03705894c7bbb73b2e38631531fc8c699d909461730b2005ad1fbe644919e612",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/rows/5/1/0",
+        "source_unit_hash": "2cae49812246f92c49c0d1ee9806cb3cbd9786815ae49d423e56d4ba2fa524e7",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "5aeaa6c24510f92cc7dfab51b86ac52bec023b5e3e54a2b60a47e12a873f0540",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "8cf38e64a1ab07f53dde32febab76589d00e4be026e168711fc3e43d2055ab0f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked connected-input focus and separate gaze-hover note."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "77dd6b74a3808ec956c0fe141af0d3f5f8de92e8dc49ee947e417797f1c15204",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked connected-input focus and separate gaze-hover note."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/content/0",
+        "source_unit_hash": "20b1d476d47df9f449dad9529662e0b82cc22eeb19a1400d738314ff465763f0",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked connected-input focus and separate gaze-hover note."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "dc51939e071a5e852c8c830ea5e17033b145b6413ec32f5287a255df6742f766",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "e8900fbd9563e83f32e6b35d575bc5463de7141bdd224904844889a7b1e5f9fa",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "d5cbffe42a32c57740d44857ad294c28700258920f29175972f2738c4df9c01d",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "9abcdf6f1c802fe7713e4cc9ab3fdac74c04952f0949816933848afc48847ff7",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "96c9f2d2b872f87e15f3c4aa297f896d3bc1c883a9fc7da50b66471f2e5d57f3",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "3ac8eed8d52a495e4c8f81d92e20d3517c7b76306a067cf5290d754b99842815",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/rows/1/0/0",
+        "source_unit_hash": "88e5fea44e511391a9d95f6ff5f6733f5f63076515b25b5b64731375d5cf7f2d",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/rows/1/1/0",
+        "source_unit_hash": "fea7765d1e98005b33ad07b538a4de78bf646e55745c31ac623f3f3d062286d8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/rows/2/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/rows/2/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "2874cab1109cd81e0fe7feedb0007ea97fc81a4adbb788054be4c38f3a6a9a14",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked full-screen content input, no normal pointer, visible specialized pointer, enlarged assets/clearance, and all five states including pressed versus persistent selected."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "3ac8eed8d52a495e4c8f81d92e20d3517c7b76306a067cf5290d754b99842815",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

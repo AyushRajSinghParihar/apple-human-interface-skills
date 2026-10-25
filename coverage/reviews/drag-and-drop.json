@@ -1,0 +1,595 @@
+{
+  "review": {
+    "slug": "drag-and-drop",
+    "status": "reviewed",
+    "source_hash": "4e85a0bd56464932bddd6b4ba09069c57daa4b44e81717a14ff3f4df21cb1c23",
+    "destination_hash": "32a440b5d7d8f77074cc05a8073e29628da21079fbe053f6c0648c7bd035cc74",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:23:22.267087+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "drag-and-drop",
+        "status": "reviewed",
+        "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Rechecked restored Mac multi-app grouped selections. Also checked built-in support, alternate commands/accessibility descriptors, conservative defaults, iPad additions, undo/irreversible confirmation or reversal, high-to-low-fidelity representations, and spring-loaded hover/force-click controls."
+      },
+      {
+        "source_anchor": "Providing-feedback",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Providing-feedback",
+        "status": "reviewed",
+        "evidence": "Retains about 3 pt activation, translucent image through drop, restrained size/flocking changes, only eligible target feedback while hovered, and clear failure return/evaporation."
+      },
+      {
+        "source_anchor": "Accepting-drops",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Accepting-drops",
+        "status": "reviewed",
+        "evidence": "All eight recommendations match: inside-container autoscroll, richest representation/relevant extraction, Option state at drop, slow transfer progress/placeholders, task-start progress, compatible text attributes, selected destination, and source deselection distinctions for move/copy/intercontainer."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "tvOS/watchOS unsupported distinction retained."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Ongoing item gathering, flocking and multiple simultaneous drops remain explicit."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Verified reopenable Finder export/clippings versus Clipboard, inactive-window selections without activation, unselected item preserving background selection, count badges/subset counts, operation pointers and single-motion drag."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Rechecked restored pinch-and-hold movement in any direction/depth, plus user-activity opening of content dropped in empty space."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "336eb5c7bd9629d0b2c849800f848c1cda15844e4dcaee126e7eaf07fdfa4769",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "drag-and-drop",
+        "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "5e66486f03e1b3d9a6db80ff10c464828a6d6bfc76b39161642c4248ed55b90e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "drag-and-drop",
+        "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "ee8ea3cba3aeeebe8660833c94c15a1d7460f730a0c34085b4937b56150173f3",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "drag-and-drop",
+        "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "868e1147738abe83e7cab894342c2d8c6e83f3ae222a38688c51db8e0d70fadf",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "drag-and-drop",
+        "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "7e3eefcb9eef2a24ebcb5a7a24f8fc94fab3c89ca6a42e98959ca7620edadd25",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "drag-and-drop",
+        "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "f533b9cccd3c68b6739d923e5fff62e3b5d24131c851b179c819b2135c79945f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "drag-and-drop",
+        "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/items/0/content/0",
+        "source_unit_hash": "e9c89709e2239b435d92c860fa355c8f39fe17382909ea58463e648cd4d79683",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "drag-and-drop",
+        "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/items/1/content/0",
+        "source_unit_hash": "541749398c81d64ba609b994388e884402f96657cf50676d5bf19d1c7fe8fc1f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "drag-and-drop",
+        "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/items/2/content/0",
+        "source_unit_hash": "1f2d92f8965255309b886c0e87653b7a4f148fd59b562839d5b82314ddbd4533",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "drag-and-drop",
+        "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/items/3/content/0",
+        "source_unit_hash": "36186365a5dd69ba72fd4c313ac4e65acea0ca6c6b1954f3f7690820d410449f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "drag-and-drop",
+        "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "2fe3f37d645d5c989c6ab316e17c688c8b685c6c080a9aa86e394ce84fe6e285",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Rechecked restored Mac multi-app grouped selections. Also checked built-in support, alternate commands/accessibility descriptors, conservative defaults, iPad additions, undo/irreversible confirmation or reversal, high-to-low-fidelity representations, and spring-loaded hover/force-click controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "25838c9ad70fa676dc92ebbf0391ab8b3869a66a381403e7d3d663b94fc10ccf",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Rechecked restored Mac multi-app grouped selections. Also checked built-in support, alternate commands/accessibility descriptors, conservative defaults, iPad additions, undo/irreversible confirmation or reversal, high-to-low-fidelity representations, and spring-loaded hover/force-click controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "7777c733b682b4038201ad8832d97e605208686c69f90817051dd3e2e32643f5",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Rechecked restored Mac multi-app grouped selections. Also checked built-in support, alternate commands/accessibility descriptors, conservative defaults, iPad additions, undo/irreversible confirmation or reversal, high-to-low-fidelity representations, and spring-loaded hover/force-click controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "c0d1ba59ef8227483c518d764a18ae08d8d623529e2eb554cbe1578cd478a97d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Rechecked restored Mac multi-app grouped selections. Also checked built-in support, alternate commands/accessibility descriptors, conservative defaults, iPad additions, undo/irreversible confirmation or reversal, high-to-low-fidelity representations, and spring-loaded hover/force-click controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "c85b269c549b5672940620ca5040d72c631b1ab5033380bc0c5db555080b87d0",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Rechecked restored Mac multi-app grouped selections. Also checked built-in support, alternate commands/accessibility descriptors, conservative defaults, iPad additions, undo/irreversible confirmation or reversal, high-to-low-fidelity representations, and spring-loaded hover/force-click controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "22eacf8aa7657d67e116359d5964b250e4cf783f3728e078389a906e9d581ea5",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Rechecked restored Mac multi-app grouped selections. Also checked built-in support, alternate commands/accessibility descriptors, conservative defaults, iPad additions, undo/irreversible confirmation or reversal, high-to-low-fidelity representations, and spring-loaded hover/force-click controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "69e8d28795f4224768a38544fe2517527a9b32cdb07f421735c63cf23a6e9bd3",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Rechecked restored Mac multi-app grouped selections. Also checked built-in support, alternate commands/accessibility descriptors, conservative defaults, iPad additions, undo/irreversible confirmation or reversal, high-to-low-fidelity representations, and spring-loaded hover/force-click controls."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "a7575348b2d1e6787716b97fc8b8b2e8b4319efbac40bca7f4d1f5c2d3f81dff",
+        "source_anchor": "Providing-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Providing-feedback",
+        "evidence": "Retains about 3 pt activation, translucent image through drop, restrained size/flocking changes, only eligible target feedback while hovered, and clear failure return/evaporation."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "7deeda4326630b576f4dc1ac5333c39cdddfdc9cc9a1a643e22c9bd28efac41a",
+        "source_anchor": "Providing-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Providing-feedback",
+        "evidence": "Retains about 3 pt activation, translucent image through drop, restrained size/flocking changes, only eligible target feedback while hovered, and clear failure return/evaporation."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "faa13a86b332de648cd1a33974f96b7aa0ba479fcfd56c310e8ea06216b8b10a",
+        "source_anchor": "Providing-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Providing-feedback",
+        "evidence": "Retains about 3 pt activation, translucent image through drop, restrained size/flocking changes, only eligible target feedback while hovered, and clear failure return/evaporation."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "cc3d0b4e895bf44f006577f1d8ca94f60dbc7c6d6d08d411a6b5ced358ba0b10",
+        "source_anchor": "Providing-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Providing-feedback",
+        "evidence": "Retains about 3 pt activation, translucent image through drop, restrained size/flocking changes, only eligible target feedback while hovered, and clear failure return/evaporation."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "224491416add23b089da0037bf7f587e5229ca5bbf54536539db049ba309d71d",
+        "source_anchor": "Providing-feedback",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Providing-feedback",
+        "evidence": "Retains about 3 pt activation, translucent image through drop, restrained size/flocking changes, only eligible target feedback while hovered, and clear failure return/evaporation."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "461099a0e48555c08b08ad74559bee785a2b6e4cf4559c31080146f6b8783549",
+        "source_anchor": "Accepting-drops",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Accepting-drops",
+        "evidence": "All eight recommendations match: inside-container autoscroll, richest representation/relevant extraction, Option state at drop, slow transfer progress/placeholders, task-start progress, compatible text attributes, selected destination, and source deselection distinctions for move/copy/intercontainer."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "14b455baa31b15bb588f39740c40e2755265480ce361241269d88a87e856f45a",
+        "source_anchor": "Accepting-drops",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Accepting-drops",
+        "evidence": "All eight recommendations match: inside-container autoscroll, richest representation/relevant extraction, Option state at drop, slow transfer progress/placeholders, task-start progress, compatible text attributes, selected destination, and source deselection distinctions for move/copy/intercontainer."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "ecf8c3937f3e38746cb7835d8f6a8d56a0f50bc9fac89fa63621d8a0a8368669",
+        "source_anchor": "Accepting-drops",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Accepting-drops",
+        "evidence": "All eight recommendations match: inside-container autoscroll, richest representation/relevant extraction, Option state at drop, slow transfer progress/placeholders, task-start progress, compatible text attributes, selected destination, and source deselection distinctions for move/copy/intercontainer."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "8e8040a67d639e13833357bdf51a093f9d59b46fcb4d31ac6d960c9af9c47c68",
+        "source_anchor": "Accepting-drops",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Accepting-drops",
+        "evidence": "All eight recommendations match: inside-container autoscroll, richest representation/relevant extraction, Option state at drop, slow transfer progress/placeholders, task-start progress, compatible text attributes, selected destination, and source deselection distinctions for move/copy/intercontainer."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "040f07b0fc7fb78eee272fc210742286935aef5c58164ad292f3fd26e5a29576",
+        "source_anchor": "Accepting-drops",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Accepting-drops",
+        "evidence": "All eight recommendations match: inside-container autoscroll, richest representation/relevant extraction, Option state at drop, slow transfer progress/placeholders, task-start progress, compatible text attributes, selected destination, and source deselection distinctions for move/copy/intercontainer."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "a0a0d3aef03be4d0515ceac41bc43e69969ebe5de038fd798bba2c89348eb1c4",
+        "source_anchor": "Accepting-drops",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Accepting-drops",
+        "evidence": "All eight recommendations match: inside-container autoscroll, richest representation/relevant extraction, Option state at drop, slow transfer progress/placeholders, task-start progress, compatible text attributes, selected destination, and source deselection distinctions for move/copy/intercontainer."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "0e5a24ec1721cbd666076692c75508ef683f47460ec675e0d8b686da2bdeec9e",
+        "source_anchor": "Accepting-drops",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Accepting-drops",
+        "evidence": "All eight recommendations match: inside-container autoscroll, richest representation/relevant extraction, Option state at drop, slow transfer progress/placeholders, task-start progress, compatible text attributes, selected destination, and source deselection distinctions for move/copy/intercontainer."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "129c0cbc7d2c921e361efd83f60c66b60baf3dd05657cbc3d07dbc18e14c4b0d",
+        "source_anchor": "Accepting-drops",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Accepting-drops",
+        "evidence": "All eight recommendations match: inside-container autoscroll, richest representation/relevant extraction, Option state at drop, slow transfer progress/placeholders, task-start progress, compatible text attributes, selected destination, and source deselection distinctions for move/copy/intercontainer."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "776c10f668214a4d5fbf658192dfd797db685e65a3931b93d291ad57c811832e",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "tvOS/watchOS unsupported distinction retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "37c9f745560fb8a7204c6864644d027b3d097ca7027ad6cc990cb8cb7d1b43cb",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Ongoing item gathering, flocking and multiple simultaneous drops remain explicit."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "cce6cf4ce8cd8333a23e990f86826296cb4c33df368d65d7436a74e723b3bee4",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified reopenable Finder export/clippings versus Clipboard, inactive-window selections without activation, unselected item preserving background selection, count badges/subset counts, operation pointers and single-motion drag."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "c6c2018e9fd05b5006317f32445d1c57310a9fd1c98a50bea8de0b578a10814e",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified reopenable Finder export/clippings versus Clipboard, inactive-window selections without activation, unselected item preserving background selection, count badges/subset counts, operation pointers and single-motion drag."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "59fc6489279485b11bbe493d976b8d6e2df67dbf55e8472278f09f82c1edbe78",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified reopenable Finder export/clippings versus Clipboard, inactive-window selections without activation, unselected item preserving background selection, count badges/subset counts, operation pointers and single-motion drag."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "56bca5c06b55d03fdb4bd5cdc2d5d1b115a8994af2648fc1914a897bb55b4ed6",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified reopenable Finder export/clippings versus Clipboard, inactive-window selections without activation, unselected item preserving background selection, count badges/subset counts, operation pointers and single-motion drag."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "380906d32fdea74e53db575e3d37153e9ecbd053a51d2c3819833cae8b094a28",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified reopenable Finder export/clippings versus Clipboard, inactive-window selections without activation, unselected item preserving background selection, count badges/subset counts, operation pointers and single-motion drag."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "25e3294e0f7c1488f392d5ae31e9a0d17f29a08c6405a1fb67ff81dde7f44416",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "macOS",
+        "evidence": "Verified reopenable Finder export/clippings versus Clipboard, inactive-window selections without activation, unselected item preserving background selection, count badges/subset counts, operation pointers and single-motion drag."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "ac405385bb7cc04df8ce623875923bdc50faf45ab82cc96a80b386dc3d0fc685",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Rechecked restored pinch-and-hold movement in any direction/depth, plus user-activity opening of content dropped in empty space."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "5a0f8a455c76561bb93ffc774c15d392099454ac292e2fbf20317c632b39aec0",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Rechecked restored pinch-and-hold movement in any direction/depth, plus user-activity opening of content dropped in empty space. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "07d8adca0d5a2b4e6bcb6ac463696229ebda19f11c4d167bda1503c632f81c40",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "1eab9fa4dba0549cfa016023c29cb553f713cd457aa8a28435d9b7451857838c",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "7726b14dcf46bb7d86f7c1088093f3c0fe3b3b7ffc5b7fe4495bae6edc432650",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "15559923a4e52e272d10e04722311636510c8ad3c5474b2d6d476b9c9cb8bf0b",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "8c12d58f774326c39739d4e2948fa417afdbca468d03e650d726bb4035e11d51",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/1/0/0",
+        "source_unit_hash": "88e5fea44e511391a9d95f6ff5f6733f5f63076515b25b5b64731375d5cf7f2d",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/1/1/0",
+        "source_unit_hash": "27797b19c7d968a74900a2af66bb935b05110a62810b62981b5cf125467cc5f9",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/2/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/rows/2/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "8c12d58f774326c39739d4e2948fa417afdbca468d03e650d726bb4035e11d51",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

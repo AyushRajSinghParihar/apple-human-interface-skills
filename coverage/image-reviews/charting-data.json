@@ -1,0 +1,88 @@
+{
+  "source_hash": "f8126a523ae38cf2fded2636f927c0254ff4ad4af6dadb204a02e85a70e1724c",
+  "media": {
+    "patterns-charting-data-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:16:19.851122+00:00",
+      "reference_metadata_hash": "cfa99f4c89c0f3e09ec9710051b9fce131d74e85ddf24c932d62d80bc0c64ebe",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-charting-data-intro@2x.png",
+      "binary_hash": "25808b6e6c6e72ec38fb95e281f39a8cc10055c8b3cf416babc7a1c9fc49a6ed",
+      "review_method": "actual primary/alternate introductory-image gallery inspection and source topic/context identification",
+      "classification": "illustrative topic introduction; redundant with component/topic identity",
+      "evidence": "Actual introductory illustration and its light/dark representation inspected in numbered galleries. The image identifies or demonstrates this topic/component; the depicted sample labels, symbols and layout add no independent normative specification. Substantive design rules remain subject to the separate article/section audit.",
+      "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/charting-data.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-patterns/references/charting-data.md",
+          "hash": "67556ab54a8712cc787e64d8101e0a4a4938d57b11936ce755bdcab37da53cfd"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-charting-data-intro~dark@2x.png",
+          "binary_hash": "fc9f3d4b83ac236cd34f3e1248e41896286d8f177cff4d653caccb578228ef27",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "charts-stocks.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:26:14.698869+00:00",
+      "reference_metadata_hash": "b17f9bdb49682818e88757009b4b11427750c68a3bc9894728d3faad70f3a247",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-stocks@2x.png",
+      "binary_hash": "655eeae6068b6912fb7736190ba5c83542a38cd07c7f3d3c69c1cc3d0afb4dcb",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local prose",
+      "evidence": "Actually viewed the Stocks line graph with selected month, labeled axis, range controls and surrounding price statistics. It exemplifies high-level summaries plus a detailed time series and scope; local guidance retains multilevel analysis, useful text, and size/interaction decisions.",
+      "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/charting-data.md#Designing-effective-charts",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-patterns/references/charting-data.md",
+          "hash": "67556ab54a8712cc787e64d8101e0a4a4938d57b11936ce755bdcab37da53cfd"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/13/columns/0/content/0/inlineContent/0"
+      ]
+    },
+    "charts-activity.png": {
+      "status": "reviewed",
+      "reviewer": "independent-cross-author-image-reviewer",
+      "reviewed_at": "2026-10-25T13:26:14.698915+00:00",
+      "reference_metadata_hash": "a9069de4c29a1e85171e677be2d66d0db0c3d4257285af50c0b3da98ada1f264",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-activity@2x.png",
+      "binary_hash": "0f883a41001a2c6e37a7b06155e1e5925d1a1b0a3a6c75f0d8bbc33761762e72",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive visual example; design lesson retained in local prose",
+      "evidence": "Actually compared light/dark Activity screens: three consistently colored metric bar rows, summaries above and explanatory text below. Local prose retains descriptive summaries, readable scale and same-dataset colors/marks; the sample calorie/minute/hour values are illustrative, not design specifications.",
+      "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/charting-data.md#Designing-effective-charts",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-patterns/references/charting-data.md",
+          "hash": "67556ab54a8712cc787e64d8101e0a4a4938d57b11936ce755bdcab37da53cfd"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/13/columns/1/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/charts-activity~dark@2x.png",
+          "binary_hash": "df120eb155e069b60abd91eb7dde81404a551037b348f1b77a70157461e3f4f3",
+          "status": "reviewed",
+          "reviewer": "independent-cross-author-image-reviewer",
+          "evidence": "Actually compared primary and alternate on the paired contact sheet; contrast/surface appearance changes preserve the same interaction, hierarchy, and lesson.",
+          "review_method": "actual side-by-side primary/alternate contact-sheet visual comparison with source-context and local-explanation assessment"
+        }
+      ]
+    }
+  }
+}

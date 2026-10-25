@@ -1,0 +1,578 @@
+{
+  "review": {
+    "slug": "healthkit",
+    "status": "reviewed",
+    "source_hash": "28547c96921548db039f0a8fcafa1c7f12fb36e4279ad0a27be9096963ffa540",
+    "destination_hash": "c2f8f224ecc3ea5ac0387264783db4b7f88d753958a04ce79d70411133f8b44b",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:23:59+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "healthkit",
+        "status": "reviewed",
+        "evidence": "Verified iOS/iPadOS/watchOS health repository and explicit no-health-function/no-access restriction."
+      },
+      {
+        "source_anchor": "Privacy-protection",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Privacy-protection",
+        "status": "reviewed",
+        "evidence": "Checked App Store privacy URL, contextual requests, changed authorization, standard purpose explanations and system-only sharing management."
+      },
+      {
+        "source_anchor": "Activity-rings",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Activity-rings",
+        "status": "reviewed",
+        "evidence": "Checked single identified user and three-metric-only role, no alternate rings for same metrics, no ornament/branding/notification use, preserved colors/background/opacity, gap-size margins and container-corner versus mask distinction."
+      },
+      {
+        "source_anchor": "Apple-Health-icon",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Apple-Health-icon",
+        "status": "reviewed",
+        "evidence": "Verified official art, nearby name, size parity,1/10 clear space, compatibility-only nonbutton role, all appearance/inline/composite restrictions and Health imagery exclusion with ring-component exception."
+      },
+      {
+        "source_anchor": "Editorial-guidelines",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "evidence": "Checked consumer app naming versus developer term, case exception and system translation."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified supported iOS/iPadOS/watchOS and unsupported macOS/tvOS/visionOS."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "cd0d446bc531978f9938cf011615f1cf28f3f2544ae32b0c2bd92870cfc9c669",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "healthkit",
+        "evidence": "Verified iOS/iPadOS/watchOS health repository and explicit no-health-function/no-access restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "46b9f70327c0503024efc3545d4a006ffc8b0f47b00e4ee3618bf149afc95f03",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "healthkit",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified iOS/iPadOS/watchOS health repository and explicit no-health-function/no-access restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "a6170841818139e463e1954f64891ba5fc5a1e84fe72e9d1a005df2dbd69dc00",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "healthkit",
+        "evidence": "Verified iOS/iPadOS/watchOS health repository and explicit no-health-function/no-access restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "ea3478dba69d6b21e81385260aad2ef3a7c74439f2f2da476a0cf9fdd79a27fc",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "healthkit",
+        "evidence": "Verified iOS/iPadOS/watchOS health repository and explicit no-health-function/no-access restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/content/0",
+        "source_unit_hash": "dfe9b95dccc3c0c43d74f27bd28545c7a3e39b85879bcb09583a51072e88827b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "healthkit",
+        "evidence": "Verified iOS/iPadOS/watchOS health repository and explicit no-health-function/no-access restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "c82ea5740d5a4284791f5e08efdfcc68a03381a7bf9f2d7e76fc4d40bb118344",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "healthkit",
+        "evidence": "Verified iOS/iPadOS/watchOS health repository and explicit no-health-function/no-access restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "573627a0e6dfb90760993bfd2736aef83df6c5c93f0e5191c0841f245370e202",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "healthkit",
+        "evidence": "Verified iOS/iPadOS/watchOS health repository and explicit no-health-function/no-access restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/inlineContent/0",
+        "source_unit_hash": "ce30fd680cf4d9ad54f4cc42a7d817d8436cad363119c024b797cec0ebf3081a",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "healthkit",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified iOS/iPadOS/watchOS health repository and explicit no-health-function/no-access restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "d96a09f2889f975523fac7d3db55f985bbc2a2a17b0668af38d969b1778886a7",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "healthkit",
+        "evidence": "Verified iOS/iPadOS/watchOS health repository and explicit no-health-function/no-access restriction."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "376f56b8d81c3fd00d548aa6451258b25c49cdb48379bf8be03d29a568c6a485",
+        "source_anchor": "Privacy-protection",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Privacy-protection",
+        "evidence": "Checked App Store privacy URL, contextual requests, changed authorization, standard purpose explanations and system-only sharing management."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "e90a8fcb57a312e71779461b0b7bd63c5ed6b74fe285b0f446051e020b77958e",
+        "source_anchor": "Privacy-protection",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Privacy-protection",
+        "evidence": "Checked App Store privacy URL, contextual requests, changed authorization, standard purpose explanations and system-only sharing management."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "bf519fe35839a73435efe024af3e4ef4b6f99be6548d195150019bcc94655328",
+        "source_anchor": "Privacy-protection",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Privacy-protection",
+        "evidence": "Checked App Store privacy URL, contextual requests, changed authorization, standard purpose explanations and system-only sharing management."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "44f10bc008854c5c7edf411eac364ee2598b8f710dc3143b9d0dbc7f26c30fa6",
+        "source_anchor": "Privacy-protection",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Privacy-protection",
+        "evidence": "Checked App Store privacy URL, contextual requests, changed authorization, standard purpose explanations and system-only sharing management."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "3e8a11f2c38aa91a92508bf91e7821cbb041eb38b1739bc0d426adf84dcbf26e",
+        "source_anchor": "Privacy-protection",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Privacy-protection",
+        "evidence": "Checked App Store privacy URL, contextual requests, changed authorization, standard purpose explanations and system-only sharing management."
+      },
+      {
+        "id": "primaryContentSections/0/content/11/inlineContent/0",
+        "source_unit_hash": "42925322042c18701e626fc3ecaab530f18d3d28ab1d4856df4acddda934635e",
+        "source_anchor": "Privacy-protection",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Privacy-protection",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked App Store privacy URL, contextual requests, changed authorization, standard purpose explanations and system-only sharing management."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "07ce538c5be29e040b3dc46dd682579a1709f3b9d4dd990aa1627d8dc95379f7",
+        "source_anchor": "Privacy-protection",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Privacy-protection",
+        "evidence": "Checked App Store privacy URL, contextual requests, changed authorization, standard purpose explanations and system-only sharing management."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "eb7d13a13f87a4e3d1ec332c4512c8224c4fa63cf268d4c54030ca8ca0c7772d",
+        "source_anchor": "Activity-rings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Activity-rings",
+        "evidence": "Checked single identified user and three-metric-only role, no alternate rings for same metrics, no ornament/branding/notification use, preserved colors/background/opacity, gap-size margins and container-corner versus mask distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "4b70cfdd56d381d6a13d20bbac43f731807c66ac0b77dc54a8e870fd7b6f92b8",
+        "source_anchor": "Activity-rings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Activity-rings",
+        "evidence": "Checked single identified user and three-metric-only role, no alternate rings for same metrics, no ornament/branding/notification use, preserved colors/background/opacity, gap-size margins and container-corner versus mask distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/inlineContent/0",
+        "source_unit_hash": "ac3d9cb0848c138453b82fdbeedf5739a1642d2ad2012d15942f2a06d02976ff",
+        "source_anchor": "Activity-rings",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Activity-rings",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked single identified user and three-metric-only role, no alternate rings for same metrics, no ornament/branding/notification use, preserved colors/background/opacity, gap-size margins and container-corner versus mask distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "5ded1903f53d2e8c81af71bcddffba4b7660b4743fd5a6c49dc8264c0b8fb06a",
+        "source_anchor": "Activity-rings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Activity-rings",
+        "evidence": "Checked single identified user and three-metric-only role, no alternate rings for same metrics, no ornament/branding/notification use, preserved colors/background/opacity, gap-size margins and container-corner versus mask distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "e94654e2ece132c424c2a9470a5c92446b2a868b93f5d52a9b20cd72d49d2211",
+        "source_anchor": "Activity-rings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Activity-rings",
+        "evidence": "Checked single identified user and three-metric-only role, no alternate rings for same metrics, no ornament/branding/notification use, preserved colors/background/opacity, gap-size margins and container-corner versus mask distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "6b3b4af238151157b235dbe634bdbe91fed6376b2408730894f20314d2f356ad",
+        "source_anchor": "Activity-rings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Activity-rings",
+        "evidence": "Checked single identified user and three-metric-only role, no alternate rings for same metrics, no ornament/branding/notification use, preserved colors/background/opacity, gap-size margins and container-corner versus mask distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "becb8eeb80e790ae0bb1c682ef7a7c95737893ac7a5bdc6dad06c0221a823b51",
+        "source_anchor": "Activity-rings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Activity-rings",
+        "evidence": "Checked single identified user and three-metric-only role, no alternate rings for same metrics, no ornament/branding/notification use, preserved colors/background/opacity, gap-size margins and container-corner versus mask distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "3329b2ee2b6039a433c35501578d58edbf3ddeb0a1d5ff525ea794d7feb8e887",
+        "source_anchor": "Activity-rings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Activity-rings",
+        "evidence": "Checked single identified user and three-metric-only role, no alternate rings for same metrics, no ornament/branding/notification use, preserved colors/background/opacity, gap-size margins and container-corner versus mask distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "5877d6b06622c0619723974709791aeed07ab49f5201a848a76a209f83126acb",
+        "source_anchor": "Activity-rings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Activity-rings",
+        "evidence": "Checked single identified user and three-metric-only role, no alternate rings for same metrics, no ornament/branding/notification use, preserved colors/background/opacity, gap-size margins and container-corner versus mask distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "9278238bf549c5ef819c7e03b079d138ab6c88a3fffbe9d5ead52981e87cb911",
+        "source_anchor": "Activity-rings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Activity-rings",
+        "evidence": "Checked single identified user and three-metric-only role, no alternate rings for same metrics, no ornament/branding/notification use, preserved colors/background/opacity, gap-size margins and container-corner versus mask distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "46e191e4a0bf288cc8439f75cfd8d8f12e3664d5acb247a28989f0d4ba5447f4",
+        "source_anchor": "Activity-rings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Activity-rings",
+        "evidence": "Checked single identified user and three-metric-only role, no alternate rings for same metrics, no ornament/branding/notification use, preserved colors/background/opacity, gap-size margins and container-corner versus mask distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "71b7db55304cb8b4c11298ba10ce1349c1469db1983903a0614475e1f110d8ad",
+        "source_anchor": "Activity-rings",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Activity-rings",
+        "evidence": "Checked single identified user and three-metric-only role, no alternate rings for same metrics, no ornament/branding/notification use, preserved colors/background/opacity, gap-size margins and container-corner versus mask distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "fc26e7c821ad286418b5033a144023fa6913b91517c041d515cb4f4052b0bfef",
+        "source_anchor": "Apple-Health-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Apple-Health-icon",
+        "evidence": "Verified official art, nearby name, size parity,1/10 clear space, compatibility-only nonbutton role, all appearance/inline/composite restrictions and Health imagery exclusion with ring-component exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "7f1a607c01cd49deb4d1b63ec75f60fb2e217c6d0fd02a73627150697090e9e1",
+        "source_anchor": "Apple-Health-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Apple-Health-icon",
+        "evidence": "Verified official art, nearby name, size parity,1/10 clear space, compatibility-only nonbutton role, all appearance/inline/composite restrictions and Health imagery exclusion with ring-component exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/27/inlineContent/0",
+        "source_unit_hash": "bc432a82c464fa434fe25fd6a64099bcd7af25e60dc8709ef3e461bbb84ca259",
+        "source_anchor": "Apple-Health-icon",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Apple-Health-icon",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified official art, nearby name, size parity,1/10 clear space, compatibility-only nonbutton role, all appearance/inline/composite restrictions and Health imagery exclusion with ring-component exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "181c064e3a69adde1876431b59ef2570e6eb5bacf52cffcc4e21d592a8d22335",
+        "source_anchor": "Apple-Health-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Apple-Health-icon",
+        "evidence": "Verified official art, nearby name, size parity,1/10 clear space, compatibility-only nonbutton role, all appearance/inline/composite restrictions and Health imagery exclusion with ring-component exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "2671271805320a9cd3fabe143e804446c718ca0b846b0985ba23077137b80397",
+        "source_anchor": "Apple-Health-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Apple-Health-icon",
+        "evidence": "Verified official art, nearby name, size parity,1/10 clear space, compatibility-only nonbutton role, all appearance/inline/composite restrictions and Health imagery exclusion with ring-component exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "a54aff1cde292dc71cd1f6b01f3d2f0af5c37bfc30b2764e2615bc63b509b701",
+        "source_anchor": "Apple-Health-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Apple-Health-icon",
+        "evidence": "Verified official art, nearby name, size parity,1/10 clear space, compatibility-only nonbutton role, all appearance/inline/composite restrictions and Health imagery exclusion with ring-component exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "32a8be3064e291fb325b074dcfe8869104a91e2b232155e064e507825f5a268d",
+        "source_anchor": "Apple-Health-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Apple-Health-icon",
+        "evidence": "Verified official art, nearby name, size parity,1/10 clear space, compatibility-only nonbutton role, all appearance/inline/composite restrictions and Health imagery exclusion with ring-component exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "77210785f68d0d4f0c9ef96423dce53bd640c8d52ef39a076aae7487139028ca",
+        "source_anchor": "Apple-Health-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Apple-Health-icon",
+        "evidence": "Verified official art, nearby name, size parity,1/10 clear space, compatibility-only nonbutton role, all appearance/inline/composite restrictions and Health imagery exclusion with ring-component exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "524c1d19212bf7f8b185a48265b82f136a2040bbe90148266915a5c231b41aba",
+        "source_anchor": "Apple-Health-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Apple-Health-icon",
+        "evidence": "Verified official art, nearby name, size parity,1/10 clear space, compatibility-only nonbutton role, all appearance/inline/composite restrictions and Health imagery exclusion with ring-component exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "309a540011f0d0a08cea9d323c532e2211ffc9143c27086d4984e22cff290b44",
+        "source_anchor": "Apple-Health-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Apple-Health-icon",
+        "evidence": "Verified official art, nearby name, size parity,1/10 clear space, compatibility-only nonbutton role, all appearance/inline/composite restrictions and Health imagery exclusion with ring-component exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "889f6cc28034683426942980729a06ed6160e5e74bb81ea0082d3fcfaea971eb",
+        "source_anchor": "Apple-Health-icon",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Apple-Health-icon",
+        "evidence": "Verified official art, nearby name, size parity,1/10 clear space, compatibility-only nonbutton role, all appearance/inline/composite restrictions and Health imagery exclusion with ring-component exception."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "7dd2b87c48d5717a5654509f9aa0f66a59c70bdc6f95150128f4ba602868b28b",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Checked consumer app naming versus developer term, case exception and system translation."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "facbfeceb1efb15203634513cbb9050cf16c19f655cf8a3a225056f3f7f121a1",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Checked consumer app naming versus developer term, case exception and system translation."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "eee4b7f9ab3505b9f8fd7bf05a3c33132859b90bbe8d765fdeb21c34f545054a",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Checked consumer app naming versus developer term, case exception and system translation."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "78dca01d2e84abb93fe62b686dcc59056c53d76538050143ace1601f8c47ca5c",
+        "source_anchor": "Editorial-guidelines",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Editorial-guidelines",
+        "evidence": "Checked consumer app naming versus developer term, case exception and system translation."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "fa8cd17bb85017ecaff4d5b1e02248bd853b1124e34bf094395f125da0415daf",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified supported iOS/iPadOS/watchOS and unsupported macOS/tvOS/visionOS."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "2422c583a5951e1ddcc86ef26c0db7f80a339192436da82c6a20549c2ff0e625",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "3fb8524e071947f083caf98fd4a582795119f3ab6986a78685210488ed62e650",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "782a57ad3bd7f918ee0c578d0d5e382e261e05cfaa6e634c1e2f9615ec327a1d",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "fc72c8cfc8322f4f10a4c678be99c15b729ff7aa476a5c6445ea801be1a9925f",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "9ecca7b2ad7d01f79478772c1cdffe315b67948bf33604f0a19d1bbb9e88109b",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [],
+    "issues": []
+  },
+  "media": {}
+}

@@ -1,0 +1,1775 @@
+{
+  "review": {
+    "slug": "sign-in-with-apple",
+    "status": "reviewed",
+    "source_hash": "c77cc80ff93a8bcd6dc6e3f70eae2d4fde1964d21d7fc1e560c0b8d06d684093",
+    "destination_hash": "9c74b07be9c0e91324a531e23c82ec24ae7c6fbc80187d9b9337e9139bb0a456",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:30:00+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "sign-in-with-apple",
+        "status": "reviewed",
+        "evidence": "Verified Apple Account authentication/registration, biometrics/two-factor,private relay and crossplatform/no-profiling facts."
+      },
+      {
+        "source_anchor": "Offering-Sign-in-with-Apple",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Offering-Sign-in-with-Apple",
+        "status": "reviewed",
+        "evidence": "Checked value-based delayed sign-in,account-before-method order,linking contexts,postpurchase commerce flow/no duplicate fields,immediate welcome and current-method indication."
+      },
+      {
+        "source_anchor": "Collecting-data",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Collecting-data",
+        "status": "reviewed",
+        "evidence": "Rechecked restored source-documented relay retrieval settings route; checked minimized required/optional data,password exclusion,relay respect,other identifiers,optional-data timing/no blocked use and transparent collected data."
+      },
+      {
+        "source_anchor": "Displaying-buttons",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Displaying-buttons",
+        "status": "reviewed",
+        "evidence": "Verified parity/prominence and no-scroll requirement."
+      },
+      {
+        "source_anchor": "Using-the-system-provided-buttons",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "source_anchor": "White",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White",
+        "status": "reviewed",
+        "evidence": "Verified all-platform/web availability and dark contrast."
+      },
+      {
+        "source_anchor": "White-with-outline",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White-with-outline",
+        "status": "reviewed",
+        "evidence": "Verified iOS/macOS/web scope and light-only/non-saturated criteria."
+      },
+      {
+        "source_anchor": "Black",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Black",
+        "status": "reviewed",
+        "evidence": "Verified platform/web light-background contrast and Watch dark-gray distinction."
+      },
+      {
+        "source_anchor": "Button-size-and-corner-radius",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "evidence": "Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "source_anchor": "Custom-logo-only-buttons",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-logo-only-buttons",
+        "status": "reviewed",
+        "evidence": "Verified vector-any-size/PNG44×44pt,1:1,built-in padding,no crop/addition,masking and1/10 margin."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Verified no additional source platform rules."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "49801e6a073457823dfad13bb9b3311cdf64d243cce4da53e1ec69f02be10647",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "sign-in-with-apple",
+        "evidence": "Verified Apple Account authentication/registration, biometrics/two-factor,private relay and crossplatform/no-profiling facts."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "1d578bb6af7404e716f13f0510324767d22b7a0e163ea4cd453e641e6a46cc42",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "sign-in-with-apple",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified Apple Account authentication/registration, biometrics/two-factor,private relay and crossplatform/no-profiling facts."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "106b369c109f5bd121e10c49e11952dfa1af0d3820ab05faf129f006acf245a9",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "sign-in-with-apple",
+        "evidence": "Verified Apple Account authentication/registration, biometrics/two-factor,private relay and crossplatform/no-profiling facts."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "fa61fd7eee1f0a6477e211b908dbd4b4bf814d85fc348b000a8a33f63e38ee27",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "sign-in-with-apple",
+        "evidence": "Verified Apple Account authentication/registration, biometrics/two-factor,private relay and crossplatform/no-profiling facts."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "9a31f4ac14c79b3cef08ba7baa20568b25f367bb1249ff15fbc8be4feb440d25",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "sign-in-with-apple",
+        "evidence": "Verified Apple Account authentication/registration, biometrics/two-factor,private relay and crossplatform/no-profiling facts."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "35c2be32cd2793ccb9a6b4bfa186951e91f9b24e390756e58286b904d867cf12",
+        "source_anchor": "Offering-Sign-in-with-Apple",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Offering-Sign-in-with-Apple",
+        "evidence": "Checked value-based delayed sign-in,account-before-method order,linking contexts,postpurchase commerce flow/no duplicate fields,immediate welcome and current-method indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "a99b3201a6868e4fd2c345dbf67a36017c7946345dfc36b1729a33af827393ad",
+        "source_anchor": "Offering-Sign-in-with-Apple",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Offering-Sign-in-with-Apple",
+        "evidence": "Checked value-based delayed sign-in,account-before-method order,linking contexts,postpurchase commerce flow/no duplicate fields,immediate welcome and current-method indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "5c4f3365d03661b27932d8b55e0a990f9efe3b32dd495bb0976cab19763aee21",
+        "source_anchor": "Offering-Sign-in-with-Apple",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Offering-Sign-in-with-Apple",
+        "evidence": "Checked value-based delayed sign-in,account-before-method order,linking contexts,postpurchase commerce flow/no duplicate fields,immediate welcome and current-method indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "b4a0c7596418a2ec3b8182752f5ebe406c65abc025d0e55f0bba2e0c9009becf",
+        "source_anchor": "Offering-Sign-in-with-Apple",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Offering-Sign-in-with-Apple",
+        "evidence": "Checked value-based delayed sign-in,account-before-method order,linking contexts,postpurchase commerce flow/no duplicate fields,immediate welcome and current-method indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "aa50c7ebf819fb91a899c45c2b57b16b3ff16111a1956b37af65fb8e9b1b37ea",
+        "source_anchor": "Offering-Sign-in-with-Apple",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Offering-Sign-in-with-Apple",
+        "evidence": "Checked value-based delayed sign-in,account-before-method order,linking contexts,postpurchase commerce flow/no duplicate fields,immediate welcome and current-method indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "8bd13f1e30a9785551eea73cbc7b8734243c6f08a2bc695f384a611e680d0c4a",
+        "source_anchor": "Offering-Sign-in-with-Apple",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Offering-Sign-in-with-Apple",
+        "evidence": "Checked value-based delayed sign-in,account-before-method order,linking contexts,postpurchase commerce flow/no duplicate fields,immediate welcome and current-method indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/items/0/content/0",
+        "source_unit_hash": "c0f24a6c9515a19218b9a73635a72943ff4b86618208fcd159da1cf73c9bb79f",
+        "source_anchor": "Offering-Sign-in-with-Apple",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Offering-Sign-in-with-Apple",
+        "evidence": "Checked value-based delayed sign-in,account-before-method order,linking contexts,postpurchase commerce flow/no duplicate fields,immediate welcome and current-method indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/items/1/content/0",
+        "source_unit_hash": "ed7ff6dea1e2c46d06e3963326acfb86ce63c8664eef74ac6d86e5fed1dd43fe",
+        "source_anchor": "Offering-Sign-in-with-Apple",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Offering-Sign-in-with-Apple",
+        "evidence": "Checked value-based delayed sign-in,account-before-method order,linking contexts,postpurchase commerce flow/no duplicate fields,immediate welcome and current-method indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "dbeec0754abde24d82ee950b44def9a27512b1ac5687839e4ccafa2d70456912",
+        "source_anchor": "Offering-Sign-in-with-Apple",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Offering-Sign-in-with-Apple",
+        "evidence": "Checked value-based delayed sign-in,account-before-method order,linking contexts,postpurchase commerce flow/no duplicate fields,immediate welcome and current-method indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "4049ab9dc618c9285958640fcc61253591409d613ddd7404e2ae174ac5361134",
+        "source_anchor": "Offering-Sign-in-with-Apple",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Offering-Sign-in-with-Apple",
+        "evidence": "Checked value-based delayed sign-in,account-before-method order,linking contexts,postpurchase commerce flow/no duplicate fields,immediate welcome and current-method indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/12/inlineContent/0",
+        "source_unit_hash": "b5bf3b8ed664f6cf0bf94ce7a9ac60f18fd9d6983f97c6d00bb83cc987b78c0a",
+        "source_anchor": "Offering-Sign-in-with-Apple",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Offering-Sign-in-with-Apple",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked value-based delayed sign-in,account-before-method order,linking contexts,postpurchase commerce flow/no duplicate fields,immediate welcome and current-method indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "b1d17e8f1025104955bf32f6318e811c1b8b8cef2660dd7a43213eef3c47f4f8",
+        "source_anchor": "Offering-Sign-in-with-Apple",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Offering-Sign-in-with-Apple",
+        "evidence": "Checked value-based delayed sign-in,account-before-method order,linking contexts,postpurchase commerce flow/no duplicate fields,immediate welcome and current-method indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "9a400127b2d97d7267673393f1420726bf9438880ba025ac07e075f123c3d3a9",
+        "source_anchor": "Offering-Sign-in-with-Apple",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Offering-Sign-in-with-Apple",
+        "evidence": "Checked value-based delayed sign-in,account-before-method order,linking contexts,postpurchase commerce flow/no duplicate fields,immediate welcome and current-method indication."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "96e48a55ecd9c87ebf5f0f11c207dfa6aa55bcc86de49a07e7161dd33e95e979",
+        "source_anchor": "Collecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Collecting-data",
+        "evidence": "Rechecked restored source-documented relay retrieval settings route; checked minimized required/optional data,password exclusion,relay respect,other identifiers,optional-data timing/no blocked use and transparent collected data."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "ac4f6076ff60c9a692c7011e6f85d00abb1567a1971598f0cf55893bd903dd54",
+        "source_anchor": "Collecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Collecting-data",
+        "evidence": "Rechecked restored source-documented relay retrieval settings route; checked minimized required/optional data,password exclusion,relay respect,other identifiers,optional-data timing/no blocked use and transparent collected data."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "38cce02b23794e3c4b54145ac273d58397173d1af5ae7344b17b7335273c47ff",
+        "source_anchor": "Collecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Collecting-data",
+        "evidence": "Rechecked restored source-documented relay retrieval settings route; checked minimized required/optional data,password exclusion,relay respect,other identifiers,optional-data timing/no blocked use and transparent collected data."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "d52f9dd7c9389454359d3550d0ec1da25d3bbd4e95fe7c1abdcfdf06fa1f9a4b",
+        "source_anchor": "Collecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Collecting-data",
+        "evidence": "Rechecked restored source-documented relay retrieval settings route; checked minimized required/optional data,password exclusion,relay respect,other identifiers,optional-data timing/no blocked use and transparent collected data."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "5f5778d4e03eef06af7b4bfa91daaa438581c477e80ec89b01e2a66789987607",
+        "source_anchor": "Collecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Collecting-data",
+        "evidence": "Rechecked restored source-documented relay retrieval settings route; checked minimized required/optional data,password exclusion,relay respect,other identifiers,optional-data timing/no blocked use and transparent collected data."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/items/0/content/0",
+        "source_unit_hash": "25758523006d382eabb6607a9dc3ad25ab93380890c7c445835ec3ea759f84b5",
+        "source_anchor": "Collecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Collecting-data",
+        "evidence": "Rechecked restored source-documented relay retrieval settings route; checked minimized required/optional data,password exclusion,relay respect,other identifiers,optional-data timing/no blocked use and transparent collected data."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/items/1/content/0",
+        "source_unit_hash": "1268ec347026c3cd172a633f28d8723feb4eee7747c79ef7aab4c2d791afa6a2",
+        "source_anchor": "Collecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Collecting-data",
+        "evidence": "Rechecked restored source-documented relay retrieval settings route; checked minimized required/optional data,password exclusion,relay respect,other identifiers,optional-data timing/no blocked use and transparent collected data."
+      },
+      {
+        "id": "primaryContentSections/0/content/20/items/2/content/0",
+        "source_unit_hash": "9394e2f671b045ca69a5acc6fd7c8fa979667eb1c8f67770a9d6c5e47f73355c",
+        "source_anchor": "Collecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Collecting-data",
+        "evidence": "Rechecked restored source-documented relay retrieval settings route; checked minimized required/optional data,password exclusion,relay respect,other identifiers,optional-data timing/no blocked use and transparent collected data."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "03d4f2aa13b92bff171ff87627ca43ec3347476affa44132cdc56652dffffdcc",
+        "source_anchor": "Collecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Collecting-data",
+        "evidence": "Rechecked restored source-documented relay retrieval settings route; checked minimized required/optional data,password exclusion,relay respect,other identifiers,optional-data timing/no blocked use and transparent collected data."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "ea7a5c0a358331a514cd015514921274130788372041d1501804893f959c3758",
+        "source_anchor": "Collecting-data",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Collecting-data",
+        "evidence": "Rechecked restored source-documented relay retrieval settings route; checked minimized required/optional data,password exclusion,relay respect,other identifiers,optional-data timing/no blocked use and transparent collected data."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "4a85f466c698a28a8faef3959d39214cdd64085f49714394f9af03739b0a3411",
+        "source_anchor": "Displaying-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Displaying-buttons",
+        "evidence": "Verified parity/prominence and no-scroll requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "1f85d125a24083d199315b9929ba68d4a53d5278dc282ed9840cbb991b435334",
+        "source_anchor": "Displaying-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Displaying-buttons",
+        "evidence": "Verified parity/prominence and no-scroll requirement."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "a69840158768ff34ec8953e6c588c084503202cc78b62c9caf8bbff5664e3a28",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "82d361425ecef53d3bcb7b8c6e3531f8990c7ee2fba1f781487cca1685f895c2",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/items/0/content/0",
+        "source_unit_hash": "40e474f6cd4daa57c2dddb705df34fbddb678c68a226dcbd74ef9668b790f458",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/items/1/content/0",
+        "source_unit_hash": "e4a2cfee84b19cdccb4cd6bd42f97c57d3735ac0ecdd0a02e4d78d2d8d13b899",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/items/2/content/0",
+        "source_unit_hash": "6324528a212879aa073a0b0704674a0242bb907d1059747d2abf1d930d7aa3a0",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/items/3/content/0",
+        "source_unit_hash": "92d31f16f468f96222a96b63cdc73e57f82bda00e5b59fbdb8f473fb0e5de61a",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/28/items/4/content/0",
+        "source_unit_hash": "3ccce980fbd89ab96fd75c356ed085eeb794587bc2beef99a8de50401591b4d0",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "82ab7766a6c62d40202fe436b94bd696e8bb646c105bb0f518d3d3a1a7939760",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "ac79cae9c0c2cfad318ed0870f2934fc68fe7e3e8b1e2dd02c300df5ac1bfa8b",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "85a0b9f2d771ff19ff674b8ced7c424a7448443a500a079376197173d83f8838",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/columns/0/content/0",
+        "source_unit_hash": "a4993d0b80c5852e12ab2855058f57f26858ef7b84714928928b6baa8503b58a",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "b1d9702eb96b9ed3c6d701ada969cf404e613d0c77f14944900c2ffaa75d03d9",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/columns/1/content/0",
+        "source_unit_hash": "63917659c2dce05c0c81d85c64b03a737de15c25e07e636e736239b792c5fd07",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "c2b286bdfbf7dbdda1215293220c74a776c06696b52edc4039d770cf0303ed4f",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/columns/2/content/0",
+        "source_unit_hash": "b31e24dde80335fb0536e14e71020a79b7adf1d8138d0cb06a4a9a677c635027",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/32/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "0623e2316a01683862646c2ba7774f3ceb70a5f57d605d02a5197b96cd22600a",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "68cc799c778211080f19f9b68b1ee5ab7a173583423eaafc8c903f8fbf203c85",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "a4cc106bedf07477d682525dbbc581c99314470ae0f4ebec9540a321d6ff9470",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/34/inlineContent/0",
+        "source_unit_hash": "05fb3d913b2e96f575179555cce0a9e3a3da96b50bb646e292d0ee1d20f48f8a",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "c6cc1bf050d5af9d584f2b11c2c805fae7383b303fb93d6f5779d965528eb3de",
+        "source_anchor": "Using-the-system-provided-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Using-the-system-provided-buttons",
+        "evidence": "Checked API appearance/proportions/localization/VoiceOver/corners,three standard titles and Watch short title."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "fd9ade3f18aa78469a7d5431744070a736713182ed385867e22b5a7df7ea8381",
+        "source_anchor": "White",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White",
+        "evidence": "Verified all-platform/web availability and dark contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/0/content/0",
+        "source_unit_hash": "ca80da68484f35736fd7866dbbf78cef1206610370a615d640f77f7c4659becd",
+        "source_anchor": "White",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White",
+        "evidence": "Verified all-platform/web availability and dark contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "35b70071c1cec65f9f2ce8151e8a384e4341f230a76da6c863de7ec7bbcc3852",
+        "source_anchor": "White",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified all-platform/web availability and dark contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/0/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "White",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White",
+        "evidence": "Verified all-platform/web availability and dark contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "White",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified all-platform/web availability and dark contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/1/content/0",
+        "source_unit_hash": "6a2263352925cf2d8a402d0f7bf2d15b23124e51d091d702073acd957bf8de56",
+        "source_anchor": "White",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White",
+        "evidence": "Verified all-platform/web availability and dark contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "a11771ced1cf9aff4a714bea7eb3a707ebdd313ef2fdfd49d4c1d950d0010532",
+        "source_anchor": "White",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified all-platform/web availability and dark contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/1/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "White",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White",
+        "evidence": "Verified all-platform/web availability and dark contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/38/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "White",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified all-platform/web availability and dark contrast."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "f77bf605a3083b23a33f84896c1681c7f24265f422055512b39792714fa7b1eb",
+        "source_anchor": "White-with-outline",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White-with-outline",
+        "evidence": "Verified iOS/macOS/web scope and light-only/non-saturated criteria."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/0/content/0",
+        "source_unit_hash": "6c13be6d9d6d085cf461eca5f292683d940b4f5704ef9d8ebecc8f1867fcfed6",
+        "source_anchor": "White-with-outline",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White-with-outline",
+        "evidence": "Verified iOS/macOS/web scope and light-only/non-saturated criteria."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "29d38cd7a00cee786600c66401b2fdfe961f11570f2497a2d46f059ab42db39f",
+        "source_anchor": "White-with-outline",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White-with-outline",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified iOS/macOS/web scope and light-only/non-saturated criteria."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/0/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "White-with-outline",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White-with-outline",
+        "evidence": "Verified iOS/macOS/web scope and light-only/non-saturated criteria."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "White-with-outline",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White-with-outline",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified iOS/macOS/web scope and light-only/non-saturated criteria."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/1/content/0",
+        "source_unit_hash": "2f71d4a40b0d7a33036bcc31711f030f3920360b08ca1805bdf4555871d5d32e",
+        "source_anchor": "White-with-outline",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White-with-outline",
+        "evidence": "Verified iOS/macOS/web scope and light-only/non-saturated criteria."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "34b4cf09300b391f38b1c71584fe3447de67824ad786806dc69afc215b6c2723",
+        "source_anchor": "White-with-outline",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White-with-outline",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified iOS/macOS/web scope and light-only/non-saturated criteria."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/1/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "White-with-outline",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White-with-outline",
+        "evidence": "Verified iOS/macOS/web scope and light-only/non-saturated criteria."
+      },
+      {
+        "id": "primaryContentSections/0/content/41/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "White-with-outline",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "White-with-outline",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified iOS/macOS/web scope and light-only/non-saturated criteria."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "296c9235cc16af9cecc827ad2249781277980d44da87905d4a9ca695f3cee286",
+        "source_anchor": "Black",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Black",
+        "evidence": "Verified platform/web light-background contrast and Watch dark-gray distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/columns/0/content/0",
+        "source_unit_hash": "75693bd457b848b15fb8a14b4e0b8f8e2305846bc34bdcd2dd874306220f1bb1",
+        "source_anchor": "Black",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Black",
+        "evidence": "Verified platform/web light-background contrast and Watch dark-gray distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "1e659ac143b8cec0d9a2e46a98ee48cb2185737934b388a430a59a950bc1eb57",
+        "source_anchor": "Black",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Black",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified platform/web light-background contrast and Watch dark-gray distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/columns/0/content/1",
+        "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
+        "source_anchor": "Black",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Black",
+        "evidence": "Verified platform/web light-background contrast and Watch dark-gray distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/columns/0/content/1/inlineContent/0",
+        "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
+        "source_anchor": "Black",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Black",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified platform/web light-background contrast and Watch dark-gray distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/columns/1/content/0",
+        "source_unit_hash": "f8607b87c56ee5db767cbdeba8aa1471b8d23f3ce3be7fbfd2d19dcd471a9ff4",
+        "source_anchor": "Black",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Black",
+        "evidence": "Verified platform/web light-background contrast and Watch dark-gray distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "5436f46180b81bd70375313b96a97d2778e03c57cec944df9c5e12bc756b4d76",
+        "source_anchor": "Black",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Black",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified platform/web light-background contrast and Watch dark-gray distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/columns/1/content/1",
+        "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
+        "source_anchor": "Black",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Black",
+        "evidence": "Verified platform/web light-background contrast and Watch dark-gray distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/44/columns/1/content/1/inlineContent/0",
+        "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
+        "source_anchor": "Black",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Black",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified platform/web light-background contrast and Watch dark-gray distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "44a9d325065472dd094a99c21faa56043a4325aea9438ae5556b8f8f5db5e456",
+        "source_anchor": "Black",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Black",
+        "evidence": "Verified platform/web light-background contrast and Watch dark-gray distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "0116759e38450522293dd0aa2c1fb34f348106914bc4167f66cdf2a88e2c105a",
+        "source_anchor": "Black",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Black",
+        "evidence": "Verified platform/web light-background contrast and Watch dark-gray distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/46/inlineContent/0",
+        "source_unit_hash": "98ca0e6d0b5d579140e91c4a41d23e8b79056ce29739a43eded5446c2536bb3e",
+        "source_anchor": "Black",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Black",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified platform/web light-background contrast and Watch dark-gray distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "35f983702d2637973d86ee66f89bccdab4f5a6ed4315e7438c2db738d3980185",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/columns/0/content/0",
+        "source_unit_hash": "73b9bfc6301eb815d7ad155094f6808b984ba486fc30c61707cda09fcdb2ae02",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "a60c3a42e645eb5d0781c7e3a469ecbf2563d7291cf704099eae2a5319cf20a1",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/columns/1/content/0",
+        "source_unit_hash": "5305fe393315da57c6b263c27b0a51d4117c34976d79814e26d278987984cda9",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "791f4b2b5dd46eb1122a9585364d7bd800da60eecfd319029f999d36b3e48341",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/columns/2/content/0",
+        "source_unit_hash": "184d625eb56070fa052348b008c89bfe05a5dc69c3033cdc04063e3fdb5af63b",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "6f6c6b20d7cc7b09ce0f2bd7a6ee36cb9744be3beb0f170516537b49c3d5f1ab",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "06fe29670b4d539d08ebae92915e78ac9b13c2932e28c3e03d389f86510cc0da",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "8fb8ff3a278bc2b1bcc73873c854bfbf192b59829bf7cf752e8e604990f4b0fd",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/0/0/0",
+        "source_unit_hash": "952dd6d837fa10c2a200396fc5cf5d28a68b4c6416eb80e54f1a13a3de050695",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/0/1/0",
+        "source_unit_hash": "2a83eaad40d810498e4d6da876055de43b0c55944673cadb3393a4ae527953eb",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/0/2/0",
+        "source_unit_hash": "d620b2521ce1aeeac73b23aeaf17861b0edb837e8dbc0e9881dcfb7852514f67",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/1/0/0",
+        "source_unit_hash": "6a00ba9ae65255e8dddf6869fb8f91dc08c76b28ff10d8de9f2ed707b3af6aed",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/1/1/0",
+        "source_unit_hash": "a2160e9268640888703b54473d068f6d5e29a47d659b3666d08162005e67592c",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/51/rows/1/2/0",
+        "source_unit_hash": "1e40a769c1f1bda57b93076034e448525d82aec62c4f581112743d3d1a108d49",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "d11f7cb71d51a3cea89fdb38ff510fdac8cdc2b14ace5f38bf8c0102eb3e8423",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "2ccd7b07cbaf2f415548b83e52fdec61423f073a95157c91f3917f9f094e82f7",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/inlineContent/0",
+        "source_unit_hash": "33f7ebd8ffe91b43eb08bc6c672130140b6adaa793071282855d3d80bff5ab1a",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "4dc984f56d20d426f80dbf3cd8e7a813bba350dfbdee5ebba47c8be38de58558",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "d5a5b9e92a5d6c64ce98d442d054a0de2dbf19a4cb4d1c17fd0510ef4aa4370a",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/columns/0/content/0",
+        "source_unit_hash": "aac5ec433a286bcae100420d166773eb1d0e126ff2f76d623a493e12d8e82aa7",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "85ff14b39369ff9c0a0d646d98f68fe4b0b7817895e6fb5943a69770b338b705",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/columns/1/content/0",
+        "source_unit_hash": "d112fcf111f677c0e5338a4c75fa4cfe3fc376fbc8e3929f6642258fd042b239",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "ab464c4abce289e8ecb2c46204fc45f64bcbbc6604265b8758c8998fe46d8c11",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "820e847fd972f56641cd97fb736cef90333827b3f48f959253d1885465b87e53",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "0bd9d7cfc76693677190b6709f2d7206840a3a5ac7ffb78a1ccb5b0b31e374d0",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "e0b8da6efc1ad5649b3ca989c981a26d653e1d4cdc624e617f4de8ad0423996f",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/items/0/content/0",
+        "source_unit_hash": "98a5b47da16559118f262c3b4afdb4c73250e9e406f5b53e9cbe22fe8c2f081d",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/items/1/content/0",
+        "source_unit_hash": "9800c58780389558c9bc28fc1032c699c05ff2902457ac0ffa8bf940d64e7d88",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/items/2/content/0",
+        "source_unit_hash": "ff38e37931afb753ffae98899307e8b375ad5e7094b5f926286ebeed274db275",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/items/3/content/0",
+        "source_unit_hash": "ae6c482170de34681b7140d0fcf2b3399427931ce51d45420e6dad549b23113a",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "7d729f1dd34c5f3254015006873bd3c6ea0adde27c018545fb0344a78c03f626",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "eeef36ca75f8cc71701268ff4a9608e543a880144f148e736e81f1ca263a2309",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/62/items/0/content/0",
+        "source_unit_hash": "f05332e29a415968f576f74d90d268596b53a8b0fb76f975e24dd67657040dae",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/62/items/1/content/0",
+        "source_unit_hash": "92cc9a0ee3c8cfb475b6bc3d47c05f803ec27c4831766542fb788890b9354136",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/62/items/2/content/0",
+        "source_unit_hash": "733c6671e1ec7ae0616529dd5b6fcc02b525f98a5bcf1be69e3386b4583109e3",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "6164acfb0afcd629448bae980043d27734ee8297ce33bc87019ffda13c485a91",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/64",
+        "source_unit_hash": "dab81bf927edfbd4e0b318a0c3f69b8c11006c0f32760ea20aa82aeddae9f1c5",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/64/items/0/content/0",
+        "source_unit_hash": "bc1accc499bf4f31a300c94a17fd5ec0ece2dc92d2fc81f5fc0162a7f4e48435",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/64/items/1/content/0",
+        "source_unit_hash": "2a230d44e9148d3c7e9d0929844f74cf0453792f1792d9d98fb0d72c87c7f04e",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/64/items/2/content/0",
+        "source_unit_hash": "e0673895f762b4891e6ef830b8611876b3a6801bf7bfbcc8ff89aba031126023",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/64/items/3/content/0",
+        "source_unit_hash": "0bd75e766d40d40815f8511815969b4a4741f38b5244d8dd3f9446d762de3628",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/64/items/4/content/0",
+        "source_unit_hash": "560b667b326911abbd50c9a5f5b54944b7a021aeede26c3f1b7eb23085b1f6dd",
+        "source_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Creating-a-custom-Sign-in-with-Apple-button",
+        "evidence": "Checked custom iOS/macOS/web/App Review,official padded art,no crop/vertical padding,logo not button,approved colors/titles/shapes and allowed font/background/bezel/shadow changes."
+      },
+      {
+        "id": "primaryContentSections/0/content/66",
+        "source_unit_hash": "d20032c8cf2d226c09b49b9c1abc40905a197fab197fd2432035e683f6820c64",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/67",
+        "source_unit_hash": "31dee6e871d48d57c5a2412f7102449c9c22f507bd45590c5a52c7858371a98d",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "071153857cca8a0a7bc9a9756aa7364b0ce586d24c3d1fc09379b3b38b0e19ca",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/68/inlineContent/0",
+        "source_unit_hash": "ccd0a33adec106a9c0ea6878d72fbded3efb374067a4000990e0b419401fac62",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/69",
+        "source_unit_hash": "90d21efb655fe4cb90ce54b5708ff35c4df52f0ad1618a0b1a01063e36f45c48",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/69/inlineContent/0",
+        "source_unit_hash": "32f2073e7af69783f6b930daece22793f3064a0bb6127701a78c420b19da664a",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/70",
+        "source_unit_hash": "583fc0d5f3f6e7290d1203a421b9b5b03bed9d9898249e263e53b4ecc1486669",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "2fe3228d2a5b8908171dd50103270dbad3875f644951c832a05494fb779e1ab0",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/72",
+        "source_unit_hash": "c48d4f288a84853af76f38f8656b938dd2536403afa77f0489cab880620880e3",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/73",
+        "source_unit_hash": "021ec30c731c28a5708381bd298482fbbfcdac1241b1040816c7b64da1f55447",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/74",
+        "source_unit_hash": "b8c62a7582f15e45ec898738dd401d1635e974dc28731d4698e9d882a0a7a548",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/75",
+        "source_unit_hash": "5c83914c638ac68accd7aaa53b907969fb83a6c11c26e34855092c7df4b1d4ae",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/0/0/0",
+        "source_unit_hash": "952dd6d837fa10c2a200396fc5cf5d28a68b4c6416eb80e54f1a13a3de050695",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/0/1/0",
+        "source_unit_hash": "2a83eaad40d810498e4d6da876055de43b0c55944673cadb3393a4ae527953eb",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/0/2/0",
+        "source_unit_hash": "d620b2521ce1aeeac73b23aeaf17861b0edb837e8dbc0e9881dcfb7852514f67",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/1/0/0",
+        "source_unit_hash": "38bd3fe9c779b75f1b8bc21d8c470f59d289ce41c8a314327139c9b82bcfcde1",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/1/1/0",
+        "source_unit_hash": "fe04ba2931dd083d51a69fc91836195ed7514159b78c4098ceddc44e03022acc",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/1/2/0",
+        "source_unit_hash": "1e40a769c1f1bda57b93076034e448525d82aec62c4f581112743d3d1a108d49",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/77",
+        "source_unit_hash": "78018e9df7a65e6e6c2618745d83316bdb0bfa83150cd3c6d0e3a6c2a074ae28",
+        "source_anchor": "Custom-logo-only-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-logo-only-buttons",
+        "evidence": "Verified vector-any-size/PNG44×44pt,1:1,built-in padding,no crop/addition,masking and1/10 margin."
+      },
+      {
+        "id": "primaryContentSections/0/content/78",
+        "source_unit_hash": "6404b14f24aea15dfc20929f4d4c6091c262cbd8972d98125df9007d953246b2",
+        "source_anchor": "Custom-logo-only-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-logo-only-buttons",
+        "evidence": "Verified vector-any-size/PNG44×44pt,1:1,built-in padding,no crop/addition,masking and1/10 margin."
+      },
+      {
+        "id": "primaryContentSections/0/content/79",
+        "source_unit_hash": "a527eb0ae59b39cd8145725d7ea0a888f2a0cb1ecf3243fc276d6b18c057e20c",
+        "source_anchor": "Custom-logo-only-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-logo-only-buttons",
+        "evidence": "Verified vector-any-size/PNG44×44pt,1:1,built-in padding,no crop/addition,masking and1/10 margin."
+      },
+      {
+        "id": "primaryContentSections/0/content/80/columns/0/content/0",
+        "source_unit_hash": "d06ca8952cc22e6b79249a3b42eac977d3f6aa5a0ac1debf8f0c032621aa90c2",
+        "source_anchor": "Custom-logo-only-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-logo-only-buttons",
+        "evidence": "Verified vector-any-size/PNG44×44pt,1:1,built-in padding,no crop/addition,masking and1/10 margin."
+      },
+      {
+        "id": "primaryContentSections/0/content/80/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "97420ec162e870339b6e30f98b77cae0fbf3f758eb456cfba78fa05ef7ca6c00",
+        "source_anchor": "Custom-logo-only-buttons",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-logo-only-buttons",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified vector-any-size/PNG44×44pt,1:1,built-in padding,no crop/addition,masking and1/10 margin."
+      },
+      {
+        "id": "primaryContentSections/0/content/80/columns/1/content/0",
+        "source_unit_hash": "2b9033b6ae822d8f027f2a71d3488cf10b946641d7fa3e007354a25912e34a60",
+        "source_anchor": "Custom-logo-only-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-logo-only-buttons",
+        "evidence": "Verified vector-any-size/PNG44×44pt,1:1,built-in padding,no crop/addition,masking and1/10 margin."
+      },
+      {
+        "id": "primaryContentSections/0/content/80/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "874a0cbb3bbf94f5fec6a43dcbd5c7635323dda0b4c144b9b83ac559763fedaa",
+        "source_anchor": "Custom-logo-only-buttons",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-logo-only-buttons",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified vector-any-size/PNG44×44pt,1:1,built-in padding,no crop/addition,masking and1/10 margin."
+      },
+      {
+        "id": "primaryContentSections/0/content/80/columns/2/content/0",
+        "source_unit_hash": "6cb1de9c5108bb57798c7b095afdfa9a897afbdb48e2a61139c3472e848912bc",
+        "source_anchor": "Custom-logo-only-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-logo-only-buttons",
+        "evidence": "Verified vector-any-size/PNG44×44pt,1:1,built-in padding,no crop/addition,masking and1/10 margin."
+      },
+      {
+        "id": "primaryContentSections/0/content/80/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "c42a6923f1e227ecae21a870d8d59b8e9963bc966d85936484f799687c0c2b7e",
+        "source_anchor": "Custom-logo-only-buttons",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-logo-only-buttons",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Verified vector-any-size/PNG44×44pt,1:1,built-in padding,no crop/addition,masking and1/10 margin."
+      },
+      {
+        "id": "primaryContentSections/0/content/81",
+        "source_unit_hash": "4976a539e0a46df4fb6c8f5eed845453151a0150deec8b97361ab352ebfebae5",
+        "source_anchor": "Custom-logo-only-buttons",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-logo-only-buttons",
+        "evidence": "Verified vector-any-size/PNG44×44pt,1:1,built-in padding,no crop/addition,masking and1/10 margin."
+      },
+      {
+        "id": "primaryContentSections/0/content/83",
+        "source_unit_hash": "509b569829c7a6cfe24bc32528acd622858a84d9d670c9f630306f6689ae12f7",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Verified no additional source platform rules."
+      },
+      {
+        "id": "primaryContentSections/0/content/86",
+        "source_unit_hash": "82a89ee3b5994ff2d935a09ebac8835788178b35479abcffc5a577b8d0ff7160",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/88",
+        "source_unit_hash": "c707e87762ed89649dc76e7601ef6a45ce2d954c74b4a1ef6fd686f6ff1370d5",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/89",
+        "source_unit_hash": "2973d391a4ab7cda1280b66584d24b1f6c55c93148b070d99b5d4a87e7c0371d",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/93",
+        "source_unit_hash": "5b95a83a697f16f6a61193e2ce9e829b30f7f6b527c9a8cab1448c38cc58c5b7",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/93/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/93/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/93/rows/1/0/0",
+        "source_unit_hash": "ea6021512638756fcb39be44c5cb492cf7f4b4c67d7c547285252b9046997c1f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/93/rows/1/1/0",
+        "source_unit_hash": "67fb590b82ed8bed06aaac5381f8e47692fc8ca03d44a17ceb77e484cd479b0e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "8fb8ff3a278bc2b1bcc73873c854bfbf192b59829bf7cf752e8e604990f4b0fd",
+        "source_anchor": "Button-size-and-corner-radius",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Button-size-and-corner-radius",
+        "evidence": "Compared140×30pt,@1x/@2x pixels,1/10 margin and customizable corner platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/75",
+        "source_unit_hash": "5c83914c638ac68accd7aaa53b907969fb83a6c11c26e34855092c7df4b1d4ae",
+        "source_anchor": "Custom-buttons-with-a-logo-and-text",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Custom-buttons-with-a-logo-and-text",
+        "evidence": "Checked vector-any-height/PNG44pt,logo sizes,43%/233% proportion,normal-case exception,vertical alignment/leading inset,8% trailing margin and140×30pt/1/10 minima."
+      },
+      {
+        "id": "primaryContentSections/0/content/93",
+        "source_unit_hash": "5b95a83a697f16f6a61193e2ce9e829b30f7f6b527c9a8cab1448c38cc58c5b7",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

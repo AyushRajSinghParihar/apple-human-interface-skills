@@ -1,0 +1,2538 @@
+{
+  "review": {
+    "slug": "pointing-devices",
+    "status": "reviewed",
+    "source_hash": "a6880a67ebdf0df2507093533566dd872aa7ac176dc3666053af42a5856af57c",
+    "destination_hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:10:57+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "pointing-devices",
+        "status": "reviewed",
+        "evidence": "Checked precision alongside keyboard/touch/eye-hand input without replacement."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked standard/user-customized gestures, no systemwide override, seamless input switching, pointer reveal/hide chrome and consistent modifier drag results."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "No extra iOS rules and unsupported TV/watch retained."
+      },
+      {
+        "source_anchor": "iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "iPadOS",
+        "status": "reviewed",
+        "evidence": "Checked iPadOS15 click-drag multiselection, native nonlist versus custom implementation, and beneficial-only input differentiation."
+      },
+      {
+        "source_anchor": "Pointer-shape-and-content-effects",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-shape-and-content-effects",
+        "status": "reviewed",
+        "evidence": "Checked circle/I-beam and exact highlight/lift/hover mechanisms and defaults."
+      },
+      {
+        "source_anchor": "Pointer-accessories",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-accessories",
+        "status": "reviewed",
+        "evidence": "Checked supplementary simple icons and animated state transitions."
+      },
+      {
+        "source_anchor": "Pointer-magnetism",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-magnetism",
+        "status": "reviewed",
+        "evidence": "Checked extended hit region and flick trajectory targeting, highlight/lift versus hover distinction and text-line protection."
+      },
+      {
+        "source_anchor": "Standard-pointers-and-effects",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "evidence": "Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "source_anchor": "Customizing-pointers",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Customizing-pointers",
+        "status": "reviewed",
+        "evidence": "Checked consistency, restrained useful annotations, no instructional pointer, simple shapes and scale/shadow/spacing constraints."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "source_anchor": "Pointers",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "status": "reviewed",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked pointer/context transfer from gaze, gesture hiding and looked-at reappearance handled by system."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "b9f7b698b271bc52b8c4d36a0190b1c1f5d2553c24d0d489939e2b0aa5cd811c",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "pointing-devices",
+        "evidence": "Checked precision alongside keyboard/touch/eye-hand input without replacement."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "49658d88b18854503a9075aed326d5839bd678512932c115da09526620f7bc39",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "pointing-devices",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked precision alongside keyboard/touch/eye-hand input without replacement."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "573a2f609cc195f1f1a19b0dfef8714b0f4280733cdd06cd4886e787e1457535",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "pointing-devices",
+        "evidence": "Checked precision alongside keyboard/touch/eye-hand input without replacement."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "26178f0a90a8ce04acba13fcd2ed611b6eee9e14573f1a699332df8c090c9756",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked standard/user-customized gestures, no systemwide override, seamless input switching, pointer reveal/hide chrome and consistent modifier drag results."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "7a8ad165ebff63403e9d6f72bca4a6eb1c0cb5be2854ec5dcf3795c5e0927299",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked standard/user-customized gestures, no systemwide override, seamless input switching, pointer reveal/hide chrome and consistent modifier drag results."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "ddb89c6167493a2dbced945a4461bd420a8b3337832fa91e713e3f66db77931b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked standard/user-customized gestures, no systemwide override, seamless input switching, pointer reveal/hide chrome and consistent modifier drag results."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "92a8872f605021b81781126763b50d2f4da0df057d1082e13ef79680fb632fb3",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked standard/user-customized gestures, no systemwide override, seamless input switching, pointer reveal/hide chrome and consistent modifier drag results."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "8433bc0f17ae6255d39cc845c7c3b3e9f425cf908cf07338e7b4b930e8993598",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked standard/user-customized gestures, no systemwide override, seamless input switching, pointer reveal/hide chrome and consistent modifier drag results."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "43c22fe073752b0bbb4eddecb3db58517259c6e54d700f3aaf0f370263a207d8",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "No extra iOS rules and unsupported TV/watch retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "0a959a389247f285476c4bee30726d93776f9a60500acf472ccee77e49da7af0",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 click-drag multiselection, native nonlist versus custom implementation, and beneficial-only input differentiation."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "795a4000f486eb737a5fc3f3d0219c67bdfcbf61f526bd87a1020ab2b35a2e83",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 click-drag multiselection, native nonlist versus custom implementation, and beneficial-only input differentiation."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "cdc8023a7c2c087e7aeecfdb4f1525a59468a58c79040089bc567bc356d7d62b",
+        "source_anchor": "iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "iPadOS",
+        "evidence": "Checked iPadOS15 click-drag multiselection, native nonlist versus custom implementation, and beneficial-only input differentiation."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "02c38c600f08e8013886cff5cd561984233e97310b55879374265b293387fdee",
+        "source_anchor": "Pointer-shape-and-content-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-shape-and-content-effects",
+        "evidence": "Checked circle/I-beam and exact highlight/lift/hover mechanisms and defaults."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "13bcd1f0b32289df27f9ce03bffe9ebc91a0edd887f2bda98cd4d17ea72e431e",
+        "source_anchor": "Pointer-shape-and-content-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-shape-and-content-effects",
+        "evidence": "Checked circle/I-beam and exact highlight/lift/hover mechanisms and defaults."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "a216dde92607b519c5783b67606f986650eaa9aa2a0a7498017406390d60b510",
+        "source_anchor": "Pointer-shape-and-content-effects",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-shape-and-content-effects",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked circle/I-beam and exact highlight/lift/hover mechanisms and defaults."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "c945ebb4128a0e1e210e4650271c7a1f014fa4839984e824bb12e1461d75f775",
+        "source_anchor": "Pointer-shape-and-content-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-shape-and-content-effects",
+        "evidence": "Checked circle/I-beam and exact highlight/lift/hover mechanisms and defaults."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "06a4a6cc26768b6e7982597cafe05b0889b9441fb69d76493d772af92337a8e0",
+        "source_anchor": "Pointer-shape-and-content-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-shape-and-content-effects",
+        "evidence": "Checked circle/I-beam and exact highlight/lift/hover mechanisms and defaults."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "802948cf2017ae6e747d2ad95b4f70db7eb64f3c6e001125cffcca1040f494d2",
+        "source_anchor": "Pointer-shape-and-content-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-shape-and-content-effects",
+        "evidence": "Checked circle/I-beam and exact highlight/lift/hover mechanisms and defaults."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "75e098f472de213f9c25d8d26940ab0cc1ce1c7e61f8e0f45d38dad046d35cc7",
+        "source_anchor": "Pointer-shape-and-content-effects",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-shape-and-content-effects",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked circle/I-beam and exact highlight/lift/hover mechanisms and defaults."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "193f928c77485c796da3d256de0b04013fd24c2d1f4da6fbe419d4ce84156c60",
+        "source_anchor": "Pointer-shape-and-content-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-shape-and-content-effects",
+        "evidence": "Checked circle/I-beam and exact highlight/lift/hover mechanisms and defaults."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "1ec8139533b270b271f68e401c202426882bf53590b605b072ed250ad75e332b",
+        "source_anchor": "Pointer-shape-and-content-effects",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-shape-and-content-effects",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked circle/I-beam and exact highlight/lift/hover mechanisms and defaults."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "d43d5ed240df4d28303bd8a509393acf29b3faa029d39a89e5d382f1ad4cf03c",
+        "source_anchor": "Pointer-shape-and-content-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-shape-and-content-effects",
+        "evidence": "Checked circle/I-beam and exact highlight/lift/hover mechanisms and defaults."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "c220aff7a2c4e0c88a51b15f24918a6d801058fc583acbc5da26b63cf6e206d7",
+        "source_anchor": "Pointer-shape-and-content-effects",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-shape-and-content-effects",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked circle/I-beam and exact highlight/lift/hover mechanisms and defaults."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "3231f736f4e8d0d06a8798723af99fc8d5fd1ca4d1828cd155ad7bbecdc7f81b",
+        "source_anchor": "Pointer-accessories",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-accessories",
+        "evidence": "Checked supplementary simple icons and animated state transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "43c399f0f2ca63ec1f8c1017d7307402fa17161702c17622f6789f5ca03081fc",
+        "source_anchor": "Pointer-accessories",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-accessories",
+        "evidence": "Checked supplementary simple icons and animated state transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "74188e62baecd77003e89e94affd15be02418b09a4dd4e5f0ba33d5b9897a403",
+        "source_anchor": "Pointer-accessories",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-accessories",
+        "evidence": "Checked supplementary simple icons and animated state transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "1850dc66416710b437789f7f6c7227571e385c7abe9012eee79d4c485a6ad8ff",
+        "source_anchor": "Pointer-accessories",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-accessories",
+        "evidence": "Checked supplementary simple icons and animated state transitions."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "8b41c7e6951d7b463af70c1ac18e0b4d8c7b9844283b1583ea619682813b9af8",
+        "source_anchor": "Pointer-magnetism",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-magnetism",
+        "evidence": "Checked extended hit region and flick trajectory targeting, highlight/lift versus hover distinction and text-line protection."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "f171b1a9284b8b4855c1d827cd1f849f9118d4150e80caf2114096fc663d762c",
+        "source_anchor": "Pointer-magnetism",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-magnetism",
+        "evidence": "Checked extended hit region and flick trajectory targeting, highlight/lift versus hover distinction and text-line protection."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "f3dbf13cd0ffd12aef0e203ac0be5b504b022a340a4b3cac5647c34e86206587",
+        "source_anchor": "Pointer-magnetism",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-magnetism",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked extended hit region and flick trajectory targeting, highlight/lift versus hover distinction and text-line protection."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "4f977a126810562811dcd5f80c587d29a9818ceecfb5e288428b96153e9d1e0a",
+        "source_anchor": "Pointer-magnetism",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-magnetism",
+        "evidence": "Checked extended hit region and flick trajectory targeting, highlight/lift versus hover distinction and text-line protection."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "92ffa0cb6492c4461dfd326e6e2191491c4d07d7d3a253548965c3e21b55b9e6",
+        "source_anchor": "Pointer-magnetism",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-magnetism",
+        "evidence": "Checked extended hit region and flick trajectory targeting, highlight/lift versus hover distinction and text-line protection."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "cf5ca21ada02d2f8e222681376205793e65f31b11582a048f1f92e5721c08602",
+        "source_anchor": "Pointer-magnetism",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointer-magnetism",
+        "evidence": "Checked extended hit region and flick trajectory targeting, highlight/lift versus hover distinction and text-line protection."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "9b31222f38c6333d3d54327ae327edf8fa2cd18d7331bb0df9faced1a5d73fd1",
+        "source_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "evidence": "Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "c2d9d4a6fff4c64a7abab69f6fbcbe02f04966c7f93874c1fffe7c70447a83ee",
+        "source_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "evidence": "Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/items/0/content/0",
+        "source_unit_hash": "af16a34991be0957a4c1ee28bd5900f4a6bb3fe87172cbc8b59fa0bf5849ea6a",
+        "source_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "evidence": "Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/items/1/content/0",
+        "source_unit_hash": "643d47f22f6872a7392845d1a56013c3608500a05265c6d55c75052443dbe43b",
+        "source_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "evidence": "Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "id": "primaryContentSections/0/content/40/items/2/content/0",
+        "source_unit_hash": "6f846893d182ebabe00c7b459571315c9816ee90cb32ba0eefa0f391146197c0",
+        "source_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "evidence": "Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "b270fbe24881c8dcd55aaada9dee5696c5b7a1bf6c86b5e50df00e03c9c147b5",
+        "source_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "evidence": "Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "ad57ff83509f97346dda0c7b1d424951e9afe9fbd9edc64e3c3b5fb45adb875b",
+        "source_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "evidence": "Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/columns/0/content/0",
+        "source_unit_hash": "43b32a62ad95ba64d52d122a6b53ded6c156973a554f6dc26b8f427fcda31ae9",
+        "source_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "evidence": "Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "471cae657a7d0cdb65744500864d96004e0b5d4750a9c78a6fef769bcab30466",
+        "source_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/columns/1/content/0",
+        "source_unit_hash": "0f68da3296cd74b755a0738af6f9cec354c87b4f1aad95f0492c000422fb840a",
+        "source_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "evidence": "Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "e7897f55412247d1b38b5945397ea1eadd12295bc87f891b80b32228e2206510",
+        "source_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/columns/2/content/0",
+        "source_unit_hash": "872bbf058186d766d93bc45af0139ce8aff2f8b57dc61587320e088e480be6dc",
+        "source_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "evidence": "Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/columns/2/content/0/inlineContent/0",
+        "source_unit_hash": "ca696eac855bf7087d332a6d6ed0a6ae804a97e70a6d59eab6bef9d76b609450",
+        "source_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "d6977fa7fe7d5582ec7ff3aeedd10d4b27f6299051d4d7fb5080aa9c376beaac",
+        "source_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "evidence": "Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "66a85887214c16c76ee256d2388600545459e587bfcfbcd0fa163987e336393c",
+        "source_anchor": "Standard-pointers-and-effects",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Standard-pointers-and-effects",
+        "evidence": "Checked transparent-small highlight, opaque-small lift, large hover, native appearances, 12/24pt padding, contiguous bar targets and custom lift radius."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "1a3af0eacf3e02f71cf28860228efdacf2c1269044cd7e07a663a60d3b148477",
+        "source_anchor": "Customizing-pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Customizing-pointers",
+        "evidence": "Checked consistency, restrained useful annotations, no instructional pointer, simple shapes and scale/shadow/spacing constraints."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "02394c25ecf1d3b25bb907055cd66c5beffc7bb7eba7594830d5d8de09fba986",
+        "source_anchor": "Customizing-pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Customizing-pointers",
+        "evidence": "Checked consistency, restrained useful annotations, no instructional pointer, simple shapes and scale/shadow/spacing constraints."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "84fbef74486c63c67daab1b695761d276661cc60db68483ad538366fcd195fed",
+        "source_anchor": "Customizing-pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Customizing-pointers",
+        "evidence": "Checked consistency, restrained useful annotations, no instructional pointer, simple shapes and scale/shadow/spacing constraints."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "d0d716ba39e5ed1bdff66bc420a405d2d7f69d89dd39e9d7fa972ca5d2d9ced2",
+        "source_anchor": "Customizing-pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Customizing-pointers",
+        "evidence": "Checked consistency, restrained useful annotations, no instructional pointer, simple shapes and scale/shadow/spacing constraints."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "673cff3d8d49be96f4a1b7a44f6bbba6bd22d7332c13890f5c1aec389f590c31",
+        "source_anchor": "Customizing-pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Customizing-pointers",
+        "evidence": "Checked consistency, restrained useful annotations, no instructional pointer, simple shapes and scale/shadow/spacing constraints."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "3bb807313cddedce86a982efd49902aefedb8a3d4100bc33d08c98ba830b6f8a",
+        "source_anchor": "Customizing-pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Customizing-pointers",
+        "evidence": "Checked consistency, restrained useful annotations, no instructional pointer, simple shapes and scale/shadow/spacing constraints."
+      },
+      {
+        "id": "primaryContentSections/0/content/52/inlineContent/0",
+        "source_unit_hash": "7b8631844cf824a0d671d927eda0de782d73e4f62ed68d8c634bacb9924359ec",
+        "source_anchor": "Customizing-pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Customizing-pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked consistency, restrained useful annotations, no instructional pointer, simple shapes and scale/shadow/spacing constraints."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "707a21af16ddfe6a105140449488941d9e94f34caa9b4b9461462217d41c2d3f",
+        "source_anchor": "Customizing-pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Customizing-pointers",
+        "evidence": "Checked consistency, restrained useful annotations, no instructional pointer, simple shapes and scale/shadow/spacing constraints."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "426e73c727207991125aac537862f43d770faf5a05b6a0276757b893b444ffdc",
+        "source_anchor": "Customizing-pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Customizing-pointers",
+        "evidence": "Checked consistency, restrained useful annotations, no instructional pointer, simple shapes and scale/shadow/spacing constraints."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "13322647905a1b61c23b8789f6bf4359ad3e6120b5b0d0fd0b548fb2f9545cf3",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "8de4a0e34686dbe4973f95b52edf68fef78e09e0473a0e68ee90facd50bebf1f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/0/0/0",
+        "source_unit_hash": "f9fcc4ae4626ed32119856c96dc76afa44ca2e4028e06ddf4ec5dd99828ce82f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/0/1/0",
+        "source_unit_hash": "78e58b72371d4eec8f96f0115a4d26dfaed7312e0f6af2ab45c245e462734bef",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/0/2/0",
+        "source_unit_hash": "e36b3bba2bcae1174589051ffed842ccbed66acb1bab8b35375b1d8af080bd56",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/0/3/0",
+        "source_unit_hash": "0b73ff7496245c3a89682ae68ffba356df3c14e8650ca95c8bf4edba3c64b49e",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/1/0/0",
+        "source_unit_hash": "141ddb9f485eeb39ac98db404f7a3d1731f9063b63099d62ab782f53809f739b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/1/1/0",
+        "source_unit_hash": "410c80ccfbb092b9b39710fb1ad1e55c69c55be8261176f65d3d4f893be8bf05",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/1/2/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/1/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/2/0/0",
+        "source_unit_hash": "a953bd0a909789af649abbb90f9fe0eae403d56460a5899086d0bcdd2aef2922",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/2/1/0",
+        "source_unit_hash": "ff99518f87347977b1b6d32872bbda29446ba4688b31342e342d7966d839d179",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/2/2/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/2/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/3/0/0",
+        "source_unit_hash": "184f880434b52f76bc61e18ca0aa9c721562f0616421d9657f5d6ce6c2b003d0",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/3/1/0",
+        "source_unit_hash": "e5e20ae4e3c1bbd3ac52719bfc2927515fbc242559ada3276c7635c271b2d59a",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/3/2/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/3/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/4/0/0",
+        "source_unit_hash": "65d135fd5aa89f34c0e8c2feb8c03422e4b207c928578c09f0aa07aed7bf3ee2",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/4/1/0",
+        "source_unit_hash": "4686e66107d1b6eb34bf8727f4938075cf16d10c114395edcfef8ab2529a4c11",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/4/2/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/4/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/5/0/0",
+        "source_unit_hash": "0bf123c9a73c1cdc0b93764edbfc0334889b7a87fdbc1b5940777b44f94417a1",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/5/1/0",
+        "source_unit_hash": "7dd842dc5edc8a44c6b57351fc6150181f60c32fdf032f93013036173b9eefb7",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/5/2/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/5/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/6/0/0",
+        "source_unit_hash": "489ddb52f2eb9cc662b1ee8925d350496de22351cbbdece6b5445b771f053d8f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/6/1/0",
+        "source_unit_hash": "b515bf756a5b884c8dda9bf181aef3bf6a55811d2259d53e153c9f1c13610c84",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/6/2/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/6/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/7/0/0",
+        "source_unit_hash": "a69cc7d74537c3eb5741278e06d9f8a4b5b2c7d824f1aaf11cf3cf3884e4cfca",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/7/1/0",
+        "source_unit_hash": "fc341053e373f4a65bf5179109114191b4e28529ac96b2cb4d29c5a39f50d6f0",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/7/2/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/7/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/8/0/0",
+        "source_unit_hash": "5646fa0bb8e21665d1f3f41ff368e6a4efa589683296dc3defbbb45b3e68bdd5",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/8/1/0",
+        "source_unit_hash": "1a72b50e23efb8bfc0bd612adde1e2c22292287d48b844d27ead133f304511df",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/8/2/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/8/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/9/0/0",
+        "source_unit_hash": "0f91e29e8f6fc49046c03540bcd1a2a2a9bd079b6e15cb3028ec850137b62da2",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/9/1/0",
+        "source_unit_hash": "a19e26584826c7383e68a7754280c447a1eba72b2a493f1cc29191e0e6dc3681",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/9/2/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/9/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/10/0/0",
+        "source_unit_hash": "eb171c8dcfcd147dc1ee98af1a62b43d823cb4667a3176340bfdd203bbd42d0b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/10/1/0",
+        "source_unit_hash": "fb4e1a3ab7f475f6a1a768fd1a32072e49fdce10e2f29d7b5db16674ce34268c",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/10/2/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/10/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/11/0/0",
+        "source_unit_hash": "814bd9b049f8dd543530d78cf2f89e8a9370260de57e3d29dc2161575da730b0",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/11/1/0",
+        "source_unit_hash": "7694bddd288953f33a2ce9b2aaa10b030be058a59f114952a343c345529a0c1c",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/11/2/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/11/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/12/0/0",
+        "source_unit_hash": "50c461b595e709e6384f617752dab8e9274570f17a2d187097384acb426b964a",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/12/1/0",
+        "source_unit_hash": "8c71f2083904a7140eca53f17dabeeb6c4530c40ffec9d68a3893da16c991ef6",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/12/2/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/12/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/13/0/0",
+        "source_unit_hash": "b21dd168e9585c5f33a3a2f4f9ef2f2273858c3788fa102ae7bd0d5b852f8f28",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/13/1/0",
+        "source_unit_hash": "bbcce4225f594abff4d71168a9befa0748568faa6d16690fa8a3400e3eacc102",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/13/2/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/13/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/14/0/0",
+        "source_unit_hash": "eeb8925fff67cb45d1b4dcacb82ffd468c2461ce3d07a83480050eb7e35a91f1",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/14/1/0",
+        "source_unit_hash": "bbf4f5f75b55c0ca28273d3a8423290a6e25279a3d64cf1cebbda6b875cbd393",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/14/2/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/14/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/15/0/0",
+        "source_unit_hash": "01ec91c3783d138d8ee50352a7bbbc909034b662f64b6bc79c37d29925625d28",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/15/1/0",
+        "source_unit_hash": "10da8efdbf697fb88834148d8de1d9c45e7e96c9b505e02134a670dc15d274a8",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/15/2/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/15/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/16/0/0",
+        "source_unit_hash": "d628a0ad755ceaaa93b8060c48093bde7c599a5042663e6f00a5639f2ad32d8e",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/16/1/0",
+        "source_unit_hash": "071df6e97bf898efed0d200486595b43a39fd77c8306b624aacafa08296e9a03",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/16/2/0",
+        "source_unit_hash": "19f1e4dd0b2f81d10538e6d1937b0092786f37fdd9cf0249b95573550d9ef03f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/57/rows/16/3/0",
+        "source_unit_hash": "bca1ed52d6c02ed24b4d16c2afe8ac565279cbe6296754f4f2a03b898fcc0d5b",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "d4e6feff56f2034a1d7bbb41875cd64b6f224f3362a9eb6186496e704fb56a7f",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "4b501dbc7fcef222346121e9fc2247a068286fe47ae11aa98b4d3e19060f7133",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/0/0/0",
+        "source_unit_hash": "93f2d5421344e1ad3245a1b244e9555718aa7255a38e3038b604284cf06ce49f",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/0/1/0",
+        "source_unit_hash": "b1041845e3cc0a9e3d2dd4211a62805a43439298bb906f53ab6afcc98bd4878e",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/0/2/0",
+        "source_unit_hash": "c6f47e1641526c8142f9049d79deb5bb0efa2184f2b5b38b1317b59da9e9ab88",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/0/3/0",
+        "source_unit_hash": "b9681ffa6c5cbfa3fd6ff7b1509ea1301d9b5ccb2774fc2d42e76e751435d215",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/1/0/0",
+        "source_unit_hash": "edd936a434d34f51ff155e33baf4afcf295339a8fba1d517a5cbc1892c0b766c",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/1/0/0/inlineContent/0",
+        "source_unit_hash": "2fdd46522ef344ad3db6123d6a16216136125f4f9778ebf5d0934f6fde251808",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/1/1/0",
+        "source_unit_hash": "52db79c89f6195b24f2958e96ffe3fbc0fc7a1f5d798c22f34334b980a9aa0d8",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/1/2/0",
+        "source_unit_hash": "1d10e9707ca61805cac2e310b753e4312a0810b3c0e07e47402df0db93b49f5f",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/1/3/0",
+        "source_unit_hash": "f12a42ec8a9415f78c182c8ab77171700fa56d37f1f8662e7b09561b8123abc2",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/2/0/0",
+        "source_unit_hash": "2c2d5d642414260d98d54052af68d9c04155157f0914c1deed8ed23f50577fad",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/2/0/0/inlineContent/0",
+        "source_unit_hash": "c0d9e69a2088405dff2e2ba9f3713ea56b5c167c1fd0e0a87930f32030014c58",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/2/1/0",
+        "source_unit_hash": "9bc663f7e5636655436a6f3048679fd7df84bfaa83d4dcbffb1c7bacd6bc30dc",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/2/2/0",
+        "source_unit_hash": "911a295e46906d2930d78209b2ae53e2d0203487db6a64f6e7599e5e49fe9355",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/2/3/0",
+        "source_unit_hash": "08b2e6254b7fd584aa9bb56fc5daa9807268dccd1fb3e2a32814d96e67e61bc5",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/3/0/0",
+        "source_unit_hash": "9e6940854fce049d841153fb1656f4aa19457b408f23d0bda78e53c4e7e7ac75",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/3/0/0/inlineContent/0",
+        "source_unit_hash": "197e112c079501eb8f2d8fd5798f0e2fa7deaa81986db62e9e4731017533cef3",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/3/1/0",
+        "source_unit_hash": "b816ca9a8a55c5338dcb6bd9e4bb45d88f4922892f0c6ee0bc357977bc7bfd18",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/3/2/0",
+        "source_unit_hash": "127ff9222c20b943dbe119054fad65c153694c87c1147e42ddd01b658032f224",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/3/3/0",
+        "source_unit_hash": "46cccc7cbb922a7bb941c14ae2442f0d53b90cbba935c0ecda82f9b4d689f657",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/4/0/0",
+        "source_unit_hash": "24bd3f5735ed19ceefa15d2990d90f08604cbbe57edf4b9c75c20a41905931df",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/4/0/0/inlineContent/0",
+        "source_unit_hash": "c777b2fec44ad229bd51106324833ba4594e3516b860a3b80607d122d31ddfe0",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/4/1/0",
+        "source_unit_hash": "a2d1adecb7784b7d30dc8a9a3543283e6a6b4d0e047ebd086014d8aa3d05ea43",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/4/2/0",
+        "source_unit_hash": "524a8bd944bdada395a9ef3107723efe2059784d0bfa071785c1aea8fbb99886",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/4/3/0",
+        "source_unit_hash": "c749fd30def28996c3e6481ecd99ede2986a9fa65f0e18108e9c0837337a8a00",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/5/0/0",
+        "source_unit_hash": "0cf1a07a8609a2e74c3ba22bd91d7603839efc378ef3f014cc69280f3750ace2",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/5/0/0/inlineContent/0",
+        "source_unit_hash": "a3466dc4b924eceabf090fb67dd669439e9cf9e0b0c710a5cbf9a4db6fd8b75e",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/5/1/0",
+        "source_unit_hash": "211ccabf3d8b70145c36c95a57075c6c64fc5c41c23811a67557f457fa513f35",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/5/2/0",
+        "source_unit_hash": "dfb693994e6a9ad6facceb3d088eaf2a7905a0636c87de0fd6f6a0c61a2770ae",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/5/3/0",
+        "source_unit_hash": "730215c768be1609487ca8219196788d394ccd460fd3733ae6bd500325f6083e",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/6/0/0",
+        "source_unit_hash": "2441b4b7a71152b53ead2dafa434e351c4efe8c9c12058919a1879ce1cda3db2",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/6/0/0/inlineContent/0",
+        "source_unit_hash": "e6202a657ae8f51ddfaec7721f319cd9af14e788bfe12b24beae633d46346220",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/6/1/0",
+        "source_unit_hash": "67bd55c6bf7c7472b113caf350047f767143c5e922461da4a5e07e5c9b8eef71",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/6/2/0",
+        "source_unit_hash": "6981d821578992169a386890c39410f5afbe04816fe41945499e1b55139a222a",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/6/3/0",
+        "source_unit_hash": "4f88cc13be0b032be806b696677033390f6834c1416494a6d5f3f552b5655c90",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/7/0/0",
+        "source_unit_hash": "42ef8cae1d3b09cfb0c430e55c4fadb3a2ede239605679306eec2fdb5f4a4c99",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/7/0/0/inlineContent/0",
+        "source_unit_hash": "d7f280e58ab421870b93d14a2dc5d02602ee44d9a865eb44ce5f018ed179a635",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/7/1/0",
+        "source_unit_hash": "5060086b284135de92ae4d9e80a20e0751d2500a4331fbb5be30e3dd0db0d4c8",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/7/2/0",
+        "source_unit_hash": "fa51f0017acaaa3939c6ffda886b0bb8c36e07eb03cee32d7f05b7e59212d080",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/7/3/0",
+        "source_unit_hash": "fd971dce874376eed251f31cf74028d1f69e0b9a9118764b522fc56ef2d624c1",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/8/0/0",
+        "source_unit_hash": "635e38f972897c31e6cb946f5e07ff2bee8899da9a8e7d7b23bd41777b0302b6",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/8/0/0/inlineContent/0",
+        "source_unit_hash": "1e3bedbebac8b7ca1f2663f17b3a5dd19472e36463ca2d12dc756b361dddf4a2",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/8/1/0",
+        "source_unit_hash": "9e157998b5e28233da93e4ce7f7682af19ce5d13b00f71dcec684cc73baf9ee4",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/8/2/0",
+        "source_unit_hash": "486c2cd27fb9562b9f0f6a96f0acb57c18842b4ca9c6a4b94d6f5b611e568b59",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/8/3/0",
+        "source_unit_hash": "59734cb0296d1e3d83a997b17a814eb492fba36f108f354ab1590b203fc6ee01",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/9/0/0",
+        "source_unit_hash": "d820c0623c406afec3e09e0cea15161f6933728902a6d96ccd5407d3fb448ec4",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/9/0/0/inlineContent/0",
+        "source_unit_hash": "ca1a62c9c0aba753fe81dc04ebb819ed086b4c3646e26b7bb5d6cd75459ca253",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/9/1/0",
+        "source_unit_hash": "585cad6e1f11083a6ae40c367f78ff1d515637d4d107b9c28a2165b3fc4ecfa4",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/9/2/0",
+        "source_unit_hash": "2b76e3c46bc2e785b29d47ae2e6aeb00b530d400d096633851a05e679ffec7b0",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/9/3/0",
+        "source_unit_hash": "7316e808b3a7688c51371d8ed17fa7baf373de8849b24ac558b3c0ad24e47e31",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/10/0/0",
+        "source_unit_hash": "b65e2a379907ea846ca4243b5bf00fb4663a2604cb8dbefd563b78f2cdb4e7e4",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/10/0/0/inlineContent/0",
+        "source_unit_hash": "e0811784db8df200d253ce433fc85627a8e21c28e9104ef24839af3359a19a46",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/10/1/0",
+        "source_unit_hash": "cf4d1cddac087c9acc4f89cf37e77dafdced9b56cf7948063f4ab9d9c8dd8d72",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/10/2/0",
+        "source_unit_hash": "faafe5abda30efd9f54d1d1a31b0c1c5ae99b782d9bed76496e5a2066c32c841",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/10/3/0",
+        "source_unit_hash": "f42b7d6e5e1661707e7f2b32b3e12d1f1b8dadbae0e794cfbbe7be502287ca46",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/11/0/0",
+        "source_unit_hash": "e11b94f708f8f0ad3d79fc17afadb697ddb3d4c0782d944a666e22ecfd8d63f7",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/11/0/0/inlineContent/0",
+        "source_unit_hash": "f2604cc8340352552219e4e6845b1a6abeecd47199be2a12c283c0145469d297",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/11/1/0",
+        "source_unit_hash": "0f7e54f17209318074fd6760bea7976923a853107c5bdeb4da7183629dc2f4ec",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/11/2/0",
+        "source_unit_hash": "1627cee5eeca0e0e904cc945d2b1ddc18d864264503cc2ff30812b334ba3496b",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/11/3/0",
+        "source_unit_hash": "de60330c04e5f1f6b9301058655cffb113ee67eba2af3a5a48ac994a6059a1f5",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/12/0/0",
+        "source_unit_hash": "901e1ad9c370f08500b2fccb0c4d5dd91344d7e7f79a1cc82320223ac4f88352",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/12/0/0/inlineContent/0",
+        "source_unit_hash": "8c7c7ab610fd2847dc3eb268fd4a81a9b90099b0cc65f09d690ae4a3289f6353",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/12/1/0",
+        "source_unit_hash": "4927eb33d37841f2fc3b8ec835aa83434de081a3cce1573e01096f0b906ac3a5",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/12/2/0",
+        "source_unit_hash": "2e08086d0796f0d48671653d4c8eec7f1268c78ab3dcecd59ec89e5f449d92d2",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/12/3/0",
+        "source_unit_hash": "b9a543788d30f709621d56b82cd4cda01721a9f838569d3165dbef619260096c",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/13/0/0",
+        "source_unit_hash": "44789288f037d300ef9bb6b0257e5af10b53d8b8616a06e994d5ffcbd2ade502",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/13/0/0/inlineContent/0",
+        "source_unit_hash": "9e5abc6bbcf82539504533d225ce009cb204e9d83522493f9ce1b3337813224e",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/13/1/0",
+        "source_unit_hash": "4544f30cfb97f4fef69bd169ab5ad866cd2fea395774cfcd8c1cc00a9fee9b2a",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/13/2/0",
+        "source_unit_hash": "70457c38ffb7cceac8a7e57db29c66b352c9869f90a5b659c919e9af9a1db424",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/13/3/0",
+        "source_unit_hash": "a8184a0c6506b38023ea4ec446178d9eec99f19e1bdac8e252565584162a474f",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/14/0/0",
+        "source_unit_hash": "b9b3fd5d3bea3428cfdbee8992a759198f8bc245c0eb642735b7b8ebd6437d27",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/14/0/0/inlineContent/0",
+        "source_unit_hash": "816fbef33a7e224ef4c4bb8c3cfce6ddd032e0f5001483467f09426b5197c65e",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/14/1/0",
+        "source_unit_hash": "154d25552903eca471a281d22d21d7dfdf754a271f9a20d873067bff09e123ff",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/14/2/0",
+        "source_unit_hash": "c9906c6ac141244f969ec6824e5d5f270b408548ada2cb1f22b99b75b04a5ed7",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/14/3/0",
+        "source_unit_hash": "3c6efb238ab566b3df27492969a50032df66112738375ce682386973f0bfc4df",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/15/0/0",
+        "source_unit_hash": "62bea4c30f16b755b3febb6de5fdcaa8c076d4d6faea4ccd3552c56fa0c59d38",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/15/0/0/inlineContent/0",
+        "source_unit_hash": "23b897e707bfcbac0ebf0dc70b05ae452c8b8920fad2f8a078d91cf637d2b4da",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/15/1/0",
+        "source_unit_hash": "f4e5cec2fb54e3e51d2336ae1c9bbbff94afbee7e3d2047f4cc6a2d676cc33f4",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/15/2/0",
+        "source_unit_hash": "dfcc8aac0912e4b15e74f80fac1db7440886dbe15fc5a86bed3e0dae17c063b7",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/15/3/0",
+        "source_unit_hash": "c792e3240f793accfd1c4aeb378307e703b1563f0fd414f635aab2a4a1875594",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/16/0/0",
+        "source_unit_hash": "7cd78287ae5e5d892322e4f419fd09c573eaec5b92fc7312b7fc6f63079171d9",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/16/0/0/inlineContent/0",
+        "source_unit_hash": "adf288b840caf212b9690e1a3b1dc784404160abff2bf8e9100b793446ce8fdd",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/16/1/0",
+        "source_unit_hash": "a9b274620abcb8a7032244b150187843fc528a13386a57f3a79ed79bc8074331",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/16/2/0",
+        "source_unit_hash": "104008a0cbe858ec2a9e4b0ee06208b6567a09f9e3eae8576a0e24caa5f81e6d",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/16/3/0",
+        "source_unit_hash": "2dbbe05bdaa0a5f6490e5f1f10bc6fbe1e955f34871fb11000fe5192f39c48d3",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/17/0/0",
+        "source_unit_hash": "f75f0eea8fde1383902ffbd59d9cf25077ed5cea3b1c0b5b2616631d7f8a3a91",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/17/0/0/inlineContent/0",
+        "source_unit_hash": "e2651bf7b76bbf29ef79948df1475883de576ed284a15af77e7f480b8115a284",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/17/1/0",
+        "source_unit_hash": "b5aa8c69103990a3d57d68395b695b04e2482eefb916c973d65415928fa3179b",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/17/2/0",
+        "source_unit_hash": "c898c52faaa70f92fc3decdf334765a3b7fc1b18cd06b1473a62b641fb3feae6",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/17/3/0",
+        "source_unit_hash": "7d4a7ab40edf4d38380377acf05c03bf9d770b6e8f939455fc89772dc95e615b",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/18/0/0",
+        "source_unit_hash": "21d4f17353dcb2a01c1e075c4af299c7408ab4e8aa8956cb727369a032dd2149",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/18/0/0/inlineContent/0",
+        "source_unit_hash": "ba2d16a1b3452196e365b388f60e38142d7e3ced9aa2260f6112baa0d597c6c8",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/18/1/0",
+        "source_unit_hash": "1074cef2f341967f4a9a094e8fe5be39caf5bcb7ef52cb4362eb08a97e82e1b3",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/18/2/0",
+        "source_unit_hash": "66ce9460b7f9dbebdab1681963a6319a9587733f1d48856e446c575f2ede49d4",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/rows/18/3/0",
+        "source_unit_hash": "c0894b1093a4442a8937bfb3750873e1339e6b5aa540c4cf5b83daec2c405efb",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "a080d227d868daca2bf9ebbd69ee5934b71e8b531bafc3f7be36cca585ad2f9c",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked pointer/context transfer from gaze, gesture hiding and looked-at reappearance handled by system."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "237adb4f977cd41644037c5dd40b9314c7f04f9d8739c85a417c0f3a509c516a",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked pointer/context transfer from gaze, gesture hiding and looked-at reappearance handled by system."
+      },
+      {
+        "id": "primaryContentSections/0/content/64",
+        "source_unit_hash": "11cbab8167daba15d74ef9bbc1199d674b8fc8f35ad063fe51ef948160b42dfe",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked pointer/context transfer from gaze, gesture hiding and looked-at reappearance handled by system."
+      },
+      {
+        "id": "primaryContentSections/0/content/65",
+        "source_unit_hash": "62345d71af1fb17efb225cf3d2c7c6351ac688c86902208f3b61a75cfee3941d",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked pointer/context transfer from gaze, gesture hiding and looked-at reappearance handled by system."
+      },
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "53a0a277e152d9a7f2ff5b5db7b0ffc028ecfe12baef54c41eea7f1357d798f5",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/69",
+        "source_unit_hash": "e8900fbd9563e83f32e6b35d575bc5463de7141bdd224904844889a7b1e5f9fa",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "5afdc457a81642ce48b6434aa4ccf438e7974311fcfdb53bcd2f93622e7e0073",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/72",
+        "source_unit_hash": "4e6a227751054715be18154e375fb0b69bf37bdea6a2ad15014158da0f798c45",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/73",
+        "source_unit_hash": "43a1dc08dc9f46d51980ec835738db62dc0ad85d1eb753b0a2c16e893897d86b",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/77",
+        "source_unit_hash": "69a083956f45ac0edfa9f5f180520301584001537c7f2f9969e46170630df53e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/77/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/77/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/77/rows/1/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/77/rows/1/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "8de4a0e34686dbe4973f95b52edf68fef78e09e0473a0e68ee90facd50bebf1f",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "macOS",
+        "evidence": "Compared every mouse/trackpad gesture table mapping and device-support distinction with local prose, including exact Mission Control/Expose/Launchpad/desktop finger combinations."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "4b501dbc7fcef222346121e9fc2247a068286fe47ae11aa98b4d3e19060f7133",
+        "source_anchor": "Pointers",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Pointers",
+        "evidence": "Compared every NSCursor name/meaning, including background dragging, copy/link modifiers, disappearing-reference semantics, I-beam directions and all resize cursors."
+      },
+      {
+        "id": "primaryContentSections/0/content/77",
+        "source_unit_hash": "69a083956f45ac0edfa9f5f180520301584001537c7f2f9969e46170630df53e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

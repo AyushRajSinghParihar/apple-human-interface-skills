@@ -1,0 +1,424 @@
+{
+  "review": {
+    "slug": "action-sheets",
+    "status": "reviewed",
+    "source_hash": "e0435e5a215810c8f4ad54a74ababa33c6b5f180bd036d10b5a1150b693c047c",
+    "destination_hash": "e83f365ee2a5f510e5e1cfacbdab83d8ec6e43b085e0a9c1fffa950b34256c20",
+    "reviewer": "cross-reviewer-a",
+    "reviewed_at": "2026-10-25T13:07:49.126731+00:00",
+    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "action-sheets",
+        "status": "reviewed",
+        "evidence": "Checked deliberate-action choices and SwiftUI confirmation-dialog/UIKit actionSheet implementation scope."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Verified action-sheet versus alert distinction, sparing interruption, single-line title/message necessity, Cancel placement/default and prominent destructive options."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked Mac/TV no-addition and vision exclusion."
+      },
+      {
+        "source_anchor": "iOS-iPadOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "evidence": "Checked sheet-versus-requested-menu behavior and avoiding scrolling."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "cc1d7bdfdf03ddf3583dcdc69fd48fa6ea33697b38ef708de50449f22589fb4e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "action-sheets",
+        "evidence": "Checked deliberate-action choices and SwiftUI confirmation-dialog/UIKit actionSheet implementation scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "a159c47ded7d7c14759819941cfcca4f8e5b0f890ffef6b20fddc6f5de5c51d9",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "action-sheets",
+        "evidence": "Checked deliberate-action choices and SwiftUI confirmation-dialog/UIKit actionSheet implementation scope. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "02d457c0672ad888103513c9a607f9a3d0c4676903613783675b9726803cf782",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "action-sheets",
+        "evidence": "Checked deliberate-action choices and SwiftUI confirmation-dialog/UIKit actionSheet implementation scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/1/content/0",
+        "source_unit_hash": "97b74d1e7534306d0b98408f8489a8be6d635ecdd408b6613479f36bc64987f3",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "action-sheets",
+        "evidence": "Checked deliberate-action choices and SwiftUI confirmation-dialog/UIKit actionSheet implementation scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "395b10582c8e9094fe4e9664f0ed506abcff7ba341ff9e45e4faa060215d8c45",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified action-sheet versus alert distinction, sparing interruption, single-line title/message necessity, Cancel placement/default and prominent destructive options."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/columns/0/content/0",
+        "source_unit_hash": "50951629968d1e713e63f13cda7c25960e3180934eddd9df9dd17444fc0a77d4",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified action-sheet versus alert distinction, sparing interruption, single-line title/message necessity, Cancel placement/default and prominent destructive options."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "abd6c1d67d91842654c3ec4496fd6b9e8d2ba15dd653bcb5212002a06ee7ede5",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified action-sheet versus alert distinction, sparing interruption, single-line title/message necessity, Cancel placement/default and prominent destructive options. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/columns/1/content/0",
+        "source_unit_hash": "7935eeec492378b6e0abde4d5c79ab9b18027f4aed4d81e7947cfa5ac469a263",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified action-sheet versus alert distinction, sparing interruption, single-line title/message necessity, Cancel placement/default and prominent destructive options."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "e6a7478fb9543459a16f834fcb7790389a5d40d6bad78214f50004a42a3d6a96",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified action-sheet versus alert distinction, sparing interruption, single-line title/message necessity, Cancel placement/default and prominent destructive options. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "0c3e9cd687942c5fe2cc53d4089a1b2857d26853a453bee9027cf734d28b5ce7",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified action-sheet versus alert distinction, sparing interruption, single-line title/message necessity, Cancel placement/default and prominent destructive options."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "04c569f03c3b15ea2db3da04045e1a6bb97deb64e8b559dbe38348e7b04f203d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified action-sheet versus alert distinction, sparing interruption, single-line title/message necessity, Cancel placement/default and prominent destructive options."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "9fbe730d91df7c1b9caa67b032b89fb70cd580c43b343a7cd5e85ae40237f412",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified action-sheet versus alert distinction, sparing interruption, single-line title/message necessity, Cancel placement/default and prominent destructive options."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "4d023198eca17bb49c904e0e0cb0504b776f1d5fc3d774412115dfb42e31efd9",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified action-sheet versus alert distinction, sparing interruption, single-line title/message necessity, Cancel placement/default and prominent destructive options."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "92582cc9ea51499238cd3ecbb59ea44faf7c96f0a21f125d44e27bc8c21ab693",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Verified action-sheet versus alert distinction, sparing interruption, single-line title/message necessity, Cancel placement/default and prominent destructive options."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "2537196c8d684081d9ff822b7ad5a805026ddea4460eb1ba53ce78effce9e014",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked Mac/TV no-addition and vision exclusion."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "31961000d1017ed9fddf19f9064afb8c652157edc8c6b5c07d292eea91ed3328",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked sheet-versus-requested-menu behavior and avoiding scrolling."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "b6dd720748a88a9a44dfee5fc52a1e6e836c54dfc33f9921718fe2e5cfd59242",
+        "source_anchor": "iOS-iPadOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "iOS-iPadOS",
+        "evidence": "Checked sheet-versus-requested-menu behavior and avoiding scrolling."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "0816a96a0bc965ee70661ba480af08853931b78c1cfbf26ac58aed8d372ca519",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "18b6aa72186bee28014fde7cce010ea4be346159c07f47653075e021694c075c",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit."
+      },
+      {
+        "id": "primaryContentSections/0/content/17/inlineContent/0",
+        "source_unit_hash": "27fd16eff1bf3f8a2c79ae6148a0164f625d5427dc31b3e79edd3bb086c52f58",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit. This record checks the surrounding textual treatment; actual asset inspection is tracked independently in media review."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "3497ee438742d6db19d17bd6317cce5586b43801acdf17b33fc33ba99c6d42f8",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "198cac87bb09fa1064b2236b23996345599d8fa639f832ad0a54e52eb0101daf",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/rows/0/0/0",
+        "source_unit_hash": "4811cccb2629475fc63cca54f32a5d077f70f378d3c28525016303a1c47bec3c",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/rows/0/1/0",
+        "source_unit_hash": "c6f47e1641526c8142f9049d79deb5bb0efa2184f2b5b38b1317b59da9e9ab88",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/rows/1/0/0",
+        "source_unit_hash": "62d1320abe5266d372034c53975e116aed31218a94e3f871ea718dc3bd83d175",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/rows/1/1/0",
+        "source_unit_hash": "f8a045700d5d2b3b570c3564e0373db728816e539e3530ac3f5176b04795c49b",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/rows/2/0/0",
+        "source_unit_hash": "10680764234918142735708923d0e4b18f1232f0055a16637f150dbaa4e7f99a",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/rows/2/1/0",
+        "source_unit_hash": "cd645442b2bda7c87e36020674a7c456c8d4d9fe8c2177205950d53312f998b2",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/rows/3/0/0",
+        "source_unit_hash": "26ba7f4371e7e14d5f330a316a8731f2e981c9857df369ba6aa5cad55a5e513a",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit."
+      },
+      {
+        "id": "primaryContentSections/0/content/19/rows/3/1/0",
+        "source_unit_hash": "3e801d1412e71ee156bb2c19599dc83fabc067288750c474bb7a0dde35dd4a22",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "8a660fd69598ce7782a127bb6aa6b34375cfb7b253e3788bf7bb3f1f498c6af3",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "46636c5a48bf484ce2afdbada65a74df397e3cf0027dfffa070a9ea5ec0a006a",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "f282c2ac8d913888ccd9170fdae80eba0f693a4131b1b60416a70be42c2847a4",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "a007d8ad9715ec0d780c14393f488c69bd73c4e5cb60b1dcbe7c80a77096b293",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "e8df5397af0751d2076db467381125e575e222479f540cb6eb9fbb9f139f53a0",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "31daa53b4fb0975725d5c7693632705aceb7d7c1f50e660cebaa586e5efcd010",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "198cac87bb09fa1064b2236b23996345599d8fa639f832ad0a54e52eb0101daf",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Verified standard anatomy, default/destructive/cancel table meanings and four-total/three-additional button limit."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

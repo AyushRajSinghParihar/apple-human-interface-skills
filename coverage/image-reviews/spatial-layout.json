@@ -1,0 +1,78 @@
+{
+  "source_hash": "e585714679514a8337aec02f08f2b1810ceddcab2e588bf25b7e94cfa6a12884",
+  "media": {
+    "foundations-spatial-layout-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:16:22.712279+00:00",
+      "reference_metadata_hash": "ba71d103957f8fb12c0f17e5eea9232240746fc062f545249873d490082fe2f7",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-spatial-layout-intro@2x.png",
+      "binary_hash": "b2139f5450439257ed1407b2e9335e86ff244734e2ad1dd07a39a1b2e57a406e",
+      "review_method": "actual primary/alternate introductory-image gallery inspection and source topic/context identification",
+      "classification": "illustrative topic introduction; redundant with component/topic identity",
+      "evidence": "Actual introductory illustration and its light/dark representation inspected in numbered galleries. The image identifies or demonstrates this topic/component; the depicted sample labels, symbols and layout add no independent normative specification. Substantive design rules remain subject to the separate article/section audit.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/spatial-layout.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/spatial-layout.md",
+          "hash": "9c02a8f2318c622fa3a46b4a1357f4320e63f5d056e319c9ecb26305473b83b3"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-spatial-layout-intro~dark@2x.png",
+          "binary_hash": "19331ef9faacae26c2686bf088c7177e44db97a9a18647b397e2783920bc04ed",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "visionos-field-of-view-layout.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:22:07.654336+00:00",
+      "reference_metadata_hash": "7d14d4f3786e8ff6b0c58d823cab0d4b6c91d04985572fd89fb5dc78b3903394",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-field-of-view-layout@2x.png",
+      "binary_hash": "44defaded3730e0e726c793b2782c2c5daa4bfa2a000c45fc8fed40ccdfaea8d",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual room/window diagram illustrates centered concentric 30/60/90-degree circles. Source prose explicitly says real field of view varies and dimensions are unavailable, so the local Field of view correctly retains central placement and avoids promoting illustration labels into device guarantees.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/spatial-layout.md#Field-of-view",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/spatial-layout.md",
+          "hash": "9c02a8f2318c622fa3a46b4a1357f4320e63f5d056e319c9ecb26305473b83b3"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/3/inlineContent/0"
+      ]
+    },
+    "visionos-spatial-layout-2d-window.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "reviewed_at": "2026-10-25T13:22:07.654368+00:00",
+      "reference_metadata_hash": "960d79d53e6ad5620535ff5f964d129d559e78318a4ffb62ff1978243c399430",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-spatial-layout-2d-window@2x.png",
+      "binary_hash": "3094bcf6e4e5128fd6d6910233f3451f0a921b5ccbe545803f51e9339707f63d",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "substantive-example-preserved",
+      "evidence": "Actual Notes window layers sidebar/list/detail and a slightly raised floating control row. Local Depth retains subtle system-provided hierarchy, meaningful depth and physically coherent cues rather than arbitrary 3D decoration.",
+      "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/spatial-layout.md#Depth",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-foundations/references/spatial-layout.md",
+          "hash": "9c02a8f2318c622fa3a46b4a1357f4320e63f5d056e319c9ecb26305473b83b3"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/11/inlineContent/0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "source_hash": "f72d0d7b5a61c294a36b482e6d411295d887f690fedcb82b1e6f522f9c6d1a8f",
+  "media": {
+    "inputs-keyboard-intro.png": {
+      "status": "reviewed",
+      "reviewer": "root-independent-image-auditor",
+      "reviewed_at": "2026-10-25T13:25:28.103506+00:00",
+      "reference_metadata_hash": "686587a3365768a04d059c548827701e50edc8b3ee9e60c308b5d2d8276d1afe",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-keyboard-intro@2x.png",
+      "binary_hash": "b93bba8d8815201dc02403324b90b2fffe25fa8762867950793627d6b20e4c26",
+      "review_method": "actual image and source-context/local-explanation comparison",
+      "classification": "decorative",
+      "evidence": "Actual light/dark keyboard-symbol introduction inspected; it identifies the topic without adding a separate shortcut rule.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/keyboards.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/keyboards.md",
+          "hash": "b855e9aaacfeb270fe5114c7ba14dfc895d67e4a023885bca6aa6a6b9dc09eb4"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-keyboard-intro~dark@2x.png",
+          "binary_hash": "499c9c010d41d0c4e2217e3f8a02d7dbc8ec16eca539ddc8d8ea0414b2759bc3",
+          "status": "reviewed",
+          "reviewer": "root-independent-image-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "Keyboard_Command.svg": {
+      "status": "reviewed",
+      "reviewer": "root-independent-image-auditor",
+      "reviewed_at": "2026-10-25T13:25:28.103557+00:00",
+      "reference_metadata_hash": "22bf6e7f26b90395f5973832a39465d80df102b5185c7e6d2feafc397ba98edf",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/Keyboard_Command.svg",
+      "binary_hash": "92f4f3ba7af01711a6781c64a15adecbc48b68a3d2900d606d59c0276073467c",
+      "review_method": "actual CairoSVG rasterization of both source variants and visual comparison against local shortcut legend",
+      "classification": "notation",
+      "evidence": "Actual primary and dark SVGs rendered headlessly and inspected. Their geometry represents Command (⌘); the local shortcut legend retains the symbol/name mapping. Only foreground color changes with appearance.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/keyboards.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/keyboards.md",
+          "hash": "b855e9aaacfeb270fe5114c7ba14dfc895d67e4a023885bca6aa6a6b9dc09eb4"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/18/rows/1/1/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/Keyboard_Command~dark.svg",
+          "binary_hash": "c03abf9506941e86222be3987353cbe5c354f7c1e8f4cc3098a1337064266c7c",
+          "status": "reviewed",
+          "reviewer": "root-independent-image-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "Keyboard_Shift.svg": {
+      "status": "reviewed",
+      "reviewer": "root-independent-image-auditor",
+      "reviewed_at": "2026-10-25T13:25:28.103581+00:00",
+      "reference_metadata_hash": "a5b4722f9b85f9b9517e20b61b18d663fe5612977985d2ef1ae0a555586f2b77",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/Keyboard_Shift.svg",
+      "binary_hash": "8c48fe4df81357399fdb5181a112ed6e9cbe3bdec938a1efdce167a532c18c62",
+      "review_method": "actual CairoSVG rasterization of both source variants and visual comparison against local shortcut legend",
+      "classification": "notation",
+      "evidence": "Actual primary and dark SVGs rendered headlessly and inspected. Their geometry represents Shift (⇧); the local shortcut legend retains the symbol/name mapping. Only foreground color changes with appearance.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/keyboards.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/keyboards.md",
+          "hash": "b855e9aaacfeb270fe5114c7ba14dfc895d67e4a023885bca6aa6a6b9dc09eb4"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/18/rows/2/1/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/Keyboard_Shift~dark.svg",
+          "binary_hash": "ed68d8df3512dd0bfc0666820d90fa1398637d57b1a18656f0663976817e4c0c",
+          "status": "reviewed",
+          "reviewer": "root-independent-image-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "Keyboard_Option.svg": {
+      "status": "reviewed",
+      "reviewer": "root-independent-image-auditor",
+      "reviewed_at": "2026-10-25T13:25:28.103601+00:00",
+      "reference_metadata_hash": "bc3ebde596c99fa0806dc41601be59a90e5dfd72b20ea5752a96ecd3de4499c3",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/Keyboard_Option.svg",
+      "binary_hash": "e0ac960eea5a8337ff15c7ea0580d08fa1cf8ed7cf7694b6ca65bc7b02823168",
+      "review_method": "actual CairoSVG rasterization of both source variants and visual comparison against local shortcut legend",
+      "classification": "notation",
+      "evidence": "Actual primary and dark SVGs rendered headlessly and inspected. Their geometry represents Option (⌥); the local shortcut legend retains the symbol/name mapping. Only foreground color changes with appearance.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/keyboards.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/keyboards.md",
+          "hash": "b855e9aaacfeb270fe5114c7ba14dfc895d67e4a023885bca6aa6a6b9dc09eb4"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/18/rows/3/1/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/Keyboard_Option~dark.svg",
+          "binary_hash": "d04ee5901e4b60702bd0a145b1647cbef6880f6d0d8719d8f54818c02a9670df",
+          "status": "reviewed",
+          "reviewer": "root-independent-image-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    },
+    "Keyboard_Control.svg": {
+      "status": "reviewed",
+      "reviewer": "root-independent-image-auditor",
+      "reviewed_at": "2026-10-25T13:25:28.103620+00:00",
+      "reference_metadata_hash": "751132f29127cc4c93b6662a3a2c6f09ecf3d2d9544f4f4a3432baf7df367d7e",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/Keyboard_Control.svg",
+      "binary_hash": "835744ae8d5af0a90f76ed7b3118e5cef617aa91b08c8d9a9a3b573c8732aad1",
+      "review_method": "actual CairoSVG rasterization of both source variants and visual comparison against local shortcut legend",
+      "classification": "notation",
+      "evidence": "Actual primary and dark SVGs rendered headlessly and inspected. Their geometry represents Control (⌃); the local shortcut legend retains the symbol/name mapping. Only foreground color changes with appearance.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/keyboards.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/keyboards.md",
+          "hash": "b855e9aaacfeb270fe5114c7ba14dfc895d67e4a023885bca6aa6a6b9dc09eb4"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/18/rows/4/1/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/Keyboard_Control~dark.svg",
+          "binary_hash": "c6d44088af75317ea940f5104f82ec0b8ec018f552d0fa326f326fbf45604f39",
+          "status": "reviewed",
+          "reviewer": "root-independent-image-auditor",
+          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ]
+    }
+  }
+}

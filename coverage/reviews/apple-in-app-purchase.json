@@ -1,0 +1,1414 @@
+{
+  "review": {
+    "slug": "apple-in-app-purchase",
+    "status": "reviewed",
+    "source_hash": "2a92a999e98373695ad7949ced0c0c61e48d61ee8a7b63284669a096bbb5ea9e",
+    "destination_hash": "cce0785c38a204ab43eb70339b22f9fd93ad6966a4338a7d69dc9efc94a7b391",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:18:25+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "status": "reviewed",
+        "evidence": "Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked experience-before-buy,integrated store,clear product wording,total billing,payment restrictions and unmodified system confirmation."
+      },
+      {
+        "source_anchor": "Supporting-Family-Sharing",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-Family-Sharing",
+        "status": "reviewed",
+        "evidence": "Checked eligible nonconsumable/autorenewable purchases,five additional members,prominent benefits/system notices and purchaser/recipient wording."
+      },
+      {
+        "source_anchor": "Providing-help",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "status": "reviewed",
+        "evidence": "Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "source_anchor": "Auto-renewable-subscriptions",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Auto-renewable-subscriptions",
+        "status": "reviewed",
+        "evidence": "Checked onboarding benefits/terms,tier/duration choices,sampling approaches,relevant prompts and no double-selling existing/crossplatform subscribers."
+      },
+      {
+        "source_anchor": "Making-signup-effortless",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "evidence": "Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "source_anchor": "Supporting-offer-codes",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "source_anchor": "Helping-people-manage-their-subscriptions",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Helping-people-manage-their-subscriptions",
+        "status": "reviewed",
+        "evidence": "Checked summaries/renewal date,system upgrade/downgrade/cancel,retention/winback options and easy cancellation."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "No extra five-platform rules retained."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "b7134906e8514287f636102172187ad093e949f85d36bb64c5d7d555f78ce2eb",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "266c27fea6066677c983749475c895ed616c53fd4010f4fd1bd411261d71ecc6",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "8bddc7e28fadd18be276609309feab69b72df3c5f4dd4e904037e951c7fa31c4",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "50f1f17de243a3a896628b53befcaa2daff17f4fe1c4d7485c7d2294c3b24046",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/2/content/0",
+        "source_unit_hash": "a0c292ea461ddd1068b4af21b651257f98f71c13bb76024761ec47809e34909d",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "30b06f0c8b70b20086119fb7780e7f219c6b4c3eebe93657240e9043aa386c8e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "e0dde4fcf977222f3e2007ee934e79cd6ec4b3688847c230316659a5e676802d",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/items/0/content/0",
+        "source_unit_hash": "8260d1db154bc201bc9b9438beafb82794b87e78ec9b101e6a64845933cafaef",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/items/1/content/0",
+        "source_unit_hash": "9676d144a879b631d3873fd9ebeaa363c207469d00f3d376a78252599caae5ca",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/items/2/content/0",
+        "source_unit_hash": "c758836538705fdf81c9d4732af6fd1f519b0474971f9bc80c4eebc16fc1d111",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/items/3/content/0",
+        "source_unit_hash": "67d6fd88d7671503f539f3705b1cf3c6f4270e7d52f1b9c2fd706302f3392df4",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "d6fe57242c97ce1d9ab9798f1ee6e9fe9730ba3a6f9f80f2ef2e1f9b4f585f3c",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/5/inlineContent/0",
+        "source_unit_hash": "76f7bd0257216233c054bdafec69cf076a6d8632a1e07026bccfc88fe7d00e9e",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "cfdb821cf44807ce50fe8da0b28ee4556dc1b5d34a35297d7ffee92b95b83ee5",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "4fddd74a84d37b50beee8b512eb1ae70c9e86b8ab91fbb1a1145b00814f7ea40",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/7/content/0",
+        "source_unit_hash": "ba2974c8d4d63d4e882dfd7ee757237e18e6220eadcf0ba1a68a738e6214fdf7",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "apple-in-app-purchase",
+        "evidence": "Checked IAP versus ApplePay distinction,all four purchase types and Advanced Commerce complex-catalog/addon scope."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "2284a07d0f5ecfbc60db9c73545a77d6efd8d6876fe7e207e47f2a0a19ec0e3b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked experience-before-buy,integrated store,clear product wording,total billing,payment restrictions and unmodified system confirmation."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "b8a9f30cfb01c70ddb3d9516fd4fdf5084df9ec45b1b6e0180c8bf3e4d02a53f",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked experience-before-buy,integrated store,clear product wording,total billing,payment restrictions and unmodified system confirmation."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "70d110458df74a831f7299888997dd5c203b7fa0ba4508d8e0e151d4297850e8",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked experience-before-buy,integrated store,clear product wording,total billing,payment restrictions and unmodified system confirmation."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "1ed5550f62d2bc9862b93c668421a8b8c649460f658913092fb5129e9259c86d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked experience-before-buy,integrated store,clear product wording,total billing,payment restrictions and unmodified system confirmation."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "f787081c10d441e2616fde8b0008497ce518eb493d2fa49ce15b69a7d57f7933",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked experience-before-buy,integrated store,clear product wording,total billing,payment restrictions and unmodified system confirmation."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "379a2f1c222f14d0b24f0b067e56438354321f17eeb31ade12170d389b759663",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked experience-before-buy,integrated store,clear product wording,total billing,payment restrictions and unmodified system confirmation."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "1bd20d5714fbc2f14420d5f501737bd91f33e69cb3db0df3cc88a9304d216af0",
+        "source_anchor": "Supporting-Family-Sharing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-Family-Sharing",
+        "evidence": "Checked eligible nonconsumable/autorenewable purchases,five additional members,prominent benefits/system notices and purchaser/recipient wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "2c7908ba371069b2a71f34c7cfb9a28f5a5c6f48af3543a657f15e6c79022463",
+        "source_anchor": "Supporting-Family-Sharing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-Family-Sharing",
+        "evidence": "Checked eligible nonconsumable/autorenewable purchases,five additional members,prominent benefits/system notices and purchaser/recipient wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "3c9a249539692500aed91df9216cca7b0d2eeecdfe260ae59cadf8279a3bf702",
+        "source_anchor": "Supporting-Family-Sharing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-Family-Sharing",
+        "evidence": "Checked eligible nonconsumable/autorenewable purchases,five additional members,prominent benefits/system notices and purchaser/recipient wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "b1cc19c1bfd0caa6f5ca8ca2a46c33693f07075b48a5ee2e7dc4a2afdac10bac",
+        "source_anchor": "Supporting-Family-Sharing",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-Family-Sharing",
+        "evidence": "Checked eligible nonconsumable/autorenewable purchases,five additional members,prominent benefits/system notices and purchaser/recipient wording."
+      },
+      {
+        "id": "primaryContentSections/0/content/21",
+        "source_unit_hash": "ddbd8dc8c2db05bca3c6b993fbec96a03bcf926ef2080225d42c321a4200a312",
+        "source_anchor": "Providing-help",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "evidence": "Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "255c2b78674376acc6e16d8ba1b1306405d02ae548148417539e5aa737b8a064",
+        "source_anchor": "Providing-help",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "evidence": "Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "afdf884b3a087a5d290d5348c43dc78475bc0986f9e492e1911ddad6e824bead",
+        "source_anchor": "Providing-help",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "evidence": "Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "id": "primaryContentSections/0/content/23/inlineContent/0",
+        "source_unit_hash": "d646adf6b71091cf76d18688487c812afae6e57949d75019e52842a937f3bc02",
+        "source_anchor": "Providing-help",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "e85b5a1ea5a8b2effbcbde9aa96cd08e858cec1ac410e4263d198bc5a8a0fa6a",
+        "source_anchor": "Providing-help",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "evidence": "Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "id": "primaryContentSections/0/content/25",
+        "source_unit_hash": "8e7e14bdb5991fa0f734d861b1d03c901202a9a91246ba8fe2ed2a1eb1be23c3",
+        "source_anchor": "Providing-help",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "evidence": "Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "78ee59fd0fee89c63feaa8dfd09c82b900d498011a5f9eee8b2972becb929159",
+        "source_anchor": "Providing-help",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "evidence": "Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/inlineContent/0",
+        "source_unit_hash": "e47f87214728ef4054cd9fd232d84fdfb7ed02cb1598d9d95e8effcf3f2c47c7",
+        "source_anchor": "Providing-help",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "369c26c61c4db0b19b2aec970333d00be837ff6fd131a5ae4d4164947e6481e8",
+        "source_anchor": "Providing-help",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "evidence": "Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "0f26d8153455df73091f2d72141c5de090c8303ff5dabe6a54121c1cd8b2d90a",
+        "source_anchor": "Providing-help",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "evidence": "Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/columns/0/content/0",
+        "source_unit_hash": "edf88359377df07cdfcdb441e7378ccb4861bb0c6f7645eb10aa632e47c80539",
+        "source_anchor": "Providing-help",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "evidence": "Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "42a91de7c3593aedff90ada0e9e5923540742ef427b2417b8c4df7c0f13d1c7f",
+        "source_anchor": "Providing-help",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/columns/1/content/0",
+        "source_unit_hash": "fa7528bacbe3db9943be57eff2c145727fd4fffc3128a025c85ecfbdccf06055",
+        "source_anchor": "Providing-help",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "evidence": "Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "id": "primaryContentSections/0/content/29/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "4d0c3bd4e984c1f5f6b16f1067e86b2dee014bdf404b06943278a26c7f9cbeab",
+        "source_anchor": "Providing-help",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "c705f5cab6169d50e7239eec620d7e31dec29678b46c00089a4f475443499820",
+        "source_anchor": "Providing-help",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Providing-help",
+        "evidence": "Checked pre-refund support/FAQ/contact,product/date identity,alternative fulfillment without blocking,visible direct refund flow and no policy/outcome speculation."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "4fcdaf7204f0cb6ef7322061ce551e6637a55659873d4e641eb3d522d291766c",
+        "source_anchor": "Auto-renewable-subscriptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Auto-renewable-subscriptions",
+        "evidence": "Checked onboarding benefits/terms,tier/duration choices,sampling approaches,relevant prompts and no double-selling existing/crossplatform subscribers."
+      },
+      {
+        "id": "primaryContentSections/0/content/33",
+        "source_unit_hash": "0448b5869f4f6554096b60f9d50d74b27bf23514f893a9c6db74d5b38c240175",
+        "source_anchor": "Auto-renewable-subscriptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Auto-renewable-subscriptions",
+        "evidence": "Checked onboarding benefits/terms,tier/duration choices,sampling approaches,relevant prompts and no double-selling existing/crossplatform subscribers."
+      },
+      {
+        "id": "primaryContentSections/0/content/33/inlineContent/0",
+        "source_unit_hash": "e05313d3516481711c1bd5d3519112a57ff58785d624fa5b198524f37a90ef9b",
+        "source_anchor": "Auto-renewable-subscriptions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Auto-renewable-subscriptions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked onboarding benefits/terms,tier/duration choices,sampling approaches,relevant prompts and no double-selling existing/crossplatform subscribers."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "eaae72ef40e3331ee4e1709e29a14024ad95f090602361fd5407f8d95aba8585",
+        "source_anchor": "Auto-renewable-subscriptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Auto-renewable-subscriptions",
+        "evidence": "Checked onboarding benefits/terms,tier/duration choices,sampling approaches,relevant prompts and no double-selling existing/crossplatform subscribers."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "4fa10f1e40124fcb2d922f0f17593b56aed73470bfaaff27cdb6aa6435bc9d14",
+        "source_anchor": "Auto-renewable-subscriptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Auto-renewable-subscriptions",
+        "evidence": "Checked onboarding benefits/terms,tier/duration choices,sampling approaches,relevant prompts and no double-selling existing/crossplatform subscribers."
+      },
+      {
+        "id": "primaryContentSections/0/content/36",
+        "source_unit_hash": "0d7bfcce0890e03a7805811a035ec259c3646a54ce9fbbe4f0fe5ebac7b1d5ac",
+        "source_anchor": "Auto-renewable-subscriptions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Auto-renewable-subscriptions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked onboarding benefits/terms,tier/duration choices,sampling approaches,relevant prompts and no double-selling existing/crossplatform subscribers."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/tabs/0/content/0",
+        "source_unit_hash": "ea930c97cfb68e8a6bf542eb8757ce9f6a89f7ec22cfcb3f0ff840b32258fa2b",
+        "source_anchor": "Auto-renewable-subscriptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Auto-renewable-subscriptions",
+        "evidence": "Checked onboarding benefits/terms,tier/duration choices,sampling approaches,relevant prompts and no double-selling existing/crossplatform subscribers."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/tabs/0/content/0/inlineContent/0",
+        "source_unit_hash": "8be2edd5840cb0ce560d58daa2385484e39df52d340e056d63e85168e6cd200d",
+        "source_anchor": "Auto-renewable-subscriptions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Auto-renewable-subscriptions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked onboarding benefits/terms,tier/duration choices,sampling approaches,relevant prompts and no double-selling existing/crossplatform subscribers."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/tabs/1/content/0",
+        "source_unit_hash": "e503ef01904f88b6229764f83e417d96d08f6da26f6300f3b5b8e983ad0dbd90",
+        "source_anchor": "Auto-renewable-subscriptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Auto-renewable-subscriptions",
+        "evidence": "Checked onboarding benefits/terms,tier/duration choices,sampling approaches,relevant prompts and no double-selling existing/crossplatform subscribers."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/tabs/1/content/0/inlineContent/0",
+        "source_unit_hash": "ea98818dad1d347e7a146500b7e8544d5131639eed5e0dabaf22fdf675dc689c",
+        "source_anchor": "Auto-renewable-subscriptions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Auto-renewable-subscriptions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked onboarding benefits/terms,tier/duration choices,sampling approaches,relevant prompts and no double-selling existing/crossplatform subscribers."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/tabs/2/content/0",
+        "source_unit_hash": "c4995b8542f296bc987cbef39f12b554cc47f42ee89833aa37c14d3480e98363",
+        "source_anchor": "Auto-renewable-subscriptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Auto-renewable-subscriptions",
+        "evidence": "Checked onboarding benefits/terms,tier/duration choices,sampling approaches,relevant prompts and no double-selling existing/crossplatform subscribers."
+      },
+      {
+        "id": "primaryContentSections/0/content/36/tabs/2/content/0/inlineContent/0",
+        "source_unit_hash": "c3f361f7f9439dddd322a82bdfb464a54df6912c7c28afbc0cc1d7a43d5d57da",
+        "source_anchor": "Auto-renewable-subscriptions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Auto-renewable-subscriptions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked onboarding benefits/terms,tier/duration choices,sampling approaches,relevant prompts and no double-selling existing/crossplatform subscribers."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "d8b35237c7f63a03bade9f585defcabace58246df207b7a7b7fb881d0bf24be7",
+        "source_anchor": "Auto-renewable-subscriptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Auto-renewable-subscriptions",
+        "evidence": "Checked onboarding benefits/terms,tier/duration choices,sampling approaches,relevant prompts and no double-selling existing/crossplatform subscribers."
+      },
+      {
+        "id": "primaryContentSections/0/content/38",
+        "source_unit_hash": "4e61ef23750bea2ca9aa7c623f4059b7656af4448bec9c3b84817c4a061a97d2",
+        "source_anchor": "Auto-renewable-subscriptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Auto-renewable-subscriptions",
+        "evidence": "Checked onboarding benefits/terms,tier/duration choices,sampling approaches,relevant prompts and no double-selling existing/crossplatform subscribers."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "8b20c038d2d95e8c3231725dc41253f91eac6ebc6a86b23b267fb3fbb010e0b8",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/41",
+        "source_unit_hash": "12eb0174dc5a3b3a83e8e6ad1470ca17dcd71ffd649290a2878df6b365f8d640",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "4b2cbb783087d392ae5c662e72181331b9d7bc16ba77b6ccf7ea09444a11abb8",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "cfaf8238ead642668c12e460e59ae63ad2f7bd1feb5dc044d849dc7bc9682351",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "15d12c7a5d8f730d1ae88e21e568989dc6054d4f2299b2ca1ac9bc289800f2bf",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "43ca9efe2d154ac8650b5ae3d041d562f0f1c202e372ca0e5b15ddb092a13030",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/items/0/content/0",
+        "source_unit_hash": "3ff2eccddd98419862eed7ab6c686e7737fab7c713b43d91470679ee2debbda6",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/items/1/content/0",
+        "source_unit_hash": "ca653d773c19655a21912bc1480f4a3ac3fee4ee79bb38b80f2f138c26ad612f",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/items/2/content/0",
+        "source_unit_hash": "59dab5ff1a250b476d09dd7a813a4999772ec59ac14d25d97ecbf64eb8c88c5f",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/46",
+        "source_unit_hash": "84b65ea0ac11e469f2a9a1819b9aa96064dcb38f744ae8ff4ec813d584cd6bad",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "685bc038e006425e7e85120b7fd6889c190ec875368991de5de9dd0e30552350",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/47/inlineContent/0",
+        "source_unit_hash": "beafec0ab278963097677fc5258c7bb234f6064b8e232010ba10bb1a87a46da0",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "95e548845dd7926c70263229d0c35922d6f92f7a44aa208ca28a0a89158b9ad5",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "0e18eb1dc9d0ee76a88df1d7fb6c9a6bb5fe660ebc3cbe9d6bbe9a46e2b07deb",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/inlineContent/0",
+        "source_unit_hash": "c4f2d214c13586a72d796f114fda3471b482632d7fabec0dc73cb1c34f9d4afc",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "0d12a905f0a799b852aef869a8690f1d137d8d44d8b6496159384eab41d89a95",
+        "source_anchor": "Making-signup-effortless",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Making-signup-effortless",
+        "evidence": "Checked clear tiers/intro and later prices,essential data,tvOS other-device flow,all required terms/privacy/name/duration/content/localized total/restore fields,total before breakdown,trial autobilling and settings access."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "f5592504c4dee34c28c5058ef410b9821cedf9c5cfcfd42ee249796e45649880",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/53",
+        "source_unit_hash": "6517404d980cfd0b8927d26204776be25850d74f52673e945acd2fcfa12faa52",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "8657e7bbc1ba7e13853e3a094680b40517d53e80de27ab47206ab7567307b77d",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/items/0/content/0",
+        "source_unit_hash": "873dba7832692f4a6517f036586c73cf2b67f45c53b8e1821bde635451200462",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/54/items/1/content/0",
+        "source_unit_hash": "85ec2590f639b58af07e504b994dd19c8aa5b3f29f1f396ba640bdba5623d322",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "113e9c57bbdc7dcba595ac78eb62725ad483497c85848ed24f8ccd849855e92e",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "f49c2590498d3bd3e7ce447329d3bc6eaced606017d8c82488e99e1e04763f30",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "f2bc10988a27921200a55a0f010dc9772f4b77846c7af90977c11ec72af048c3",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "1c9b354c9742a97037341844744767ed8709cc9b75881fdd8f5002c182fcda84",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "e1527eb764c73d6140eba1f0384a91d351cc04aa14c55f8faba2aa39424dd38c",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/columns/0/content/0",
+        "source_unit_hash": "a91797b1e29997bc28aea08265b64846c8739a28ce19288f2222da772f3aa033",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "734b149ceb3f21e4e6b8b2eb504b12c41892d168459470deaeece6128dbe74ea",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/columns/1/content/0",
+        "source_unit_hash": "d794ce04170dc57bf93c8150913787eea6784acd2b6d862fd818f9f185e9931a",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/60/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "836cdf0328b608c607e7506b6f4a4fa9b1e221e8d5906c5fdde9c0e6045e5914",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/61",
+        "source_unit_hash": "726e6c2e1eecdbf55116c951f725a29a2b3c8124b319e92ebaab770956eebc10",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/62/columns/0/content/0",
+        "source_unit_hash": "fadc938c82f8eea7cec1be445b0cfb73e232a9a09bd9a0f009d77e268923ae11",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/62/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "ee66e6d3714b6327b7c752531b14f32fe8dba8c625d8ff24b2608a1ae94fa9ee",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/62/columns/1/content/0",
+        "source_unit_hash": "89f966217e93491356ef7647520d0f3cec5b87e0d1a9a01fcb6452b19925a7d1",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/62/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "7c0f185437b4540a5c4dce126b530fcd8b2c230ede2fac98eab38f6949a36fd3",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "f41d7653323746d436a7a6a88b3fad141c0010009a925a1fcfccf5f01239451e",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/64",
+        "source_unit_hash": "1c5f9b23cb0a73947bd3b6d32cd372a6f5caa4780e29b008cc4cfb10bccfdd34",
+        "source_anchor": "Supporting-offer-codes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Supporting-offer-codes",
+        "evidence": "Checked onetime/custom distribution and redemption differences,ASCII restriction,clear offer terms,system in-app flow,promo image/default icon and immediate contextual entitlements including first launch."
+      },
+      {
+        "id": "primaryContentSections/0/content/66",
+        "source_unit_hash": "564d6b836bffef03ea16ee4a6e277b9507d140a315580f0a28d0892325279090",
+        "source_anchor": "Helping-people-manage-their-subscriptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Helping-people-manage-their-subscriptions",
+        "evidence": "Checked summaries/renewal date,system upgrade/downgrade/cancel,retention/winback options and easy cancellation."
+      },
+      {
+        "id": "primaryContentSections/0/content/67",
+        "source_unit_hash": "d794ce04170dc57bf93c8150913787eea6784acd2b6d862fd818f9f185e9931a",
+        "source_anchor": "Helping-people-manage-their-subscriptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Helping-people-manage-their-subscriptions",
+        "evidence": "Checked summaries/renewal date,system upgrade/downgrade/cancel,retention/winback options and easy cancellation."
+      },
+      {
+        "id": "primaryContentSections/0/content/67/inlineContent/0",
+        "source_unit_hash": "836cdf0328b608c607e7506b6f4a4fa9b1e221e8d5906c5fdde9c0e6045e5914",
+        "source_anchor": "Helping-people-manage-their-subscriptions",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Helping-people-manage-their-subscriptions",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked summaries/renewal date,system upgrade/downgrade/cancel,retention/winback options and easy cancellation."
+      },
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "7ecd507c281dca7dcf76a880ed44bd8d66b75ed00510eccbc2c2f5965b47a2fa",
+        "source_anchor": "Helping-people-manage-their-subscriptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Helping-people-manage-their-subscriptions",
+        "evidence": "Checked summaries/renewal date,system upgrade/downgrade/cancel,retention/winback options and easy cancellation."
+      },
+      {
+        "id": "primaryContentSections/0/content/69",
+        "source_unit_hash": "5db5b8545f9d3cece539884cf9b0850b03f23f1e1728dfd487d8abcc8ddede34",
+        "source_anchor": "Helping-people-manage-their-subscriptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Helping-people-manage-their-subscriptions",
+        "evidence": "Checked summaries/renewal date,system upgrade/downgrade/cancel,retention/winback options and easy cancellation."
+      },
+      {
+        "id": "primaryContentSections/0/content/70",
+        "source_unit_hash": "d7228eb1fef5d00971a4dc3532a73c171aa5a60e413d32cef28ae57e9b58ca6b",
+        "source_anchor": "Helping-people-manage-their-subscriptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Helping-people-manage-their-subscriptions",
+        "evidence": "Checked summaries/renewal date,system upgrade/downgrade/cancel,retention/winback options and easy cancellation."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "1c14d9010aa5db7aeb51898095e2fd7e65540b73b8a9f9a2b9a5c46ec6070c44",
+        "source_anchor": "Helping-people-manage-their-subscriptions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Helping-people-manage-their-subscriptions",
+        "evidence": "Checked summaries/renewal date,system upgrade/downgrade/cancel,retention/winback options and easy cancellation."
+      },
+      {
+        "id": "primaryContentSections/0/content/73",
+        "source_unit_hash": "419dff4da9c20c346eed34e1af970d92a6620fab245019a8b5c35ceb6d2b9a59",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "No extra five-platform rules retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/75",
+        "source_unit_hash": "1cd5c0e08089ee51ba609e719abace232eaa254d97255204cc5281c15e211109",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "id": "primaryContentSections/0/content/76",
+        "source_unit_hash": "281b320179b8866afb3bf119b35a9e1fc0eea3d9eebee6189be60f37bc3fa2a0",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "id": "primaryContentSections/0/content/77/columns/0/content/0",
+        "source_unit_hash": "2ac94bef586e93cbba6a864b35363d0e7c10f7a39e76a33f16f72844039152ea",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "id": "primaryContentSections/0/content/77/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "9e469282797f0b718a59e8858fd076ec840a804e5cab8dbebcd29a8ae2ab9637",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "id": "primaryContentSections/0/content/77/columns/1/content/0",
+        "source_unit_hash": "7e1248bd4f0240534951140d192dd3ae67b67974ab1173f518e9c10455eedef1",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "id": "primaryContentSections/0/content/77/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "61d2dc24a848bc5a58b671f3cbeb9081d537a74bdfaca9598341f0611007cde7",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "id": "primaryContentSections/0/content/78",
+        "source_unit_hash": "22c7e76296bf3c53d9501e456533edab0784a9c0b005817cd5bee092277aa4e7",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "id": "primaryContentSections/0/content/79",
+        "source_unit_hash": "746885504e13f2c174cc993bf658b99883890984ba9feac7e58a5c88a2ef34eb",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "id": "primaryContentSections/0/content/80",
+        "source_unit_hash": "4326d0a8fbb851b4a4ce8c75c43885d53851a0c18e099c6b908afeb08bcb2d92",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "id": "primaryContentSections/0/content/80/items/0/content/0",
+        "source_unit_hash": "7645dfb7eda2efa19ddd3c42482922d9d2f435b772499aadf4d0d638a265816f",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "id": "primaryContentSections/0/content/80/items/1/content/0",
+        "source_unit_hash": "19ea315b677f1e867129ddfb651a8a4ca9fde03407eebd39c9b18be54e4c5a4f",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/0/content/0",
+        "source_unit_hash": "1a52ab5ae7eb0c479622f34f6adc8ff2d9cb6029689d42614b4e270a9fa656d1",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "62c7b517b889a97d75b76dcf84c7b7ae6f81821b412f7f60da046cf448a2c610",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/1/content/0",
+        "source_unit_hash": "d7d791a70c02acc22aa3ece2f4c1305ba29b3e7f3cadeaf7425c9923068f49b9",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "id": "primaryContentSections/0/content/81/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "581d1b00dcc60708e3bc906f75f6a8071265e9578223f72dba314843721c7dc7",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked same required disclosures,device differences,modal/custom dismissal and both compact option comparison layouts."
+      },
+      {
+        "id": "primaryContentSections/0/content/84",
+        "source_unit_hash": "fc93ab70d2abe3c754df8fad173a89e408df84aed587420ed6eeb8c6d39ecca9",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/85",
+        "source_unit_hash": "5cede253f6b3b062d11843b7f4ce54df22dcf2d4f1df79d6086877c30926049e",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/86",
+        "source_unit_hash": "3e6e8fffd826907771e8c9e69383e974124fd1672dd5142b8757dcd404ef3e3c",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/88",
+        "source_unit_hash": "bc2b6e3e922658c6ed1a7eb70d3056c68242feda5316a88052c2bfcb7c55d5f4",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/92",
+        "source_unit_hash": "18d14e79255644b9a4ed60595f1843629b9d61aaabcf5a416b744d1c7646da48",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/92/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/92/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/92/rows/1/0/0",
+        "source_unit_hash": "2f23a0350a4695e0cbe63408b185f78bc0e531346dba3471b3f5126e3667dbdb",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/92/rows/1/1/0",
+        "source_unit_hash": "24aa7d0d053e3e50216c8ab5ce9aebe9e5050e97780d45282cbcb7c014e15cce",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/92/rows/2/0/0",
+        "source_unit_hash": "2fcab2806aebbb2b0c1f085dd684047a32efe7390a10b69cd154b0b8fc93584d",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/92/rows/2/1/0",
+        "source_unit_hash": "16ebb6cb2a88adf84f8052af1432b2ecb36603b41cb6db274e59c9c56765062a",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/92/rows/3/0/0",
+        "source_unit_hash": "748c11e10bd133d79c84e996594500ba552ad300e6d542649a08c73641d54cd8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/92/rows/3/1/0",
+        "source_unit_hash": "c85ccc45983f92a1c97a56a05642ba9d57dec4caf23764406954756a3785032c",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/92",
+        "source_unit_hash": "18d14e79255644b9a4ed60595f1843629b9d61aaabcf5a416b744d1c7646da48",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

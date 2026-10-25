@@ -1,0 +1,2177 @@
+{
+  "review": {
+    "slug": "layout",
+    "status": "reviewed",
+    "source_hash": "cefad5cdaa2f516254f7ba2f7c9d82ca11179f2b6ca89d43aab835041319278f",
+    "destination_hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98",
+    "reviewer": "cross-reviewer-b",
+    "reviewed_at": "2026-10-25T13:17:00+00:00",
+    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "layout",
+        "status": "reviewed",
+        "evidence": "Checked consistent adaptable layout across actual content/control relationships."
+      },
+      {
+        "source_anchor": "Visual-hierarchy",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Visual-hierarchy",
+        "status": "reviewed",
+        "evidence": "Checked reading-order priority,RTL,alignment/indentation,grouping/progressive disclosure,functional glass/edge treatment and background extension."
+      },
+      {
+        "source_anchor": "Adaptability",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "status": "reviewed",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "source_anchor": "Size-classes",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "status": "reviewed",
+        "evidence": "Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "source_anchor": "Guides-and-safe-areas",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Guides-and-safe-areas",
+        "status": "reviewed",
+        "evidence": "Checked rectangular guides/readable width and obstruction-safe controls/content."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "No additional iOS/iPadOS rules retained."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Checked offscreen bottom controls and top camera housing cautions."
+      },
+      {
+        "source_anchor": "tvOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "tvOS",
+        "status": "reviewed",
+        "evidence": "Checked60pt vertical/80pt horizontal safety and focused growth clearance."
+      },
+      {
+        "source_anchor": "Grids",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "status": "reviewed",
+        "evidence": "Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "source_anchor": "Two-column-grid",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Two-column-grid",
+        "status": "reviewed",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "source_anchor": "Three-column-grid",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Three-column-grid",
+        "status": "reviewed",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "source_anchor": "Four-column-grid",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Four-column-grid",
+        "status": "reviewed",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "source_anchor": "Five-column-grid",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Five-column-grid",
+        "status": "reviewed",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "source_anchor": "Six-column-grid",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Six-column-grid",
+        "status": "reviewed",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "source_anchor": "Seven-column-grid",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Seven-column-grid",
+        "status": "reviewed",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "source_anchor": "Eight-column-grid",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Eight-column-grid",
+        "status": "reviewed",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "source_anchor": "Nine-column-grid",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Nine-column-grid",
+        "status": "reviewed",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "source_anchor": "visionOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "visionOS",
+        "status": "reviewed",
+        "evidence": "Checked resizing/centered wide layout,bounds not resize prevention,sparse inset3D,volumes/immersive alternative,adjacent supplemental window and60pt control centers."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Checked at most3glyph/2text controls,full-width/nonscrolling exception and show-others autorotation."
+      },
+      {
+        "source_anchor": "Resources",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Resources",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Related",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Related",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Developer-documentation",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Videos",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Videos",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "b055f75a16ce135d9a1dd91b202d732a33b7fcf08afed2ed2c3e400030de328b",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "layout",
+        "evidence": "Checked consistent adaptable layout across actual content/control relationships."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "06bfabd6e7563c6019accb55819115868a3ff8a52b67027accef2055f0af557a",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "layout",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked consistent adaptable layout across actual content/control relationships."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "e019fdd975e13510298da696f0d5cd020100df8a3eaa2fa2e58e1f803f4b5383",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "layout",
+        "evidence": "Checked consistent adaptable layout across actual content/control relationships."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "1d9822290aa2de5c1921fefc64953e1ee35ee7061658ce53eb586c60f88fa502",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "layout",
+        "evidence": "Checked consistent adaptable layout across actual content/control relationships."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "bc850e869c23157b6d366f69e69d002766633d9e02597b8f8ed3f9a423aa0db9",
+        "source_anchor": "Visual-hierarchy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Visual-hierarchy",
+        "evidence": "Checked reading-order priority,RTL,alignment/indentation,grouping/progressive disclosure,functional glass/edge treatment and background extension."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "da48b0f13bc2d222608e2e90bbe77dd52df171d6bb7acb5092541750797aaa65",
+        "source_anchor": "Visual-hierarchy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Visual-hierarchy",
+        "evidence": "Checked reading-order priority,RTL,alignment/indentation,grouping/progressive disclosure,functional glass/edge treatment and background extension."
+      },
+      {
+        "id": "primaryContentSections/0/content/6",
+        "source_unit_hash": "deadf8edfb01eb34ff43794ee7874a5a69bbb2e0a94e39b29a0d2385c745ea7d",
+        "source_anchor": "Visual-hierarchy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Visual-hierarchy",
+        "evidence": "Checked reading-order priority,RTL,alignment/indentation,grouping/progressive disclosure,functional glass/edge treatment and background extension."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "ff4c9892660493a6a76ce7366246895573de7fbfaeef01dd950f0325a916fc0e",
+        "source_anchor": "Visual-hierarchy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Visual-hierarchy",
+        "evidence": "Checked reading-order priority,RTL,alignment/indentation,grouping/progressive disclosure,functional glass/edge treatment and background extension."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "929decaca36f86fc454414eff720086cf462e2c92e3503d092f1236b59b82dce",
+        "source_anchor": "Visual-hierarchy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Visual-hierarchy",
+        "evidence": "Checked reading-order priority,RTL,alignment/indentation,grouping/progressive disclosure,functional glass/edge treatment and background extension."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "8f33ccb3fb8a848acda13f79b9a3416fbf6d3e000b5898587ae610274d451ce7",
+        "source_anchor": "Visual-hierarchy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Visual-hierarchy",
+        "evidence": "Checked reading-order priority,RTL,alignment/indentation,grouping/progressive disclosure,functional glass/edge treatment and background extension."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "bef369888622fd0611910a93cc40ff1f5e5d5107bdebf3506e55e38c749dce33",
+        "source_anchor": "Visual-hierarchy",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Visual-hierarchy",
+        "evidence": "Checked reading-order priority,RTL,alignment/indentation,grouping/progressive disclosure,functional glass/edge treatment and background extension."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/inlineContent/0",
+        "source_unit_hash": "b9522d9304ea1153debb55f7a4c72957070c1d1dfa71b11f63a60d5f2ea221b6",
+        "source_anchor": "Visual-hierarchy",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Visual-hierarchy",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked reading-order priority,RTL,alignment/indentation,grouping/progressive disclosure,functional glass/edge treatment and background extension."
+      },
+      {
+        "id": "primaryContentSections/0/content/12",
+        "source_unit_hash": "c797a735cdc21651032070d29395694461d89a6041ad4306ee0473700fbe31e3",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "f4ac59a727ccbf3858af6fc54df468206ba1faed0823f530551d416be27f904c",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/14",
+        "source_unit_hash": "c87ffc16d55a902996b123ecacd4808abfd614472098e635c426713ae4d3a15a",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/items/0/content/0",
+        "source_unit_hash": "1dc02bd9da425bb64d15ca8b1d98dfda4f6654eb7e9d70080e4a23a9ff4d5312",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/items/1/content/0",
+        "source_unit_hash": "fadf8ac09e8905024a7f88ef9f3ea4235823b546722e477464126cd776e66874",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/items/2/content/0",
+        "source_unit_hash": "95f84305270de7ccdbb89da56840bfc53754c46fe01058e67ba2dcb57f55dd45",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/items/3/content/0",
+        "source_unit_hash": "d85808e6622d72e0479fa2b4047489e1513b60b77fcc7e3d7f89100421f8b49a",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/items/4/content/0",
+        "source_unit_hash": "6d667a93ea2000d891de832c4297c5b8c42befb4bc646805dd6526cd4d83b3bf",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/items/5/content/0",
+        "source_unit_hash": "5728c5c84b90b4437823a5de45b5a9723fb2680e830c91e245904150fab203c0",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/14/items/6/content/0",
+        "source_unit_hash": "e545b74c1b5c8d2cc7a0727d6187464604aa91f636ac849be5b243c440da0dee",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "e45ab3ace949362f955614c37358be5c8c1c2833c41696c8dedaadfeeefff17d",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/16",
+        "source_unit_hash": "173e20e72d3dd0b27442ace5be27c35a5218f82fa4a606640b4b137c3813444c",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "675ec230051c7bf37153e324a62f2ad52ce645701615679daf4f6a233db3873b",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "bf3773d45536fa7e5d205d980b0e8f3ed0d528d974faf69eec2ef9a34a3cad3d",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "648f84d5829d0e7272e0e636779379dfe4875a8aa922548ddfd7f1a997cb033f",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "0ce581970bcacf68e0aa22b9fc86674e564d4e9d7e15b004423b8c12011d9e37",
+        "source_anchor": "Adaptability",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Adaptability",
+        "evidence": "Checked full environmental/localization/text matrix,locked orientation resizing,large-text stacking/height/wrapping,Unity support,extreme/device tests and nondistorted background scaling."
+      },
+      {
+        "id": "primaryContentSections/0/content/22",
+        "source_unit_hash": "9e3e5b05faa4760926bab4feac682b609feeadd52a394c9ed9b95c2728efb9ea",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "134b47dd0575fa3539646a8ec4b76a2f2d49b4d596703e92d987a692308749ca",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "3b4990e55fe158fd577255000c4089857a07d9dea8d13b000b10cd520d1261f2",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/columns/0/content/0",
+        "source_unit_hash": "8b7394add0e530de8c0d6aa2b97b52f101ded5b1128fce91fbb3bf230f0251f1",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "d1508b6a2d84d931471c9825890f0b46ce75b64b0c3b58fba58f5e6c09303780",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/columns/1/content/0",
+        "source_unit_hash": "89958d85cf36bed615f7afc250abe9858562aa9b0a6e04427b2bc2b78ed1c55c",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/25/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "bea03121fb3ba4fc7c610e539b864f45b4a9f5946238a2415fba79bed057cdab",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/0/content/0",
+        "source_unit_hash": "289ccbc4e75937c618d3c4a39075395b66e8d4c41ccd165143ffc8fcdf1e375e",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "76f850eb478bbc49f22bd4194f51610613b303930555721aad614d5c5f9581a0",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/1/content/0",
+        "source_unit_hash": "19eb2ecb45e157d5f13c7dd5bb9266ce0e34ead9c3ce27d24ab10ad1d862ba36",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/26/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "3a8b67438d3d303bf06f12114aa42760f6bcaf386ac69fef6446f9aeb6836329",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "6576eb9e75bb4a2cbe3d137c8b7a1bcf46c12847c9f6ec7567e60907069d7501",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "f7f29e3b18d71ce5f14039be97836ba38bde9da221a9a2f6b9619202ee802b94",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "0e63ca195198745b291cab2f87a4423d79b02e4e573f9151394d49a494cc9b26",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/30",
+        "source_unit_hash": "17a07b2c04cf240360a8f85bc2fd3e8b5599b0503f0298e5823486dd8126ac0c",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "c836b2a9277c59b0a0a517be6e544de911c5cf61758945a174e2a3e6b2a98d3d",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/32",
+        "source_unit_hash": "e0a6db3caa0b8a622d7f2e6f9c20637fd46a7f8e40329d9563ffdcdea47c1e7c",
+        "source_anchor": "Size-classes",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Size-classes",
+        "evidence": "Checked compact/regular axes,allfour combinations,space rather than idiom/orientation,stable function and platform identity."
+      },
+      {
+        "id": "primaryContentSections/0/content/34",
+        "source_unit_hash": "bc59e4e9af19b641c85a5d58c1517fbb50a24eabc024859a2c9ea125a4956704",
+        "source_anchor": "Guides-and-safe-areas",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Guides-and-safe-areas",
+        "evidence": "Checked rectangular guides/readable width and obstruction-safe controls/content."
+      },
+      {
+        "id": "primaryContentSections/0/content/35",
+        "source_unit_hash": "a369f8a0af1304ac955b86f00bc9cafbe4fa19c422c36016403a7a96138654f4",
+        "source_anchor": "Guides-and-safe-areas",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Guides-and-safe-areas",
+        "evidence": "Checked rectangular guides/readable width and obstruction-safe controls/content."
+      },
+      {
+        "id": "primaryContentSections/0/content/37",
+        "source_unit_hash": "0913e822d1a1b470021017c88efa37e4ff336772786db7c5922024ac84e61a74",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "No additional iOS/iPadOS rules retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/39",
+        "source_unit_hash": "5fcca99b83847744c1eb215fe68963635db56c7dd4f583da19a115c063430885",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked offscreen bottom controls and top camera housing cautions."
+      },
+      {
+        "id": "primaryContentSections/0/content/40",
+        "source_unit_hash": "9c9df8ff67b02a720c315a21b18f472675bb2308fca7451e5557ce1d89cbfed0",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked offscreen bottom controls and top camera housing cautions."
+      },
+      {
+        "id": "primaryContentSections/0/content/42",
+        "source_unit_hash": "661a8b3d35b958d32cd99886b76b96cc2bcb90cdde926a08276886e590791e8b",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked60pt vertical/80pt horizontal safety and focused growth clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/43",
+        "source_unit_hash": "82b24a0bb15043b2f7d774c4de2c6d7b2db73999844c7a70dbb5aac1119a5483",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked60pt vertical/80pt horizontal safety and focused growth clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/43/inlineContent/0",
+        "source_unit_hash": "d0e68c2b229163628e9951e1cc290e76f54cf7a0d6afcf337f1726a5ea816cae",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked60pt vertical/80pt horizontal safety and focused growth clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/44",
+        "source_unit_hash": "2331e1c822d7ca88a050d017b7e2d6b0288ee0712081ce74a4fecc854d2ad5c5",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked60pt vertical/80pt horizontal safety and focused growth clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/45",
+        "source_unit_hash": "45c8e5be556ede96ec57f09db7174844ace186bb14a6ccb5998a61598d497ac9",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Checked60pt vertical/80pt horizontal safety and focused growth clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/45/inlineContent/0",
+        "source_unit_hash": "0437fc24a892ad161990b0973185ac83cbe82e4e5e579bc58d6bfc54b7bad33e",
+        "source_anchor": "tvOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "tvOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked60pt vertical/80pt horizontal safety and focused growth clearance."
+      },
+      {
+        "id": "primaryContentSections/0/content/47",
+        "source_unit_hash": "fd6382692f0a66b7a8d6d0c3b6fe3ea0b127e10084b41b3d5c9fa2939424cdc9",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/48",
+        "source_unit_hash": "4c5dbdc7891d59970db8588ba5980579a0be4c12577541d105473f9543a6fd69",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49",
+        "source_unit_hash": "6b38a4189acc237fda296f44e385028e5d9714263c19f7a81cec2d275a4d156c",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/0/content/0/columns/0/content/0",
+        "source_unit_hash": "56e3584745fccf93a24f933917fc14ec936c9b13e0df448ca9589f18283405a7",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/0/content/0/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "d8769678f784c7bc8553597df4abee8e3fdc174bd86ab2a28d38998eb1a62f76",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/0/content/0/columns/0/content/2",
+        "source_unit_hash": "2b18e08c420170876e4557de9e2d348063889906ba2613de0666d130bd8fc771",
+        "source_anchor": "Two-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Two-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/0/content/0/columns/0/content/2/rows/0/0/0",
+        "source_unit_hash": "379969b19678bc6ac70ec2bad0d9b21b13e9b09c18cf7f462aac02465d0fe523",
+        "source_anchor": "Two-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Two-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/0/content/0/columns/0/content/2/rows/0/1/0",
+        "source_unit_hash": "1d81e4e6438c4f14f388f9e5a9c557210883b6a1718cafde77b93d597b86105d",
+        "source_anchor": "Two-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Two-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/0/content/0/columns/0/content/2/rows/1/0/0",
+        "source_unit_hash": "f9b4571065438d48a7c1ec5901f9b5f7003ebc85a8f1cae4bbcf6c6869fefe81",
+        "source_anchor": "Two-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Two-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/0/content/0/columns/0/content/2/rows/1/1/0",
+        "source_unit_hash": "23fe6402007819490067dda04bdf713cdf2851d91143e211c2f1b6f051d9e2cd",
+        "source_anchor": "Two-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Two-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/0/content/0/columns/0/content/2/rows/2/0/0",
+        "source_unit_hash": "fcb341b45bc8d8af80df2351f2cd204104434ab015a0b02f365f5822a3c5b7ce",
+        "source_anchor": "Two-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Two-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/0/content/0/columns/0/content/2/rows/2/1/0",
+        "source_unit_hash": "ae00b038e44db16a9dd94c40438499d3a123e9a88d87463cc8e2418eae83d8aa",
+        "source_anchor": "Two-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Two-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/0/content/0/columns/0/content/2/rows/3/0/0",
+        "source_unit_hash": "b283ab90233a0c104fd04429dc9fd5dc87cdacfaade511a423c06b1174f33262",
+        "source_anchor": "Two-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Two-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/0/content/0/columns/0/content/2/rows/3/1/0",
+        "source_unit_hash": "b6e16a7a1c9180506b78fd786cd50c09c9803b48ba54cedb317b128976bbb744",
+        "source_anchor": "Two-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Two-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/1/content/0/columns/0/content/0",
+        "source_unit_hash": "95162d1955c5907b0feb67d3cbc38d8f174fac4190042667412f138f4584159f",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/1/content/0/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "3dffdf6035e19df7c693b4bb374573f4a3783ad35e1b5786e2e3aa8dcc71ce42",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/1/content/0/columns/0/content/2",
+        "source_unit_hash": "06457e769e2f1028d45f5aeb1c120567d9d4b68f1e3ca87e95769c4569bf7aea",
+        "source_anchor": "Three-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Three-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/1/content/0/columns/0/content/2/rows/0/0/0",
+        "source_unit_hash": "379969b19678bc6ac70ec2bad0d9b21b13e9b09c18cf7f462aac02465d0fe523",
+        "source_anchor": "Three-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Three-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/1/content/0/columns/0/content/2/rows/0/1/0",
+        "source_unit_hash": "1d81e4e6438c4f14f388f9e5a9c557210883b6a1718cafde77b93d597b86105d",
+        "source_anchor": "Three-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Three-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/1/content/0/columns/0/content/2/rows/1/0/0",
+        "source_unit_hash": "f9b4571065438d48a7c1ec5901f9b5f7003ebc85a8f1cae4bbcf6c6869fefe81",
+        "source_anchor": "Three-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Three-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/1/content/0/columns/0/content/2/rows/1/1/0",
+        "source_unit_hash": "16dd395094a3764a2216f7fa8f412bf31b2ce6f256fbe12ca84df72038397258",
+        "source_anchor": "Three-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Three-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/1/content/0/columns/0/content/2/rows/2/0/0",
+        "source_unit_hash": "fcb341b45bc8d8af80df2351f2cd204104434ab015a0b02f365f5822a3c5b7ce",
+        "source_anchor": "Three-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Three-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/1/content/0/columns/0/content/2/rows/2/1/0",
+        "source_unit_hash": "ae00b038e44db16a9dd94c40438499d3a123e9a88d87463cc8e2418eae83d8aa",
+        "source_anchor": "Three-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Three-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/1/content/0/columns/0/content/2/rows/3/0/0",
+        "source_unit_hash": "b283ab90233a0c104fd04429dc9fd5dc87cdacfaade511a423c06b1174f33262",
+        "source_anchor": "Three-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Three-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/1/content/0/columns/0/content/2/rows/3/1/0",
+        "source_unit_hash": "b6e16a7a1c9180506b78fd786cd50c09c9803b48ba54cedb317b128976bbb744",
+        "source_anchor": "Three-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Three-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/2/content/0/columns/0/content/0",
+        "source_unit_hash": "b170da7e9fa48cdb415dfa201c9e046b19cd4128645e0df879a878dc93ae7312",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/2/content/0/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "88d99e9fdafc0b4508ce93b74e96cf2cd7aca5a50a43ffb8edcf564262d79f50",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/2/content/0/columns/0/content/2",
+        "source_unit_hash": "89fa2e25fe9d2d08fa9f10180162d5be5940ca035d76aae190641efb6cf64080",
+        "source_anchor": "Four-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Four-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/2/content/0/columns/0/content/2/rows/0/0/0",
+        "source_unit_hash": "379969b19678bc6ac70ec2bad0d9b21b13e9b09c18cf7f462aac02465d0fe523",
+        "source_anchor": "Four-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Four-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/2/content/0/columns/0/content/2/rows/0/1/0",
+        "source_unit_hash": "1d81e4e6438c4f14f388f9e5a9c557210883b6a1718cafde77b93d597b86105d",
+        "source_anchor": "Four-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Four-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/2/content/0/columns/0/content/2/rows/1/0/0",
+        "source_unit_hash": "f9b4571065438d48a7c1ec5901f9b5f7003ebc85a8f1cae4bbcf6c6869fefe81",
+        "source_anchor": "Four-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Four-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/2/content/0/columns/0/content/2/rows/1/1/0",
+        "source_unit_hash": "db6739d3be337060aa0e22d065da5b90220363e354378c25861ae10b19ca56fe",
+        "source_anchor": "Four-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Four-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/2/content/0/columns/0/content/2/rows/2/0/0",
+        "source_unit_hash": "fcb341b45bc8d8af80df2351f2cd204104434ab015a0b02f365f5822a3c5b7ce",
+        "source_anchor": "Four-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Four-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/2/content/0/columns/0/content/2/rows/2/1/0",
+        "source_unit_hash": "ae00b038e44db16a9dd94c40438499d3a123e9a88d87463cc8e2418eae83d8aa",
+        "source_anchor": "Four-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Four-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/2/content/0/columns/0/content/2/rows/3/0/0",
+        "source_unit_hash": "b283ab90233a0c104fd04429dc9fd5dc87cdacfaade511a423c06b1174f33262",
+        "source_anchor": "Four-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Four-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/2/content/0/columns/0/content/2/rows/3/1/0",
+        "source_unit_hash": "b6e16a7a1c9180506b78fd786cd50c09c9803b48ba54cedb317b128976bbb744",
+        "source_anchor": "Four-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Four-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/3/content/0/columns/0/content/0",
+        "source_unit_hash": "a0ec83474b27adfc8770b4cb6419e159be2d30e971f2fb03f1e3b93f8c01d68d",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/3/content/0/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "423e4ca8612e8fe4254444f94b79b0b12d5c0c3ac235391b780620552c63bdef",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/3/content/0/columns/0/content/2",
+        "source_unit_hash": "d22278e72a95b7a90f2a55c467cd184e3f07db70cb8aa77ce51a29ed6c21d4c9",
+        "source_anchor": "Five-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Five-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/3/content/0/columns/0/content/2/rows/0/0/0",
+        "source_unit_hash": "379969b19678bc6ac70ec2bad0d9b21b13e9b09c18cf7f462aac02465d0fe523",
+        "source_anchor": "Five-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Five-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/3/content/0/columns/0/content/2/rows/0/1/0",
+        "source_unit_hash": "1d81e4e6438c4f14f388f9e5a9c557210883b6a1718cafde77b93d597b86105d",
+        "source_anchor": "Five-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Five-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/3/content/0/columns/0/content/2/rows/1/0/0",
+        "source_unit_hash": "f9b4571065438d48a7c1ec5901f9b5f7003ebc85a8f1cae4bbcf6c6869fefe81",
+        "source_anchor": "Five-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Five-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/3/content/0/columns/0/content/2/rows/1/1/0",
+        "source_unit_hash": "b58f254031615b7ef0dd85f341c9fc1ccb8717b7687d8f7b8b46d1f7ff7360ef",
+        "source_anchor": "Five-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Five-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/3/content/0/columns/0/content/2/rows/2/0/0",
+        "source_unit_hash": "fcb341b45bc8d8af80df2351f2cd204104434ab015a0b02f365f5822a3c5b7ce",
+        "source_anchor": "Five-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Five-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/3/content/0/columns/0/content/2/rows/2/1/0",
+        "source_unit_hash": "ae00b038e44db16a9dd94c40438499d3a123e9a88d87463cc8e2418eae83d8aa",
+        "source_anchor": "Five-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Five-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/3/content/0/columns/0/content/2/rows/3/0/0",
+        "source_unit_hash": "b283ab90233a0c104fd04429dc9fd5dc87cdacfaade511a423c06b1174f33262",
+        "source_anchor": "Five-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Five-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/3/content/0/columns/0/content/2/rows/3/1/0",
+        "source_unit_hash": "b6e16a7a1c9180506b78fd786cd50c09c9803b48ba54cedb317b128976bbb744",
+        "source_anchor": "Five-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Five-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/4/content/0/columns/0/content/0",
+        "source_unit_hash": "1e62c4779d9af6cb0c462b8804da6b6ea7dc7ca89d629604f815d4f2335cf017",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/4/content/0/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "59d7bf81bc826b1c4980e00d96905b622f806ac749101286972866bd2a0a19d3",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/4/content/0/columns/0/content/2",
+        "source_unit_hash": "f8183bf555fb8f44c3c31c54a134c0a4c640e047811b01c1ede42c50617db26a",
+        "source_anchor": "Six-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Six-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/4/content/0/columns/0/content/2/rows/0/0/0",
+        "source_unit_hash": "379969b19678bc6ac70ec2bad0d9b21b13e9b09c18cf7f462aac02465d0fe523",
+        "source_anchor": "Six-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Six-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/4/content/0/columns/0/content/2/rows/0/1/0",
+        "source_unit_hash": "1d81e4e6438c4f14f388f9e5a9c557210883b6a1718cafde77b93d597b86105d",
+        "source_anchor": "Six-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Six-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/4/content/0/columns/0/content/2/rows/1/0/0",
+        "source_unit_hash": "f9b4571065438d48a7c1ec5901f9b5f7003ebc85a8f1cae4bbcf6c6869fefe81",
+        "source_anchor": "Six-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Six-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/4/content/0/columns/0/content/2/rows/1/1/0",
+        "source_unit_hash": "56321b9b9ae1e43094d8f061378d9c211f1a7ca1c0cfc3c770c1cd23abef7929",
+        "source_anchor": "Six-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Six-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/4/content/0/columns/0/content/2/rows/2/0/0",
+        "source_unit_hash": "fcb341b45bc8d8af80df2351f2cd204104434ab015a0b02f365f5822a3c5b7ce",
+        "source_anchor": "Six-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Six-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/4/content/0/columns/0/content/2/rows/2/1/0",
+        "source_unit_hash": "ae00b038e44db16a9dd94c40438499d3a123e9a88d87463cc8e2418eae83d8aa",
+        "source_anchor": "Six-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Six-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/4/content/0/columns/0/content/2/rows/3/0/0",
+        "source_unit_hash": "b283ab90233a0c104fd04429dc9fd5dc87cdacfaade511a423c06b1174f33262",
+        "source_anchor": "Six-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Six-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/4/content/0/columns/0/content/2/rows/3/1/0",
+        "source_unit_hash": "b6e16a7a1c9180506b78fd786cd50c09c9803b48ba54cedb317b128976bbb744",
+        "source_anchor": "Six-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Six-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/5/content/0/columns/0/content/0",
+        "source_unit_hash": "99b79ddebff7c5b2ef0d2abae04a5b2aff20751f9b06c832ac0c757265138b60",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/5/content/0/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "4ba69b9b431e403c062544b24dfa215bbdd7ceae60aaea6d7df69704c7aacfd2",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/5/content/0/columns/0/content/2",
+        "source_unit_hash": "5655ff5e564b4f088f112a0fb88d59b5ee7036cd3803efa65210919cb3a906c4",
+        "source_anchor": "Seven-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Seven-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/5/content/0/columns/0/content/2/rows/0/0/0",
+        "source_unit_hash": "379969b19678bc6ac70ec2bad0d9b21b13e9b09c18cf7f462aac02465d0fe523",
+        "source_anchor": "Seven-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Seven-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/5/content/0/columns/0/content/2/rows/0/1/0",
+        "source_unit_hash": "1d81e4e6438c4f14f388f9e5a9c557210883b6a1718cafde77b93d597b86105d",
+        "source_anchor": "Seven-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Seven-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/5/content/0/columns/0/content/2/rows/1/0/0",
+        "source_unit_hash": "f9b4571065438d48a7c1ec5901f9b5f7003ebc85a8f1cae4bbcf6c6869fefe81",
+        "source_anchor": "Seven-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Seven-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/5/content/0/columns/0/content/2/rows/1/1/0",
+        "source_unit_hash": "972d8a6928280f35c0c3c5702e860875c822f37afb0c04352018b6145db69925",
+        "source_anchor": "Seven-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Seven-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/5/content/0/columns/0/content/2/rows/2/0/0",
+        "source_unit_hash": "fcb341b45bc8d8af80df2351f2cd204104434ab015a0b02f365f5822a3c5b7ce",
+        "source_anchor": "Seven-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Seven-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/5/content/0/columns/0/content/2/rows/2/1/0",
+        "source_unit_hash": "ae00b038e44db16a9dd94c40438499d3a123e9a88d87463cc8e2418eae83d8aa",
+        "source_anchor": "Seven-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Seven-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/5/content/0/columns/0/content/2/rows/3/0/0",
+        "source_unit_hash": "b283ab90233a0c104fd04429dc9fd5dc87cdacfaade511a423c06b1174f33262",
+        "source_anchor": "Seven-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Seven-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/5/content/0/columns/0/content/2/rows/3/1/0",
+        "source_unit_hash": "b6e16a7a1c9180506b78fd786cd50c09c9803b48ba54cedb317b128976bbb744",
+        "source_anchor": "Seven-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Seven-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/6/content/0/columns/0/content/0",
+        "source_unit_hash": "aded5e805302105f56f72f2c0377bb029dd129c36cfdad6b93d63b26e85222aa",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/6/content/0/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "efc268727a4ce5da47f1538e42aa304bed921fecb3a65e8889f6932c86e6625e",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/6/content/0/columns/0/content/2",
+        "source_unit_hash": "4cbd50028d33bd81f42af8619c4c812f02ac2c20efabb16d60c0d85dafb4a348",
+        "source_anchor": "Eight-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Eight-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/6/content/0/columns/0/content/2/rows/0/0/0",
+        "source_unit_hash": "379969b19678bc6ac70ec2bad0d9b21b13e9b09c18cf7f462aac02465d0fe523",
+        "source_anchor": "Eight-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Eight-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/6/content/0/columns/0/content/2/rows/0/1/0",
+        "source_unit_hash": "1d81e4e6438c4f14f388f9e5a9c557210883b6a1718cafde77b93d597b86105d",
+        "source_anchor": "Eight-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Eight-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/6/content/0/columns/0/content/2/rows/1/0/0",
+        "source_unit_hash": "f9b4571065438d48a7c1ec5901f9b5f7003ebc85a8f1cae4bbcf6c6869fefe81",
+        "source_anchor": "Eight-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Eight-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/6/content/0/columns/0/content/2/rows/1/1/0",
+        "source_unit_hash": "17ef440634f70a184ca976b6c690d329a624bd88f476e8b559c6b219ee4e108f",
+        "source_anchor": "Eight-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Eight-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/6/content/0/columns/0/content/2/rows/2/0/0",
+        "source_unit_hash": "fcb341b45bc8d8af80df2351f2cd204104434ab015a0b02f365f5822a3c5b7ce",
+        "source_anchor": "Eight-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Eight-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/6/content/0/columns/0/content/2/rows/2/1/0",
+        "source_unit_hash": "ae00b038e44db16a9dd94c40438499d3a123e9a88d87463cc8e2418eae83d8aa",
+        "source_anchor": "Eight-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Eight-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/6/content/0/columns/0/content/2/rows/3/0/0",
+        "source_unit_hash": "b283ab90233a0c104fd04429dc9fd5dc87cdacfaade511a423c06b1174f33262",
+        "source_anchor": "Eight-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Eight-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/6/content/0/columns/0/content/2/rows/3/1/0",
+        "source_unit_hash": "b6e16a7a1c9180506b78fd786cd50c09c9803b48ba54cedb317b128976bbb744",
+        "source_anchor": "Eight-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Eight-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/7/content/0/columns/0/content/0",
+        "source_unit_hash": "0cd2b3d4b48f96e8e5b60be252bce7ad9898601c95c77871d92795c4c9f555bb",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/7/content/0/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "131fab4eb0a520392587a8db10ad6a484a6a6b2941995e5da492ad423d1c31d7",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/7/content/0/columns/0/content/2",
+        "source_unit_hash": "275961e300c9c3f710a3ba9b1c89092d288940b9a57ffc19c1d23f1bc3158f52",
+        "source_anchor": "Nine-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Nine-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/7/content/0/columns/0/content/2/rows/0/0/0",
+        "source_unit_hash": "379969b19678bc6ac70ec2bad0d9b21b13e9b09c18cf7f462aac02465d0fe523",
+        "source_anchor": "Nine-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Nine-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/7/content/0/columns/0/content/2/rows/0/1/0",
+        "source_unit_hash": "1d81e4e6438c4f14f388f9e5a9c557210883b6a1718cafde77b93d597b86105d",
+        "source_anchor": "Nine-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Nine-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/7/content/0/columns/0/content/2/rows/1/0/0",
+        "source_unit_hash": "f9b4571065438d48a7c1ec5901f9b5f7003ebc85a8f1cae4bbcf6c6869fefe81",
+        "source_anchor": "Nine-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Nine-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/7/content/0/columns/0/content/2/rows/1/1/0",
+        "source_unit_hash": "34305bd31904d84741dcd5624efd2b6abbc0545a7b2118141eb452f01c9303c5",
+        "source_anchor": "Nine-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Nine-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/7/content/0/columns/0/content/2/rows/2/0/0",
+        "source_unit_hash": "fcb341b45bc8d8af80df2351f2cd204104434ab015a0b02f365f5822a3c5b7ce",
+        "source_anchor": "Nine-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Nine-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/7/content/0/columns/0/content/2/rows/2/1/0",
+        "source_unit_hash": "ae00b038e44db16a9dd94c40438499d3a123e9a88d87463cc8e2418eae83d8aa",
+        "source_anchor": "Nine-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Nine-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/7/content/0/columns/0/content/2/rows/3/0/0",
+        "source_unit_hash": "b283ab90233a0c104fd04429dc9fd5dc87cdacfaade511a423c06b1174f33262",
+        "source_anchor": "Nine-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Nine-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/7/content/0/columns/0/content/2/rows/3/1/0",
+        "source_unit_hash": "b6e16a7a1c9180506b78fd786cd50c09c9803b48ba54cedb317b128976bbb744",
+        "source_anchor": "Nine-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Nine-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/50",
+        "source_unit_hash": "97ee377baace102addb0f13f69f155a8c3b9b795d3ec2e68e745389c7e56af00",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/51",
+        "source_unit_hash": "6ca2b9061746c17659fc1fcf307a79014f8a3c32eded502d849da767d6157346",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/52",
+        "source_unit_hash": "90c435201188a8730710e19323a9b5eeb9f4c60042cd9d56a281d39c47162876",
+        "source_anchor": "Grids",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Grids",
+        "evidence": "Checked consistent spacings,title gaps,symmetric offscreen peers and flow-derived columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/54",
+        "source_unit_hash": "7f4052615a3ba07facbaab6195b7f6ea9fa0353a5ee14e182dc1be9d5674c25f",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked resizing/centered wide layout,bounds not resize prevention,sparse inset3D,volumes/immersive alternative,adjacent supplemental window and60pt control centers."
+      },
+      {
+        "id": "primaryContentSections/0/content/55",
+        "source_unit_hash": "465645f8997c0f8b3087b441a19abf8f78ce99a3616804e44135e4955d5d831b",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked resizing/centered wide layout,bounds not resize prevention,sparse inset3D,volumes/immersive alternative,adjacent supplemental window and60pt control centers."
+      },
+      {
+        "id": "primaryContentSections/0/content/56",
+        "source_unit_hash": "70d50ab0ad47f708800b6de97189d89990fb3933e1362b4ad04ed73077e65618",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked resizing/centered wide layout,bounds not resize prevention,sparse inset3D,volumes/immersive alternative,adjacent supplemental window and60pt control centers."
+      },
+      {
+        "id": "primaryContentSections/0/content/57",
+        "source_unit_hash": "15152cc5392a6bf113936e5b38b02d7ae5b2c2f38ca58a29bb1e5d4edc22a150",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked resizing/centered wide layout,bounds not resize prevention,sparse inset3D,volumes/immersive alternative,adjacent supplemental window and60pt control centers."
+      },
+      {
+        "id": "primaryContentSections/0/content/58",
+        "source_unit_hash": "8b3bda6379fd76436b1225d13be3e7042a8f96f0d54340ef81ee9a2f372d0df2",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked resizing/centered wide layout,bounds not resize prevention,sparse inset3D,volumes/immersive alternative,adjacent supplemental window and60pt control centers."
+      },
+      {
+        "id": "primaryContentSections/0/content/59",
+        "source_unit_hash": "e1759586c595eb7838b3c505cd53a82a8451b0ca120c8e65da9d404aa8705093",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked resizing/centered wide layout,bounds not resize prevention,sparse inset3D,volumes/immersive alternative,adjacent supplemental window and60pt control centers."
+      },
+      {
+        "id": "primaryContentSections/0/content/60",
+        "source_unit_hash": "26d60f526ff011c1ede8fad560f0395fc7bd11d7d7b562f2ce62ff801e739ed6",
+        "source_anchor": "visionOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "visionOS",
+        "evidence": "Checked resizing/centered wide layout,bounds not resize prevention,sparse inset3D,volumes/immersive alternative,adjacent supplemental window and60pt control centers."
+      },
+      {
+        "id": "primaryContentSections/0/content/62",
+        "source_unit_hash": "30a73a03c2b3802f9bb8a6821f3d9a81fdb169f02b80dca19b7f90629637bb41",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked at most3glyph/2text controls,full-width/nonscrolling exception and show-others autorotation."
+      },
+      {
+        "id": "primaryContentSections/0/content/63",
+        "source_unit_hash": "c4021236d0bc9bfe229303a423a9d3201821af517ccb12d1f59bfeb8b9b2ebd6",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked at most3glyph/2text controls,full-width/nonscrolling exception and show-others autorotation."
+      },
+      {
+        "id": "primaryContentSections/0/content/63/inlineContent/0",
+        "source_unit_hash": "5d86ad40162d8c9cfa361ecaed4d832cea8fb56a7b667de66ffd6370f8dae13f",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "reference-only",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked at most3glyph/2text controls,full-width/nonscrolling exception and show-others autorotation."
+      },
+      {
+        "id": "primaryContentSections/0/content/64",
+        "source_unit_hash": "1f1c707f2008577132daa252ff5f8b13b07e43823a9b4115d8b4719a637829a5",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked at most3glyph/2text controls,full-width/nonscrolling exception and show-others autorotation."
+      },
+      {
+        "id": "primaryContentSections/0/content/67",
+        "source_unit_hash": "e933b22643282e3e92844013277d502d0ddcbc73027b5ffb1e324d3211fdd19a",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/68",
+        "source_unit_hash": "9807802a90b160b15274cb2cdca9d3eeae45fbbdbc8e57c1da99a55b0a7c4e6c",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/69",
+        "source_unit_hash": "80552b3a1eb4ccec5c5373676f2faa960c521056e4319a46757ae081344d1b92",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Related",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/71",
+        "source_unit_hash": "f5f1394f8242de4a2af3b60a944c670131b2bbb077929c6c2c72c083fc8e56d3",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75",
+        "source_unit_hash": "eae6a413125fcdc50f5d56f07689766c05b100e649aebfa8e9c37bfc66cf99a4",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/1/0/0",
+        "source_unit_hash": "6e918a7722cc53860652aa9635f57139b56fa2911e831afad66b2aa393192a64",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/1/1/0",
+        "source_unit_hash": "7c054c8737665c6c6e465702089b94eb662bf4d469976828ca2f2256d53e4f74",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/2/0/0",
+        "source_unit_hash": "28bc6cd1c2fd4178e3faac9c1a03f367231c25d4818d7f666a37a2d8f3e06275",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/2/1/0",
+        "source_unit_hash": "9b2e7e1c61fa4d11662eb685a8b45b9400d5d18514002d8ac4d519248fbc2452",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/3/0/0",
+        "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/3/1/0",
+        "source_unit_hash": "02e57c19510a2b6a826b73a555a0f7a8323da44555cccb81d9f61686ff54db89",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/4/0/0",
+        "source_unit_hash": "884f1518a9ad5d1380762b708d405f0b86192ba6ed71cf79ff321d7f70854492",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/4/1/0",
+        "source_unit_hash": "9bc16ae88124ce09b51992c3532857c925b0687e85a6a1c840ce0fa64399a972",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/5/0/0",
+        "source_unit_hash": "5ed3d376d48c9ad0672aec6ba068962e1bca86d373b51d8c6225f2cef4f842f4",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/5/1/0",
+        "source_unit_hash": "c0a95837f49686b5d583a6fe3bb622a9513782b8643d9523c92c771e7a0cd783",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/6/0/0",
+        "source_unit_hash": "6fbfd8192538c86013ae1170ead307313ca6290dbe20e9b9a262d8ed4dbef179",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/6/1/0",
+        "source_unit_hash": "05da821738dc37a7136bfc45fbaf4644e86da8a9a9c92310c163176ea5aaf25e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/7/0/0",
+        "source_unit_hash": "d0480ccb4b68180bb1ac3ef3d5a6daedbe67738b3a4986cb29f3b0ee79482b39",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/7/1/0",
+        "source_unit_hash": "dc0bedb7958f40b612be0b2ccf8483bb2b3fe1747caafdcc190d73f5155dcc47",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/8/0/0",
+        "source_unit_hash": "72e15f86b3908e69cbcefc24a6e0b2def83fa8df14342795e2a64fcd3e2ed469",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/8/1/0",
+        "source_unit_hash": "9957566849ddc0013b0798879e929c8f229468833312d2df9e59048fbb750dbe",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/9/0/0",
+        "source_unit_hash": "dc9cb8105c2d7101aa06ba530b7bcadd321cb736d7d6b53addf7c93e802073d0",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/9/1/0",
+        "source_unit_hash": "ae84dedca54585b590680c1e2793eba841476527c3ac92210fdb9a5b930de80a",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/10/0/0",
+        "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/10/1/0",
+        "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/11/0/0",
+        "source_unit_hash": "ea6021512638756fcb39be44c5cb492cf7f4b4c67d7c547285252b9046997c1f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/75/rows/11/1/0",
+        "source_unit_hash": "6bdf5077819a2f419f34045714efabf1c4cc0a0b6cb48c97ded98e8fa20171df",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/49/tabs/0/content/0/columns/0/content/2",
+        "source_unit_hash": "2b18e08c420170876e4557de9e2d348063889906ba2613de0666d130bd8fc771",
+        "source_anchor": "Two-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Two-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/1/content/0/columns/0/content/2",
+        "source_unit_hash": "06457e769e2f1028d45f5aeb1c120567d9d4b68f1e3ca87e95769c4569bf7aea",
+        "source_anchor": "Three-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Three-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/2/content/0/columns/0/content/2",
+        "source_unit_hash": "89fa2e25fe9d2d08fa9f10180162d5be5940ca035d76aae190641efb6cf64080",
+        "source_anchor": "Four-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Four-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/3/content/0/columns/0/content/2",
+        "source_unit_hash": "d22278e72a95b7a90f2a55c467cd184e3f07db70cb8aa77ce51a29ed6c21d4c9",
+        "source_anchor": "Five-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Five-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/4/content/0/columns/0/content/2",
+        "source_unit_hash": "f8183bf555fb8f44c3c31c54a134c0a4c640e047811b01c1ede42c50617db26a",
+        "source_anchor": "Six-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Six-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/5/content/0/columns/0/content/2",
+        "source_unit_hash": "5655ff5e564b4f088f112a0fb88d59b5ee7036cd3803efa65210919cb3a906c4",
+        "source_anchor": "Seven-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Seven-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/6/content/0/columns/0/content/2",
+        "source_unit_hash": "4cbd50028d33bd81f42af8619c4c812f02ac2c20efabb16d60c0d85dafb4a348",
+        "source_anchor": "Eight-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Eight-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/49/tabs/7/content/0/columns/0/content/2",
+        "source_unit_hash": "275961e300c9c3f710a3ba9b1c89092d288940b9a57ffc19c1d23f1bc3158f52",
+        "source_anchor": "Nine-column-grid",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Nine-column-grid",
+        "evidence": "Compared exact unfocused width for this column count and40pt horizontal/100pt minimum vertical spacing;all eight2–9column values retained."
+      },
+      {
+        "id": "primaryContentSections/0/content/75",
+        "source_unit_hash": "eae6a413125fcdc50f5d56f07689766c05b100e649aebfa8e9c37bfc66cf99a4",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      }
+    ],
+    "issues": []
+  },
+  "media": {}
+}

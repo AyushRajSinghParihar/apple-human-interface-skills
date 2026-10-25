@@ -1,0 +1,720 @@
+{
+  "review": {
+    "slug": "labels",
+    "status": "reviewed",
+    "source_hash": "1b00d394a140ac0598cd77f28a82bfd58db4c3460700deb49160969782d7529b",
+    "destination_hash": "9c16c7253a32bdcbed8e40e06d66d8784fd9b9c0c9f4c9606336ec0717d7e423",
+    "reviewer": "independent-coverage-auditor",
+    "reviewed_at": "2026-10-25T12:57:12.442276+00:00",
+    "evidence": "Independent complete source-to-local semantic comparison and actual embedded-media inspection; author mappings do not establish approval.",
+    "sections": [
+      {
+        "source_anchor": "overview",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "labels",
+        "status": "reviewed",
+        "evidence": "Checked static/copyable text roles and SwiftUI Label/Text distinction."
+      },
+      {
+        "source_anchor": "Best-practices",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "status": "reviewed",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "source_anchor": "Platform-considerations",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "evidence": "Checked absence of added rules for stated shared platforms."
+      },
+      {
+        "source_anchor": "macOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "macOS",
+        "status": "reviewed",
+        "evidence": "Checked noneditable NSTextField."
+      },
+      {
+        "source_anchor": "watchOS",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "watchOS",
+        "status": "reviewed",
+        "evidence": "Checked format/calendar/time-zone date components, count-up/down timers, adaptive layout/system updates and complication use."
+      }
+    ],
+    "units": [
+      {
+        "id": "primaryContentSections/0/content/0",
+        "source_unit_hash": "6f07bb3d20072fb85be9773006bad5c55e0409d9cf799c96f5a039ca78780e73",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "labels",
+        "evidence": "Checked static/copyable text roles and SwiftUI Label/Text distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/0/inlineContent/0",
+        "source_unit_hash": "ef11456c60fab53f95137aaac199cc8ba3119c49e8e0ab0f16c2167ff6723e59",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "labels",
+        "evidence": "Checked static/copyable text roles and SwiftUI Label/Text distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/1",
+        "source_unit_hash": "a5097e85768d3265b363e63b88b3f604dfadcdda08291050186d480bb23423f6",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "labels",
+        "evidence": "Checked static/copyable text roles and SwiftUI Label/Text distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "7e43a2eefa1a1f1efcad63daa1b383f38e2484905c84245c9092d066a0dfc4ed",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "labels",
+        "evidence": "Checked static/copyable text roles and SwiftUI Label/Text distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "59d5e1f78d2fae4741057d8922e443f2e0ede9330f0a40ff815e74379a1fb4ec",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "labels",
+        "evidence": "Checked static/copyable text roles and SwiftUI Label/Text distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/items/0/content/0",
+        "source_unit_hash": "02f45070317153af218b109f635761ba6867ee38ab8570fc53d543dbbf5e7b65",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "labels",
+        "evidence": "Checked static/copyable text roles and SwiftUI Label/Text distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/items/1/content/0",
+        "source_unit_hash": "4fd5b37d91c15f08cff7a4649db4a3c3ed51eb8e8e16c8e4e1544f8a28d191d6",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "labels",
+        "evidence": "Checked static/copyable text roles and SwiftUI Label/Text distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/3/items/2/content/0",
+        "source_unit_hash": "8207954107bb99678bff45226f0086ef231df5788a480374512249f26efbe83a",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "labels",
+        "evidence": "Checked static/copyable text roles and SwiftUI Label/Text distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "7ee090e1f3ce245c7a4beb627eb7292737af9f94d9cbbbe16e58f7d27769cfbe",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "labels",
+        "evidence": "Checked static/copyable text roles and SwiftUI Label/Text distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/4/content/0",
+        "source_unit_hash": "008b5eb621d1bad3cb121c541696fd6860f2b94763e7d3955f3f85cda596def2",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "labels",
+        "evidence": "Checked static/copyable text roles and SwiftUI Label/Text distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/5",
+        "source_unit_hash": "37f47355918d3594b5f5ea20748580b1547d282a429b953604e4a1c2d060ba6f",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "labels",
+        "evidence": "Checked static/copyable text roles and SwiftUI Label/Text distinction."
+      },
+      {
+        "id": "primaryContentSections/0/content/7",
+        "source_unit_hash": "6e4486cf0d8f70b5246ff47551cb57affa8cdd8fe1b111a41f74924c588a7b68",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/8",
+        "source_unit_hash": "3edb8bdf0d58e83f76aa5977e14e5994bac7c0a702d45de702202270a957cf42",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/9",
+        "source_unit_hash": "898f5d7ff6f572c5fbbcc1e6cae904bf45c949a954c9eafc0f32f47e33300940",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "1fb8b602bcab63c7a9e2abe6891a57e4ab7429c03436a588a3e8c6c26f34d684",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/0/0/0",
+        "source_unit_hash": "4e52944e7ad50f4ad4a938e6d045e6e53ae22fa73baf235e07c8388bfcaf4ef1",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/0/1/0",
+        "source_unit_hash": "cbc371ebf2d1de30d421ec3686ac8229f7ca8c7f64e4d9d6f49e31aae5ae97f6",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/0/2/0",
+        "source_unit_hash": "81adb71a0581f8d705bfcbb42aea214d64daf944c7a8674fbee5da0dc950695e",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/0/3/0",
+        "source_unit_hash": "ba2817ca022a17a8c3f0dad6512080a9a526f08488742351ad875fd7d927755a",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/1/0/0",
+        "source_unit_hash": "dbcae0f7fe9ebeb15918f0af7ac986629db02a1a5ee35e0b4815c47af01cbd99",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/1/1/0",
+        "source_unit_hash": "b26aa825108f8b35f4db8f0846e2c260031f0e4d21333ca8469da1135648b45c",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/1/2/0",
+        "source_unit_hash": "ff08b8ebbba3cd32515b89724de83a30969283bc01273477c50f18355ed6aa71",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/1/3/0",
+        "source_unit_hash": "b171391f20f364b87b4b6ad0285ba3e20ae85f4141ccef14dd6964018c3b35cf",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/2/0/0",
+        "source_unit_hash": "023b352106536cd637568b62b78920169910873014997a8711935c466a704183",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/2/1/0",
+        "source_unit_hash": "9d660bfd55d3695879068b16d2507b651b7f874d9de48ed45ab65d36532f45ba",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/2/2/0",
+        "source_unit_hash": "87c3d17c8eaf41c18eb0af10abdc99c47fe19c073c5224a37885ceedc178b4f4",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/2/3/0",
+        "source_unit_hash": "2c6c115677882cf526fb36b7fcc66b6eb408082c65038c7b2e21c771ba8f89c6",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/3/0/0",
+        "source_unit_hash": "4beefe59d18448bc2d65b1f2de4a58b800ccea55a17c4b1be8142420153cdba8",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/3/1/0",
+        "source_unit_hash": "45b4c846270f4539cb4240649aabb95221cfada82d0fca1d32d3e6f60a3bc884",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/3/2/0",
+        "source_unit_hash": "672e9e80005afec72337abdc85384f50adb51fdc0b1049bbd3782f2c5ad17512",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/3/3/0",
+        "source_unit_hash": "40fc62ca540125ea6c9fb2a5800956e9d6a9339314ab459cfa53bba05adf3bf8",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/4/0/0",
+        "source_unit_hash": "b31e99bd05221c8431779c07502fd445e8266d74f2980363d3e0b583f77c8397",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/4/1/0",
+        "source_unit_hash": "d957756e750ba691bf9f2dd4f6d1d45c4ad44f3c020d25e35ae8502c0529cb2b",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/4/2/0",
+        "source_unit_hash": "ad9a64a814a8e968948b95ecf043fda185353dee94220c15b8e6d7160e5fab8d",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/10/rows/4/3/0",
+        "source_unit_hash": "3ec94f964eec9592707048d7e60ba3c0fe08bcf94add46c2d7907c0b3fadaf28",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/11",
+        "source_unit_hash": "305348241b4cb131c66944777ed8eb49bdce437232eb891281972ed27a8357f6",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/13",
+        "source_unit_hash": "cfc25f56eb8e6e1c18c84023a9ae8013b41e558176831ded8720ee09a9454f9b",
+        "source_anchor": "Platform-considerations",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Platform-considerations",
+        "evidence": "Checked absence of added rules for stated shared platforms."
+      },
+      {
+        "id": "primaryContentSections/0/content/15",
+        "source_unit_hash": "a966ed52071d55b9a43d02ba31db6a09d103a884741c890f2a131033efc594ee",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked noneditable NSTextField."
+      },
+      {
+        "id": "primaryContentSections/0/content/15/content/0",
+        "source_unit_hash": "403c04112f407c9cbf6ef8f2e1394c8159ce6471b9a11a01dc1fc2d51d3aba0e",
+        "source_anchor": "macOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "macOS",
+        "evidence": "Checked noneditable NSTextField."
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "9988c2846776ed63f61a62cc2d71aa4cc3b6f8813cd675f73a679fbb24e92f6d",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked format/calendar/time-zone date components, count-up/down timers, adaptive layout/system updates and complication use."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/columns/0/content/0",
+        "source_unit_hash": "d7cc68344a68f8548c6d1e92cf3f4bfb0c9f62d3814a85fa2707c616f75d0930",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked format/calendar/time-zone date components, count-up/down timers, adaptive layout/system updates and complication use."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/columns/0/content/0/inlineContent/0",
+        "source_unit_hash": "cb61b9c3c83ffb2ce23a0ea282fe7ae3fe7f48a09d8bfadf715b056048bcf238",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked format/calendar/time-zone date components, count-up/down timers, adaptive layout/system updates and complication use."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/columns/1/content/0",
+        "source_unit_hash": "d5f85e1a53194f2e396ea1c32db6ff7144abed122b920cc4893a9cf2faffa8f9",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked format/calendar/time-zone date components, count-up/down timers, adaptive layout/system updates and complication use."
+      },
+      {
+        "id": "primaryContentSections/0/content/18/columns/1/content/0/inlineContent/0",
+        "source_unit_hash": "1426f0640b80f1b730778ee9ae26c8aa5a45aedf41881accbb0f84b68bcfd886",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked format/calendar/time-zone date components, count-up/down timers, adaptive layout/system updates and complication use."
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "1190733ecc80eca543f4aa9dd8cecea3573f44c57ff9a6445c8036e8e0ecf03c",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked format/calendar/time-zone date components, count-up/down timers, adaptive layout/system updates and complication use."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "df9341b90320d0caacd4e32ee2c80724cebceb23423f1a723749ffdd36eb6328",
+        "source_anchor": "watchOS",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "watchOS",
+        "evidence": "Checked format/calendar/time-zone date components, count-up/down timers, adaptive layout/system updates and complication use."
+      },
+      {
+        "id": "primaryContentSections/0/content/23",
+        "source_unit_hash": "4a267c782e4cc196a193b2d04e21dd0df41751d24dda9e0844bf249fcbfda926",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/24",
+        "source_unit_hash": "c610a09c34fb3bae1c752e7d10c90930ca41e43b3c48b38bb51e0e82d61c6e84",
+        "source_anchor": "Related",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Related",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/26",
+        "source_unit_hash": "b594db9405a473695dff4521f8b269909cec49bfc89107a7a54c71eb0da75485",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/27",
+        "source_unit_hash": "d3e4d781c833cb0357cb1510dc1642e90dba3be2cfe46bb425d1403639f0a2eb",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/28",
+        "source_unit_hash": "13546c3f9e28b18350760222954c10f4bfc39e5abd9feb02e17605fe937ad4d6",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/29",
+        "source_unit_hash": "5342411a1c5d3c764f38948688d5fe86574057267f6c467fad8eb085d223c1a9",
+        "source_anchor": "Developer-documentation",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Developer-documentation",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "517435cab2f4170822ae61238db094350577e421ec9b03dc83c683dfa0619079",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/rows/0/0/0",
+        "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/rows/0/1/0",
+        "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/rows/1/0/0",
+        "source_unit_hash": "937d2d87f6be46489d91c6c598d77898e230787b56f889b2c1e16309f42a1ad2",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/31/rows/1/1/0",
+        "source_unit_hash": "478d54ffbd6891377fd98608d04cc8bae71c24ac7c7dbfd7a1f213d8dbb649bb",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      }
+    ],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "1fb8b602bcab63c7a9e2abe6891a57e4ab7429c03436a588a3e8c6c26f34d684",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked label vs short editable field/long text view, system fonts/Dynamic Type, useful copyable content; verified all four semantic color roles/names and UIKit/AppKit platform columns."
+      },
+      {
+        "id": "primaryContentSections/0/content/31",
+        "source_unit_hash": "517435cab2f4170822ae61238db094350577e421ec9b03dc83c683dfa0619079",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+        "destination_anchor": "Change-log",
+        "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      }
+    ],
+    "supporting_files": [],
+    "issues": []
+  },
+  "media": {
+    "components-label-intro.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Topic illustration or correctness marker adds no separate unexpressed requirement.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "decorative or redundant topic/assessment marker",
+      "binary_hash": "57cf10c9d1cc0360841815638bde951de383ac6a61fedcbf304f6d81c6af20dd",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-label-intro@2x.png",
+      "reference_metadata_hash": "4719a26d4c72cd035ca96bdb94c2b15534b26f7aac0dd1a52840cea23e4f9980",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+      "destination_hash": "9c16c7253a32bdcbed8e40e06d66d8784fd9b9c0c9f4c9606336ec0717d7e423",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+          "hash": "9c16c7253a32bdcbed8e40e06d66d8784fd9b9c0c9f4c9606336ec0717d7e423"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/components-label-intro~dark@2x.png",
+          "binary_hash": "e5c10b69bb3eb498f92bf27b56822870e44d1e8a55664575eef60ef24c455413",
+          "status": "reviewed",
+          "reviewer": "independent-coverage-auditor",
+          "evidence": "Compared actual primary and alternate appearance side by side; content, labels, geometry, relationships and the relevant rule persist with theme rendering.",
+          "review_method": "actual primary/alternate image-pair visual inspection with source-context/local-guidance comparison"
+        }
+      ],
+      "appearance_variant_disposition": "Actual paired light/dark representations inspected; no additional source rule omitted."
+    },
+    "labels-date-time-text-component.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Checked format/calendar/time-zone date components, count-up/down timers, adaptive layout/system updates and complication use.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "c412a7b1fbb9f699d2c34806f4ae84c6a5412687b5a0b15d4ec46aba8a84f4fd",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/labels-date-time-text-component@2x.png",
+      "reference_metadata_hash": "bb0e40efca9f96ed07161b339a191fdd67fca345bb987e90badbf1053313489d",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+      "destination_hash": "9c16c7253a32bdcbed8e40e06d66d8784fd9b9c0c9f4c9606336ec0717d7e423",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+          "hash": "9c16c7253a32bdcbed8e40e06d66d8784fd9b9c0c9f4c9606336ec0717d7e423"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/18/columns/0/content/0/inlineContent/0"
+      ]
+    },
+    "labels-countdown-timer-text-component.png": {
+      "status": "reviewed",
+      "reviewer": "independent-coverage-auditor",
+      "evidence": "Actual primary image and, where guidance-bearing, its available appearance pair inspected. Checked format/calendar/time-zone date components, count-up/down timers, adaptive layout/system updates and complication use.",
+      "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
+      "classification": "guidance-bearing explained locally",
+      "binary_hash": "7f0e5b79b90ec859061f3aa038b0878787801c740a6a0efc65cd5a73a504ea02",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/labels-countdown-timer-text-component@2x.png",
+      "reference_metadata_hash": "bceed0a86fc4e92c9f1679bb1a52b88e568df0f43d07f61125bd1d0715f9bb3f",
+      "destination": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+      "destination_hash": "9c16c7253a32bdcbed8e40e06d66d8784fd9b9c0c9f4c9606336ec0717d7e423",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+          "hash": "9c16c7253a32bdcbed8e40e06d66d8784fd9b9c0c9f4c9606336ec0717d7e423"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/18/columns/1/content/0/inlineContent/0"
+      ]
+    }
+  }
+}
