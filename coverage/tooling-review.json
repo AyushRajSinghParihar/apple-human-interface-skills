@@ -37,7 +37,8 @@
     "grade_all.py": "1e5ff436703158883d1cef59a9a1de9706356e6a017d6f43fabc3ec15d8a9766",
     "client_smoke.py": "2651192dfdcb3827de314bfbb98a2b54c75b90bcba3acf1c5099a5efcc44bf46",
     "selection_audit.py": "116bc74bf3eaa8f679f36f4a06079b53b069d82fb0a7be57104e2664b13e60cd",
-    "build_operational_report.py": "8ed30acaa2dece89d1c07689ff6abc1ca21d88b3032f56a49127598834541fe2"
+    "build_operational_report.py": "8ed30acaa2dece89d1c07689ff6abc1ca21d88b3032f56a49127598834541fe2",
+    "checkpoint.py": "5ac9d1d4fa34ffca25b9a37acca130d4b971516f4212ffea43ed97ba6e74d373"
   },
   "client_smoke_review": {
     "reviewer": "evaluation-tooling review and repair; root independent read of repaired helper",
@@ -54,5 +55,10 @@
     "reviewed_at": "2026-10-25T20:28:27.702515+00:00",
     "evidence": "Explicit195-slot selection excludes19 development attempts, stale dependencies and failed candidates while retaining poor baseline outcomes. Seven selector probes passed. Report smoke verification replays fixed quartet against complete captured bytes, exact17checks/14entry discovery, actual completed runtime identity, launch/prompt/timestamp/current helper/harness/fullbundle and5proof-file hashes. Independent16invalid-smoke regressions plus12additional corruption/identity/SUITE probes and4writer/link probes passed. Current incomplete actual suite refuses report output.",
     "limits": "Code and temporary-fixture verification only. Actual195 graded executions, current installation smoke, final artifact review and publication remain pending. No OS network isolation, native Apple or unauthenticated Claude runtime claim."
+  },
+  "checkpoint_review": {
+    "reviewer": "independent-coverage-auditor",
+    "reviewed_at": "2026-10-25T21:43:56.759905+00:00",
+    "evidence": "Two material issues reproduced with temp fixtures and stub Git, then repaired: partial terminal JSON could be staged and a final-report-bound command could be redacted.12 independent probes passed: validated closed receipt snapshot; grades wait for same closed grader snapshot; malformed/active receipts excluded;5 binding forms refuse redaction before mutation; backup identity preserved; changing receipts abort before Git. Actual index/proof/package untouched by probes."
   }
 }

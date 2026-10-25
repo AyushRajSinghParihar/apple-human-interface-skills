@@ -127,3 +127,10 @@ Initial execution batch finished with189 completed attempts and6 retained early
 routing failures.138 slots bind current package/baseline bytes;57 slots require
 reruns after the final routing freeze. Cases and harness remain unchanged.
 All independent artifact grades and final release acceptance remain pending.
+
+A final-router stress repetition omitted Complications while choosing a Smart
+Stack glance and explicitly deferring watch-face work. The frozen read contract
+requires that topic, so the attempt remains a trace-contract failure. Its artifact
+will receive a separate blinded diagnostic grade outside the195 accepted slots.
+Schedule one fresh repetition against unchanged instructions/case/harness; retain
+all attempts and disclose this limit on routing consistency.

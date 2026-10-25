@@ -1,0 +1,73 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,68 @@
+-Platform: iPadOS. Compact width is 420 pt. Layout has fixed left-aligned columns, clips 200% labels and uses red/green-only payment state. Arabic vendor name: مؤسسة النور. Invoice ID: INV-2026-04. Email: accounts@example.test. Amount: 1,240.50 SAR. App mirrors all numerals and play icons mechanically; Tab cannot reach Add line. Resizing resets entered quantities.
+\ No newline at end of file
++# iPad invoice editor — adapted interface contract
++
++Platform: iPadOS. This is a design specification, not an implemented or device-tested editor. Support a compact resizable window of 420 pt width, Arabic, hardware keyboard, touch, and text enlarged to at least 200%.
++
++## Data and identity
++
++Preserve these supplied values exactly in storage and copy/export:
++
++| Content | Value | Presentation |
++| --- | --- | --- |
++| Vendor | مؤسسة النور | Arabic shaping, natural RTL text |
++| Invoice ID | INV-2026-04 | Isolated LTR token; never reverse characters |
++| Email | accounts@example.test | Isolated LTR address; never reverse characters |
++| Amount | 1,240.50 SAR | Decimal value 1240.50, currency SAR; localized display only |
++
++The supplied amount is the baseline displayed invoice amount; no line-item, tax, discount, payment-state value, or calculation formula was supplied. Preserve the existing calculation and rounding rules when implemented. Do not invent balancing lines or infer that the invoice is paid.
++
++## Arabic and bidirectional content
++
++Use the existing framework's semantic leading/trailing layout and native bidirectional text behavior. Arabic interface reading order begins at the top right. Mirror section alignment, field-label placement, and reading-order Back/Next navigation. Do not apply a whole-view reflection or reverse strings.
++
++Keep vendor text RTL; keep ID and email as bounded LTR runs within the RTL form. Preserve list alignment while letting text within each value use its own direction. Longer paragraphs follow their language. Direction isolates belong to presentation, not saved strings or copied values. Allow selection and copying of the full ID, email, and amount.
++
++Format numeric and currency displays using the chosen Arabic language/region and user numeral preference. Arabic alone does not determine the numeral system. Individual digits and their order must never be reflected. The numeric value remains 1240.50 SAR whether displayed with Western or Eastern numeral forms; SAR does not change currency with interface locale. Keep amount and currency together as a formatted bidirectional unit where possible, otherwise put the whole amount on its own line. Keep enough precision to show the supplied .50.
++
++Keep a playback Play triangle in its conventional orientation; it is a playback action, not reading-order navigation. Preserve logos, checkmarks, and literal physical directions. Use platform directional variants for navigation symbols rather than mechanically flipping every icon. The brief supplies no play action outcome: retain its existing playback behavior and accessible name; verify that behavior before adding or repurposing it.
++
++Proposed Arabic labels (require native-language review): المورد (Vendor), رقم الفاتورة (Invoice ID), البريد الإلكتروني (Email), الكمية (Quantity), إضافة بند (Add line), الإجمالي (Total). Payment status displays the actual model state with localized text, such as مدفوعة (Paid) with a checkmark or غير مدفوعة (Unpaid) with a distinct outlined status symbol. Red/green may supplement these labels; never infer or change status from color.
++
++## Compact window and 200% text
++
++Use a single vertical scrolling form at 420 pt, ordered: invoice heading and identity, vendor/email details, payment status, line items, Add line, totals. Show the current total near the heading as well as the complete existing totals breakdown after the lines; both read the same model. Totals are never hidden behind a collapsed section.
++
++Replace fixed left-aligned columns with leading-aligned groups. In compact or enlarged-text mode each line becomes a vertically stacked group with persistent labels for description, quantity, existing price fields, and line amount. Keep stable line identity and original order. Each label is above its value; labels wrap, rows grow, and essential text never uses ellipsis or shrink-to-fit. At wider widths, use aligned columns only if their full labels and values fit at the current text size; otherwise retain the stack. Reflow depends on available content space, not orientation or device name.
++
++Use semantic system title, headline, and body styles with Arabic font support and Dynamic Type/Bold Text. Use the standard 17 pt iPad body default as a starting point; at the explicit 200% fixture body text is 34 pt, with corresponding hierarchy and meaningful symbols scaled. Also support platform accessibility text sizes; 200% is a test condition, not a maximum. No fixed row heights. Editable single-line values may scroll internally to reveal the caret; provide the complete readable value in a wrapping summary when unfocused. Long IDs/emails may wrap at display boundaries without adding characters to their stored value.
++
++Keep controls within safe areas and outside system window controls. Retain system resizing/movement chrome. Use one main vertical scroll owner with sufficient keyboard inset; avoid nested vertical line-item scrollers. Focused fields, validation messages, Add line, and the last totals row remain scroll-reachable even in a short window. Reveal only enough to expose the caret or target. Do not pin a large totals panel over fields at 200% text. All button activation areas are at least 44 × 44 pt, grow for wrapped labels, and remain separated without overlapping focus rings.
++
++## Editing and keyboard contract
++
++Use persistent field labels and native text editing. Preserve existing field permissions; the listed metadata is not newly made editable by this adaptation. Quantity fields retain raw draft strings separately from their committed decimal values. Permit intermediate entry such as empty text or a decimal separator. On commit or leaving a field, parse with the active input locale and existing quantity constraints; show a persistent, field-associated localized error for invalid input. Never silently coerce empty/invalid text to zero or strip punctuation to guess a value. Preserve raw input and let users correct it. Retain last valid totals with an explicit “Totals reflect last valid quantities” message while any quantity is invalid or incomplete. Valid commits update all total presentations atomically under existing calculation rules.
++
++Tab/Shift-Tab traverse editable fields in logical reading order: metadata if editable, then each line's description/quantity/price fields in displayed order. For custom grouped content, Tab moves between logical groups and arrows navigate within a group; arrows within text retain native cursor behavior. Focus is visible and distinct from persistent line selection. Reflow preserves the focused line ID and field key, selection range, and insertion/composition state, then minimally reveals it.
++
++Add line is a visible text-labeled system button in the form body after the lines, available in compact and large-text modes. With Full Keyboard Access enabled it participates in forward/reverse traversal, is visibly focused, and activates using the system activation key. Ordinary iPad content Tab focus does not by itself guarantee button access. Provide an additional app command “Add line” with proposed Command-Shift-L, exposed in keyboard command discoverability and subject to OS/international-layout collision testing. Do not capture unmodified typing or system accessibility keys. Preserve standard Copy/Cut/Paste, Select All, Undo, and Redo behavior.
++
++Activating Add line inserts exactly one new draft line with a stable ID, preserves all existing drafts and totals, and focuses the new line's first editable field. A blank new line contributes nothing until valid under existing rules. Add line is a normal, nondestructive action, not a Return-default action while typing. Touch activates the same command. Existing Play remains independently focusable/activatable through Full Keyboard Access; no new media workflow is introduced.
++
++## State invariants and transitions
++
++Own the invoice editing session independently of layout containers. Key it by invoice identity and key rows by stable line IDs, never by visual index or column position. Session state includes committed quantities/prices, raw partial/invalid drafts, validation, selected line, focused field, caret/selection and composition, dirty state, undo/redo history, and a scroll anchor (line/field plus relative offset). Totals use canonical decimal values or existing exact-money representation, never parsed display strings or binary floating-point conversions introduced by this change.
++
++| Event | Required result |
++| --- | --- |
++| Resize wide → 420 pt → wide, including short height | Reflow only; preserve every session value, validation, focus/selection, undo history and amount; restore anchor then reveal caret if needed |
++| Change text size to 200% or Bold Text | Grow/reflow without committing, cancelling, duplicating, or resetting edits |
++| Change Arabic locale/numerals | Reformat committed values only; preserve draft text and its original parse locale until commit/cancel; no currency conversion |
++| Quantity valid commit | Apply existing arithmetic once and update all totals consistently |
++| Quantity incomplete/invalid | Preserve draft; retain last valid totals with explicit pending/error explanation |
++| Switch input method or temporarily leave window | Preserve session and composition through supported framework lifecycle; do not treat resize/deactivation as Save or Cancel |
++| Close/reopen or process restoration | Restore committed data and persisted draft session by invoice ID if lifecycle restoration is supported; persistence behavior must be verified before promising recovery |
++
++Resizing must not reconstruct invoice data from defaults. Do not insert an undo entry for a layout change. This adaptation changes presentation and input access; it does not add invoice submission, payment, or destructive actions.
++
++## Guidance basis
++
++These are product decisions applying the installed local HIG snapshot, not SDK/API availability claims. Relevant official articles (linked for attribution, not fetched): [iPadOS](https://developer.apple.com/design/human-interface-guidelines/designing-for-ipados), [Layout — Adaptability](https://developer.apple.com/design/human-interface-guidelines/layout#Adaptability), [Right to left](https://developer.apple.com/design/human-interface-guidelines/right-to-left), [Typography — Supporting Dynamic Type](https://developer.apple.com/design/human-interface-guidelines/typography#Supporting-Dynamic-Type), [Accessibility — Vision/Mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility), [Keyboards](https://developer.apple.com/design/human-interface-guidelines/keyboards), [Focus and selection — iPadOS](https://developer.apple.com/design/human-interface-guidelines/focus-and-selection#iPadOS), [Text fields](https://developer.apple.com/design/human-interface-guidelines/text-fields), [Buttons](https://developer.apple.com/design/human-interface-guidelines/buttons), [Windows — iPadOS](https://developer.apple.com/design/human-interface-guidelines/windows#iPadOS), [Scroll views](https://developer.apple.com/design/human-interface-guidelines/scroll-views), [Lists and tables](https://developer.apple.com/design/human-interface-guidelines/lists-and-tables), and [Labels](https://developer.apple.com/design/human-interface-guidelines/labels).

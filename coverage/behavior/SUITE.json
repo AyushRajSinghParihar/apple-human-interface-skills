@@ -439,5 +439,13 @@
     "current_completed_slots": 138,
     "rerun_slots": 57,
     "note": "Six routing failures and51 completed candidate captures precede final router/index freeze; retain all and rerun57 slots with unchanged cases and harness. Original suite started_at is preserved."
-  }
+  },
+  "diagnostic_runs": [
+    {
+      "run_id": "stress-surface-privacy-freshness.candidate.r1.a2",
+      "reason": "Final-router trace-contract failure: selected optional Smart Stack watch glance and explicitly deferred watch-face work; frozen expected_reads still requires Complications. Preserve as a nonaccepted attempt, grade its artifact independently as an observation, and make one fresh unchanged-contract attempt for repetition1. No package, case, rubric, harness or threshold changes.",
+      "counts_toward_execution_target": false,
+      "retry_scheduled": true
+    }
+  ]
 }
