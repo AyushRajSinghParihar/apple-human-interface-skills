@@ -15,36 +15,40 @@ agnostic.
 
 ## Quick start
 
-Install on the machine **where your agent runs**. For this remote Linux/Mac setup,
-run these commands on the **THINKBOOK**; use the Mac when the agent itself runs there.
+The installable bundle is `skills/apple-hig`. Use it with an agent that can load
+local `SKILL.md` instructions and follow relative file references.
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/AyushRajSinghParihar/apple-human-interface-skills.git
 cd apple-human-interface-skills
-mkdir -p ~/.agents/skills
-skill_link="$HOME/.agents/skills/apple-hig"
-if [ -e "$skill_link" ] || [ -L "$skill_link" ]; then
-  printf '%s\n' "Inspect the existing installation: $skill_link"
-else
-  ln -s "$PWD/skills/apple-hig" "$skill_link"
-fi
 ```
 
-Restart or refresh Codex skill discovery, then try:
+For a fresh installation, replace the placeholder below with **your agent’s
+configured skills directory**, then copy the complete bundle. If `apple-hig`
+already exists there, inspect it and follow the update instructions instead.
+These commands use a POSIX shell such as Bash or Zsh.
+
+```bash
+SKILLS_DIR="/path/to/your/agent/skills"
+mkdir -p "$SKILLS_DIR"
+cp -R ./skills/apple-hig "$SKILLS_DIR/"
+```
+
+Keep the entire `apple-hig` folder, including hidden `.topics` directories.
+Enable or refresh skill discovery as required by your agent, then ask:
 
 ```text
-Use $apple-hig to review this iPad editor. Delete is the default action,
-all four buttons have equal prominence, and repeated Publish taps start
-multiple uploads. Give us a concrete correction and checks we can execute.
+Use the apple-hig skill to review this iPad editor. Delete is the default
+action, all four buttons have equal prominence, and repeated Publish taps
+start multiple uploads. Give us a concrete correction and checks we can execute.
 ```
 
-For **Claude Code**, install the same complete `skills/apple-hig` folder under
-`~/.claude/skills/apple-hig`, then invoke `/apple-hig`. Inspect any existing
-installation before replacing it. Claude’s runtime has not been verified here.
-
-A complete folder copy or a project-local installation also works. Preserve all
-files, including hidden `.topics` directories. Ordinary use requires no Python,
-API key, browser, or authoring cache.
+Discovery directories and invocation syntax vary by agent. If your client loads
+instruction files explicitly, start with the installed `apple-hig/SKILL.md` and
+let it follow the relevant topic references. The package itself requires no
+Python, API key, browser, or authoring cache.
 
 ## What the skills actually do
 
@@ -78,8 +82,9 @@ flowchart LR
     E --> G[Observable checks]
 ```
 
-The root and 13 family entry points are discoverable. The 158 topic procedures
-load on demand from `.topics/`, keeping initial context small. The installed
+The root routes to 13 family entry points. The 158 topic procedures load on
+demand from `.topics/`, keeping initial context small. Client discovery behavior
+is documented in the verification record below. The installed
 bundle contains **172 `SKILL.md` files** in total.
 
 The topic index includes natural-language triggers, so requests can match a
@@ -116,7 +121,7 @@ Browse the [complete topic index](skills/apple-hig/references/topic-index.md) or
 | Installation | Actual Codex CLI **0.164.0** complete-bundle smoke passed **17 checks**, including relocated copy, symlink, paths with spaces, 14-entry discovery, 158 hidden topics, procedure/source reads, and an artifact; [record](coverage/client-integration/symlink-path-spaces-r1/record.json) |
 | Tooling | **75 deterministic tests**, plus source and instruction checks in CI |
 | Development executions | [Retained traces and artifacts](coverage/behavior/); a full independent comparative grading study was not completed, so these are not an accepted quality benchmark |
-| Other environments | Claude runtime, native Apple builds, rendering, VoiceOver interaction, physical input, comfort, and haptics remain unverified |
+| Other environments | Other agent runtimes, native Apple builds, rendering, VoiceOver interaction, physical input, comfort, and haptics remain unverified |
 
 Coverage means the **dated current English HIG snapshot**, recorded on
 2026-10-25. Translations, historical documentation, and complete linked SDK/WWDC
@@ -129,27 +134,22 @@ checks remain explicit.
 
 ## Update and remove
 
-For a symlink installation, update the source checkout and refresh discovery:
+Update the source checkout:
 
 ```bash
 git pull --ff-only
 ```
 
-Moving or deleting that checkout breaks its installation link. For a copied
-installation, replace the complete bundle from a reviewed revision, including
-hidden directories.
+For a copied installation, replace the installed `apple-hig` folder with the
+complete updated `skills/apple-hig` bundle after reviewing any local changes.
+Preserve hidden directories. For a symlink installation, pulling the source
+checkout updates its contents; moving or deleting that checkout breaks the link.
+Refresh your agent’s skill discovery after updating.
 
-Inspect a Codex symlink before removing it:
+To uninstall, remove `apple-hig` from the skills directory you configured and
+refresh discovery. For a symlink, remove only the link. Keep the repository if
+you want to retain the source and documentation.
 
-```bash
-ls -ld "$HOME/.agents/skills/apple-hig"
-readlink "$HOME/.agents/skills/apple-hig"
-if [ -L "$HOME/.agents/skills/apple-hig" ]; then
-  rm "$HOME/.agents/skills/apple-hig"
-fi
-```
-
-For Claude Code, substitute `.claude` for `.agents`. Refresh discovery afterward.
 If a topic cannot be found, check that the complete bundle was installed and no
 same-named skill is taking precedence.
 
