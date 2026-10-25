@@ -1,0 +1,59 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,54 @@
+-Platform: tvOS. Six-digit code accepts only swipe gestures, shows no focused digit, discards all digits on one mistake and gives the error Invalid with no path to retry or obtain a new code.
+\ No newline at end of file
++# Apple TV household pairing-code entry
++
++Platform: tvOS. Task: link this Apple TV to a household using an existing six-digit pairing code. This is a revised design contract, not an implemented or device-validated screen.
++
++## Presentation and value
++
++Use fullscreen tvOS digit entry with a numeric keyboard, preferring system entry and button components where they meet this contract. Title: “Pair with Your Household”. Prompt: “Enter your household’s six-digit pairing code to link this Apple TV.” Helper: “Select a digit to change it. Need another code? Choose Get a New Code.”
++
++Treat the code as a six-character sequence of ASCII digits, never an integer: `004219` must retain both leading zeroes. Empty slots are not zeroes. Treat this pairing credential as sensitive: entered slots show asterisks; empty slots show dashes. Identify the current editing slot by an outline and “Digit N of 6”, independent of color. The editing slot and remote focus are distinct: the slot outline persists while focus moves to a key or button.
++
++Use a quiet background, system focus treatment with space for enlargement, and persistent text feedback. Start with tvOS 29 pt text and 66 × 66 pt control regions; do not use the smaller 23 pt text / 56 × 56 pt control minima as density targets. Permit 200% text enlargement through reflow without losing the code, message, or actions. Measure actual contrast and spacing during implementation; this document supplies no measured colors or geometry.
++
++## Remote and focus contract
++
++All entry, correction, submission, recovery, and cancellation must work with directional presses and Select; swipes offer the same navigation but are never required. Navigation alone never types or submits a digit. Select gives visible press feedback and performs the focused action. Retain system remote meanings; Play/Pause is not a submit shortcut.
++
++Initial focus is the first empty slot (slot 1 on opening). Select on a slot sets its editing position and enters the keypad. The numeric keypad uses rows `1 2 3`, `4 5 6`, `7 8 9`, then `0 Delete` centered beneath. Selecting a number replaces the editing slot only, advances the editing position to the next slot (stays at 6 at the end), and keeps focus on the selected key. It does not shift focus or submit automatically. Delete clears the editing slot; if it is already empty, it clears and selects the preceding slot, stopping at slot 1. Other digits survive.
++
++Directional route map:
++
++- Slots: Left/Right traverse 1–6 without wrapping. Down enters the keypad at its remembered key, initially 1; Up stays in the slot row.
++- Keypad: Left/Right traverse the current row without wrapping. Up/Down use the nearest column in the adjacent row (ties choose left). Up from its top row returns to the editing slot. Down from its bottom row enters the first available action.
++- Actions form a vertical stack: Pair, Get a New Code, Cancel. Up/Down traverse available actions; Up from the first returns to the remembered keypad key. Left/Right stay in the stack. No region traps focus.
++
++Unavailable actions are skipped. Pair is primary and available only when all six slots contain digits; otherwise show “Enter all six digits to pair.” Get a New Code and Cancel are secondary, equal-size system buttons. Cancel returns to the household setup parent without pairing. Back does the same from this fullscreen screen; holding Back retains the system Home behavior. Returning after cancellation starts empty.
++
++## Validation and recovery
++
++| State / trigger | Required result |
++| --- | --- |
++| Editing | Local entry accepts only digits and at most six positions. Non-digit or overlength input changes nothing and explains “Use six digits, 0–9.” A slot edit replaces rather than appends. |
++| Select Pair with six digits | Submit the exact sequence once. Retain its masked value and current focus. Show persistent “Pairing…”; lock editing and duplicate submission while keeping Cancel reachable. |
++| Service accepts | Only confirmed success links the household. Clear the transient code, show “Apple TV Paired”, and provide Continue to the household destination. Back returns to the parent reflecting the confirmed pairing. |
++| Service rejects code | Preserve all six masked digits and editing position. Show “This code wasn’t accepted. Check the code and change any incorrect digits, or get a new code.” Keep focus on Pair; the slot row remains reachable. Pair retries deliberately; edits dismiss the old error. Never claim which digit is wrong. |
++| Service reports expired code | Preserve entry for context. Show “This code has expired. Get a new code to continue.” Pair is unavailable until an edit or replacement code; move focus from the now-unavailable Pair to the adjacent Get a New Code action. |
++| Network/service failure | Preserve digits. Show “Couldn’t connect. Check your connection and try Pair again.” Pair becomes available; no automatic retry or false invalid-code message. |
++| Select Get a New Code | Open an in-app help screen: “Get a New Pairing Code” / “Return to the place where you received your household code and request a new one. Then enter it here.” Buttons: Enter New Code and Back to Entry. Back/Back to Entry restores the draft and prior focus. Enter New Code explicitly clears the draft and opens slot 1. This action does not claim to generate, send, or revoke a code. |
++| Cancel/Back while pending | Leave to the parent, clear the local draft, detach the pending UI request, and ignore late callbacks for this screen. Do not promise server-side cancellation; reconcile actual pairing status when household setup next opens. |
++
++No retry count, expiry duration, code issuer, or resend API was supplied. The help route above is the product fallback until the issuer is specified; no phone ownership is required. The service remains authoritative for rejection, expiry, rate limits, and pairing. Surface any service-provided retry delay with persistent explanation rather than inventing an authentication policy.
++
++Keep the draft only in volatile screen state. Do not place digits in logs, analytics, error text, spoken values, or persistent storage. Clear on confirmed pairing, cancellation, or explicit Enter New Code; preserve through correctable and connection failures. Masking alone does not establish secure authentication.
++
++## Accessible operation and verification contract
++
++Expose each slot’s position, filled/empty state, and editing state without speaking its secret; expose keys and buttons with names matching their visible action and enabled state. Preserve task order from instruction to slots, keypad, message, and actions. Make status/error text perceivable without color or audio, persistent until action, and available to assistive input. Required actions must be reachable and activatable with supported tvOS assistive navigation; speech and swipes are optional. Confirm actual VoiceOver and Switch Control behavior on supported Apple TV hardware before claiming access.
++
++Acceptance checks: enter and submit `004219` unchanged; complete the whole flow without swiping; inspect every focused and pressed state; replace only slot 3 after rejection; delete without clearing unrelated slots; test incomplete/non-digit/overlength entry; retry after connection failure; follow both new-code return paths; cancel from editing and pending states; ignore stale callbacks; accept only confirmed success. Check reachability in every direction, across-room legibility, enlarged focus clearance, 200% text, contrast, and assistive operation. These are required implementation checks, not reported execution results.
++
++## Guidance basis
++
++Source-backed choices: fullscreen numeric sequence entry, explanatory title/prompt and masking from [Digit entry views — Best practices](https://developer.apple.com/design/human-interface-guidelines/digit-entry-views#Best-practices); across-room focus from [Designing for tvOS — Best practices](https://developer.apple.com/design/human-interface-guidelines/designing-for-tvos#Best-practices); directional reachability and distinct states from [Focus and selection — tvOS](https://developer.apple.com/design/human-interface-guidelines/focus-and-selection#tvOS); deliberate activation and Back from [Remotes](https://developer.apple.com/design/human-interface-guidelines/remotes); labels/system styles from [Buttons](https://developer.apple.com/design/human-interface-guidelines/buttons); text/control platform values and alternative access from [Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility); data minimization from [Privacy](https://developer.apple.com/design/human-interface-guidelines/privacy#Best-practices).
++
++The exact keypad layout, editing rules, explicit submission, recovery copy, draft lifetime, and service transitions are product decisions applying this guidance, not Apple-prescribed pairing or retry protocols. Where the general buttons guide gives 44 × 44 pt, this specification conservatively uses the accessibility guide’s tvOS-specific 66 × 66 pt default.

@@ -1,0 +1,29 @@
+{
+  "id": "topic-gyro-and-accelerometer",
+  "kind": "topic",
+  "topic": "gyro-and-accelerometer",
+  "family": "inputs",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Make a motion-controlled marble puzzle playable without device movement. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: iOS/iPadOS. Tilting is the only input, no calibration occurs, the app assumes the person is standing and physical device shake irreversibly resets progress. A person may be seated or use a mounted device."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch calibration/neutral state, comfortable motion range and pause, complete touch/controller alternatives and explicit reset, including missing sensor handling without assuming hardware tests.",
+      "hig_correctness": "Apply the gyro-and-accelerometer guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch calibration/neutral state, comfortable motion range and pause, complete touch/controller alternatives and explicit reset, including missing sensor handling without assuming hardware tests.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch calibration/neutral state, comfortable motion range and pause, complete touch/controller alternatives and explicit reset, including missing sensor handling without assuming hardware tests.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

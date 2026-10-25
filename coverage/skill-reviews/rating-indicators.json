@@ -1,0 +1,18 @@
+{
+  "topic": "rating-indicators",
+  "reviewer": "independent-topic-author-a",
+  "reviewed_at": "2026-10-25T19:01:16.273076+00:00",
+  "status": "reviewed",
+  "source_hash": "f1ba97a065b81b6a6f96cb54bdfac174aa327023d6d22705308f9748656db3ad",
+  "skill_hash": "29ae9600ed20baba258a27f0a21251984e4ca5d725220fa55c658e290d11f5a6",
+  "reference_hash": "36fcd235fbf4bc6476b39f4b57f0536f0b322de83efe11b38bf2831fec92ce43",
+  "evidence": {
+    "decision": "Separates Mac whole-symbol item ranking from App Store review prompts, establishing unrated/fractional/editability semantics.",
+    "artifact": "Delivers stable object/value/rounding/edit/persistence contract with direct list-item rating behavior.",
+    "transformation": "Recipe example replaces stretched misleading fractional stars and Settings editing with fixed-spacing whole-symbol display and direct row editing.",
+    "verification": "Checks endpoints, fraction mapping, sorting after edit and accessible identity; wrong-item updates or false precision fails.",
+    "applicability": "Correctly limits this native component to macOS and requires supported alternatives elsewhere; runtime/assistive editing is not claimed.",
+    "handoffs": "Ratings and reviews handles app review requests and Lists and tables handles actual row integration.",
+    "distinctiveness": "Whole-symbol rounding, fixed spacing and direct item editing distinguish this specific rating component."
+  }
+}

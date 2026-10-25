@@ -1,0 +1,1 @@
+Platform: macOS. Nine tabs have duplicate icons and no text, selecting a tab saves unrelated files and the panel changes size so dramatically that close control moves out of reach. Some preferences have validation errors.

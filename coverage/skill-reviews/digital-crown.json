@@ -1,0 +1,19 @@
+{
+  "topic": "digital-crown",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:56:57.471378+00:00",
+  "status": "reviewed",
+  "source_hash": "a304e081b9d806156475c901235c66fc5c6ec16e3b3edeff5814c15c91b18633",
+  "skill_hash": "1cf9d78610b1b4474f615668d44c68a406814a7fad2857c603cbf1f7d27e37ff",
+  "reference_hash": "0ea7dc7bd039abaf5d8038968f22730f1e21c910390fa16eeac5627b3023caf3",
+  "evidence": {
+    "decision": "Distinguishes watch app rotation from reserved system press actions and system-owned Vision Pro Crown behavior, then chooses a visible rotation effect and suitable speed/precision.",
+    "artifact": "Delivers a context-to-rotation mapping, rate/detent policy and equivalent touch route instead of an undifferentiated Crown interaction recommendation.",
+    "transformation": "The altitude-history example separates main-page scrolling from explicit day adjustment, removing the ambiguous simultaneous day-change and scroll mapping.",
+    "verification": "Checks unrelated state changes, invisible rotation results, unsuitable precision and reserved press assignments; physical detents and haptic feel remain hardware evidence.",
+    "applicability": "Keeps Watch app navigation priority and touch alternatives distinct from visionOS volume, immersion and recentering system functions.",
+    "handoffs": "Routes Watch-specific context to the watchOS design topic and immersion decisions to Immersive Experiences.",
+    "distinctiveness": "The context-bound rotation contract, equivalent touch behavior and exclusion of arbitrary Vision Pro Crown app commands distinguish this procedure from generic gesture guidance."
+  },
+  "additional_references": []
+}

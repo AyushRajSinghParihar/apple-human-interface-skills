@@ -1,0 +1,57 @@
+# iPhone equipment checkout: revised NFC specification
+
+Platform: iOS with supported NFC capability. Preserve the existing implementation stack. This specification replaces unexplained scanning, premature success, unknown-label checkout creation and indefinite waiting.
+
+## Entry and instructions
+
+Initially show: “Scan the equipment label to identify the item. Review the equipment before checking it out.” A primary **Scan Equipment** system button starts a deliberate foreground session; entering or returning to the screen does not start scanning automatically.
+
+Check reader availability before starting. Present the system scanning sheet with “Hold iPhone near the equipment label.” Instructions are short complete sentences in sentence case, with punctuation. Do not imply physical contact or use tag/Core NFC jargon in product copy. Keep cancellation owned by the system sheet.
+
+If unavailable or unable to start, show “Scanning is unavailable right now.” Offer **Try Again** and **Cancel** without changing checkout records. Do not assume every iPhone or iPad supports reading. Manual identification is outside the supplied scope; never invent an equipment record as fallback.
+
+## State model
+
+| State | Presentation | Transition and data effect |
+| --- | --- | --- |
+| Ready | Explanation; Scan Equipment | Activation starts one session; no mutation |
+| Scanning | System sheet and hold-near instruction | First accepted read ends session → Identifying; cancel → Ready; deadline → No read; reader error → Read failed; no checkout |
+| Identifying | “Identifying equipment…” with indeterminate activity | Validate payload and resolve exactly one registered item → Review; unknown, malformed or ambiguous → Unrecognized; lookup failure → Lookup failed; read-only |
+| Review | Equipment name, inventory ID and availability; “Review this equipment before checking it out.” | Explicit Check Out → Submitting; Scan Again → fresh scan; Cancel → Ready; no mutation yet |
+| Submitting | Keep equipment visible; activating button shows activity and “Checking Out…” | Confirmed commit → Completed; explicit rejection → Checkout failed; response timeout → Outcome unknown |
+| Completed | “Checked out: {equipment name}.” and confirmed record details | Scan Next Item starts a fresh session; Done returns to overview |
+
+Enable **Check Out** only for a recognized item eligible for the current user. Otherwise show “This equipment isn’t available for checkout.” with **Scan Again** and **Cancel**. Revalidate identity, authorization and availability atomically at commit; stale Review data cannot authorize checkout. A read, lookup result or request acknowledgment is never checkout success.
+
+## Bounded waiting and recovery
+
+- Scanning ends at the earlier of system termination or a product-defined 30-second deadline from session start. Stop/invalidate the reader, finish system sheet dismissal, remove activity and show “No equipment label was read. Hold iPhone near the label and try again.” Offer **Try Again** and **Cancel**.
+- Reader failure shows “Couldn’t read the equipment label. Try again.” with Try Again and Cancel. No checkout occurs.
+- Unrecognized shows “This label doesn’t match registered equipment.” with **Scan Again** and **Cancel**. Do not register equipment, create a checkout or display raw payload as trusted equipment details.
+- Lookup has a product-defined 15-second deadline. Failure or expiry removes activity and shows “Couldn’t identify the equipment. Try again.” **Try Again** repeats read-only lookup of the candidate; **Scan Again** discards the candidate and starts afresh; **Cancel** abandons lookup and returns to Ready. Ignore eventual responses after cancellation.
+- Submission has a 15-second response deadline. Explicit rejection removes activity and shows the reason, **Retry Checkout** only when permitted, plus Scan Again and Cancel. Timeout or lost connection removes activity and shows “Checkout status is unknown. Check its status before trying again.” Retain item and operation ID; offer **Check Status** and **Done**, not a new checkout attempt.
+- Check Status performs a read-only operation lookup with a 15-second deadline. Confirmed commit → Completed; definitive uncommitted result → Review with reason; pending or failed lookup → Outcome unknown, without activity. Done returns to overview while retaining unresolved operations for later reconciliation. Leaving does not cancel a submitted transaction.
+
+These durations are product defaults, not Apple requirements. Never automatically retry scanning or checkout. Cancellation before submission changes no checkout records. During submission, do not promise rollback through Cancel. Preserve relevant equipment context on recovery screens.
+
+## Session and transaction safeguards
+
+Allow only one reader session. Associate each attempt with a generation token; first accepted read wins. Ignore duplicate detections and callbacks from canceled, timed-out or replaced attempts. Disable repeated scan activation during startup/scanning. Wait for the old session to end before starting another. Release the reader and remove scan activity on every terminal path.
+
+Leaving foreground ends scanning and abandons pending lookup. Preserve prior context and show “Scanning stopped. Try again when you’re ready.” on return; never automatically resume. Established Review may remain. During submission, retain the operation for status reconciliation rather than treating interruption as cancellation.
+
+Use a stable operation identifier and an atomic, duplicate-safe checkout service contract. Double activation, delivery retries and repeated callbacks must resolve to one checkout. UI disabling alone is insufficient. Establish this service contract before enabling retries. An uncertain response must be reconciled before another checkout for that operation is enabled.
+
+After Completed, **Scan Next Item** uses “Hold iPhone near the next equipment label.” Earlier confirmed checkouts remain intact. Rescanning a checked-out item shows actual availability rather than adding another checkout.
+
+## Foreground fallback and optional background entry
+
+Foreground scanning is the complete required route. Background reading is optional. If retained, a compatible notification opens identification/review for the matching equipment through the same validation gates, never creates a checkout or loses context at a generic home screen. Do not promise detection universally: the local guidance excludes active NFC sessions, Wallet/Apple Pay, camera use, Airplane Mode and the post-restart locked state. Suitable labels and compatible devices remain prerequisites.
+
+## Controls, progress and source basis
+
+Use native system buttons, visible action labels, built-in pressed/disabled states, flexible labels and separated hit regions of at least 44 × 44 pt on iPhone. Use one prominent next action per state and secondary recovery/cancel controls. Done leaves a result; Cancel abandons a pre-submission task. Neither undoes a committed checkout.
+
+Use system scan feedback and indeterminate activity only while work is active; no whole-operation denominator is available for percentages. Keep app status in a consistent location. Remove activity on every resolved or deadline path. Identification, submission and confirmed completion remain visibly distinct.
+
+Locally read sources support [NFC instructions and background qualifications](https://developer.apple.com/design/human-interface-guidelines/nfc), [honest temporary progress and recovery](https://developer.apple.com/design/human-interface-guidelines/progress-indicators#Best-practices), and [system buttons and iOS activity feedback](https://developer.apple.com/design/human-interface-guidelines/buttons). No web access was used. Review-before-commit, deadlines, validation gates, generation tokens and transaction safeguards are product/engineering decisions, not Apple API guarantees. Hardware, SDK integration, native rendering and service semantics require implementation verification.

@@ -1,0 +1,19 @@
+{
+  "topic": "focus-and-selection",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:56:57.471567+00:00",
+  "status": "reviewed",
+  "source_hash": "e14bbde7c1a82925e3f96520f2438b151802228cc4470862c14f6f9d9a2b9fbf",
+  "skill_hash": "2f90688afb4de2ff2c5c0140422ff1e7f452b754926198611fff4835a1121569",
+  "reference_hash": "047a59cbaede962d61a854258581b40279a4a9409eeb26b9fa2492761e4a4705",
+  "evidence": {
+    "decision": "Separates transient focus, deliberate activation and persistent selection, deciding when an initial focus is harmless and when automatic movement would change context.",
+    "artifact": "Delivers a focus-group/order map and separate visual states, including removal/return behavior that can be implemented or tested through navigation paths.",
+    "transformation": "The TV watchlist example stops autoplay on focus and replaces an ambiguous saved glow with separate focus, Select activation and persistent Saved state.",
+    "verification": "Checks directional entry, removal and return for traps, jumps and lost selected state, without equating a static map with actual focus-engine or hardware execution.",
+    "applicability": "Keeps TV directional navigation and five states distinct from iPad Tab/arrow grouping and Full Keyboard Access; does not generalize this component guidance to iOS/watchOS or equate gaze hover with focus.",
+    "handoffs": "Uses Remotes for TV button semantics, Keyboards for access routes and Eyes for spatial hover rather than folding their different semantics into focus.",
+    "distinctiveness": "Focus-versus-selection state separation, one-step replacement after removal, visible-content gestures and platform navigation grouping give this procedure a concrete interaction model."
+  },
+  "additional_references": []
+}

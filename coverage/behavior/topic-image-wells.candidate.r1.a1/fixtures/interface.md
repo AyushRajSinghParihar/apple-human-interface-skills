@@ -1,0 +1,1 @@
+Platform: macOS. A square portrait preview is not distinguishable as editable, drop accepts any file then silently fails and replacing a portrait cannot be undone. Some contacts have no portrait; multiple contacts can be selected.

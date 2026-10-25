@@ -1,0 +1,59 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,54 @@
+-Platform: macOS. A tiny unlabeled square immediately randomizes every shape on click. Multiple selected shapes with different colors appear as black. Cancel in the color panel still commits changes. Keyboard users cannot reach the control.
+\ No newline at end of file
++# Selected-shape accent color — revised macOS specification
++
++## Scope and target
++
++Replace the tiny unlabeled randomizing square with a color well labeled **Accent color** in the selection inspector. Here, accent color means the diagram shape's existing color property, not the macOS system accent preference. Preserve all other shape properties. No randomization occurs on activation.
++
++The target is the selected editable shapes in the active document. Unselected shapes never change. With no selection, disable the well and show “Select shapes to change accent color.” If the selection includes locked or unsupported objects, disable the action and explain “Select only editable shapes”; do not silently edit a subset. Display the target count beside the label.
++
++## Well and value representation
++
++Use the platform color well and evaluate the system color picker first, retaining familiar saved colors. Keep the existing application framework; SDK integration remains an implementation task. Use a 28 × 28 pt activation area as the macOS starting size, with separation from adjacent controls, rather than retaining the tiny target. The visible swatch may be smaller than its activation area.
++
++Bind the well to selection identity and current stored color values, refreshing after selection, edits, undo and redo:
++
++- Uniform: show the actual color plus a textual value in the document's color representation. Genuine black is a uniform black swatch with its value.
++- Mixed: show a neutral swatch with a dash and visible text “Multiple colors”; expose the same mixed value to accessibility. Never substitute black or arbitrarily display the first object's color.
++- Inactive: show disabled styling and the reason above. Mixed and disabled are separate states.
++
++Retain the document's color space and precision. Comparing values must use the document's defined color equality, not a screenshot or rounded display string. Do not introduce silent color conversion or change the stored value just by opening the picker.
++
++## Editing transaction
++
++Activation highlights the well and opens the system picker connected to an app-owned editing session. The session visibly identifies “Accent color — N selected shapes” and provides labeled Apply and Cancel actions associated with it. These actions are a product transaction contract, not a claim that the system color panel supplies native Apply/Cancel semantics.
++
++1. Capture document identity, selected object identities and each original color. Opening alone changes nothing. A mixed selection starts without a candidate; any initial picker fallback is not an edit.
++2. An explicit color choice previews that color on the captured selection and in the well. Show “Preview” with the value. Keep preview separate from persistent document data, dirty state, autosave and undo history. Repeated choices replace the candidate in this one session.
++3. Apply is enabled only after an explicit valid candidate exists. Apply writes that candidate to every captured shape atomically, clears preview, ends the session and records one “Change Accent Color” undo unit if anything changed. An unchanged result creates no history entry or dirty state.
++4. Cancel, Escape, Command-Period, picker close and implicit dismissal discard the preview and leave every original value and prior dirty/history state intact. Dismissal never means Apply.
++5. Before a selection change, target deletion/locking, document switch/close, or competing edit/undo, cancel the session and remove preview, then perform the requested action. Recompute the well for the new context. Invalidate the session token so delayed picker callbacks cannot affect either old or new objects. Reopening always captures fresh targets and values.
++6. Return keyboard focus to the well after Apply/Cancel, unless a context-changing action moved it elsewhere. Remove active highlighting when the session ends.
++
++Undo restores each shape's own pre-edit value, including mixed originals; redo reapplies the committed color. Preserve the standard Edit Undo/Redo commands and Command-Z / Shift-Command-Z. A new committed edit after undo clears that redo branch. Saving does not create a color edit or discard this command's history; reopening starts the app's normal new document history. Make restored changes visible, revealing affected shapes when offscreen.
++
++## Color transfer
++
++Preserve macOS dragging between wells and from the picker. This property transfer copies a color; it never removes or recolors the source. Export only a definite uniform color or explicit preview candidate, not a mixed placeholder. Accept one supported native color representation; reject noncolor, undecodable or ambiguous multi-color payloads without mutation. Highlight only eligible destinations and remove feedback on drag exit or cancellation.
++
++A drop onto the enabled well with no session is one immediate, undoable change to the selection validated at drop time. During an editing session it replaces the preview candidate and still requires Apply. A canceled or failed drag changes nothing. Option cannot turn this color-property copy into source deletion. Opening the picker and choosing the same color provides the keyboard alternative to dragging.
++
++## Keyboard and accessible presentation
++
++Expose a color-well role, accessible name “Accent color”, uniform value or “Multiple colors”, enabled state and target count. Associate the visible label with the well. Use native focus indication and a distinct active indication; color alone must not convey mixed, disabled, focus or preview states.
++
++Place the well in the inspector's logical keyboard order. With macOS keyboard navigation/Full Keyboard Access enabled, Tab and Shift-Tab must reach and leave it; Space activates it. The picker and session actions must be reachable and operable without a pointer, with no focus trap. Apply activates through its focused action; preserve normal keyboard behavior inside picker fields. Escape and Command-Period cancel. No new shortcut overrides a standard command.
++
++Use system text and semantic interface colors. At 200% text enlargement, labels, target count, mixed value and session actions remain readable and reachable through reflow or scrolling. Check light/dark appearances and Increase Contrast; evaluate actual label, border and focus contrast rather than assuming a custom swatch is readable. A chosen shape color remains user content; retain neutral boundaries and text so the control remains identifiable for black, white and transparent colors.
++
++## Acceptance contract
++
++The checks in result.md are required implementation acceptance checks. This document specifies behavior; it does not establish runtime compliance.
++
++## Guidance basis
++
++Local installed HIG snapshots support evaluating the system picker, synchronization, activation highlighting and Mac color transfer ([Color wells](https://developer.apple.com/design/human-interface-guidelines/color-wells#macOS)); non-color cues, input alternatives and Mac sizing ([Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility)); complete keyboard access and familiar cancellation ([Keyboards](https://developer.apple.com/design/human-interface-guidelines/keyboards)); copy/reversal and drop feedback ([Drag and drop](https://developer.apple.com/design/human-interface-guidelines/drag-and-drop)); grouped recovery and standard Mac undo commands ([Undo and redo](https://developer.apple.com/design/human-interface-guidelines/undo-and-redo#macOS)). Exact transaction boundaries, mixed-state wording, selection policy and history unit above are product decisions applying that guidance.

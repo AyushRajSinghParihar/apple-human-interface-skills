@@ -1,0 +1,18 @@
+{
+  "topic": "workouts",
+  "reviewer": "independent-topic-author-a",
+  "reviewed_at": "2026-10-25T19:00:42.558624+00:00",
+  "status": "reviewed",
+  "source_hash": "8b301abb00fd3480827574e59e344202dcabc8211aaae771f1f3f5a2323927b7",
+  "skill_hash": "5e4044e8e42b9db399e558345bceaf4e7ae8fc662e8b559574fe4f33116589b6",
+  "reference_hash": "f31638824b7bb7b3e20effe80c84b776bfdc4b2d3680fd9b99b01496f073f612",
+  "evidence": {
+    "decision": "Binds metrics to real sensors/activity limitations and separates active-session controls from unrelated navigation and media classes.",
+    "artifact": "Delivers lifecycle, sensor availability/provenance and saved/discarded summary contract with corrected workout states.",
+    "transformation": "Pool-swim example removes fabricated GPS/frozen live heart rate and separates large Pause/End controls with truthful supported estimates.",
+    "verification": "Checks start/pause/resume/end, accidental brief session, sensor absence and wrist return; false live values or saved summaries fail.",
+    "applicability": "Limits activity-data session scope to iOS/iPadOS/Watch while distinguishing larger-device fitness media; physical sensors/health recording remain unverified.",
+    "handoffs": "Activity rings, HealthKit and Playing audio load only for actual daily progress, data access or session sound needs.",
+    "distinctiveness": "Metric provenance by workout type and brief-session disposition distinguish this from generic progress tracking."
+  }
+}

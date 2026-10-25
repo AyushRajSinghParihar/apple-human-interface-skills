@@ -1,0 +1,18 @@
+{
+  "topic": "sidebars",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:50:48.414711+00:00",
+  "status": "reviewed",
+  "source_hash": "74b0bb163b26444574b05acaddea4e0f0d5c4ac95a807efd8c734164ecb8286d",
+  "skill_hash": "d5a0a757f1a4e9791adf409301f9a7b1bd1940f7de46535756dac1367e36deb7",
+  "reference_hash": "b1b945ba5070b261b5cce7f64773eddea8b2b891966acb5e449b5869d173e59d",
+  "evidence": {
+    "decision": "Evaluates tab navigation and shallow hierarchy before committing to permanent sidebar space, preserving selection and restoration.",
+    "artifact": "Requires a navigation/adaptation patch or destination/hierarchy/selection/restore specification and resize map.",
+    "transformation": "Five-level library example relocates deeper content into a middle pane, moves the only Add action from the bottom and confines visionOS child navigation to its tab.",
+    "verification": "Tests hidden/compact states, deep branches, selection persistence and larger sizing; fails missing restoration or offscreen critical commands.",
+    "applicability": "Qualifies Mac auto-collapse and button/View restoration, iPad edge restoration, watch nonapplicability and visionOS tab confinement.",
+    "handoffs": "Routes only the chosen structure to split-views, tab-bars or toolbars rather than loading every container procedure.",
+    "distinctiveness": "Hierarchy depth, sidebar cost, restoring hidden navigation and tab-local selection provide concrete sidebar decisions and failure states."
+  }
+}

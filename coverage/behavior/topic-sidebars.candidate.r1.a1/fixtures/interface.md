@@ -1,0 +1,1 @@
+Platform: iPadOS/macOS. Sidebar mixes library destinations, current book chapters and Delete Account at the same hierarchy, takes most of a narrow window and loses the current book when collapsed. A book can have many long chapter titles.

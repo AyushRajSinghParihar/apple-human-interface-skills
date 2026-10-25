@@ -1,0 +1,28 @@
+{
+  "id": "topic-playing-video",
+  "kind": "topic",
+  "topic": "playing-video",
+  "family": "patterns",
+  "mode": "design",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Specify video playback states for an iPad lecture reader. Read interface.md. Produce a concrete revised interaction specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: iPadOS. Video autoplays loudly, overlays cover captions, scrubbing discards the transcript position and a network stall looks like a paused video. People may switch to picture-in-picture where supported."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Design deliberate transport, clear buffering/paused/error states, caption/transcript access and context-preserving resume/PiP decisions; leave actual format/device support qualified.",
+      "hig_correctness": "Apply the playing-video guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Design deliberate transport, clear buffering/paused/error states, caption/transcript access and context-preserving resume/PiP decisions; leave actual format/device support qualified.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Design deliberate transport, clear buffering/paused/error states, caption/transcript access and context-preserving resume/PiP decisions; leave actual format/device support qualified.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

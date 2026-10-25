@@ -1,0 +1,29 @@
+{
+  "id": "topic-typography",
+  "kind": "topic",
+  "topic": "typography",
+  "family": "foundations",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Repair text hierarchy in a Mac/iPhone finance report. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platforms: iOS/macOS. Body uses one thin 9 pt custom font, headings are images and values clip under larger text. Tabular financial figures shift horizontally as they update; all emphasis is all-caps paragraphs."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch platform-appropriate styles/hierarchy, actual scalable text, stable numeric alignment and readable emphasis with localized and enlarged-text checks; preserve content rather than shrinking it.",
+      "hig_correctness": "Apply the typography guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch platform-appropriate styles/hierarchy, actual scalable text, stable numeric alignment and readable emphasis with localized and enlarged-text checks; preserve content rather than shrinking it.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch platform-appropriate styles/hierarchy, actual scalable text, stable numeric alignment and readable emphasis with localized and enlarged-text checks; preserve content rather than shrinking it.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

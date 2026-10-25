@@ -1,0 +1,28 @@
+{
+  "id": "topic-researchkit",
+  "kind": "topic",
+  "topic": "researchkit",
+  "family": "technologies",
+  "mode": "design",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Design consent and study-task entry for an iPhone research app. Read interface.md. Produce a concrete revised interaction specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: iOS. Consent is a prechecked checkbox under a long unreadable paragraph; declining still enrolls the person. A movement task has no stop control and collected answers are shared publicly by default. Study approval is not supplied."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Specify understandable voluntary consent, safe stoppable tasks and privacy-aware progress/withdrawal states; leave ethics/clinical/framework verification explicit rather than certifying the study.",
+      "hig_correctness": "Apply the researchkit guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Specify understandable voluntary consent, safe stoppable tasks and privacy-aware progress/withdrawal states; leave ethics/clinical/framework verification explicit rather than certifying the study.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Specify understandable voluntary consent, safe stoppable tasks and privacy-aware progress/withdrawal states; leave ethics/clinical/framework verification explicit rather than certifying the study.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

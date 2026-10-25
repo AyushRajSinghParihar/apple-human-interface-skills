@@ -1,0 +1,29 @@
+{
+  "id": "topic-gestures",
+  "kind": "topic",
+  "topic": "gestures",
+  "family": "inputs",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Replace hidden gesture-only actions in an iPhone audio editor. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: iOS. Split clip requires a three-finger circle; swipe left both scrubs and deletes depending on speed; there is no visible undo. Standard edge navigation is intercepted. Users must perform every action one-handed."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch simple predictable gestures and discoverable onscreen alternatives, disambiguate scrubbing/destruction, preserve system gestures and provide feedback/undo.",
+      "hig_correctness": "Apply the gestures guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch simple predictable gestures and discoverable onscreen alternatives, disambiguate scrubbing/destruction, preserve system gestures and provide feedback/undo.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch simple predictable gestures and discoverable onscreen alternatives, disambiguate scrubbing/destruction, preserve system gestures and provide feedback/undo.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "topic": "designing-for-ipados",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:44:46.184630+00:00",
+  "status": "reviewed",
+  "source_hash": "4f40bca3b4211c0b2efb57691f77cc13f74df37a3512340e05bc8b12ed0837e0",
+  "skill_hash": "bab461744c2c2e80ba7700b1226eb963d8f0290f58e36628276ff2712c8e5ae0",
+  "reference_hash": "d670289eeee3245ebe7887724472b89f1ab73284bc70081a76c604ccb0d182af",
+  "evidence": {
+    "decision": "Decides which related views deserve simultaneous space, how to collapse them while preserving state and how each supported input completes the same operations.",
+    "artifact": "Requires a wide/narrow task flow plus input mapping or corresponding implementation, including cross-app import landing behavior.",
+    "transformation": "Score editor replaces repeated full-screen tool round trips with contextual tools that collapse at compact width without losing page/selection/undo.",
+    "verification": "Shrinking-selection loss, hover-only touch blockers and imported-content replacement are explicit failures; Pencil/reach/drag claims need device evidence.",
+    "applicability": "Works without attached accessories, treats multitasking as normal and separates iPad-on-Mac adaptation from an unsupported native-equivalence claim.",
+    "handoffs": "Routes resizing to Layout, actual drawing/writing to Pencil/Scribble and precision input to Pointing devices.",
+    "distinctiveness": "Persistent score/canvas relationships and input switching make this an iPad workspace procedure rather than a larger-phone summary."
+  },
+  "additional_references": []
+}

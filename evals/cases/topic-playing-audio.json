@@ -1,0 +1,28 @@
+{
+  "id": "topic-playing-audio",
+  "kind": "topic",
+  "topic": "playing-audio",
+  "family": "patterns",
+  "mode": "design",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Design audio-session behavior for an iPhone language lesson. Read interface.md. Produce a concrete revised interaction specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: iOS. Starting a silent flashcard stops the user’s music, narration continues after explicit Pause and interruption by a call restarts the lesson from the beginning at full volume. Captions/transcript data exist."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Specify intentional audio use, clear play/pause/progress, interruption/resume policy and visual/text equivalents; distinguish mixed background audio decisions from unsupported runtime assurances.",
+      "hig_correctness": "Apply the playing-audio guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Specify intentional audio use, clear play/pause/progress, interruption/resume policy and visual/text equivalents; distinguish mixed background audio decisions from unsupported runtime assurances.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Specify intentional audio use, clear play/pause/progress, interruption/resume policy and visual/text equivalents; distinguish mixed background audio decisions from unsupported runtime assurances.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

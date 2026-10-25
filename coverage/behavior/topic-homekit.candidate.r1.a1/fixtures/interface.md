@@ -1,0 +1,1 @@
+Platforms: iOS/macOS. Room named Bedroom displays every accessory in the home; tapping On updates UI despite a failed command, guests see owner-only configuration and offline devices vanish. Some accessories are not lights.

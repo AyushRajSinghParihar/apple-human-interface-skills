@@ -1,0 +1,1 @@
+Platform: watchOS. Proposal duplicates a 40-field phone form, requires typing serial numbers and hides the completion action below a long explanatory article. People may wear gloves and raise their wrist briefly.

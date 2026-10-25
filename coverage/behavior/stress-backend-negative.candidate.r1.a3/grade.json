@@ -1,0 +1,34 @@
+{
+  "scores": {
+    "task_completion": 2,
+    "hig_correctness": 2,
+    "artifact_usefulness": 2,
+    "conditions_accessibility": 2,
+    "evidence_honesty": 2
+  },
+  "evidence": {
+    "task_completion": "interface.md sets maxAttempts to 3, explicitly counts the initial execution plus at most two retries, excludes 401/403, and requires the original job ID and continuing attempt counter. fixture.patch demonstrates the requested in-place correction.",
+    "hig_correctness": "All artifacts stay within the framework-neutral Linux backend policy. result.md explicitly reports no Apple UI guidance use; no supplied artifact indicates loading HIG references.",
+    "artifact_usefulness": "The corrected contract includes worked outcome sequences for success, transient recovery, third-attempt exhaustion, authentication failures initially and after a retry, and unlisted failures. It also requires independent eligibility checks for all five allowed statuses and identity persistence.",
+    "conditions_accessibility": "The allowlist distinguishes retryable statuses from terminal authentication, unlisted-status, and statusless failures. Success and exhausted attempts terminate execution, with no irrelevant Apple accessibility requirements.",
+    "evidence_honesty": "result.md confines passed checks to document inspection and explicitly labels acceptance cases as specifications rather than executed tests. It identifies missing implementation, runtime, restart/redelivery persistence, and framework attempt-mapping evidence without inventing runtime observations."
+  },
+  "critical_errors": [],
+  "found_defect_ids": [],
+  "invented_high_severity_findings": [],
+  "verdict": "pass",
+  "artifact_hashes": {
+    "interface.md": "59408db880448b698078cdd28e1435c31321dd708ab03934430ded744ae407a4",
+    "result.md": "26bd246a90de427c0a1b811f9222afa3a05ffe24d9c4ec1616047bb078a0ec75",
+    "fixture.patch": "07bf1031d8b79fba8b8cfadc453f2b6d7270614f8370eb81ba6d6aeed67681ac"
+  },
+  "record_hash": "7c740088099ddf3519247e8cfaa643e9a5bb0fc5d2cb84b590678f32f24e3985",
+  "case_hash": "e0e6a4117d3bae89d08e7f940d8582dc8e88c3ed64aef36feac60811584522e0",
+  "grader": "fresh-independent-codex:01a17462-77c9-7fc1-a834-5dd985b222ec",
+  "reviewed_at": "2026-10-25T18:46:46.415316+00:00",
+  "blinding": "Candidate/control identity labels withheld; fresh ephemeral grader session.",
+  "grading_transcript": {
+    "path": "coverage/grading/fc960fbe42eaf0f3/events.jsonl",
+    "hash": "35155fc3cfd8808b54c13cbe85ece95e897ce019978db656c67aaf7b31c397ac"
+  }
+}

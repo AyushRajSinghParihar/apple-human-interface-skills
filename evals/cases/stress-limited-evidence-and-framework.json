@@ -1,0 +1,35 @@
+{
+  "id": "stress-limited-evidence-and-framework",
+  "kind": "stress",
+  "topic": null,
+  "family": null,
+  "expected_topics": [
+    "buttons",
+    "modality",
+    "accessibility"
+  ],
+  "mode": "review",
+  "baseline_control": false,
+  "invoke": true,
+  "prompt": "Use $apple-hig. Review this iPhone React web prototype specification for Apple-style interaction problems, but preserve our framework and classify missing evidence carefully. Do not recommend an automatic native rewrite. Read interface.md. write result.md with the concrete result, decisions, acceptance checks and what evidence is still missing.",
+  "input_files": {
+    "interface.md": "Platform: iPhone Safari, React web prototype. Only screenshot notes available: two visually small unlabeled glyphs beside a form, a dimmed backdrop and a panel titled Edit profile. CSS hit regions, DOM/ARIA, focus handling, dirty-state dismissal behavior, contrast colors and actual keyboard behavior are NOT supplied. Product constraint: stays a React web prototype; no SwiftUI or Apple SDK migration authorized."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Deliver only evidenced visible-label findings plus explicit inspection questions for unseen hit size/semantics/focus/dismissal; provide concrete framework-neutral repair/proposed verification.",
+      "hig_correctness": "Treat dim backdrop as insufficient proof of modality and visual glyph size as insufficient proof of actual hit region or accessible name.",
+      "artifact_usefulness": "Deliver a task-specific corrected artifact or evidence-grounded audit with worked states/transitions and observable checks; a generic checklist is insufficient.",
+      "conditions_accessibility": "Keep web/React constraints and propose semantic controls, focus/dismissal inspection and native-device checks as unverified.",
+      "evidence_honesty": "Do not invent native runtime results, unseen semantics, device support, measurements or source authority; distinguish source conflict and unresolved product constraints."
+    },
+    "critical_errors": [
+      "Reports absent accessible names, broken focus, data loss or exact contrast/target failures as confirmed solely from these notes.",
+      "Replaces the requested React web prototype with SwiftUI implementation.",
+      "Claims VoiceOver or iPhone runtime execution."
+    ]
+  }
+}

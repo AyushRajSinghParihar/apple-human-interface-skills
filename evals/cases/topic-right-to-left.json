@@ -1,0 +1,29 @@
+{
+  "id": "topic-right-to-left",
+  "kind": "topic",
+  "topic": "right-to-left",
+  "family": "foundations",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Adapt a mixed Arabic/English iPad budget screen to right-to-left layout. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: iPadOS. All arrows and media-play icons are mechanically flipped, currency strings reorder digits, text is right-aligned even for email addresses and item hierarchy still assumes left-to-right navigation. Long Arabic labels clip."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch reading/navigation direction and semantic alignment, protect bidirectional numbers/identifiers and directional-versus-universal symbols, with concrete mirrored and unmirrored examples.",
+      "hig_correctness": "Apply the right-to-left guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch reading/navigation direction and semantic alignment, protect bidirectional numbers/identifiers and directional-versus-universal symbols, with concrete mirrored and unmirrored examples.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch reading/navigation direction and semantic alignment, protect bidirectional numbers/identifiers and directional-versus-universal symbols, with concrete mirrored and unmirrored examples.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

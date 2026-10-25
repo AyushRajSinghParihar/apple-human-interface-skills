@@ -1,0 +1,28 @@
+{
+  "id": "topic-charting-data",
+  "kind": "topic",
+  "topic": "charting-data",
+  "family": "patterns",
+  "mode": "design",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Design a trend story for monthly household energy data. Read interface.md. Produce a concrete revised interaction specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: iPadOS. Data: January 210 kWh, February 220, March 225, April missing, May 610 after heating installation. Current dashboard uses a pie chart of months and hides the missing reading. People need to compare change and inspect values."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Select a chart and explanatory hierarchy matching temporal comparison, expose the gap/outlier with honest context and specify accessible summaries and exact-value inspection.",
+      "hig_correctness": "Apply the charting-data guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Select a chart and explanatory hierarchy matching temporal comparison, expose the gap/outlier with honest context and specify accessible summaries and exact-value inspection.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Select a chart and explanatory hierarchy matching temporal comparison, expose the gap/outlier with honest context and specify accessible summaries and exact-value inspection.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

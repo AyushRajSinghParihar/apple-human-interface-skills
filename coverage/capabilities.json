@@ -1,0 +1,1483 @@
+{
+  "schema_version": 1,
+  "baseline_commit": "a748d07",
+  "topics": [
+    {
+      "topic": "accessibility",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/accessibility.md",
+      "case_id": "topic-accessibility",
+      "case_path": "evals/cases/topic-accessibility.json",
+      "case_hash": "6e90b4ce7869145374947b80acd69d47d9af9f29869cde06cf6d57d360c55be1"
+    },
+    {
+      "topic": "action-button",
+      "family": "inputs",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-inputs/.topics/apple-hig-action-button/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-inputs/references/action-button.md",
+      "case_id": "topic-action-button",
+      "case_path": "evals/cases/topic-action-button.json",
+      "case_hash": "bf9b65bbcb6cfd551eef020e92949855e678200a9e1468f1510c6943f56ea829"
+    },
+    {
+      "topic": "action-sheets",
+      "family": "presentation",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-presentation/.topics/apple-hig-action-sheets/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-presentation/references/action-sheets.md",
+      "case_id": "topic-action-sheets",
+      "case_path": "evals/cases/topic-action-sheets.json",
+      "case_hash": "3b98266f8caa53d1f2f8d7fa4648349d511caa2de3d78585e465196dbd857b7c"
+    },
+    {
+      "topic": "activity-rings",
+      "family": "status",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-status/.topics/apple-hig-activity-rings/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-status/references/activity-rings.md",
+      "case_id": "topic-activity-rings",
+      "case_path": "evals/cases/topic-activity-rings.json",
+      "case_hash": "b53b291b611ec6b11cee5b2728f662b49f5cb250d52aa49d95f15f78a201562a"
+    },
+    {
+      "topic": "activity-views",
+      "family": "menus-and-actions",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/.topics/apple-hig-activity-views/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/activity-views.md",
+      "case_id": "topic-activity-views",
+      "case_path": "evals/cases/topic-activity-views.json",
+      "case_hash": "95a9b7bd348df8bdab33c75362ef8088a981c44a1e83c83dcd940619225b0e04"
+    },
+    {
+      "topic": "airplay",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-airplay/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/airplay.md",
+      "case_id": "topic-airplay",
+      "case_path": "evals/cases/topic-airplay.json",
+      "case_hash": "46b1b7c88efcab11dea78ace05157032ede1ccd2fb7cdaeb5fa9376546412ce8"
+    },
+    {
+      "topic": "alerts",
+      "family": "presentation",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-presentation/.topics/apple-hig-alerts/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-presentation/references/alerts.md",
+      "case_id": "topic-alerts",
+      "case_path": "evals/cases/topic-alerts.json",
+      "case_hash": "35e592b943277d8acb6cdd93f70175e8fa2fc3494ed8ca661fba529226b5287b"
+    },
+    {
+      "topic": "always-on",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-always-on/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/always-on.md",
+      "case_id": "topic-always-on",
+      "case_path": "evals/cases/topic-always-on.json",
+      "case_hash": "2b8e1dda24c6440918da51ab1f117edfcd6cd5ae66fdee1a74d484afa29a8d93"
+    },
+    {
+      "topic": "app-clips",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-app-clips/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/app-clips.md",
+      "case_id": "topic-app-clips",
+      "case_path": "evals/cases/topic-app-clips.json",
+      "case_hash": "2a85d38ad5e2b08ba92f6a91b9be177cd3b83fabc99761c7d8ddcfe4890362f0"
+    },
+    {
+      "topic": "app-icons",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-app-icons/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/app-icons.md",
+      "case_id": "topic-app-icons",
+      "case_path": "evals/cases/topic-app-icons.json",
+      "case_hash": "c6043243b5b7686ef2540432682d66c4bd8247f99e4b4e0169caa99ab2a9b9bb"
+    },
+    {
+      "topic": "app-shortcuts",
+      "family": "system-experiences",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-system-experiences/.topics/apple-hig-app-shortcuts/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-system-experiences/references/app-shortcuts.md",
+      "case_id": "topic-app-shortcuts",
+      "case_path": "evals/cases/topic-app-shortcuts.json",
+      "case_hash": "a801026bb4a32fa72d536f203747716b0e271fd014010b3d624d3812ccd38fe2"
+    },
+    {
+      "topic": "apple-in-app-purchase",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-apple-in-app-purchase/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-in-app-purchase.md",
+      "case_id": "topic-apple-in-app-purchase",
+      "case_path": "evals/cases/topic-apple-in-app-purchase.json",
+      "case_hash": "6597abe3538d75ff54ec98b1c5c48ff9a0bb1177f28ecc174abe120b0c32fbc8"
+    },
+    {
+      "topic": "apple-pay",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-apple-pay/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/apple-pay.md",
+      "case_id": "topic-apple-pay",
+      "case_path": "evals/cases/topic-apple-pay.json",
+      "case_hash": "c82bf4aa6649e5603914608e32884c1981c3e5fb80a7b353028ce018e46d94e9"
+    },
+    {
+      "topic": "apple-pencil-and-scribble",
+      "family": "inputs",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-inputs/.topics/apple-hig-apple-pencil-and-scribble/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+      "case_id": "topic-apple-pencil-and-scribble",
+      "case_path": "evals/cases/topic-apple-pencil-and-scribble.json",
+      "case_hash": "d88abd67ec2a1079a166037c580edd52a0da0440c8025554c33dc9ce51d3a447"
+    },
+    {
+      "topic": "augmented-reality",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-augmented-reality/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/augmented-reality.md",
+      "case_id": "topic-augmented-reality",
+      "case_path": "evals/cases/topic-augmented-reality.json",
+      "case_hash": "2f0a5d6e1d3ad8499dc3165253dc0d20c28bd8ddf28ad9559b8c195b0e775e66"
+    },
+    {
+      "topic": "boxes",
+      "family": "layout-and-organization",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/.topics/apple-hig-boxes/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/boxes.md",
+      "case_id": "topic-boxes",
+      "case_path": "evals/cases/topic-boxes.json",
+      "case_hash": "98adb00b84657e312f81df494d900589563e1341958dc1969ae0668b32524cf2"
+    },
+    {
+      "topic": "branding",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-branding/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/branding.md",
+      "case_id": "topic-branding",
+      "case_path": "evals/cases/topic-branding.json",
+      "case_hash": "8c0ea944ef791cef55b28204f45e72c220d606e31fdd2d8836ebf8acad57a61b"
+    },
+    {
+      "topic": "buttons",
+      "family": "menus-and-actions",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/buttons.md",
+      "case_id": "topic-buttons",
+      "case_path": "evals/cases/topic-buttons.json",
+      "case_hash": "ffaf09811072723f23aaa4d5b4d9061c827d3b01d761cfc593abf3984e345408"
+    },
+    {
+      "topic": "camera-control",
+      "family": "inputs",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-inputs/.topics/apple-hig-camera-control/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-inputs/references/camera-control.md",
+      "case_id": "topic-camera-control",
+      "case_path": "evals/cases/topic-camera-control.json",
+      "case_hash": "87e9a0ece9a2cf62cd5f8bdbaf45db1812d4b2c176921256d6d6ba70768bb3b8"
+    },
+    {
+      "topic": "carekit",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-carekit/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/carekit.md",
+      "case_id": "topic-carekit",
+      "case_path": "evals/cases/topic-carekit.json",
+      "case_hash": "575e775d34b7af382f9ede394554fe43c7761a7d4bf32142438fefee9f38d787"
+    },
+    {
+      "topic": "carplay",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-carplay/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/carplay.md",
+      "case_id": "topic-carplay",
+      "case_path": "evals/cases/topic-carplay.json",
+      "case_hash": "999fe47382938f2e250f70865a4f1fa2a1cb741a9eecb5ae7cd2593d8f6fce1b"
+    },
+    {
+      "topic": "charting-data",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-charting-data/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/charting-data.md",
+      "case_id": "topic-charting-data",
+      "case_path": "evals/cases/topic-charting-data.json",
+      "case_hash": "b334bfd3de9a4f5dd16d555cc118d85e9b167a91ef27c251681d1027f4e3a69e"
+    },
+    {
+      "topic": "charts",
+      "family": "content",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-content/.topics/apple-hig-charts/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-content/references/charts.md",
+      "case_id": "topic-charts",
+      "case_path": "evals/cases/topic-charts.json",
+      "case_hash": "f4e1bb5b1652ee54bb7487db152bd7010061a9ccb0250fb232ba7de24fe37e6b"
+    },
+    {
+      "topic": "collaboration-and-sharing",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-collaboration-and-sharing/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/collaboration-and-sharing.md",
+      "case_id": "topic-collaboration-and-sharing",
+      "case_path": "evals/cases/topic-collaboration-and-sharing.json",
+      "case_hash": "793e11fc9eed0a3ce6528dda46e5ec851a88f69e3b9d74063bdc44e5b5d3a986"
+    },
+    {
+      "topic": "collections",
+      "family": "layout-and-organization",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/.topics/apple-hig-collections/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/collections.md",
+      "case_id": "topic-collections",
+      "case_path": "evals/cases/topic-collections.json",
+      "case_hash": "0dfcca38ea989a652a3a317b9a2e8984b316f5b570df48570a4ed7926f98e3f4"
+    },
+    {
+      "topic": "color",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-color/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/color.md",
+      "case_id": "topic-color",
+      "case_path": "evals/cases/topic-color.json",
+      "case_hash": "bde425eb11479e00766829e969eb0e82bbac702a78b6b815466cff391eb75486"
+    },
+    {
+      "topic": "color-wells",
+      "family": "selection-and-input",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/.topics/apple-hig-color-wells/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/color-wells.md",
+      "case_id": "topic-color-wells",
+      "case_path": "evals/cases/topic-color-wells.json",
+      "case_hash": "06025951f5f017bb0d341f12c32bd44eaa852b5876da30404f0a32d8a846e590"
+    },
+    {
+      "topic": "column-views",
+      "family": "layout-and-organization",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/.topics/apple-hig-column-views/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/column-views.md",
+      "case_id": "topic-column-views",
+      "case_path": "evals/cases/topic-column-views.json",
+      "case_hash": "5c90de55d7336937f6815f27b2e789d988b3d7cb7791461540d20f2e08c4e081"
+    },
+    {
+      "topic": "combo-boxes",
+      "family": "selection-and-input",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/.topics/apple-hig-combo-boxes/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/combo-boxes.md",
+      "case_id": "topic-combo-boxes",
+      "case_path": "evals/cases/topic-combo-boxes.json",
+      "case_hash": "ce687ab8f7e3d1436f40134e5a4aff99030c7edea8f28ffb3b1391187496a726"
+    },
+    {
+      "topic": "complications",
+      "family": "system-experiences",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-system-experiences/.topics/apple-hig-complications/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-system-experiences/references/complications.md",
+      "case_id": "topic-complications",
+      "case_path": "evals/cases/topic-complications.json",
+      "case_hash": "782d7ac8bf0f458da38741de2beab913c2109e2b49d60eedffa8b225a10bfd9e"
+    },
+    {
+      "topic": "context-menus",
+      "family": "menus-and-actions",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/.topics/apple-hig-context-menus/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/context-menus.md",
+      "case_id": "topic-context-menus",
+      "case_path": "evals/cases/topic-context-menus.json",
+      "case_hash": "044f7c57a7eea2c41eb4daa0bdfecb9ffdf1143185d0c783a124c41f555f8b53"
+    },
+    {
+      "topic": "controls",
+      "family": "system-experiences",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-system-experiences/.topics/apple-hig-controls/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-system-experiences/references/controls.md",
+      "case_id": "topic-controls",
+      "case_path": "evals/cases/topic-controls.json",
+      "case_hash": "b5221d8fd7c855387c8592f3e453023e3800693ebc2c6e33ac86f172552a8a83"
+    },
+    {
+      "topic": "dark-mode",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-dark-mode/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/dark-mode.md",
+      "case_id": "topic-dark-mode",
+      "case_path": "evals/cases/topic-dark-mode.json",
+      "case_hash": "c565cada15c16a599c6a2347e9cb43e0495b7667e238f635059dee63454ee383"
+    },
+    {
+      "topic": "design-principles",
+      "family": "getting-started",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-getting-started/.topics/apple-hig-design-principles/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-getting-started/references/design-principles.md",
+      "case_id": "topic-design-principles",
+      "case_path": "evals/cases/topic-design-principles.json",
+      "case_hash": "d1af1501737931fd997de156ab49fdb4605fc1972e81beb3275345744613eee1"
+    },
+    {
+      "topic": "designing-for-games",
+      "family": "getting-started",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-games/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+      "case_id": "topic-designing-for-games",
+      "case_path": "evals/cases/topic-designing-for-games.json",
+      "case_hash": "0a4a39dd8f3bc3b9eb55740392353518e186d7d11aae94a2d2bc4e3f34750904"
+    },
+    {
+      "topic": "designing-for-ios",
+      "family": "getting-started",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ios/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-ios.md",
+      "case_id": "topic-designing-for-ios",
+      "case_path": "evals/cases/topic-designing-for-ios.json",
+      "case_hash": "55f49afd1ee15134a532706a4418b36c635daa6dce5fb92fc3b37da7ebd467a3"
+    },
+    {
+      "topic": "designing-for-ipados",
+      "family": "getting-started",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ipados/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-ipados.md",
+      "case_id": "topic-designing-for-ipados",
+      "case_path": "evals/cases/topic-designing-for-ipados.json",
+      "case_hash": "93aa5cda10a63234b06b09ac8fd22e821952b3fb76320c14ac33b90d14658d52"
+    },
+    {
+      "topic": "designing-for-iphone-duo",
+      "family": "getting-started",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-iphone-duo/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md",
+      "case_id": "topic-designing-for-iphone-duo",
+      "case_path": "evals/cases/topic-designing-for-iphone-duo.json",
+      "case_hash": "aafe30df9089e012bf79766586fa844f6589563d21316faf1bb31c8285646094"
+    },
+    {
+      "topic": "designing-for-macos",
+      "family": "getting-started",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-macos/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
+      "case_id": "topic-designing-for-macos",
+      "case_path": "evals/cases/topic-designing-for-macos.json",
+      "case_hash": "0e769ea702b4050660bc377689063b1738a43c0182684f7189c8480eb0c7317c"
+    },
+    {
+      "topic": "designing-for-tvos",
+      "family": "getting-started",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-tvos/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-tvos.md",
+      "case_id": "topic-designing-for-tvos",
+      "case_path": "evals/cases/topic-designing-for-tvos.json",
+      "case_hash": "70de64c4022f024ada5a8787171aad5f9ae9f87d115c58be5803499b29c776a6"
+    },
+    {
+      "topic": "designing-for-visionos",
+      "family": "getting-started",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-visionos/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-visionos.md",
+      "case_id": "topic-designing-for-visionos",
+      "case_path": "evals/cases/topic-designing-for-visionos.json",
+      "case_hash": "983b8e737b5d040e7e1e7a3ab3e7af17aabf1ff2014a1cc29f18a6a498fcab14"
+    },
+    {
+      "topic": "designing-for-watchos",
+      "family": "getting-started",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-watchos/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-watchos.md",
+      "case_id": "topic-designing-for-watchos",
+      "case_path": "evals/cases/topic-designing-for-watchos.json",
+      "case_hash": "6f563a74e178a4e1867d7bb10f335d1c9b48cd451847118c710f39e27a0f8853"
+    },
+    {
+      "topic": "digit-entry-views",
+      "family": "selection-and-input",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/.topics/apple-hig-digit-entry-views/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/digit-entry-views.md",
+      "case_id": "topic-digit-entry-views",
+      "case_path": "evals/cases/topic-digit-entry-views.json",
+      "case_hash": "95da0ab863041b01b0021628da457e73215cfe53db18744322c6b8eae136229b"
+    },
+    {
+      "topic": "digital-crown",
+      "family": "inputs",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-inputs/.topics/apple-hig-digital-crown/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-inputs/references/digital-crown.md",
+      "case_id": "topic-digital-crown",
+      "case_path": "evals/cases/topic-digital-crown.json",
+      "case_hash": "1078a4606376aa8c68c263862353c488b17c37d81e1eed072da710d64d5cec69"
+    },
+    {
+      "topic": "disclosure-controls",
+      "family": "layout-and-organization",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/.topics/apple-hig-disclosure-controls/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/disclosure-controls.md",
+      "case_id": "topic-disclosure-controls",
+      "case_path": "evals/cases/topic-disclosure-controls.json",
+      "case_hash": "ae9413858fd0a0d4643a1d1de0acdcdb3b9b8ceeacac6b56724361fddd553296"
+    },
+    {
+      "topic": "dock-menus",
+      "family": "menus-and-actions",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/.topics/apple-hig-dock-menus/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/dock-menus.md",
+      "case_id": "topic-dock-menus",
+      "case_path": "evals/cases/topic-dock-menus.json",
+      "case_hash": "9178c3d24a196a0f662badbbe932d10d69d356c81c64485b7076318618d7ff2e"
+    },
+    {
+      "topic": "drag-and-drop",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-drag-and-drop/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+      "case_id": "topic-drag-and-drop",
+      "case_path": "evals/cases/topic-drag-and-drop.json",
+      "case_hash": "0df2c2d97604d69f6b2bc77042e06819ce9f3dca15864b28900e796d4ead9396"
+    },
+    {
+      "topic": "edit-menus",
+      "family": "menus-and-actions",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/.topics/apple-hig-edit-menus/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/edit-menus.md",
+      "case_id": "topic-edit-menus",
+      "case_path": "evals/cases/topic-edit-menus.json",
+      "case_hash": "e7ca0f87a901ae1c81475da2cd6f2b55e6b6f1737b3550756361710c7250636c"
+    },
+    {
+      "topic": "entering-data",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-entering-data/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/entering-data.md",
+      "case_id": "topic-entering-data",
+      "case_path": "evals/cases/topic-entering-data.json",
+      "case_hash": "d8afc3c3ca5677289931ea310301f29eb57846ccdffa378a507746d841f9dc12"
+    },
+    {
+      "topic": "eyes",
+      "family": "inputs",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-inputs/.topics/apple-hig-eyes/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-inputs/references/eyes.md",
+      "case_id": "topic-eyes",
+      "case_path": "evals/cases/topic-eyes.json",
+      "case_hash": "6d73ef560a2031801ac7221569ed82ce014b5a57d9edb7fa0088b855fe163e70"
+    },
+    {
+      "topic": "feedback",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-feedback/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/feedback.md",
+      "case_id": "topic-feedback",
+      "case_path": "evals/cases/topic-feedback.json",
+      "case_hash": "080826cb54980dc3470b55c4993be4e13cba71248b6b822247201821f3b18a6f"
+    },
+    {
+      "topic": "file-management",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-file-management/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/file-management.md",
+      "case_id": "topic-file-management",
+      "case_path": "evals/cases/topic-file-management.json",
+      "case_hash": "3601abce1fe5d8e3e208c4316736ce374c4a1026e481ee17ca9a14120897e73e"
+    },
+    {
+      "topic": "focus-and-selection",
+      "family": "inputs",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-inputs/.topics/apple-hig-focus-and-selection/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-inputs/references/focus-and-selection.md",
+      "case_id": "topic-focus-and-selection",
+      "case_path": "evals/cases/topic-focus-and-selection.json",
+      "case_hash": "12fea70e0a530f7b51b949d43299643752caa11a51dad0cf8d4129bc009c75ba"
+    },
+    {
+      "topic": "game-center",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-game-center/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/game-center.md",
+      "case_id": "topic-game-center",
+      "case_path": "evals/cases/topic-game-center.json",
+      "case_hash": "70f6a42bfeca5b865ba5379ca5c3222e6fc78bfdc80f41b0fc644956f09fa9f4"
+    },
+    {
+      "topic": "game-controls",
+      "family": "inputs",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-inputs/.topics/apple-hig-game-controls/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-inputs/references/game-controls.md",
+      "case_id": "topic-game-controls",
+      "case_path": "evals/cases/topic-game-controls.json",
+      "case_hash": "76c69a255429c853c29c1813e7ef7fad801466a8a5743434a48f9de71db4873a"
+    },
+    {
+      "topic": "gauges",
+      "family": "status",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-status/.topics/apple-hig-gauges/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-status/references/gauges.md",
+      "case_id": "topic-gauges",
+      "case_path": "evals/cases/topic-gauges.json",
+      "case_hash": "bf8156a40baeab439a675c54744350ba6304a39ce5cf7b1c056a61b401661dae"
+    },
+    {
+      "topic": "generative-ai",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-generative-ai/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/generative-ai.md",
+      "case_id": "topic-generative-ai",
+      "case_path": "evals/cases/topic-generative-ai.json",
+      "case_hash": "8cfbe4f1a2bc7431a5931d617d946b44ca957d1cdfce62b131238d8e7cbcd8c2"
+    },
+    {
+      "topic": "gestures",
+      "family": "inputs",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-inputs/.topics/apple-hig-gestures/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-inputs/references/gestures.md",
+      "case_id": "topic-gestures",
+      "case_path": "evals/cases/topic-gestures.json",
+      "case_hash": "3f766ba940763a3b07ad17540f2d379b0184aab1c78db6015f72e99cff49fb5f"
+    },
+    {
+      "topic": "going-full-screen",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-going-full-screen/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/going-full-screen.md",
+      "case_id": "topic-going-full-screen",
+      "case_path": "evals/cases/topic-going-full-screen.json",
+      "case_hash": "f2d67d65fdacb4e654828bfb2a7847c109348bc5f7b309def6427daeb2940b92"
+    },
+    {
+      "topic": "gyro-and-accelerometer",
+      "family": "inputs",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-inputs/.topics/apple-hig-gyro-and-accelerometer/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-inputs/references/gyro-and-accelerometer.md",
+      "case_id": "topic-gyro-and-accelerometer",
+      "case_path": "evals/cases/topic-gyro-and-accelerometer.json",
+      "case_hash": "555c5cd7a1ae04db12c1f54e80b642ee0130cd20c61c55c464fb8d4c2b1c09e2"
+    },
+    {
+      "topic": "healthkit",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-healthkit/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/healthkit.md",
+      "case_id": "topic-healthkit",
+      "case_path": "evals/cases/topic-healthkit.json",
+      "case_hash": "1e024cce94d8ba6a10477809c55339f3699e966e1fbe872e831571232640ca79"
+    },
+    {
+      "topic": "home-screen-quick-actions",
+      "family": "menus-and-actions",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/.topics/apple-hig-home-screen-quick-actions/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/home-screen-quick-actions.md",
+      "case_id": "topic-home-screen-quick-actions",
+      "case_path": "evals/cases/topic-home-screen-quick-actions.json",
+      "case_hash": "a849e757ef2b8436c99e2d7db9b7603c7a4d6669a9c69d27acbe20c472146bbe"
+    },
+    {
+      "topic": "homekit",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-homekit/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/homekit.md",
+      "case_id": "topic-homekit",
+      "case_path": "evals/cases/topic-homekit.json",
+      "case_hash": "9b7e5f8f63bb7c215d6985c03c60e2456c9db664ba62cae8fcfb1ce39adbc4a1"
+    },
+    {
+      "topic": "icloud",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-icloud/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/icloud.md",
+      "case_id": "topic-icloud",
+      "case_path": "evals/cases/topic-icloud.json",
+      "case_hash": "d358ee7a270c6822f55c35a799b8d06aef9714010f4035c9f85c5a8e55077442"
+    },
+    {
+      "topic": "icons",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-icons/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/icons.md",
+      "case_id": "topic-icons",
+      "case_path": "evals/cases/topic-icons.json",
+      "case_hash": "dd9c239e6930ac427c6638cc680c4e34fd5f5940a55b7db63f7f0e2c8eb0d2c7"
+    },
+    {
+      "topic": "id-verifier",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-id-verifier/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/id-verifier.md",
+      "case_id": "topic-id-verifier",
+      "case_path": "evals/cases/topic-id-verifier.json",
+      "case_hash": "e819496095cee669a8fbfe5bd02790d7a761134505d85bc7c9284108f5f7c02d"
+    },
+    {
+      "topic": "image-views",
+      "family": "content",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-content/.topics/apple-hig-image-views/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-content/references/image-views.md",
+      "case_id": "topic-image-views",
+      "case_path": "evals/cases/topic-image-views.json",
+      "case_hash": "5fbf93986512ad7a5446b8c745de3cfcb311c3bfb274bf000b91da4971f65ae1"
+    },
+    {
+      "topic": "image-wells",
+      "family": "selection-and-input",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/.topics/apple-hig-image-wells/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/image-wells.md",
+      "case_id": "topic-image-wells",
+      "case_path": "evals/cases/topic-image-wells.json",
+      "case_hash": "a499938d2c28486f489b921ba621a578002f047d83d8e68ba8c25267a5cb8248"
+    },
+    {
+      "topic": "images",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-images/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/images.md",
+      "case_id": "topic-images",
+      "case_path": "evals/cases/topic-images.json",
+      "case_hash": "aa097155f212de013d40585f369205f3ee47ae3f229e9db81091543fcc915b66"
+    },
+    {
+      "topic": "imessage-apps-and-stickers",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-imessage-apps-and-stickers/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/imessage-apps-and-stickers.md",
+      "case_id": "topic-imessage-apps-and-stickers",
+      "case_path": "evals/cases/topic-imessage-apps-and-stickers.json",
+      "case_hash": "ac415836735adbdb12c673fdf1deb30aea3a872d1e9ff5b2e766f5f924097ddc"
+    },
+    {
+      "topic": "immersive-experiences",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-immersive-experiences/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/immersive-experiences.md",
+      "case_id": "topic-immersive-experiences",
+      "case_path": "evals/cases/topic-immersive-experiences.json",
+      "case_hash": "3fdf85571157fa5b894d864d561fcf8be305d380235659ccbaf60f19f4b40bbc"
+    },
+    {
+      "topic": "inclusion",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-inclusion/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/inclusion.md",
+      "case_id": "topic-inclusion",
+      "case_path": "evals/cases/topic-inclusion.json",
+      "case_hash": "99335ef4b652a803f29236b778632e6f0978eb302255fab24f67d04915af157e"
+    },
+    {
+      "topic": "keyboards",
+      "family": "inputs",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-inputs/.topics/apple-hig-keyboards/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-inputs/references/keyboards.md",
+      "case_id": "topic-keyboards",
+      "case_path": "evals/cases/topic-keyboards.json",
+      "case_hash": "0e709d61806a545011922261389382fd3f42c65d7744af3f1568c4de05827328"
+    },
+    {
+      "topic": "labels",
+      "family": "layout-and-organization",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/.topics/apple-hig-labels/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/labels.md",
+      "case_id": "topic-labels",
+      "case_path": "evals/cases/topic-labels.json",
+      "case_hash": "0da94710adec55a311eaf8bfded657b894a75b7d0faf492084dc72ccbbd31ed5"
+    },
+    {
+      "topic": "launching",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-launching/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/launching.md",
+      "case_id": "topic-launching",
+      "case_path": "evals/cases/topic-launching.json",
+      "case_hash": "483690ebb0cc58029828b7c43dd98202ce06253c7b0c9f9b8e6f789d0f496635"
+    },
+    {
+      "topic": "layout",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-layout/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/layout.md",
+      "case_id": "topic-layout",
+      "case_path": "evals/cases/topic-layout.json",
+      "case_hash": "24ccced1dc6dac27bf6d6c67cd4149625a949689bdbf1d0204f31323e5d465ea"
+    },
+    {
+      "topic": "lists-and-tables",
+      "family": "layout-and-organization",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/.topics/apple-hig-lists-and-tables/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+      "case_id": "topic-lists-and-tables",
+      "case_path": "evals/cases/topic-lists-and-tables.json",
+      "case_hash": "efa0a973d1f64c7ed82eccc4b52ffaa0281443f4479c78a38fc79d59a1a75e1c"
+    },
+    {
+      "topic": "live-activities",
+      "family": "system-experiences",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-system-experiences/.topics/apple-hig-live-activities/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-system-experiences/references/live-activities.md",
+      "case_id": "topic-live-activities",
+      "case_path": "evals/cases/topic-live-activities.json",
+      "case_hash": "6d5ea4c363893cd4f6aaa77b19fe601760ce15f379cb1e2589b099c3e97abcb7"
+    },
+    {
+      "topic": "live-photos",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-live-photos/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/live-photos.md",
+      "case_id": "topic-live-photos",
+      "case_path": "evals/cases/topic-live-photos.json",
+      "case_hash": "9aed2bd12e0268f141b58812c53510b7fd3b9f606a31bce988aac5eb3342a2f9"
+    },
+    {
+      "topic": "live-viewing-apps",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-live-viewing-apps/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/live-viewing-apps.md",
+      "case_id": "topic-live-viewing-apps",
+      "case_path": "evals/cases/topic-live-viewing-apps.json",
+      "case_hash": "50ce5988dd9649370d72f48414771a9fe48ba18023740d8b0f46d6ac0fb425ad"
+    },
+    {
+      "topic": "loading",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-loading/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/loading.md",
+      "case_id": "topic-loading",
+      "case_path": "evals/cases/topic-loading.json",
+      "case_hash": "38f3efda0bb3e816526503f2b75339b834124559387a861c318673831a0a6b8a"
+    },
+    {
+      "topic": "lockups",
+      "family": "layout-and-organization",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/.topics/apple-hig-lockups/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/lockups.md",
+      "case_id": "topic-lockups",
+      "case_path": "evals/cases/topic-lockups.json",
+      "case_hash": "2d76bcb3467337baaf850c0f268c821c472b860ef9c554612cc73a2f60c7df68"
+    },
+    {
+      "topic": "mac-catalyst",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-mac-catalyst/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/mac-catalyst.md",
+      "case_id": "topic-mac-catalyst",
+      "case_path": "evals/cases/topic-mac-catalyst.json",
+      "case_hash": "45b2832b098e5c7558f5dcb519cf1b4c85dcfdd2951f6d567791a54eb37615b0"
+    },
+    {
+      "topic": "machine-learning",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-machine-learning/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/machine-learning.md",
+      "case_id": "topic-machine-learning",
+      "case_path": "evals/cases/topic-machine-learning.json",
+      "case_hash": "71523cb20c869f570e9f770153170176732e5969dbae5c8dbc2f0d9d2b0384fe"
+    },
+    {
+      "topic": "managing-accounts",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-managing-accounts/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-accounts.md",
+      "case_id": "topic-managing-accounts",
+      "case_path": "evals/cases/topic-managing-accounts.json",
+      "case_hash": "6aaf6ae703a54ba367db68c19b2ed1624f0ecf7286aa6db983a70e2016d3619d"
+    },
+    {
+      "topic": "managing-notifications",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-managing-notifications/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/managing-notifications.md",
+      "case_id": "topic-managing-notifications",
+      "case_path": "evals/cases/topic-managing-notifications.json",
+      "case_hash": "26172a4c2091995144ab759dec57c0a9b982e6c9216d4f872bac0e09c3e0e8d9"
+    },
+    {
+      "topic": "maps",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-maps/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/maps.md",
+      "case_id": "topic-maps",
+      "case_path": "evals/cases/topic-maps.json",
+      "case_hash": "0ad3c44db1464c2d759ee01d6ac75a3749e6338e65f0f814341de85258373e08"
+    },
+    {
+      "topic": "materials",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-materials/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/materials.md",
+      "case_id": "topic-materials",
+      "case_path": "evals/cases/topic-materials.json",
+      "case_hash": "d04189f78fa9ead86c98694fe3e5f7fe9c78836830e8bc1f835a3ab9fc204e6e"
+    },
+    {
+      "topic": "menus",
+      "family": "menus-and-actions",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/.topics/apple-hig-menus/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/menus.md",
+      "case_id": "topic-menus",
+      "case_path": "evals/cases/topic-menus.json",
+      "case_hash": "545f1ceb9e588b0a92509fd42c0a3a120d056c292f73a4cb2f0f6139dd3a6107"
+    },
+    {
+      "topic": "modality",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-modality/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/modality.md",
+      "case_id": "topic-modality",
+      "case_path": "evals/cases/topic-modality.json",
+      "case_hash": "8c439805e291dc5a2e0f6480b11f67fd0299c88aad3d57287cec0560f21fa64a"
+    },
+    {
+      "topic": "motion",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-motion/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/motion.md",
+      "case_id": "topic-motion",
+      "case_path": "evals/cases/topic-motion.json",
+      "case_hash": "9675e621572cd35686a3749b5c218c56d59d751250b79d6488b1a15f345deb53"
+    },
+    {
+      "topic": "multitasking",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-multitasking/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/multitasking.md",
+      "case_id": "topic-multitasking",
+      "case_path": "evals/cases/topic-multitasking.json",
+      "case_hash": "08acafaefee8e490cbc3d6671437ffd468b125f05c860c656c583b685b22905e"
+    },
+    {
+      "topic": "nearby-interactions",
+      "family": "inputs",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-inputs/.topics/apple-hig-nearby-interactions/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-inputs/references/nearby-interactions.md",
+      "case_id": "topic-nearby-interactions",
+      "case_path": "evals/cases/topic-nearby-interactions.json",
+      "case_hash": "80ab98cfa8e02dc64e6bcbcd4117d4d668a21a7e86396d4ff25e6778f812a94f"
+    },
+    {
+      "topic": "nfc",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-nfc/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/nfc.md",
+      "case_id": "topic-nfc",
+      "case_path": "evals/cases/topic-nfc.json",
+      "case_hash": "f7ce3b11024f7695f155f9404489f8c705534e565f407eb69b8e1a034f28ac03"
+    },
+    {
+      "topic": "notifications",
+      "family": "system-experiences",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-system-experiences/.topics/apple-hig-notifications/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-system-experiences/references/notifications.md",
+      "case_id": "topic-notifications",
+      "case_path": "evals/cases/topic-notifications.json",
+      "case_hash": "81712f1e14ead43c086b41f9349cf84d0a0ec628ec48735ad3c9def76625d255"
+    },
+    {
+      "topic": "offering-help",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-offering-help/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/offering-help.md",
+      "case_id": "topic-offering-help",
+      "case_path": "evals/cases/topic-offering-help.json",
+      "case_hash": "61111d291d0a3df54dfdbf157a449034e226dcee663ba90de48655dfba254c86"
+    },
+    {
+      "topic": "onboarding",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-onboarding/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/onboarding.md",
+      "case_id": "topic-onboarding",
+      "case_path": "evals/cases/topic-onboarding.json",
+      "case_hash": "ff2785cfe8f4c6f4f667bce542e04cb750d19fa3369b46e9d3d0ccd831c42e13"
+    },
+    {
+      "topic": "ornaments",
+      "family": "menus-and-actions",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/.topics/apple-hig-ornaments/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/ornaments.md",
+      "case_id": "topic-ornaments",
+      "case_path": "evals/cases/topic-ornaments.json",
+      "case_hash": "b412ca64882ad6bba2696a60d496c2d2ef7296c73cd2381e77e8ba60ebcb67d4"
+    },
+    {
+      "topic": "outline-views",
+      "family": "layout-and-organization",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/.topics/apple-hig-outline-views/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/outline-views.md",
+      "case_id": "topic-outline-views",
+      "case_path": "evals/cases/topic-outline-views.json",
+      "case_hash": "6a891e5a9133b0bdfbe6faa056cc6ea9e1f7aeb68ece02da57ba068524b905af"
+    },
+    {
+      "topic": "page-controls",
+      "family": "presentation",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-presentation/.topics/apple-hig-page-controls/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-presentation/references/page-controls.md",
+      "case_id": "topic-page-controls",
+      "case_path": "evals/cases/topic-page-controls.json",
+      "case_hash": "43fd41768276675327dee17e5318491758f75c6ba4f1f3d7ee765d7f4ec70467"
+    },
+    {
+      "topic": "panels",
+      "family": "presentation",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-presentation/.topics/apple-hig-panels/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-presentation/references/panels.md",
+      "case_id": "topic-panels",
+      "case_path": "evals/cases/topic-panels.json",
+      "case_hash": "780aabc30fae8de50959d8b757635d0258cfd98f619c472c4c466f56a11cf318"
+    },
+    {
+      "topic": "path-controls",
+      "family": "navigation-and-search",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-navigation-and-search/.topics/apple-hig-path-controls/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/path-controls.md",
+      "case_id": "topic-path-controls",
+      "case_path": "evals/cases/topic-path-controls.json",
+      "case_hash": "2f656f697631474615721d400a6d70196d2795c146e9973c6804ea0310e8cce4"
+    },
+    {
+      "topic": "photo-editing",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-photo-editing/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/photo-editing.md",
+      "case_id": "topic-photo-editing",
+      "case_path": "evals/cases/topic-photo-editing.json",
+      "case_hash": "b5c321938138913ba7625261f080275ad81b5506483681311d6733411321e112"
+    },
+    {
+      "topic": "pickers",
+      "family": "selection-and-input",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/.topics/apple-hig-pickers/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/pickers.md",
+      "case_id": "topic-pickers",
+      "case_path": "evals/cases/topic-pickers.json",
+      "case_hash": "2be15d17110209bcb67621ae050fd1b0f92828fab37a0262c9343dc46bbc89e3"
+    },
+    {
+      "topic": "playing-audio",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-playing-audio/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-audio.md",
+      "case_id": "topic-playing-audio",
+      "case_path": "evals/cases/topic-playing-audio.json",
+      "case_hash": "8301829d9897a44882b5ba9e5fb9a34949e7c8db6a5b0ff73cdf88e6376d9bbe"
+    },
+    {
+      "topic": "playing-haptics",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-playing-haptics/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-haptics.md",
+      "case_id": "topic-playing-haptics",
+      "case_path": "evals/cases/topic-playing-haptics.json",
+      "case_hash": "7c1d4eb79065a77bfdfe16a2b4ecb9069ac239dd21f4a2751acac80701f7c902"
+    },
+    {
+      "topic": "playing-video",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-playing-video/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/playing-video.md",
+      "case_id": "topic-playing-video",
+      "case_path": "evals/cases/topic-playing-video.json",
+      "case_hash": "931727aa58b0c6c81caa5988927bb1ee17f5ed617cb6a4d342f17f20a425c504"
+    },
+    {
+      "topic": "pointing-devices",
+      "family": "inputs",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-inputs/.topics/apple-hig-pointing-devices/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "case_id": "topic-pointing-devices",
+      "case_path": "evals/cases/topic-pointing-devices.json",
+      "case_hash": "10b360b32536690268a2117737cc3ac29c097d91755a42b479bff5573d87286b"
+    },
+    {
+      "topic": "pop-up-buttons",
+      "family": "menus-and-actions",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/.topics/apple-hig-pop-up-buttons/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/pop-up-buttons.md",
+      "case_id": "topic-pop-up-buttons",
+      "case_path": "evals/cases/topic-pop-up-buttons.json",
+      "case_hash": "22ef377c5846ef3ddba2cd6c6bbdb66cc655ada241d2136c13738059fd677c9a"
+    },
+    {
+      "topic": "popovers",
+      "family": "presentation",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-presentation/.topics/apple-hig-popovers/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-presentation/references/popovers.md",
+      "case_id": "topic-popovers",
+      "case_path": "evals/cases/topic-popovers.json",
+      "case_hash": "8c962d8ed73219107915b0fdb7b50471457f0f995dbf83e47f16edf23a9db94d"
+    },
+    {
+      "topic": "printing",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-printing/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/printing.md",
+      "case_id": "topic-printing",
+      "case_path": "evals/cases/topic-printing.json",
+      "case_hash": "d4857af92f9b3192e98755fc4c4fd0afc16f5f7709557f2fa1d9392709aa6a72"
+    },
+    {
+      "topic": "privacy",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-privacy/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/privacy.md",
+      "case_id": "topic-privacy",
+      "case_path": "evals/cases/topic-privacy.json",
+      "case_hash": "576c73937f7ab33e1c91f222565b119c50bda72338e8601a327e86de99f1e7f3"
+    },
+    {
+      "topic": "progress-indicators",
+      "family": "status",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-status/.topics/apple-hig-progress-indicators/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-status/references/progress-indicators.md",
+      "case_id": "topic-progress-indicators",
+      "case_path": "evals/cases/topic-progress-indicators.json",
+      "case_hash": "90f78470f4e32cff9a3fc9da26113e8f3d4fd8634d52be7c16c74ce98e7d93d6"
+    },
+    {
+      "topic": "pull-down-buttons",
+      "family": "menus-and-actions",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/.topics/apple-hig-pull-down-buttons/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/pull-down-buttons.md",
+      "case_id": "topic-pull-down-buttons",
+      "case_path": "evals/cases/topic-pull-down-buttons.json",
+      "case_hash": "b2406c8c7bab120b97c8f15e5b97b76685affb5ebc2f6fe2f20a5b1fb9ad0bea"
+    },
+    {
+      "topic": "rating-indicators",
+      "family": "status",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-status/.topics/apple-hig-rating-indicators/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-status/references/rating-indicators.md",
+      "case_id": "topic-rating-indicators",
+      "case_path": "evals/cases/topic-rating-indicators.json",
+      "case_hash": "066521ca141496d1d52cbaf2631bbb096cb23f77b497ca296d270292f9713f16"
+    },
+    {
+      "topic": "ratings-and-reviews",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-ratings-and-reviews/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/ratings-and-reviews.md",
+      "case_id": "topic-ratings-and-reviews",
+      "case_path": "evals/cases/topic-ratings-and-reviews.json",
+      "case_hash": "5e5a9be52cf0890ce6731fbf35c30840ec5a420cd7115e1df24fe876b31c436a"
+    },
+    {
+      "topic": "remotes",
+      "family": "inputs",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-inputs/.topics/apple-hig-remotes/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-inputs/references/remotes.md",
+      "case_id": "topic-remotes",
+      "case_path": "evals/cases/topic-remotes.json",
+      "case_hash": "ac90f4bf973c5564cbc72994c5af73997c1304b3f2322b2f20370c528dc9cfe0"
+    },
+    {
+      "topic": "researchkit",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-researchkit/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/researchkit.md",
+      "case_id": "topic-researchkit",
+      "case_path": "evals/cases/topic-researchkit.json",
+      "case_hash": "de0a76ec2bd34bce2dc67ecb4b389a84e4196f08f5970888d062766838a4c289"
+    },
+    {
+      "topic": "right-to-left",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-right-to-left/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/right-to-left.md",
+      "case_id": "topic-right-to-left",
+      "case_path": "evals/cases/topic-right-to-left.json",
+      "case_hash": "410fe3dd292a2340dfbf794682f84d9cc0ad2aec5c6e1d582056284c375cd343"
+    },
+    {
+      "topic": "scroll-views",
+      "family": "presentation",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-presentation/.topics/apple-hig-scroll-views/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-presentation/references/scroll-views.md",
+      "case_id": "topic-scroll-views",
+      "case_path": "evals/cases/topic-scroll-views.json",
+      "case_hash": "e57ae7578ca262dd59b98e86b416aef3c5be1f209e14690d5646f050ed07ecb7"
+    },
+    {
+      "topic": "search-fields",
+      "family": "navigation-and-search",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-navigation-and-search/.topics/apple-hig-search-fields/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/search-fields.md",
+      "case_id": "topic-search-fields",
+      "case_path": "evals/cases/topic-search-fields.json",
+      "case_hash": "11a9ae5665ae8f6f2a987c432116bed038fe8adfdb4ad7572fcf0f5d16239f49"
+    },
+    {
+      "topic": "searching",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-searching/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/searching.md",
+      "case_id": "topic-searching",
+      "case_path": "evals/cases/topic-searching.json",
+      "case_hash": "f9475ab18f3d5cd11848b796d61cf32d13132e2471f8162664175310ac9a1694"
+    },
+    {
+      "topic": "segmented-controls",
+      "family": "selection-and-input",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/.topics/apple-hig-segmented-controls/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/segmented-controls.md",
+      "case_id": "topic-segmented-controls",
+      "case_path": "evals/cases/topic-segmented-controls.json",
+      "case_hash": "7dd4b53813770304b5aaa0487f7f50756f79aeaec0286ff34ced416477a42e0b"
+    },
+    {
+      "topic": "settings",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-settings/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/settings.md",
+      "case_id": "topic-settings",
+      "case_path": "evals/cases/topic-settings.json",
+      "case_hash": "aa4b7c85b0cf2d1d9cc3b21fb3e63241a02db69fef82de3e158f8fa164ed4d12"
+    },
+    {
+      "topic": "sf-symbols",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-sf-symbols/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/sf-symbols.md",
+      "case_id": "topic-sf-symbols",
+      "case_path": "evals/cases/topic-sf-symbols.json",
+      "case_hash": "0c3ed692a1565b3387d924f7fdea6ac4e8c2bcf370fbe1750727e6ae9cb521e4"
+    },
+    {
+      "topic": "shareplay",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-shareplay/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/shareplay.md",
+      "case_id": "topic-shareplay",
+      "case_path": "evals/cases/topic-shareplay.json",
+      "case_hash": "658979994668c1168827941bc485ee1746586228513b19e927ffdd167bcb2552"
+    },
+    {
+      "topic": "shazamkit",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-shazamkit/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/shazamkit.md",
+      "case_id": "topic-shazamkit",
+      "case_path": "evals/cases/topic-shazamkit.json",
+      "case_hash": "f6635df4047bf3e1ef9201e6cfeed5f77d451c74568d589e82f51c298b12b95c"
+    },
+    {
+      "topic": "sheets",
+      "family": "presentation",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-presentation/.topics/apple-hig-sheets/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+      "case_id": "topic-sheets",
+      "case_path": "evals/cases/topic-sheets.json",
+      "case_hash": "124c6be0ae07b0fde9d46e65db3173ac1a449d3543afaf7bbaed3a2ca136638f"
+    },
+    {
+      "topic": "sidebars",
+      "family": "navigation-and-search",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-navigation-and-search/.topics/apple-hig-sidebars/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/sidebars.md",
+      "case_id": "topic-sidebars",
+      "case_path": "evals/cases/topic-sidebars.json",
+      "case_hash": "8e0d3bcec16cf3f2266db01a0db9ca572cc60a9ca0efc29542ab04a4439dc54b"
+    },
+    {
+      "topic": "sign-in-with-apple",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-sign-in-with-apple/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/sign-in-with-apple.md",
+      "case_id": "topic-sign-in-with-apple",
+      "case_path": "evals/cases/topic-sign-in-with-apple.json",
+      "case_hash": "e90890f1ba341a213993a45eb650dbf93f29f92202f5cee61aaad998122bd7c3"
+    },
+    {
+      "topic": "siri",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-siri/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/siri.md",
+      "case_id": "topic-siri",
+      "case_path": "evals/cases/topic-siri.json",
+      "case_hash": "f7e05952fb3a41f588ea5de78eadbb364905b7e9e827dc136daf601e1ede2865"
+    },
+    {
+      "topic": "sliders",
+      "family": "selection-and-input",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/.topics/apple-hig-sliders/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/sliders.md",
+      "case_id": "topic-sliders",
+      "case_path": "evals/cases/topic-sliders.json",
+      "case_hash": "02cdbab4330dae5bcc5560184cd8d4a187192f86637568a789683514c7cdd0dc"
+    },
+    {
+      "topic": "snippets",
+      "family": "system-experiences",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-system-experiences/.topics/apple-hig-snippets/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-system-experiences/references/snippets.md",
+      "case_id": "topic-snippets",
+      "case_path": "evals/cases/topic-snippets.json",
+      "case_hash": "efbd75764af5bdfeefad0255d00343c09273ca257ed4a6287c0c68dc5e738ea5"
+    },
+    {
+      "topic": "spatial-layout",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-spatial-layout/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/spatial-layout.md",
+      "case_id": "topic-spatial-layout",
+      "case_path": "evals/cases/topic-spatial-layout.json",
+      "case_hash": "d8e7dbaee42704ab2d378e75ddbc90576c348ed22426372d233e47e045e4791e"
+    },
+    {
+      "topic": "split-views",
+      "family": "layout-and-organization",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/.topics/apple-hig-split-views/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/split-views.md",
+      "case_id": "topic-split-views",
+      "case_path": "evals/cases/topic-split-views.json",
+      "case_hash": "ae58fac30d0cba4287f15fd3eb934b5645413da44bf2587120e9b3aba22ee4ac"
+    },
+    {
+      "topic": "status-bars",
+      "family": "system-experiences",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-system-experiences/.topics/apple-hig-status-bars/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-system-experiences/references/status-bars.md",
+      "case_id": "topic-status-bars",
+      "case_path": "evals/cases/topic-status-bars.json",
+      "case_hash": "0a665aca4a7ac365716af6757bdbcb58b839f89840d3389bf64afaf949c17154"
+    },
+    {
+      "topic": "steppers",
+      "family": "selection-and-input",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/.topics/apple-hig-steppers/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/steppers.md",
+      "case_id": "topic-steppers",
+      "case_path": "evals/cases/topic-steppers.json",
+      "case_hash": "93a2180621f943f6fbaaf6744635d9e18e6813c7c452c88b9dc68fa1fa3e5c0d"
+    },
+    {
+      "topic": "tab-bars",
+      "family": "navigation-and-search",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-navigation-and-search/.topics/apple-hig-tab-bars/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/tab-bars.md",
+      "case_id": "topic-tab-bars",
+      "case_path": "evals/cases/topic-tab-bars.json",
+      "case_hash": "1aa5152cf534a26b28acfa209d5160497fe403ff8593eca8fe5e22a74565cffa"
+    },
+    {
+      "topic": "tab-views",
+      "family": "layout-and-organization",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/.topics/apple-hig-tab-views/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-layout-and-organization/references/tab-views.md",
+      "case_id": "topic-tab-views",
+      "case_path": "evals/cases/topic-tab-views.json",
+      "case_hash": "8faba54fa94bdfe3e0759e1dd64d9abf89657bcb07fc2b2d6ebe3a498a678ab2"
+    },
+    {
+      "topic": "tap-to-pay-on-iphone",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-tap-to-pay-on-iphone/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md",
+      "case_id": "topic-tap-to-pay-on-iphone",
+      "case_path": "evals/cases/topic-tap-to-pay-on-iphone.json",
+      "case_hash": "462bee532e0ea5610ea01f39373d2aef714aa187ee279861d414277ef4aee960"
+    },
+    {
+      "topic": "text-fields",
+      "family": "selection-and-input",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/.topics/apple-hig-text-fields/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/text-fields.md",
+      "case_id": "topic-text-fields",
+      "case_path": "evals/cases/topic-text-fields.json",
+      "case_hash": "47a89e0655743a89e26c7570e5556564948d9926581bfa0c279dac47c68fa4d5"
+    },
+    {
+      "topic": "text-views",
+      "family": "content",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-content/.topics/apple-hig-text-views/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-content/references/text-views.md",
+      "case_id": "topic-text-views",
+      "case_path": "evals/cases/topic-text-views.json",
+      "case_hash": "97fee33c7d701c44ee70df20d707aa9a0405cf5746e391d679c87cf276b6830c"
+    },
+    {
+      "topic": "the-menu-bar",
+      "family": "menus-and-actions",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/.topics/apple-hig-the-menu-bar/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/the-menu-bar.md",
+      "case_id": "topic-the-menu-bar",
+      "case_path": "evals/cases/topic-the-menu-bar.json",
+      "case_hash": "9274aecf8728c6b52f7d19e320ca8b110a579865d821898e3471878188965a97"
+    },
+    {
+      "topic": "toggles",
+      "family": "selection-and-input",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/.topics/apple-hig-toggles/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/toggles.md",
+      "case_id": "topic-toggles",
+      "case_path": "evals/cases/topic-toggles.json",
+      "case_hash": "e6e3db552e75435edee5892445a8225447e7928ac524f500027ad86bcde16147"
+    },
+    {
+      "topic": "token-fields",
+      "family": "navigation-and-search",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-navigation-and-search/.topics/apple-hig-token-fields/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-navigation-and-search/references/token-fields.md",
+      "case_id": "topic-token-fields",
+      "case_path": "evals/cases/topic-token-fields.json",
+      "case_hash": "aa5395731adf06c57498d23ca895604725394af9e7a44baee5a745dad304fbdf"
+    },
+    {
+      "topic": "toolbars",
+      "family": "menus-and-actions",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/.topics/apple-hig-toolbars/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-menus-and-actions/references/toolbars.md",
+      "case_id": "topic-toolbars",
+      "case_path": "evals/cases/topic-toolbars.json",
+      "case_hash": "9fc77fbb3ca57fbaf1b67d557d26a916acbb2cc65e5068fb9a9a6c60cf865953"
+    },
+    {
+      "topic": "top-shelf",
+      "family": "system-experiences",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-system-experiences/.topics/apple-hig-top-shelf/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-system-experiences/references/top-shelf.md",
+      "case_id": "topic-top-shelf",
+      "case_path": "evals/cases/topic-top-shelf.json",
+      "case_hash": "f6f0d53d7cb8fb96f3fcb189eee8d47489919b07434875d68b071abb2924462d"
+    },
+    {
+      "topic": "typography",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-typography/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/typography.md",
+      "case_id": "topic-typography",
+      "case_path": "evals/cases/topic-typography.json",
+      "case_hash": "90b3f4d8c0a046b25cc655807f0d79e06b71ae012dbb1bac77c9b11af7cafbfe"
+    },
+    {
+      "topic": "undo-and-redo",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-undo-and-redo/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/undo-and-redo.md",
+      "case_id": "topic-undo-and-redo",
+      "case_path": "evals/cases/topic-undo-and-redo.json",
+      "case_hash": "c55253f140a42532f6d235cb28684870f6d9ea35970fbd8a28dd678200fafcd6"
+    },
+    {
+      "topic": "virtual-keyboards",
+      "family": "selection-and-input",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/.topics/apple-hig-virtual-keyboards/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+      "case_id": "topic-virtual-keyboards",
+      "case_path": "evals/cases/topic-virtual-keyboards.json",
+      "case_hash": "4bf0631eca90daeb952a0b07f1031d6b727babab00f7a2ee8d4142795991256f"
+    },
+    {
+      "topic": "voiceover",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-voiceover/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/voiceover.md",
+      "case_id": "topic-voiceover",
+      "case_path": "evals/cases/topic-voiceover.json",
+      "case_hash": "82b5259bb1afd947fb97aee6fa8f8683739f449e333d60c54e529d1ea0ad29c0"
+    },
+    {
+      "topic": "wallet",
+      "family": "technologies",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-technologies/.topics/apple-hig-wallet/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-technologies/references/wallet.md",
+      "case_id": "topic-wallet",
+      "case_path": "evals/cases/topic-wallet.json",
+      "case_hash": "a4b9e7750595d336e9541c9e6ecece4116819c6b05e2c01f46e60daacea056f6"
+    },
+    {
+      "topic": "watch-faces",
+      "family": "system-experiences",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-system-experiences/.topics/apple-hig-watch-faces/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-system-experiences/references/watch-faces.md",
+      "case_id": "topic-watch-faces",
+      "case_path": "evals/cases/topic-watch-faces.json",
+      "case_hash": "8ac6f56b3e9248dd64f02fa38d499c3c54f24df3e6f8f5b457c9bc269d5a3c08"
+    },
+    {
+      "topic": "web-views",
+      "family": "content",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-content/.topics/apple-hig-web-views/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-content/references/web-views.md",
+      "case_id": "topic-web-views",
+      "case_path": "evals/cases/topic-web-views.json",
+      "case_hash": "e85592f80b9322edc9c36ec5b61e7ee5dafdc7fab6c8bb8f941840014697bd5a"
+    },
+    {
+      "topic": "widgets",
+      "family": "system-experiences",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-system-experiences/.topics/apple-hig-widgets/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-system-experiences/references/widgets.md",
+      "case_id": "topic-widgets",
+      "case_path": "evals/cases/topic-widgets.json",
+      "case_hash": "a41f519b54c0aeb4772718ad328d44ef02a2273bdaca0fc81d5e605b940f58b2"
+    },
+    {
+      "topic": "windows",
+      "family": "presentation",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-presentation/.topics/apple-hig-windows/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-presentation/references/windows.md",
+      "case_id": "topic-windows",
+      "case_path": "evals/cases/topic-windows.json",
+      "case_hash": "87494feb79bbf8b53416280753f2eade83289d54952c505afcd40da068f13690"
+    },
+    {
+      "topic": "workouts",
+      "family": "patterns",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-patterns/.topics/apple-hig-workouts/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-patterns/references/workouts.md",
+      "case_id": "topic-workouts",
+      "case_path": "evals/cases/topic-workouts.json",
+      "case_hash": "0bb55f65a340352429bec2e8c2eebe523e380f896b339b4e5bb4732dd40b4686"
+    },
+    {
+      "topic": "writing",
+      "family": "foundations",
+      "skill_path": "skills/apple-hig/subskills/apple-hig-foundations/.topics/apple-hig-writing/SKILL.md",
+      "reference_path": "skills/apple-hig/subskills/apple-hig-foundations/references/writing.md",
+      "case_id": "topic-writing",
+      "case_path": "evals/cases/topic-writing.json",
+      "case_hash": "881a49146f68482df5ba8e387486c73071ed09adee124a1f430895d3f2f051aa"
+    }
+  ],
+  "stress_cases": [
+    {
+      "id": "stress-adaptive-rtl-editor",
+      "case_path": "evals/cases/stress-adaptive-rtl-editor.json",
+      "case_hash": "70566576f377714bedd1cdce9424a731199e396844ce2adf4edb38abc727e85c",
+      "repetitions": 3
+    },
+    {
+      "id": "stress-backend-negative",
+      "case_path": "evals/cases/stress-backend-negative.json",
+      "case_hash": "e0e6a4117d3bae89d08e7f940d8582dc8e88c3ed64aef36feac60811584522e0",
+      "repetitions": 3
+    },
+    {
+      "id": "stress-conflicting-source-numbers",
+      "case_path": "evals/cases/stress-conflicting-source-numbers.json",
+      "case_hash": "0d14c2856cfbc56b0a596cda6e490444addb1a1325e839daed958aa34636ce51",
+      "repetitions": 3
+    },
+    {
+      "id": "stress-historical-and-unverified-api",
+      "case_path": "evals/cases/stress-historical-and-unverified-api.json",
+      "case_hash": "44c53ebff035b49ab52eedae03f7865a8b2e6dde1e508e008a64df90d2d77de5",
+      "repetitions": 3
+    },
+    {
+      "id": "stress-limited-evidence-and-framework",
+      "case_path": "evals/cases/stress-limited-evidence-and-framework.json",
+      "case_hash": "ae24dc37457b0f00b9aa6b581d5236f9bc0aa301c612c1471013c6060702bb92",
+      "repetitions": 3
+    },
+    {
+      "id": "stress-mac-destructive-default",
+      "case_path": "evals/cases/stress-mac-destructive-default.json",
+      "case_hash": "a78c044a17fd4170014c48f33dd2f11123dd518f07a9f73e8205a4e3d3235aec",
+      "repetitions": 3
+    },
+    {
+      "id": "stress-surface-privacy-freshness",
+      "case_path": "evals/cases/stress-surface-privacy-freshness.json",
+      "case_hash": "ff21f403b52cd739a9bd9b53a6444563f504d596de9cc19b6e4cb7af8448c097",
+      "repetitions": 3
+    },
+    {
+      "id": "stress-television-versus-spatial-input",
+      "case_path": "evals/cases/stress-television-versus-spatial-input.json",
+      "case_hash": "cbe81da9007ad57319b60995b963a717cdefdaff4e448d8c16f8cc2790edcb0c",
+      "repetitions": 3
+    }
+  ],
+  "requirements": {
+    "stress_cases": 8,
+    "stress_repetitions": 3,
+    "baseline_controls": 13
+  }
+}

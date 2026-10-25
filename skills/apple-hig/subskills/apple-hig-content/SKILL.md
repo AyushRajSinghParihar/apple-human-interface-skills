@@ -3,13 +3,33 @@ name: apple-hig-content
 description: Use when designing charts, displaying images or rich text, or embedding web content in an Apple-platform app.
 ---
 
-# Apple HIG: content
+# Apple HIG: Choose the representation people can use
 
-Choose a presentation primitive by the content and interaction: charts communicate quantitative relationships; image views present images; text views support long or rich text; web views embed web documents. Use native buttons for image actions and native editable controls for input. Check chart accessibility and the platform support limits before implementation.
+Use this family to select and compose topic procedures. Infer the platform and
+requested work from the supplied project; preserve its framework and constraints.
 
-Read the relevant article below before prescribing behavior. Its platform sections qualify shared guidance; absence of a platform-specific section does not imply unsupported behavior. Articles are original guidance tied to the dated official source.
+## Work through the decision
 
-- [Charts](references/charts.md)
-- [Image views](references/image-views.md)
-- [Text views](references/text-views.md)
-- [Web views](references/web-views.md)
+1. Identify what people need to understand or do with the content: compare data, read text, inspect imagery or interact with embedded web content. Enter that topic procedure.
+2. Choose representation and hierarchy from the information task. Charts need an encoding/interaction decision; images need meaningful framing and alternatives; text needs reading/editing behavior; web views need integration boundaries.
+3. Define the specific content states and accessible equivalents that the representation requires. Preserve context when detail, size or availability changes.
+4. Deliver a revised content structure or implementable representation contract, and verify it against the supplied data and actual interface evidence.
+
+## Enter the topic procedure
+
+Read the selected topic’s SKILL.md before its supporting guidance. For a review,
+inspect actual evidence and return findings; for an implementation request, make
+the authorized change; for design or adaptation, produce a usable specification
+or patch. Load related topics only when the chosen procedure calls for them.
+
+- [Charts](.topics/apple-hig-charts/SKILL.md)
+- [Image views](.topics/apple-hig-image-views/SKILL.md)
+- [Text views](.topics/apple-hig-text-views/SKILL.md)
+- [Web views](.topics/apple-hig-web-views/SKILL.md)
+
+## Completion evidence
+
+Report the concrete decisions or changes, their source support, and which checks
+passed, failed or were not executed. A source citation or a list of links is not
+the requested work product. Retain platform exceptions and unresolved source
+conflicts; the absence of a platform subsection does not establish support.

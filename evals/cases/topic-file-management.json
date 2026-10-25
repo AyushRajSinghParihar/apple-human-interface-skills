@@ -1,0 +1,29 @@
+{
+  "id": "topic-file-management",
+  "kind": "topic",
+  "topic": "file-management",
+  "family": "patterns",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Repair document open/save/export semantics in a Mac screenplay editor. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: macOS. Open replaces the current unsaved document without warning, Save asks for an export format every time and deleting a local document silently removes shared cloud copies. Recent files include inaccessible items with no recovery."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch distinct open/save/export operations, unsaved-content decisions, clear location and deletion scope with recoverable missing-file handling; preserve standard file workflows.",
+      "hig_correctness": "Apply the file-management guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch distinct open/save/export operations, unsaved-content decisions, clear location and deletion scope with recoverable missing-file handling; preserve standard file workflows.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch distinct open/save/export operations, unsaved-content decisions, clear location and deletion scope with recoverable missing-file handling; preserve standard file workflows.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

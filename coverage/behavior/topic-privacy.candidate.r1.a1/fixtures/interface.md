@@ -1,0 +1,1 @@
+Platform: iOS. App blocks launch until all permissions are granted, explains location as Needed and uploads a full photo library for a one-photo attachment. Denial loops into the same request; location is unnecessary for manual check-in.

@@ -1,0 +1,1 @@
+Platform: macOS. Every editing command uses a custom logo glyph; neon brand backgrounds replace system selection and alert colors. A 150-pixel wordmark pushes invoice content below the fold. The company still needs an identifiable product.

@@ -1,26 +1,77 @@
 # Contributing
 
-Keep the router small and put source-specific guidance in its owning family.
-Each current article has one primary owner; cross-topic links do not count as
-additional source coverage.
+Keep one primary topic procedure for each current English HIG article. A source
+reference supplies facts; a procedure teaches an agent how to perform useful work.
+The complete bundle is the installation unit.
 
-1. Run `python3 scripts/hig.py check --live` to identify drift, or
-   `python3 scripts/hig.py discover` to refresh an authoring snapshot.
-2. Read the entire affected source, including platform sections, tables, notes,
-   and meaningful media. Write original, actionable guidance and retain factual
-   units, exceptions, and source qualifications.
-3. Preserve the source-heading HTML anchors used by the coverage manifest.
-   Link local dependencies relative to the installed package, never to a local
-   checkout path or sibling installation.
-4. Have another reviewer compare source and destination. Record the actual
-   review evidence, source/destination hashes, and any media supporting-file
-   hashes under `coverage/reviews/`. Do not approve your own authored guidance.
-5. Run tests, strict coverage checks, and `python3 scripts/hig.py report`.
-   Include the refreshed report and relevant review evidence in the pull request.
+## Change a topic
 
-Do not commit raw Apple Markdown/JSON, downloaded media, private tooling caches,
-or whole copied paragraphs. Resource links and change histories receive explicit
-reference-only treatment; substantive guidance cannot be replaced by links.
+1. Read the affected source reference, platform qualifications, important tables
+   and relevant visual explanation. Use current official implementation documents
+   when code depends on an API rather than an experience decision.
+2. Inspect the topic's frozen artifact case and the failure you intend to address.
+   A new capability needs a concrete fixture, expected work product and
+   source-specific acceptance criteria before extensive instruction authoring.
+3. Update the procedure with a consequential decision, a usable output contract,
+   a worked transformation, observable failure checks and conditional handoffs.
+   Preserve the user's stack. Avoid generic checklists that fit unrelated topics.
+4. Have an independent reviewer assess the seven instruction-quality gates:
+   decision, artifact, transformation, verification, applicability, handoffs and
+   distinctiveness. Record real judgments against current source/instruction/
+   reference hashes. Do not approve your own authored instructions.
+5. Run the relevant artifact cases through the actual installed client and have
+   an independent grader assess their outputs. Preserve failures and reruns.
+   Changing evidence bytes invalidates the old result; never refresh hashes just
+   to turn a gate green.
 
-When a source is unavailable or ambiguous, preserve its coverage record and
-describe the limitation. Do not lower the denominator to make a report green.
+Do not edit an article reference unnecessarily. If its source-backed guidance
+changes, its article and affected media/supporting approvals need renewed review.
+Changing a topic invalidates its behavioral result; changing routing or shared
+inputs requires the corresponding routing and dependent-case checks again.
+
+## Verify the change
+
+```bash
+.venv/bin/python -m unittest discover -s tests -v
+.venv/bin/python scripts/hig.py check
+.venv/bin/python scripts/hig.py check-skills
+```
+
+The first release gate checks source accounting and article/media provenance.
+The second checks operational ownership, procedure review, routing and current
+behavioral evidence. Neither deterministic gate judges design quality by keyword
+matches. `--allow-pending` is a development aid, not a release check.
+
+Use the evaluation runner's help for scoped or resumable executions. Cases run
+from temporary installed copies, not the authoring checkout. Keep unrelated
+personal skills and plugins disabled per process, retain session/file-read
+provenance, and never publish authentication material. CI needs no model account;
+it validates committed evidence identities and meaningful deterministic contracts.
+
+Published command captures may redact unrelated personal `skills.config` paths.
+Retain the original capture hash and identify the redaction; do not present the
+public argument list as a verbatim executable replay. Recreate local paths and
+process overrides when repeating a run. See the [publication method](docs/source-method.md#publication-boundary).
+
+## Boundaries
+
+Publish original guidance/code, source citations, inventories and actual review/
+evaluation records. Keep raw Apple Markdown/DocC, downloaded assets, contact
+sheets, environments and private caches ignored. Check the actual release archive.
+
+Git clones and source archives distribute committed files, including required
+hidden `.topics` directories. Untracked procedures and evidence do not ship merely
+because local checks can read them. Stage intended package, tooling, documentation
+and evidence files selectively; inspect the staged tree, then inspect an archive
+of the candidate commit. Preserve the baseline commit in repository history for
+the matched-control checks. Publish only after the final behavior, archive and CI
+checks pass; a development working tree is not a release.
+
+Resource links and histories are reference-only; substantive coverage cannot be
+replaced by links. Preserve inaccessible or ambiguous source records rather than
+lowering the denominator. Historical sources, complete SDK/WWDC libraries, and
+translated editions stay outside the current-English article denominator.
+
+Report inspected code/specifications, client execution and actual device checks
+separately. Do not infer native rendering, VoiceOver behavior, physical comfort or
+haptics from a Linux artifact evaluation. An unexecuted check stays unexecuted.

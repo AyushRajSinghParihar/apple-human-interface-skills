@@ -663,7 +663,7 @@ def report(root=ROOT):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["discover", "check", "report"])
+    parser.add_argument("command", choices=["discover", "check", "check-skills", "report"])
     parser.add_argument("--root", type=pathlib.Path, default=ROOT)
     parser.add_argument("--offline", action="store_true", help="Discover from previously fetched source cache")
     parser.add_argument("--output", type=pathlib.Path)
@@ -671,6 +671,11 @@ def main():
     parser.add_argument("--allow-pending", action="store_true", help="Development check: permit explicitly pending semantic/media review")
     args = parser.parse_args()
     try:
+        if args.command == "check-skills":
+            from capabilities import check as check_capabilities
+            result = check_capabilities(args.root, allow_pending=args.allow_pending)
+            print(json.dumps(result, indent=2))
+            return int(bool(result["errors"]))
         if args.command == "discover":
             result = discover(args.root, args.offline, args.output)
             print(json.dumps({"pages": len(result["pages"]), "errors": [p["slug"] for p in result["pages"] if p.get("status") != "fetched"]}, indent=2))

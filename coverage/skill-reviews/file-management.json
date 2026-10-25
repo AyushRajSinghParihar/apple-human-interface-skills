@@ -1,0 +1,18 @@
+{
+  "topic": "file-management",
+  "reviewer": "independent-topic-author-a",
+  "reviewed_at": "2026-10-25T18:58:28.192286+00:00",
+  "status": "reviewed",
+  "source_hash": "1b8498df40c8a4e5fdf64169e943f3a5d4e50a2024d927024287ac00ad41f933",
+  "skill_hash": "a2856becdbd1f17371bc360478201da3f8c772da21e7802c4d3bf6b1ded53fa9",
+  "reference_hash": "d7ca475781533ddecde00adcc703c10237a45ba2a04dfc768bfb3cab22c90669",
+  "evidence": {
+    "decision": "Uses document identity/persistence and autosave policy to choose standard browser, save/close cues, preview and provider behavior.",
+    "artifact": "Requires new/open/save/close/sync/preview contract with authorized persistence or browser changes, including name/format/location choice.",
+    "transformation": "Mac sketch example replaces false Edited clearing and hidden export with actual save-bound cues, surviving drafts and standard save choices.",
+    "verification": "Checks failed save, unsaved exit, reopen, extension preferences, preview and provider filtering; lost work or false saved state fails.",
+    "applicability": "Qualifies Mac autosave-off dirty cues, document-launcher/provider behavior and TV/Watch browsing limits; durability needs execution evidence.",
+    "handoffs": "Menu bar, Path controls and Printing are conditional continuations for the document workflow.",
+    "distinctiveness": "Autosave policy, filesystem scope, extension visibility and provider ownership are specific document-lifecycle decisions."
+  }
+}

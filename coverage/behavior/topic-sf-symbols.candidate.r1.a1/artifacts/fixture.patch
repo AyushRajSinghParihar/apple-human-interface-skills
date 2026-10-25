@@ -1,0 +1,52 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,47 @@
+-Platform: iOS. Designer stretches a system symbol nonuniformly, uses a decorative weather symbol for Archive and relies on multicolor-only status. Some chosen symbols may not exist on the app’s oldest deployment target.
+\ No newline at end of file
++# iPhone mail: Archive symbol and state specification
++
++Platform: iOS on iPhone. Replace the stretched system symbol, weather metaphor for Archive, and multicolor-only status in the supplied brief.
++
++## Action and symbol
++
++Use a standard system button with outline `archivebox` and visible localized title “Archive”. Its accessible name is “Archive”; hide its redundant glyph from accessibility. Archive moves the current Inbox message to the account’s Archive destination, retaining the message. It is a normal immediate command, not deletion or a persistent selection. Do not use fill to imply that this command is selected or that archiving completed.
++
++Preserve native aspect ratio: remove independent horizontal/vertical scaling, cropping and forced image dimensions that deform the symbol. Fit proportionally and adjust padding instead. Match symbol weight to adjacent system text, starting with medium symbol scale; adjust scale rather than stretching for emphasis. Use monochrome rendering. No decorative multicolor layers, variable color or symbol animation encode progress.
++
++Use adaptive primary label color for text and glyphs on ordinary system backgrounds; keep standard system disabled and press feedback. Do not hard-code RGB values. Color may supplement meaning, never carry it alone. Provide at least 44 × 44 pt nonoverlapping activation regions, independently of glyph size.
++
++These choices apply the standard [Archive → archivebox mapping](https://developer.apple.com/design/human-interface-guidelines/icons#Other), [SF Symbols weights/scales and variants](https://developer.apple.com/design/human-interface-guidelines/sf-symbols#Weights-and-scales), [rendering modes](https://developer.apple.com/design/human-interface-guidelines/sf-symbols#Rendering-modes), and [Buttons](https://developer.apple.com/design/human-interface-guidelines/buttons). Monochrome is this product’s choice for these controls, not a general prohibition on multicolor symbols.
++
++## Meaning and transitions
++
++The original brief does not identify what status means. For this revision, status describes the archive operation. This is an explicit product assumption. Keep read/unread and flagged metadata separate.
++
++| State | Visible presentation | Behavior and semantics |
++| --- | --- | --- |
++| Ready | `archivebox` + “Archive” | Enabled button named “Archive”; activation submits one request for the current message ID. |
++| Pending | Activity indicator replaces glyph; “Archiving…” | Disabled button named “Archiving”; ignore duplicate activation. Retain message until confirmed success. |
++| Success | `checkmark` + “Archived” | Noninteractive status; only now remove message from Inbox. Keep status in the resulting view until navigation or another operation replaces it. No selected-button trait. |
++| Failure | `exclamationmark.triangle` + “Couldn’t archive. Try again.” | Keep message in Inbox. Restore enabled Archive button for explicit retry. Retain error until retry or navigation. |
++| Unavailable | Disabled “Archive” plus “Archive unavailable for this account” | Use when the account lacks an Archive destination. Explain unavailability in text. |
++
++If already in Archive, omit the redundant Archive action and show “Archived” status. Never imply completion from press feedback. Do not automatically retry a failed request. For uncertain server outcomes, retain the message and disable resubmission while showing “Checking archive status…”; reconcile location before resolving to success or failure. No state is distinguished by hue, fill or motion alone.
++
++Expose status as native text, reachable after the Inbox message disappears. Hide redundant status glyphs from accessibility. Preserve meaningful task order: message, action, status. Allow labels to wrap/reflow at at least 200% text enlargement without losing actions or overlapping targets. No custom symbol animation is required.
++
++Redundant cues and semantic colors follow [Color: inclusive color](https://developer.apple.com/design/human-interface-guidelines/color#Inclusive-color) and [Accessibility: vision and mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility#Vision). Delayed button indication follows [Buttons: iOS/iPadOS](https://developer.apple.com/design/human-interface-guidelines/buttons#iOS-iPadOS). Exact wording and server-confirmation policy are product decisions.
++
++## Availability and fallback
++
++Minimum supported iOS is not supplied. `archivebox`, `checkmark` and `exclamationmark.triangle` are specified candidates, not verified version-support claims. Before release, record the actual deployment minimum, each symbol’s availability and restrictions, and rendering-feature support against the project’s SDK documentation and supported previews.
++
++Use one availability-aware symbol resolver. If a symbol cannot load or its rendering configuration is unsupported, omit the glyph and keep the complete text and semantics. Archive remains a usable “Archive” button; success remains “Archived”; failure retains its error. Pending retains “Archiving…” if the indicator cannot render. Never leave an unlabeled blank control or substitute unrelated art. Apply this rule to any other Archive surface discovered during implementation. Text fallback avoids assuming an alternate symbol is supported. [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) requires individual symbol/feature availability checks.
++
++## Acceptance requirements
++
++1. Inspect configuration and actual rendering: no unequal-axis scaling; native proportions, appropriate weight and optical alignment at displayed size.
++2. Remove color: all states remain identifiable through text; Archive remains discoverable and operable.
++3. Exercise success, failure, retry, delayed and uncertain completion, and repeated taps: one in-flight request per message, no premature removal, no stale pending state.
++4. Test oldest and current supported iOS; verify symbols/features and restrictions. Force symbol lookup failure and confirm every text fallback preserves action and meaning.
++5. On a supported Apple environment, verify accessible names, roles, pending state, status reachability, task order and assistive activation. Measure target regions and contrast in light/dark and Increase Contrast; verify 200% text enlargement without clipping or overlap.
++
++These are requirements, not executed results. No device, SDK, GUI, contrast calculation or accessibility execution is established by this document.

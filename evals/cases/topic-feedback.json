@@ -1,0 +1,28 @@
+{
+  "id": "topic-feedback",
+  "kind": "topic",
+  "topic": "feedback",
+  "family": "patterns",
+  "mode": "design",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Design action feedback for uploading an iPhone insurance claim. Read interface.md. Produce a concrete revised interaction specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: iOS. Submit button appears unchanged for 30 seconds, then only vibrates even if upload fails. An offline retry duplicates claims. User may leave and return; no server behavior is proven."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Specify immediate acknowledgment, determinate/indeterminate progress, success versus actionable failure and safe retry state; combine appropriate sensory channels and avoid claiming actual delivery.",
+      "hig_correctness": "Apply the feedback guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Specify immediate acknowledgment, determinate/indeterminate progress, success versus actionable failure and safe retry state; combine appropriate sensory channels and avoid claiming actual delivery.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Specify immediate acknowledgment, determinate/indeterminate progress, success versus actionable failure and safe retry state; combine appropriate sensory channels and avoid claiming actual delivery.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

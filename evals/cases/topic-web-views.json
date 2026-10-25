@@ -1,0 +1,28 @@
+{
+  "id": "topic-web-views",
+  "kind": "topic",
+  "topic": "web-views",
+  "family": "content",
+  "mode": "review",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Audit a Mac help web view embedded in a native app. Read interface.md. Audit the supplied interface; rank verified findings and show corrected behavior. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: macOS. Web content is the entire app navigation without back controls, external payment links masquerade as local buttons, load failures leave blank white, zoom/text selection are disabled and an unexpected auth redirect captures credentials in the help pane."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Find five concrete navigation/trust/error/accessibility/auth-boundary issues and specify a bounded useful web-content experience with clear origin and native/external handoff.",
+      "hig_correctness": "Apply the web-views guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Find five concrete navigation/trust/error/accessibility/auth-boundary issues and specify a bounded useful web-content experience with clear origin and native/external handoff.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Find five concrete navigation/trust/error/accessibility/auth-boundary issues and specify a bounded useful web-content experience with clear origin and native/external handoff.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

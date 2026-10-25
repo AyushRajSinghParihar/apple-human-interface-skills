@@ -1,0 +1,18 @@
+{
+  "topic": "photo-editing",
+  "reviewer": "independent-topic-author-b",
+  "reviewed_at": "2026-10-25T19:02:43.483084+00:00",
+  "status": "reviewed",
+  "source_hash": "dba2b83f31492338cdd59def4409047983fccd745b8b51603f16a318cc563c84",
+  "skill_hash": "0480e4a7af44574036de7eafefc0286242e57d4cf67b56b41dcb52c3d508685d",
+  "reference_hash": "4996bfaff6a47614619fb1df4178a146f1e7111670e663ef8b29032e662f0250",
+  "evidence": {
+    "decision": "Separates preview, changed cancellation and unchanged exit, preserving the original on save.",
+    "artifact": "Delivers extension edit-state transitions and saved output identity.",
+    "transformation": "Duplicate Done bar and instant filter dismissal become system completion with preview and conditional loss warning.",
+    "verification": "Fails impossible preview, conflicting toolbars, unnecessary unchanged prompts and original modification.",
+    "applicability": "Keeps supported host platforms and separates executable output checks from native Photos hosting.",
+    "handoffs": "Live Photos applies only to whole-live-asset edits; Images to export fidelity.",
+    "distinctiveness": "Host toolbar ownership and dirty-state-dependent cancellation are distinctive extension operations."
+  }
+}

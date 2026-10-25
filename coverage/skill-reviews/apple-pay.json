@@ -1,0 +1,18 @@
+{
+  "topic": "apple-pay",
+  "reviewer": "independent-topic-author-b",
+  "reviewed_at": "2026-10-25T19:00:29.945187+00:00",
+  "status": "reviewed",
+  "source_hash": "d6ae42353efaf795222215625e18953344f6b886b398939c8c3d201e88acece9",
+  "skill_hash": "8ca087d267b7ffeae3057d89f6858538c9adb460c6de0d4ff7554168e3ea893d",
+  "reference_hash": "07d19bf815f3033baf71b2e32f4f0b3e1830cc6214ecd05181bfeb46dde6cc0b",
+  "evidence": {
+    "decision": "Chooses product versus cart express scope before collecting fulfillment and authorization data.",
+    "artifact": "Produces checkout, sheet-field and processing-recovery contracts in the existing integration.",
+    "transformation": "Florist product express buys one bouquet and cancels processing when sheet timeout dismisses.",
+    "verification": "Fails scope mismatch, unnecessary gates, concealed later costs and duplicate-processing risk.",
+    "applicability": "Requires current regional/service eligibility and actual sandbox/device/server evidence for transaction claims.",
+    "handoffs": "IAP handles digital access, Privacy minimizes data, and Wallet handles a resulting pass.",
+    "distinctiveness": "Generated buttons versus acceptance marks and sheet cancellation are specific payment boundaries."
+  }
+}

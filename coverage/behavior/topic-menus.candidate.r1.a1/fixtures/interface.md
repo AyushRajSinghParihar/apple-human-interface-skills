@@ -1,0 +1,1 @@
+Platform: macOS. Commands move position after each use, every item has an icon and a shortcut, unrelated destructive actions sit next to ordinary Open and unavailable commands disappear while keyboard equivalents still execute.

@@ -1,0 +1,50 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,45 @@
+-Platform: iOS/iPadOS camera AR. Current entry opens camera immediately with no explanation, floats a chair at arbitrary scale before finding a surface and forces people to walk backward to exit. Tracking loss leaves a frozen chair falsely labelled placed.
+\ No newline at end of file
++# Furniture placement — revised interface specification
++
++Platform: iOS/iPadOS handheld camera AR. Preserve the chair-preview task; no framework change is specified. AR is an optional aid to evaluating furniture. Product dimensions remain useful without camera access. This is a design contract, not evidence of an implemented app.
++
++## Entry and privacy
++
++Start on the selected chair's detail view with product image, variant and authoritative width/depth/height. Show “View in your room” only on capable devices; otherwise retain dimensions and ordinary product viewing. Hardware/API capability detection must be verified during implementation.
++
++Before starting, ordinary product content explains: “Preview this chair at its actual size. Use a well-lit area with a clear floor. Stay aware of people and obstacles; you can end the preview without moving.” This is task information, not a custom permission pre-alert. Activating “View in your room” requests camera authorization directly if undetermined, using the system prompt. Purpose sentence: “Use the camera to preview furniture at its actual size on your floor.” Already-authorized entry starts the session; denial or restriction returns to dimensions with “Camera access is unavailable. You can still view dimensions.” For denial, offer a Settings route without repeatedly prompting; restricted access must not promise that Settings can resolve it.
++
++Data contract: camera frames and temporary surface/pose estimates are used on-device only for placement. Do not record, upload, retain room maps, or include room imagery in analytics. No microphone, location, contacts or photo-library access is needed. End/reset discards temporary spatial data; retain only selected chair/variant and any nonspatial edit preference. These are implementation requirements to audit, not claims about existing data handling. Any later capture/sharing feature needs a separate specification and disclosure review.
++
++## Session states and transitions
++
++“End AR” remains reachable in a stationary screen-space location in every active state, including coaching and recovery. It stops the camera/session and returns to the same chair and variant. No backward walking, physical gesture or successful tracking is needed to exit. Keep only essential controls during coaching; do not let coaching obscure End AR or Restart.
++
++| State | Scene and status | Actions and transition |
++|---|---|---|
++| Finding floor | Live camera, no chair. Prefer system coaching for floor discovery: “Slowly move your device to find a clear floor.” | End AR; Restart. A usable floor estimate under the target enters Ready. No requirement to find exact floor edges. |
++| Ready | Floor-aligned footprint indicator at the current valid estimate; “Ready to preview.” No arbitrary floating chair. | Tap the indicator or stationary “Place chair” to commit the indicated target. If target becomes invalid, disable Place with “Find a clear floor” and return to Finding floor. |
++| Placed | Chair at validated real dimensions, grounded on the floor with plausible lighting, diffuse contact shadow and updated perspective. Status: “Placed · actual size preview.” | Select/tap chair; drag to move on the floor; two-finger rotation to rotate. Visible Move, Rotate left/right, Undo and Restart alternatives below. End AR always available. |
++| Recovering | On tracking loss, interruption, or invalid anchor, immediately remove the “Placed” status, hide the unstable chair and disable spatial editing. Retain chair/variant, last transform and undo state as unverified session data. Status: “Preview paused — finding your floor again.” | Prefer system relocalization coaching. Show contextual remedy: “Try more light or a floor with visible detail,” or “Move your device more slowly.” Restart and End AR available immediately; no mandatory wait. |
++| Restored or restart | Restore only when tracking and the previous floor anchor are trustworthy again. If correspondence cannot be established, do not silently reuse an old transform. | Successful recovery returns to Placed. Restart clears anchor/placement/undo, preserves chair/variant, and enters Finding floor. If recovery continues without success, keep clear recovery status and Restart/End AR; never an indefinite blocking spinner. |
++
++App backgrounding pauses the camera and invalidates placement confidence. Returning enters Recovering even if the last rendered image looked stable. Permission revoked or camera/session failure hides the chair and offers “Try again” and “End AR”; retry rechecks authorization/capability and starts discovery. Ending a session never implies that a room placement was saved. Resizing/orientation changes preserve chair and edit state, but camera/session disruption requires recovery.
++
++## Scale, placement and manipulation
++
++Use verified model units and product dimensions at scale 1:1. Display dimensions and “Preview only — check measurements and clearance before buying.” If model dimensions are missing or mismatched, do not offer a purported actual-size AR placement; show product information and explain the preview is unavailable. Pinch scaling is disabled because furniture size is fixed; provide a short explanation if attempted. Never enlarge a distant chair to simulate bringing it closer.
++
++Place promptly from usable floor estimates, refining attachment gently as estimates improve. Do not wait for perfect edges, snap between floors, drift through surfaces, or silently classify a tabletop as the floor. If the floor cannot be established, remain in discovery with remedies and exit. Treat the preview as an estimate, not collision detection or proof of physical fit.
++
++Direct drag moves the selected chair along its current floor, with immediate target/validity feedback; an invalid drop restores the last valid transform and explains why. Rotation changes heading only. Use a generous, nonoverlapping hit region around thin/distant chair parts. Move opens stationary directional controls moving in floor-plane steps of 5 cm relative to the camera heading captured when Move opens; Rotate left/right changes heading by 15 degrees per activation. These increments are product choices, not HIG values. Both paths obey the same validity checks and update displayed position/heading; Undo restores the last valid edit. Do not implement custom system-edge or three/four-finger gestures.
++
++If the chair leaves view, show a screen-space directional cue and text such as “Chair to your left.” Offer “Place again,” which clears the old placement and returns to floor targeting near the current view without requiring the person to chase it. Never instruct walking backward. Keep sessions optional and short; “End AR” permits stopping for a rest at any time. Do not demand large, sudden or repeated body movements, or require walking around the chair to complete evaluation. A stationary dimensions view remains available when the space or physical task is unsuitable.
++
++## Controls and adaptable presentation
++
++Use most of the display for the scene. Keep status and essential actions in screen space; place frequent editing actions toward the lower reachable area. Maintain a consistent End AR location within safe areas. On wider iPad windows editing controls may sit beside the scene; at narrow widths and in landscape they wrap/reflow without losing actions, selection or status. No control depends on hover or an attached accessory.
++
++Provide at least 44 × 44 pt activation areas for iOS/iPadOS controls with separation preventing adjacent activation. Controls have explicit names, button roles, enabled states and meaningful values (for example rotation heading). Support keyboard and assistive activation for stationary controls; gestures supplement them. Status uses text and symbols, never color or sound alone. Use readable system text, reflow essential copy through at least 200% text enlargement, and place critical text on a stable high-contrast backing over the camera. Validate contrast in both appearances and Increase Contrast. Keep recovery messages persistent until resolved or explicitly dismissed. These requirements do not establish that physical AR positioning is fully accessible; dimensions are the noncamera alternative.
++
++## Guidance basis
++
++Material choices follow the locally installed HIG snapshot: [AR best practices](https://developer.apple.com/design/human-interface-guidelines/augmented-reality#Best-practices), [coaching](https://developer.apple.com/design/human-interface-guidelines/augmented-reality#Providing-coaching), [placement](https://developer.apple.com/design/human-interface-guidelines/augmented-reality#Helping-people-place-objects), [interaction](https://developer.apple.com/design/human-interface-guidelines/augmented-reality#Designing-object-interactions), [interruptions](https://developer.apple.com/design/human-interface-guidelines/augmented-reality#Handling-interruptions), [privacy](https://developer.apple.com/design/human-interface-guidelines/privacy#Requesting-permission), [gesture alternatives](https://developer.apple.com/design/human-interface-guidelines/gestures#Best-practices), and [accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility). System coaching and hiding old objects are HIG preferences/considerations adopted here as product requirements. Recovery thresholds require implementation and device validation; no numeric tracking-confidence threshold is inferred from HIG.

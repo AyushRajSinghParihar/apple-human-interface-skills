@@ -1,0 +1,18 @@
+{
+  "topic": "segmented-controls",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:53:13.545619+00:00",
+  "status": "reviewed",
+  "source_hash": "6bdc3da24a25a7e7851436c023ff56dfa6db792dddf3c8a15e8ffb22558f3faa",
+  "skill_hash": "be614a5a5b5fee862d5612baa27511b7b109ea985ac005d2ac9753578b69f691",
+  "reference_hash": "71269d2e799162205ba0b77ab59f1c73898e9dac965be6203adea9bf8cb374cf",
+  "evidence": {
+    "decision": "Classifies the entire group as single choice, platform-supported multiple choice or momentary action and prevents mixing contracts.",
+    "artifact": "Requires selection-model changes or a segment/affected-content specification with accessible state aligned to content.",
+    "transformation": "Photo Grid/List/Export example keeps view selection together and moves Export into a separate action while retaining the selected view.",
+    "verification": "Checks repeat activation, localization, external state changes and relevant TV focus; fails mixed semantics or indistinguishable selection.",
+    "applicability": "Qualifies Mac multiple selection/pane tabs, TV focus-triggered selection, visionOS text tooltips and watch nonapplicability.",
+    "handoffs": "Routes top-level sections to tab-bars, Mac panes to tab-views and independent commands to buttons.",
+    "distinctiveness": "A common interaction model for every segment drives the correction, beyond a generic instruction to group related controls."
+  }
+}

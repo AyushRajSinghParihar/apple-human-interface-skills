@@ -1,0 +1,1 @@
+Platform: iOS. Split clip requires a three-finger circle; swipe left both scrubs and deletes depending on speed; there is no visible undo. Standard edge navigation is intercepted. Users must perform every action one-handed.

@@ -1,0 +1,18 @@
+{
+  "topic": "image-wells",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:53:13.545476+00:00",
+  "status": "reviewed",
+  "source_hash": "d3d8a1a81f8241c623c9b028169adc70457c75da531e8f3c97092940671a4716",
+  "skill_hash": "44f353e9437877cb815543e3790728b318648aec13b16e32838bb370c6ea1c6a",
+  "reference_hash": "5781d89bbd974b8ed20e4ae43ee3d31c580a5411b021c9d263bd5785a8e0005e",
+  "evidence": {
+    "decision": "Separates editable image content from display/action imagery and specifies standard editing plus required/default restoration.",
+    "artifact": "Requires editing operations or a command/drop/default contract including selected and unselected behavior.",
+    "transformation": "Profile-avatar example removes preselection-required drops, restores a default after Delete and exposes standard Edit-menu commands/shortcuts.",
+    "verification": "Tests unselected drop, compatible/rejected paste, Copy/Delete and required defaults, failing rejected-input loss or inaccessible commands.",
+    "applicability": "Preserves Mac-only component scope and distinguishes source-file deletion from removing a custom image and native pasteboard execution.",
+    "handoffs": "Loads image-views for display-only work and edit-menus when standard command semantics require attention.",
+    "distinctiveness": "Unselected drops, selected editing and required-image restoration are concrete image-well-specific behavior."
+  }
+}

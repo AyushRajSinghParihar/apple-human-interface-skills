@@ -1,0 +1,18 @@
+{
+  "topic": "searching",
+  "reviewer": "independent-topic-author-a",
+  "reviewed_at": "2026-10-25T19:00:42.558343+00:00",
+  "status": "reviewed",
+  "source_hash": "bcd0bd59c41004b679160e8176a468252cff48107f9469c546de5917847dd53f",
+  "skill_hash": "539fa1faeb165d500920becc73c61dc62da85c537f0fa23e1016bdad899554e1",
+  "reference_hash": "22d7ca3829e475a7aa29f0a2f4f3b1cf152d8626d43f2ff96b997ac53c016fa6",
+  "evidence": {
+    "decision": "Chooses clear global search versus justified local scope, meaningful metadata/suggestions and privacy-aware history clearing.",
+    "artifact": "Requires corpus/query/result, scope/filter, history and exact indexed-destination artifact or implementation.",
+    "transformation": "Notes example distinguishes local filters from app-wide search, clears private recents and opens the precise Spotlight note.",
+    "verification": "Checks representative/no-result queries, cleared history, stale/deleted index content and external activation; wrong scope/destination fails.",
+    "applicability": "Limits described Spotlight support to iOS/iPadOS/Mac while allowing broader app search; relevance/index freshness need execution evidence.",
+    "handoffs": "Search fields handles entry UI and File management handles document metadata/Quick Look when relevant.",
+    "distinctiveness": "Corpus scope, indexing provenance and exact result destinations distinguish finding strategy from field styling."
+  }
+}

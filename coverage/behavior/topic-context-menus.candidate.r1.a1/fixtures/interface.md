@@ -1,0 +1,1 @@
+Platform: macOS/iPadOS. Right-click anywhere opens all app commands, including commands unrelated to the item. Essential Rename exists only in this hidden menu. Multi-selection Delete acts on the last clicked item only. Disabled choices disappear unpredictably.

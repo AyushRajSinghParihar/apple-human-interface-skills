@@ -1,0 +1,55 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,50 @@
+-Platform: iPadOS. An action sheet opened from an attachment row is centered far from its trigger. Options are Yes, Other, Cancel and Delete Everything; Other starts a six-field questionnaire. Delete Everything removes unrelated claims. There may be no attachment selected.
+\ No newline at end of file
++# iPad claims form — attachment choices
++
++## Scope and product assumptions
++
++This replaces the centered action sheet with a short, row-scoped decision. The original specification did not define what “Yes” does or name the six fields. For this revision, “Yes” means linking the selected attachment to the current claim; the questionnaire is an alternative way to supply supporting details. Retain the existing six fields and validation rules; their content is not specified here. These are explicit product assumptions, not findings about an implementation.
++
++## Trigger and presentation
++
++- In the attachment row, show the selected filename (or “No Attachment Selected”) and a text button, “Use Attachment”. Activating it deliberately starts the choice below; opening it does not change data.
++- Capture the current claim ID and selected attachment ID at invocation. Scope all outcomes to that claim and attachment, never to a later selection.
++- In a wide iPad window, present the system action-sheet choices as a popover anchored to the invoking button's bounds. Point the arrow closely at that button, keeping the row and filename visible. Do not use a fixed screen-center coordinate. Re-anchor on resize or rotation; dismiss without action if the source row disappears.
++- In compact window layouts, use the system compact action-sheet presentation rather than forcing a wide-layout popover.
++- Title: “Supporting Evidence”. Keep choices short and unscrolled. This is a post-action decision, not a generic More menu. If a future design changes the trigger to an explicit menu request, use a menu instead.
++
++## Choices and consequences
++
++| Order | Label | Role and availability | Outcome |
++| --- | --- | --- | --- |
++| 1 | Use Selected Attachment | Normal; enabled only when a valid attachment is selected and not already linked | Link only the captured attachment to the captured claim; dismiss after success. |
++| 2 | Enter Supporting Details | Normal; available even without a selected attachment | Dismiss the action sheet completely, then open the six-field task sheet below. |
++| — | Cancel | Cancellation, no mutation | In the iPad popover, outside tap provides cancellation; do not add a redundant visible Cancel row. Preserve system cancellation semantics. In compact presentation, provide the system Cancel action. |
++
++When selection is empty, show “Select an attachment to use it, or enter supporting details.” in the row. Keep Use Selected Attachment visibly unavailable; Enter Supporting Details remains usable. Already linked: show “Attachment Already Added” in the row and prevent duplicate linking.
++
++Delete Everything is removed from this flow and its handlers. No choice can delete claims, attachments, or unrelated data. Do not merely rename or recolor that action, and do not move claim deletion into another attachment surface.
++
++At commit, revalidate the captured IDs and eligibility. If the attachment or claim is gone, make no change; show a contextual message in the row and let the person reopen the choice. Never substitute a new selection. If linking is delayed, prevent duplicate submissions, retain the filename and show progress in the initiating action; dismiss only on success. On failure, retain prior data and show a retryable row message. Linking must be idempotent for the claim/attachment pair.
++
++## Six-field task sheet
++
++Present a separate centered, standard-sized iPad form sheet titled “Supporting Details”, with the claim identifier visible. Use sufficient height for six fields and scrolling when the keyboard or larger text requires it; do not embed the questionnaire inside the action list or stack it above that list. Keep the parent claim form unavailable while editing: the brief evidence-entry task benefits from focus and prevents changes to its target claim during entry.
++
++Use Cancel at the leading top edge and Done at the trailing edge. Done validates all six existing fields and saves only supporting details for the captured claim, then dismisses. Show validation failures beside their fields and keep the entered values. Cancel exits immediately when clean; when edited, it requests the same discard resolution as swipe dismissal. Confirmed discard removes only this sheet's edits; it does not clear the claim form or unlink an attachment. Opening or abandoning this alternative does not attach a file.
++
++A clean swipe dismissal exits without change. An edited swipe dismissal must not silently lose input: retain the sheet and resolve with a short action sheet offering destructive “Discard Changes” at the top and safe “Keep Editing”. Discard affects only the six-field draft; Keep Editing returns with all values intact. Cancel, swipe, supported Escape, and navigation-away requests use this same protection. Before showing the discard decision, suspend and dismiss the editor presentation while retaining its draft; Keep Editing restores that editor and its values. Never stack a second sheet or cascade popovers. Dismissing the discard decision without choosing means Keep Editing. On interrupted presentation, retain the draft until the person explicitly discards or completes it. Do not allow a second instance on repeated activation. After any exit, restore interaction to the originating row if it still exists.
++
++## Control requirements
++
++Prefer system controls and semantic roles. Use short, outcome-specific text; no Yes or Other labels remain. General button hit regions must be at least 44 × 44 pt with clear separation. No destructive action is the implicit default. Labels must remain readable without overlap at larger text sizes. These are implementation requirements awaiting device verification.
++
++## Guidance basis
++
++- [Action sheets — Best practices and iOS/iPadOS](https://developer.apple.com/design/human-interface-guidelines/action-sheets): short related post-action choices, safe cancellation, destructive role/order when applicable.
++- [Popovers — Best practices and iOS/iPadOS](https://developer.apple.com/design/human-interface-guidelines/popovers): close source anchoring, one popover, compact adaptation. The row-anchor decision applies this general guidance to the iPad action-sheet presentation.
++- [Sheets — Best practices and iOS/iPadOS](https://developer.apple.com/design/human-interface-guidelines/sheets): separate scoped task, standard centered iPad sizing, Cancel/Done, protection on edited swipe dismissal.
++- [Buttons — Content, Role, Best practices](https://developer.apple.com/design/human-interface-guidelines/buttons): predictive labels, semantic roles, system controls, and 44 × 44 pt general targets.
++
++- [Modality — Best practices](https://developer.apple.com/design/human-interface-guidelines/modality): focused scope, familiar exits, protection before losing edits, and replacement rather than stacked modals.
++
++These links identify the official articles represented by the supplied local snapshot; no online verification was performed.

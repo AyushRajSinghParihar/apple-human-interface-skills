@@ -1,0 +1,19 @@
+{
+  "topic": "action-button",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:56:57.470873+00:00",
+  "status": "reviewed",
+  "source_hash": "e48d60f6f9b018e2d2bdd916b5eaf5feb52c7f63f525b41025dfc8ff3ebdf721",
+  "skill_hash": "2d402e917eba6adf4aef082fa7caed05e5c0b187914a1c6464e70183f0c4d344",
+  "reference_hash": "766c945264277a6334a4e7d45bc6436bf4ff84f5221be6b8dfda971f19c0f7fd",
+  "evidence": {
+    "decision": "Chooses a recurring useful function instead of merely opening the app, and keeps first and secondary press meanings predictable rather than assigning arbitrary destructive behavior.",
+    "artifact": "Requires an Action label, press-state/result contract, and fallback entry route; these can directly drive a shortcut or device interaction design.",
+    "transformation": "The field-notes example changes Open Field Notes plus unrelated save/delete presses into Record Waypoint with stable repeated behavior and explicit destructive UI.",
+    "verification": "Checks unexpected destruction, repeated-press termination and lost task context, while explicitly leaving device-specific press and feedback behavior for hardware execution.",
+    "applicability": "Separates iPhone snippet/Live Activity context from Watch first and memorable secondary actions, including the supported Action-plus-side pause exception rather than imposing one mapping everywhere.",
+    "handoffs": "Sends shared shortcut work to Siri and wrist-down feedback to Always On only when those features are involved.",
+    "distinctiveness": "The three-word present-tense label, essential function selection, repeated-press policy and context-preserving result make this an Action button procedure rather than a generic controls checklist."
+  },
+  "additional_references": []
+}

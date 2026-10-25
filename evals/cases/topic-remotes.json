@@ -1,0 +1,28 @@
+{
+  "id": "topic-remotes",
+  "kind": "topic",
+  "topic": "remotes",
+  "family": "inputs",
+  "mode": "design",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Specify Remote navigation for an Apple TV music queue. Read interface.md. Produce a concrete revised interaction specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: tvOS. Screen assumes touch dragging, Menu exits and deletes the queue, Play/Pause performs Search and focus disappears when the queue updates. Some users have another supported remote/controller."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Design predictable directional focus, selection, playback and back semantics with preserved queue/focus on updates; qualify device differences and supply accessible alternate input considerations.",
+      "hig_correctness": "Apply the remotes guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Design predictable directional focus, selection, playback and back semantics with preserved queue/focus on updates; qualify device differences and supply accessible alternate input considerations.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Design predictable directional focus, selection, playback and back semantics with preserved queue/focus on updates; qualify device differences and supply accessible alternate input considerations.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

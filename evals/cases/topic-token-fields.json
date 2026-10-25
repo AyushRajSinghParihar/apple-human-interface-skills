@@ -1,0 +1,29 @@
+{
+  "id": "topic-token-fields",
+  "kind": "topic",
+  "topic": "token-fields",
+  "family": "navigation-and-search",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Repair multi-recipient entry in a Mac invitation editor. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: macOS. Field stores semicolon text but renders it as one uneditable image, accepts invalid addresses silently and backspace removes all recipients. Duplicate recipients are invited repeatedly and selection has no keyboard behavior."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch editable recipient tokens, valid/invalid/duplicate states and predictable per-token selection/deletion with typed entry and suggestions; preserve names/addresses and accessibility.",
+      "hig_correctness": "Apply the token-fields guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch editable recipient tokens, valid/invalid/duplicate states and predictable per-token selection/deletion with typed entry and suggestions; preserve names/addresses and accessibility.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch editable recipient tokens, valid/invalid/duplicate states and predictable per-token selection/deletion with typed entry and suggestions; preserve names/addresses and accessibility.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

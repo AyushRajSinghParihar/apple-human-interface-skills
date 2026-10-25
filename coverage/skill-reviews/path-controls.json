@@ -1,0 +1,18 @@
+{
+  "topic": "path-controls",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:50:48.414311+00:00",
+  "status": "reviewed",
+  "source_hash": "f44f47c42ce7dfd7b8de7a889964a801364b5d3af99edf8e6bb33ad5c53b269f",
+  "skill_hash": "5562de40519699e48af6aa65be9bbf6eec3fdfb61ae4b818ef27aa65f0c34cb5",
+  "reference_hash": "5eb025ae9be007a15b4a74ce0a6c05459fe55748532b7c60b17d62d532b0decf",
+  "evidence": {
+    "decision": "Chooses segmented ancestry versus compact pop-up, separately deciding display versus editable location selection and valid dropped destinations.",
+    "artifact": "Requires a location/segment/drop specification or implementation with editability, navigation, selection and validation behavior.",
+    "transformation": "Export breadcrumb example moves a misleading toolbar control into the body and adds selected folder, hierarchy, Choose and supported folder drops.",
+    "verification": "Exercises root/deep paths, narrow width, Choose/drop selection and stale locations, failing disagreement between displayed and actual destination.",
+    "applicability": "Explicitly limits the component to Mac and separates desired validation from native filesystem permissions and drag evidence.",
+    "handoffs": "Loads file-management for persistence/location work and drag-and-drop for actual transfer semantics rather than treating those as mandatory.",
+    "distinctiveness": "Location identity, collapsed ancestry, body placement and editable drop/Choose behavior form a specific path-control operating contract."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "topic-status-bars",
+  "kind": "topic",
+  "topic": "status-bars",
+  "family": "system-experiences",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Repair iPhone status-bar handling in a fullscreen reading view. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: iOS. App paints a fake time/battery over system status, critical network errors hide behind it and tapping the reading surface alternates unpredictable status visibility. Content obscures system safe areas."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch intentional system status visibility/appearance, safe-area content and separate in-app status; preserve readable controls and predictable reading transitions without faking system information.",
+      "hig_correctness": "Apply the status-bars guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch intentional system status visibility/appearance, safe-area content and separate in-app status; preserve readable controls and predictable reading transitions without faking system information.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch intentional system status visibility/appearance, safe-area content and separate in-app status; preserve readable controls and predictable reading transitions without faking system information.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

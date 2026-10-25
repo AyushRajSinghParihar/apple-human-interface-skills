@@ -1,0 +1,18 @@
+{
+  "topic": "combo-boxes",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:53:13.545265+00:00",
+  "status": "reviewed",
+  "source_hash": "771eac86d95d6603a08d3864e98657b5ad892128509e13278f0e77eeda74bafe",
+  "skill_hash": "6ad23c7196eaa5991e9a97288a670de88c73221cfcac51ad46d4d3fc0e220289",
+  "reference_hash": "24b253235d2150d1831ed32ad15540b66cc2ff27122cf17f1c9e148fec479e3c",
+  "evidence": {
+    "decision": "Distinguishes suggested values from a closed permitted set and keeps custom entry separate from suggestion-list mutation.",
+    "artifact": "Requires field/list/value implementation or concrete suggestion/validation contract with initial value, label and commit rules.",
+    "transformation": "Paper-width example permits valid custom widths while preserving the curated list, using a separate save-preset action if needed.",
+    "verification": "Checks listed/custom/invalid input, focus departure and localized length; fails custom rejection or silent global suggestion mutation.",
+    "applicability": "Explicit Mac-only scope, title-case category label with colon and normal native-input evidence limits match the guide.",
+    "handoffs": "Routes closed choices to pop-up-buttons and ordinary free entry to text-fields based on the actual value domain.",
+    "distinctiveness": "A value absent from suggestions is not automatically invalid; that consequential distinction shapes the entry and storage contract."
+  }
+}

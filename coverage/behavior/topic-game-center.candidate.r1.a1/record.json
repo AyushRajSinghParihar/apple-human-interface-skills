@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "run_id": "topic-game-center.candidate.r1.a1",
+  "case_id": "topic-game-center",
+  "variant": "candidate",
+  "repetition": 1,
+  "attempt": 1,
+  "status": "completed",
+  "case_path": "evals/cases/topic-game-center.json",
+  "case_hash": "70f6a42bfeca5b865ba5379ca5c3222e6fc78bfdc80f41b0fc644956f09fa9f4",
+  "harness_hash": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
+  "model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.164.0",
+  "started_at": "2026-10-25T19:59:29+00:00",
+  "finished_at": "2026-10-25T20:02:10+00:00",
+  "package_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "references/topic-index.md": "7a8093fc17f3a55c224bbc66fb34694a73f86bc1b23f69af10dd91183ca3b22d",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md": "a575641fed63dcd067cf6805a72449f994c7e64702d39c98f0dd1d50884c3d1a",
+    "subskills/apple-hig-foundations/.topics/apple-hig-privacy/SKILL.md": "11c7f3b8d32ba3c101c14a011f7398c51c614873bf063a4a77304b2cea3b2e09",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-foundations/references/accessibility.md": "556c88279d9f2f238e87cbab050337b51ba5c3e3ab8c15f57b662b3f0378b18d",
+    "subskills/apple-hig-foundations/references/privacy.md": "ce8f25721e6adb44faea38beea85a5636e8a5de8b5147a354bf5a0ce90e957ba",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ios/SKILL.md": "d1b0053d506a0c82c68f20c941117ab505576e3fb879f8a1fd127cf7f6ef2b77",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-tvos/SKILL.md": "92742f3313a8ec4a5320f05d1fc2ba4937361bcfdcf12592bc17c5dbbe4e94ab",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-getting-started/references/designing-for-ios.md": "ee15224a397819e71d6a3863d533308e18862beb0125a31fcca7dd38bb3ebc78",
+    "subskills/apple-hig-getting-started/references/designing-for-tvos.md": "64bd2628663b004e1bcb7a3cfd8910129388b77daf7df188215cf688f2f700c3",
+    "subskills/apple-hig-inputs/.topics/apple-hig-focus-and-selection/SKILL.md": "2f90688afb4de2ff2c5c0140422ff1e7f452b754926198611fff4835a1121569",
+    "subskills/apple-hig-inputs/.topics/apple-hig-remotes/SKILL.md": "f15000854acdf1999201facd2b1dbb54c71205456b2201fe34149b13fea6b33e",
+    "subskills/apple-hig-inputs/SKILL.md": "a1843cc0d7dbb04b876a7c28e511aa5124e7fe2797d8e8eb1417434892676f29",
+    "subskills/apple-hig-inputs/references/focus-and-selection.md": "047a59cbaede962d61a854258581b40279a4a9409eeb26b9fa2492761e4a4705",
+    "subskills/apple-hig-inputs/references/remotes.md": "78a4028e80e03c9c0e04c7f5c3ba4e06dd0003bfdedef929dc6c950305930258",
+    "subskills/apple-hig-technologies/.topics/apple-hig-game-center/SKILL.md": "2c77dae87867383eb301dfe9ac95969f2a9adc8ba8e95069395e6a0484013263",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d",
+    "subskills/apple-hig-technologies/references/game-center.md": "d400dd93210174c7a053411e39bf92bf4198bcc436e955458f81a1d855238cbf"
+  },
+  "discovery_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "subskills/apple-hig-content/SKILL.md": "e911021fc5cb63ee1dbc4dbf5f29c3a258e4bcdfa16799f6a68a3640780a1fb0",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-inputs/SKILL.md": "a1843cc0d7dbb04b876a7c28e511aa5124e7fe2797d8e8eb1417434892676f29",
+    "subskills/apple-hig-layout-and-organization/SKILL.md": "805026039df393a761af77c979405bea98424b088ebb9e962cf47d17e949ac28",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "14799ee137928eb6532e16130cef07a3b93cc4e7ca7792a8ba711c0e5f1257f0",
+    "subskills/apple-hig-navigation-and-search/SKILL.md": "9c61db72d99a7b3cefea67557f02ae06ad76254e20b149c55731581a74137f3d",
+    "subskills/apple-hig-patterns/SKILL.md": "194e6f42bf32d325e016cc145b3d8c624c245eed46be1e0098c405c256a9b99e",
+    "subskills/apple-hig-presentation/SKILL.md": "51b48d2737ea0c2af406693bf257078638c46b7f5639f243463a5e1316ae727c",
+    "subskills/apple-hig-selection-and-input/SKILL.md": "605ab44039a43da80a817630076fa72896a66c29a0801e989c2f3809cbdd4527",
+    "subskills/apple-hig-status/SKILL.md": "d49120e41401fed66fcdd00efe00e06438df01cf320102bbfaace44276ebe756",
+    "subskills/apple-hig-system-experiences/SKILL.md": "c6231529b355d669e32660096e4b1a8e60e731a5473499c539c5827b18619e33",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d"
+  },
+  "thread_id": "01a174a5-9224-7823-b988-e47bef33d055",
+  "reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-privacy/SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md",
+    "subskills/apple-hig-foundations/references/privacy.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ios/SKILL.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-tvos/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ios.md",
+    "subskills/apple-hig-getting-started/references/designing-for-tvos.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-focus-and-selection/SKILL.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-remotes/SKILL.md",
+    "subskills/apple-hig-inputs/SKILL.md",
+    "subskills/apple-hig-inputs/references/focus-and-selection.md",
+    "subskills/apple-hig-inputs/references/remotes.md",
+    "subskills/apple-hig-technologies/.topics/apple-hig-game-center/SKILL.md",
+    "subskills/apple-hig-technologies/SKILL.md",
+    "subskills/apple-hig-technologies/references/game-center.md"
+  ],
+  "required_reads": [
+    "SKILL.md",
+    "subskills/apple-hig-technologies/SKILL.md",
+    "subskills/apple-hig-technologies/.topics/apple-hig-game-center/SKILL.md",
+    "subskills/apple-hig-technologies/references/game-center.md"
+  ],
+  "routing": {
+    "missing": [],
+    "passed": true,
+    "unexpected_hig_reads": false
+  },
+  "artifacts": {
+    "result.md": {
+      "path": "coverage/behavior/topic-game-center.candidate.r1.a1/artifacts/result.md",
+      "hash": "25bb2aa5c74f4d31943b8c14dcac0c131c76e02b36917967974967ab232e735f"
+    }
+  },
+  "transcript": {
+    "path": "coverage/behavior/topic-game-center.candidate.r1.a1/events.jsonl",
+    "hash": "aff9bc9b396dc311578e683e3e96d31335f15debd4cc5504371daf89b553a4b6"
+  },
+  "checks": {
+    "discovery": {
+      "visible_hig_count": 14,
+      "expected_visible_hig_count": 14,
+      "unrelated_enabled": [],
+      "hidden_topics_visible": [],
+      "disabled_unrelated_count": 83
+    },
+    "missing_artifacts": [],
+    "changed_inputs": {
+      "interface.md": false
+    },
+    "adaptation_changed": true,
+    "passed": true,
+    "exit_code": 0,
+    "turn_completed": true,
+    "malformed_event_count": 0,
+    "forbidden_reads": [],
+    "package_changed": []
+  },
+  "baseline_commit": null,
+  "final_message": {
+    "path": "coverage/behavior/topic-game-center.candidate.r1.a1/final-message.txt",
+    "hash": "ffd7c0105de592fe36e33be1b5eb8eee7dc3536f241984eab59fdd0891a1f6ee"
+  }
+}

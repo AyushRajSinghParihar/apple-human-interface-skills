@@ -1,0 +1,18 @@
+{
+  "topic": "shazamkit",
+  "reviewer": "independent-topic-author-b",
+  "reviewed_at": "2026-10-25T19:02:43.483426+00:00",
+  "status": "reviewed",
+  "source_hash": "524ee3943848d8f480148a311a2b068c0b45811b8397a7ecdecaf3abf81b7845",
+  "skill_hash": "c35becf6108f1c863df18437588de8c02c32545ce216d4afc0ad278770b93751",
+  "reference_hash": "d716963b555ed2a79e4cc3a224de0990fe7a28c9396e74a2a8464c3264675b82",
+  "evidence": {
+    "decision": "Separates recognition purpose, bounded sampling and consent to library modification.",
+    "artifact": "Produces microphone permission/sample/result/library-action contract.",
+    "transformation": "Silent endless listening and automatic additions become explicit recognition, stopped sampling and opt-in saving.",
+    "verification": "Fails prepermission recording, purposeless continued capture and library mutation without opt-in.",
+    "applicability": "Verifies API availability and separates actual microphone/catalog/iCloud behavior from static flows.",
+    "handoffs": "Privacy handles recording explanation; Accessibility only for recognition-driven alternatives.",
+    "distinctiveness": "Shazam versus custom catalog and recognition-as-distinct-from-saving change the action sequence."
+  }
+}

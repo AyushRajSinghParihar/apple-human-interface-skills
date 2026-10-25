@@ -1,0 +1,28 @@
+{
+  "id": "topic-combo-boxes",
+  "kind": "topic",
+  "topic": "combo-boxes",
+  "family": "selection-and-input",
+  "mode": "review",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Review the Mac catalog’s author entry control. Read interface.md. Audit the supplied interface; rank verified findings and show corrected behavior. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: macOS. Authors can be selected from 1,200 suggestions or entered as new text. The proposed combo box prevents any unlisted text, silently selects the first suggestion on blur and gives no way to navigate suggestions by keyboard."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Clarify editable text plus suggestions, preserve explicit user entry and selection, define validation and keyboard list interaction; explain when a different noneditable choice control would fit.",
+      "hig_correctness": "Apply the combo-boxes guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Clarify editable text plus suggestions, preserve explicit user entry and selection, define validation and keyboard list interaction; explain when a different noneditable choice control would fit.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Clarify editable text plus suggestions, preserve explicit user entry and selection, define validation and keyboard list interaction; explain when a different noneditable choice control would fit.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

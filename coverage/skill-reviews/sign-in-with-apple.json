@@ -1,0 +1,18 @@
+{
+  "topic": "sign-in-with-apple",
+  "reviewer": "independent-topic-author-b",
+  "reviewed_at": "2026-10-25T19:03:23.329127+00:00",
+  "status": "reviewed",
+  "source_hash": "c77cc80ff93a8bcd6dc6e3f70eae2d4fde1964d21d7fc1e560c0b8d06d684093",
+  "skill_hash": "85eccb7aaed21fe7f6b8de5ce33c33674394859586f0efb13e910b517b3525f3",
+  "reference_hash": "9c74b07be9c0e91324a531e23c82ec24ae7c6fbc80187d9b9337e9139bb0a456",
+  "evidence": {
+    "decision": "Separates necessary authentication, existing-account linking and optional post-value data requests.",
+    "artifact": "Delivers entry/linking/data/button flow while preserving existing authentication stack.",
+    "transformation": "Hidden method, extra password and relay rejection become prominent system flow and respected relay identity.",
+    "verification": "Fails relay exclusion, unnecessary credentials, incoherent linking and visual disadvantage.",
+    "applicability": "Preserves watch button differences and separates token/linking security and biometric proof from UI.",
+    "handoffs": "Privacy handles data purposes and Apple Pay guest commerce continuity.",
+    "distinctiveness": "Relay support identity, no extra password and supplied padded custom artwork are consequential method-specific constraints."
+  }
+}

@@ -1,0 +1,1 @@
+Platform: visionOS. Tablet catalog has search, list, detail and a rotatable sculpture. Port proposal enters Full Space at launch, pins the search field to the head, requires raised arms for every scroll and puts the close control behind the viewer. Sculpture inspection currently spins the entire environment. Visitors may be seated. No native build or headset is available.

@@ -1,0 +1,19 @@
+{
+  "topic": "apple-pencil-and-scribble",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:56:57.471152+00:00",
+  "status": "reviewed",
+  "source_hash": "cee04b305194f25e5570a2d76d9f1f9994eac6aeceefc8e0639d5d6902efae65",
+  "skill_hash": "900ae0c5307ef825bf814c74ee599308afbb92facb187f9df6ce95a3b54070b9",
+  "reference_hash": "0fcee0116f268e458f9e47f275ed5fae76219ffc6b760942c1507305fcb0f5a2",
+  "evidence": {
+    "decision": "Decides marking versus control activation and continuous versus discrete input, preserving hover as preview, preference-respecting double tap, and squeeze as a discrete nearby action.",
+    "artifact": "Requires tool/input-state behavior covering direct marking, Pencil-specific controls and stable Scribble transcription rather than only describing Pencil features.",
+    "transformation": "The diagram example removes a required Pen mode for margin marking, turns committing hover dots into previews, and defers field movement/resizing until a writing pause.",
+    "verification": "Checks accidental marks and activation, unstable writing/transcription and unavailable input paths, and correctly reserves latency, palm rejection and physical ergonomics for hardware tests.",
+    "applicability": "Limits the workflow to supported iPad/Pencil combinations and distinguishes password fields, custom Scribble support and fixed photo/PDF artwork from adaptable UI appearance.",
+    "handoffs": "Uses Gestures for shared manipulation and Typography for field/text behavior, without routing every Pencil task through unrelated topics.",
+    "distinctiveness": "Pressure/tilt/roll, nondestructive preference-respecting double tap, squeeze placement, hover nonactivation and stationary Scribble fields produce decisions unique to stylus work."
+  },
+  "additional_references": []
+}

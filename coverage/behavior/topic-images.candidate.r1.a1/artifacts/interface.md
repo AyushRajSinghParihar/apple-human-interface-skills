@@ -1,0 +1,50 @@
+# Editorial image specification
+
+Platforms: iOS/macOS. Task: read travel articles and understand the places depicted, even when photographs are unavailable. Preserve the existing framework. Hero photos are informative, read-only content, without activation or editing behavior.
+
+## Independent text and content
+
+Store headline, destination, introduction and body independently of the image. Render the headline as selectable live text with heading semantics above the photo on an opaque reader surface. Captions and credits are live text below their own image. Never rasterize text into the photograph. This design requires no text overlays.
+
+Use system title, body and supporting-text roles. On iOS, honor Dynamic Type through the largest accessibility sizes and Bold Text. On macOS, use system typography and a persisted reader text-scale preference covering 100–200%; macOS has no Dynamic Type. Wrap complete headlines and captions, grow containers and preserve hierarchy without fixed line limits or shrinking text. Support at least 200% text enlargement. Measure actual text/surface contrast in light, dark and Increase Contrast appearances before release.
+
+Keep the selected article and current reading paragraph through orientation changes, resizing, moving windows between displays, and app switching. Restore position by article/paragraph identity and local offset rather than absolute scroll pixels. Important content respects safe areas. Use the available reader width; changes in width do not change navigation.
+
+## Asset contract and framing
+
+Each image record contains asset ID/version, oriented intrinsic pixel dimensions, aspect ratio, rendition dimensions, embedded color profile, caption/credit, informative/decorative classification, and a verified editorial description. Optional approved crop rectangles include valid container aspect ranges and essential subjects to retain. Editors verify place names; do not infer unseen details.
+
+Default to displaying the entire image at its original aspect ratio: width fits the reader column and height follows the ratio in the scrolling article. Center smaller photos on the reader surface. Never stretch axes independently. Panoramas must retain essential landmarks. Do not force them into a fixed hero ratio. Fill cropping is permitted only with an editor-approved rectangle valid for the current container ratio that retains every essential subject. Otherwise use full-image fit. Re-evaluate on resize; an unreviewed center crop is not an acceptable fallback.
+
+For a rendered size W × H points at actual display scale s, select the smallest valid rendition with at least ceil(Ws) × ceil(Hs) usable pixels. For crops, count only pixels remaining inside the crop. Support iOS @2x/@3x and macOS @1x/@2x; recalculate when moving between displays. Do not create higher-resolution renditions by upsampling.
+
+If no adequate rendition exists, display the best valid source at a logical size no greater than its pixel dimensions divided by s, preserving aspect ratio. Center it while keeping surrounding text full width. Record the shortfall for editorial replacement. Use optimized JPEG or HEIC photos where the existing pipeline supports them, preserving embedded color profiles. Try another valid rendition after decoding failure before declaring the image unavailable.
+
+## Availability state contract
+
+| State | Presentation and behavior |
+|---|---|
+| Loading | Reserve the known image aspect ratio on a neutral surface with “Loading photo”; all article text remains available. |
+| Ready | Show valid pixels, caption/credit and meaningful accessible equivalent. |
+| Limited resolution | Show the best valid source at the capped size above, retaining caption and description. |
+| Failed, missing, or offline without cache | Show “Photo unavailable” in the reserved region; retain caption/credit, useful verified descriptive text and all article text. Never silently collapse context. |
+
+Use a 2:1 reserved region when dimensions are unknown. It is a placeholder, not a crop instruction. Loading resolves on success, definitive error or a 15-second request deadline; timeout enters unavailable. Later success may replace the placeholder while preserving the current paragraph and focus. Reopening the article may request the asset again; no new retry control is introduced. Placeholder ratio and deadline are product choices, not Apple requirements. Reject stale responses whose article ID or asset version no longer matches.
+
+## Meaningful alternatives
+
+Replace generic “Image” descriptions with the particular place, viewpoint and meaningful visual relationships. Informative images require a verified description or an equivalent caption before publication. If existing metadata is incomplete, retain destination/context and show “Photo unavailable” until corrected; never fabricate descriptive details.
+
+Reading order: headline as heading, destination/introduction, figure information, its caption/credit, then body. Express figure/caption relationships in accessibility semantics. Describe only meaningful information beyond adjacent captions. If the caption completely supplies the equivalent, expose it once and omit the redundant image node. Hide purely decorative imagery from accessibility navigation.
+
+For unavailable imagery, expose “Photo unavailable” and verified useful description as text once, clearly identifying it as a description of the unavailable photograph. Retain credit and caption without repeating identical wording. Update semantics with the current asset, preserve focus and use appropriate platform accessibility change mechanisms without repeated loading announcements. Static photos have no button role or keyboard stop. Existing reading, selection, scrolling and navigation must remain usable through keyboard and assistive input.
+
+## Guidance basis
+
+These concrete product policies apply local HIG guidance. Full-fit defaults, editorial crop approval, pixel caps, timeout and placeholder geometry are product decisions, not universal Apple rules.
+
+- [Image views — Content](https://developer.apple.com/design/human-interface-guidelines/image-views#Content): clarity and text legibility; read-only display needs no Mac image well.
+- [Images — Resolution](https://developer.apple.com/design/human-interface-guidelines/images#Resolution) and [Best practices](https://developer.apple.com/design/human-interface-guidelines/images#Best-practices): density-aware assets and embedded profiles.
+- [Typography — Supporting Dynamic Type](https://developer.apple.com/design/human-interface-guidelines/typography#Supporting-Dynamic-Type) and [macOS](https://developer.apple.com/design/human-interface-guidelines/typography#macOS): semantic text, wrapping and platform differences.
+- [Accessibility — Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility#Vision), [VoiceOver — Descriptions](https://developer.apple.com/design/human-interface-guidelines/voiceover#Descriptions) and [Navigation](https://developer.apple.com/design/human-interface-guidelines/voiceover#Navigation): meaningful alternatives, headings and figure relationships.
+- [Layout — Adaptability](https://developer.apple.com/design/human-interface-guidelines/layout#Adaptability), [Designing for iOS](https://developer.apple.com/design/human-interface-guidelines/designing-for-ios#Best-practices) and [Designing for macOS](https://developer.apple.com/design/human-interface-guidelines/designing-for-macos#Best-practices): resizing and context continuity.

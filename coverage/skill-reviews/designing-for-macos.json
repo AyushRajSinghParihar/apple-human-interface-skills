@@ -1,0 +1,19 @@
+{
+  "topic": "designing-for-macos",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:44:46.184707+00:00",
+  "status": "reviewed",
+  "source_hash": "a9cf51a0ee6e2d52c49416ad5f9cab423231e27d333615d2bfb1e44d44588522",
+  "skill_hash": "dc8f30adfd38a2f820d71c55032894dbc4e11fbc382f5e24b4470b6cc905095a",
+  "reference_hash": "73febbd2068953eed3691ee1dfb3c3a5311367cedbc37c2c55e1a574388083a7",
+  "evidence": {
+    "decision": "Chooses useful independent windows, a coherent menu/toolbar/shortcut command inventory and preserved active-target state during app switching.",
+    "artifact": "Delivers an actionable window/command model or implementation with keyboard completion and an activation scenario.",
+    "transformation": "Photo catalog changes from phone-style full-screen albums/floating Export to sidebar/detail selection, File Export and optional independent comparison windows.",
+    "verification": "Fails menu/toolbar selection disagreement, lost edits on deactivation and resize-hidden completion; native menu/display accessibility remains unclaimed on Linux.",
+    "applicability": "Preserves the project stack and familiar desktop file/window behavior; customization is useful optional acceleration, not a prerequisite.",
+    "handoffs": "Loads Keyboards for commands, Layout for constraints and Mac Catalyst only for that actual iPad-port technology.",
+    "distinctiveness": "Command ownership, active selection and independently useful desktop windows directly shape the produced design."
+  },
+  "additional_references": []
+}

@@ -1,0 +1,19 @@
+{
+  "topic": "pointing-devices",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:56:57.471996+00:00",
+  "status": "reviewed",
+  "source_hash": "a6880a67ebdf0df2507093533566dd872aa7ac176dc3666053af42a5856af57c",
+  "skill_hash": "ceab1ac29bea0615fa4a9d773ae697bbc89d11a2014d7d40d2f861751ae3e3db",
+  "reference_hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa",
+  "evidence": {
+    "decision": "Assigns pointer roles and effects by action and platform, preserving configured system gestures and coherent selection when switching among pointer, touch and eye input.",
+    "artifact": "Delivers corrected cursor/effect/hit-region assignments or an implementation with padding, contiguous targets and escape behavior.",
+    "transformation": "The dense iPad grid example removes overlapping lift effects and pointer-attached instructions, using restrained hover/tint, simple resize accessories and touch-accessible actions.",
+    "verification": "Checks neighbor occlusion, trapped pointer attraction, lost selection on input switch and overridden system gestures; magnetism feel and spatial transfer require supported execution.",
+    "applicability": "Differentiates iPad highlight/lift/hover from Mac semantic cursor roles and system-owned visionOS transfer, while marking tvOS/watchOS unsupported.",
+    "handoffs": "Uses Focus and Selection for keyboard target movement and Gestures for shared manipulation meanings.",
+    "distinctiveness": "Magnetism tied to shape transformation, lift corner geometry, contiguous bar hit regions, precision benefits and cursor role semantics make the procedure pointer-specific."
+  },
+  "additional_references": []
+}

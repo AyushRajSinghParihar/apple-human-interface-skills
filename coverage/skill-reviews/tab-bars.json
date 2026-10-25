@@ -1,0 +1,18 @@
+{
+  "topic": "tab-bars",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:50:48.414790+00:00",
+  "status": "reviewed",
+  "source_hash": "ba98ca512b19d588888ea38eb519b69498fd9494f14241b8c096367879dfba8e",
+  "skill_hash": "3d30f52a2834527e482eba078e4b39fc136efd8e4a8907c77f9e1f21b9e05c2c",
+  "reference_hash": "2112ffc7d971ca76b2bdc2499a6a3a47270d76450fb8539c00485be3cc21abda",
+  "evidence": {
+    "decision": "Separates stable destinations from commands and preserves independent section state, including empty or unavailable content.",
+    "artifact": "Requires destination/state implementation or navigation contract with empty-state handling, retained context and an attention/badge policy.",
+    "transformation": "Finance example keeps empty Transactions visible, moves payment creation out of Add-as-tab and restores prior account detail on return.",
+    "verification": "Checks repeated section switching, modal return, empty content, localization and adaptation, failing action tabs or lost section context.",
+    "applicability": "Preserves iPad five-or-fewer default customization guidance, TV Menu focus return, visionOS symbol-plus-label expansion and distinct watch page views.",
+    "handoffs": "Loads toolbars for actions, sidebars for hierarchy and tab-views when the task concerns panes/pages rather than top-level destinations.",
+    "distinctiveness": "Destination identity and retained navigation state govern the artifact, with explicit rejection of hidden empty tabs and command-as-destination behavior."
+  }
+}

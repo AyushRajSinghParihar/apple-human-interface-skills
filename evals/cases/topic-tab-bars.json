@@ -1,0 +1,29 @@
+{
+  "id": "topic-tab-bars",
+  "kind": "topic",
+  "topic": "tab-bars",
+  "family": "navigation-and-search",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Repair primary navigation for an iPhone museum app. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: iOS. Tabs are temporary actions like Share and Delete, disappear while loading and reorder based on last use. Selected tab is indicated only by color; returning to Collections resets scroll/selection."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch stable peer destinations, persistent understandable selection and state restoration, relocating actions to suitable controls and preserving accessibility/localized labels.",
+      "hig_correctness": "Apply the tab-bars guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch stable peer destinations, persistent understandable selection and state restoration, relocating actions to suitable controls and preserving accessibility/localized labels.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch stable peer destinations, persistent understandable selection and state restoration, relocating actions to suitable controls and preserving accessibility/localized labels.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

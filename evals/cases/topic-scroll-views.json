@@ -1,0 +1,28 @@
+{
+  "id": "topic-scroll-views",
+  "kind": "topic",
+  "topic": "scroll-views",
+  "family": "presentation",
+  "mode": "design",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Specify scrolling and nested content in an iPhone itinerary. Read interface.md. Produce a concrete revised interaction specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: iOS. Three nested vertical scrollers trap movement, content has no end affordance and a sticky booking action obscures the final stop. Pulling near the edge triggers navigation unexpectedly; text can enlarge."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Choose a coherent scrolling hierarchy, visible content/position cues and unobscured endpoints with accessible large-text traversal; distinguish horizontal subcontent from conflicting same-axis scrolling.",
+      "hig_correctness": "Apply the scroll-views guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Choose a coherent scrolling hierarchy, visible content/position cues and unobscured endpoints with accessible large-text traversal; distinguish horizontal subcontent from conflicting same-axis scrolling.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Choose a coherent scrolling hierarchy, visible content/position cues and unobscured endpoints with accessible large-text traversal; distinguish horizontal subcontent from conflicting same-axis scrolling.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

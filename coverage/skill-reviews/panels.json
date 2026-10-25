@@ -1,0 +1,18 @@
+{
+  "topic": "panels",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:51:52.905232+00:00",
+  "status": "reviewed",
+  "source_hash": "2b8461dcf3113bf6093d67e725050450bfd06ec948f7df87e4d6c82acc962f73",
+  "skill_hash": "33f7fb92a74f036da6cc5049b033c29b8182d9a575775245636e23c313c8c718",
+  "reference_hash": "1954556b4f1c3a440aea31842fb040b83ff4851cb0c90496b359381137b2e2d3",
+  "evidence": {
+    "decision": "Distinguishes a selection-following inspector from a stable-object Info window and chooses direct contextual adjustment versus a separate workspace.",
+    "artifact": "Requires inspector implementation or context/visibility/window specification, including show/hide command behavior.",
+    "transformation": "Stale Mac shape inspector example updates active selection and removes document-list/minimization treatment while adding restoration.",
+    "verification": "Checks selection, activation/deactivation, no selection, hide/restore and relevant fullscreen behavior; fails wrong-object editing or stale tools above another app.",
+    "applicability": "Explicit Mac-only scope and native key/window-activation limits are preserved, alongside restrained HUD versus standard-panel criteria.",
+    "handoffs": "Routes stable-object information to windows, embedded contextual tools to split-views and actual adjustment mechanics to sliders.",
+    "distinctiveness": "Context following, main/key ownership, activation visibility and document-list exclusion form concrete panel behavior."
+  }
+}

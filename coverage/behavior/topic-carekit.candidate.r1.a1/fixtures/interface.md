@@ -1,0 +1,1 @@
+Platform: iOS. Patient sees a dense spreadsheet of clinician terminology, missed tasks marked Failure and symptoms automatically shared with every contact. The app helps record prescribed care; it must not invent or alter treatment.

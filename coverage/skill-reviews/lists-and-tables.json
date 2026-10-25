@@ -1,0 +1,19 @@
+{
+  "topic": "lists-and-tables",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:46:17.559534+00:00",
+  "status": "reviewed",
+  "source_hash": "097b55184d9454a7ac24a4c93b7785b16e0332518797e1bb1692120fa57694ad",
+  "skill_hash": "cab7c659d3b37377dccb950e852ecac0bf7f7ceebd4056fb072d1817bf5cd733",
+  "reference_hash": "f8c6438e60dc2b5e243bf82ee40c41a97bd80f7e7336b61335c08ce4751951a4",
+  "evidence": {
+    "decision": "Assigns row selection to navigation, option choice or editing and chooses comparisons/columns versus visual collections; preserves full expected Watch data.",
+    "artifact": "Delivers a row artifact with explicit selection, editing and sorting behavior contracts.",
+    "transformation": "Watch subscriptions show relevant feeds first plus access to all subscribed content instead of permanently dropping all but five.",
+    "verification": "Checks empty/long lists, identifier truncation, reversed sorting, selected deletion and all-items access; fails incorrect detail identity and lost items.",
+    "applicability": "Scopes iOS edit/index behavior, Mac resizing/sorting, TV focus space and Watch detail-scroll limitations.",
+    "handoffs": "Hands image-led browsing to Collections and Mac hierarchical attributes to Outline views.",
+    "distinctiveness": "Persistent path versus option checkmarks, full-dataset access and row-operation semantics make this a list/table procedure."
+  },
+  "additional_references": []
+}

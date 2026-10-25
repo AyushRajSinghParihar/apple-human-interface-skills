@@ -1,0 +1,19 @@
+{
+  "topic": "designing-for-watchos",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:44:46.184846+00:00",
+  "status": "reviewed",
+  "source_hash": "ad2f9e8d5f14f278441c2e068be5dc4b17588ea2023cc2f914eb0e349aeb6061",
+  "skill_hash": "f03f69961e92848e116cecb4d797dfdbc11a03b25a82f34ed70f0a67a52c5bc1",
+  "reference_hash": "5f909601603cca68d20cbfc5a5dacf05b780fc39f61276f8186ca696b80d9a34",
+  "evidence": {
+    "decision": "Separates wrist-glance value from prolonged interaction, chooses complication/notification/Action button by purpose and plans wrist-up/Always On continuity.",
+    "artifact": "Delivers a glance/action flow, precise entrypoint destinations and wrist-state behavior or implementation.",
+    "transformation": "Tea timer reduces four-screen phone recipe navigation to current steep time and Pause/Resume, with presets on Crown and a running-timer complication.",
+    "verification": "Checks unrelated complication landing, routine deep navigation and lost wrist-down progress; Watch readability/Crown/sensor execution remains separately reported.",
+    "applicability": "Requires independently useful Watch detail without copying all phone work; sensor access and Action button use depend on real value.",
+    "handoffs": "Loads Crown, Always On or Action button only for the selected interaction rather than every Watch task.",
+    "distinctiveness": "Wrist-state persistence and entrypoint-to-current-timer routing create an actionable Watch responsibility split."
+  },
+  "additional_references": []
+}

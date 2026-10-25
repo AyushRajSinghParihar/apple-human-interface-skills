@@ -1,0 +1,1 @@
+Platform: macOS. Print sends every attendee’s badge immediately, selected-range and paper size are invisible and canceled print removes attendees from the database. Printer may be missing or reject the job.

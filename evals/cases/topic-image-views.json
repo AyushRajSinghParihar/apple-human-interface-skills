@@ -1,0 +1,29 @@
+{
+  "id": "topic-image-views",
+  "kind": "topic",
+  "topic": "image-views",
+  "family": "content",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to adapt the iPad conservation-photo detail view described in interface.md. Edit interface.md in place with concrete corrected image sizing, scale-marker visibility, accessible descriptions, zoom/reset and honest loading/error behavior. Write result.md explaining the revised specification, a worked before/after and acceptance checks. This is a framework-agnostic artifact; no native device or SDK test is available.",
+  "input_files": {
+    "interface.md": "Platform: iPadOS. Scientific specimen photo is stretched to fill a square, image content is the only label, loading shows an unrelated stock image and a decorative border hides the scale marker. Pan/zoom has no reset or accessible alternative."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Preserve content aspect/meaning, accurate placeholder/error distinction and scale marker visibility; specify intentional zoom/reset plus descriptions and relevant text evidence.",
+      "hig_correctness": "Apply the image-views guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Preserve content aspect/meaning, accurate placeholder/error distinction and scale marker visibility; specify intentional zoom/reset plus descriptions and relevant text evidence.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Preserve content aspect/meaning, accurate placeholder/error distinction and scale marker visibility; specify intentional zoom/reset plus descriptions and relevant text evidence.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

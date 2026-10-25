@@ -1,0 +1,31 @@
+{
+  "record_hash": "05ec5f70a1dfb1650f16fb40b96c5482e156935c13b2527a92a5aa6263c47059",
+  "case_hash": "ffaf09811072723f23aaa4d5b4d9061c827d3b01d761cfc593abf3984e345408",
+  "grader": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:28:14.122350+00:00",
+  "scores": {
+    "task_completion": 2,
+    "hig_correctness": 2,
+    "artifact_usefulness": 2,
+    "conditions_accessibility": 2,
+    "evidence_honesty": 2
+  },
+  "evidence": {
+    "task_completion": "Identifies all five frozen defects: equal prominence, Delete primary/default, unnamed Preview, 20pt hit regions/tight gaps and invisible duplicate-prone Publish delay; preserves all four functions.",
+    "hig_correctness": "Correctly applies iPad 44pt general hit guidance and contextual in-button activity, distinguishes likely editor nondestructive default from deliberate alert exception, and marks 8pt chosen gap as product advice.",
+    "artifact_usefulness": "Action table and pending/success/known-failure/unknown-outcome pseudocode specify roles, availability, revision capture, idempotent operation and focused acceptance cases rather than generic advice.",
+    "conditions_accessibility": "Covers nonoverlapping targets, enlarged/localized text reflow, name/role/busy state and Return during text entry; does not transfer visionOS dimensions or fabricate an irreversible-delete policy.",
+    "evidence_honesty": "Grounds each verified issue in interface.md, states missing recovery/service capabilities and absent related procedures, and explicitly separates illustrative timeline/static checks from unrun device, SDK, accessibility or network tests."
+  },
+  "critical_errors": [],
+  "found_defect_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "invented_high_severity_findings": [],
+  "verdict": "pass",
+  "blinding": "development pilot; candidate identity visible"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "stress-adaptive-rtl-editor",
+  "kind": "stress",
+  "topic": null,
+  "family": null,
+  "expected_topics": [
+    "accessibility",
+    "right-to-left",
+    "layout",
+    "typography",
+    "keyboards"
+  ],
+  "mode": "adapt",
+  "baseline_control": false,
+  "invoke": true,
+  "prompt": "Use $apple-hig. Adapt this iPad invoice editor for Arabic, a compact resizable window, hardware keyboard and 200% text. Preserve totals and editing state. Read interface.md. Edit interface.md in place and write result.md with the concrete result, decisions, acceptance checks and what evidence is still missing.",
+  "input_files": {
+    "interface.md": "Platform: iPadOS. Compact width is 420 pt. Layout has fixed left-aligned columns, clips 200% labels and uses red/green-only payment state. Arabic vendor name: مؤسسة النور. Invoice ID: INV-2026-04. Email: accounts@example.test. Amount: 1,240.50 SAR. App mirrors all numerals and play icons mechanically; Tab cannot reach Add line. Resizing resets entered quantities."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch layout, bidi direction and keyboard access while retaining the exact invoice values and edited state.",
+      "hig_correctness": "Use semantic leading/trailing hierarchy but preserve appropriate numeric/identifier direction and distinguish mirroring of navigation from universal symbols.",
+      "artifact_usefulness": "Deliver a task-specific corrected artifact or evidence-grounded audit with worked states/transitions and observable checks; a generic checklist is insufficient.",
+      "conditions_accessibility": "Keep large text usable, explicit payment state and complete keyboard task access; checks must cover compact and enlarged text together.",
+      "evidence_honesty": "Do not invent native runtime results, unseen semantics, device support, measurements or source authority; distinguish source conflict and unresolved product constraints."
+    },
+    "critical_errors": [
+      "Corrupts invoice IDs, email or numerical totals by mechanical text reversal.",
+      "Claims 200% text support while retaining essential clipping.",
+      "Provides only a report without patching interface.md."
+    ]
+  }
+}

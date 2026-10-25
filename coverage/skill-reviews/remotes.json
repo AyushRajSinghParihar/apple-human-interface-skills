@@ -1,0 +1,19 @@
+{
+  "topic": "remotes",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:56:57.472066+00:00",
+  "status": "reviewed",
+  "source_hash": "2007cc9ef8f630a0f99e2ff3e8acd1d9fdbc7a9286636d8989faaf1aae5e83ba",
+  "skill_hash": "f15000854acdf1999201facd2b1dbb54c71205456b2201fe34149b13fea6b33e",
+  "reference_hash": "78a4028e80e03c9c0e04c7f5c3ba4e06dd0003bfdedef929dc6c950305930258",
+  "evidence": {
+    "decision": "Distinguishes deliberate presses from incidental taps and chooses Back behavior from hierarchy and task state, preserving system Home, media and guide-button meanings.",
+    "artifact": "Requires a state-by-button/gesture map and revised interaction artifact covering browse, play, scrub, pause and return routes.",
+    "transformation": "The streaming example removes pause-on-any-clickpad-tap and recent-screen Back, retaining deliberate playback controls and a predictable episode-to-show parent route.",
+    "verification": "Walks state transitions and rejects incidental playback changes, stranded or surprising Back exits and unrelated program-guide actions; hardware gestures and across-room feedback remain unverified by keyboard simulation.",
+    "applicability": "Is explicitly tvOS-specific and distinguishes normal browsing, gameplay pause/resume and electronic-program-guide versus active-playback page behavior.",
+    "handoffs": "Uses Focus and Selection for directional reachability and Game Controls for controller/menu consistency.",
+    "distinctiveness": "Press-then-swipe scrubbing, parent-versus-history Back, held-Back Home and page-buttons-as-channel-change during playback make a concrete remote interaction procedure."
+  },
+  "additional_references": []
+}

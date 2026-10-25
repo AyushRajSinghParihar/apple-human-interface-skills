@@ -1,0 +1,18 @@
+{
+  "topic": "playing-video",
+  "reviewer": "independent-topic-author-a",
+  "reviewed_at": "2026-10-25T18:59:54.828935+00:00",
+  "status": "reviewed",
+  "source_hash": "73aa8b30b153aa53a2d3204307832823b7149396973df99b415915b384c4e56c",
+  "skill_hash": "be68c11b98249dc6a342c46938f7a999aff2f97907f596adf5af8b60f9db32be",
+  "reference_hash": "1059ed7c7cf052772828b4100add598286e5316b38bfbd614e43e5cda6384c93",
+  "evidence": {
+    "decision": "Prefers system transport/aspect behavior, preserves the source’s overlapping 2:1 boundary and treats external playback entry as existing intent.",
+    "artifact": "Requires entry/resume/control/aspect/loading/exit contract with a corrected player or playback specification.",
+    "transformation": "TV-app example removes branded/detail barriers, resumes the supplied profile/time and prepares the in-app exit destination immediately.",
+    "verification": "Exercises rapid exit, PiP, aspect ratios, interruptions and overlays; lost resume, baked bars/crop or forced immersion fail.",
+    "applicability": "Qualifies TV overlay delay, visionOS modest voluntary window/2D inline playback and short Watch clips, separating real media/device verification.",
+    "handoffs": "Playing audio, Going full screen and Live-viewing apps handle relevant routing, chrome or live-channel tasks.",
+    "distinctiveness": "TV-app intent, ambiguous aspect boundary and immediate exit-context preparation make the workflow video-specific."
+  }
+}

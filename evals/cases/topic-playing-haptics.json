@@ -1,0 +1,29 @@
+{
+  "id": "topic-playing-haptics",
+  "kind": "topic",
+  "topic": "playing-haptics",
+  "family": "patterns",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Repair haptic feedback in an iPhone private journaling app. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: iOS, some devices may not support requested haptics. Every keystroke has a heavy impact and an upload failure is signaled only by a vibration. Haptic-off preference removes all confirmation information."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch restrained semantically consistent haptics paired with visible/text feedback, respect user/device availability and preserve important meaning when haptics are off.",
+      "hig_correctness": "Apply the playing-haptics guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch restrained semantically consistent haptics paired with visible/text feedback, respect user/device availability and preserve important meaning when haptics are off.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch restrained semantically consistent haptics paired with visible/text feedback, respect user/device availability and preserve important meaning when haptics are off.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "record_hash": "9f91a755d5e100a8467e408c84a8d5ae4fa85e5e5508e071c5a82e07e666472e",
+  "case_hash": "ffaf09811072723f23aaa4d5b4d9061c827d3b01d761cfc593abf3984e345408",
+  "grader": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:28:31.313538+00:00",
+  "scores": {
+    "task_completion": 2,
+    "hig_correctness": 2,
+    "artifact_usefulness": 2,
+    "conditions_accessibility": 2,
+    "evidence_honesty": 2
+  },
+  "evidence": {
+    "task_completion": "Baseline artifact independently catches all five frozen button defects and retains Publish, Preview, Save Draft and Delete, including slow-operation duplicate protection.",
+    "hig_correctness": "Applies 44pt button target guidance with accessibility default/minimum distinction, contextual delayed feedback and deliberate-destruction alert exception correctly; treats selected spacing and concurrency as product choices.",
+    "artifact_usefulness": "Provides concrete corrected control hierarchy, state/pseudocode contract for publishing/reconciliation and a worked eight-second sequence plus useful acceptance scenarios.",
+    "conditions_accessibility": "Addresses accessible names, enlarged text, noncolor meaning and alternate activation; qualifies Assistive Access and native input checks rather than applying them universally.",
+    "evidence_honesty": "Explicitly identifies the historical root/family/reference-only route and no topic procedures, confines observations to fixture, and makes no native/device/service execution claim."
+  },
+  "critical_errors": [],
+  "found_defect_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "invented_high_severity_findings": [],
+  "verdict": "pass",
+  "blinding": "development pilot; candidate identity visible"
+}

@@ -1,0 +1,39 @@
+{
+  "argv": [
+    "codex",
+    "exec",
+    "--disable",
+    "plugins",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--ephemeral",
+    "--json",
+    "--sandbox",
+    "workspace-write",
+    "-c",
+    "approval_policy=\"never\"",
+    "-c",
+    "skills.config=<unrelated personal skill paths redacted; regenerate through the recorded harness>",
+    "--model",
+    "gpt-6.1-sol",
+    "--cd",
+    "/tmp/hig-eval-0siv4ifd",
+    "--output-last-message",
+    "/tmp/hig-eval-0siv4ifd/final-message.txt",
+    "-"
+  ],
+  "cwd": "/tmp/hig-eval-0siv4ifd",
+  "smoke": false,
+  "policy": {
+    "web": "prompt prohibition",
+    "filesystem": "Codex workspace-write sandbox; no stronger isolation asserted"
+  },
+  "public_capture_redactions": {
+    "fields": [
+      "skills.config argument"
+    ],
+    "unrelated_skill_entries_disabled": 83,
+    "original_capture_sha256": "af20f5c8dc4203ad36c083814d44be3cc5dd162f52fe44582b6943cb5f3c5685",
+    "note": "Original retained locally outside Git. HIG paths, model, CLI flags, execution artifacts and transcripts unchanged."
+  }
+}

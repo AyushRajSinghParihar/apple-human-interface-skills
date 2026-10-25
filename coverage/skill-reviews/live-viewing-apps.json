@@ -1,0 +1,18 @@
+{
+  "topic": "live-viewing-apps",
+  "reviewer": "independent-topic-author-a",
+  "reviewed_at": "2026-10-25T18:59:13.174128+00:00",
+  "status": "reviewed",
+  "source_hash": "912d5554d019bbfc62bc84b365730b2cadcc8698c3089d518984ef54c5026743",
+  "skill_hash": "c475c8f5eaedc0b49b2bf55617cf293b2d272325948ecffbc5b72124a47ce214",
+  "reference_hash": "448cdaefc2b5f6a649af96a31bbe4d9271a9a275ee1613c5da909837a51ebda8",
+  "evidence": {
+    "decision": "Separates live versus recorded/on-demand identity and supported restart/record operations; keeps current stream primary while browsing.",
+    "artifact": "Produces launch/play/browse/audio/record contract with guide navigation and disclosed DVR storage behavior.",
+    "transformation": "TV example removes redundant Watch over playback, stops audio on leaving Live and labels recordings honestly.",
+    "verification": "Checks channel change, guide return, live-tab exit, recording scope and storage; false live status or undisclosed recording loss fails.",
+    "applicability": "Preserves source all-platform scope and labels native remote, PiP, stream and DVR verification as separate from static UI evidence.",
+    "handoffs": "Playing video, Tab bars and Top Shelf are conditional for playback, navigation and discovery entrypoints.",
+    "distinctiveness": "Channel footer/guide category continuity and DVR scope make the workflow specific to live viewing."
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "run_id": "topic-panels.candidate.r1.a1",
+  "case_id": "topic-panels",
+  "variant": "candidate",
+  "repetition": 1,
+  "attempt": 1,
+  "status": "completed",
+  "case_path": "evals/cases/topic-panels.json",
+  "case_hash": "780aabc30fae8de50959d8b757635d0258cfd98f619c472c4c466f56a11cf318",
+  "harness_hash": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
+  "model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.164.0",
+  "started_at": "2026-10-25T20:36:05+00:00",
+  "finished_at": "2026-10-25T20:38:07+00:00",
+  "package_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "references/topic-index.md": "7a8093fc17f3a55c224bbc66fb34694a73f86bc1b23f69af10dd91183ca3b22d",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-macos/SKILL.md": "dc8f30adfd38a2f820d71c55032894dbc4e11fbc382f5e24b4470b6cc905095a",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-getting-started/references/designing-for-macos.md": "73febbd2068953eed3691ee1dfb3c3a5311367cedbc37c2c55e1a574388083a7",
+    "subskills/apple-hig-inputs/.topics/apple-hig-keyboards/SKILL.md": "7ffd8732a263bfd94ae7133a346e691f33436c7cd54d6b0545943911e58d1c64",
+    "subskills/apple-hig-inputs/SKILL.md": "a1843cc0d7dbb04b876a7c28e511aa5124e7fe2797d8e8eb1417434892676f29",
+    "subskills/apple-hig-inputs/references/keyboards.md": "b855e9aaacfeb270fe5114c7ba14dfc895d67e4a023885bca6aa6a6b9dc09eb4",
+    "subskills/apple-hig-patterns/.topics/apple-hig-file-management/SKILL.md": "a2856becdbd1f17371bc360478201da3f8c772da21e7802c4d3bf6b1ded53fa9",
+    "subskills/apple-hig-patterns/.topics/apple-hig-modality/SKILL.md": "ed16b05762733c704b0248debb56152fe7472e72505507f099bbf20721b14b25",
+    "subskills/apple-hig-patterns/.topics/apple-hig-undo-and-redo/SKILL.md": "9ae822a57a0acd01541b4e3c649687bae6dd7816900f492f01085bd9e93a72cc",
+    "subskills/apple-hig-patterns/SKILL.md": "194e6f42bf32d325e016cc145b3d8c624c245eed46be1e0098c405c256a9b99e",
+    "subskills/apple-hig-patterns/references/file-management.md": "d7ca475781533ddecde00adcc703c10237a45ba2a04dfc768bfb3cab22c90669",
+    "subskills/apple-hig-patterns/references/modality.md": "6807be0bb9e363342f46e1438c9e9961a3e0cbf292cceaf3e13cb9169af8d3dd",
+    "subskills/apple-hig-patterns/references/undo-and-redo.md": "63bb3d62d092f9c4d228e06c8be445388fb3908702a94ddae96600bbeed5eff6",
+    "subskills/apple-hig-presentation/.topics/apple-hig-panels/SKILL.md": "33f7fb92a74f036da6cc5049b033c29b8182d9a575775245636e23c313c8c718",
+    "subskills/apple-hig-presentation/SKILL.md": "51b48d2737ea0c2af406693bf257078638c46b7f5639f243463a5e1316ae727c",
+    "subskills/apple-hig-presentation/references/panels.md": "1954556b4f1c3a440aea31842fb040b83ff4851cb0c90496b359381137b2e2d3"
+  },
+  "discovery_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "subskills/apple-hig-content/SKILL.md": "e911021fc5cb63ee1dbc4dbf5f29c3a258e4bcdfa16799f6a68a3640780a1fb0",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-inputs/SKILL.md": "a1843cc0d7dbb04b876a7c28e511aa5124e7fe2797d8e8eb1417434892676f29",
+    "subskills/apple-hig-layout-and-organization/SKILL.md": "805026039df393a761af77c979405bea98424b088ebb9e962cf47d17e949ac28",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "14799ee137928eb6532e16130cef07a3b93cc4e7ca7792a8ba711c0e5f1257f0",
+    "subskills/apple-hig-navigation-and-search/SKILL.md": "9c61db72d99a7b3cefea67557f02ae06ad76254e20b149c55731581a74137f3d",
+    "subskills/apple-hig-patterns/SKILL.md": "194e6f42bf32d325e016cc145b3d8c624c245eed46be1e0098c405c256a9b99e",
+    "subskills/apple-hig-presentation/SKILL.md": "51b48d2737ea0c2af406693bf257078638c46b7f5639f243463a5e1316ae727c",
+    "subskills/apple-hig-selection-and-input/SKILL.md": "605ab44039a43da80a817630076fa72896a66c29a0801e989c2f3809cbdd4527",
+    "subskills/apple-hig-status/SKILL.md": "d49120e41401fed66fcdd00efe00e06438df01cf320102bbfaace44276ebe756",
+    "subskills/apple-hig-system-experiences/SKILL.md": "c6231529b355d669e32660096e4b1a8e60e731a5473499c539c5827b18619e33",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d"
+  },
+  "thread_id": "01a174c7-137a-7392-9200-165af1ead66c",
+  "reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-macos/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-macos.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-keyboards/SKILL.md",
+    "subskills/apple-hig-inputs/SKILL.md",
+    "subskills/apple-hig-inputs/references/keyboards.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-file-management/SKILL.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-modality/SKILL.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-undo-and-redo/SKILL.md",
+    "subskills/apple-hig-patterns/SKILL.md",
+    "subskills/apple-hig-patterns/references/file-management.md",
+    "subskills/apple-hig-patterns/references/modality.md",
+    "subskills/apple-hig-patterns/references/undo-and-redo.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-panels/SKILL.md",
+    "subskills/apple-hig-presentation/SKILL.md",
+    "subskills/apple-hig-presentation/references/panels.md"
+  ],
+  "required_reads": [
+    "SKILL.md",
+    "subskills/apple-hig-presentation/SKILL.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-panels/SKILL.md",
+    "subskills/apple-hig-presentation/references/panels.md"
+  ],
+  "routing": {
+    "missing": [],
+    "passed": true,
+    "unexpected_hig_reads": false
+  },
+  "artifacts": {
+    "result.md": {
+      "path": "coverage/behavior/topic-panels.candidate.r1.a1/artifacts/result.md",
+      "hash": "81aac5fc56e10163d2517373c3a7d06ee8f775292966bde972415cd815fa421d"
+    },
+    "interface.md": {
+      "path": "coverage/behavior/topic-panels.candidate.r1.a1/artifacts/interface.md",
+      "hash": "20ef31de49d7728c2cbfe4f905871e8799ed29119dba224c71485b0ef8cf5f46"
+    },
+    "fixture.patch": {
+      "path": "coverage/behavior/topic-panels.candidate.r1.a1/artifacts/fixture.patch",
+      "hash": "446cf4c78872caf29b683a93d98b3e121cbd1cea2087ef64d64a7238414f482d"
+    }
+  },
+  "transcript": {
+    "path": "coverage/behavior/topic-panels.candidate.r1.a1/events.jsonl",
+    "hash": "d9bd8167c92f7eeb54c7f752c1095be078afa172a820f83d902d9b46373f6abc"
+  },
+  "checks": {
+    "discovery": {
+      "visible_hig_count": 14,
+      "expected_visible_hig_count": 14,
+      "unrelated_enabled": [],
+      "hidden_topics_visible": [],
+      "disabled_unrelated_count": 83
+    },
+    "missing_artifacts": [],
+    "changed_inputs": {
+      "interface.md": true
+    },
+    "adaptation_changed": true,
+    "passed": true,
+    "exit_code": 0,
+    "turn_completed": true,
+    "malformed_event_count": 0,
+    "forbidden_reads": [],
+    "package_changed": []
+  },
+  "baseline_commit": null,
+  "final_message": {
+    "path": "coverage/behavior/topic-panels.candidate.r1.a1/final-message.txt",
+    "hash": "c77e864082ecbdf4c7a8f4d495b5625bda941b005f5a7503d93dc2e9ef162978"
+  }
+}

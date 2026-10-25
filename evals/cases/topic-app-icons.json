@@ -1,0 +1,28 @@
+{
+  "id": "topic-app-icons",
+  "kind": "topic",
+  "topic": "app-icons",
+  "family": "foundations",
+  "mode": "design",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Specify an icon family for a journaling app across iPhone and Mac. Read interface.md. Produce a concrete revised interaction specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: iOS/macOS. Marketing supplied a screenshot with tiny tagline text, simulated platform corner mask, baked-in drop shadow and a seasonal badge occupying half the mark. No final artwork exists."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Create a reproducible icon art brief with recognizable simple form, platform-specific asset treatments and small-size/light/dark checks; avoid hardcoding one platform’s mask into every source asset.",
+      "hig_correctness": "Apply the app-icons guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Create a reproducible icon art brief with recognizable simple form, platform-specific asset treatments and small-size/light/dark checks; avoid hardcoding one platform’s mask into every source asset.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Create a reproducible icon art brief with recognizable simple form, platform-specific asset treatments and small-size/light/dark checks; avoid hardcoding one platform’s mask into every source asset.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

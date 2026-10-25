@@ -1,0 +1,1 @@
+Platform: iOS. Sign-in button replaces Apple branding with the app mascot, asks users to retype their private relay email and silently creates duplicate accounts if the name is absent on return. Cancel is reported as authentication success.

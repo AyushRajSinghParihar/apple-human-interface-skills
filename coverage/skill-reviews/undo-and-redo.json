@@ -1,0 +1,18 @@
+{
+  "topic": "undo-and-redo",
+  "reviewer": "independent-topic-author-a",
+  "reviewed_at": "2026-10-25T19:00:42.558539+00:00",
+  "status": "reviewed",
+  "source_hash": "bd20daca9c404789b870784152c49113fb35c7df7be0bc1d075db7b441e79c8c",
+  "skill_hash": "9ae822a57a0acd01541b4e3c649687bae6dd7816900f492f01085bd9e93a72cc",
+  "reference_hash": "63bb3d62d092f9c4d228e06c8be445388fb3908702a94ddae96600bbeed5eff6",
+  "evidence": {
+    "decision": "Defines meaningful inverse/history units and grouping, preserves standard commands and reveals offscreen changes; rejects cosmetic reversal of irreversible external effects.",
+    "artifact": "Requires action/inverse/grouping/boundary/label/reveal contract with corrected command logic or review.",
+    "transformation": "Drawing example groups continuous slider changes, names the target and reveals restored offscreen text instead of opaque repeated Undo.",
+    "verification": "Checks edit sequences, grouped drag, redo invalidation, offscreen restoration and save/open policy; wrong target or false external reversal fails.",
+    "applicability": "Qualifies TV/Watch exclusion, Mac Edit shortcuts and system-provided iOS Undo/Redo title prefix; native gestures need actual tests.",
+    "handoffs": "Edit menus, Feedback and Drag and drop cover relevant command access, visible recovery and transfer reversal.",
+    "distinctiveness": "History granularity, inverse semantics and visible restoration are specific to reversible editing."
+  }
+}

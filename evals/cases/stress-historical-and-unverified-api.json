@@ -1,0 +1,35 @@
+{
+  "id": "stress-historical-and-unverified-api",
+  "kind": "stress",
+  "topic": null,
+  "family": null,
+  "expected_topics": [
+    "designing-for-visionos",
+    "web-views",
+    "widgets"
+  ],
+  "mode": "design",
+  "baseline_control": false,
+  "invoke": true,
+  "prompt": "Use $apple-hig. Evaluate whether this product brief is supportable, then produce a feasible interface alternative. Avoid turning remembered platform details into guaranteed APIs. Read interface.md. write result.md with the concrete result, decisions, acceptance checks and what evidence is still missing.",
+  "input_files": {
+    "interface.md": "Brief: tvOS web view hosts a widget store using WidgetKit and a full browser. visionOS portal calls hypothetical AppleImmersionLock.disableDigitalCrown() to force full immersion. Team cites a 2019 blog post as proof. No Apple SDK is installed, API documentation is absent and current deployment requirements are undecided."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Identify unsupported tvOS widget/web-view assumptions and unverified API, preserve a feasible native catalog/explicit immersion alternative with open deployment questions.",
+      "hig_correctness": "Use source platform exclusions and system agency; treat historical material/hypothetical API as unverified rather than providing fabricated compilable calls.",
+      "artifact_usefulness": "Deliver a task-specific corrected artifact or evidence-grounded audit with worked states/transitions and observable checks; a generic checklist is insufficient.",
+      "conditions_accessibility": "Include exit and accessible input/legibility; qualify versions and leave runtime/build checks pending.",
+      "evidence_honesty": "Do not invent native runtime results, unseen semantics, device support, measurements or source authority; distinguish source conflict and unresolved product constraints."
+    },
+    "critical_errors": [
+      "Presents the hypothetical API as real or guarantees it compiles.",
+      "Recommends widgets or web views as supported tvOS features.",
+      "Proposes disabling user control of immersion."
+    ]
+  }
+}

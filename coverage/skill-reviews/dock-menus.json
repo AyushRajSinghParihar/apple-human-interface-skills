@@ -1,0 +1,19 @@
+{
+  "topic": "dock-menus",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:48:16.849278+00:00",
+  "status": "reviewed",
+  "source_hash": "aa7d7c9a9fbd7cbc786029475b7fbe2787aabe43eed639757569748a4d3388a0",
+  "skill_hash": "51ce44831cc49c5ccfd6eca784cb3dbcc02537d1e2eb5da0b62d69460c36ce35",
+  "reference_hash": "eca5cf1f380e43567de1375b92edeca1ac48fbf45ed127e2aa2bc63aed41815c",
+  "evidence": {
+    "decision": "Chooses few useful background/windowless commands and resolves existing versus new/stale window targets instead of mirroring editor commands.",
+    "artifact": "Delivers a state-to-command/window mapping or implemented Dock actions with equivalent visible/main-menu access.",
+    "transformation": "Notes app replaces twenty inert editor commands with New Note and a small current/recent window list that resolves identity correctly.",
+    "verification": "Checks background/no-window/existing/stale-item states and fails no-op commands, duplicated lost context or Dock-only custom features.",
+    "applicability": "Mac-only component is explicit; mobile adaptation evaluates Quick actions rather than assuming another platform has Dock-menu parity.",
+    "handoffs": "Hands alternate access to The menu bar, window identity to Windows and mobile entrypoints to Quick actions.",
+    "distinctiveness": "Useful operation before the app is frontmost and stale recent-window resolution define this procedure."
+  },
+  "additional_references": []
+}

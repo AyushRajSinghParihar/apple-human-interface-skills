@@ -1,0 +1,51 @@
+# Light dashboard — revised specification
+
+Platforms: iPhone (iOS) and Mac (macOS). Scope: view and control existing lights in a selected home and room. No framework or deployment target is supplied; this is a behavior contract, not an assertion of native HomeKit API availability on Mac.
+
+## Home, room, and function scope
+
+Use the shared home configuration as authority. Store selection by stable home and room IDs, never by the display name “Bedroom.” Show the configured home name and room name above the light list. Each home is a separate root; selecting another home clears the previous room selection and requires a room in that home. Never combine same-named rooms across homes.
+
+Bedroom shows only light functions belonging to accessories assigned to that room in the selected home. A fan/light combination contributes its light function, not a fan power control. Thermostats, locks, sensors, and generic outlets without an authoritative light classification do not appear. Use configured function names and consumer labels such as “Light,” never “service” or “characteristic.” Include room/home location in details. Do not invent a parallel room database or rename accessories automatically.
+
+Keep offline lights in their normal positions. Only authoritative removal or reassignment removes a row; loss of contact does not. A truly empty room says “No lights in Bedroom.” If every light is offline, show their rows, not an empty-room message. Home-data access failure shows “Home data unavailable” with a refresh/recovery action, rather than claiming there are no lights.
+
+## State and command contract
+
+Per light retain: home/room/accessory/function IDs; last confirmed power (On, Off, or unknown) and observation time; freshness; reachability; current control permission; optional pending command ID, desired power, and start time; latest error. Requested power and confirmed power are separate fields. Never derive actual power from a tap, animation, or transport receipt alone.
+
+Use a system command button, separate from the power status: “Turn On” when confirmed Off; “Turn Off” when confirmed On. This is an explicit remote command, not a switch that immediately asserts a persistent state. It has normal semantic role and no window-wide Return default. Do not add room-wide power or brightness controls in this revision.
+
+| Event/state | Visible result and next action |
+| --- | --- |
+| Fresh confirmed Off/On, reachable, control allowed | Show “Off”/“On” and the corresponding enabled command. |
+| Activate | Recheck IDs, membership, capability, reachability, and permission. Send one explicit desired-value command with a unique local ID. Keep confirmed status visible; show “Turning on…”/“Turning off…” separately and disable this light's power command. Other lights remain usable. |
+| Repeated activation while pending | Ignore; do not queue or toggle again. |
+| Authoritative state observation | Update confirmed power from the newest ordered observation. Resolve pending only on confirmation of the requested value or a terminal command outcome followed by state reconciliation. A delivery acknowledgment alone is insufficient. |
+| Rejection/failure | Clear pending; show “Couldn’t turn on” or “Couldn’t turn off,” with the reported reason when useful. Preserve the last confirmed value explicitly as “Last confirmed: Off/On”; refresh actual state. Do not claim failure means the device stayed unchanged. |
+| No confirmation within 10 seconds | End the waiting presentation with “State not confirmed.” Mark cached power stale and refresh. This timeout is a product decision, not an Apple requirement. Do not resend automatically. |
+| Unreachable, including during a request | Keep row and last-known value labeled “Last known: Off/On,” or “State unknown.” Show “Offline — check the light’s power and connection.” Disable power writes; allow “Refresh.” Resolve any pending request as unconfirmed. |
+| Reachable but no fresh state, including after timeout | Show “Checking state” or “State unknown,” disable power commands until a fresh read, and offer Refresh if reading fails. |
+| Recovery | Refresh re-reads reachability, permission, and actual power without writing. Once fresh, offer a new explicit Turn On/Turn Off action. Never automatically replay a failed intent. |
+
+Errors remain near their light until a fresh successful read, a new deliberate command, or navigation away; a global success banner or routine alert is unnecessary. On iPhone, put the waiting activity indication inside the activating button while preserving the light name and confirmed status. On Mac, retain the same adjacent waiting text and disabled-command meaning. Use text as well as visual styling for On, Off, pending, offline, and error states.
+
+## Permissions and external changes
+
+Read actual permissions per home and function; do not infer permission from the word “guest.” Guests with control access may operate lights. Guests without it see state and “Control unavailable — ask the home owner for access.” Hide owner-only configuration entry points from guests, including rename, room assignment, removal, and home membership management; block those writes at the command boundary too. Show owner configuration only when current authority permits it. A rejected write refreshes permissions and explains access changed; cached owner status never authorizes a write.
+
+Subscribe to configuration and state changes where supported, and refresh on activation/reconnection. External power changes update rows; external rename/room reassignment updates labels/membership automatically. Never restore cached settings over Apple Home changes. If a selected room/home is deleted or access revoked, stop its commands and show the updated home/room selection or access explanation.
+
+Track pending requests independently of row lifetime. Navigation never retargets them. Removal, reassignment, or permission loss prevents further writes. Ignore obsolete command callbacks for presentation; reconcile with the latest authoritative state. If the data source cannot order observations, perform a fresh read instead of assuming callback arrival order proves recency. A delayed response from an old home must never update a same-named light in another home.
+
+## Platform presentation
+
+On iPhone, show room title, light name, actual status, and power action together in a scrolling list; keep secondary details one step away. Preserve system Back navigation. Accommodate portrait, landscape, and enlarged text by wrapping rows vertically rather than clipping controls; use at least 44 × 44 pt touch regions with clear separation.
+
+On Mac, use a resizable room navigation area and light list. Provide a complete keyboard path through room selection, row commands, Refresh, and details. Expose Turn On, Turn Off, and Refresh in the menu bar for the selected light with identical availability checks; no action applies to an implicit first light. Keep standard Mac control sizing. Resizing must retain access to status and commands through reflow/scrolling.
+
+On both platforms, returning from another app preserves valid home/room selection and refreshes state before re-enabling stale controls. Navigation or app switching does not cancel an already sent physical command or imply it succeeded. Label each command with its light context for assistive technology, and expose status and unavailability reasons as text; actual accessibility behavior requires execution checks.
+
+## Guidance basis
+
+These decisions apply locally supplied HIG guidance: [HomeKit — terminology and layout, custom functionality](https://developer.apple.com/design/human-interface-guidelines/homekit), [Buttons — content and platform considerations](https://developer.apple.com/design/human-interface-guidelines/buttons), [Feedback — best practices](https://developer.apple.com/design/human-interface-guidelines/feedback), [Designing for iOS](https://developer.apple.com/design/human-interface-guidelines/designing-for-ios), and [Designing for macOS](https://developer.apple.com/design/human-interface-guidelines/designing-for-macos). Permission enforcement, function filtering, command identity, reconciliation, and the timeout are concrete product decisions applying those principles, not prescribed Apple algorithms. No SDK support claim follows from the shared design.

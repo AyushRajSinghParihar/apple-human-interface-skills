@@ -1,0 +1,19 @@
+{
+  "topic": "split-views",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:46:17.559773+00:00",
+  "status": "reviewed",
+  "source_hash": "fc9f828eb3e92b51104bd78477e04117b0d895317a81cddc09e95e21c0bfe9bc",
+  "skill_hash": "f634edfb23f12b8d75422442107e2318a8cdd414ce5063332e0856455244c360",
+  "reference_hash": "77be4895d0aa70a9761cceb8299a6cf19a78fa6d61a3929cbc1bd1b3c929402f",
+  "evidence": {
+    "decision": "Defines a collapsed route before simultaneous panes, preserves parent/detail selection and scopes tools/restoration to platform behavior.",
+    "artifact": "Requires wide/intermediate/compact pane states, selection and restoration specifications or implementation.",
+    "transformation": "Mail keeps mailbox/message identity while collapsing and restores the same coordinated panes on expansion.",
+    "verification": "Resizes through transitions, hides/restores tools and changes parents; fails clipping, unreachable hidden panes and wrong retained detail.",
+    "applicability": "Differentiates regular-width iPhone, fluid iPad, resizable/restorable Mac, TV filter/results, contextual visionOS and fullscreen Watch panes.",
+    "handoffs": "Loads Sidebars, Windows or Sheets only when their navigation/window/blocking-task choice affects the pane contract.",
+    "distinctiveness": "Cross-pane parent selection and collapse/restoration identity drive the concrete artifact."
+  },
+  "additional_references": []
+}

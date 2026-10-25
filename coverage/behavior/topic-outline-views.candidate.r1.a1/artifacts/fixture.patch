@@ -1,0 +1,73 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,68 @@
+-Platform: macOS. Expanding a folder also selects every descendant, indentation does not distinguish depth and collapse loses keyboard focus entirely. A folder may be empty or contain 500 children.
+\ No newline at end of file
++# macOS source-folder outline — revised specification
++
++Platform: macOS. Task: browse a source-folder hierarchy, choose an item, and open it without losing the keyboard route. Folders may have zero to 500 immediate children. This is a specification, not an implemented or executed UI.
++
++## Data, hierarchy, and presentation
++
++- Use a scrolling outline with one primary Name column, externally labelled “Source Folders”. Keep the existing technology; prefer its native macOS outline behavior where available. No SDK choice is established by this document.
++- Identify rows by stable item IDs, never names or visible row indexes. Store parent ID, ordered children, item kind, and expanded folder IDs separately from selection and keyboard targeting. Duplicate names in different branches remain distinct.
++- Render visible rows in depth-first order. A child appears only when every ancestor is expanded. Sort names among siblings only, using stable IDs to break equal-name ties; never sort descendants into another parent’s group.
++- Place hierarchy in Name: each successive depth adds 16 pt of leading indentation (a product value, not an Apple requirement). Align siblings; reserve the same disclosure slot for leaves. Use a folder/file icon and name after the slot. Indentation and disclosure direction communicate ancestry without relying on color.
++- A nonempty folder has a triangle pointing inward from the leading edge when collapsed and down when expanded. Its name labels the revealed children. An empty folder retains its folder icon and aligned name but has no active disclosure control or expanded state. Do not insert a selectable “empty” child.
++- Resizing the pane must preserve hierarchy. Use middle ellipses for long names and make the full name/path available on demand. Permit horizontal scrolling for deep trees rather than flattening depth. Preserve usable rows and controls at 200% text size.
++
++## Independent state
++
++Maintain `expandedIDs`, `selectedID` (zero or one), and `keyboardRowID` (zero or one), plus whether the outline owns keyboard focus. Single selection is an explicit product choice for this browsing surface; expansion is never a selection operation. Opening is a separate activation.
++
++- Initial entry: folders are collapsed; no item is selected. When the user enters the outline by keyboard, target the selected visible row, otherwise the first visible row. An entirely empty source has a nonselectable “No source folders” message; keyboard navigation can leave the outline.
++- A plain click on a row’s name/icon selects only that row and makes it the keyboard target. It does not expand the folder, rename it, or open content. Clicking a triangle toggles disclosure; expansion does not select the folder or any child. Collapse applies only the hidden-selection fallback below.
++- Double-click on a name/icon explicitly opens that item. A folder opens in the app’s folder destination; a file opens in its editor. Expansion remains on the triangle. Inline rename, insertion, deletion, and drag reorder are outside this repair and must not be triggered by a single click.
++- Use system full-row selection and active/inactive selection appearances. Retain selection when keyboard focus leaves the outline; distinguish selected state from the keyboard target using system focus treatment.
++
++## Expansion and collapse
++
++- Ordinary triangle activation expands/collapses only that folder. Local collapse retains remembered expansion IDs below it; reopening restores those branches. Option-click recursively expands or collapses that subtree. Recursive collapse clears descendant expansion IDs. Neither expansion form changes selection or opens content.
++- On collapse, if the selected item becomes hidden, select the collapsing folder instead. If selection remains visible, preserve it. This explicit collapse-only fallback prevents invisible command targets; reopening does not restore the previous hidden selection.
++- For keyboard collapse, retain a visible keyboard target on the collapsing folder. If another keyboard command explicitly collapses an ancestor of the target, place the target on that ancestor in the same update. Keep the outline as keyboard responder.
++- For pointer collapse that hides the keyboard target, clear the row target and hide its focus indicator; do not manufacture a focus jump. Keep the outline’s keyboard route available and record the collapsed folder as a recovery anchor. The next unmodified arrow key explicitly resumes on that folder, scrolls it into view, and selects it; consume that key without an extra move. If the old target remains visible, retain it.
++- Update visibility, selection fallback, and keyboard state atomically. Never leave an indicator attached to an invisible row or send focus to the window/body as a side effect of collapse.
++- Preserve expansion IDs, selection, and scroll position on routine return from opened content. Restore the keyboard target when the user returns to the outline. If refreshed data removed it, use the nearest surviving ancestor, then adjacent surviving row, then the first row; an empty result uses the empty state. Do not automatically steal focus during background refresh.
++
++## Keyboard and alternative operation
++
++These bindings are the product’s intended outline behavior, subject to native macOS verification; they do not override text-entry or system shortcuts.
++
++| Input while outline has keyboard focus | Result |
++|---|---|
++| Up / Down | Move to previous/next visible row, select that row, and reveal it by scrolling; stop at boundaries |
++| Right on collapsed nonempty folder | Expand locally; retain target and selection |
++| Right on expanded folder | Move to first visible child and select it |
++| Right on empty folder or file | No change |
++| Left on expanded folder | Collapse locally with the fallback rules above |
++| Left on collapsed folder, empty folder, or file | Move to visible parent and select it; at root, no change |
++| Return | Open the targeted item explicitly; never recursively select children |
++| Tab / Shift-Tab | Enter/leave through the platform keyboard navigation route; do not trap focus or visit 500 rows with Tab |
++
++Expose local and recursive expansion/collapse as named outline commands reachable with the keyboard, in addition to Option-click. Enable them only for appropriate folders and make them operate on the visible keyboard target (or selected visible row when invoked from outside the outline). Preserve standard system and accessibility shortcuts; do not invent conflicting shortcuts for these commands.
++
++Expose the outline and rows with meaningful names, hierarchy relationships, selected state, and expanded/collapsed state only where applicable. The labelled disclosure action must be operable through supported assistive input. Do not expose clipped text as the full accessible name or expose hidden descendants as visible rows. Actual accessibility semantics and navigation require macOS testing.
++
++## Empty and large branches
++
++- Empty folder: selectable and openable, with no expansion action; Right is a no-op and Left returns to its parent.
++- A folder with 500 children: local expansion reveals its immediate children in a bounded scrolling viewport, without selecting them, resizing the window to their combined height, opening them, or stealing keyboard focus. Rows may be virtualized, but identities and navigation must remain stable across recycling.
++- Navigating to child 500 must scroll it into view. Collapsing the branch removes its visible descendants in one coherent update. Ordinary expand/collapse preserves unrelated branches and scroll anchoring on the toggled folder when possible.
++
++## Acceptance contract
++
++1. Expand a folder with 500 children while another visible row is selected: all immediate children are reachable, selection is unchanged, and no child is opened or selected by expansion.
++2. At three or more depths, each level advances 16 pt, siblings align, duplicate names retain distinct IDs, and sibling sorting preserves ancestry.
++3. Select a grandchild file, navigate Left to its parent, then Left to collapse: the parent remains selected, targeted, and keyboard-operable. Continue Up/Down and exit with Tab.
++4. Select a grandchild and pointer-collapse its ancestor: selection falls back to that ancestor, hidden focus indication disappears, and the next arrow explicitly resumes there. No invisible row remains a command target.
++5. Collapse/reopen locally: remembered nested expansion returns. Option-click/recursive commands affect only that subtree. Expansion never restores a hidden selection or selects descendants.
++6. Empty folders have no working triangle, can be selected/opened, and permit keyboard navigation back to their parent. Empty sources permit keyboard exit.
++7. Narrow the pane and enlarge text to 200%: depth, full-name access, selection, and disclosure remain usable. Test deep horizontal scrolling and child 500 with virtualization.
++8. On macOS, verify ordinary keyboard navigation, Full Keyboard Access, assistive disclosure activation, exposed hierarchy/state, active/inactive focus, return from opened content, and refresh/removal recovery. Verify resize and double-click behavior against the contract.
++
++Design basis: [Outline views — Best practices](https://developer.apple.com/design/human-interface-guidelines/outline-views#Best-practices), [Disclosure triangles](https://developer.apple.com/design/human-interface-guidelines/disclosure-controls#Disclosure-triangles), [Focus and selection — Best practices](https://developer.apple.com/design/human-interface-guidelines/focus-and-selection#Best-practices), [Keyboards — Best practices](https://developer.apple.com/design/human-interface-guidelines/keyboards#Best-practices), and [Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility). Consulted through the installed local snapshot only. Exact indentation, single selection, key transitions, collapse fallback, and scale-handling strategy are product decisions applying that guidance.

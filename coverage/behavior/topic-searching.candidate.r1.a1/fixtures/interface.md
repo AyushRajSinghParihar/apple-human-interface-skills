@@ -1,0 +1,1 @@
+Platform: iOS. Each typed character starts an untracked request; older responses overwrite newer queries, zero results removes the query and offline search hides local matches. Filters are sticky but not shown.

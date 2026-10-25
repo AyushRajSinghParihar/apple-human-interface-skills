@@ -1,0 +1,1 @@
+Platform: macOS. Three arbitrary columns show search results, status and file size, yet users expect a parent-to-child hierarchy. Choosing a child loses its parent context. Very long folder names and empty folders are common.

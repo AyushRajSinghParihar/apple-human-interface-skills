@@ -1,0 +1,57 @@
+# iPad meeting notes: revised keyboard specification
+
+Platform: iPadOS with a hardware keyboard. This is a behavior specification, not an SDK implementation. Keep the existing app stack and custom editor, but require native text-input behavior at its boundary. No pointer or software keyboard is required for the core task: find a meeting, open its note, edit/copy text, and return to results.
+
+## Commands and dispatch
+
+Route keys to the active text input/composition first, then contextual app commands, then unhandled system behavior. Do not globally consume key events or accessibility shortcuts. An active input method owns Return/Escape while committing/canceling composition. Only consume a key when its applicable action runs.
+
+| Action and visible command title | Binding | Scope and outcome |
+| --- | --- | --- |
+| Copy | Command-C | Active text selection goes to clipboard; no selection leaves clipboard unchanged. Never intercepted for an app action. |
+| Cut / Paste / Select All | Command-X / Command-V / Command-A | Standard active-field/editor semantics; Cut and Paste require editable content. Select All affects the focused text input, not all notes. |
+| Undo / Redo | Command-Z / Shift-Command-Z | Active editing history; disabled when unavailable. Navigation and cancellation must not erase history. |
+| Search Meeting Notes | Command-F | Focus the search field and select the existing query; remember the originating note and caret/selection for cancellation. |
+| New Meeting Note | Command-N | Create one draft and focus its title; available when creation is allowed. |
+| Bold / Italic / Underline | Command-B / Command-I / Command-U | If rich formatting is supported, toggle selection/typing style in the editor; otherwise omit these commands. Never repurpose them. |
+| Search | Return in search field | Submit the current query, identical to the visible Search action and software keyboard Search key. |
+| Open Meeting Note | Return on a focused result | Open that exact note and focus its editor, restoring its caret or starting at the end on first open. |
+| Cancel | Escape or Command-Period | Cancel only the innermost transient interaction; see cancellation rules. Never delete a note. |
+
+The supplied brief does not name its toolbar actions. The revised baseline toolbar contains New Meeting Note and Search Meeting Notes, plus supported formatting actions. Existing additional actions must be inventoried with title, scope, enabled state, and a nonconflicting shortcut if frequent before implementation is accepted. Do not invent Control-based or Option-heavy shortcuts. Preserve system app switching, input-source switching, and accessibility commands.
+
+Use the same command definition for toolbar, shortcut, and discoverability UI, including enabled state. Expose meaningful titles and shortcut glyphs through iPadOS's available command discovery surfaces, including holding Command on supported versions; verify actual presentation on the target OS. Disabled commands must not act on a stale note. No shortcut for note deletion is introduced.
+
+## Focus and selection
+
+Ordinary content focus follows three logical groups in reading order: Search → Meeting results → Note content. Tab advances groups; Shift-Tab reverses. Decorations, separators, and static labels never become focus stops. Empty groups are skipped. From the last group, forward navigation returns to Search; reverse follows the inverse route. The editor must release Tab for navigation rather than insert tabs or trap focus; indentation, if supported, uses an explicit editing command.
+
+- Search group enters at the editable field. Typing and arrows retain native text behavior.
+- Results group enters at the last focused surviving result, otherwise the first result. Up/Down move one row without opening it; ends do not wrap. Return opens the focused result. Persistent selected-note styling remains distinct from the focus highlight. Focus movement alone must not switch notes or discard edits.
+- Note content group enters at the editor's remembered caret. Title and body are a logical editing group, with title before body; Up/Down in body remain text navigation. To edit the title without stealing arrows from text, provide a labeled Rename Note command in the note's command surface, reachable through Full Keyboard Access; it focuses the title. Tab leaves the editing group and Shift-Tab returns to Results.
+
+Use system focus effects where possible: a field/editor outline and result-row focus highlight, with a separate selected-note state. Scrolling must keep the focused item/caret visible. Focus changes only after user navigation or a defined user-initiated transition. When a row disappears during directional navigation, choose a surviving adjacent row one step away; for other disappearance, remove its focus indicator rather than silently opening another note. An empty results group has no phantom focus stop; Search remains reachable.
+
+Full Keyboard Access (FKA) is a separate all-controls path. Expose semantic labels, roles, values, and enabled states for Search, Clear Search, Cancel Search, each result, title, body, New Meeting Note, formatting controls, Rename Note, Back to Results, and overflow items. Use system FKA navigation/activation, not competing application bindings. Verify reading order through search controls → results → note fields → toolbar actions, with reverse traversal and no decorative stops or traps. Ordinary Tab access to content does not establish FKA access to buttons.
+
+## Search and return transitions
+
+Search is app-wide across meeting-note titles and bodies; placeholder: “Search meeting notes”. In wide layouts place it in the trailing toolbar with results beside note detail; in compact layouts place it above the results list. Keep scope and command bindings unchanged on resize. Preserve query, selected result, note draft, and caret when returning between list and detail.
+
+Search uses explicit submission for this revision; live results are a future optimization, not a prerequisite. Return, visible Search, and the software Search key invoke one handler. Trim outer whitespace; an empty submission shows all notes. Keep focus in Search on submission; Tab enters results and arrows choose a row. Display the submitted query and result count. While query text differs from the submitted query, label previous results as belonging to the previous query; never present them as current. If requests are asynchronous, accept only the latest submitted response and do not steal focus when it arrives.
+
+No matches shows “No meeting notes found” with the query retained and Search focused. Failure retains the query and provides a labeled Retry action reachable with FKA; Return in Search retries. Clear Search clears the text and result filter and restores all notes, retaining field focus. Search has no new persistent history, suggestions, token filters, or system indexing in this revision.
+
+Cancel Search, Escape, or Command-Period while search is active ends the search session and restores the originating note/caret or originating list focus. Keep the query for the next search. Opening a result ends the transient search session but retains results for Back to Results. Back to Results returns to the opened row with the submitted query intact. Neither cancellation nor Back discards note edits.
+
+## Editing, cancellation, and toolbar states
+
+New Meeting Note creates a draft with an editable title and body. Rename completion via Return focuses the body; Escape during rename restores the previous title and returns focus to its invoker. Body Return inserts a newline. Editing retains the existing persistence mechanism, with visible unsaved/failure status if persistence fails; moving focus must not silently lose a draft.
+
+Escape/Command-Period first defer to composition, then dismiss an open menu/popover and return focus to its invoker, then cancel rename or search as above. With no transient action they are no-ops. They never delete the note, clear body text, undo committed edits, or navigate away from ordinary editing. Any existing explicit deletion action remains separate and must not be wired to cancellation.
+
+Wide toolbar: current note title and Back to Results leading; supported formatting center; New Meeting Note and Search trailing. Narrow toolbar: preserve Back and Search, let secondary formatting enter system overflow, and retain New via Command-N and its accessible command entry. Do not add duplicate custom overflow. This revision does not hide or customize the toolbar. Overflow dismissal restores focus to its invoker; resizing preserves logical focus and draft state. Formatting remains available from its shortcuts when its toolbar control overflows.
+
+## Acceptance contract
+
+Verify both ordinary keyboard operation and FKA separately on supported iPadOS hardware; also test compact/wide layouts and an international layout with an input method. Required scenarios and evidence status are recorded in result.md. Every core step must work with the software keyboard hidden. Touch routes remain usable and invoke the same commands.

@@ -1,0 +1,29 @@
+{
+  "id": "topic-designing-for-tvos",
+  "kind": "topic",
+  "topic": "designing-for-tvos",
+  "family": "getting-started",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Adapt an iPhone cooking-video catalog for a living-room Apple TV. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: tvOS. Catalog uses 12-point text, dense touch targets and pinch to zoom. Focus is invisible and entering details loses the previous item. Videos autoplay with sound when merely focused."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch a distance-readable focus-driven browse/play flow, stable focus return, deliberate activation and non-touch input; distinguish focus from selection and playback.",
+      "hig_correctness": "Apply the designing-for-tvos guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch a distance-readable focus-driven browse/play flow, stable focus return, deliberate activation and non-touch input; distinguish focus from selection and playback.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch a distance-readable focus-driven browse/play flow, stable focus return, deliberate activation and non-touch input; distinguish focus from selection and playback.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

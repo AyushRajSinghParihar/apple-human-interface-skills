@@ -1,0 +1,37 @@
+{
+  "id": "stress-television-versus-spatial-input",
+  "kind": "stress",
+  "topic": null,
+  "family": null,
+  "expected_topics": [
+    "designing-for-tvos",
+    "designing-for-visionos",
+    "focus-and-selection",
+    "eyes",
+    "remotes"
+  ],
+  "mode": "design",
+  "baseline_control": false,
+  "invoke": true,
+  "prompt": "Use $apple-hig. Design equivalent browse/select/return interactions for Apple TV and Vision Pro from this shared gallery. Show two platform-specific contracts. Read interface.md. write result.md with the concrete result, decisions, acceptance checks and what evidence is still missing.",
+  "input_files": {
+    "interface.md": "Platforms: tvOS and visionOS. Shared gallery has 20 objects and details. Current idea treats gaze hover as remote keyboard focus, opens details automatically when looked at and requires pinpoint mouse cursor movement on TV. Focus disappears after returning from detail. Vision Pro interaction requires raised arms for every action."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Provide distinct remote directional-focus activation on TV and eye-target-plus-hand activation/resting alternative on visionOS, preserving current object on return.",
+      "hig_correctness": "Distinguish gaze hover from keyboard/controller focus, focus from persistent selection and standard platform input support.",
+      "artifact_usefulness": "Deliver a task-specific corrected artifact or evidence-grounded audit with worked states/transitions and observable checks; a generic checklist is insufficient.",
+      "conditions_accessibility": "Address comfortable resting hands, directional reachability, perceivable focused/selected/pressed/unavailable states and alternate accessibility input.",
+      "evidence_honesty": "Do not invent native runtime results, unseen semantics, device support, measurements or source authority; distinguish source conflict and unresolved product constraints."
+    },
+    "critical_errors": [
+      "Equates eye hover with focus or activates every looked-at object.",
+      "Assumes touch or a tiny free pointer is the primary TV navigation.",
+      "Claims headset comfort or physical Remote execution."
+    ]
+  }
+}

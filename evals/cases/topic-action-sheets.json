@@ -1,0 +1,29 @@
+{
+  "id": "topic-action-sheets",
+  "kind": "topic",
+  "topic": "action-sheets",
+  "family": "presentation",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Repair the attachment-action choices for an iPad claims form. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: iPadOS. An action sheet opened from an attachment row is centered far from its trigger. Options are Yes, Other, Cancel and Delete Everything; Other starts a six-field questionnaire. Delete Everything removes unrelated claims. There may be no attachment selected."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Rewrite choices as specific actions scoped to the selected attachment, anchor the iPad presentation, separate the complex follow-up task and specify cancel and empty-selection behavior.",
+      "hig_correctness": "Apply the action-sheets guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Rewrite choices as specific actions scoped to the selected attachment, anchor the iPad presentation, separate the complex follow-up task and specify cancel and empty-selection behavior.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Rewrite choices as specific actions scoped to the selected attachment, anchor the iPad presentation, separate the complex follow-up task and specify cancel and empty-selection behavior.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

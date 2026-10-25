@@ -1,0 +1,28 @@
+{
+  "id": "topic-top-shelf",
+  "kind": "topic",
+  "topic": "top-shelf",
+  "family": "system-experiences",
+  "mode": "design",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Specify useful Apple TV Top Shelf content for a documentary app. Read interface.md. Produce a concrete revised interaction specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: tvOS. Top Shelf shows unrelated advertisements that launch a checkout, previews autoplay with loud sound and selecting a documentary opens generic home. Signed-out users see private history from the previous account."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Choose relevant content and precise destinations, privacy/account state and considerate preview behavior with truthful availability; distinguish Top Shelf from an in-app browse carousel.",
+      "hig_correctness": "Apply the top-shelf guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Choose relevant content and precise destinations, privacy/account state and considerate preview behavior with truthful availability; distinguish Top Shelf from an in-app browse carousel.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Choose relevant content and precise destinations, privacy/account state and considerate preview behavior with truthful availability; distinguish Top Shelf from an in-app browse carousel.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

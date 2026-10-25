@@ -1,0 +1,19 @@
+{
+  "topic": "edit-menus",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:48:16.849373+00:00",
+  "status": "reviewed",
+  "source_hash": "828ca926a833798fe06ac3f2331ed9b0f655ee78aad8738d2372861e327cc8d3",
+  "skill_hash": "1ff513d5e5108fd9fa2952f6332f091e0ba6a192d678a188eae5624db6e8f041",
+  "reference_hash": "e43ffd83335572be9bb43c0c709cd88c8b283ee0a97e97d5ae171a30b524fc69",
+  "evidence": {
+    "decision": "Binds command eligibility to selected type/editability/pasteboard and distinguishes Cut transfer, Delete removal and undoable edits.",
+    "artifact": "Requires command/eligibility/undo contract and an edited artifact or evidence-backed semantic findings.",
+    "transformation": "Read-only transcript removes inapplicable Cut/Paste, retains copying/lookup and makes reversible highlight removal undoable instead of repeatedly confirming.",
+    "verification": "Tests empty selection, incompatible paste, read-only content, clipboard side effects and undo; fails out-of-selection edits and false enablement.",
+    "applicability": "Preserves system gestures/menu shape, iPad touch versus keyboard/pointer variants, Mac Edit order and TV/Watch absence.",
+    "handoffs": "Loads Undo/redo for recovery, Context menus for selected-item routes and The menu bar for standard ordering.",
+    "distinctiveness": "Selection-dependent pasteboard semantics and reversible content operations create operational editing instructions."
+  },
+  "additional_references": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "topic-focus-and-selection",
+  "kind": "topic",
+  "topic": "focus-and-selection",
+  "family": "inputs",
+  "mode": "review",
+  "baseline_control": true,
+  "prompt": "Use $apple-hig to help with this task: Audit the Apple TV project browser’s focus and selected-project state. Read interface.md. Audit the supplied interface; rank verified findings and show corrected behavior. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: tvOS. Initial focus starts offscreen, focused cards look identical to selected cards, navigation enters a dead end at a carousel boundary, returning from detail jumps to the first card and a disabled destructive control remains activatable."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Find the five explicit focus/selection defects and specify directional movement, distinct states, safe availability and return-focus behavior with a traceable navigation example.",
+      "hig_correctness": "Apply the focus-and-selection guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Find the five explicit focus/selection defects and specify directional movement, distinct states, safe availability and return-focus behavior with a traceable navigation example.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Find the five explicit focus/selection defects and specify directional movement, distinct states, safe availability and return-focus behavior with a traceable navigation example.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ],
+    "required_findings": [
+      {
+        "id": "1",
+        "description": "Initial focus is offscreen rather than a perceivable reachable target.",
+        "critical": true
+      },
+      {
+        "id": "2",
+        "description": "Focused and selected states are indistinguishable.",
+        "critical": false
+      },
+      {
+        "id": "3",
+        "description": "Directional navigation cannot reach interactive content beyond a dead end.",
+        "critical": true
+      },
+      {
+        "id": "4",
+        "description": "Returning from detail loses useful focus context.",
+        "critical": false
+      },
+      {
+        "id": "5",
+        "description": "Unavailable destructive control can still activate.",
+        "critical": true
+      }
+    ],
+    "review_threshold": "Find at least four of five seeded defects, including every critical defect; no invented high-severity finding."
+  }
+}

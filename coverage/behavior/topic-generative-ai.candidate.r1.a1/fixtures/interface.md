@@ -1,0 +1,1 @@
+Platform: macOS. Generate sends all account notes without disclosure, inserts fabricated commitments directly into outgoing mail and provides no cancel, edit or undo. Service can fail or produce an unsafe answer.

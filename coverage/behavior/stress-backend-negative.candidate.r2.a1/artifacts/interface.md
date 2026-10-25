@@ -1,0 +1,31 @@
+# Queue retry policy
+
+Runtime: Linux backend service. This policy is framework-neutral.
+
+```json
+{
+  "maxAttempts": 3,
+  "retryStatus": [408, 429, 500, 502, 503],
+  "preserveJobId": true
+}
+```
+
+## Required behavior
+
+- `maxAttempts` counts the initial execution and every retry: at most three executions total (one initial attempt and up to two retries). Never reset this count when requeuing a job.
+- Success completes the job and schedules no retry.
+- Retry a failed attempt only when its status is in `retryStatus` and fewer than three attempts have executed. This is the explicit transient-failure allowlist for this policy; other statuses and failures without a classified status do not automatically qualify.
+- Authentication and authorization failures, including 401 and 403, are terminal and must not be retried.
+- After a nonretryable failure or exhaustion of the attempt limit, mark the job failed and schedule no further execution.
+- Keep the original job ID on every attempt and requeue. A retry must not create a new logical job or bypass the attempt limit through a new ID.
+
+## Acceptance checks
+
+1. Repeated 503 failures execute exactly three times under the same job ID, then leave the job failed with no pending retry.
+2. For each of 408, 429, 500, 502, and 503, a first-attempt failure permits a second attempt under the same job ID.
+3. A 401 or 403 on any attempt terminates the job immediately with no further retry.
+4. A failure outside the allowlist (for example, 400, 404, or 501), or an unclassified failure, terminates the job without retry.
+5. Success on any permitted attempt completes the job without another execution.
+6. Requeuing retains both the original job ID and accumulated attempt count; failure on attempt three cannot schedule attempt four.
+
+These are specification checks for a backend implementation, not evidence of runtime execution.

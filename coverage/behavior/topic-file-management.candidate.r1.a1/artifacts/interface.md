@@ -1,0 +1,62 @@
+# Screenplay document lifecycle — revised specification
+
+Platform: macOS. This is a behavioral specification; preserve the existing implementation stack. The original brief reports destructive Open, format-prompting Save, silent cloud deletion, and inaccessible recents. The following replaces those behaviors.
+
+## Document identity and persistence
+
+Each screenplay has an independent document identity, window, editable screenplay model, selection, scroll position, and undo history. The native editable format must round-trip screenplay text, element types, scene structure, metadata, and supported formatting. Its actual extension and serializer are implementation facts still to be established; do not invent a new format or migrate existing files implicitly. PDF and other delivery/interchange formats belong to Export As… unless demonstrably lossless native formats.
+
+Track separately: current revision, last durable native revision, native URL (absent for Untitled), recovery checkpoint, and synchronization state. A recovery checkpoint or exported PDF is never a native Save. A completed local save is not proof of cloud synchronization.
+
+Autosave native documents periodically after edits and on close/deactivation; checkpoint unnamed drafts locally for recovery without silently choosing their final name or destination. Restore recoverable drafts after interruption, identifying them as recovered work. Use an Edited title suffix until the current revision is durably saved to its native destination. In autosave mode do not add the close-button/Window-menu dirty dots reserved for autosave-off mode. If autosave is disabled, use those dirty indicators and the same consequential-exit guard below.
+
+Writes must preserve the previous valid file until the replacement succeeds. If edits continue during a save, acknowledge only the written revision; newer edits remain pending. A failure retains all edits, the prior file, identity and history, and never clears Edited. Offer Retry, Save Elsewhere… (native format), and Cancel in a document-scoped error explaining the actual cause. Cancel returns to editing and cancels any pending close/quit. Do not claim Saved before write completion.
+
+## Commands and opening
+
+File menu, in standard functional order: New (Command-N), Open… (Command-O), Open Recent, Close (Command-W), Save (Command-S), Duplicate (Shift-Command-S), Export As…; place storage actions below these in their own group. App > Quit uses Command-Q. No custom shortcut is required for export or deletion. Commands target the active document; unavailable commands remain visible and disabled. Any existing toolbar equivalents call the same handlers. No document is required for New, Open, or Open Recent.
+
+New creates an Untitled screenplay in its own window. Open… uses the standard file chooser with supported native/import types and access to the wider filesystem, honoring extension visibility preferences. Validate and load before presenting the new document. An already-open identity activates its existing window. A supported non-native import creates a separate Untitled native document and leaves its source untouched; unsupported types explain why they cannot be edited.
+
+Open, Finder-open and Open Recent never replace an existing document, including an unnamed draft. Cancel or failure leaves all existing windows, text, selection and history intact. Multiple selected files open independently; report individual failures without dismissing successful documents. Switching apps and returning preserves current work and command targeting.
+
+## Save, duplicate and export
+
+| Command / state | Result |
+| --- | --- |
+| Save, Untitled or imported | Present standard Save sheet with name, native editable format and destination. Start with Untitled or imported basename, a logical initial folder, and the user's extension visibility preference. Only successful persistence establishes the native URL. |
+| Save, named native document | Write current native content to the same URL without another format or location prompt. A clean document can be a no-op. Read-only, missing or inaccessible destinations offer native Save Elsewhere… without discarding edits. |
+| Duplicate | Open an independent editable copy with its own identity and unsaved destination; retain original and its state. |
+| Export As… | Present name, destination, and supported output-format choices, initially PDF. Explain actual format losses before committing when applicable. Export a captured current revision, including unsaved edits; keep the native original open and do not open the export automatically. |
+
+Export never changes the native URL, native format, Edited state, save revision, selection or undo history. A successful export reports the actual output location; later edits do not change that exported snapshot. Cancel/failure leaves the source unchanged and offers retry on failure. Guard existing-target replacement through the standard confirmation; cancellation leaves the target untouched. Reject an export target that aliases the active native source. Native first-save replacement also requires confirmation. Save and export operations for one document must not race to overwrite the same target.
+
+Use document-attached sheets for Save/Export; only the parent is blocked, other document windows remain usable. Cancel, Escape and Command-Period cancel pending sheet work and restore editor focus/selection. Dismiss one sheet before presenting its successor; never stack error alerts. No native binding or rendering is asserted by this specification.
+
+## Close, quit and interrupted work
+
+Clean close completes immediately. For a named document with pending edits, attempt native autosave first when enabled; close only after successful persistence of all pending edits. For unnamed work, disabled autosave, or an unresolved save failure, ask: “Save changes to ‘{name}’?” Message: “Your changes will be lost if you don’t save them.” Actions: Save (default, trailing), Cancel (leading), Don’t Save (destructive, between). Escape/Command-Period means Cancel. Don’t Save explicitly discards only this document's unsaved revisions and recovery draft, never the saved file or cloud document. Save continues through the native save flow; cancellation or failure keeps the window open.
+
+Quit resolves each affected document through this guard, one decision at a time. Cancellation stops quitting and leaves unresolved documents open; documents already saved stay saved. Apply equivalent protection to orderly logout/restart requests where supported. Unexpected termination relies on recovery checkpoints, not a promise that shutdown prompts always run. Export never satisfies this guard. Keep the meaningful edit undo sequence through saves/exports; Edit > Undo {action} (Command-Z) and Redo {action} (Shift-Command-Z) affect the active document. Reopening establishes a new history; filesystem/cloud deletion is not a text Undo.
+
+## Storage scope, shared cloud content and recovery
+
+Do not collapse local cache eviction and document deletion into “Delete.” Preserve the existing cloud provider; the brief does not establish iCloud. Apply the explicit scope and confirmation rule below to any shared/synchronized provider.
+
+- **Remove Download** evicts only a regenerable local cached copy, leaves cloud identity/content and collaborators' access intact, and permits later download. Enable only when the provider supports true local eviction and all local edits are saved and acknowledged remotely. While offline, unsynced or conflicted, disable it with a reason. If the provider cannot guarantee scope, omit this action rather than deleting the underlying file.
+- **Move to Trash** acts on a local-only file through the filesystem's recoverable Trash. Never label a synchronized/shared file local-only. Resolve pending edits first; failure leaves the document intact. Explain recovery via Trash; do not promise text Undo restores files.
+- **Delete Everywhere…** applies to synchronized/shared originals only when permissions and provider semantics are known. Before mutation show “Delete ‘{name}’ everywhere?” and “This deletes the shared document from {service}, synchronized devices, and people who share access. Removing only this Mac’s download is available separately when supported.” State the provider's actual recovery policy; if unknown say recovery is not guaranteed. Buttons in native row order: Cancel (leading) and Delete Everywhere (trailing). Use no default for this consequential shared deletion; Return alone must not commit it. Deliberately requested destruction may use ordinary styling under the HIG; do not rely on color to explain scope.
+
+Resolve dirty work before deletion; canceling either guard aborts deletion. Do not offer cloud deletion offline: ask the person to reconnect instead of silently queueing an irreversible action. Do not claim success or dismiss the document until provider acknowledgment. Pending, partial or failed deletion retains recoverable local content and reports known scope/status; refresh before retrying. Provider permission changes must fail safely. Do not promise universal multi-device rollback or recovery.
+
+Local saves remain available offline, with quiet “Saved on this Mac; sync pending” status where applicable. Distinguish downloading, sync pending, synchronized and conflict states. Reconnect resumes sync without silently overwriting divergent screenplay edits. Automatically reconcile only when lossless; otherwise preserve both versions and show name, author when available, modification time and preview, offering Keep Both or an explicit version choice. Selection never destroys the unchosen version without a separate deliberate resolution. Do not impose a new per-document cloud opt-in or service migration.
+
+## Open Recent recovery
+
+Use recognizable names, newest first, with Clear Menu. Retain unavailable references rather than silently dropping them; annotate known unavailable state. Selecting one attempts resolution and never harms the active draft.
+
+Missing/moved: explain “Can’t find ‘{name}’.” Offer Locate…, Remove from Recents, Cancel. Locate uses the standard chooser, validates supported content, confirms a different document before relinking, and updates the reference only after successful opening. Permission denied: explain the access issue and offer Choose File… to reauthorize through the standard chooser, Remove from Recents, Cancel. Offline/cloud placeholder: show connection/download status with Retry, Remove from Recents, Cancel; online retry downloads before opening. Each alert has at most three actions; Retry or Locate/Choose File is the default where available. Cancel/Escape returns to the prior editor state. Clear Menu and Remove from Recents remove references only, never files, cloud copies or sharing access. Unsupported or corrupt content offers a useful explanation and another file choice; never substitute an empty screenplay and mark it saved.
+
+## Design basis
+
+These contracts apply the locally installed HIG snapshot, not live API documentation: [macOS conventions](https://developer.apple.com/design/human-interface-guidelines/designing-for-macos#Best-practices), [file creation and saving](https://developer.apple.com/design/human-interface-guidelines/file-management#Saving-work), [Mac file management](https://developer.apple.com/design/human-interface-guidelines/file-management#macOS), [File menu Save/Export distinctions](https://developer.apple.com/design/human-interface-guidelines/the-menu-bar#File-menu), [sheets on Mac](https://developer.apple.com/design/human-interface-guidelines/sheets#macOS), [modal exits](https://developer.apple.com/design/human-interface-guidelines/modality#Best-practices), [alert roles and defaults](https://developer.apple.com/design/human-interface-guidelines/alerts#Buttons), [cloud deletion and conflicts](https://developer.apple.com/design/human-interface-guidelines/icloud#Best-practices), [undo](https://developer.apple.com/design/human-interface-guidelines/undo-and-redo#macOS), and [keyboard conventions](https://developer.apple.com/design/human-interface-guidelines/keyboards#Standard-keyboard-shortcuts). Separate windows, transactional writes, exact recovery copy, cache eligibility, and provider acknowledgment rules are product decisions implementing those principles. Cloud guidance does not establish this product's provider or its capabilities.

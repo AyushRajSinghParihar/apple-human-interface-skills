@@ -1,0 +1,18 @@
+{
+  "topic": "scroll-views",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:51:52.905373+00:00",
+  "status": "reviewed",
+  "source_hash": "65be51338450269782c9bf7f687c99add35aed6b9a901c43aea2c243e8024a8e",
+  "skill_hash": "bd61de309d6c6dac9d452a04aa398f8aa7c0c5ee231bd95ca8727dbf930de84b",
+  "reference_hash": "01d083dd0535ea222ac99b2a41dd0d37f980849222a659b900808984b0fff6fc",
+  "evidence": {
+    "decision": "Assigns scroll ownership and minimal automatic reveal, separating same-axis conflicts from appropriate orthogonal nesting.",
+    "artifact": "Requires a scroll/reveal implementation or axis/ownership/position/edge-effect specification with bounded zoom behavior.",
+    "transformation": "Nested long-note example collapses competing vertical owners and replaces recenter-on-every-character with minimal insertion-point reveal.",
+    "verification": "Checks offscreen typing, search results, extending selection, boundaries and floating controls; fails unreachable content, trapped input or excessive jumps.",
+    "applicability": "Preserves TV focus scrolling, watch vertical Crown input and per-view visionOS Look to Scroll opt-in with clear boundaries and no custom parallax.",
+    "handoffs": "Uses page-controls for peer position and split-views for independent pane scrolling rather than assuming all scroll owners are interchangeable.",
+    "distinctiveness": "Minimal reveal, scroll-axis ownership and opt-in eye scrolling produce specific consequential scrolling decisions and observable failures."
+  }
+}

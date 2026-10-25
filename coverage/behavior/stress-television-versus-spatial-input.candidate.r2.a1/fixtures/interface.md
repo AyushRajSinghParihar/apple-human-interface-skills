@@ -1,0 +1,1 @@
+Platforms: tvOS and visionOS. Shared gallery has 20 objects and details. Current idea treats gaze hover as remote keyboard focus, opens details automatically when looked at and requires pinpoint mouse cursor movement on TV. Focus disappears after returning from detail. Vision Pro interaction requires raised arms for every action.

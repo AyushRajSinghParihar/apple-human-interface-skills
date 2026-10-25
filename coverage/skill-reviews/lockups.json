@@ -1,0 +1,19 @@
+{
+  "topic": "lockups",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:46:17.559634+00:00",
+  "status": "reviewed",
+  "source_hash": "2872377488635543f69ae277c9a507cb189f1658d3ea9ed9a3b1af6acbc3b3f2",
+  "skill_hash": "9f844e9b61486a0a2ffe03615da550a60cf0923dd9db0d460c2cff9613916a43",
+  "reference_hash": "a95b03beeab20036ceae7d9fec7514023f2c00b6aae41450f8013fed17f1b81d",
+  "evidence": {
+    "decision": "Chooses card, caption, monogram or poster and treats header/content/footer as one focusable unit with matching tilt and expansion space.",
+    "artifact": "Requires focused/unfocused layouts, chosen form, focus bounds, hierarchy and activation outcome.",
+    "transformation": "TV cast grid replaces independent portrait scaling with whole monograms, consistent sizing, expansion clearance and initials fallback.",
+    "verification": "Traverses edges/corners and verifies neighbors, labels and fallback identity; fails overlapping or detached focused content.",
+    "applicability": "Explicitly tvOS-only; other-platform adaptation retains content relationship through supported components without claiming native lockups.",
+    "handoffs": "Uses Designing for tvOS for platform navigation and Collections for surrounding grids.",
+    "distinctiveness": "Atomic header/footer focus growth, monogram fallback and navigation-axis tilt are unique lockup decisions."
+  },
+  "additional_references": []
+}

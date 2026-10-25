@@ -1,0 +1,19 @@
+{
+  "topic": "gyro-and-accelerometer",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:56:57.471713+00:00",
+  "status": "reviewed",
+  "source_hash": "d51a076e8fd1cde249d229795c398c691a92c356ff4e17c9ee1dddbe6e9f31a1",
+  "skill_hash": "1bafd987efc43d633c1178e9c07fdff9f10bc35c586a3e7de389067772d80edd",
+  "reference_hash": "3b8edcfeb8e57b56a012c51c972c656ebe9d5e8765f63283857b416207a2af6a",
+  "evidence": {
+    "decision": "Decides whether sensing adds meaningful fitness or gameplay value; rejects motion-dependent ordinary navigation and defines sensing only during the relevant activity.",
+    "artifact": "Delivers a sensing lifecycle and action mapping, or a corrected ordinary-control alternative when motion has no useful task role.",
+    "transformation": "The recipe example removes tilt-to-change-step and launch-time permission gating, retaining normal controls and making any beneficial sensing optional at its point of use.",
+    "verification": "Checks motion-required routine UI, blocked progress after optional permission denial and sensing that outlives its activity, while leaving accuracy, battery and latency for actual devices.",
+    "applicability": "Distinguishes Core Motion scope on iOS/iPadOS/watchOS from remote gyro context and avoids claiming unsupported Mac/visionOS app capability or invented calibration thresholds.",
+    "handoffs": "Uses Privacy for the minimal permission purpose, Game Controls for gameplay mapping and Accessibility for a complete alternative.",
+    "distinctiveness": "The meaningful-sensing decision, lifecycle stop/start contract and nonmotion path make this a sensor-specific redesign procedure rather than a catalog of device capabilities."
+  },
+  "additional_references": []
+}

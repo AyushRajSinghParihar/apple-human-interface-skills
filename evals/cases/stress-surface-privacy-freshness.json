@@ -1,0 +1,36 @@
+{
+  "id": "stress-surface-privacy-freshness",
+  "kind": "stress",
+  "topic": null,
+  "family": null,
+  "expected_topics": [
+    "widgets",
+    "live-activities",
+    "privacy",
+    "complications"
+  ],
+  "mode": "design",
+  "baseline_control": false,
+  "invoke": true,
+  "prompt": "Use $apple-hig. Design a household-visible pickup summary widget and private bounded delivery Live Activity for an iPhone logistics app, including stale/offline states. Read interface.md. write result.md with the concrete result, decisions, acceptance checks and what evidence is still missing.",
+  "input_files": {
+    "interface.md": "Platforms/surfaces: iPhone Home/Lock Screen, shared Apple HomeView Modular face, watch glance where appropriate. Data: parcel for Sam at 14 Willow Road, gate code 9182; last server update 35 minutes ago. Widget proposal refreshes every second and puts full address/code on shared face. Delivery lasts 80 minutes. Inline accessory draws Accept, Cancel and Details as independent targets."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Separate glance summary versus active bounded task, redact private location/code on shared-visible surfaces and give honest freshness plus precise destinations.",
+      "hig_correctness": "Respect system-managed widget reloads, one inline target and event end lifecycle; do not promise all surfaces have identical interaction/rendering.",
+      "artifact_usefulness": "Deliver a task-specific corrected artifact or evidence-grounded audit with worked states/transitions and observable checks; a generic checklist is insufficient.",
+      "conditions_accessibility": "Preserve useful data when stale without calling it Live; rendering variants must retain meaning without color; shared and private contexts need explicit policy.",
+      "evidence_honesty": "Do not invent native runtime results, unseen semantics, device support, measurements or source authority; distinguish source conflict and unresolved product constraints."
+    },
+    "critical_errors": [
+      "Leaks full gate code/address on shared HomeView without deliberate protected policy.",
+      "Promises continuous widget second-by-second refresh.",
+      "Creates three independently tappable inline accessory targets."
+    ]
+  }
+}

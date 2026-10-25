@@ -1,0 +1,18 @@
+{
+  "topic": "popovers",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:51:52.905305+00:00",
+  "status": "reviewed",
+  "source_hash": "abd75f1c7b44af24d039cf444f84937b676d3f07e931d36d660b07c3fa76c998",
+  "skill_hash": "37ae5bf1cc6202ffde27dc35ca5e5247f9cbf8cf2ac7e749ceee4505216ed1fd",
+  "reference_hash": "0cb18d58b9bcc275019942208cc5b33bc8d99f225beeb064564e4dc182179026",
+  "evidence": {
+    "decision": "Chooses temporary anchored choices versus persistent tools or critical warnings, explicitly resolving multi-selection and automatic dismissal retention.",
+    "artifact": "Requires anchor/selection/dismissal implementation or a size/transition specification with save, cancel and compact adaptation.",
+    "transformation": "Tag selection example repairs first-choice closure and automatic loss by keeping multi-selection open, retaining work and replacing rather than cascading.",
+    "verification": "Tests outside dismissal, explicit Cancel, multiple choices, replacement and narrow width; fails lost work or hidden essential reference context.",
+    "applicability": "Preserves compact iOS/iPad sheet/fullscreen adaptation, tvOS/watch nonapplicability and Mac detachable continuity into a panel.",
+    "handoffs": "Loads sheets for compact adaptation, panels for persistent Mac work and alerts for warnings that must not be missed.",
+    "distinctiveness": "Source anchoring and explicit save-on-automatic-dismissal versus Cancel-discard semantics distinguish this procedure from a generic modal treatment."
+  }
+}

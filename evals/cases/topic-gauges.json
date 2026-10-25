@@ -1,0 +1,56 @@
+{
+  "id": "topic-gauges",
+  "kind": "topic",
+  "topic": "gauges",
+  "family": "status",
+  "mode": "review",
+  "baseline_control": true,
+  "prompt": "Use $apple-hig to help with this task: Review a watch battery-estimate gauge for a hiking app. Read interface.md. Audit the supplied interface; rank verified findings and show corrected behavior. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: watchOS. A hiking battery gauge has no concise title/description, no battery percentage unit, no endpoint labels, green as its only safety cue and displays unknown battery data as a real zero. No screenshot, sensor reading or runtime is provided."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Identify and repair five explicit gauge-description, units, endpoint, noncolor and unknown-data defects with concrete current/range examples.",
+      "hig_correctness": "Apply the gauges guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Find five concrete semantic/honesty defects and provide clear range/current value, direction, unknown state, noncolor meaning and qualified estimate presentation.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Find five concrete semantic/honesty defects and provide clear range/current value, direction, unknown state, noncolor meaning and qualified estimate presentation.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ],
+    "required_findings": [
+      {
+        "id": "1",
+        "description": "Gauge lacks a meaningful concise value description.",
+        "critical": true
+      },
+      {
+        "id": "2",
+        "description": "Current numerical value lacks percentage units.",
+        "critical": false
+      },
+      {
+        "id": "3",
+        "description": "Range endpoints are not meaningfully described.",
+        "critical": false
+      },
+      {
+        "id": "4",
+        "description": "Safety information relies on green alone.",
+        "critical": true
+      },
+      {
+        "id": "5",
+        "description": "Unknown data is represented as a genuine zero.",
+        "critical": true
+      }
+    ],
+    "review_threshold": "Find at least four of five seeded defects, including every critical defect; no invented high-severity finding."
+  }
+}

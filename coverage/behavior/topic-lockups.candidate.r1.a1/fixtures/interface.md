@@ -1,0 +1,1 @@
+Platform: tvOS. Poster, title and duration are scattered with no clear relation; focused items grow until labels overlap neighbors. A selection badge exists only inside a cropped poster and long translated titles disappear.

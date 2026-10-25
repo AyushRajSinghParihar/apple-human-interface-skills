@@ -1,0 +1,18 @@
+{
+  "topic": "page-controls",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:51:52.905152+00:00",
+  "status": "reviewed",
+  "source_hash": "73eb5339760c74fcddaffeb57df0f9a3afb3afed28525f53cef6dde849877cf2",
+  "skill_hash": "5125b70999dfa6b2a98017a7045ec1adeca3433ccf314def2ff29b793778929b",
+  "reference_hash": "0e92a8285c75f6099e883dde2c890539879044a44f0b561283670d7cf8ed73f2",
+  "evidence": {
+    "decision": "Distinguishes flat ordered peers from hierarchy/destinations and chooses direct access when a large dot set becomes hard to use.",
+    "artifact": "Requires a page/index/input contract or indicator/page specification with stable identity, order and supported movement.",
+    "transformation": "Spatial gallery example removes false clickable hierarchy dots, chooses supported album controls and limits the indicator to peer position.",
+    "verification": "Tests first/last, rapid changes, changed page counts and accessible alternate navigation, failing wrong index or unreachable essential pages.",
+    "applicability": "Preserves noninteractive visionOS indicators, unsupported Mac control, iOS scrubbing/background-style constraints, TV focus and watch Crown paging.",
+    "handoffs": "Loads scroll-views for page content and tab-bars only when the structure is actually top-level destinations.",
+    "distinctiveness": "Indicator semantics, page identity synchronization and discrete-versus-rapid movement create a specific page-control procedure."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "topic": "progress-indicators",
+  "reviewer": "independent-topic-author-a",
+  "reviewed_at": "2026-10-25T19:01:16.272958+00:00",
+  "status": "reviewed",
+  "source_hash": "bbaf21884aba0cc04f7db2c1e5f760db101abf506320e5461b29691da7c1208f",
+  "skill_hash": "b8f2464693a417d141a08810353ce2ca32fa8118109bfe615fed51315503b5da",
+  "reference_hash": "ba31d4f26c46c5c16d5aef05a9006ac5c717cde02cd56440945ea9e169457f99",
+  "evidence": {
+    "decision": "Chooses determinate status only from whole-operation measurement and separates cancellation, pause and expensive partial-work loss.",
+    "artifact": "Requires measurement basis, state transitions and recovery contract with actual progress/status changes.",
+    "transformation": "Backup example replaces scan-only 90 percent progress and silent Cancel loss with whole-work measurement or honest uncertainty and deliberate pause/cancel.",
+    "verification": "Checks unknown-to-known work, stage bounds, stalls, completion/failure and cancel/resume; fake percentages or resolved spinning fails.",
+    "applicability": "Qualifies Mac indeterminate/background treatment and mobile pull-to-refresh while preserving source-specific reference details; actual timing/backend completion needs execution.",
+    "handoffs": "Loading handles content strategy and Buttons handles initiating feedback, conditional on the operation.",
+    "distinctiveness": "Denominator honesty, stable indicator geometry and consequential cancellation distinguish progress from generic loading decoration."
+  }
+}

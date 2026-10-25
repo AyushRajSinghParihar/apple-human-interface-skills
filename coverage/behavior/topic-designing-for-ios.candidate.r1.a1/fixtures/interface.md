@@ -1,0 +1,1 @@
+Platform: iOS. Desktop port has eight dense columns, hover-only row actions, windows opened for every detail and a bottom action hidden under the home indicator. Technician often has one free hand and intermittent connectivity.

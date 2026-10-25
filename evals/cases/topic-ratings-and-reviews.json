@@ -1,0 +1,29 @@
+{
+  "id": "topic-ratings-and-reviews",
+  "kind": "topic",
+  "topic": "ratings-and-reviews",
+  "family": "patterns",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Repair App Store rating requests in an iPhone plant-care app. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: iOS. A custom prompt demands five stars at first launch, blocks watering reminders until answered and reappears after every decline. The app claims a successful submission even when system prompt visibility is unknown."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch a considerate system-appropriate request at a meaningful moment, preserve continued use and respect nondeterministic prompt behavior; do not promise a review was displayed or submitted.",
+      "hig_correctness": "Apply the ratings-and-reviews guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch a considerate system-appropriate request at a meaningful moment, preserve continued use and respect nondeterministic prompt behavior; do not promise a review was displayed or submitted.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch a considerate system-appropriate request at a meaningful moment, preserve continued use and respect nondeterministic prompt behavior; do not promise a review was displayed or submitted.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

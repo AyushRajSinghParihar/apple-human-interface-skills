@@ -1,0 +1,19 @@
+{
+  "topic": "nearby-interactions",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:56:57.471929+00:00",
+  "status": "reviewed",
+  "source_hash": "41106c7febc75ea6958c89cf12aa0e243be8931ab1995d59b5f201f946a0ccd3",
+  "skill_hash": "635e2245f3ca9d9b24b5054210d09da641767155b3faa601ba2fea89643ec3c2",
+  "reference_hash": "e02f50b1a2fabf368de838d8777fa77d76936beb44eb403f6eca870392d6f02d",
+  "evidence": {
+    "decision": "Chooses a real proximity benefit and combines task context with available distance/direction, refusing to invent a confident bearing when only distance survives.",
+    "artifact": "Delivers a capability/signal-state feedback map and corrected proximity artifact, including permission, degraded sensing and a finishable nonsensing alternative.",
+    "transformation": "The museum finder replaces a stale left arrow and UWB-blocked lookup with distance plus direction-unavailable guidance, restored valid bearings and independent search/list access.",
+    "verification": "Checks distance-only arrows, frozen misleading feedback, Watch background assumptions and incomplete alternatives; mock data is correctly limited to state handling rather than sensor accuracy.",
+    "applicability": "Requires compatible hardware, recognizes session-scoped identifiers, excludes macOS/tvOS/visionOS and preserves Watch distance-only foreground participation.",
+    "handoffs": "Uses Privacy for in-use permission and Accessibility for attention-appropriate channels and alternative completion.",
+    "distinctiveness": "Continuous approach feedback, sensor field loss, obstruction/holding guidance and the distinction between distance and direction are practical Nearby Interaction decisions."
+  },
+  "additional_references": []
+}

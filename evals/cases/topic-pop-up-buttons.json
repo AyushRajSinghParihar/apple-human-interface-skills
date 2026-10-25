@@ -1,0 +1,28 @@
+{
+  "id": "topic-pop-up-buttons",
+  "kind": "topic",
+  "topic": "pop-up-buttons",
+  "family": "menus-and-actions",
+  "mode": "design",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Specify a Mac export-format chooser that shows its current choice. Read interface.md. Produce a concrete revised interaction specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: macOS. A button labelled Export immediately changes the saved format to a random option; selection is shown nowhere. Formats include PDF, CSV and image, but CSV is unavailable for image-only documents."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Design a pop-up choice contract with visible selected value, meaningful availability and separate export activation; preserve keyboard operation and explain choice-versus-command behavior.",
+      "hig_correctness": "Apply the pop-up-buttons guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Design a pop-up choice contract with visible selected value, meaningful availability and separate export activation; preserve keyboard operation and explain choice-versus-command behavior.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Design a pop-up choice contract with visible selected value, meaningful availability and separate export activation; preserve keyboard operation and explain choice-versus-command behavior.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "topic": "managing-accounts",
+  "reviewer": "independent-topic-author-a",
+  "reviewed_at": "2026-10-25T18:59:13.174301+00:00",
+  "status": "reviewed",
+  "source_hash": "e9235d9cc5c92b3e3a3942024dd6de0d9017e365d3c57b730ad93c2df0260a4c",
+  "skill_hash": "ca98e783f4dfc9fe13c6a7bcd8839d3e69075dbf656dec60480a0540047b0f17",
+  "reference_hash": "c55f6e126bd3f6b11b84aeee7bae3b45c193b8508db7343d08795abe47d35541",
+  "evidence": {
+    "decision": "Decides account necessity and actual authentication capability, then separates real deletion from deactivation and subscription cancellation.",
+    "artifact": "Produces access/auth/deletion/billing contract with completion timing, retention, linked-token and active-subscription handling.",
+    "transformation": "Recipe signup gate and false Delete/billing promise become guest browsing, contextual authentication and honest separate deletion/subscription routes.",
+    "verification": "Checks guest access, unavailable capabilities, linked accounts, active subscriptions and completion; absent deletion or false canceled billing fails.",
+    "applicability": "Qualifies platform passkeys, TV provider system sign-out/profile handling and Watch credential sync; legal/native enforcement remain unverified without evidence.",
+    "handoffs": "Sign in with Apple, Privacy and Onboarding continue relevant authentication, retention and introduction decisions.",
+    "distinctiveness": "Account deletion scope, billing independence and device capability naming materially distinguish this account-management procedure."
+  }
+}

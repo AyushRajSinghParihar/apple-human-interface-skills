@@ -1,0 +1,56 @@
+{
+  "id": "topic-accessibility",
+  "kind": "topic",
+  "topic": "accessibility",
+  "family": "foundations",
+  "mode": "review",
+  "baseline_control": true,
+  "prompt": "Use $apple-hig to help with this task: Audit this iPhone trip checkout for accessibility using only the supplied specification. Give a practical prioritized correction and test plan. Read interface.md. Audit the supplied interface; rank verified findings and show corrected behavior. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: iOS, standard app mode; no Assistive Access flow is requested. Body text is hard-coded to 12 pt and clips when enlarged to 200%. Unavailable departure times are indicated only with red text, available ones only green. Pay is a custom icon with no accessible name. Removing a traveller requires a three-finger swipe with no onscreen alternative. Booking failures play a sound with no visual or text message. Contrast colors, actual focus order and screenshots are not supplied."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Find the five seeded accessibility barriers and propose specific alternatives without inventing contrast measurements or runtime failures.",
+      "hig_correctness": "Apply the accessibility guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Find the five seeded accessibility barriers and propose specific alternatives without inventing contrast measurements or runtime failures.",
+      "conditions_accessibility": "Preserve text enlargement, noncolor meaning, meaningful names, simple input alternatives and equivalent error information; do not claim a formal conformance audit.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ],
+    "required_findings": [
+      {
+        "id": "1",
+        "description": "Fixed text clips at 200% instead of preserving usability.",
+        "critical": true
+      },
+      {
+        "id": "2",
+        "description": "Departure availability relies on red/green color alone.",
+        "critical": false
+      },
+      {
+        "id": "3",
+        "description": "Pay lacks a meaningful accessibility description.",
+        "critical": true
+      },
+      {
+        "id": "4",
+        "description": "Essential traveller removal has only a complex gesture and no onscreen alternative.",
+        "critical": true
+      },
+      {
+        "id": "5",
+        "description": "Failure information is available only through sound.",
+        "critical": false
+      }
+    ],
+    "review_threshold": "Find at least four of five seeded defects, including every critical defect; no invented high-severity finding."
+  }
+}

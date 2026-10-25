@@ -1,0 +1,73 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,68 @@
+-Platform: iPadOS/macOS. All actions require hover, right-click deletes clips immediately and pointer shape changes randomly over blank regions. Touch users still need the same editing task and keyboard modifiers are undocumented.
+\ No newline at end of file
++# Timeline editor interaction specification
++
++Platform: iPadOS/macOS. Preserve the existing implementation framework. This is a design contract; runtime implementation is unverified.
++
++## Visible task and input mapping
++
++Hover provides feedback only. Keep Play/Pause, Select, Edit Clip, Duplicate, Delete, Undo, Redo, Zoom In/Out and Keyboard Help visible outside the timeline. Selection-dependent buttons are disabled without eligible clips; explain “Select a clip.” Edit Clip requires one editable clip. Locked clips remain selectable with a lock label, but disable mutation commands for any selection containing one.
++
++| Task | Pointer | Touch / visible alternative |
++|---|---|---|
++| Select | Primary click clip; Command-click toggles membership | Tap clip; Select mode makes taps toggle membership; Done retains selection |
++| Multiple selection | Drag rectangle from blank track space; intersecting clips replace selection; Command-drag adds | Select mode with taps, Select All and Deselect All |
++| Seek | Click ruler for frame-precise seeking; drag playhead to scrub | Tap ruler or drag playhead |
++| Move | Drag clip body; an unselected clip first becomes sole selection | Select then drag body, or edit Start in Edit Clip |
++| Trim | Drag visible leading/trailing handle | Drag touch handle or edit Source In/Out in Edit Clip |
++| Duplicate | Option-drag one editable clip to a valid destination | Duplicate places a copy immediately after selected clip on same track; then move it |
++| Delete | Explicit Delete button or Delete key with timeline focus | Delete button |
++| Context actions | Configured secondary click; Control-click on Mac | Touch-and-hold; every command also has a visible button |
++| Pan/zoom | System scrolling pans; supported pinch zooms | Swipe blank space pans; pinch zooms; visible zoom and scroll controls provide alternatives |
++
++Respect configured primary/secondary clicks and system gestures, including edge navigation, app switching and undo/redo gestures. No edit requires hover or long press. Pointer blank-space dragging selects; touch blank-space swiping pans, a useful precision distinction.
++
++Edit Clip opens labeled Start, Source In and Source Out fields with one-frame decrement/increment buttons, Apply and Cancel. Use project frame rate. Start is nonnegative; Source Out exceeds Source In by at least one frame and stays within media bounds. Show invalid-value explanations and disable Apply. Editing source bounds changes the corresponding timeline edge while keeping the opposite edge fixed. Apply commits once; Cancel restores prior values.
++
++## Manipulation and state
++
++Separate hover, focus and selection. Hover never selects or activates. Selection uses an outline and marker that persist after pointer exit or focus movement. Keyboard focus uses a separate system focus indicator. Controls show press and unavailable states.
++
++Primary down arms the hit-tested operation; use the platform drag recognition threshold to distinguish a click from drag. Handles take priority over clip bodies, then blank space. Targets must not overlap adjacent clips or competing handles. Use 44 × 44 pt iPad action-button targets and separated touch handles. At insufficient zoom suppress ambiguous handles and offer Edit Clip instead.
++
++During drag show a preview, destination track and resulting times; keep originals unchanged until release. Snap to frames. Multi-clip moves preserve relative track/time offsets. Reject negative times, source-bound violations and destinations overlapping another clip on the target track; do not overwrite content. Invalid previews show an unavailable marker and reason. Release valid previews as one undo unit; invalid release restores originals. Escape, visible Cancel during drag, interruption or accessory disconnect cancels without history. Option at drag start chooses duplication for that drag; releasing it does not change the operation. Other modifiers do not alter clip drag/trim behavior; Command-drag from blank space adds rectangular selection.
++
++Duplicate button requires one unlocked clip and free space immediately after it; otherwise disable it with “No space after clip.” Deletion removes timeline references only, never source files. Preserve selection, playhead, zoom, viewport and history when changing input, resizing or switching apps. An interrupted pending drag is canceled. At narrow window widths wrap the action area and scroll the timeline while keeping essential controls reachable without hover.
++
++## Pointer roles and effects
++
++| Region/state | iPadOS | macOS |
++|---|---|---|
++| Blank space/ruler at rest | Default system circle, stable across equivalent regions | Arrow |
++| Movable clip body | Tint-only hover; no scale, shadow or attraction in dense tracks | Open hand; closed hand while moving |
++| Trim handle | Simple horizontal resize accessory over actual handle | Horizontal resize cursor |
++| Text entry | System I-beam | System I-beam |
++| Copy / invalid drag | Simple copy / unavailable accessory | Copy / operation-not-allowed cursor |
++| Small standard controls | Standard highlight for transparent controls; lift for opaque controls | Standard system feedback |
++
++Use standard behavior for standard controls. On iPad, highlight/lift can use system magnetism; clip hover has no unexplained attraction. Keep custom accessories simple and meaningful, with no pointer-attached instruction paragraphs. Never change shape randomly. Avoid effects that cover neighbors. Match nonstandard lift corner shapes. Adjacent action-bar pointer regions are contiguous. Start tuning from approximately 12 pt padding around bezelled controls and 24 pt outside bezel-free visible edges, then resolve neighboring regions without stealing clip/trim hits. Those are guidance values, not mandatory target dimensions; verify easy escape from magnetism on hardware.
++
++## Context menu and recovery
++
++Secondary click opens a menu without changing clip data. On a selected clip target the current selection; on an unselected clip first select only that clip. Blank-space secondary click leaves selection unchanged and exposes no clip commands. Touch-and-hold has identical scope. Use one context menu per object, without a competing edit-menu gesture.
++
++Menu: Edit Clip (one editable clip), Duplicate (one eligible clip), separator, Delete Clip / Delete N Clips. Hide unavailable contextual actions. Keep menus shallow, within the window and consistent across clips; previews match the clip shape. Delete has a destructive role and is last on iPad. Dismissal performs no edit. Every action also has a visible route; on Mac retain main-menu routes. Routine reversible Delete requires explicit activation and is immediately undoable, without a confirmation dialog.
++
++Each move, trim, duplicate, Apply or delete is one history unit, including a group operation. Undo restores identities, timing, track, source bounds and selection; Redo reapplies it. Reveal affected offscreen clips. New committed edits after Undo clear Redo; canceled edits do not. Saving retains open-session history; reopening begins a new session. Avoid arbitrary shallow history limits. Use labels such as Undo Delete Clip and Redo Trim Clip. Visible Undo/Redo provide touch recovery alongside standard system gestures.
++
++## Keyboard and alternative access
++
++Keyboard Help documents every shortcut and modifier. Register commands with platform discovery; display equivalents in Mac main menus, not context menus. Command-A selects all timeline clips; Shift-Command-A deselects; Command-Z undoes; Shift-Command-Z redoes. Delete affects editable selected clips only with timeline focus. In text fields normal text editing takes precedence. Escape cancels the current drag, editor or menu and never deletes. Preserve system shortcuts, including Command-Space and accessibility commands.
++
++On iPad Tab/Shift-Tab move between timeline and editor content groups; arrows navigate within the timeline by time and adjacent tracks. Focus movement does not change selection. Space selects the focused clip; Enter selects it and opens Edit Clip. Fields and one-frame increment controls enable precise editing without repurposing navigation arrows. Full Keyboard Access must reach and activate all controls, including Apply, Cancel, Play/Pause and Undo. If a focused clip disappears during discrete keyboard navigation, move to its nearest surviving neighbor; for pointer/touch removal hide the removed focus indicator rather than guessing a new focus destination.
++
++Custom clips expose name, role, track, start, duration, selected and locked states; controls expose action names, values and availability. Selection and unavailable states use shape/text alongside color. The complete select → edit → Apply → Undo path must work through keyboard and assistive activation without hover or drag precision.
++
++On macOS retain native cursor roles and configured clicks, resizable windows and main-menu commands. Edit begins with Undo/Redo and includes selection, Duplicate and Delete; Clip includes Edit Clip; View includes zoom; playback and Keyboard Help have main-menu routes. All surfaces share the same selection/command model. No AppKit/Catalyst choice or SDK availability is inferred here.
++
++## Guidance basis
++
++The frame increments, collision policy, exact command mappings and history boundaries are product decisions applying the installed local snapshot. Material guidance: [iPad mixed input](https://developer.apple.com/design/human-interface-guidelines/designing-for-ipados), [Mac conventions](https://developer.apple.com/design/human-interface-guidelines/designing-for-macos), [pointer effects and platform differences](https://developer.apple.com/design/human-interface-guidelines/pointing-devices), [gestures](https://developer.apple.com/design/human-interface-guidelines/gestures), [keyboards](https://developer.apple.com/design/human-interface-guidelines/keyboards), [focus and selection](https://developer.apple.com/design/human-interface-guidelines/focus-and-selection), [context menus](https://developer.apple.com/design/human-interface-guidelines/context-menus), [undo and redo](https://developer.apple.com/design/human-interface-guidelines/undo-and-redo), [buttons](https://developer.apple.com/design/human-interface-guidelines/buttons), and [accessible manipulation](https://developer.apple.com/design/human-interface-guidelines/accessibility#Mobility). These links attribute local guidance; they were not browsed.

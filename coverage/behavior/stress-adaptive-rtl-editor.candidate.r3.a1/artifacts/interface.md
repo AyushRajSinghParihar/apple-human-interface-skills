@@ -1,0 +1,54 @@
+# iPadOS invoice editor — adapted interface contract
+
+This specification replaces the supplied fixed-column design. It is a design adaptation, not an implemented or device-tested app. Preserve the existing framework; prefer its native layout, text, focus and accessibility behavior.
+
+## Content and direction
+
+- Preserve vendor `مؤسسة النور`, invoice ID `INV-2026-04`, email `accounts@example.test`, and numeric amount **1240.50 SAR** (original display `1,240.50 SAR`). No line-item breakdown or payment value was supplied; do not invent either.
+- Arabic interface uses leading/trailing constraints: leading is right. Short labels align to leading; list entries remain consistently aligned. Longer paragraphs follow their own language. Translate interface strings using localization resources, without translating identifiers or email addresses.
+- Render the Arabic vendor with native Arabic shaping. Treat invoice ID and email as isolated LTR runs/fields inside the RTL interface; retain hyphens, punctuation and internal character order. Use bidirectional isolation at the presentation boundary, never store invisible direction marks in business data. Copy/paste returns the original values.
+- Use the selected Arabic region's number/currency formatter. Arabic does not uniquely determine a region or numeral system; region and Western/Eastern digit preference remain product decisions. Preserve numeric digit order and monetary value; never reflect glyphs, reverse strings or parse totals from formatted display text. Currency placement/separators may change; SAR remains the currency.
+- Back/Next navigation and reading-order sequences adapt to RTL. Playback Play retains its conventional orientation; logos, checkmarks, real-world artwork and literal physical-direction controls retain meaning. Use directional system symbol variants where appropriate; inspect custom assets individually rather than flipping the entire screen.
+
+## Compact and enlarged layout
+
+At **420 pt window width**, including Arabic and **200% text**, use one vertical scrolling editor. Respect safe areas and system window controls; move leading toolbar content inward when those controls appear. The following is content order, not a fixed-height drawing:
+
+1. Invoice heading and full invoice ID; labeled Save action on its own row if needed.
+2. Vendor and email, each with label above value.
+3. Existing payment state, expressed as localized text plus a distinct symbol: for example Paid/checkmark or Unpaid/open circle, selected from the actual model. Red/green may supplement this distinction.
+4. Line items as vertically stacked groups. Each has its existing description, Quantity label and editable value, Unit price label and value, and Line total label and value. Keep each label associated with its value.
+5. Full-width labeled **Add line** action.
+6. Existing totals breakdown, if present, followed by emphasized **Total** and full currency amount. Never invent tax, discount or subtotal values.
+
+Use semantic system text styles: title for the heading, body for labels/values/actions, headline emphasis for Total. Support Dynamic Type, Bold Text and at least 200% enlargement; 17 pt default iPadOS body corresponds to 34 pt in a literal 2× test, but is not a named Dynamic Type category. Also test all supported accessibility categories. Scale meaningful symbols with text. Grow rows and controls, wrap labels and values, place currency on a separate line when necessary, and permit wrapping long identifiers without changing their logical contents. Do not shrink fonts, clip essential text, impose one-line limits, or require horizontal scrolling to edit or read totals. Controls start from the iPadOS 44 × 44 pt default activation area and grow with their labels.
+
+Wider layouts may use aligned columns only when measured localized content at the current text size fits without compression; otherwise retain stacks. This is a content-fit decision, not an orientation or device-name breakpoint. Short windows and a visible software keyboard remain vertically scrollable; scroll the focused field into view without obscuring it. Totals remain in the document flow and reachable at every size, rather than overlaying fields in a fixed footer.
+
+## Keyboard and focus contract
+
+- Ordinary iPad content focus: Tab/Shift-Tab move between logical groups (invoice details, line items, Add line command, totals/actions); arrows navigate collection items in locale reading order. Native field editing retains its own caret, selection and arrow behavior. Never intercept text-entry arrows to alter quantities or activate commands.
+- Make Add line a named, enabled command with a labeled onscreen button and a focusable command entry in the editor's keyboard group route. Activation adds exactly one empty line and, as a direct result of that user action, focuses its description. Merely focusing a command does not activate it.
+- Full Keyboard Access is a separate route to every interactive control, including Add line and Save; use the system's configured navigation and activation bindings. Do not assume ordinary content focus proves all-button reachability. Reverse traversal must exit every group without a trap.
+- Use visible system focus effects, distinct from persistent selected-line state. Traversal scrolls targets into view. Preserve semantic item/field identity through layout changes. On explicit removal of a focused line, move to the next surviving line, then previous, then Add line; do not reset focus to the first invoice field.
+- Preserve standard Copy/Cut/Paste, selection, Undo/Redo and Save (Command-S) meanings. Command-S validates and saves the current document; invalid input produces a persistent, associated error and keeps its raw text. No new custom shortcut is required for Add line. Expose Save in the command menu/discoverability surface supported by the implementation. Do not override system accessibility shortcuts or Arabic input-source bindings.
+- Escape cancels a temporary action, if any, and returns focus to its invoker; it does not discard the invoice. Navigation away must preserve the draft. Explicit discard, if offered, must be a separate intentional action.
+
+## Totals and editing-state contract
+
+The document/draft model outlives layout reconstruction. Stable invoice, line and field identities own quantities, raw edit buffers (including partial/invalid input), validated values, validation messages, selection/caret, selected line, focus target, undo/redo history and dirty/save state. Track scroll by visible item and relative offset so reflow preserves context. Resize, text-size, direction and appearance changes only alter presentation: no new invoice, default quantities, commit, rounding, save or undo entry.
+
+Keep monetary calculation in decimal business values with the existing rounding/tax rules; no such rules were supplied, so this adaptation does not change them. The supplied amount remains 1240.50 SAR through presentation-only changes. A valid intentional quantity edit recalculates affected totals using existing rules. Partial or invalid input remains editable and exposes an error; retain the last validated totals with an explicit “pending invalid edits” indication, and block saving inconsistent data. Never silently coerce invalid input to zero.
+
+Retain draft edits when switching windows or backgrounding; each window must reference the correct document identity. Persist a recoverable draft before closing under the app's existing storage policy; reopening restores that draft. No new window is needed for resizing or adding a line. Cross-window synchronization, crash recovery and storage policy need implementation evidence before durability can be claimed.
+
+## Guidance basis
+
+These decisions apply the installed local HIG snapshot; linked official pages were not fetched:
+
+- [Right to left — text, numbers, controls and icons](https://developer.apple.com/design/human-interface-guidelines/right-to-left): semantic mirroring and mixed-direction content.
+- [Layout — adaptability and safe areas](https://developer.apple.com/design/human-interface-guidelines/layout) and [Windows — iPadOS](https://developer.apple.com/design/human-interface-guidelines/windows): reflow, available-space decisions and protected window controls.
+- [Typography — Supporting Dynamic Type](https://developer.apple.com/design/human-interface-guidelines/typography) and [Accessibility — Vision and Mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility): enlargement, redundant status information and control sizing.
+- [Keyboards — Best practices](https://developer.apple.com/design/human-interface-guidelines/keyboards) and [Focus and selection — iPadOS](https://developer.apple.com/design/human-interface-guidelines/focus-and-selection): ordinary focus versus Full Keyboard Access, grouping and familiar commands.
+
+Specific content order, command grouping, draft ownership and invalid-edit handling above are product decisions applying that guidance, not quoted Apple requirements.

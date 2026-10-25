@@ -1,0 +1,18 @@
+{
+  "topic": "text-views",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:40:46.359554+00:00",
+  "status": "reviewed",
+  "source_hash": "dfcee03dc7b4c8047f0df9580b3d3e7cf8d91feb81131dc7207a70b86f78daac",
+  "skill_hash": "859f12e1111199c50cbb320658b45d144cb18b08679faeb8e80c098287e9c3bc",
+  "reference_hash": "8ce2ce0449e8c0dcd1f18815135a1afbe8e886096312fe0c612bccb0b6783143",
+  "evidence": {
+    "decision": "Decides reading versus editing separately from selection/copy, and selects text view versus label or short-entry field by content purpose.",
+    "artifact": "Requires edited view or annotated reading/editing specification with sizing, scrolling, copy and editability behavior.",
+    "transformation": "Diagnostic report example replaces clipped unselectable labels with read-only multiline reflow and copying of actual-text identifiers.",
+    "verification": "Tests long paragraphs, unbroken identifiers, enlarged text, multiline selection and saved input; fails clipped required content and unintended edits.",
+    "applicability": "Retains Dynamic Type/Bold Text, relevant iOS/iPadOS keyboards and tvOS display-only text views; identifies native execution as unknown.",
+    "handoffs": "Loads text-fields for short input, labels for captions and typography only when hierarchy requires deeper work.",
+    "distinctiveness": "Separating read-only from unselectable and defining text ownership, reflow and copy semantics provide text-view-specific operating decisions."
+  }
+}

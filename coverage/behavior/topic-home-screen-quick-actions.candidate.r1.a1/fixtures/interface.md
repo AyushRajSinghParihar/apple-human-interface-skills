@@ -1,0 +1,1 @@
+Platform: iOS. Proposed long-press list has nine actions, mostly account settings, with unlabeled icons. Track latest opens the generic welcome screen and no-tracking state still advertises a stale package.

@@ -1,0 +1,1 @@
+Platform: CarPlay. Prototype asks drivers to type a full address, shows an animated promotional map, exposes every iPhone account setting and requires a six-step loyalty enrollment before route selection. Product category eligibility has not been established.

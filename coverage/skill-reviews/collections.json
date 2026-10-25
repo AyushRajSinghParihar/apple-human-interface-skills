@@ -1,0 +1,19 @@
+{
+  "topic": "collections",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:46:17.559057+00:00",
+  "status": "reviewed",
+  "source_hash": "2638a5260c3eef4676eb217d7ea30c37f2387fd505ce36db863b41b92b5202e1",
+  "skill_hash": "beb225600fe593a283aad5535f49b92be79f1672eeefb30e4ec167e13007da26",
+  "reference_hash": "f3bea098c32172615aab94a0c2bd7630bdb1c2c8dae9177e09f148f71ccaacd4",
+  "evidence": {
+    "decision": "Chooses visual grid/row versus text list, reserves focus expansion and prevents unrequested reordering during iOS/iPad manipulation.",
+    "artifact": "Delivers a cell/layout/interaction artifact and an explicit layout-change policy preserving item identity.",
+    "transformation": "Wallpaper grid freezes popularity-driven reshuffling during dragging and exposes deliberate refresh/sort while preserving selection.",
+    "verification": "Exercises odd counts, long labels, edge focus, reorder and selected-item deletion; checks collisions, scroll activation and identity loss.",
+    "applicability": "Custom gestures need a task reason, Watch receives a suitable list adaptation and native input execution is not inferred from logic.",
+    "handoffs": "Hands text comparison to Lists, fitting to Image views and actual transfer to Drag and drop.",
+    "distinctiveness": "Visual-recognition layout plus stable item identity during manipulation creates collection-specific operational decisions."
+  },
+  "additional_references": []
+}

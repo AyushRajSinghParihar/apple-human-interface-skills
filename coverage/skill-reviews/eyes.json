@@ -1,0 +1,19 @@
+{
+  "topic": "eyes",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:56:57.471485+00:00",
+  "status": "reviewed",
+  "source_hash": "bde4b149ec559a4637d9c1ddd64ac2a165baa152575af506f09bddedc444992e",
+  "skill_hash": "9804a9ead39628af236cd6b130cda2862d7ee57ef2b5bc384458e07f982ec67b",
+  "reference_hash": "25428a7c4ca9a28775b7a02cd57cc3a3e0423f0d73d75b0a8a531a0749611080",
+  "evidence": {
+    "decision": "Decides a stable, comfortably placed gaze target and its hover affordance without treating looking as activation, a saved state change or an app-readable stream of private gaze data.",
+    "artifact": "Requires a target/hover specification with grouping, spacing, timing and alternative-input behavior, allowing a designer to revise an actual spatial interaction.",
+    "transformation": "The gallery example removes automatic viewed-state changes and overlapping hover surfaces, replacing them with contained hover feedback and explicit opening before recording the view.",
+    "verification": "Checks gaze-only mutations, colliding feedback and missing alternatives; correctly leaves worn-device comfort and actual target acquisition unverified in static review.",
+    "applicability": "Is explicitly visionOS-specific and differentiates sustained reading distance, short nearby work, field-of-view variation and keyboard focus rather than applying one spatial distance universally.",
+    "handoffs": "Uses Spatial Layout for anchoring/spacing and Focus and Selection for other targeting modes.",
+    "distinctiveness": "Private gaze boundaries, the16pt-margin or60pt-center spacing alternatives, stable grouped hover and staged feedback create a substantive eye-input procedure."
+  },
+  "additional_references": []
+}

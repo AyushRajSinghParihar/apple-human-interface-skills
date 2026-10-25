@@ -1,0 +1,1 @@
+Platform: iPadOS. Custom editor swallows Command-C, Tab loops only between decoration, toolbar commands have no shortcuts and Escape unexpectedly deletes the current note. Software keyboard is the only way to submit a search.

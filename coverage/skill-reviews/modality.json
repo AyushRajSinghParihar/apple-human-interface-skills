@@ -1,0 +1,32 @@
+{
+  "topic": "modality",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:16:12.418131+00:00",
+  "status": "reviewed",
+  "source_hash": "e8e2d5516672d0690e882e298045ec2d1df8c64abde1b79e6ba8d7a32edbce94",
+  "skill_hash": "ed16b05762733c704b0248debb56152fe7472e72505507f099bbf20721b14b25",
+  "reference_hash": "6807be0bb9e363342f46e1438c9e9961a3e0cbf292cceaf3e13cb9169af8d3dd",
+  "evidence": {
+    "decision": "Establishes parent blocking and focus benefit before selecting a presentation; identifies nonmodal alternatives and separates fullscreen appearance from modality.",
+    "artifact": "Produces an entry/parent availability/task/exit/data/return contract, or source-located review findings; requires changed behavior for adaptation.",
+    "transformation": "Archive collection keeps cover selection within one coherent sheet, distinguishes Back from Cancel/Done and shares dirty-draft protection across gestures and buttons.",
+    "verification": "Tests clean/dirty exits, Back preservation, completion, obsolete-view reopening and stacked presentations, with explicit failure conditions.",
+    "applicability": "Cross-checked sheets and popovers source: iOS/iPadOS nonmodal sheets, parent-scoped Mac modality, unsupported popover platforms and Shared Space distinctions are qualified.",
+    "handoffs": "Selected presentation topics must be loaded before detailed prescriptions; persistence and accessibility handoffs retain the transition contract.",
+    "distinctiveness": "Blocking benefit, data-policy parity across every exit and presentation competition are specific operational decisions rather than summary headings."
+  },
+  "additional_references": [
+    {
+      "path": "skills/apple-hig/subskills/apple-hig-presentation/references/sheets.md",
+      "hash": "40447c58d38c99c40a1f70895a46f876a46d34804955bffe19c047eba76b5e6a"
+    },
+    {
+      "path": "skills/apple-hig/subskills/apple-hig-presentation/references/popovers.md",
+      "hash": "0cb18d58b9bcc275019942208cc5b33bc8d99f225beeb064564e4dc182179026"
+    },
+    {
+      "path": "skills/apple-hig/subskills/apple-hig-presentation/references/alerts.md",
+      "hash": "07d6e735faf0d53c6b9b69184fbae8d668572ef0ee94ef2d25a70707e7b03242"
+    }
+  ]
+}

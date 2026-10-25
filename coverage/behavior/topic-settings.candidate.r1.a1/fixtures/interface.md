@@ -1,0 +1,1 @@
+Platforms: iOS/macOS. Everyday formatting actions and account deletion are mixed into one 80-row settings screen. Changing document font unexpectedly changes all other documents, and system permission states are shown as editable app switches.

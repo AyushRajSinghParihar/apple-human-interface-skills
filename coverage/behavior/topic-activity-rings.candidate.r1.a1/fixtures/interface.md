@@ -1,0 +1,1 @@
+Platform: watchOS/iOS. Dashboard proposes recoloring the system activity rings to purple, changing their order and treating a completed ring as proof of a clinical outcome. Wheelchair users currently see Stand labels. Product wants the familiar system summary alongside its own weekly goal.

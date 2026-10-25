@@ -1,0 +1,18 @@
+{
+  "topic": "nfc",
+  "reviewer": "independent-topic-author-b",
+  "reviewed_at": "2026-10-25T19:02:43.482941+00:00",
+  "status": "reviewed",
+  "source_hash": "82278363047e77625c92a7231fa0c2530dcc7e793bce9118f3749dc9f6d28afe",
+  "skill_hash": "7eec1627e58c3b4fcb312b81d082e8ccb45091ba77784f3b7a65271ff1712fcf",
+  "reference_hash": "1e47deacfc1777e075ed750c09dcb82b5e545ccfeb18151fe87847e36315c2f9",
+  "evidence": {
+    "decision": "Chooses foreground scanning as complete route and background scanning as a capability-qualified extra.",
+    "artifact": "Requires instructions, sequential scan states, invocation destination and fallback.",
+    "transformation": "Touch-tag generic launch becomes nearby-book wording and exact scanned-book routing.",
+    "verification": "Fails implied contact, background-only dependence and lost scanned context.",
+    "applicability": "Explicitly avoids assuming iPad NFC and names restricted background states/hardware-test boundary.",
+    "handoffs": "App Clips handles Clip invocation; ID Verifier is separate from object scanning.",
+    "distinctiveness": "Physical-object wording and later-scan updates differ from a generic camera or verification flow."
+  }
+}

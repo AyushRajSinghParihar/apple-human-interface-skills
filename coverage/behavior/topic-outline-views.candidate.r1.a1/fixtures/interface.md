@@ -1,0 +1,1 @@
+Platform: macOS. Expanding a folder also selects every descendant, indentation does not distinguish depth and collapse loses keyboard focus entirely. A folder may be empty or contain 500 children.

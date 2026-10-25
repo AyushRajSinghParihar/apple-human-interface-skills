@@ -1,0 +1,19 @@
+{
+  "topic": "camera-control",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:56:57.471267+00:00",
+  "status": "reviewed",
+  "source_hash": "fec0f25c02c78e8e2e5bc2707a673606d9e7016035cb9d9b655c1bd26e0bb932",
+  "skill_hash": "4abe850753823ddd23120523778d3db77b9116e594bcd083c490ce9b21070d48",
+  "reference_hash": "26d818300fbafea3d5b05077963ba5091d54193484b13b1083972f0f101e22f8",
+  "evidence": {
+    "decision": "Chooses a fixed inventory of capture functions whose availability changes by mode; chooses slider or picker according to continuous versus discrete values and preserves remembered selection.",
+    "artifact": "Delivers the function inventory, value/label contract and overlay arrangement, sufficient to implement or review the control without guessing transient behavior.",
+    "transformation": "The white-balance example replaces runtime control addition and a live-temperature custom icon with a fixed available function, the appropriate symbol and localized temperature feedback.",
+    "verification": "Checks disappearing remembered controls, duplicate/occluded viewfinder UI and missing value feedback, while leaving actual press/slide behavior for supported hardware.",
+    "applicability": "Identifies the snapshot iPhone16/16Pro scope, requires checking newer hardware availability, and does not offer Camera Control as a universal platform feature.",
+    "handoffs": "Uses SF Symbols for function icon selection and Layout for overlay fit where those decisions arise.",
+    "distinctiveness": "The fixed function inventory, common-middle ordering, settled value prominence, function-not-state symbols and locked-capture context are specific operational constraints for Camera Control."
+  },
+  "additional_references": []
+}

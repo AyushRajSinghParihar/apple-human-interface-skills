@@ -1,0 +1,19 @@
+{
+  "topic": "game-controls",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:56:57.471642+00:00",
+  "status": "reviewed",
+  "source_hash": "81c218913b669504e5a2de0cd514dd295af4c3580a72fb32ed72230a98183f35",
+  "skill_hash": "b1d255a894324aa56e8442391ac20b37491987005a3ec6a24e46301333875c55",
+  "reference_hash": "7ca6b77fc21e8c7a1345edaa671376965bab64e13848c3d90248da58e2a2ef09",
+  "evidence": {
+    "decision": "Maps gameplay to available built-in and physical inputs, explicitly handles controller-required TV/spatial exceptions, and preserves system/Home behavior and conventional menu actions.",
+    "artifact": "Delivers an action/input/player matrix and reachable touch/control layout with active-controller prompts and disconnect handling.",
+    "transformation": "The climbing example replaces tiny A/X controls under the Home indicator and mismatched controller glyphs with reachable Grab/Jump actions, active-player glyphs and conventional Back/Pause menus.",
+    "verification": "Checks playability on advertised platforms, prompt/controller agreement and reserved-system conflicts, while leaving actual reach, comfort and gameplay responsiveness for device tests.",
+    "applicability": "Distinguishes touch, physical controllers, customizable keyboard input and spatial look/reach/trigger semantics; the controller-required exception includes disclosure and absence handling.",
+    "handoffs": "Uses Designing for Games for the larger play experience and Gestures for shared manipulation semantics.",
+    "distinctiveness": "Player-specific glyphs, controller profiles/disconnection, frequent versus secondary touch target sizes, safe thumb zones and game-menu mappings go beyond a generic input checklist."
+  },
+  "additional_references": []
+}

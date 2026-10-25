@@ -1,0 +1,64 @@
+# Cooking-video catalog for Apple TV
+
+Platform: tvOS. Browse cooking videos from the sofa, inspect a recipe, deliberately play or resume it, and return to the same catalog position. Preserve existing video IDs, titles, artwork, descriptions, ordering, and progress. Siri Remote alone must complete the task; no phone, voice, controller, touch target, or pinch gesture is required. Framework choice remains open.
+
+## Catalog and reading
+
+Use a vertically scrolling three-column collection at default text size. Each recipe is one caption-button lockup: representative landscape artwork, always-visible title, and duration when available. Artwork and captions focus and enlarge together. Missing artwork uses a neutral placeholder with the same title and dimensions. Details exposes the full title, description, artwork, duration, and Play or Resume action.
+
+Prefer SF Pro semantic tvOS styles: screen title Title 2 (57 pt reference), recipe titles Headline (38 pt), body and action labels Body (29 pt), duration Caption 1 (25 pt). Use platform font APIs rather than frozen pixel sizes. The local guide gives tvOS default text as 29 pt and minimum as 23 pt; the minimum is not the default target. Remove 12-point labels.
+
+Allow two title lines in the default collection; expose unabridged text in details. Support enlargement through at least 200% and Bold Text: grow labels, reduce to two or one columns, and wrap full details in a remote-scrollable reading area. Keep every action reachable. This replaces pinch zoom.
+
+Initial product layout targets: 48 pt between lockup bounds and at least 32 pt expansion clearance at viewport edges, within system safe areas. Increase spacing or reduce columns if actual system focus expansion needs more room. No focused artwork or caption may overlap neighbors or clip. Action buttons have at least 66 × 66 pt activation areas and sufficient width for complete labels. Column counts and spacing are design choices requiring validation, not Apple-prescribed constants.
+
+## Focus and input contract
+
+Use system tvOS focus highlighting and enlargement. Focus shows location and available action without opening details or starting media. Keep unfocused, focused, pressed, persistent progress, and unavailable states distinct. Unavailable recipes display “Unavailable” and cannot activate. No nested tiny artwork controls or hover-only actions.
+
+| Location | Input | Result |
+|---|---|---|
+| Fresh catalog | Entry | Focus first available recipe |
+| Catalog | Left / Right | Adjacent available recipe in the row; no edge wrap |
+| Catalog | Up / Down | Nearest column in adjacent row; clamp to available cell in short final row; scroll target fully into view |
+| Catalog edge | Direction without candidate | Retain visible focus, no activation |
+| One-column layout | Up / Down | Previous / next recipe; Left / Right retains focus |
+| Recipe | Select press | Store catalog return state, open details, focus Play/Resume |
+| Details | Down from Play/Resume | Enter description reading region if overflowing; Up at its top returns to the action |
+| Details action | Select press | Start or resume selected video in system player |
+| Player | Play/Pause | Control active media |
+| Player | Press then swipe | Standard system scrubbing with visible position feedback |
+| Player | Back | Dismiss transient controls as the system requires, then exit to this video's details focused on Resume/Play |
+| Details | Back | Containing catalog, same recipe and scroll anchor |
+| Root catalog | Back | System Home behavior |
+| Any location | Hold Back | Preserve system Home behavior |
+
+Directional swipes provide predictable focus/scroll feedback. Incidental clickpad contact must not activate playback. Every interactive region needs a directional entry and exit; the description cannot trap focus. Browse Play/Pause does not start a merely focused recipe.
+
+## State and playback
+
+Before opening details retain `{videoID, catalogOrder, scrollAnchor, column}`. Restore by stable ID rather than index. Do not reorder under active browsing; apply refreshed ordering on a later catalog entry while retaining identity. If the return recipe was removed, choose the next available recipe in retained order, then the previous. If none remain, show “No cooking videos available.” A text-size layout change retains identity and visible anchor, although its column may change.
+
+Retain `{videoID, playbackTime}` separately, updated on pause, exit, and interruption. Backgrounding suspends playback and saves route, focus, and progress; foregrounding restores context without restarting sound. Resume uses the stored time; completed videos offer Play from the beginning.
+
+Focus shows static artwork indefinitely: no video previews, sound, or next-video autoplay. Only explicit Play/Resume activation starts playback. Prefer the system tvOS player with standard transport, caption, audio-track, and aspect controls. Preserve original aspect ratio without baked-in bars or stretching; retain system aspect behavior at the local source's overlapping exact 2:1 boundary. Do not add custom interactive overlays. Playback completion returns to details.
+
+During loading retain chosen video identity and a working Back exit. On failure show “Video couldn't load,” Retry, and Back; Retry repeats the same video/time request. Catalog loading placeholders are not focus targets; failure offers Retry, and empty results show a clear message. Retry is initially focused on an error screen; Back returns to its containing context.
+
+Offer supplied captions through system player controls; do not imply unavailable tracks exist. Caption coverage for dialogue/important cooking sounds and descriptions of visual-only instructions require a content audit. Personal progress is not exposed on anonymous shared screens. If an existing profile system is retained, scope progress and return state by profile and switch to the matching app profile on a system-viewer change. Never reuse another viewer's personal state. New authentication and discovery integrations are outside this adaptation.
+
+## Acceptance contract
+
+On supported tvOS hardware, traverse every row, edge, short final row, reading-region boundary, and recovery action using Siri Remote. Confirm visible focus, no clipping, no traps, and activation only by deliberate press. Dwell on each recipe for 30 seconds: no media or sound starts. Open a scrolled recipe, play/pause/scrub, exit to details, and return to that recipe and scroll anchor. Repeat after interruption, removal, refresh, and enlarged text.
+
+Check long titles, missing artwork, default and 200% text, and Bold Text. Read at 8 feet or farther in realistic television lighting. Measure actual contrast and focus visibility, including Increase Contrast. Verify supported assistive traversal and captions along the complete browse → details → play → return task. These are required execution checks, not results established by this specification.
+
+## Guidance basis
+
+Local installed snapshot only; official links provide attribution without online verification:
+
+- [Designing for tvOS](https://developer.apple.com/design/human-interface-guidelines/designing-for-tvos#Best-practices): distant viewing, remote focus, shared viewers.
+- [Typography](https://developer.apple.com/design/human-interface-guidelines/typography#tvOS-built-in-text-styles) and [Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility): platform text sizes, enlargement, controls, sensory alternatives.
+- [Collections](https://developer.apple.com/design/human-interface-guidelines/collections) and [Lockups](https://developer.apple.com/design/human-interface-guidelines/lockups): familiar collection, atomic focus units, expansion clearance.
+- [Focus and selection](https://developer.apple.com/design/human-interface-guidelines/focus-and-selection#tvOS) and [Remotes](https://developer.apple.com/design/human-interface-guidelines/remotes): directional reachability, deliberate activation, standard button meanings.
+- [Playing video](https://developer.apple.com/design/human-interface-guidelines/playing-video): system controls, original aspect, resume, coherent exits.

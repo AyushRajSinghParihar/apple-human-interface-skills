@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "run_id": "topic-augmented-reality.candidate.r1.a1",
+  "case_id": "topic-augmented-reality",
+  "variant": "candidate",
+  "repetition": 1,
+  "attempt": 1,
+  "status": "completed",
+  "case_path": "evals/cases/topic-augmented-reality.json",
+  "case_hash": "2f0a5d6e1d3ad8499dc3165253dc0d20c28bd8ddf28ad9559b8c195b0e775e66",
+  "harness_hash": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
+  "model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.164.0",
+  "started_at": "2026-10-25T19:27:53+00:00",
+  "finished_at": "2026-10-25T19:30:34+00:00",
+  "package_dependencies": {
+    "SKILL.md": "5ce03fd96070e5910df1a938370dde75408059f13fa1414bb62944424c6ddc68",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md": "a575641fed63dcd067cf6805a72449f994c7e64702d39c98f0dd1d50884c3d1a",
+    "subskills/apple-hig-foundations/.topics/apple-hig-privacy/SKILL.md": "11c7f3b8d32ba3c101c14a011f7398c51c614873bf063a4a77304b2cea3b2e09",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-foundations/references/accessibility.md": "556c88279d9f2f238e87cbab050337b51ba5c3e3ab8c15f57b662b3f0378b18d",
+    "subskills/apple-hig-foundations/references/privacy.md": "ce8f25721e6adb44faea38beea85a5636e8a5de8b5147a354bf5a0ce90e957ba",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ios/SKILL.md": "d1b0053d506a0c82c68f20c941117ab505576e3fb879f8a1fd127cf7f6ef2b77",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ipados/SKILL.md": "bab461744c2c2e80ba7700b1226eb963d8f0290f58e36628276ff2712c8e5ae0",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-getting-started/references/designing-for-ios.md": "ee15224a397819e71d6a3863d533308e18862beb0125a31fcca7dd38bb3ebc78",
+    "subskills/apple-hig-getting-started/references/designing-for-ipados.md": "d670289eeee3245ebe7887724472b89f1ab73284bc70081a76c604ccb0d182af",
+    "subskills/apple-hig-inputs/.topics/apple-hig-gestures/SKILL.md": "2d43cf0c7c28923ce01a2077a103ed16e361c4ad429848bd5473009b01cdacd4",
+    "subskills/apple-hig-inputs/SKILL.md": "a1843cc0d7dbb04b876a7c28e511aa5124e7fe2797d8e8eb1417434892676f29",
+    "subskills/apple-hig-inputs/references/gestures.md": "5f9857088a6b5bd5c29b6cc7dd82b39f5147a66817f07f37f9095282da3b4950",
+    "subskills/apple-hig-technologies/.topics/apple-hig-augmented-reality/SKILL.md": "8f5f52a0241844686ae17474c4229d264c604f0292f5aca895321722cda7247a",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d",
+    "subskills/apple-hig-technologies/references/augmented-reality.md": "b49ab71be7c33e51c01607346c1728e5d881ec60ae058e28e7e5e1e7fc47f088"
+  },
+  "discovery_dependencies": {
+    "SKILL.md": "5ce03fd96070e5910df1a938370dde75408059f13fa1414bb62944424c6ddc68",
+    "subskills/apple-hig-content/SKILL.md": "e911021fc5cb63ee1dbc4dbf5f29c3a258e4bcdfa16799f6a68a3640780a1fb0",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-inputs/SKILL.md": "a1843cc0d7dbb04b876a7c28e511aa5124e7fe2797d8e8eb1417434892676f29",
+    "subskills/apple-hig-layout-and-organization/SKILL.md": "805026039df393a761af77c979405bea98424b088ebb9e962cf47d17e949ac28",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "14799ee137928eb6532e16130cef07a3b93cc4e7ca7792a8ba711c0e5f1257f0",
+    "subskills/apple-hig-navigation-and-search/SKILL.md": "9c61db72d99a7b3cefea67557f02ae06ad76254e20b149c55731581a74137f3d",
+    "subskills/apple-hig-patterns/SKILL.md": "194e6f42bf32d325e016cc145b3d8c624c245eed46be1e0098c405c256a9b99e",
+    "subskills/apple-hig-presentation/SKILL.md": "51b48d2737ea0c2af406693bf257078638c46b7f5639f243463a5e1316ae727c",
+    "subskills/apple-hig-selection-and-input/SKILL.md": "605ab44039a43da80a817630076fa72896a66c29a0801e989c2f3809cbdd4527",
+    "subskills/apple-hig-status/SKILL.md": "d49120e41401fed66fcdd00efe00e06438df01cf320102bbfaace44276ebe756",
+    "subskills/apple-hig-system-experiences/SKILL.md": "c6231529b355d669e32660096e4b1a8e60e731a5473499c539c5827b18619e33",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d"
+  },
+  "thread_id": "01a17488-a3e0-7251-93b6-66ceb1395c99",
+  "reads": [
+    "SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-privacy/SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md",
+    "subskills/apple-hig-foundations/references/privacy.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ios/SKILL.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ipados/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ios.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ipados.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-gestures/SKILL.md",
+    "subskills/apple-hig-inputs/SKILL.md",
+    "subskills/apple-hig-inputs/references/gestures.md",
+    "subskills/apple-hig-technologies/.topics/apple-hig-augmented-reality/SKILL.md",
+    "subskills/apple-hig-technologies/SKILL.md",
+    "subskills/apple-hig-technologies/references/augmented-reality.md"
+  ],
+  "required_reads": [
+    "SKILL.md",
+    "subskills/apple-hig-technologies/SKILL.md",
+    "subskills/apple-hig-technologies/.topics/apple-hig-augmented-reality/SKILL.md",
+    "subskills/apple-hig-technologies/references/augmented-reality.md"
+  ],
+  "routing": {
+    "missing": [],
+    "passed": true,
+    "unexpected_hig_reads": false
+  },
+  "artifacts": {
+    "result.md": {
+      "path": "coverage/behavior/topic-augmented-reality.candidate.r1.a1/artifacts/result.md",
+      "hash": "48dbe37d8a08b004a8274b4f8c6e46c26336426c4e3184725972b3f6ff93188b"
+    },
+    "interface.md": {
+      "path": "coverage/behavior/topic-augmented-reality.candidate.r1.a1/artifacts/interface.md",
+      "hash": "ec964861c368bf67d92f2700c8301147e115926ef186365a69af83b90392f124"
+    },
+    "fixture.patch": {
+      "path": "coverage/behavior/topic-augmented-reality.candidate.r1.a1/artifacts/fixture.patch",
+      "hash": "66ab71f8f39b9c24f5edaa18de57ae3c7ed76632ff632b4393b95f2f0bcc0792"
+    }
+  },
+  "transcript": {
+    "path": "coverage/behavior/topic-augmented-reality.candidate.r1.a1/events.jsonl",
+    "hash": "491256f1fc43104b90c4b2d8cc9456426ade7d9114e61f66fad5ac1c486353b9"
+  },
+  "checks": {
+    "discovery": {
+      "visible_hig_count": 14,
+      "expected_visible_hig_count": 14,
+      "unrelated_enabled": [],
+      "hidden_topics_visible": [],
+      "disabled_unrelated_count": 83
+    },
+    "missing_artifacts": [],
+    "changed_inputs": {
+      "interface.md": true
+    },
+    "adaptation_changed": true,
+    "passed": true,
+    "exit_code": 0,
+    "turn_completed": true,
+    "malformed_event_count": 0,
+    "forbidden_reads": [],
+    "package_changed": []
+  },
+  "baseline_commit": null,
+  "final_message": {
+    "path": "coverage/behavior/topic-augmented-reality.candidate.r1.a1/final-message.txt",
+    "hash": "803d004e85bd58bc33df78909f2d252f5fa38369ac5cbcc2083cf303ac00d090"
+  }
+}

@@ -1,0 +1,1 @@
+Platform: iOS. Tabs are temporary actions like Share and Delete, disappear while loading and reorder based on last use. Selected tab is indicated only by color; returning to Collections resets scroll/selection.

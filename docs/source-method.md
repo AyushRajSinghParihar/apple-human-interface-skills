@@ -71,3 +71,16 @@ review/evaluation evidence. Keep raw Apple source representations, media, toolin
 environments, and analysis contact sheets ignored. Check both tracked files and
 release archives before publication. MIT applies to original project material;
 it does not relicense Apple documentation or assets.
+
+Git distribution contains the selected commit's files, not untracked additions
+from the maintainer's working tree. The complete installable package includes its
+hidden `.topics` directories; release checks must inspect the candidate commit's
+archive as well as local files.
+
+Evaluation and grading retain the actual prompt, events, artifacts and launch
+configuration. Published command captures may redact unrelated personal
+`skills.config` paths while retaining the original capture hash and recording that
+transformation. The public argument list is therefore a documented launch record,
+not a promise of byte-for-byte executable replay. Repeating a run requires fresh
+local installation paths and process overrides; retain a new session rather than
+rewriting an earlier result.

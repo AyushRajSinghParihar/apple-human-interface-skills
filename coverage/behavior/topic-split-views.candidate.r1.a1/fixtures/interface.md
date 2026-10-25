@@ -1,0 +1,1 @@
+Platform: iPadOS. Always-visible three columns leave 70 pt for a message in compact width, selection disappears when a column hides and Back randomly opens account settings. Users need mailbox, message list and detail context.

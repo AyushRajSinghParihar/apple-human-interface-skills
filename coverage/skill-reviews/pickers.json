@@ -1,0 +1,18 @@
+{
+  "topic": "pickers",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:53:13.545549+00:00",
+  "status": "reviewed",
+  "source_hash": "fdb6c5bb1568158abea7a691df570559180c5666787769643dc6c8699d28fc42",
+  "skill_hash": "6efd45f5ba40a9eba5f29dfa33de38fcc2216e6ee5e74297a26478f42a060eef",
+  "reference_hash": "3826e5ad2149d97273bcdf1ae0b29f9fdbde9e4404f87ed02b3fa9fa2cccdc4d",
+  "evidence": {
+    "decision": "Chooses a value-selection mechanism from list scale and semantic type, then resolves stored date/duration meaning independently from display order.",
+    "artifact": "Requires value/display/commit implementation or a concrete option/date specification with ordering, bounds and stored semantics.",
+    "transformation": "Scheduling example replaces hardcoded month/day order,7-minute intervals and unsupported compact countdown with localized order and supported choices.",
+    "verification": "Checks locale/calendar changes, boundaries, permitted keyboard entry and cancellation; fails altered date meaning or unreachable valid choices.",
+    "applicability": "Preserves divisor-of60 interval rule, countdown style restrictions, Mac precision/calendar choices and watch Crown-friendly options.",
+    "handoffs": "Loads pop-up-buttons for compact single selection or lists-and-tables when very large datasets need different access.",
+    "distinctiveness": "Mode/style compatibility, localized ordering and instant/date/duration distinctions produce actual picker decisions."
+  }
+}

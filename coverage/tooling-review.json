@@ -1,0 +1,58 @@
+{
+  "status": "reviewed",
+  "reviewer": "independent-tooling-reviewer; independent-coverage-auditor fix closure",
+  "reviewed_at": "2026-10-25T19:21:43.080126+00:00",
+  "bindings": {
+    "scripts/capabilities.py": "a424e268b874b64bcc7591399a15fd7a4da1cf830f96656e5a50fc5d1a6e0cd4",
+    "scripts/evaluate.py": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
+    "scripts/hig.py": "4cf883dcdcf201e864af5de382f373c8c3e3d495d23e2b6db835ee12ac9b360c",
+    "tests/test_capabilities.py": "17d9d99f99140786100cb5336338a4bfffc6138226667382068c7860f5e6ebd5",
+    "tests/test_evaluate.py": "20b5cf0fd066212cdcedc7799ce76d3d25f07cf4aef42192efd18075d63cfc88",
+    "tests/test_skill_cli.py": "ce9672d4b74392a3f9c8c6006155dad09d195d83b4f0823f7173d5a67aaa97e2",
+    ".github/workflows/validate.yml": "125a8a7214fe1a2ea20b182512ba6a81d00ee2f9278cda95d358d832c2be45ea"
+  },
+  "evidence": {
+    "reader_proof": "Prior scoped independent review verified full captured procedure bytes and substantive source excerpts; unexecuted readers, empty output and heredoc bodies cannot establish consumption.",
+    "execution_ownership": "Prior review verified own-run artifact/transcript ownership and distinct actual thread identities; cross-run and symlink reuse rejected.",
+    "history_and_ci": "Stale historical cases retain integrity checks without inheriting new output requirements; CI fetch-depth0 preserves frozen baseline history and always invokes strict check-skills.",
+    "discovery_fix": "Independent closure ran26 capability tests plus actual unread-family candidate mutation, stale baseline discovery hash and candidate-change/baseline-history probes. All current variants bind every visible entrypoint.",
+    "routing_fix": "Independent closure checked mandatory root/family/index/platform route approvals, malformed status/date and public CLI missing-review rejection. No material issue remains in reviewed scope.",
+    "limits": "Code/evidence integrity review only; independent topic quality, final behavioral outcomes, installed clients and Apple hardware remain separate claims.",
+    "grading_provenance": "Independent re-review cleared owned grading transcript bytes, actual grading session/completion distinct from execution, and exact artifact hashes for both candidate and baseline. Declared additional-source bindings are enforced;17 regression subcases observed red before repair,75 tests pass.",
+    "temporary_inputs": "Independent temporary-project probes accepted unchanged original input and rejected missing original stdout proof, modified/truncated/removed/added files and same-content symlinks. Frozen original task/artifact/source bytes are proven before attaching any batch grade.",
+    "grader_cleanup": "A real temporary Python child ignored SIGTERM; independent probe observed TERM then KILL and final reap with returncode-9 before replacement. No Codex/model execution was used for that probe."
+  },
+  "previous_bindings": {
+    "scripts/capabilities.py": "181f82ebfc82f8e992026df236f891ccee582b58a2e86f5658942a5f83d2b1cd",
+    "scripts/evaluate.py": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
+    "scripts/hig.py": "4cf883dcdcf201e864af5de382f373c8c3e3d495d23e2b6db835ee12ac9b360c",
+    "tests/test_capabilities.py": "0a6f08622cdf29a775de688993d818116c7e0a04ee0122d887df355989007fc3",
+    "tests/test_evaluate.py": "20b5cf0fd066212cdcedc7799ce76d3d25f07cf4aef42192efd18075d63cfc88",
+    "tests/test_skill_cli.py": "ce9672d4b74392a3f9c8c6006155dad09d195d83b4f0823f7173d5a67aaa97e2",
+    ".github/workflows/validate.yml": "125a8a7214fe1a2ea20b182512ba6a81d00ee2f9278cda95d358d832c2be45ea"
+  },
+  "final_reviewer": "independent-original-source-author; no operational/tooling authorship",
+  "session_orchestration_hashes": {
+    "blind_grade.py": "b4fc4e0d1fadec2c93ce8d90e900619fd765b3482421760b05ca1371c77c080b",
+    "grade_all.py": "1e5ff436703158883d1cef59a9a1de9706356e6a017d6f43fabc3ec15d8a9766",
+    "client_smoke.py": "2651192dfdcb3827de314bfbb98a2b54c75b90bcba3acf1c5099a5efcc44bf46",
+    "selection_audit.py": "116bc74bf3eaa8f679f36f4a06079b53b069d82fb0a7be57104e2664b13e60cd",
+    "build_operational_report.py": "8ed30acaa2dece89d1c07689ff6abc1ca21d88b3032f56a49127598834541fe2"
+  },
+  "client_smoke_review": {
+    "reviewer": "evaluation-tooling review and repair; root independent read of repaired helper",
+    "reviewed_at": "2026-10-25T19:59:04.514714+00:00",
+    "evidence": "Actual nonmodel relocated/symlink/path-spaces discovery exposed exactly14 entries and158 hidden topic procedures; direct shell reads matched snapshot bytes. Real TERM-resistant child reproduced timeout leak before bounded TERM/KILL/reap repair. Two focused helper tests and75 repository tests passed. Root read repaired helper including immutable source/install/helper/harness checks, actual completed thread, nonempty artifact and captured successful reads.",
+    "boundary": "These checks did not execute a model or establish final current-router client smoke; that evidence is a separate retained session.",
+    "privacy_closure": {
+      "reviewed_at": "2026-10-25T20:04:37.162652+00:00",
+      "evidence": "Root found personal skills.config paths in newly introduced bound discovery receipt. Helper now sanitizes that public command before receipt write/hash, retains exact original argv hash/count/redaction metadata, and uses unchanged actual process overrides. Three focused tests and actual nonmodel discovery/read/privacy probe passed; no model or bound proof records were written."
+    }
+  },
+  "final_report_orchestration_review": {
+    "reviewer": "independent-coverage-auditor; root read of repaired smoke verifier",
+    "reviewed_at": "2026-10-25T20:28:27.702515+00:00",
+    "evidence": "Explicit195-slot selection excludes19 development attempts, stale dependencies and failed candidates while retaining poor baseline outcomes. Seven selector probes passed. Report smoke verification replays fixed quartet against complete captured bytes, exact17checks/14entry discovery, actual completed runtime identity, launch/prompt/timestamp/current helper/harness/fullbundle and5proof-file hashes. Independent16invalid-smoke regressions plus12additional corruption/identity/SUITE probes and4writer/link probes passed. Current incomplete actual suite refuses report output.",
+    "limits": "Code and temporary-fixture verification only. Actual195 graded executions, current installation smoke, final artifact review and publication remain pending. No OS network isolation, native Apple or unauthenticated Claude runtime claim."
+  }
+}

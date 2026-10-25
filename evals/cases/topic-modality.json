@@ -1,0 +1,29 @@
+{
+  "id": "topic-modality",
+  "kind": "topic",
+  "topic": "modality",
+  "family": "patterns",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Repair a modal draft-composer state specification used by both iPhone and iPad. Preserve unfinished writing and stop presentation stacking. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: iOS/iPadOS. States: browse -> composer sheet -> attachment modal -> settings modal. Title is blank. The only exit is swipe down. Any swipe or Done deletes the unsaved draft without warning. Tapping an upload error can open two simultaneous alerts. There is no back action within the attachment flow."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Replace the nested sequence with a focused task, distinguish Back/Done/Cancel and preserve or explicitly resolve dirty drafts for every dismissal path.",
+      "hig_correctness": "Apply the modality guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Replace the nested sequence with a focused task, distinguish Back/Done/Cancel and preserve or explicitly resolve dirty drafts for every dismissal path.",
+      "conditions_accessibility": "Include gesture and explicit dismissal parity, a clear task title, one coherent subnavigation path, and no stacked alerts.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

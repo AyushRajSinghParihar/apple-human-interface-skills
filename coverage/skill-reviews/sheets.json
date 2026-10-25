@@ -1,0 +1,18 @@
+{
+  "topic": "sheets",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:51:52.905449+00:00",
+  "status": "reviewed",
+  "source_hash": "49ef3457d70e046d2dc9327071bc137dd68bd4b26a5e96806a75eec4b54c3661",
+  "skill_hash": "2cf82a48a60a872508612f8e297863d7a7b83dbfcbe3a41fa07ce4b15d59f55f",
+  "reference_hash": "40447c58d38c99c40a1f70895a46f876a46d34804955bffe19c047eba76b5e6a",
+  "evidence": {
+    "decision": "Chooses a short parent-related task versus complex editing or repeated adjustment, then distinguishes save/exit/step-back outcomes.",
+    "artifact": "Requires task/exit/size implementation or a step-and-exit contract with detents, parent availability and data outcomes.",
+    "transformation": "Medium-only composer example replaces stacked attachment sheets and exit-as-Back with a large composer, internal steps and clear Cancel/Done/Back roles.",
+    "verification": "Tests edited/clean gesture dismissal, Back, completion, resize and replacement; fails draft loss, stacking or Back that exits the task.",
+    "applicability": "Preserves iOS/iPad nonmodal options, Mac parent-only blocking, visionOS centered contextual placement and brief watch task limits.",
+    "handoffs": "Selects modality, action-sheets, panels or windows according to actual task length and exit needs.",
+    "distinctiveness": "Detents, parent scope and the separate meanings of Cancel/Done/Back provide an operational sheet contract beyond general modal advice."
+  }
+}

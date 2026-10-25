@@ -1,0 +1,28 @@
+{
+  "id": "topic-apple-pencil-and-scribble",
+  "kind": "topic",
+  "topic": "apple-pencil-and-scribble",
+  "family": "inputs",
+  "mode": "design",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Design stylus and text entry behavior for an iPad laboratory notebook. Read interface.md. Produce a concrete revised interaction specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: iPadOS with optional Apple Pencil. Notebook disables typing whenever Pencil is nearby, makes handwriting the only way to enter specimen IDs and uses one gesture to both erase ink and delete a whole page. Text boxes are custom canvases."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Specify ink-versus-text intent, Scribble-compatible entry or explicit limitations, predictable erasing/selection and equal keyboard/touch alternatives without assuming every iPad has Pencil.",
+      "hig_correctness": "Apply the apple-pencil-and-scribble guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Specify ink-versus-text intent, Scribble-compatible entry or explicit limitations, predictable erasing/selection and equal keyboard/touch alternatives without assuming every iPad has Pencil.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Specify ink-versus-text intent, Scribble-compatible entry or explicit limitations, predictable erasing/selection and equal keyboard/touch alternatives without assuming every iPad has Pencil.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Platform: iPadOS. App closes when its window becomes narrow, clears edits on backgrounding and starts audio unexpectedly on return. Two documents should remain independently editable in separate windows where supported.

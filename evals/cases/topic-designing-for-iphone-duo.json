@@ -1,0 +1,29 @@
+{
+  "id": "topic-designing-for-iphone-duo",
+  "kind": "topic",
+  "topic": "designing-for-iphone-duo",
+  "family": "getting-started",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Adapt a recipe planner to the source-described iPhone Duo form-factor transitions. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: source-described iPhone Duo. Current proposal stretches the compact view into a wider canvas, loses the selected recipe when the configuration changes and leaves essential controls outside reach. Product has no verified hardware or implementation SDK."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch compact/expanded task continuity and adaptive information hierarchy based on the local source; explicitly qualify current platform availability and leave unsupported implementation assumptions open.",
+      "hig_correctness": "Apply the designing-for-iphone-duo guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch compact/expanded task continuity and adaptive information hierarchy based on the local source; explicitly qualify current platform availability and leave unsupported implementation assumptions open.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch compact/expanded task continuity and adaptive information hierarchy based on the local source; explicitly qualify current platform availability and leave unsupported implementation assumptions open.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "topic": "sliders",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:54:47.422840+00:00",
+  "status": "reviewed",
+  "source_hash": "81d69aa1e84ee39eec378fa34f57b953e9ed03bbc1621ba26bac45832566924e",
+  "skill_hash": "9175911579f92fac5b1571a7b80043ec5bf0887dceffff4fe8b33b000758afcc",
+  "reference_hash": "c411451ab4b7e91b5b78ff9c4f49402526658fc4dcf1fffc7065c34690f6451f",
+  "evidence": {
+    "decision": "Chooses bounded linear adjustment versus continuing/repeating circular values and adds exact entry when range or precision demands it.",
+    "artifact": "Requires mapping/feedback changes or a range/scale/value/endpoint/precision specification and synchronized applied value.",
+    "transformation": "Mac opacity example replaces an unsuitable circular dial and inaccessible1% precision with linear0\u2013100% live preview and a numeric field.",
+    "verification": "Checks endpoints, intermediate values, keyboard/assistive increments, field synchronization and relevant undo; fails unexplained inversion or unreachable required precision.",
+    "applicability": "Preserves iOS output-volume view, unsupported TV slider, horizontal visionOS movement and explicitly onscreen buttons beside the watch slider after independent wording repair.",
+    "handoffs": "Loads steppers for small adjustments, text-fields for exact entry and playing-audio only for output-volume context.",
+    "distinctiveness": "Actual value mapping and precision, fixed versus repeating domains and corrected onscreen-watch-button meaning create specific slider decisions."
+  }
+}

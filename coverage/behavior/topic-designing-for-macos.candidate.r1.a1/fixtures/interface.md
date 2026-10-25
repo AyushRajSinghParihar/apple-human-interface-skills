@@ -1,0 +1,1 @@
+Platform: macOS. Current iPhone port forces one fullscreen transcript, hides the menu bar and requires swipe gestures for copy/save. Users need keyboard-driven comparison, resizable windows and familiar document operations.

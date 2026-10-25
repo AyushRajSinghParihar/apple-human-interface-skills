@@ -1,0 +1,1 @@
+Platform: iOS. Three nested vertical scrollers trap movement, content has no end affordance and a sticky booking action obscures the final stop. Pulling near the edge triggers navigation unexpectedly; text can enlarge.

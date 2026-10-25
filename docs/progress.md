@@ -1,5 +1,10 @@
 # Implementation ledger
 
+This ledger records the original reference-package release at baseline `a748d07`.
+Its test counts, instruction bytes and archive results describe that revision.
+The operational topic upgrade has a separate [current ledger](operational-progress.md)
+and still requires its final behavioral grades and publication checks.
+
 Approved plan: [implementation-plan.md](implementation-plan.md).
 
 - Researched portable skill structure and authoring practices; documented the

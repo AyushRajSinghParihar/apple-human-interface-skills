@@ -1,0 +1,29 @@
+{
+  "id": "topic-panels",
+  "kind": "topic",
+  "topic": "panels",
+  "family": "presentation",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Repair a Mac image-inspector workflow that currently blocks editing. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: macOS. Color inspection opens a document-modal sheet on every click, preventing comparison with the image. The inspector loses its target when another document activates and closing it saves unrelated edits."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch a suitable modeless panel contract with clear active-document scope, live inspection and close semantics, keyboard/focus access and behavior across multiple windows.",
+      "hig_correctness": "Apply the panels guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch a suitable modeless panel contract with clear active-document scope, live inspection and close semantics, keyboard/focus access and behavior across multiple windows.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch a suitable modeless panel contract with clear active-document scope, live inspection and close semantics, keyboard/focus access and behavior across multiple windows.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

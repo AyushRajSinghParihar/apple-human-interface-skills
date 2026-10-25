@@ -1,0 +1,56 @@
+{
+  "id": "topic-search-fields",
+  "kind": "topic",
+  "topic": "search-fields",
+  "family": "navigation-and-search",
+  "mode": "review",
+  "baseline_control": true,
+  "prompt": "Use $apple-hig to help with this task: Audit a Mac searchable people directory. Read interface.md. Audit the supplied interface; rank verified findings and show corrected behavior. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: macOS. Search field has no label or placeholder, Clear deletes directory records, submitting closes the window, a query returning zero results leaves stale matches and the scope indicator says All while only searching favorites."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Find these five search-field defects and specify labelled query entry, safe clearing, proper results/empty state and accurate scope with keyboard operation.",
+      "hig_correctness": "Apply the search-fields guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Find these five search-field defects and specify labelled query entry, safe clearing, proper results/empty state and accurate scope with keyboard operation.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Find these five search-field defects and specify labelled query entry, safe clearing, proper results/empty state and accurate scope with keyboard operation.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ],
+    "required_findings": [
+      {
+        "id": "1",
+        "description": "Query field lacks an explanation of searchable content.",
+        "critical": false
+      },
+      {
+        "id": "2",
+        "description": "Clear performs data destruction instead of clearing query text.",
+        "critical": true
+      },
+      {
+        "id": "3",
+        "description": "Search submission unexpectedly closes the task window.",
+        "critical": true
+      },
+      {
+        "id": "4",
+        "description": "Zero-result query leaves stale unrelated matches visible.",
+        "critical": true
+      },
+      {
+        "id": "5",
+        "description": "Displayed scope disagrees with actual favorites-only search.",
+        "critical": false
+      }
+    ],
+    "review_threshold": "Find at least four of five seeded defects, including every critical defect; no invented high-severity finding."
+  }
+}

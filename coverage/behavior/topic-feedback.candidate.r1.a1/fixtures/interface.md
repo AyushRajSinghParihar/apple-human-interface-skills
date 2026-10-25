@@ -1,0 +1,1 @@
+Platform: iOS. Submit button appears unchanged for 30 seconds, then only vibrates even if upload fails. An offline retry duplicates claims. User may leave and return; no server behavior is proven.

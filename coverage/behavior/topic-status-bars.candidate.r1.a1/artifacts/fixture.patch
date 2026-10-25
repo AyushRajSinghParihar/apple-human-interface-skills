@@ -1,0 +1,57 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,52 @@
+-Platform: iOS. App paints a fake time/battery over system status, critical network errors hide behind it and tapping the reading surface alternates unpredictable status visibility. Content obscures system safe areas.
+\ No newline at end of file
++# iPhone fullscreen reader — revised specification
++
++Platform: iOS on iPhone. Fullscreen supports concentrated reading by hiding app controls. Native device status remains visible. Preserve the existing implementation stack; this specification does not select a framework.
++
++## Status ownership and layout
++
++- Remove all app-drawn time, connectivity, and battery replicas, their overlay containers, and hit interception. Use the real iOS status bar in every reader state. Never put app errors in its region.
++- Request a system status appearance legible against the reading theme. Keep the background beneath status stable and contrasting while text or imagery scrolls. Prefer system scroll-edge blur for separation where applicable; do not imitate system status with a decorative overlay.
++- Backgrounds may extend to display edges. Important reading content, links, selection affordances, controls, and errors must respect current system safe areas and the space occupied by app controls/errors. Use environmental insets, not fixed status heights or device-name offsets. Recalculate on rotation, camera-housing/Dynamic Island layouts, and system status changes.
++- Reserve layout space for controls and errors rather than covering the passage. Preserve the reading anchor (document location and offset within the visible reading region) through inset/control changes. Preserve document location through text reflow.
++
++Basis: [Status bars — Best practices](https://developer.apple.com/design/human-interface-guidelines/status-bars#Best-practices) and [Layout — Guides and safe areas](https://developer.apple.com/design/human-interface-guidelines/layout#Guides-and-safe-areas). Always-visible status is a conservative product decision for reading; the source allows temporary hiding for fullscreen media but does not require it here.
++
++## Deterministic state contract
++
++| State | Native status | App controls | Transition |
++| --- | --- | --- | --- |
++| Reading controls shown | Visible | Visible | Initial reader entry. “Enter Full Screen” enters fullscreen reading. |
++| Fullscreen reading | Visible | Hidden | On first entry, show a brief safe-area hint: “Tap the page to show controls.” One tap on inactive page space reveals controls. |
++| Fullscreen controls shown | Visible | Visible | Further page taps leave controls shown. “Hide Controls” hides app controls; “Exit Full Screen” returns to reading controls shown. |
++| Network error | Visible | Visible | Any confirmed loading failure reveals controls and the persistent error region below. Preserve the underlying fullscreen choice. |
++
++No timer, scrolling, or repeated surface taps change native status visibility. Taps on links, selection, buttons, or error actions perform only their own action. Scrolling and long-press selection must not be mistaken for reveal taps.
++
++Use system-styled text buttons with ordinary nondestructive roles: “Enter Full Screen,” “Hide Controls,” and “Exit Full Screen.” Show only commands appropriate to the current state. Put them in safe content space, with separate nonoverlapping hit regions of at least 44 × 44 pt on iPhone. No default keyboard activation changes fullscreen unexpectedly.
++
++Keep ordinary iPhone Home/system gestures available, including one-swipe departure; do not defer gestures for this reader. Backgrounding preserves fullscreen choice, reading anchor, and unresolved errors. Foreground return reveals controls without leaving fullscreen. Explicit reader exit saves the reading location, removes reader overlays, and restores the destination screen's status policy.
++
++Basis: [Going full screen — Best practices](https://developer.apple.com/design/human-interface-guidelines/going-full-screen#Best-practices), [iOS and iPadOS](https://developer.apple.com/design/human-interface-guidelines/going-full-screen#iOS-iPadOS), and [Buttons](https://developer.apple.com/design/human-interface-guidelines/buttons). Reveal-only taps, no auto-hide, and foreground reveal are product decisions for predictable behavior.
++
++## Network failure and recovery
++
++The brief does not define the failed operation or a data-loss risk. For this repair, a critical network error means requested reading content cannot load. Do not assume irreversible loss or introduce a modal confirmation.
++
++- A confirmed request failure enters the error state immediately, even with controls hidden. Place a persistent error region below native status, at the top of safe content space and above the passage. Reserve its height in layout so it cannot obscure text or hide behind controls.
++- Describe the actual failure and retained content. For a failed next-section request, use: “Couldn’t load the next section. Your current section is still available.” Show “Retry” for that request. Keep cached text readable; if no text is available, show the error in the unavailable content region.
++- Retry uses a system-styled nondestructive button with a minimum 44 × 44 pt hit region. While pending, show activity inside the button, label it “Retrying,” and prevent duplicate requests. Keep failure context visible. A press animation or connectivity signal does not establish success.
++- Clear the error only after the requested content actually loads. Repeated failure retains the message and reenables Retry. Coalesce repeated failures for the same request. While unresolved, disable Hide Controls with the adjacent explanation “Resolve the loading error before hiding controls.” Keep Exit Full Screen and normal reader exit available. Exiting fullscreen does not dismiss the error.
++- After recovery, leave controls shown until explicitly hidden. Preserve the reading anchor rather than jumping to newly loaded content. Preserve unresolved failure across background/foreground and reconcile it with actual request results.
++
++Basis: [Feedback — Best practices](https://developer.apple.com/design/human-interface-guidelines/feedback#Best-practices) supports truthful, actionable feedback and explaining unavailable commands. The persistent inline treatment is a product choice for this loading failure; revisit it if actual failures involve irreversible loss.
++
++## Acceptance checks
++
++1. Inspect initial, fullscreen, revealed, error, pending retry, recovered, and foreground-return states: native status is visible and no app-drawn device status remains.
++2. Enter fullscreen and tap inactive page space three times: the first reveals controls and subsequent taps leave them shown. Explicit Hide Controls hides only app controls. Links, scrolling, selection, and error actions do not toggle chrome.
++3. Scroll bright, dark, and mixed content in supported themes. Native status remains legible and no control is offered beneath an obstructing bar.
++4. Inject next-section failure while controls are hidden. The error appears immediately in reserved safe space and cached text remains readable. Exercise pending Retry, duplicate activation, repeated failure, confirmed success, and failure during foreground return. No error hides behind status or controls.
++5. Exercise supported orientations, camera-housing/Dynamic Island layouts, smallest/largest supported text settings, and Display Zoom. Inspect safe regions, error wrapping, button separation, and reading-anchor retention in each state. No fixed status height is assumed.
++6. Leave through the Home gesture and return: one swipe leaves; fullscreen choice, reading position, and unresolved error persist; controls reappear. Explicit fullscreen exit and reader exit preserve navigation and restore destination status handling.
++
++These are required implementation checks, not claims of execution. Native rendering, gestures, hit geometry, and safe-area behavior need an iOS build and runtime evidence.

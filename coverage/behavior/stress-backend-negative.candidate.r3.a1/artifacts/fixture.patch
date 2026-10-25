@@ -1,0 +1,22 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,17 @@
+-Runtime: Linux backend only. No UI or Apple platform. Retry attempts run without a limit and retry authentication failures. Desired policy: at most 3 attempts total, retry transient failures only, preserve job ID. Current policy: {"maxAttempts":null,"retryStatus":[401,403,408,429,500,502,503],"preserveJobId":false}.
+\ No newline at end of file
++# Queue retry policy
++
++Runtime: Linux backend service. This policy is framework-neutral.
++
++```json
++{
++  "maxAttempts": 3,
++  "retryStatus": [408, 429, 500, 502, 503],
++  "preserveJobId": true
++}
++```
++
++- `maxAttempts` counts the initial execution and all retries: at most three executions per job (one initial attempt and up to two retries).
++- Retry a failed attempt only when its status is in `retryStatus` and fewer than three attempts have run. The allowlist identifies the transient statuses covered by this policy; unlisted statuses and failures without a status are not retried automatically.
++- Authentication and authorization failures, including 401 and 403, terminate without retry.
++- Success terminates processing without retry. A retryable failure on the third attempt terminates as exhausted; it must not schedule a fourth attempt.
++- Keep the original job ID for every attempt. Retry scheduling must not create a new logical job or reset its attempt count. Persist the attempt count across rescheduling and worker restarts so that the limit remains effective.

@@ -1,0 +1,1 @@
+Platforms: iOS/macOS. Form requires First and Last name in Latin letters, rejects one-character names, assumes two opposite-sex parents and offers only light-skinned human avatars. Product should support chosen display identities.

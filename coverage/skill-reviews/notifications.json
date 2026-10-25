@@ -1,0 +1,18 @@
+{
+  "topic": "notifications",
+  "reviewer": "independent-topic-author-a",
+  "reviewed_at": "2026-10-25T19:02:04.384391+00:00",
+  "status": "reviewed",
+  "source_hash": "6608ccea2966c5a735bc95836bb23bebb69ca1f429b86252e93631eb4758d8ad",
+  "skill_hash": "65555e95463afd877c6509844ae17e8edd69f5b4ed5cf47175bab43b3cd23edd",
+  "reference_hash": "6dcfd7dc6cdaed1ef20aeaffc523499c409576f99efd1e3cd09c241ffbdf00a5",
+  "evidence": {
+    "decision": "Separates timely event content, private previews, useful immediate actions, foreground updates and unread-notification badge truth.",
+    "artifact": "Delivers preview-hidden text, actions/deep links, foreground behavior and badge lifecycle with corrected category or handling logic.",
+    "transformation": "Banking example removes exposed balance, balance-valued badge and redundant Open App action in favor of safe contextual notification behavior.",
+    "verification": "Checks locked previews, duplicate events, resolved actions, unread counts and Watch fallback; disclosure, wrong object or unrelated badges fail.",
+    "applicability": "Qualifies Watch short/long looks, static fallback, nondestructive double tap and absence of programmable custom vibration; delivery requires runtime proof.",
+    "handoffs": "Managing notifications handles consent/urgency and Alerts handles immediate error resolution rather than overloading notification copy.",
+    "distinctiveness": "Preview redaction, action outcomes and Notification Center badge lifecycle distinguish this from generic feedback."
+  }
+}

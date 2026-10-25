@@ -1,0 +1,18 @@
+{
+  "topic": "carekit",
+  "reviewer": "independent-topic-author-b",
+  "reviewed_at": "2026-10-25T19:01:18.182921+00:00",
+  "status": "reviewed",
+  "source_hash": "69a4737e2a00076ed75ed12c525c76dd93a25826c311e05721a4905d0061b5d6",
+  "skill_hash": "be4abb9cf581c6c1d47f5466b46035f2a137aba1fdeb50ca0f36aa8e403ecfdd",
+  "reference_hash": "37c6cd81af702930e5e097d51c9bcde9e94667d615a3ec2dce9aab62a8b630dc",
+  "evidence": {
+    "decision": "Selects task style from completion semantics and checklist detail rather than visual density.",
+    "artifact": "Requires task/chart/contact mappings plus reminder and permission behavior.",
+    "transformation": "Recovery grid becomes a scheduled descriptive checklist with coalesced pending-plan reminders.",
+    "verification": "Fails misrepresented completion, color-only task identity and misleading changed-permission data.",
+    "applicability": "Keeps clinical content intact and separates iOS/iPad care UI, watch notifications and clinical efficacy.",
+    "handoffs": "HealthKit handles data access; ResearchKit only when study/consent tasks are actually present.",
+    "distinctiveness": "Scheduled care steps, event logging and care-role contacts create consequential domain decisions."
+  }
+}

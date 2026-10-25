@@ -1,0 +1,74 @@
+# Shared writing project: invitation and access specification
+
+Platform: iPadOS, with the same permission and data contracts on macOS. This is a revised design specification, not an implemented backend or verified system integration. Framework, identity provider, storage service and minimum OS versions are unspecified.
+
+## Share entry and disclosure
+
+Keep Share in the project toolbar. Offer two explicitly distinct operations: **Collaborate** and **Send a Copy**. On iPad use the standard system sharing presentation where supported; on Mac use supported toolbar/context-menu sharing and sharing extensions, not an iPad activity-view component. Do not control the system destination order or duplicate system activities.
+
+Collaborate starts with this summary: “Only invited people can open this project. New invitees can view. Only the owner can invite people or change access.” Show the intended recipient identities and role before **Send Invitation**. Default to Viewer; the owner may explicitly choose Editor before sending. No “anyone with the link” mode in this revision. Copy Link carries an invitation or project locator, never a bearer grant of edit access. Forwarding it does not authorize another account. Inviting by typed email does not require importing the address book.
+
+Send a Copy exports a snapshot of the currently selected project as a writing document or plain text, with the format and project name shown before handoff. Exclude participant identities, invitations and collaboration credentials. A copy has no ongoing sync or permission relationship; later revocation cannot recall exported copies. Ineligible formats/destinations must not imply successful delivery. Cancel leaves the writing context unchanged. Dismissing a sharing interface is not proof of invitation acceptance or destination delivery. If export continues after dismissal, show its progress/error and retry in the project; avoid routine completion notifications.
+
+## Authority and role contract
+
+The service is authoritative. Every read, write, invitation, role change and removal checks authenticated identity and current project membership. UI restrictions alone are insufficient. Permissions apply across touch, menus, keyboard shortcuts, paste, drag/drop, automation and direct requests.
+
+| Role/state | Read shared text | Change or delete shared text | Invite/change roles/remove people |
+| --- | --- | --- | --- |
+| Owner | Yes | Yes | Yes; cannot remove self in this revision |
+| Accepted Editor | Yes | Yes | No |
+| Accepted Viewer | Yes | No | No |
+| Pending invitee | No, until acceptance | No | No |
+| Expired, declined or revoked | No | No | No |
+| Unverified/offline | Previously authorized local draft only | Local draft only for previously accepted editors | No |
+
+Viewer mode says “View only” and excludes editing and destructive project commands. A rejected stale command explains “Your access changed. This action wasn’t applied.” A role downgrade stops shared edits immediately on receipt and protects any unsynced changes as a separate local draft. No optimistic role change may broaden effective access before server acknowledgement.
+
+## Persistent Collaboration management
+
+After sharing starts, place Collaboration next to Share. Open it to show accepted participants with explicit Owner, Editor or Viewer text, separately from **Invitations**. “Accepted” means membership, not currently online. Show online presence only when separately known. Pending invitations never count as active collaborators.
+
+The owner can invite, resend, cancel pending invitations, change an accepted participant’s Viewer/Editor role, and remove access. Participants see their own current role and relevant accepted participants; only the owner sees pending recipient addresses. An invitation stores project ID, intended account/email identity, proposed role, status and expiry. Display the actual expiry returned by the service; do not invent a duration. Resending invalidates the previous invitation token. Declining, expiry and cancellation grant no membership. Hide management actions from nonowners and enforce that restriction on the service.
+
+For each mutation show a pending label (“Sending…”, “Changing access…” or “Removing…”), prevent duplicate submission, then show the acknowledged result. On failure retain the last confirmed state and show a contextual Retry. If acknowledgement is lost, reconcile by operation ID before retry so that duplicate membership or invitations are not created. Closing management does not cancel an already submitted operation; its status remains available on reopening.
+
+## Recipient and access transitions
+
+| Event | Required behavior and copy |
+| --- | --- |
+| Open invitation while signed out | Show sign-in entry, retain the intended project destination; disclose no shared writing before authorization. |
+| Open as a different account | “This invitation is for another account.” Offer Switch Account or return; do not disclose the recipient address or project content. |
+| Valid pending invitation | Show inviter, project name, proposed role and “Accept Invitation” / “Decline.” Accept checks identity, expiry and current invitation state atomically. |
+| Acceptance acknowledged | Create membership and open that project, at its relevant writing view. Owner’s Invitations row becomes an accepted participant only after acknowledgement. |
+| Acceptance fails or connection drops | “Invitation not accepted yet.” Offer Retry and return. Do not show an active collaborator until reconciliation confirms acceptance. |
+| Expired/declined/canceled invitation | “This invitation is no longer available.” Offer return to projects and request a new invitation through the existing contact route; do not restore access. |
+| Already accepted invitation/project/update link | Revalidate membership, then open the linked project and relevant passage/change if still present. Missing passage falls back to project with explanation. |
+| Removed member opens old link | “You no longer have access to this project.” Offer Back to Projects. Link reuse never reactivates membership. |
+
+Project notifications and update links resolve to the relevant project, never merely generic home; revalidate before revealing content. Invalid locators show “Project unavailable” without leaking project details.
+
+## Revocation and stale clients
+
+Remove Access immediately puts the owner’s row in “Removing…”; report “Access removed” only after the server commits revocation. On failure show “Couldn’t remove access” with Retry; never imply removal succeeded. The authoritative removal invalidates membership and all outstanding invitations for that recipient on this project. All later reads/writes are denied regardless of old links or cached permission flags.
+
+Connected clients refresh on permission events, project opening, foregrounding and reconnect. On confirmed revocation, stop collaboration and shared-content fetching, close the shared writing view, remove its cached shared content and show the access-removed state. Preserve only the person’s unsynced local contributions in a clearly separate recovery draft; do not retain an editable copy of collaborators’ cached writing as a revocation workaround. Show “Your unsynced writing is saved locally. It has not been shared.” No background upload of that draft is allowed without renewed authorization and explicit review.
+
+An offline client cannot know a remote revocation occurred. Never claim current access or successful removal propagation on that device. Show “Offline — access not verified” with last verification time. Revocation prevents future service access; it cannot recall content already viewed or exported.
+
+## Offline writing and conflict recovery
+
+A previously accepted editor may keep typing into a local draft while offline. Label it “Saved on this iPad — not shared” (on Mac, “Saved on this Mac — not shared”). Viewers remain read-only offline. Invitation acceptance, role changes and removal require a connection; do not silently queue them as completed.
+
+On reconnect: (1) revalidate identity and membership; (2) fetch current permission and document revision; (3) only if Editor/Owner access remains, compare the saved base revision with the current revision. If unchanged, upload using a conditional revision check. If changed, preserve both versions and show “Changes need review” with the local changes and current shared version. The person can review and apply selected local changes against the latest revision, or keep the local draft without uploading. Recheck permissions and revision when applying; concurrent changes reopen review. Never silently overwrite others’ writing or claim “Shared” before acknowledgement. A Viewer downgrade or revocation keeps recovery local and blocks upload. Failure retains the local draft with Retry; cancellation returns to the project without discarding it.
+
+## Data and source boundaries
+
+| Data | Purpose and disclosure boundary |
+| --- | --- |
+| Recipient identity and role | Deliver an owner-requested invitation; show recipient details to owner and intended recipient only. |
+| Accepted participant names and roles | Explain who shares this project; expose only to authorized participants. |
+| Project text and exported snapshot | Shared text requires membership; export happens only on explicit Send a Copy and cannot be recalled. |
+| Local contributions/base revision/operation ID | Recover unsynced writing and reconcile retries; do not expose collaborators’ text to revoked accounts through recovery. |
+
+These are product decisions applying the local HIG guidance, not Apple-mandated role names, backend algorithms or expiry policy. Guidance: [Collaboration and sharing — Best practices](https://developer.apple.com/design/human-interface-guidelines/collaboration-and-sharing#Best-practices) supports distinct copy/collaboration choices, concise permissions and persistent management. [Activity views](https://developer.apple.com/design/human-interface-guidelines/activity-views#Best-practices) supports contextual system sharing; its platform considerations distinguish Mac extensions from activity views. [Privacy — Best practices](https://developer.apple.com/design/human-interface-guidelines/privacy#Best-practices) supports precise access, clear use and minimized data. No system privacy prompt substitutes for project membership authorization.

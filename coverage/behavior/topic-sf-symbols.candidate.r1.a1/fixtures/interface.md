@@ -1,0 +1,1 @@
+Platform: iOS. Designer stretches a system symbol nonuniformly, uses a decorative weather symbol for Archive and relies on multicolor-only status. Some chosen symbols may not exist on the app’s oldest deployment target.

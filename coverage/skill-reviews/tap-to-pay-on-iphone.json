@@ -1,0 +1,18 @@
+{
+  "topic": "tap-to-pay-on-iphone",
+  "reviewer": "independent-topic-author-b",
+  "reviewed_at": "2026-10-25T19:03:23.329379+00:00",
+  "status": "reviewed",
+  "source_hash": "508d4f159f7be2f065120a9fe61b856155aa7121008fbe29ba6cc95c5355e5ce",
+  "skill_hash": "979445d04e2d5bf1c98d49c262b3ed6d5a6adb167b2da4e6fd511192c867b47c",
+  "reference_hash": "a109360359cd96ac83a119dd95447be366f4857a589cc382c969c987f21a565e",
+  "evidence": {
+    "decision": "Separates administrator enablement, final amount, card read and PSP authorization.",
+    "artifact": "Requires role/setup/checkout/read/authorization/recovery state contract.",
+    "transformation": "Premature Paid at checkmark becomes Authorizing until PSP result with checkout alternatives.",
+    "verification": "Fails nonadministrator terms acceptance, post-read amount changes and read-success-as-approval.",
+    "applicability": "Keeps iOS-only supported PSP/SDK ownership and current device/market/entitlement checks.",
+    "handoffs": "Apple Pay handles customer authorization; Writing merchant results/remedies.",
+    "distinctiveness": "Admin setup and encrypted-read-versus-approval boundary are essential merchant-specific decisions."
+  }
+}

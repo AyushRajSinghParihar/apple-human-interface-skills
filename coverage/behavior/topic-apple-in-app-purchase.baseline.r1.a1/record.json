@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "run_id": "topic-apple-in-app-purchase.baseline.r1.a1",
+  "case_id": "topic-apple-in-app-purchase",
+  "variant": "baseline",
+  "repetition": 1,
+  "attempt": 1,
+  "status": "completed",
+  "case_path": "evals/cases/topic-apple-in-app-purchase.json",
+  "case_hash": "6597abe3538d75ff54ec98b1c5c48ff9a0bb1177f28ecc174abe120b0c32fbc8",
+  "harness_hash": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
+  "model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.164.0",
+  "started_at": "2026-10-25T19:25:45+00:00",
+  "finished_at": "2026-10-25T19:27:10+00:00",
+  "package_dependencies": {
+    "SKILL.md": "f305556b4684c7fd83d4ffd2820d2caad35f577f20fd7b6cf2d0bbcb063291d4",
+    "references/topic-index.md": "168159e5a57165761582db86fb2a96015436ff19d823ed8fb166f9ab01c16c32",
+    "subskills/apple-hig-patterns/SKILL.md": "74d34c74b9f1fa8df6c6b6942fbb9efa6e7f47660020d16a056e38dbfca22467",
+    "subskills/apple-hig-patterns/references/managing-accounts.md": "c55f6e126bd3f6b11b84aeee7bae3b45c193b8508db7343d08795abe47d35541",
+    "subskills/apple-hig-patterns/references/modality.md": "6807be0bb9e363342f46e1438c9e9961a3e0cbf292cceaf3e13cb9169af8d3dd",
+    "subskills/apple-hig-patterns/references/undo-and-redo.md": "63bb3d62d092f9c4d228e06c8be445388fb3908702a94ddae96600bbeed5eff6",
+    "subskills/apple-hig-technologies/SKILL.md": "614850c9c6a55cbf2223be51441f1ceedab1d3437c1d6475cf638365612f2b7e",
+    "subskills/apple-hig-technologies/references/apple-in-app-purchase.md": "cce0785c38a204ab43eb70339b22f9fd93ad6966a4338a7d69dc9efc94a7b391"
+  },
+  "discovery_dependencies": {
+    "SKILL.md": "f305556b4684c7fd83d4ffd2820d2caad35f577f20fd7b6cf2d0bbcb063291d4",
+    "subskills/apple-hig-content/SKILL.md": "482db2c5624b445e095f21b7764ca1d06479b8f148f5a15aa2a157f627e2f502",
+    "subskills/apple-hig-foundations/SKILL.md": "8179eaa6e4460753623a4096b887382e47efd9572201cdd839a7003e98ed6b33",
+    "subskills/apple-hig-getting-started/SKILL.md": "de68f11e72e0d63be3d313fc104257e6ed3558a8162fae48cca0f559660fbd4e",
+    "subskills/apple-hig-inputs/SKILL.md": "ec721fc89d6cb0c9af99eccd33b7a5b2e53c6aff1dad96c02f12ce57cefda5cc",
+    "subskills/apple-hig-layout-and-organization/SKILL.md": "51dae6b1f349f9e81045b75bc9eec27d1c067430694abfd87fa4f6a474451c05",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "65df4e95649046754916b0664206f27028922fd510bc3fdf64089b486e042fde",
+    "subskills/apple-hig-navigation-and-search/SKILL.md": "2f75e5ac41566c061b9da8f9862bb15c7fef179ff6910c3312c39baa8afbd4d7",
+    "subskills/apple-hig-patterns/SKILL.md": "74d34c74b9f1fa8df6c6b6942fbb9efa6e7f47660020d16a056e38dbfca22467",
+    "subskills/apple-hig-presentation/SKILL.md": "a111ba92ad2780a5a112b1b42a80b0b3152d22726f7453bc01c710b0e1006930",
+    "subskills/apple-hig-selection-and-input/SKILL.md": "77c45bf19cfc8029319c3693768b05ad8620fd264b5b5701fa151086fcdef699",
+    "subskills/apple-hig-status/SKILL.md": "b69f0b6d2976a1670d8f009ffe6777954c2fb99a938c37da8dc3de1527b60b77",
+    "subskills/apple-hig-system-experiences/SKILL.md": "fa24b621480df1c975b8e4b3ff1b726e439b10c85890e50a27a79b3c5de0d7c8",
+    "subskills/apple-hig-technologies/SKILL.md": "614850c9c6a55cbf2223be51441f1ceedab1d3437c1d6475cf638365612f2b7e"
+  },
+  "thread_id": "01a17486-b174-79e1-9111-7ad35313bc7e",
+  "reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-patterns/SKILL.md",
+    "subskills/apple-hig-patterns/references/managing-accounts.md",
+    "subskills/apple-hig-patterns/references/modality.md",
+    "subskills/apple-hig-patterns/references/undo-and-redo.md",
+    "subskills/apple-hig-technologies/SKILL.md",
+    "subskills/apple-hig-technologies/references/apple-in-app-purchase.md"
+  ],
+  "required_reads": [
+    "SKILL.md",
+    "subskills/apple-hig-technologies/SKILL.md",
+    "subskills/apple-hig-technologies/references/apple-in-app-purchase.md"
+  ],
+  "routing": {
+    "missing": [],
+    "passed": true,
+    "unexpected_hig_reads": false
+  },
+  "artifacts": {
+    "result.md": {
+      "path": "coverage/behavior/topic-apple-in-app-purchase.baseline.r1.a1/artifacts/result.md",
+      "hash": "8213e846af9f278aa96266498a346b35886cb07d9836088fe24c117a19a26422"
+    }
+  },
+  "transcript": {
+    "path": "coverage/behavior/topic-apple-in-app-purchase.baseline.r1.a1/events.jsonl",
+    "hash": "ddee13f334d21271a818cc7a7a6e293f111c66c9c8c03d6d30fd450523f93494"
+  },
+  "checks": {
+    "discovery": {
+      "visible_hig_count": 14,
+      "expected_visible_hig_count": 14,
+      "unrelated_enabled": [],
+      "hidden_topics_visible": [],
+      "disabled_unrelated_count": 83
+    },
+    "missing_artifacts": [],
+    "changed_inputs": {
+      "interface.md": false
+    },
+    "adaptation_changed": true,
+    "passed": true,
+    "exit_code": 0,
+    "turn_completed": true,
+    "malformed_event_count": 0,
+    "forbidden_reads": [],
+    "package_changed": []
+  },
+  "baseline_commit": "a748d07",
+  "final_message": {
+    "path": "coverage/behavior/topic-apple-in-app-purchase.baseline.r1.a1/final-message.txt",
+    "hash": "29b53afd71b87deb723d06505ec2b38381352f6c2baf27113f56e10b7600352f"
+  }
+}

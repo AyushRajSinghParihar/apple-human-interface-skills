@@ -1,0 +1,29 @@
+{
+  "id": "topic-onboarding",
+  "kind": "topic",
+  "topic": "onboarding",
+  "family": "patterns",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Reduce first-run friction for an iPhone sketch journal. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: iOS. Eight forced tutorial pages precede a blank canvas; camera, microphone and location permissions are demanded at once though optional features use them later. Returning users see the same tutorial after every update."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch quick entry to a first meaningful sketch, optional contextual learning and just-in-time permission explanation, preserving skip/return and existing-user continuity.",
+      "hig_correctness": "Apply the onboarding guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch quick entry to a first meaningful sketch, optional contextual learning and just-in-time permission explanation, preserving skip/return and existing-user continuity.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch quick entry to a first meaningful sketch, optional contextual learning and just-in-time permission explanation, preserving skip/return and existing-user continuity.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

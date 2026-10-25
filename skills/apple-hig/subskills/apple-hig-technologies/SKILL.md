@@ -3,38 +3,58 @@ name: apple-hig-technologies
 description: Use when integrating Apple services or frameworks into an app or website, including Apple Pay, Wallet, App Clips, Siri, generative AI, machine learning, Game Center, HomeKit, health/research, AR, or media services.
 ---
 
-# Apple HIG: Technologies
+# Apple HIG: Integrate a capability into the product task
 
-Choose the technology by the user’s task and supported platform, then read its reference before designing the integration. Distinguish payment for digital content from physical goods/services, in-app identity from in-person verification, and system functionality from app customization. Preserve the system’s consent, branding, state, and recovery requirements. Use linked Apple implementation resources for API availability; the runtime package itself requires only reading local files.
+Use this family to select and compose topic procedures. Infer the platform and
+requested work from the supplied project; preserve its framework and constraints.
 
-## Article references
+## Work through the decision
 
-- [AirPlay](references/airplay.md)
-- [Always On](references/always-on.md)
-- [App Clips](references/app-clips.md)
-- [Apple In-App Purchase](references/apple-in-app-purchase.md)
-- [Apple Pay](references/apple-pay.md)
-- [Augmented reality](references/augmented-reality.md)
-- [CareKit](references/carekit.md)
-- [CarPlay](references/carplay.md)
-- [Game Center](references/game-center.md)
-- [Generative AI](references/generative-ai.md)
-- [HealthKit](references/healthkit.md)
-- [HomeKit](references/homekit.md)
-- [iCloud](references/icloud.md)
-- [ID Verifier](references/id-verifier.md)
-- [iMessage apps and stickers](references/imessage-apps-and-stickers.md)
-- [Live Photos](references/live-photos.md)
-- [Mac Catalyst](references/mac-catalyst.md)
-- [Machine learning](references/machine-learning.md)
-- [Maps](references/maps.md)
-- [NFC](references/nfc.md)
-- [Photo editing](references/photo-editing.md)
-- [ResearchKit](references/researchkit.md)
-- [SharePlay](references/shareplay.md)
-- [ShazamKit](references/shazamkit.md)
-- [Sign in with Apple](references/sign-in-with-apple.md)
-- [Siri](references/siri.md)
-- [Tap to Pay on iPhone](references/tap-to-pay-on-iphone.md)
-- [VoiceOver](references/voiceover.md)
-- [Wallet](references/wallet.md)
+1. Identify the product benefit and capability prerequisites before entering the technology-specific procedure. Avoid adding a system integration solely to decorate an existing flow.
+2. Define consent/account/capability availability and the meaningful result, cancel, failure and recovery paths applicable to that integration. Keep sensitive information and system ownership clear.
+3. Preserve supplied branding, hardware and platform qualifications. HIG states experience expectations; verify current APIs against implementation documentation when writing framework-specific code.
+4. Deliver an integration contract or correction in the existing stack, with source-supported choices, fallbacks and evidence limits. Do not claim a payment, health, spatial or connected-device runtime test from a static specimen.
+
+## Enter the topic procedure
+
+Read the selected topic’s SKILL.md before its supporting guidance. For a review,
+inspect actual evidence and return findings; for an implementation request, make
+the authorized change; for design or adaptation, produce a usable specification
+or patch. Load related topics only when the chosen procedure calls for them.
+
+- [AirPlay](.topics/apple-hig-airplay/SKILL.md)
+- [Always On](.topics/apple-hig-always-on/SKILL.md)
+- [App Clips](.topics/apple-hig-app-clips/SKILL.md)
+- [Apple In-App Purchase](.topics/apple-hig-apple-in-app-purchase/SKILL.md)
+- [Apple Pay](.topics/apple-hig-apple-pay/SKILL.md)
+- [Augmented reality](.topics/apple-hig-augmented-reality/SKILL.md)
+- [CareKit](.topics/apple-hig-carekit/SKILL.md)
+- [CarPlay](.topics/apple-hig-carplay/SKILL.md)
+- [Game Center](.topics/apple-hig-game-center/SKILL.md)
+- [Generative AI](.topics/apple-hig-generative-ai/SKILL.md)
+- [HealthKit](.topics/apple-hig-healthkit/SKILL.md)
+- [HomeKit](.topics/apple-hig-homekit/SKILL.md)
+- [iCloud](.topics/apple-hig-icloud/SKILL.md)
+- [ID Verifier](.topics/apple-hig-id-verifier/SKILL.md)
+- [iMessage apps and stickers](.topics/apple-hig-imessage-apps-and-stickers/SKILL.md)
+- [Live Photos](.topics/apple-hig-live-photos/SKILL.md)
+- [Mac Catalyst](.topics/apple-hig-mac-catalyst/SKILL.md)
+- [Machine learning](.topics/apple-hig-machine-learning/SKILL.md)
+- [Maps](.topics/apple-hig-maps/SKILL.md)
+- [NFC](.topics/apple-hig-nfc/SKILL.md)
+- [Photo editing](.topics/apple-hig-photo-editing/SKILL.md)
+- [ResearchKit](.topics/apple-hig-researchkit/SKILL.md)
+- [SharePlay](.topics/apple-hig-shareplay/SKILL.md)
+- [ShazamKit](.topics/apple-hig-shazamkit/SKILL.md)
+- [Sign in with Apple](.topics/apple-hig-sign-in-with-apple/SKILL.md)
+- [Siri](.topics/apple-hig-siri/SKILL.md)
+- [Tap to Pay on iPhone](.topics/apple-hig-tap-to-pay-on-iphone/SKILL.md)
+- [VoiceOver](.topics/apple-hig-voiceover/SKILL.md)
+- [Wallet](.topics/apple-hig-wallet/SKILL.md)
+
+## Completion evidence
+
+Report the concrete decisions or changes, their source support, and which checks
+passed, failed or were not executed. A source citation or a list of links is not
+the requested work product. Retain platform exceptions and unresolved source
+conflicts; the absence of a platform subsection does not establish support.

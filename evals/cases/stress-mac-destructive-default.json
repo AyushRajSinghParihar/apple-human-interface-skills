@@ -1,0 +1,36 @@
+{
+  "id": "stress-mac-destructive-default",
+  "kind": "stress",
+  "topic": null,
+  "family": null,
+  "expected_topics": [
+    "buttons",
+    "alerts",
+    "undo-and-redo",
+    "modality"
+  ],
+  "mode": "review",
+  "baseline_control": false,
+  "invoke": true,
+  "prompt": "Use $apple-hig. Review the Return-key and confirmation behavior of these three Mac deletion flows. We need a nuanced correction rather than one rule for every red button. Read interface.md. write result.md with the concrete result, decisions, acceptance checks and what evidence is still missing.",
+  "input_files": {
+    "interface.md": "Platform: macOS. Flow A: routinely removing one photo has working Undo but always interrupts with an alert. Flow B: person deliberately chooses Empty Archive; deletion cannot be undone. Confirmation says Empty Archive? with Cancel and Empty Archive; Empty Archive is the normal default Return action. Flow C: opening a harmless inspector unexpectedly shows Delete All as default and Return destroys unrelated data. No runtime is provided."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Judge each of A/B/C separately, preserving deliberate irreversible intent while fixing routine and unexpected destructive behavior.",
+      "hig_correctness": "Load and reconcile button general default advice with the alerts explicit deliberate-destruction exception; do not label B automatically invalid.",
+      "artifact_usefulness": "Deliver a task-specific corrected artifact or evidence-grounded audit with worked states/transitions and observable checks; a generic checklist is insufficient.",
+      "conditions_accessibility": "Require clear consequences and cancellation for irreversible action, Undo for A and no accidental unexpected destruction for C.",
+      "evidence_honesty": "Do not invent native runtime results, unseen semantics, device support, measurements or source authority; distinguish source conflict and unresolved product constraints."
+    },
+    "critical_errors": [
+      "Declares destructive actions can never be default and rejects B solely for its deliberate normal Return default.",
+      "Approves C unexpected default destruction.",
+      "Claims Return behavior tested on Mac."
+    ]
+  }
+}

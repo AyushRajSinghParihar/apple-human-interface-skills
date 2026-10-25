@@ -1,0 +1,28 @@
+{
+  "id": "topic-designing-for-visionos",
+  "kind": "topic",
+  "topic": "designing-for-visionos",
+  "family": "getting-started",
+  "mode": "design",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Plan our first visionOS museum archive experience from a tablet catalog. Choose presentation and comfortable input separately for browsing and inspecting a sculpture. Read interface.md. Produce a concrete revised interaction specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: visionOS. Tablet catalog has search, list, detail and a rotatable sculpture. Port proposal enters Full Space at launch, pins the search field to the head, requires raised arms for every scroll and puts the close control behind the viewer. Sculpture inspection currently spins the entire environment. Visitors may be seated. No native build or headset is available."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Specify entry in Shared Space, bounded browsing and an intentional optional immersion/3D-inspection transition with obvious return and a worked browse-to-inspect sequence.",
+      "hig_correctness": "Apply the designing-for-visionos guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Specify entry in Shared Space, bounded browsing and an intentional optional immersion/3D-inspection transition with obvious return and a worked browse-to-inspect sequence.",
+      "conditions_accessibility": "Use resting-hand indirect input and comfortable stationary viewing; distinguish windows/volumes/Full Space without claiming headset verification; include alternative accessibility input planning.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

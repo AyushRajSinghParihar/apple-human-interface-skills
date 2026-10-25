@@ -1,0 +1,18 @@
+{
+  "topic": "text-fields",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:53:13.545755+00:00",
+  "status": "reviewed",
+  "source_hash": "a0b575085d2380e038d4b610e51d0fac341896dea802e5b2c4c86270701a3ccc",
+  "skill_hash": "ad5650eebf0c923980f1e3b05793af793c69f143091174a10981789a2ca70f57",
+  "reference_hash": "14f9e367004700afec59174b33106efcca4e2ece8d05c4f530f1624c76b21b1b",
+  "evidence": {
+    "decision": "Chooses short entry versus extended text/selection and resolves purpose, secure content, validation moment and locale semantics.",
+    "artifact": "Requires input changes or a field contract naming label, type, validation, feedback, formatting and focus behavior.",
+    "transformation": "Price example replaces disappearing placeholder purpose and per-keystroke decimal rejection with persistent labeling and locale-aware partial/committed validation.",
+    "verification": "Checks empty/partial/invalid/valid input, locales, secrets, Tab order and long values; fails meaning-changing coercion or lost valid entry.",
+    "applicability": "Preserves useful validation timing, iOS/iPad Clear, Mac suggestion/free-entry option and reduced TV/watch typing without claiming native execution.",
+    "handoffs": "Loads entering-data for form strategy, virtual-keyboards for layout and text-views for extended content.",
+    "distinctiveness": "Partial versus committed input and persistent purpose are consequential text-field choices tied to an actual entered-value failure."
+  }
+}

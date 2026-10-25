@@ -1,0 +1,19 @@
+{
+  "topic": "outline-views",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:46:17.559705+00:00",
+  "status": "reviewed",
+  "source_hash": "748a1a96c1c275a9551ab6c145eba8dc91b6c4528d3298d2ecbaa0406551c8d8",
+  "skill_hash": "0c3a67c21c8cfb08e326b78c49e872b504b18a6be7f654fc3d79297a2e99cc09",
+  "reference_hash": "0fcd75c3799fce70c982fe0725e932746841f46ccbaa833ba62bce4027ffff39",
+  "evidence": {
+    "decision": "Selects hierarchy versus flat table, keeps ancestry in the primary column and sorts siblings while preserving expansion and editing/open semantics.",
+    "artifact": "Delivers tree/sort/selection artifact plus sibling-order, restored-expansion and editing contracts.",
+    "transformation": "Project-size sort stops moving children above parents and sorts within each folder while restoring expanded branches after return.",
+    "verification": "Tests recursive collapse, duplicate names, reversal, resize and selected removal; fails orphans, lost branch state and unexpected edit/open action.",
+    "applicability": "Keeps conventional outline scope macOS-only, adapts other platforms and does not infer operational accessibility from indented rows.",
+    "handoffs": "Routes traversal without attributes to Column views and coordinated detail to Split views.",
+    "distinctiveness": "Ancestry-preserving sort, recursive expansion and click semantics cannot be exchanged for an ordinary table checklist."
+  },
+  "additional_references": []
+}

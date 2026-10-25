@@ -1,0 +1,19 @@
+{
+  "topic": "toolbars",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:48:16.849931+00:00",
+  "status": "reviewed",
+  "source_hash": "c04b6095f1ebd0e851672c6127d43326eb2f204a45f795f598cb3cbf52866b93",
+  "skill_hash": "cd3b123f797a9a745aaeabc94219fd7e4bf790d118ab7591a73e9c538528a783",
+  "reference_hash": "eeb849eb40705b713a7d53dd78284b13b587a07da8e66bc40921b1c46624f60e",
+  "evidence": {
+    "decision": "Prioritizes navigation/completion, separates destinations and Back/Close, defines overflow/customization rules and restoration across available width.",
+    "artifact": "Requires placement/priority/overflow/state specification and wide/narrow/hidden/customized access map.",
+    "transformation": "Mac diagram toolbar separates Close from tools, removes duplicate manual/system overflow and keeps Save through the menu bar.",
+    "verification": "Tests localized titles, overflow, restoration and editing exit; fails inaccessible critical actions, dismissal confusion and toolbar-only Mac commands.",
+    "applicability": "Preserves Mac menu parity, iPad shared tab region, standard visionOS bottom/minimum-width constraints and Watch persistent-versus-scrolling placement.",
+    "handoffs": "Routes destinations to Tab bars, Mac alternate access to The menu bar and genuinely custom spatial tools to Ornaments.",
+    "distinctiveness": "Width-dependent command access, noncustomizable navigation and platform overflow behavior drive concrete toolbar changes."
+  },
+  "additional_references": []
+}

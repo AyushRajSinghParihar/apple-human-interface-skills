@@ -1,0 +1,19 @@
+{
+  "topic": "pop-up-buttons",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:48:16.849761+00:00",
+  "status": "reviewed",
+  "source_hash": "bcc16f045cb43f6f7cd3d6667bba5fef47d61a58ead442603e4a3f20788b7761",
+  "skill_hash": "47b8bee239072f9e5548dff510111d4ad2c07a815262aed8a2c655a74d5e724b",
+  "reference_hash": "c9abe1db558c39adb554fd7eab5c29e397d03b65404f1a8ea66fcbada026567e",
+  "evidence": {
+    "decision": "Distinguishes a flat mutually exclusive value from commands/multiselect/submenus and defines displayed default, committed state and Custom cancellation.",
+    "artifact": "Delivers a label/options/default/commit artifact with explicit persistence and preview semantics.",
+    "transformation": "Mixed Options/Portrait/Landscape/Print becomes an Orientation pop-up reflecting stored selection and a separate direct Print command.",
+    "verification": "Checks repeated/default/external changes, Custom cancellation and long labels; fails stale displayed values and commands disguised as choices.",
+    "applicability": "Scopes compact iPad modal substitution and TV/Watch absence; does not assert automatic persistence or native keyboard behavior.",
+    "handoffs": "Hands command lists to Pull-down buttons, alternate choice surfaces to Pickers and organization to Menus.",
+    "distinctiveness": "Single stored value, hidden option purpose and cancellation-before-commit make this a real selection procedure."
+  },
+  "additional_references": []
+}

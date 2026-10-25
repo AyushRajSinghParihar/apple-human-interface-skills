@@ -1,0 +1,67 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,62 @@
+-Platform: watchOS. Picker contains 1,440 unlabeled minute options and resets on each Crown turn; a blank row means Every day. Product needs a time and a small named repeat schedule.
+\ No newline at end of file
++# Watch medication reminder — revised specification
++
++Platform: watchOS. Task: edit one medication reminder's time of day and a small named repeat schedule. No framework is specified. This is a control and state contract, not SDK code.
++
++## Summary and editing flow
++
++The reminder editor shows the medication name, `Time` with a localized time value, and `Repeat` with the selected schedule name. Each labeled row opens its editor in one tap. Keep navigation one level deep. Use system watchOS controls; allow vertical scrolling when content does not fit.
++
++The product needs a recurring time, not a calendar date or duration. Do not add a date/calendar picker. A start date or one-off reminder would require a separate product requirement.
++
++## Time control
++
++Replace the 1,440 unlabeled minute options with a watchOS wheel-style time editor. Provide clearly captioned Hour and Minute components and an AM/PM component when the locale uses a 12-hour clock. Show the complete localized time above the wheels. Use locale conventions for component order and displayed digits.
++
++- Preserve all 1,440 daily minute values: minutes 00–59 in one-minute steps; hours 00–23 for 24-hour display or 1–12 plus AM/PM for 12-hour display. One minute divides 60 and preserves existing precision.
++- Store hour 0–23 and minute 0–59 separately from localized labels. This is a recurring local wall-clock time, not an absolute timestamp or a countdown.
++- Tapping a component makes it the sole active wheel, indicated by the system selection outline. Crown rotation adjusts only that component; it never resets the draft, changes Repeat, or scrolls the enclosing page at the same time. Touch dragging provides equivalent wheel selection.
++- Retain system wheel behavior and default haptic feedback where appropriate. Slow Crown movement must permit selecting each minute; faster movement may traverse values more quickly. Do not repurpose Crown presses.
++- Component boundaries wrap within the selected component without carrying to another: minute 59 → 00 leaves hour and AM/PM unchanged. Display the resulting complete time immediately.
++
++## Repeat control
++
++Use a labeled system single-selection picker presented as a short navigation-link list, with the current value visible in the summary. Choices appear in this fixed order:
++
++| Stored identifier | Visible label | Eligible local days |
++| --- | --- | --- |
++| daily | Every day | Monday–Sunday |
++| weekdays | Weekdays | Monday–Friday |
++| weekends | Weekends | Saturday–Sunday |
++
++These three presets are a concrete product assumption for this revision, not an Apple requirement or a clinical recommendation. Localize names and include the day range beneath Weekdays and Weekends so regional interpretations are explicit. Every option has visible text; no blank row, placeholder, or implicit “Every day.” Show the selected option with the system selection indicator. Selecting an option updates the draft and returns to the summary. Back without selecting preserves the prior draft.
++
++The short named list avoids a numeric frequency wheel and permits direct touch selection. In the summary, Crown rotation scrolls only; merely focusing Repeat must not scrub its value. Within the opened list, rotation navigates choices; selection requires activation. If the chosen native navigation-link picker scrubs the bound value from its closed row, isolate it in the explicit Repeat editor so it cannot change the summary inadvertently.
++
++## State, defaults, and committing
++
++- On edit, initialize the draft once from the saved hour, minute, and repeat identifier. Crown events mutate that draft rather than reconstructing it. Reopening either subeditor starts at its current draft value.
++- For a new reminder, propose the current local time rounded down to the minute and Every day; display both for review. This is a proposed reminder configuration, not dosage advice.
++- Time editor `Done` accepts its local changes into the reminder draft; `Cancel` or Back restores the time at entry. These actions are system text buttons. Repeat selection changes only the draft.
++- The summary has a full-width primary `Save` button and a secondary `Cancel` button, vertically arranged with consistent peer heights and separated targets. Use standard watchOS inline button styles. Save commits the complete draft; Cancel discards it. No wheel movement schedules a reminder.
++- Save returns to reminder detail only after persistence succeeds. On failure, retain the draft, explain that saving failed, and offer Save again. Prevent duplicate saves while one is pending. Cancel never changes the saved reminder.
++- Retain draft values, active component, and navigation position across wrist lowering and interruptions. Returning must not silently save, reset, or replace user input with a default.
++- Accept only integer hours 0–23, minutes 0–59, and the three identifiers. For invalid incoming data, retain the original record, identify the affected field, and require explicit correction before Save. Do not clamp or reinterpret it silently. A legacy blank repeat value maps to daily only when the legacy schema explicitly defines blank as Every day, as this brief does; do not treat arbitrary missing/corrupt data as daily.
++
++## Time semantics and scheduling boundary
++
++Use the watch's current local time zone for future occurrences; a time-zone change preserves the chosen wall-clock hour/minute and named day set. Locale or calendar display changes reformat the same stored values without changing the schedule. Weekday membership is defined by the day sets above.
++
++For this specification, the next reminder is the next eligible future local occurrence after Save; do not send a catch-up reminder for a time already passed. On a daylight-saving gap, skip a nonexistent occurrence; on a repeated local time, deliver once at the first occurrence. These are explicit product policies requiring scheduler validation, not HIG rules. Display the next occurrence on reminder detail after Save so the outcome can be reviewed. Medication identity and other reminder data remain unchanged.
++
++## Acceptance contract
++
++1. A saved 08:30 Every day opens with Hour 8, Minute 30, AM where applicable, and Every day selected. Adjusting Minute to 31 retains the hour and repeat choice through subsequent Crown events.
++2. Every daily minute is representable. Check 00:00, 11:59, noon, and 23:59 in 12- and 24-hour locales; minute wrap does not carry into the hour. Noon and midnight retain the right stored hour when formatting changes.
++3. Every day, Weekdays, and Weekends always have visible labels and exactly one selected value. Scrolling the summary or Repeat list does not commit a selection.
++4. Done then Save persists the displayed time and repeat identifier together. Time Cancel, summary Cancel, saving failure, and interruptions follow the state rules above.
++5. Invalid values cannot be silently saved; the documented legacy blank becomes explicit Every day. Locale, time-zone, Friday/weekend, DST gap, and repeated-time cases follow the stated semantics.
++6. On a supported Watch, verify readable captions, unclipped localized labels, distinct selectable targets, touch equivalents, precise Crown selection, default haptic suitability, and no simultaneous page scrolling and value adjustment. These require runtime evidence.
++
++## Design basis
++
++The local HIG snapshot supports Crown-friendly watchOS wheels and navigation-link pickers, logical labeled values, and locale-aware time presentation: [Pickers — watchOS and best practices](https://developer.apple.com/design/human-interface-guidelines/pickers#watchOS). Keep the wrist task focused and navigation shallow: [Designing for watchOS](https://developer.apple.com/design/human-interface-guidelines/designing-for-watchos#Best-practices). Separate Crown adjustment from navigation and provide touch equivalents: [Digital Crown — Apple Watch](https://developer.apple.com/design/human-interface-guidelines/digital-crown#Apple-Watch). Use system buttons and explicit Save/Cancel outcomes: [Buttons](https://developer.apple.com/design/human-interface-guidelines/buttons#watchOS). Exact presets, defaults, commit boundaries, wrapping, and scheduling policies above are product decisions.

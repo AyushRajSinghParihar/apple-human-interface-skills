@@ -1,0 +1,19 @@
+{
+  "topic": "column-views",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:46:17.559193+00:00",
+  "status": "reviewed",
+  "source_hash": "bd7537ba600a7753f40ab8ee5ed6da010ee85407cde7e1beebe563a5ed399af7",
+  "skill_hash": "387b75eec13675082acf3cf6c20a68796354a2f192b07f8d6174b6ff6b7a9753",
+  "reference_hash": "c0818ace9c92a8187037653d1f63fddb5d8d1d1cd89824cf759ee2bec25190f2",
+  "evidence": {
+    "decision": "Chooses columns for deep bidirectional traversal without attribute sorting and defines ancestor changes that invalidate descendant/preview identity.",
+    "artifact": "Requires a root/parent/leaf selection-to-column contract, width policy and meaningful preview contents.",
+    "transformation": "Asset browser replaces stale last-folder entry/leaf preview with visible root-first ancestry and recomputed downstream columns.",
+    "verification": "Traverses siblings/root/leaves and resizes long names; fails detached descendants, incorrect preview identity or absent root route.",
+    "applicability": "Explicitly macOS-only; evaluates supported split-view adaptation elsewhere without equating framework availability with HIG support.",
+    "handoffs": "Uses Outline views for sorted attributes and Split views for cross-platform hierarchy/detail coordination.",
+    "distinctiveness": "Column creation/clearing and leaf-preview identity are consequential browser behaviors beyond generic layout advice."
+  },
+  "additional_references": []
+}

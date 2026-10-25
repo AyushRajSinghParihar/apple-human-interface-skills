@@ -1,0 +1,56 @@
+{
+  "id": "topic-live-activities",
+  "kind": "topic",
+  "topic": "live-activities",
+  "family": "system-experiences",
+  "mode": "review",
+  "baseline_control": true,
+  "prompt": "Use $apple-hig to help with this task: Review a delivery Live Activity proposed for iPhone Lock Screen. Read interface.md. Audit the supplied interface; rank verified findings and show corrected behavior. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: iOS. It starts automatically for promotional offers with no active delivery, shows the customer’s full address on Lock Screen, labels a 40-minute-old estimate Now, keeps displaying Delivered forever and puts a complete shopping catalog inside expanded content."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Find the five seeded purpose/privacy/freshness/lifecycle/scope defects, then specify bounded delivery states and useful Lock Screen/Dynamic Island hierarchy.",
+      "hig_correctness": "Apply the live-activities guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Find the five seeded purpose/privacy/freshness/lifecycle/scope defects, then specify bounded delivery states and useful Lock Screen/Dynamic Island hierarchy.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Find the five seeded purpose/privacy/freshness/lifecycle/scope defects, then specify bounded delivery states and useful Lock Screen/Dynamic Island hierarchy.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ],
+    "required_findings": [
+      {
+        "id": "1",
+        "description": "Promotion without a bounded active task is an inappropriate activity purpose.",
+        "critical": true
+      },
+      {
+        "id": "2",
+        "description": "Full customer address exposes sensitive Lock Screen content.",
+        "critical": true
+      },
+      {
+        "id": "3",
+        "description": "Old estimate is falsely presented as current.",
+        "critical": true
+      },
+      {
+        "id": "4",
+        "description": "Completed activity is never ended.",
+        "critical": false
+      },
+      {
+        "id": "5",
+        "description": "Catalog content exceeds immediately useful bounded-task scope.",
+        "critical": false
+      }
+    ],
+    "review_threshold": "Find at least four of five seeded defects, including every critical defect; no invented high-severity finding."
+  }
+}

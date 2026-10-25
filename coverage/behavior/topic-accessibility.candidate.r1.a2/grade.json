@@ -1,0 +1,31 @@
+{
+  "record_hash": "9e3610088394c79cb0ce95dec99a2468058b6dbc3946e420a73e2fd27c230474",
+  "case_hash": "6e90b4ce7869145374947b80acd69d47d9af9f29869cde06cf6d57d360c55be1",
+  "grader": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:28:14.122655+00:00",
+  "scores": {
+    "task_completion": 2,
+    "hig_correctness": 2,
+    "artifact_usefulness": 2,
+    "conditions_accessibility": 2,
+    "evidence_honesty": 2
+  },
+  "evidence": {
+    "task_completion": "Reports all five frozen barriers and corrects payment naming, sound-only failure, 200% clipping, color-only availability and three-finger-only removal, with prioritized task flow.",
+    "hig_correctness": "Correctly distinguishes 12pt from an 11pt minimum violation, applies 17pt default/200% guidance and keeps Assistive Access-only two-confirmation rules out of standard checkout.",
+    "artifact_usefulness": "Provides labelled departure/traveller/Pay contracts and failure/unknown-payment pseudocode, a concrete before/after and a practical whole-checkout acceptance matrix.",
+    "conditions_accessibility": "Addresses scalable reflow, noncolor and nonsound meaning, alternate activation and supported assistive paths; reports geometry, contrast and actual focus as unknown rather than inferred defects.",
+    "evidence_honesty": "Explicitly confines verified findings to the supplied specification, discloses absent Typography procedure, preserves source contrast-table scope and never claims runtime, native or formal conformance success."
+  },
+  "critical_errors": [],
+  "found_defect_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "invented_high_severity_findings": [],
+  "verdict": "pass",
+  "blinding": "development pilot; candidate identity visible"
+}

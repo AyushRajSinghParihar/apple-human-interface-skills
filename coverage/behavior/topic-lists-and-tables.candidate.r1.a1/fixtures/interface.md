@@ -1,0 +1,1 @@
+Platform: macOS. Column headers are missing; quantity values are aligned inconsistently so comparisons fail; sorting is indicated nowhere; selecting a row activates Delete immediately; an empty filtered list is an unexplained blank screen. No runtime or screenshot exists.

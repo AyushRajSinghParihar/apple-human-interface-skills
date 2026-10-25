@@ -1,0 +1,56 @@
+{
+  "id": "topic-apple-in-app-purchase",
+  "kind": "topic",
+  "topic": "apple-in-app-purchase",
+  "family": "technologies",
+  "mode": "review",
+  "baseline_control": true,
+  "prompt": "Use $apple-hig to help with this task: Review the premium recipe purchase flow before implementation. Read interface.md. Audit the supplied interface; rank verified findings and show corrected behavior. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: iOS. Paywall says Free Trial but omits renewal price and period. Restore purchases is absent. The locked recipe button looks like a one-time purchase yet starts an annual subscription. Dismissing the paywall removes saved free recipes. Signup has no Terms or Privacy links."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Provide truthful product and subscription choices, visible price/terms and restoration path, preserve free content and cancellation; do not offer legal/App Review approval or assert payment processing success.",
+      "hig_correctness": "Apply the apple-in-app-purchase guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Provide truthful product and subscription choices, visible price/terms and restoration path, preserve free content and cancellation; do not offer legal/App Review approval or assert payment processing success.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Provide truthful product and subscription choices, visible price/terms and restoration path, preserve free content and cancellation; do not offer legal/App Review approval or assert payment processing success.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ],
+    "required_findings": [
+      {
+        "id": "1",
+        "description": "Trial omits standard renewal price and period.",
+        "critical": true
+      },
+      {
+        "id": "2",
+        "description": "Existing purchasers lack sign-in/restore path.",
+        "critical": true
+      },
+      {
+        "id": "3",
+        "description": "One-time-looking recipe choice actually initiates an annual subscription.",
+        "critical": true
+      },
+      {
+        "id": "4",
+        "description": "Dismissing purchase removes already available free content.",
+        "critical": false
+      },
+      {
+        "id": "5",
+        "description": "Signup omits required Terms and Privacy links.",
+        "critical": false
+      }
+    ],
+    "review_threshold": "Find at least four of five seeded defects, including every critical defect; no invented high-severity finding."
+  }
+}

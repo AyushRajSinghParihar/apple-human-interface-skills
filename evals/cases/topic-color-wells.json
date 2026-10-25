@@ -1,0 +1,29 @@
+{
+  "id": "topic-color-wells",
+  "kind": "topic",
+  "topic": "color-wells",
+  "family": "selection-and-input",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Repair custom accent-color selection in a Mac diagram editor. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: macOS. A tiny unlabeled square immediately randomizes every shape on click. Multiple selected shapes with different colors appear as black. Cancel in the color panel still commits changes. Keyboard users cannot reach the control."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Define a labelled color well with mixed-value state, scoped selection editing, preview/commit/cancel behavior and keyboard access; distinguish color choice from applying a random operation.",
+      "hig_correctness": "Apply the color-wells guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Define a labelled color well with mixed-value state, scoped selection editing, preview/commit/cancel behavior and keyboard access; distinguish color choice from applying a random operation.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Define a labelled color well with mixed-value state, scoped selection editing, preview/commit/cancel behavior and keyboard access; distinguish color choice from applying a random operation.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "topic": "digit-entry-views",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:53:13.545370+00:00",
+  "status": "reviewed",
+  "source_hash": "5982f6ced0c0bacd533b33d8538fb7b278a880c1fcd8d6ddfd4f95255d82a7dc",
+  "skill_hash": "dfbff4c6573929590f2e358c240f12cab026e3350187a855ad7452375c43a327",
+  "reference_hash": "4d080a5de979386966658fc56e8b66095ca622512270174ac00ed7828191f5da",
+  "evidence": {
+    "decision": "Separates numeric sequences from quantities and chooses secure fullscreen TV entry with an explained purpose.",
+    "artifact": "Requires entry/validation implementation or a prompt/field/result-state specification with correction and cancellation.",
+    "transformation": "Parental PIN example repairs unexplained Number, exposed digits and lost leading zeroes by naming the task, masking entry and preserving0042.",
+    "verification": "Checks exact length, leading zeroes, rejected input, correction and cancellation; fails exposed or altered sequences.",
+    "applicability": "Explicit tvOS-only component scope and separation of UI lifecycle from authentication protocol prevent unsupported security/runtime promises.",
+    "handoffs": "Loads virtual-keyboards for TV variants and privacy for sensitive-information handling rather than broadening authorization scope.",
+    "distinctiveness": "Exact digit-sequence identity, purpose explanation and secure masking make the workflow distinct from generic numeric-field guidance."
+  }
+}

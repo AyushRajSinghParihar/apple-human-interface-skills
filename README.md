@@ -1,169 +1,269 @@
 # Apple Human Interface Skills
 
-**One skill. The Apple Human Interface Guidelines, routed by the task at hand.**
+**Give your agent a procedure for the interface decision in front of it.**
 
-An independent, portable Agent Skills package for designing, implementing, and
-reviewing Apple interfaces. Start with `apple-hig`; it selects focused topic skills
-and article references instead of loading an entire design manual into context.
+[![Validate skill package](https://github.com/AyushRajSinghParihar/apple-human-interface-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/AyushRajSinghParihar/apple-human-interface-skills/actions/workflows/validate.yml)
 
-The current source inventory contains **158 articles across 13 topic families**,
-plus 15 organizational pages. Guidance is written originally, with official
-sources, platform differences, factual specifications, and supplementary visual
-explanations.
+One portable `apple-hig` mega-skill routes to **158 topic procedures** across
+**13 families**, backed by the current English Apple Human Interface Guidelines.
+Each procedure teaches decisions, a concrete work product, a worked correction,
+and observable checks. The detailed source references remain available on demand.
 
-**Coverage is audited, not assumed.** See the generated [coverage report](coverage/REPORT.md)
-for the snapshot date, article review results, and remaining work. File or route
-counts alone do not establish complete substantive coverage.
+Examples and pseudocode are **framework agnostic**. The agent preserves your
+existing framework, architecture, and product requirements.
 
-## Install
+> The operational topic upgrade is being verified; final outcomes and independent
+> grades for the 195-execution release suite are pending. Source coverage and topic
+> capability are separate verdicts; the evidence table below reports each one.
 
-Install on the machine where your coding agent runs. The package consumes only
-local Markdown files; it does not require Python, an API key, a browser, or a
-network connection for ordinary use.
+## From a request to useful work
+
+```text
+Use $apple-hig to review this iPad editor footer. Delete is the default,
+all four buttons have equal prominence, and repeated Publish taps start
+multiple uploads. Give us a concrete correction and checks we can execute.
+```
+
+The workflow inspects the supplied evidence, classifies the commands, resolves
+roles and prominence, specifies pending/result/recovery behavior, and produces
+an action contract with source-qualified checks. It distinguishes an observed
+specification defect from a device test that still needs to happen.
+
+The recorded [artifact evaluations](coverage/behavior/) contain the actual
+prompts, file-read traces, outputs, failures, and independent grades. A directory
+entry alone is not a passing result; use the verification ledger below.
+
+## What you get
+
+| Request | Work product |
+|---|---|
+| **Design** a new surface | An implementable hierarchy, interaction/state contract, and acceptance scenarios |
+| **Implement** a correction | Authorized changes in the supplied project's stack, with relevant verification |
+| **Review** a screen, flow, specification, or code | Evidence-backed findings, consequences, source support, and concrete corrections |
+| **Adapt** an experience | A patch or before/after specification that preserves the product task while applying platform differences |
+
+A topic procedure must make a consequential decision. Buttons distinguishes an
+immediate command from persistent selection; Modality resolves task scope and
+exit behavior; Widgets chooses useful glanceable content and defines freshness,
+privacy, and deep links. These procedures link to source details after guiding
+how to use them.
+
+## Install in a minute
+
+Install on the machine **where your coding agent runs**. In a remote Linux/Mac
+setup, these commands run on the **THINKBOOK**. A copied installation on a Mac
+works when the agent itself runs there.
+
+The operational upgrade is being published incrementally on
+`feat/operational-topic-skills` while verification continues. The command below
+installs that preview; the default branch remains the original reference package
+until the release checks pass.
 
 ```bash
-git clone https://github.com/AyushRajSinghParihar/apple-human-interface-skills.git
+git clone --branch feat/operational-topic-skills https://github.com/AyushRajSinghParihar/apple-human-interface-skills.git
 cd apple-human-interface-skills
-```
-
-For **Codex**, link the complete package into the user skills directory:
-
-```bash
 mkdir -p ~/.agents/skills
-ln -s "$PWD/skills/apple-hig" ~/.agents/skills/apple-hig
+skill_link="$HOME/.agents/skills/apple-hig"
+if [ -e "$skill_link" ] || [ -L "$skill_link" ]; then
+  printf '%s\n' "Inspect the existing installation: $skill_link"
+else
+  ln -s "$PWD/skills/apple-hig" "$skill_link"
+fi
 ```
 
-For **Claude Code**, use its personal skills directory:
+Those are the Codex user-skill paths. The guard leaves an existing file, directory,
+or symlink untouched, including a dangling symlink. Restart or refresh skill
+discovery if the new skill does not appear.
+
+For Claude Code, use the same complete package in its personal directory:
 
 ```bash
 mkdir -p ~/.claude/skills
-ln -s "$PWD/skills/apple-hig" ~/.claude/skills/apple-hig
+skill_link="$HOME/.claude/skills/apple-hig"
+if [ -e "$skill_link" ] || [ -L "$skill_link" ]; then
+  printf '%s\n' "Inspect the existing installation: $skill_link"
+else
+  ln -s "$PWD/skills/apple-hig" "$skill_link"
+fi
 ```
 
-If the destination already exists, inspect it before replacing it. A full folder
-copy works too. For project-scoped installation, copy the complete `apple-hig`
-folder into the agent's project skills directory. Other Agent Skills clients can
-use the same folder; follow that client's discovery rules.
+A full folder copy also works. Preserve the whole folder, including its hidden
+`.topics` directories. For a project installation, place the complete bundle in
+that client's project skills directory. Ordinary skill use needs no Python,
+API key, browser, authoring cache, or package-specific runtime.
 
-Restart or refresh the agent's skill discovery after installation. Use `$apple-hig`
-in Codex, `/apple-hig` in Claude Code, or ask explicitly to apply Apple HIG.
-Runtime details: [Codex skills](https://learn.chatgpt.com/docs/build-skills),
-[Claude Code skills](https://code.claude.com/docs/en/skills).
-
-## Try it
+Confirm discovery by starting your client and asking:
 
 ```text
-Use $apple-hig to review this iPadOS sidebar and toolbar for resizing,
-keyboard access, and large text. Cite the relevant HIG guidance.
+Use $apple-hig to explain which installed topic procedure you would use
+for sheet dismissal with unsaved edits. Read it and identify the artifact
+and checks it requires.
 ```
 
-```text
-Use $apple-hig to adapt this playback interface for Apple TV and Vision Pro.
-Explain how focus, input, materials, and navigation should differ.
+In Claude Code, use `/apple-hig`. The [Codex installation record](coverage/client-integration/symlink-path-spaces/record.json)
+identifies the tested client version and package dependencies. That smoke tested
+an earlier router revision; a final-router smoke is pending. Claude runtime remains
+unverified because the installed client is unauthenticated. Format compatibility
+does not establish runtime support for a client that has not been exercised.
+
+[Codex skill documentation](https://learn.chatgpt.com/docs/build-skills) ·
+[Claude Code skill documentation](https://code.claude.com/docs/en/skills)
+
+## How routing works
+
+```mermaid
+flowchart LR
+    A[Your request and project evidence] --> B[apple-hig mega-skill]
+    B --> C[Relevant family route]
+    C --> D[Topic procedure]
+    D --> E[Decisions and concrete artifact]
+    D --> F[Source reference and visual explanation]
+    E --> G[Observable checks and honest limits]
 ```
 
-```text
-Use $apple-hig to design an Arabic reading app for iPhone and Mac.
-Check layout direction, typography, accessibility, and navigation.
-```
+The root and 13 family entry points are discoverable. The 158 topic skills live
+under `.topics/` and are loaded explicitly by relative path. This keeps their
+full instructions and metadata out of initial discovery on the tested Codex
+version. They are real `SKILL.md` procedures, distributed as part of this bundle.
 
-The router reads the relevant family entry points and article files. Nested
-subskills are **explicitly loaded by relative path**; the package does not assume
-that every agent automatically discovers nested skills as separate commands.
+Exact-topic lookup enters the procedure first. The agent then reads its supporting
+reference and conditional handoffs. It does not load all 158 topics for a narrow
+question. Paths resolve from the installed package, independent of the shell's
+working directory.
 
-## What's inside
+Routing also uses the meaning of the request. The topic index includes each
+procedure's trigger description, so everyday product tasks can match guidance
+without naming an Apple component or framework. The agent reads the owning family
+and matching procedure, then adds procedures for the task's other material
+decisions, such as platform adaptation, privacy, or accessibility. Selecting a
+technology topic does not require replacing the project's framework.
 
-| Family | Topics include | Articles |
+| Family | Decisions covered | Topics |
 |---|---|---:|
-| Getting started | Six platforms, principles, games, device adaptation | 9 |
-| Foundations | Accessibility, typography, layout, color, materials, privacy, RTL | 18 |
-| Patterns | Onboarding, accounts, loading, feedback, search, sharing, media | 25 |
-| Content | Charts, image views, text views, web views | 4 |
-| Layout and organization | Lists, collections, split views, tab views, grouping | 10 |
-| Menus and actions | Buttons, menus, toolbars, menu bar, ornaments | 12 |
-| Navigation and search | Sidebars, tab bars, search fields, path/token controls | 5 |
-| Presentation | Alerts, sheets, popovers, panels, scrolling, windows | 8 |
-| Selection and input | Fields, pickers, sliders, toggles, selection controls | 11 |
-| Status | Activity rings, gauges, progress, ratings | 4 |
-| System experiences | Widgets, Live Activities, notifications, snippets | 10 |
-| Inputs | Touch, focus, keyboard, pointer, eyes, gestures, sensors | 13 |
-| Technologies | CarPlay, Siri, VoiceOver, payments, AI, system integrations | 29 |
+| Getting started | Platform conventions, principles, games, device adaptation | 9 |
+| Foundations | Accessibility, hierarchy, typography, color, materials, privacy, RTL | 18 |
+| Patterns | End-to-end flows, interruption, recovery, accounts, media, feedback | 25 |
+| Content | Charts, images, text, and embedded web content | 4 |
+| Layout and organization | Information hierarchy, containers, selection, adaptation | 10 |
+| Menus and actions | Commands, roles, discoverability, menus, toolbars, ornaments | 12 |
+| Navigation and search | Destinations, search scope, state, and restoration | 5 |
+| Presentation | Task scope, interruption, anchoring, and dismissal | 8 |
+| Selection and input | Value domains, precision, validation, and correction | 11 |
+| Status | Honest progress, values, ratings, and Activity goals | 4 |
+| System experiences | Surface choice, freshness, privacy, and system-owned content | 10 |
+| Inputs | Targeting, focus, activation, reserved behaviors, and alternatives | 13 |
+| Technologies | Capability prerequisites, integration, consent, and recovery | 29 |
 
-Browse the [topic index](skills/apple-hig/references/topic-index.md) or
-[platform and task routes](skills/apple-hig/references/platforms-and-tasks.md).
+Browse the [topic procedures](skills/apple-hig/references/topic-index.md) or
+[platform/task routes](skills/apple-hig/references/platforms-and-tasks.md).
+
+## Try a real task
 
 ```text
-skills/apple-hig/
-  SKILL.md                       Small router
-  LICENSE                        License retained when copying the package
-  agents/openai.yaml             Optional Codex presentation metadata
-  references/                    Topic index, task routes, media explanations
-  subskills/apple-hig-*/
-    SKILL.md                     Family-specific decisions and article links
-    references/*.md              Original article-level guidance
-coverage/                        Source manifest, independent reviews, report
-scripts/hig.py                   Authoring and maintenance utility
-tests/                           Extraction and package-contract tests
+Use $apple-hig to fix this form's validation and cancellation behavior.
+Inspect the current implementation and keep our existing framework.
 ```
 
-## What “complete” means
+```text
+Use $apple-hig to adapt this media browser from iPad to Apple TV.
+Preserve selection and the product task; change input and navigation
+where needed. Patch the supplied specification.
+```
 
-The bounded corpus is the **current English HIG**, discovered from Apple's
-[navigator](https://developer.apple.com/tutorials/data/index/design--human-interface-guidelines),
-in-HIG links, and [design update history](https://developer.apple.com/design/whats-new/).
-The manifest accounts for sections, tables, notes, platform variations, media,
-redirects, and external dependencies. Independent approvals are bound to source
-and destination hashes, so later changes invalidate stale review.
+```text
+Use $apple-hig to audit this Arabic chart editor. Separate findings
+supported by the supplied screenshot/code from runtime checks we still need.
+```
 
-Translated editions, archived guidelines, and the full libraries of linked SDK
-documentation and WWDC videos are outside this corpus. Unavailable historical
-pages are recorded explicitly. Original image/video explanations cover relevant
-lessons; Apple assets and raw documentation are not distributed here.
+## Verification: five different claims
 
-This package preserves documented qualifications and source conflicts rather than
-inventing universal rules. API names, SDK availability, and newer OS changes still
-need the appropriate official implementation documentation.
+| Area | Evidence and boundary |
+|---|---|
+| **Source fidelity** | [Dated source report](coverage/REPORT.md): 173 routes, 158 article guides, independently reviewed text and meaningful media |
+| **Instruction quality** | [Capability inventory](coverage/capabilities.json) and independent topic-review records; a source approval does not approve a new procedure |
+| **Agent behavior** | [Recorded executions](coverage/behavior/): 158 topic tasks, 24 repeated stress executions, and 13 matched old-package controls are the release target; only graded, current evidence counts |
+| **Installation and discovery** | Actual Codex client tests for copied/symlinked packages, visible family routes, and on-demand topic reads; separate from static link tests |
+| **Apple runtime and hardware** | Native builds, rendering, VoiceOver interaction, physical input, and haptics require suitable Apple environments; Linux artifact checks cannot establish them |
 
-## Maintain and verify
+Behavioral graders assess the actual artifact against source-specific criteria.
+The release requires at least 8/10, no critical unsupported advice or invented
+observation, and the required seeded findings for review fixtures. Failed attempts
+remain recorded. Repeated stress runs check consistency, not statistical reliability.
 
-Maintainers need Python 3.11 or later. PyYAML enables stricter frontmatter parsing.
+The source boundary is the **dated current English HIG**. Translations, archives,
+and full linked SDK/WWDC libraries are outside that denominator. Source conflicts
+are retained explicitly. HIG experience guidance does not substitute for current
+API documentation, and a missing platform section does not prove support.
+
+## Update or remove
+
+For a symlink installation, run this from the source checkout, then refresh client
+discovery. Moving or deleting that checkout breaks its installation link.
+
+```bash
+git pull --ff-only
+```
+
+If the checkout is pinned to a tag or detached commit, select a newer reviewed
+revision instead of pulling. A pull updates only to commits already published
+on the checkout's configured upstream branch.
+
+For a copied installation, replace the complete bundle from a reviewed revision;
+do not update only the root file or omit hidden directories. The installed root
+path is preserved across this upgrade.
+
+To remove a Codex symlink installation, inspect its destination first:
+
+```bash
+ls -ld "$HOME/.agents/skills/apple-hig"
+readlink "$HOME/.agents/skills/apple-hig"
+```
+
+After confirming that it is the intended installation link, remove only the link:
+
+```bash
+if [ -L "$HOME/.agents/skills/apple-hig" ]; then
+  rm "$HOME/.agents/skills/apple-hig"
+fi
+```
+
+For Claude Code, substitute `.claude` for `.agents`. Refresh client discovery
+after removal. Keep the source checkout if you want to retain the research and
+evidence. For a copied folder, inspect it before removing the selected installation.
+
+If routing fails, check that the entire bundle exists, hidden `.topics` files were
+preserved, discovery was refreshed, and another same-named skill is not taking
+precedence. Never solve a missing-topic error by assuming the source is unsupported.
+
+## Maintain the package
+
+Maintainers use Python 3.11 or later; PyYAML supplies strict frontmatter parsing.
 
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r requirements-dev.txt
 .venv/bin/python -m unittest discover -s tests -v
 .venv/bin/python scripts/hig.py check
+.venv/bin/python scripts/hig.py check-skills
 ```
 
-Check for upstream changes without changing the tracked source snapshot:
+`check` verifies source accounting and existing article/media approvals.
+`check-skills` verifies operational ownership, instruction reviews, routing, and
+current behavioral evidence. Neither checker can invent a semantic approval.
 
-```bash
-.venv/bin/python scripts/hig.py check --live
-```
+Use `scripts/hig.py check --live` to detect upstream source/media drift without
+rewriting the tracked snapshot. Use `discover` and `report` for a deliberate
+source refresh. New or changed guidance requires appropriate independent review.
+Behavioral executions use the maintainer's existing authenticated Codex client;
+they are not a dependency of installing or reading the skill.
 
-Refresh the source inventory and coverage report:
+[Implementation plan](docs/operational-skills-plan.md) ·
+[Skill authoring research](docs/skill-design.md) ·
+[Source method](docs/source-method.md) · [Contributing](CONTRIBUTING.md)
 
-```bash
-.venv/bin/python scripts/hig.py discover
-.venv/bin/python scripts/hig.py report
-```
+## Attribution and license
 
-Discovery saves raw structured sources only in ignored `.cache/`. It retains
-pending/failed sources in coverage accounting and does not rewrite article prose
-or grant semantic approval. Resolve changed guidance and obtain independent review
-before publishing a complete-coverage claim. `check --allow-pending` is a development
-check only; the release check remains strict.
-
-See [skill design research](docs/skill-design.md), [source and review method](docs/source-method.md),
-[audit evidence](coverage/audit.md), [evaluations](coverage/evaluations.md), and
-[contribution instructions](CONTRIBUTING.md).
-
-## Sources and license
-
-Skill structure follows the [Agent Skills specification](https://agentskills.io/specification)
-and [authoring guidance](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices):
-small entry points, progressive disclosure, precise routing, and realistic tests.
-
-Original code and guidance are [MIT licensed](LICENSE). This is an independent
-community project, unaffiliated with Apple. Apple documentation, trademarks, and
-referenced media remain their respective owners' property.
+An independent community project, unaffiliated with Apple. Original code and
+guidance are [MIT licensed](LICENSE); the installable bundle retains its own copy
+of the license. Apple documentation, trademarks, and referenced media remain their
+owners' property. Raw Apple source exports and downloaded assets are not bundled.

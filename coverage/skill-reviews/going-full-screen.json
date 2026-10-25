@@ -1,0 +1,18 @@
+{
+  "topic": "going-full-screen",
+  "reviewer": "independent-topic-author-a",
+  "reviewed_at": "2026-10-25T18:59:13.173732+00:00",
+  "status": "reviewed",
+  "source_hash": "6624b73c3b544d54f56731f8ad7eb2097879b89dd64281456104f85b15baf219",
+  "skill_hash": "f17b38262423529312b11ec214c2727545317ca8af07fddbc622d2a1b8d09b00",
+  "reference_hash": "ebc194a407363f425457c9a4c4f26d1eb915290422275b22db5a3bd8808e5ad3",
+  "evidence": {
+    "decision": "Chooses fullscreen for concentration/media/play while keeping modality and visionOS immersion separate; preserves essential controls and user-chosen exit.",
+    "artifact": "Requires entry, revealed/hidden chrome, system access and return-state contract with the actual revised fullscreen artifact.",
+    "transformation": "Lecture player stops forced exits on pause and lost playback position, replacing them with familiar reveal and retained viewing intent.",
+    "verification": "Exercises media end, app switch, pause, reveal and explicit exit; trapped access, forced exit and lost position fail.",
+    "applicability": "Correctly limits distinct fullscreen to iPhone/iPad/Mac, qualifies Home-gesture game deferral and Mac standard controls/display-mode restrictions.",
+    "handoffs": "Status bars, Playing video and Modality are loaded only when chrome, playback or blocking decisions need them.",
+    "distinctiveness": "User-owned exit, system gesture access and continuity distinguish fullscreen from a generic modal screen."
+  }
+}

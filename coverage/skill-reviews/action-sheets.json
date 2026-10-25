@@ -1,0 +1,18 @@
+{
+  "topic": "action-sheets",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:51:52.904645+00:00",
+  "status": "reviewed",
+  "source_hash": "e0435e5a215810c8f4ad54a74ababa33c6b5f180bd036d10b5a1150b693c047c",
+  "skill_hash": "2310e395fd6f0e735a9456d81365419807dc221f6a2d2859ed555b8fdf2cd5ad",
+  "reference_hash": "e83f365ee2a5f510e5e1cfacbdab83d8ec6e43b085e0a9c1fffa950b34256c20",
+  "evidence": {
+    "decision": "Selects short post-action alternatives versus an explicitly requested menu or critical alert, and separates cancellation from destructive commitment.",
+    "artifact": "Requires handlers or an action-to-outcome table naming trigger, choices and retained-work behavior.",
+    "transformation": "Canceled voice-note example replaces immediate deletion and Yes/No ambiguity with Save Recording, destructive Discard Recording and safe keep-editing cancellation.",
+    "verification": "Checks every choice, system/outside dismissal, large text and repeat invocation; fails cancellation that commits or destroys data.",
+    "applicability": "Preserves visionOS nonapplicability and watch mandatory Cancel/four-total-button maximum, with native input claims withheld.",
+    "handoffs": "Routes urgent confirmation to alerts, command reveal to menus and surrounding exit consistency to modality.",
+    "distinctiveness": "Intentional action trigger, related alternatives, destructive roles and cancellation outcomes define an action-sheet-specific decision process."
+  }
+}

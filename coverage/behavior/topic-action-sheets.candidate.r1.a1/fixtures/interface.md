@@ -1,0 +1,1 @@
+Platform: iPadOS. An action sheet opened from an attachment row is centered far from its trigger. Options are Yes, Other, Cancel and Delete Everything; Other starts a six-field questionnaire. Delete Everything removes unrelated claims. There may be no attachment selected.

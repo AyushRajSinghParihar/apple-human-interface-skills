@@ -1,0 +1,56 @@
+{
+  "id": "topic-lists-and-tables",
+  "kind": "topic",
+  "topic": "lists-and-tables",
+  "family": "layout-and-organization",
+  "mode": "review",
+  "baseline_control": true,
+  "prompt": "Use $apple-hig to help with this task: Audit a Mac inventory table’s data and selection interaction. Read interface.md. Audit the supplied interface; rank verified findings and show corrected behavior. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: macOS. Column headers are missing; quantity values are aligned inconsistently so comparisons fail; sorting is indicated nowhere; selecting a row activates Delete immediately; an empty filtered list is an unexplained blank screen. No runtime or screenshot exists."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Find the five explicit table defects and supply revised headers/alignment, stable sort/selection semantics and informative empty-filter behavior with keyboard selection checks.",
+      "hig_correctness": "Apply the lists-and-tables guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Find the five explicit table defects and supply revised headers/alignment, stable sort/selection semantics and informative empty-filter behavior with keyboard selection checks.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Find the five explicit table defects and supply revised headers/alignment, stable sort/selection semantics and informative empty-filter behavior with keyboard selection checks.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ],
+    "required_findings": [
+      {
+        "id": "1",
+        "description": "Multicolumn table has no descriptive column headings.",
+        "critical": true
+      },
+      {
+        "id": "2",
+        "description": "Value alignment prevents reliable scanning/comparison.",
+        "critical": false
+      },
+      {
+        "id": "3",
+        "description": "Sorting is neither discoverable nor visibly identified.",
+        "critical": false
+      },
+      {
+        "id": "4",
+        "description": "Ordinary row selection immediately performs destruction.",
+        "critical": true
+      },
+      {
+        "id": "5",
+        "description": "Filtered empty data has no explanation or recovery.",
+        "critical": false
+      }
+    ],
+    "review_threshold": "Find at least four of five seeded defects, including every critical defect; no invented high-severity finding."
+  }
+}

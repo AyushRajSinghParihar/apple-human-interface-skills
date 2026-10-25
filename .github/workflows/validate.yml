@@ -18,12 +18,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v7.1.0
         with:
           python-version: '3.11'
       - run: python -m pip install -r requirements-dev.txt
       - run: python -m unittest discover -s tests -v
       - run: python scripts/hig.py check
+      - run: python scripts/hig.py check-skills
       - name: Check upstream drift
         if: github.event_name == 'workflow_dispatch' && inputs.live
         run: python scripts/hig.py check --live

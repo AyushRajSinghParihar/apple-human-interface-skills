@@ -1,0 +1,29 @@
+{
+  "id": "topic-digit-entry-views",
+  "kind": "topic",
+  "topic": "digit-entry-views",
+  "family": "selection-and-input",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Repair an Apple TV household pairing-code entry specification. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: tvOS. Six-digit code accepts only swipe gestures, shows no focused digit, discards all digits on one mistake and gives the error Invalid with no path to retry or obtain a new code."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch clear code entry/focus, completion, deletion, validation and expired-code recovery; preserve privacy and Remote/keyboard alternatives without claiming network authentication.",
+      "hig_correctness": "Apply the digit-entry-views guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch clear code entry/focus, completion, deletion, validation and expired-code recovery; preserve privacy and Remote/keyboard alternatives without claiming network authentication.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch clear code entry/focus, completion, deletion, validation and expired-code recovery; preserve privacy and Remote/keyboard alternatives without claiming network authentication.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

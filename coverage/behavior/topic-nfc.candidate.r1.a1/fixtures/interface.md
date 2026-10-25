@@ -1,0 +1,1 @@
+Platform: iOS with supported NFC capability. Scan starts without explanation, success appears before a tag is read and an unknown tag creates a real equipment checkout. No-tag timeout leaves a permanent spinner.

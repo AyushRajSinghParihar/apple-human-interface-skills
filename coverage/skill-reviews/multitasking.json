@@ -1,0 +1,18 @@
+{
+  "topic": "multitasking",
+  "reviewer": "independent-topic-author-a",
+  "reviewed_at": "2026-10-25T18:59:54.828243+00:00",
+  "status": "reviewed",
+  "source_hash": "d9a43c0a577e0a17cb5e5da7ea0b14ab8af3bb4edf1d102b9f582f408ae56083",
+  "skill_hash": "d2385d9651385ee175e883688ad35fb3a01ef4dc7e6dc8490f53c1899c6796dd",
+  "reference_hash": "898c3aa21eb73b0a5cde0e2682a7d5f2fa40e0bc989c53016161b9a2704d7b3a",
+  "evidence": {
+    "decision": "Separates app inactivity, window focus, window close and audio interruption; retains the visionOS exception rather than pausing every attention shift.",
+    "artifact": "Requires lifecycle/event matrix with retained state and timely completion routes, plus actual revised handlers or specification.",
+    "transformation": "Spatial lecture continues when looking at notes, preserves annotations on window close and treats Now Playing closure separately.",
+    "verification": "Checks app switch, resize, competing audio and close/reopen; lost work, indiscriminate resume and routine notification spam fail.",
+    "applicability": "Qualifies iPad configuration privacy, Mac key/main cues, Shared versus Full Space and unsupported Watch multitasking; background execution requires runtime proof.",
+    "handoffs": "Windows, Playing audio and Playing video provide detailed lifecycle/media treatment only where the task calls for them.",
+    "distinctiveness": "Event-specific focus/closure interpretation and resumable-audio policy are distinct multitasking decisions."
+  }
+}

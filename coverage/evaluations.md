@@ -1,5 +1,10 @@
 # Retrieval and application evaluations
 
+This is the **original source-package evaluation history** at a748d07. The
+operational topic upgrade has its own [plan](../docs/operational-skills-plan.md),
+[progress ledger](../docs/operational-progress.md), and [execution records](behavior/).
+The historical trials below do not substitute for the158-topic artifact suite.
+
 Status: the seven-task fresh-context control and package-enabled comparison are
 executed, with two additional enabled application/media cases. The broader E1–E8
 scenarios remain proposed. Selected automated maintenance boundaries were executed;

@@ -1,0 +1,1 @@
+Platform: macOS. Every disabled control opens the same 80-page PDF, error text says Consult support and tooltips obscure chart values indefinitely. Users need to understand why a model cannot run without leaving their data.

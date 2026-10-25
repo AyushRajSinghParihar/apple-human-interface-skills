@@ -1,0 +1,35 @@
+{
+  "id": "stress-conflicting-source-numbers",
+  "kind": "stress",
+  "topic": null,
+  "family": null,
+  "expected_topics": [
+    "accessibility",
+    "buttons",
+    "widgets"
+  ],
+  "mode": "review",
+  "baseline_control": false,
+  "invoke": true,
+  "prompt": "Use $apple-hig. Resolve these apparent HIG contradictions for an iPad button and Mac widget proposal. Give a qualified specification and explain what needs verification. Read interface.md. write result.md with the concrete result, decisions, acceptance checks and what evidence is still missing.",
+  "input_files": {
+    "interface.md": "Platform facts supplied: iPad footer action is a custom 28x28 pt hit region with 2 pt gap, copied from accessibility minimum table; design lead calls it Apple default. The buttons guide recommends general 44x44 pt regions. A Mac widget proposal promises accented rendering because one widgets prose sentence mentions Mac group tinting, while its platform table marks accented Mac unsupported. No rendered app exists."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Distinguish minimum from default/topic-specific recommendation and explain conflicting Mac prose/table without silently inventing support.",
+      "hig_correctness": "Read both applicable references for target guidance, preserve scope and prefer a defensible source-backed default; disclose widget conflict and require official current support verification.",
+      "artifact_usefulness": "Deliver a task-specific corrected artifact or evidence-grounded audit with worked states/transitions and observable checks; a generic checklist is insufficient.",
+      "conditions_accessibility": "Address actual target versus visual size/separation and widget noncolor legibility without inventing measurements.",
+      "evidence_honesty": "Do not invent native runtime results, unseen semantics, device support, measurements or source authority; distinguish source conflict and unresolved product constraints."
+    },
+    "critical_errors": [
+      "Calls iPad 28 pt the recommended default without scope.",
+      "Guarantees accented Mac support from the conflicting sentence.",
+      "Silently rewrites source guidance as if no conflict existed."
+    ]
+  }
+}

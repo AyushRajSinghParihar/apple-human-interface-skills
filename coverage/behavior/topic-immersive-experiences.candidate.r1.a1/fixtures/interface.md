@@ -1,0 +1,1 @@
+Platform: visionOS. Reading the lesson automatically removes all passthrough, the camera rolls continuously, settings require walking around a virtual reef and leaving immersion loses the selected specimen. People may be seated in small rooms.

@@ -1,0 +1,1 @@
+Platform: visionOS. Every nested card uses the strongest opaque panel; text is placed directly over busy passthrough, alerts look recessed behind content and state is encoded by arbitrary opacity. Controls and content compete.

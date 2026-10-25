@@ -1,0 +1,18 @@
+{
+  "topic": "search-fields",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:50:48.414609+00:00",
+  "status": "reviewed",
+  "source_hash": "e8b7d6bc2f8350dc4677a02e94ffc493934b86257ae08dab7561251cf04908be",
+  "skill_hash": "88f167651100ec21436aad5b046d5abadfa31108ebbf92b793be7fa6169c8f81",
+  "reference_hash": "70e57d8b33bb948a6ca1fecb33278d18966aa84c2e23228bff810ede8c8ce584",
+  "evidence": {
+    "decision": "Resolves global/local scope and directed lookup versus discovery before selecting placement, focus and refinement behavior.",
+    "artifact": "Requires changed field/query states or a placement/scope/focus/results specification, with a clear selection and clearing contract.",
+    "transformation": "Sidebar search example exposes the misleading global scope and unexpected iPad discovery keyboard, then chooses local labeling or a dedicated unfocused area.",
+    "verification": "Checks clearing, scope category changes, no results, detail return and compact resize; fails stale results or silent scope changes.",
+    "applicability": "Retains virtual-keyboard-only iPad focus exception, transient versus persistent iOS search, TV suggestions and watch Search/Cancel return.",
+    "handoffs": "Loads searching for result strategy and token-fields only for the separately scoped Mac token-entry component.",
+    "distinctiveness": "Search placement is connected to actual query scope and discovery intent, with platform-specific focus decisions beyond a generic input checklist."
+  }
+}

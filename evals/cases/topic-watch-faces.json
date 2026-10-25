@@ -1,0 +1,28 @@
+{
+  "id": "topic-watch-faces",
+  "kind": "topic",
+  "topic": "watch-faces",
+  "family": "system-experiences",
+  "mode": "design",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Specify a watch-face-oriented companion experience for a tide app. Read interface.md. Produce a concrete revised interaction specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: watchOS. Product promises to replace all system watch faces with a proprietary renderer and uses a complication as a full interactive map. Tide station may be unknown and readings stale."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Choose supported watch-face/complication contribution and focused useful tide information, configuration and freshness with appropriate app destination; reject unsupported control of system face capabilities.",
+      "hig_correctness": "Apply the watch-faces guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Choose supported watch-face/complication contribution and focused useful tide information, configuration and freshness with appropriate app destination; reject unsupported control of system face capabilities.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Choose supported watch-face/complication contribution and focused useful tide information, configuration and freshness with appropriate app destination; reject unsupported control of system face capabilities.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

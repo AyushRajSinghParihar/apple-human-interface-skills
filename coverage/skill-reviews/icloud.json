@@ -1,0 +1,18 @@
+{
+  "topic": "icloud",
+  "reviewer": "independent-topic-author-b",
+  "reviewed_at": "2026-10-25T19:02:11.563507+00:00",
+  "status": "reviewed",
+  "source_hash": "772faf050f68d5d4c0f4f719b9eddf405cf6a2f62ae317bcf5dfd523f5b62a2e",
+  "skill_hash": "6a0fe559f8673c1dd0bbf6963a5161a3c79d99ed2c30a0e186a5d14dc6bfbd3c",
+  "reference_hash": "0ad22fa1e180baf9bba6b3c6031c5d17450ee18ae15307a20bc854dae3913119",
+  "evidence": {
+    "decision": "Separates created content and useful continuation from regenerable/device-specific data.",
+    "artifact": "Requires continuity, offline, conflict and cross-device deletion contract.",
+    "transformation": "Per-entry storage prompts and fatal offline errors become local continuity and explicit global deletion scope.",
+    "verification": "Fails lost offline edits, indistinguishable conflict choices and misleading deletion language.",
+    "applicability": "Defers actual API availability, multi-device propagation and account changes to supported execution.",
+    "handoffs": "Writing handles version/deletion clarity; Game Center only when game activity affects continuation.",
+    "distinctiveness": "All-or-none first choice, large-document download and differentiated conflicts are concrete sync decisions."
+  }
+}

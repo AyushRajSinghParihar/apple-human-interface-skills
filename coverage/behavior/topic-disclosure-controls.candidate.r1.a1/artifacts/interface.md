@@ -1,0 +1,37 @@
+# macOS tax-summary panel: revised section contract
+
+Scope: Repair sections within the existing panel; preserve the current framework, tax data, calculations, and section names. No separate window is needed to reveal section details. This specification does not establish that the containing surface is a native floating panel.
+
+## Visible hierarchy
+
+Keep each section's informative title, tax subtotal or other existing key summary, and validation status visible at all times. Keep existing common panel actions visible outside collapsible detail. Only supporting field details and occasional options collapse. Essential next steps must remain discoverable without expanding every section.
+
+Each section header contains one labelled disclosure triangle beside its own content. The triangle and title form one activation target and one keyboard focus stop. Activating either toggles that section inline; the title never opens a window. Other sections retain their states, so multiple sections may be expanded. Do not apply the distinct disclosure-button down/up convention or its one-per-view limit to these section triangles.
+
+## States and transitions
+
+| State | Header | Content |
+|---|---|---|
+| Collapsed, valid | Triangle points inward from the leading edge (right in a left-to-right layout); title and summary remain visible | Supporting details hidden |
+| Expanded, valid | Triangle points down; same title and summary | Supporting details immediately below their header |
+| Collapsed, invalid | Collapsed triangle; title, summary, and persistent text such as “1 issue — Enter employer ID” | Invalid field hidden, but issue and repair location discoverable |
+| Expanded, invalid | Downward triangle; same persistent issue summary | Invalid field with a specific inline explanation and correction instruction |
+
+Keep the triangle anchored beside the title; change its orientation rather than moving it to indicate state. Use predictable labels such as “Income details” where a current section name would not explain the revealed content. The title remains stable across states.
+
+On first presentation, expand sections with known invalid fields and collapse optional valid details. Thereafter retain independent expansion states while the current return remains open. Collapse never clears entered values, validation results, or calculations. Reopening restores the same values. Persistence after closing the return is outside this repair.
+
+If validation detects an error in a collapsed section, update its visible issue summary immediately without forcing it open or moving focus. For multiple errors show the count and first correction, for example “2 issues — Enter employer ID.” Keep that summary until revalidation confirms correction; do not imply a section is valid merely because it is collapsed or not yet validated. On an existing validation/continue action that cannot proceed, expand the affected sections and focus the first invalid field in document order. Preserve the user's entries and show the inline correction.
+
+## Interaction, semantics, and layout
+
+- Pointer activation anywhere on the triangle/title target toggles exactly once. Summary text is not a competing navigation target.
+- Keyboard navigation reaches each header in document order. Space on the focused header toggles it, retaining visible focus. Expose a labelled disclosure control with its current expanded/collapsed state and relationship to its content; do not expose a second decorative triangle control.
+- Hidden fields are absent from keyboard and accessibility navigation. Expanded fields follow their header in document order. If a section is collapsed programmatically while focus is inside it, return focus to its header before hiding the fields.
+- Include the persistent issue text in the header's accessible description. Convey errors through text, not color alone. Expanding an invalid section makes its labelled field and correction reachable by keyboard and assistive input.
+- Use a header activation area at least 28 pt high and 28 pt wide as the macOS default control starting point. Keep targets separated. This dimension is a product layout requirement; it does not establish measured runtime geometry.
+- Expansion increases the section's occupied height and reflows following sections. Fit within the available panel area; allow vertical scrolling when needed. Keep the active header visible, avoid overlapping content, and preserve useful scroll position. At narrow widths and 200% text enlargement, wrap labels and issue summaries without hiding their meaning or actions.
+
+## Guidance basis
+
+[HIG Disclosure controls — Best practices and Disclosure triangles](https://developer.apple.com/design/human-interface-guidelines/disclosure-controls#Disclosure-triangles) supports visible common information, informative labels, inline expansion, and inward/down triangle states. [Disclosure buttons](https://developer.apple.com/design/human-interface-guidelines/disclosure-controls#Disclosure-buttons) describes a different control; its one-per-view advice is not a limit on these triangles. [HIG Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility) supports keyboard access, meaningful semantics, non-color status, text enlargement, and macOS control sizing. Initial states, validation recovery, retention, and the shared header target are concrete product decisions applying that guidance, not claimed system guarantees.

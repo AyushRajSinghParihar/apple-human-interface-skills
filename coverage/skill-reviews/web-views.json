@@ -1,0 +1,18 @@
+{
+  "topic": "web-views",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:40:46.359632+00:00",
+  "status": "reviewed",
+  "source_hash": "2837f03996f425ed0113f119eb80c1fcbb5367148ab54295b2b34859d8947664",
+  "skill_hash": "d85b5c5d83d2a85ac274b713beba4457938ae17040d5932383369a123229cf71",
+  "reference_hash": "11269cd7a189e456a87cb4921f1081913957dd176a4d49c24b113d2f7a49a863",
+  "evidence": {
+    "decision": "Bounds the embed to the immediate app task and distinguishes multi-page history navigation from host-screen dismissal.",
+    "artifact": "Requires an embed/navigation patch or page-flow specification and compact host/page navigation map.",
+    "transformation": "Linked Help example repairs a Back action that closes the host by adding explicit history states and a distinct Close exit.",
+    "verification": "Walks internal links, history return/boundary and host exit; fails stranded pages and unsupported platform promises.",
+    "applicability": "Explicitly disallows tvOS/watchOS web views per the source and distinguishes WebKit/network execution from logic inspection.",
+    "handoffs": "Uses modality only for a blocking host and toolbars when placement of browsing controls is actually at issue.",
+    "distinctiveness": "Resolves host navigation versus page history and warns that history controls are not automatic, producing a bounded browsing contract."
+  }
+}

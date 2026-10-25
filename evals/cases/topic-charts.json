@@ -1,0 +1,56 @@
+{
+  "id": "topic-charts",
+  "kind": "topic",
+  "topic": "charts",
+  "family": "content",
+  "mode": "review",
+  "baseline_control": true,
+  "prompt": "Use $apple-hig to help with this task: Review a medical appointment capacity chart using the supplied specification. Read interface.md. Audit the supplied interface; rank verified findings and show corrected behavior. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: macOS. A bar chart starts at 48 and exaggerates 50 versus 54 appointments, has unlabeled axes, red/green series without another distinction and no textual values or accessibility description. Counts are daily nonnegative totals; no screenshot is supplied."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Correct baseline, labels, distinguishable encoding and accessible value access, while separating verified specification defects from unmeasured rendering concerns.",
+      "hig_correctness": "Apply the charts guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Correct baseline, labels, distinguishable encoding and accessible value access, while separating verified specification defects from unmeasured rendering concerns.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Correct baseline, labels, distinguishable encoding and accessible value access, while separating verified specification defects from unmeasured rendering concerns.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ],
+    "required_findings": [
+      {
+        "id": "1",
+        "description": "Bar lengths use a truncated 48 baseline, exaggerating count differences.",
+        "critical": true
+      },
+      {
+        "id": "2",
+        "description": "Axes lack meaningful labels and units.",
+        "critical": false
+      },
+      {
+        "id": "3",
+        "description": "Series rely solely on red/green color.",
+        "critical": true
+      },
+      {
+        "id": "4",
+        "description": "Exact numerical values are not available textually.",
+        "critical": false
+      },
+      {
+        "id": "5",
+        "description": "No accessible chart purpose/summary or description is supplied.",
+        "critical": true
+      }
+    ],
+    "review_threshold": "Find at least four of five seeded defects, including every critical defect; no invented high-severity finding."
+  }
+}

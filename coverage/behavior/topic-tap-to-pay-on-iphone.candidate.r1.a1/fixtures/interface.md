@@ -1,0 +1,1 @@
+Platform: eligible iPhone/region/service support not verified. Merchant flow displays a customer PIN in plain text, says Paid before processor confirmation and has no cancel/retry for a declined contactless payment. Amount can change after presentation.

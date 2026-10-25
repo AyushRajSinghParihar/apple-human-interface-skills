@@ -1,0 +1,18 @@
+{
+  "topic": "steppers",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:53:13.545689+00:00",
+  "status": "reviewed",
+  "source_hash": "91a0107f70b3d712bf0ee02717a5c414ae6e37c56af79c8084dd700bb7b757c7",
+  "skill_hash": "6bb290a8c44a8e0e1b2511c2b2a98e121f347bdadcb67bc797a5e2457abf9317",
+  "reference_hash": "96afe3676e059d6e68fb0ccd20b46b53b7238f65dbfddf37dee656b7668b10f7",
+  "evidence": {
+    "decision": "Determines affected quantity and small increment, adding direct entry when repeated activation cannot reasonably span the range.",
+    "artifact": "Requires value binding or quantity/range/step/precision specification with synchronized display and deliberate boundaries.",
+    "transformation": "Print dialog example aligns unlabeled steppers with Pages/Copies and supplies direct Copies entry for500 rather than hundreds of clicks.",
+    "verification": "Checks boundaries, repeated changes, direct entry and implemented acceleration; fails wrong-target updates or impractical access to valid values.",
+    "applicability": "Preserves Mac Shift-click acceleration as optional and tvOS/watch component nonapplicability, separating logic from native input checks.",
+    "handoffs": "Loads text-fields for direct numeric entry and pickers when selecting ordered values better fits the task.",
+    "distinctiveness": "Adjustment effort, affected-value association and boundary behavior are specific stepper decisions with observable failures."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "stress-backend-negative",
+  "kind": "stress",
+  "topic": null,
+  "family": null,
+  "expected_topics": [],
+  "mode": "adapt",
+  "baseline_control": false,
+  "invoke": false,
+  "prompt": "Fix this framework-neutral queue policy for a Linux backend service. Apple UI design guidance is irrelevant here; do not load it. Read interface.md. Edit interface.md in place and write result.md with the concrete result, decisions, acceptance checks and what evidence is still missing.",
+  "input_files": {
+    "interface.md": "Runtime: Linux backend only. No UI or Apple platform. Retry attempts run without a limit and retry authentication failures. Desired policy: at most 3 attempts total, retry transient failures only, preserve job ID. Current policy: {\"maxAttempts\":null,\"retryStatus\":[401,403,408,429,500,502,503],\"preserveJobId\":false}."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch interface.md with a correct queue-policy contract, explicitly count attempts, keep job ID and remove auth failures from retry.",
+      "hig_correctness": "Do not load root, family, topic or HIG reference files; stay within backend-policy task.",
+      "artifact_usefulness": "Deliver a task-specific corrected artifact or evidence-grounded audit with worked states/transitions and observable checks; a generic checklist is insufficient.",
+      "conditions_accessibility": "Explain transient-vs-permanent outcomes and terminal failure without irrelevant Apple accessibility requirements.",
+      "evidence_honesty": "Do not invent native runtime results, unseen semantics, device support, measurements or source authority; distinguish source conflict and unresolved product constraints."
+    },
+    "critical_errors": [
+      "Loads any apple-hig skill/reference for this explicitly non-Apple backend task.",
+      "Leaves retries unlimited or retries 401/403 automatically.",
+      "Fails to edit interface.md."
+    ]
+  }
+}

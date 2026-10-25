@@ -1,0 +1,1 @@
+Platform: iOS/iPadOS. States: browse -> composer sheet -> attachment modal -> settings modal. Title is blank. The only exit is swipe down. Any swipe or Done deletes the unsaved draft without warning. Tapping an upload error can open two simultaneous alerts. There is no back action within the attachment flow.

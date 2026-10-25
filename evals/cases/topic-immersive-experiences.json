@@ -1,0 +1,29 @@
+{
+  "id": "topic-immersive-experiences",
+  "kind": "topic",
+  "topic": "immersive-experiences",
+  "family": "foundations",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Repair entry, intensity and exit for a visionOS underwater learning experience. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: visionOS. Reading the lesson automatically removes all passthrough, the camera rolls continuously, settings require walking around a virtual reef and leaving immersion loses the selected specimen. People may be seated in small rooms."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch deliberate suitable immersion levels, stable references, comfortable reachable controls and predictable return with lesson state intact; preserve system agency and offer reduced-motion alternatives.",
+      "hig_correctness": "Apply the immersive-experiences guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch deliberate suitable immersion levels, stable references, comfortable reachable controls and predictable return with lesson state intact; preserve system agency and offer reduced-motion alternatives.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch deliberate suitable immersion levels, stable references, comfortable reachable controls and predictable return with lesson state intact; preserve system agency and offer reduced-motion alternatives.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Platform: macOS. Same star means Favorite in a row, Delete in a toolbar and Publish in a menu. Unfamiliar custom pictograms have no labels, baseline alignment differs and disabled icons still look active.

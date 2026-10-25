@@ -1,0 +1,73 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,68 @@
+-Platform: iPadOS/visionOS as source supports. All feeds begin at once with loud audio, current camera location is hidden and a disconnected feed freezes while still labelled Live. Person needs one selected feed with optional comparison.
+\ No newline at end of file
++# Wildlife cameras — revised interface specification
++
++## Scope and entry
++
++Target iPadOS and visionOS. The primary task is watching one chosen wildlife camera, with deliberate comparison to one other camera. This is a design contract; no framework, stream service, DVR, spatial capture, or SDK availability is established by the supplied brief.
++
++Open to camera names, supplied location descriptions, and static previews labelled “Preview” with capture time when known. Never start all streams. Restore the last selected camera ID, or select the first available camera without starting it. Show one prominent “Watch [camera name]” button. Activation starts only that camera, muted; replace Watch with standard playback controls. This common deliberate entry also satisfies visionOS's user-initiated playback guidance.
++
++## Selected camera and controls
++
++Keep the selected camera name, location (for example, “Riverbank — North hide”), textual connection status, and audio state visible outside the moving image. Show “Location unavailable” when metadata is missing; do not infer the camera location from the viewer's device. Camera IDs bind metadata, media, and status together.
++
++Prefer system player controls. Retain original aspect ratio, with no baked-in bars or distortion. Use standard aspect behavior, including at the source guide's ambiguous 2:1 boundary. Keep location/status in surrounding interface so controls and wildlife remain visible. Pause is always available; a paused frame is labelled “Paused,” never Live. Resume requests the current live edge; this product has no specified rewind or recording capability.
++
++| Action | Outcome and availability |
++| --- | --- |
++| Watch [name] | Start selected camera muted; available before viewing or after leaving playback. |
++| Watch [other name] | Immediately update selection/name/location and show Connecting; stop previous stream and audio before requesting the replacement. Late responses from prior requests cannot replace the current camera. |
++| Enable Audio / Mute Audio | Immediate commands for the selected playing camera; label describes the next action. If no audio track exists, show “Audio unavailable.” |
++| Compare Cameras | Reveal static choices excluding the selected camera; playback continues. Choosing “Compare with [name]” starts that second stream muted. Cancel returns without changing playback. |
++| Make Primary [name] | Swap primary/comparison roles and metadata; mute both first, then require Enable Audio for the new primary. |
++| End Comparison | Stop/release the comparison stream; preserve primary selection, playback, and audio intent. |
++| Retry [name] | Retry only the failed camera, muted, without restarting the other camera. Show Connecting and ignore duplicate requests until success, failure, or cancellation. |
++| Back to Cameras | Stop both streams and audio; retain selection and metadata for a later Watch action. |
++
++Camera choices are commands to watch or compare, not controls that silently start streams on focus or hover. At most two streams decode concurrently. Secondary previews remain static. Comparison streams are independent and may have different latency; show “Feeds may be delayed differently,” and capture times only when trustworthy. Do not claim synchronized observation.
++
++## Honest connection state
++
++Track each camera independently, with request identity, last decoded frame arrival, player errors, and provider live-edge/freshness metadata when available. A moving image or successful network request alone does not prove Live.
++
++| State | Visible treatment and transition |
++| --- | --- |
++| Preview | Static image marked Preview; no stream or audio. Watch enters Connecting. |
++| Connecting | Camera identity remains visible; show “Connecting…” and a wait indication, no Live cue. First current frame plus provider confirmation of live freshness enters Live; otherwise use “Playing — live status unverified.” |
++| Live | Current frames and provider live confirmation; text Live plus a symbol, not color alone. |
++| Interrupted | On reported disconnect/error immediately remove Live and silence that feed. Also enter Interrupted after 5 seconds without decoded-frame arrival or when provider freshness is lost. Dim any retained frame and label “Connection interrupted — last frame received [local time]”; that timestamp is receipt time, not capture time. |
++| Reconnecting | Attempt automatic reconnect after 1, 2, and 4 seconds; retain the stale-frame warning and show Reconnecting. Restore Live only after fresh-frame and live-status validation. Failed attempts end in Unavailable. |
++| Unavailable | Show “Camera unavailable” with Retry and camera choices; no endless spinner. Never substitute another camera silently. |
++| Paused | Explicit Paused label, no audio, stale-frame watchdog suspended. Resume enters Connecting at the live edge. |
++
++Five seconds and the retry schedule are proposed product values, not Apple requirements or measured service performance. Arrival watchdogs must measure decoded-frame delivery rather than pixel changes: a motionless animal is not a disconnect. If freshness cannot be established, withhold Live. A failure of one comparison camera leaves the other usable. Cancel a pending request when changing camera, leaving viewing, or closing the window.
++
++## Audio and lifecycle
++
++Only the primary camera may be audible, and only after Enable Audio. Opening comparison, reconnecting, switching camera, or relaunching never introduces sound automatically. Keep an “Audio: [camera name]” or “Audio muted” label. Do not raise global volume; use system volume/output selection. Choose a playback audio session for deliberately enabled media, with secondary-audio hints and interruption handling; verify category configuration against the actual SDK during implementation. Muted browsing must not take over another app's audio session.
++
++On headphone disconnection pause playback and require deliberate resume, preventing speaker spill. On interruptions, stop audio and retain selection; resume only when system signals and prior user intent permit, never over newly chosen competing media. Pause/close stops audio. Leaving the viewing surface stops both streams; returning requires Watch. No background or PiP continuity is promised by this revision. Browsing cameras inside viewing preserves primary playback.
++
++## Platform presentation and access
++
++- iPadOS: use the larger window for camera choices beside playback when space permits. At narrow widths, show a Cameras action opening an inline choice view with Return to Viewing; preserve both selected IDs, playback, mute state, and connection states. Stack comparison panes when necessary and allow scrolling without hiding End Comparison or status. Resize by available space, not orientation alone. Touch can complete every action; pointer and keyboard provide equivalent activation. Space controls play/pause when the player has focus, without stealing activation from another focused control.
++- visionOS: start in a modest, movable, resizable Shared Space window. Keep both 2D videos and contextual labels within that window; comparison adds an adjacent pane, not a surrounding wall of feeds. Use dynamic window scaling and space anchoring, without head locking or forced immersion. No volume, Full Space, or room permission is needed for this task. Preserve system recentering. Standard controls support indirect activation with hands at rest; avoid repeated reaching and peripheral moving previews.
++- Use standard labelled buttons and system focus/press feedback. Specify selectable regions at least 44 × 44 pt on iPadOS and 60 × 60 pt on visionOS, separate from visible glyph size. For regular visionOS buttons, keep centers at least 60 pt apart and gaps at least 16 pt; increase separation as needed to avoid hover/target overlap.
++- Expose camera identity, location, primary/comparison role, status, and audio state as accessible information. Every action has a name matching its visible label and a system button role. Changes must not move focus unexpectedly or announce every video frame. All task actions must be reachable by keyboard and supported assistive input, including visionOS Pointer Control.
++- Use semantic text styles and reflow labels/actions at 200% text size without clipping. Status uses text and symbols; connection errors never depend on sound. Measure contrast in light/dark and Increase Contrast appearances. Display provided captions for audible events; show “Captions unavailable” when no caption track exists, without inventing wildlife descriptions. Interface descriptions identify cameras, not unobserved animal activity.
++
++## Guidance basis
++
++Official links below identify the local snapshot's source; no online verification was performed. These support principles; the two-feed cap, muted entry, stream watchdog, retry schedule, and no-background policy are product decisions.
++
++- [Live viewing — Best practices](https://developer.apple.com/design/human-interface-guidelines/live-viewing-apps#Best-practices): prioritize playback, immediate selection feedback, honest live identity and browsing context.
++- [Playing video — Best practices and visionOS](https://developer.apple.com/design/human-interface-guidelines/playing-video): prefer system controls, preserve aspect, deliberate windowed spatial playback.
++- [Playing audio — Best practices and interruptions](https://developer.apple.com/design/human-interface-guidelines/playing-audio): respect volume, routes, user intent, and interruptions.
++- [Loading](https://developer.apple.com/design/human-interface-guidelines/loading): retain usable content while reporting waits and recovery.
++- [iPadOS](https://developer.apple.com/design/human-interface-guidelines/designing-for-ipados) and [Layout](https://developer.apple.com/design/human-interface-guidelines/layout#Adaptability): mixed input, resizing, and preserved context.
++- [visionOS](https://developer.apple.com/design/human-interface-guidelines/designing-for-visionos) and [Spatial layout](https://developer.apple.com/design/human-interface-guidelines/spatial-layout#Best-practices): least necessary immersion, resting interaction, dynamic scaling and target separation.
++- [Buttons](https://developer.apple.com/design/human-interface-guidelines/buttons) and [Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility): clear action contracts, platform target sizes, multimodal status, text enlargement and alternative input.

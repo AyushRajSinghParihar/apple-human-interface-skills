@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "run_id": "topic-pop-up-buttons.candidate.r1.a1",
+  "case_id": "topic-pop-up-buttons",
+  "variant": "candidate",
+  "repetition": 1,
+  "attempt": 1,
+  "status": "completed",
+  "case_path": "evals/cases/topic-pop-up-buttons.json",
+  "case_hash": "22ef377c5846ef3ddba2cd6c6bbdb66cc655ada241d2136c13738059fd677c9a",
+  "harness_hash": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
+  "model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.164.0",
+  "started_at": "2026-10-25T20:41:50+00:00",
+  "finished_at": "2026-10-25T20:43:17+00:00",
+  "package_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "references/topic-index.md": "7a8093fc17f3a55c224bbc66fb34694a73f86bc1b23f69af10dd91183ca3b22d",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md": "40a98cb077200f052ba8b83d26dc1cd8f82c88773cda0577176e60892c09b01e",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-menus/SKILL.md": "017e71d639664492dbd5665282dba611dfa6f31fa08d9afe6af7644a92e14e93",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-pop-up-buttons/SKILL.md": "47b8bee239072f9e5548dff510111d4ad2c07a815262aed8a2c655a74d5e724b",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "14799ee137928eb6532e16130cef07a3b93cc4e7ca7792a8ba711c0e5f1257f0",
+    "subskills/apple-hig-menus-and-actions/references/buttons.md": "ce5aa8180f49b2705a3dc5a72cbe709c3baca460b38ecc475d3a6fc176f4c76a",
+    "subskills/apple-hig-menus-and-actions/references/menus.md": "efd261e801fea6f225b81c2df2ccd0d89724279feaf419e020390b24a99018e0",
+    "subskills/apple-hig-menus-and-actions/references/pop-up-buttons.md": "c9abe1db558c39adb554fd7eab5c29e397d03b65404f1a8ea66fcbada026567e"
+  },
+  "discovery_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "subskills/apple-hig-content/SKILL.md": "e911021fc5cb63ee1dbc4dbf5f29c3a258e4bcdfa16799f6a68a3640780a1fb0",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-inputs/SKILL.md": "a1843cc0d7dbb04b876a7c28e511aa5124e7fe2797d8e8eb1417434892676f29",
+    "subskills/apple-hig-layout-and-organization/SKILL.md": "805026039df393a761af77c979405bea98424b088ebb9e962cf47d17e949ac28",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "14799ee137928eb6532e16130cef07a3b93cc4e7ca7792a8ba711c0e5f1257f0",
+    "subskills/apple-hig-navigation-and-search/SKILL.md": "9c61db72d99a7b3cefea67557f02ae06ad76254e20b149c55731581a74137f3d",
+    "subskills/apple-hig-patterns/SKILL.md": "194e6f42bf32d325e016cc145b3d8c624c245eed46be1e0098c405c256a9b99e",
+    "subskills/apple-hig-presentation/SKILL.md": "51b48d2737ea0c2af406693bf257078638c46b7f5639f243463a5e1316ae727c",
+    "subskills/apple-hig-selection-and-input/SKILL.md": "605ab44039a43da80a817630076fa72896a66c29a0801e989c2f3809cbdd4527",
+    "subskills/apple-hig-status/SKILL.md": "d49120e41401fed66fcdd00efe00e06438df01cf320102bbfaace44276ebe756",
+    "subskills/apple-hig-system-experiences/SKILL.md": "c6231529b355d669e32660096e4b1a8e60e731a5473499c539c5827b18619e33",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d"
+  },
+  "thread_id": "01a174cc-5707-7711-badf-376acac9436a",
+  "reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-menus/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-pop-up-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/buttons.md",
+    "subskills/apple-hig-menus-and-actions/references/menus.md",
+    "subskills/apple-hig-menus-and-actions/references/pop-up-buttons.md"
+  ],
+  "required_reads": [
+    "SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-pop-up-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/pop-up-buttons.md"
+  ],
+  "routing": {
+    "missing": [],
+    "passed": true,
+    "unexpected_hig_reads": false
+  },
+  "artifacts": {
+    "result.md": {
+      "path": "coverage/behavior/topic-pop-up-buttons.candidate.r1.a1/artifacts/result.md",
+      "hash": "271344835a4a8bb32e4837c52e0d8fa6efa08933f426c1de3be884ff966f0773"
+    }
+  },
+  "transcript": {
+    "path": "coverage/behavior/topic-pop-up-buttons.candidate.r1.a1/events.jsonl",
+    "hash": "95c0f962a4118c15b85f5942c2d956e57ec01774b2e5e6be8675011470314b9e"
+  },
+  "checks": {
+    "discovery": {
+      "visible_hig_count": 14,
+      "expected_visible_hig_count": 14,
+      "unrelated_enabled": [],
+      "hidden_topics_visible": [],
+      "disabled_unrelated_count": 83
+    },
+    "missing_artifacts": [],
+    "changed_inputs": {
+      "interface.md": false
+    },
+    "adaptation_changed": true,
+    "passed": true,
+    "exit_code": 0,
+    "turn_completed": true,
+    "malformed_event_count": 0,
+    "forbidden_reads": [],
+    "package_changed": []
+  },
+  "baseline_commit": null,
+  "final_message": {
+    "path": "coverage/behavior/topic-pop-up-buttons.candidate.r1.a1/final-message.txt",
+    "hash": "16be1cf0f1015456b5116f2558cc4fc8264fc3f90320ac0356b4f05059c3aa59"
+  }
+}

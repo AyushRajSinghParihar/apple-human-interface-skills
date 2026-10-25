@@ -1,0 +1,28 @@
+{
+  "id": "topic-imessage-apps-and-stickers",
+  "kind": "topic",
+  "topic": "imessage-apps-and-stickers",
+  "family": "technologies",
+  "mode": "design",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Design a compact collaborative lunch-poll iMessage experience. Read interface.md. Produce a concrete revised interaction specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: iOS Messages extension. Initial view is a full unrelated social feed, choosing a sticker sends it immediately with private notes attached and expanded mode loses the selected poll. Recipients may not have the app."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Specify a conversation-relevant compact/expanded task, explicit message composition/sending, selection continuity and understandable fallback for recipients; protect private notes.",
+      "hig_correctness": "Apply the imessage-apps-and-stickers guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Specify a conversation-relevant compact/expanded task, explicit message composition/sending, selection continuity and understandable fallback for recipients; protect private notes.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Specify a conversation-relevant compact/expanded task, explicit message composition/sending, selection continuity and understandable fallback for recipients; protect private notes.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

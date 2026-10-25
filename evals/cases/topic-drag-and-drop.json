@@ -1,0 +1,28 @@
+{
+  "id": "topic-drag-and-drop",
+  "kind": "topic",
+  "topic": "drag-and-drop",
+  "family": "patterns",
+  "mode": "review",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Review cross-window specimen transfer in our iPad archive. Read interface.md. Audit the supplied interface; rank verified findings and show corrected behavior. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: iPadOS/macOS. Drag preview is a blank square, drop regions do not indicate acceptance, a canceled drag deletes the source, moving multiple selected items transfers only one and copying to another app strips useful representations."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Provide honest previews and valid-drop feedback, cancellation/source preservation, clear copy-versus-move semantics and multi-item/external interoperability checks.",
+      "hig_correctness": "Apply the drag-and-drop guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Provide honest previews and valid-drop feedback, cancellation/source preservation, clear copy-versus-move semantics and multi-item/external interoperability checks.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Provide honest previews and valid-drop feedback, cancellation/source preservation, clear copy-versus-move semantics and multi-item/external interoperability checks.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

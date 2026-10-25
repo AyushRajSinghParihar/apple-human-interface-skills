@@ -1,0 +1,24 @@
+{
+  "topic": "buttons",
+  "reviewer": "independent-operational-auditor",
+  "reviewed_at": "2026-10-25T18:16:12.417756+00:00",
+  "status": "reviewed",
+  "source_hash": "4c7edf3671176be6ea0fe9ea3a8b18f61b5582ed1285b6ec933067c259817cec",
+  "skill_hash": "40a98cb077200f052ba8b83d26dc1cd8f82c88773cda0577176e60892c09b01e",
+  "reference_hash": "ce5aa8180f49b2705a3dc5a72cbe709c3baca460b38ecc475d3a6fc176f4c76a",
+  "evidence": {
+    "decision": "Classifies immediate commands separately from persistent state; assigns roles from consequence and consults alerts for deliberate destruction instead of banning every destructive default.",
+    "artifact": "Requires an action contract naming outcome, role/default, hit region and pending/resolved behavior; design, review and adaptation produce different authorized artifacts.",
+    "transformation": "Mac photo organizer turns Go into Export\u2026 and distinguishes reversible Remove Photos from finishing edits; explicitly checks save semantics before relabelling Close.",
+    "verification": "Observable tests cover activation outcome, Return mapping, actual hit geometry, accessible names, clipping and undo restoration; distinguishes static checks from native execution.",
+    "applicability": "Separates visionOS visible style from 60-pt targeting and unsupported custom hover/haptics; applies Mac ellipsis and watch placement only in their contexts.",
+    "handoffs": "Loads alerts only for consequential confirmation/default decisions and menu/toggle/toolbar procedures only when their action or placement is relevant.",
+    "distinctiveness": "Action semantics, ellipsis, Return behavior and delayed iPad activation are consequential button choices that cannot be replaced by a generic component checklist."
+  },
+  "additional_references": [
+    {
+      "path": "skills/apple-hig/subskills/apple-hig-presentation/references/alerts.md",
+      "hash": "07d6e735faf0d53c6b9b69184fbae8d668572ef0ee94ef2d25a70707e7b03242"
+    }
+  ]
+}

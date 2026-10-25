@@ -1,0 +1,18 @@
+{
+  "topic": "collaboration-and-sharing",
+  "reviewer": "independent-topic-author-a",
+  "reviewed_at": "2026-10-25T18:58:28.191893+00:00",
+  "status": "reviewed",
+  "source_hash": "ade9e2db27d124931dba74dcf3462811270ed7007ca7077aadc5300f37a42019",
+  "skill_hash": "a1623b107bdef93687024c83379eee6d131600ab790d0e61bb36bed019d977ed",
+  "reference_hash": "fb083ef55f9bb5d397d53e0ab191d4bc802c6f222b656fa2a3c928157cabc1d4",
+  "evidence": {
+    "decision": "Separates copy transfer, ongoing permissioned access and synchronous SharePlay, then binds the choice to backend capability and a small access model.",
+    "artifact": "Requires a copy-versus-access artifact with participant management, permissions and object-specific universal-link destinations.",
+    "transformation": "Silent anyone-can-edit sharing becomes explicit copy/collaborate choice and persistent document-bound management rather than a generic Share action.",
+    "verification": "Verifies recipient scope, revocation, copy representation and update destinations; broader access than described or missing management fails.",
+    "applicability": "Qualifies tvOS unavailability, Watch ShareLink and visionOS Full Space streaming pause; does not equate a mocked share sheet with backend enforcement.",
+    "handoffs": "Activity views handles share mechanics while Privacy handles exposure; neither handoff replaces the permission model.",
+    "distinctiveness": "Copy representation, participant management and update-link ownership make this an operational collaboration procedure."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "topic": "virtual-keyboards",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:53:13.545890+00:00",
+  "status": "reviewed",
+  "source_hash": "430c405b0f8986ed42713a915b40b8d8e08b19e5aaf083da9899326ac71a07c7",
+  "skill_hash": "9f94a1a7b389444db46c9112977eb0acc1c87d4df6d14fe8119b26091158c193",
+  "reference_hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc",
+  "evidence": {
+    "decision": "Chooses keyboard plus semantic content type and separates app-only input views from genuine systemwide keyboard extensions.",
+    "artifact": "Requires configuration/layout implementation or a field-to-keyboard/content/submit/visibility specification.",
+    "transformation": "Parcel tracking example replaces an incompatible phone pad and obscured Track action with suitable semantics and clearance for both field and action.",
+    "verification": "Checks required characters, correction, movement, hardware alternatives and relevant extension switching; fails impossible entry or hidden completion.",
+    "applicability": "Preserves secure/phone extension exclusions, system keys/sounds, TV layouts, movable visionOS keyboard and watch nonconfigurable keyboard type.",
+    "handoffs": "Loads text-fields, digit-entry-views or entering-data according to the affected entry task rather than invoking all input topics.",
+    "distinctiveness": "Semantic keyboard selection, extension scope and simultaneous field/action clearance form a specific operational keyboard workflow."
+  }
+}

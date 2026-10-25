@@ -1,0 +1,18 @@
+{
+  "topic": "color-wells",
+  "reviewer": "primary-coordinator-independent-of-topic-author",
+  "reviewed_at": "2026-10-25T18:53:13.544968+00:00",
+  "status": "reviewed",
+  "source_hash": "5326765897f4ff25ad66d1219117622932007fc898fb3bd6f26a633e5153a24c",
+  "skill_hash": "27c24dd65be2815320b59f71cf766de15df918193b316c802a5b48b76318f0c5",
+  "reference_hash": "5f0c8cd0fdc70fde8f8ccd5536d7ca319ff12c735a9e8b1d1fafdef5aa7ad83e",
+  "evidence": {
+    "decision": "Chooses system versus justified custom picker and binds the displayed swatch and edits to the actual selection identity.",
+    "artifact": "Requires a target/picker/commit specification or implemented binding, including preview and drop behavior.",
+    "transformation": "Diagram example repairs stale swatches and wrong-object edits by updating selection and explicitly routing picker/drop changes to the current target.",
+    "verification": "Checks selection changes, mixed colors, drag/drop, repeated picks and provided cancellation; fails swatch/applied-value disagreement.",
+    "applicability": "Preserves Mac activation/drag behavior, tvOS/watch nonapplicability and unspecified visionOS details; withholds display-color fidelity claims.",
+    "handoffs": "Loads color for meaning and drag-and-drop for transfer semantics only when those problems are present.",
+    "distinctiveness": "Target identity and picker/swatch synchronization provide specific color-well decisions rather than a general color-style checklist."
+  }
+}

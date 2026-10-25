@@ -1,0 +1,1 @@
+Platform: tvOS. Initial focus starts offscreen, focused cards look identical to selected cards, navigation enters a dead end at a carousel boundary, returning from detail jumps to the first card and a disabled destructive control remains activatable.

@@ -1,0 +1,1 @@
+Platform: iPadOS. Long press opens a bespoke menu with Rename Account, Copy and hidden Delete All. Paste appears even with unsupported clipboard data; Cut irreversibly removes selection before copying succeeds. Selection is lost when the menu opens.

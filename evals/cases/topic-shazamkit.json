@@ -1,0 +1,29 @@
+{
+  "id": "topic-shazamkit",
+  "kind": "topic",
+  "topic": "shazamkit",
+  "family": "technologies",
+  "mode": "adapt",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Repair sound-recognition states in an iPhone museum companion. Read interface.md. Edit interface.md in place to implement a concrete revised specification. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Your patch to interface.md is required; summarize its changes in result.md.",
+  "input_files": {
+    "interface.md": "Platform: iOS. App listens indefinitely on launch, announces a guessed exhibit as certain, keeps a prior result after no match and opens microphone permission repeatedly after denial. Recognition can be ambiguous or unavailable."
+  },
+  "output_files": [
+    "result.md",
+    "interface.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Patch deliberate listening and purpose explanation, matching/no-match/ambiguous/error/denied states and useful result actions; avoid promising recognition accuracy or arbitrary content identification.",
+      "hig_correctness": "Apply the shazamkit guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Patch deliberate listening and purpose explanation, matching/no-match/ambiguous/error/denied states and useful result actions; avoid promising recognition accuracy or arbitrary content identification.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Patch deliberate listening and purpose explanation, matching/no-match/ambiguous/error/denied states and useful result actions; avoid promising recognition accuracy or arbitrary content identification.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}

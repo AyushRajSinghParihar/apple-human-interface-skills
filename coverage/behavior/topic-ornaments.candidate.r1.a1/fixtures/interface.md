@@ -1,0 +1,1 @@
+Platform: visionOS. Tools float as detached head-locked strips, follow gaze and cover the selected drawing. People need persistent contextual actions on a window and may resize or move that window.

@@ -1,0 +1,28 @@
+{
+  "id": "topic-activity-views",
+  "kind": "topic",
+  "topic": "activity-views",
+  "family": "menus-and-actions",
+  "mode": "review",
+  "baseline_control": false,
+  "prompt": "Use $apple-hig to help with this task: Review how the iPhone research notebook shares a selected observation. Read interface.md. Audit the supplied interface; rank verified findings and show corrected behavior. Write result.md with decisions, a worked before/after, acceptance checks, and evidence limits. Use a framework-agnostic specification or pseudocode; do not assume an Apple SDK is available.",
+  "input_files": {
+    "interface.md": "Platform: iOS. Share opens a home-built grid of email and social logos, sends the entire notebook regardless of selection, hides the content preview and includes an unrelated Delete notebook action. Offline recipients may not have the app installed."
+  },
+  "output_files": [
+    "result.md"
+  ],
+  "rubric": {
+    "criteria": {
+      "task_completion": "Recommend a standard sharing activity surface scoped to the selected item, useful preview/representations and suitable exclusions; distinguish sharing from destructive management and account for recipients without the app.",
+      "hig_correctness": "Apply the activity-views guidance to the actual supplied decisions, preserving its platform and contextual qualifications.",
+      "artifact_usefulness": "Provide implementable states, labels, transitions or layout decisions for this specific fixture, with a concrete before/after and observable checks. Recommend a standard sharing activity surface scoped to the selected item, useful preview/representations and suitable exclusions; distinguish sharing from destructive management and account for recipients without the app.",
+      "conditions_accessibility": "Retain the stated platform/input constraints. Address accessible alternatives and exceptional states relevant to this task. Recommend a standard sharing activity surface scoped to the selected item, useful preview/representations and suitable exclusions; distinguish sharing from destructive management and account for recipients without the app.",
+      "evidence_honesty": "Distinguish source-backed guidance, product assumptions and proposed checks. Do not invent device, SDK, accessibility, visual, performance or user-test results."
+    },
+    "critical_errors": [
+      "Invents observations or claims Apple-device execution absent supplied evidence.",
+      "Recommends a topic-specific behavior contrary to the supplied source without explaining the scope and tradeoff."
+    ]
+  }
+}
