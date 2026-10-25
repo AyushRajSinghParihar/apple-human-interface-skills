@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "run_id": "topic-tap-to-pay-on-iphone.candidate.r1.a2",
+  "case_id": "topic-tap-to-pay-on-iphone",
+  "variant": "candidate",
+  "repetition": 1,
+  "attempt": 2,
+  "status": "completed",
+  "case_path": "evals/cases/topic-tap-to-pay-on-iphone.json",
+  "case_hash": "462bee532e0ea5610ea01f39373d2aef714aa187ee279861d414277ef4aee960",
+  "harness_hash": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
+  "model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.164.0",
+  "started_at": "2026-10-25T22:34:21+00:00",
+  "finished_at": "2026-10-25T22:36:43+00:00",
+  "package_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "references/topic-index.md": "7a8093fc17f3a55c224bbc66fb34694a73f86bc1b23f69af10dd91183ca3b22d",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md": "a575641fed63dcd067cf6805a72449f994c7e64702d39c98f0dd1d50884c3d1a",
+    "subskills/apple-hig-foundations/.topics/apple-hig-privacy/SKILL.md": "01c2070df6df2a117bce0fa4c37cff898d115ca3babf7920623c8e69d8d706fb",
+    "subskills/apple-hig-foundations/.topics/apple-hig-writing/SKILL.md": "d5c7475d215338e34e06a4de3ed26c7fab6e1f2809e36de844a8f01dd3329203",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-foundations/references/accessibility.md": "556c88279d9f2f238e87cbab050337b51ba5c3e3ab8c15f57b662b3f0378b18d",
+    "subskills/apple-hig-foundations/references/privacy.md": "ce8f25721e6adb44faea38beea85a5636e8a5de8b5147a354bf5a0ce90e957ba",
+    "subskills/apple-hig-foundations/references/writing.md": "9f4ad15216d57477e12ec7aeb37a56ed6b145bf5d4d343a7e34ff16b7ec6869c",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ios/SKILL.md": "d1b0053d506a0c82c68f20c941117ab505576e3fb879f8a1fd127cf7f6ef2b77",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-getting-started/references/designing-for-ios.md": "ee15224a397819e71d6a3863d533308e18862beb0125a31fcca7dd38bb3ebc78",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md": "40a98cb077200f052ba8b83d26dc1cd8f82c88773cda0577176e60892c09b01e",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "14799ee137928eb6532e16130cef07a3b93cc4e7ca7792a8ba711c0e5f1257f0",
+    "subskills/apple-hig-menus-and-actions/references/buttons.md": "ce5aa8180f49b2705a3dc5a72cbe709c3baca460b38ecc475d3a6fc176f4c76a",
+    "subskills/apple-hig-technologies/.topics/apple-hig-tap-to-pay-on-iphone/SKILL.md": "979445d04e2d5bf1c98d49c262b3ed6d5a6adb167b2da4e6fd511192c867b47c",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d",
+    "subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md": "a109360359cd96ac83a119dd95447be366f4857a589cc382c969c987f21a565e"
+  },
+  "discovery_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "subskills/apple-hig-content/SKILL.md": "e911021fc5cb63ee1dbc4dbf5f29c3a258e4bcdfa16799f6a68a3640780a1fb0",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-inputs/SKILL.md": "a1843cc0d7dbb04b876a7c28e511aa5124e7fe2797d8e8eb1417434892676f29",
+    "subskills/apple-hig-layout-and-organization/SKILL.md": "805026039df393a761af77c979405bea98424b088ebb9e962cf47d17e949ac28",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "14799ee137928eb6532e16130cef07a3b93cc4e7ca7792a8ba711c0e5f1257f0",
+    "subskills/apple-hig-navigation-and-search/SKILL.md": "9c61db72d99a7b3cefea67557f02ae06ad76254e20b149c55731581a74137f3d",
+    "subskills/apple-hig-patterns/SKILL.md": "194e6f42bf32d325e016cc145b3d8c624c245eed46be1e0098c405c256a9b99e",
+    "subskills/apple-hig-presentation/SKILL.md": "51b48d2737ea0c2af406693bf257078638c46b7f5639f243463a5e1316ae727c",
+    "subskills/apple-hig-selection-and-input/SKILL.md": "605ab44039a43da80a817630076fa72896a66c29a0801e989c2f3809cbdd4527",
+    "subskills/apple-hig-status/SKILL.md": "d49120e41401fed66fcdd00efe00e06438df01cf320102bbfaace44276ebe756",
+    "subskills/apple-hig-system-experiences/SKILL.md": "c6231529b355d669e32660096e4b1a8e60e731a5473499c539c5827b18619e33",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d"
+  },
+  "thread_id": "01a17533-5c16-7573-bb55-b3c64ebfa419",
+  "reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-privacy/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-writing/SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md",
+    "subskills/apple-hig-foundations/references/privacy.md",
+    "subskills/apple-hig-foundations/references/writing.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ios/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ios.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/buttons.md",
+    "subskills/apple-hig-technologies/.topics/apple-hig-tap-to-pay-on-iphone/SKILL.md",
+    "subskills/apple-hig-technologies/SKILL.md",
+    "subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md"
+  ],
+  "required_reads": [
+    "SKILL.md",
+    "subskills/apple-hig-technologies/SKILL.md",
+    "subskills/apple-hig-technologies/.topics/apple-hig-tap-to-pay-on-iphone/SKILL.md",
+    "subskills/apple-hig-technologies/references/tap-to-pay-on-iphone.md"
+  ],
+  "routing": {
+    "missing": [],
+    "passed": true,
+    "unexpected_hig_reads": false
+  },
+  "artifacts": {
+    "result.md": {
+      "path": "coverage/behavior/topic-tap-to-pay-on-iphone.candidate.r1.a2/artifacts/result.md",
+      "hash": "5e81dae26947b6cab077c5e63e0594280696ba07d3686a3a60b11ab3554e3e59"
+    }
+  },
+  "transcript": {
+    "path": "coverage/behavior/topic-tap-to-pay-on-iphone.candidate.r1.a2/events.jsonl",
+    "hash": "1b6c04eb0f6d22fe92560f7e8689d0cf975ab1d0779a8686ceccd5d43d93b99b"
+  },
+  "checks": {
+    "discovery": {
+      "visible_hig_count": 14,
+      "expected_visible_hig_count": 14,
+      "unrelated_enabled": [],
+      "hidden_topics_visible": [],
+      "disabled_unrelated_count": 83
+    },
+    "missing_artifacts": [],
+    "changed_inputs": {
+      "interface.md": false
+    },
+    "adaptation_changed": true,
+    "passed": true,
+    "exit_code": 0,
+    "turn_completed": true,
+    "malformed_event_count": 0,
+    "forbidden_reads": [],
+    "package_changed": []
+  },
+  "baseline_commit": null,
+  "final_message": {
+    "path": "coverage/behavior/topic-tap-to-pay-on-iphone.candidate.r1.a2/final-message.txt",
+    "hash": "d4da912ff9a8110450ee69ad5f99a500bf807276015b17a2e30dd954029b9c2f"
+  }
+}

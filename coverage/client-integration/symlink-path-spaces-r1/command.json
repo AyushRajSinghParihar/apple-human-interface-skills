@@ -1,0 +1,33 @@
+{
+  "argv": [
+    "codex",
+    "exec",
+    "--disable",
+    "plugins",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--ephemeral",
+    "--json",
+    "--sandbox",
+    "workspace-write",
+    "-c",
+    "approval_policy=\"never\"",
+    "-c",
+    "skills.config=<unrelated personal skill paths redacted; regenerate through the recorded harness>",
+    "--model",
+    "gpt-6.1-sol",
+    "--cd",
+    "/tmp/hig client install drpxs020/unrelated project",
+    "-"
+  ],
+  "cwd": "/tmp/hig client install drpxs020/unrelated project",
+  "installation": "project symlink to complete relocated bundle; both paths contain spaces",
+  "public_capture_redactions": {
+    "fields": [
+      "skills.config argument"
+    ],
+    "unrelated_skill_entries_disabled": 83,
+    "original_capture_sha256": "42815518841c9bcc783f4ea740f737e3ab09afbbd96e897e50e75f13ca4eb7ab",
+    "note": "Original retained locally outside Git. HIG paths, model, CLI flags, execution artifacts and transcripts unchanged."
+  }
+}

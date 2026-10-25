@@ -19,8 +19,9 @@ The complete bundle is the installation unit.
    decision, artifact, transformation, verification, applicability, handoffs and
    distinctiveness. Record real judgments against current source/instruction/
    reference hashes. Do not approve your own authored instructions.
-5. Run the relevant artifact cases through the actual installed client and have
-   an independent grader assess their outputs. Preserve failures and reruns.
+5. For behavior claims or consequential workflow changes, run relevant artifact
+   cases through the installed client and independently assess their outputs.
+   Preserve failures and reruns.
    Changing evidence bytes invalidates the old result; never refresh hashes just
    to turn a gate green.
 
@@ -34,13 +35,16 @@ inputs requires the corresponding routing and dependent-case checks again.
 ```bash
 .venv/bin/python -m unittest discover -s tests -v
 .venv/bin/python scripts/hig.py check
-.venv/bin/python scripts/hig.py check-skills
+.venv/bin/python scripts/hig.py check-skills --instructions-only
 ```
 
 The first release gate checks source accounting and article/media provenance.
-The second checks operational ownership, procedure review, routing and current
-behavioral evidence. Neither deterministic gate judges design quality by keyword
-matches. `--allow-pending` is a development aid, not a release check.
+The second checks operational ownership, source-backed procedure review and
+routing. Both run in CI. The optional `check-skills` command without
+`--instructions-only` additionally requires independently graded behavioral
+evidence; the extended study is incomplete. Neither deterministic gate judges
+design quality by keyword matches. `--allow-pending` permits incomplete review
+and is a development aid, not the publication check.
 
 Use the evaluation runner's help for scoped or resumable executions. Cases run
 from temporary installed copies, not the authoring checkout. Keep unrelated
@@ -64,8 +68,8 @@ hidden `.topics` directories. Untracked procedures and evidence do not ship mere
 because local checks can read them. Stage intended package, tooling, documentation
 and evidence files selectively; inspect the staged tree, then inspect an archive
 of the candidate commit. Preserve the baseline commit in repository history for
-the matched-control checks. Publish only after the final behavior, archive and CI
-checks pass; a development working tree is not a release.
+the matched-control checks. Publish after source, instruction, archive and CI checks pass. Claim behavioral
+acceptance only when its separate execution and grading checks pass.
 
 Resource links and histories are reference-only; substantive coverage cannot be
 replaced by links. Preserve inaccessible or ambiguous source records rather than

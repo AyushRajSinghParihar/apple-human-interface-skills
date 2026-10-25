@@ -1,0 +1,102 @@
+{
+  "command": [
+    "codex",
+    "app-server",
+    "--disable",
+    "plugins",
+    "-c",
+    "skills.config=<redacted unrelated personal skill paths>",
+    "--stdio"
+  ],
+  "original_command_sha256": "dfaa7cbbb8d925cfc828ea744b9081d9f708fc8da6eb6410bf4dda49c58dbf01",
+  "original_command_hash_format": "SHA256 of UTF-8 JSON argv; ensure_ascii=false; compact separators",
+  "command_redactions": [
+    {
+      "argument_index": 5,
+      "field": "skills.config",
+      "disabled_unrelated_skill_count": 83,
+      "reason": "Unrelated personal skill installation paths are private."
+    }
+  ],
+  "request": {
+    "method": "skills/list",
+    "params": {
+      "cwds": [
+        "/tmp/hig client install drpxs020/unrelated project"
+      ],
+      "forceReload": true
+    }
+  },
+  "visible_skills": [
+    {
+      "name": "apple-hig",
+      "path": "/tmp/hig client install drpxs020/portable source with spaces/apple-hig/SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "apple-hig-content",
+      "path": "/tmp/hig client install drpxs020/portable source with spaces/apple-hig/subskills/apple-hig-content/SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "apple-hig-foundations",
+      "path": "/tmp/hig client install drpxs020/portable source with spaces/apple-hig/subskills/apple-hig-foundations/SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "apple-hig-getting-started",
+      "path": "/tmp/hig client install drpxs020/portable source with spaces/apple-hig/subskills/apple-hig-getting-started/SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "apple-hig-inputs",
+      "path": "/tmp/hig client install drpxs020/portable source with spaces/apple-hig/subskills/apple-hig-inputs/SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "apple-hig-layout-and-organization",
+      "path": "/tmp/hig client install drpxs020/portable source with spaces/apple-hig/subskills/apple-hig-layout-and-organization/SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "apple-hig-menus-and-actions",
+      "path": "/tmp/hig client install drpxs020/portable source with spaces/apple-hig/subskills/apple-hig-menus-and-actions/SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "apple-hig-navigation-and-search",
+      "path": "/tmp/hig client install drpxs020/portable source with spaces/apple-hig/subskills/apple-hig-navigation-and-search/SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "apple-hig-patterns",
+      "path": "/tmp/hig client install drpxs020/portable source with spaces/apple-hig/subskills/apple-hig-patterns/SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "apple-hig-presentation",
+      "path": "/tmp/hig client install drpxs020/portable source with spaces/apple-hig/subskills/apple-hig-presentation/SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "apple-hig-selection-and-input",
+      "path": "/tmp/hig client install drpxs020/portable source with spaces/apple-hig/subskills/apple-hig-selection-and-input/SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "apple-hig-status",
+      "path": "/tmp/hig client install drpxs020/portable source with spaces/apple-hig/subskills/apple-hig-status/SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "apple-hig-system-experiences",
+      "path": "/tmp/hig client install drpxs020/portable source with spaces/apple-hig/subskills/apple-hig-system-experiences/SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "apple-hig-technologies",
+      "path": "/tmp/hig client install drpxs020/portable source with spaces/apple-hig/subskills/apple-hig-technologies/SKILL.md",
+      "enabled": true
+    }
+  ]
+}

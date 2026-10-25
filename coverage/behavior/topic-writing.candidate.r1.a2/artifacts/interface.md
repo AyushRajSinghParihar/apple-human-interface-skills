@@ -1,0 +1,48 @@
+# iPhone parking copy specification
+
+Platform: iOS. Use concise, neutral English and consistent parking terminology.
+
+## Proposed assumptions
+
+The brief does not define the operations or error causes. This specification assumes the primary action opens payment review, permission means location for nearby parking, validation concerns an empty vehicle registration, and expiry means sign-in expiry. These are proposed product contracts, not observed facts; confirm them before release. Cancellation abandons unpaid checkout, not paid parking. No Apple Pay integration is assumed.
+
+## Exact strings and outcomes
+
+| Context / original | Replacement | Contract |
+| --- | --- | --- |
+| Primary / Execute operation | **Review Parking** | Prominent system button on setup. Opens review of vehicle, parking location, duration, end time, and full price. Does not charge or start parking. |
+| Permission / We require access | **Use your location to find nearby parking.** | System location purpose sentence. Request when nearby parking is invoked, without a custom pre-permission alert. |
+| Empty registration / You entered bad data | **Enter the vehicle registration shown on your license plate.** | Inline beside **Vehicle Registration**. Preserve other values. Use only for this cause. |
+| Sign-in expiry / Fatal 0x17 | **Sign-In Expired**; **Sign in again to continue with your parking payment.** | In-context recovery with **Sign In** and **Cancel**. Preserve unpaid selections. Do not imply paid parking ended. Keep diagnostic codes outside customer copy. |
+| Cancellation / OK | **Cancel** | Secondary system button with Cancel role. Returns to setup, retains selections, and submits no payment. Does not end paid parking or request a refund. |
+| Payment / OK | **Pay {total}** | Prominent system button on review. Submits the reviewed amount. The token is the full locale-formatted currency amount including fees, matching the visible total. |
+
+Map other validation failures to their actual fields and remedies. Missing location: **Choose a parking location.** Missing duration: **Choose a parking duration.** Do not invent registration-format restrictions or use the empty-registration message for every error.
+
+## Permission contract
+
+| Data | Purpose and scope | Denial and boundaries |
+| --- | --- | --- |
+| Current location | Find nearby parking when requested. Prefer the system location button for one-time access; no background access needed. | Keep manual parking-location selection available, including after denial. Do not gate checkout on location permission. |
+
+Obtain required authorization before accessing location. Preserve system consent choices and system location-button wording; the purpose sentence is not a custom Allow button. Storage, transfers, and retention are unknown: establish actual handling and accurate disclosures before release. Make no unsupported claims about them.
+
+## State contract
+
+1. Setup → **Review Parking** → review with vehicle, location, duration, end time, and full price. Missing required values produce nearby correction text, retaining other values.
+2. Review → **Cancel** → setup with selections retained and no submission. No destructive role or confirmation is needed for this cancellation.
+3. Review → **Pay {total}** → **Processing Payment…**, with activity indication inside the activating button. Prevent duplicate submission. Do not promise cancellation can reverse a submitted payment.
+4. Confirmed payment and parking activation → **Parking Started**, confirmed end time, and receipt. Unknown outcome → **Checking Payment**, with **Check Payment Status**. Do not claim success or offer another charge until the prior outcome is resolved.
+5. Confirmed rejection → **Payment Not Completed**. If payment details can be corrected, show **Review your payment details and try again.** and **Review Payment**, returning to review. Otherwise supply the actual service-specific remedy. Preserve parking selections.
+6. Confirmed sign-in expiry before submission → expiry copy above. **Sign In** opens authentication and returns to review after success without automatically paying. **Cancel** returns to setup. Uncertain payment outcomes follow step 4 even if authentication expires.
+
+No new modal alert is required. If an existing expiry alert must remain, use the same title/message and Sign In / Cancel. Sign In is trailing in a row or first in a stack; Cancel is leading or last respectively. Do not stack repeated alerts. Retain native iOS cancellation behavior. No automatic default may submit payment.
+
+## Acceptance requirements
+
+- Review opens review; Cancel abandons unpaid checkout; Pay submits the displayed full total.
+- Permission identifies location and nearby parking; manual selection remains usable after denial.
+- Validation is blame-free, adjacent to the field, and supplies a relevant remedy.
+- Sign-in expiry never implies parking expiry; successful sign-in returns to review without charging.
+- Pending, rejected, unresolved, and confirmed outcomes remain distinct; repeated activation cannot duplicate charges.
+- Verify currency expansion, larger text, native roles, button targets, screen-reader names and announcements, cancellation, and authentication/payment transitions in the implemented iPhone app. These are requirements, not executed results.

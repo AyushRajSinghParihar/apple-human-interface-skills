@@ -669,11 +669,12 @@ def main():
     parser.add_argument("--output", type=pathlib.Path)
     parser.add_argument("--live", action="store_true", help="Verify current source content without changing the tracked manifest")
     parser.add_argument("--allow-pending", action="store_true", help="Development check: permit explicitly pending semantic/media review")
+    parser.add_argument("--instructions-only", action="store_true", help="Check source-backed procedure ownership, reviews and routing without requiring behavioral grades")
     args = parser.parse_args()
     try:
         if args.command == "check-skills":
             from capabilities import check as check_capabilities
-            result = check_capabilities(args.root, allow_pending=args.allow_pending)
+            result = check_capabilities(args.root, require_behavior=not args.instructions_only, allow_pending=args.allow_pending)
             print(json.dumps(result, indent=2))
             return int(bool(result["errors"]))
         if args.command == "discover":

@@ -72,5 +72,22 @@
     "reviewed_at": "2026-10-25T22:19:46.722040+00:00",
     "evidence": "Current-inventory owner path/hash validation excludes preserved v1 records from fresh grading.11 cases failed before fix;12 temporary scenarios passed afterward, including v1 rejection, v2 acceptance, unchanged topics/controls and malformed/duplicate inventory rejection. Reverse-hash verified all other grading code unchanged. Report changes only add the two revision ledgers to derived metadata and explicitly disclose the one versioned Watch comparison request and conditional topic/routing feedback; no gate alteration. Root verified exact archived v1 bytes, v2 prompt-only/protocol_version diff, unchanged rubrics/read requirements/thresholds and one-row inventory diff.",
     "boundary": "Fresh v2 repetitions and artifact grades remain required. Separate v1 diagnostic grading uses verified archived task bytes and never counts toward195."
+  },
+  "publication_scope_change": {
+    "recorded_by": "coordinator",
+    "recorded_at": "2026-10-25T22:49:06.523373+00:00",
+    "reason": "User narrowed publication to source-derived procedural skills and README; extended comparative grading is incomplete and no longer the publication gate.",
+    "change": "Explicit --instructions-only CLI option invokes the existing instruction-only checker. CI uses it; default full behavioral checker remains strict.",
+    "current_cli_hash": "b6c1d28a34eb887eb72cc64be2da57053e23ca7f4607a301cc6fc9cb8513e1a7",
+    "current_workflow_hash": "e98a32915be7ea165b244dd2d5a9123a8ee9b0013dd440ff6b6638af3a6be22f",
+    "validation": {
+      "existing_unit_tests_passed": 75,
+      "source_errors": 0,
+      "source_pending": 0,
+      "instruction_errors": 0,
+      "instruction_pending": 0,
+      "reviewed_topics": 158
+    },
+    "boundary": "Earlier independent review bindings above identify their exact historical versions. This small publication-scope change was functionally validated by the coordinator; it does not claim a new independent code review or195 accepted artifact grades."
   }
 }

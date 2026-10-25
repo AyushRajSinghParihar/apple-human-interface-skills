@@ -26,7 +26,7 @@ jobs:
       - run: python -m pip install -r requirements-dev.txt
       - run: python -m unittest discover -s tests -v
       - run: python scripts/hig.py check
-      - run: python scripts/hig.py check-skills
+      - run: python scripts/hig.py check-skills --instructions-only
       - name: Check upstream drift
         if: github.event_name == 'workflow_dispatch' && inputs.live
         run: python scripts/hig.py check --live

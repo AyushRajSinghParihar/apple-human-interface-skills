@@ -1,0 +1,33 @@
+{
+  "scores": {
+    "task_completion": 2,
+    "hig_correctness": 2,
+    "artifact_usefulness": 2,
+    "conditions_accessibility": 2,
+    "evidence_honesty": 2
+  },
+  "evidence": {
+    "task_completion": "Separates the household pickup summary from an explicitly followed 80-minute delivery activity. The supplied snapshot renders Status unavailable / Last update 35 min ago without inventing readiness. Recipient, address and code are excluded from exposed payloads and labels; taps route to the selected household list or authenticated delivery detail.",
+    "hig_correctness": "Replaces continuous widget refresh with system-controlled timelines, gives inline one target, and ends on terminal events or the bounded monitoring deadline. Uses system small for HomeView, qualifies the watch-app fallback, disables reliance on CarPlay controls and keeps Dynamic Island backgrounds system-owned, consistent with supplied guidance.",
+    "artifact_usefulness": "Provides concrete surface layouts, freshness and recovery transitions, authorization policy, event revision rules, terminal retention, and observable acceptance gates for routing, privacy, expiry and rendering. Unknown backend and SDK constraints are identified for implementation.",
+    "conditions_accessibility": "Explicitly preserves a known stale count as Last known: 1 ready with its original age, distinguishes stale from observed offline, and never equates missing data with zero. Defines noncolor status, vibrant grayscale hierarchy, large-text priorities, Always On continuity, VoiceOver order and proposed contrast/activation checks.",
+    "evidence_honesty": "Labels examples as proposed and passes as specification inspection only; explicitly reports no native, device, measurement or accessibility execution. Freshness thresholds and monitoring cutoff are product decisions, runtime expiry and cache revocation remain unverified, and older Always On device examples are not treated as a complete support list. No material source conflict is resolved by inventing support."
+  },
+  "critical_errors": [],
+  "found_defect_ids": [],
+  "invented_high_severity_findings": [],
+  "verdict": "pass",
+  "artifact_hashes": {
+    "result.md": "bf4812e443df4ed3064a0ab4f79208533832402901da640a44a5dbc9297bf1b1"
+  },
+  "record_hash": "8f1d425fe8aca8e40899fc3ca1f737253e2713ebd2b97e271eb1499be20bf0c6",
+  "case_hash": "ff21f403b52cd739a9bd9b53a6444563f504d596de9cc19b6e4cb7af8448c097",
+  "grader": "fresh-independent-codex:01a1753c-a050-7da2-89a5-2cd3e1296ba4",
+  "grading_thread_id": "01a1753c-a050-7da2-89a5-2cd3e1296ba4",
+  "reviewed_at": "2026-10-25T22:45:35.616696+00:00",
+  "blinding": "Candidate/control identity labels withheld; fresh ephemeral grader session.",
+  "grading_transcript": {
+    "path": "coverage/grading/414f111546e99e9e/events.jsonl",
+    "hash": "f3da1187a72f8c6c98b915cc120ecfb80f6cce9262c07c51afeb43241b86fc39"
+  }
+}

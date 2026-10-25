@@ -1,0 +1,94 @@
+# Pickup summary and delivery tracking design
+
+Design specification based on `interface.md` and the installed local HIG snapshot; no web research or implementation execution. The supplied parcel belongs to Sam, with a residential address and gate secret. Those fields stay out of every widget, complication and Live Activity payload. The only observed freshness fact is a server update 35 minutes ago; neither pickup readiness, current delivery phase, ETA nor offline connectivity is established.
+
+## Concrete surfaces
+
+The glance questions are “Does our household have a pickup to check?” and, separately, “What is happening with my current delivery?” A periodic summary serves the first; an 80-minute bounded Live Activity serves the second. Apple recommends periodic, system-budgeted widget updates and Live Activities for frequently changing bounded events ([Widgets: Updating widget content and iOS](https://developer.apple.com/design/human-interface-guidelines/widgets#Updating-widget-content), [Live Activities: Best practices](https://developer.apple.com/design/human-interface-guidelines/live-activities#Best-practices)).
+
+| Surface | Family and content hierarchy | Activation |
+|---|---|---|
+| iPhone Home Screen | System small: `Household pickups`; primary safe aggregate; freshness below. Current supplied-data example: `Status needs checking` / `Updated 35 min ago`. No readiness count inferred from a parcel record. | One whole-widget target to household pickup summary. |
+| Shared Apple HomeView Modular face | System small, separately configured household-safe summary. Same hierarchy; larger primary text and removable background. No name, address, code, personal ETA or individual parcel identifier. | Open household pickup summary where supported; never directly reveal personal details. Exact host routing needs platform evidence. |
+| iPhone Lock Screen | Accessory rectangular: `Pickups · Check status` / `Updated 35 min ago`. Optional accessory inline: `Pickups · Status outdated`, a single target. | Relevant household summary, preserving unlock/authentication requirements. |
+| Private iPhone delivery | Live Activity for a followed active delivery, with compact, minimal, expanded and Lock Screen variants below. | All regions open that delivery’s authenticated detail, preserving its selection through sign-in/unlock. |
+
+HomeView Modular is a shared household display, distinct from an Apple Watch Modular face. The installed guide supports small-family widgets on HomeView; do not put a phone accessory family there. It explicitly distinguishes shared Modular content from each member’s personal Home Screen ([Widgets: Apple HomeView](https://developer.apple.com/design/human-interface-guidelines/widgets#Apple-HomeView)).
+
+After authoritative ready-to-collect data and household publication consent exist, simulated fresh summary copy is `1 pickup ready` / `Updated just now`; zero is `No pickups ready`, only with a complete authoritative query. Unknown never becomes zero. Configuration selects the household and enables a safe aggregate with the explanation: “People in your household can see pickup counts. Names, addresses and access codes stay private.” Until configured: `Choose a household` → configuration. Signed out: `Sign in to view pickups` → sign-in, then return. Never auto-publish Sam’s parcel from a personal account.
+
+Remove the proposed Accept, Cancel and Details pseudo-buttons from the inline accessory. It has one tap target. All these surfaces use one clear destination; delivery decisions remain inside the authenticated app. No in-place destructive or acceptance action is needed for either glance ([Widgets: Adding interactivity](https://developer.apple.com/design/human-interface-guidelines/widgets#Adding-interactivity)).
+
+## Freshness and offline contract
+
+The following thresholds are product decisions, not Apple requirements. Store `serverUpdatedAt`, version/sequence, expiry, authoritative phase/readiness, and optional ETA range separately from `lastFetchAttempt` and connectivity evidence. Fetching cached data does not reset server age. Render server timestamps using system date/time presentation where supported; request timeline entries at meaningful state/expiry boundaries and after changed server data, never every second. A scheduled reload is an opportunity, not a delivery guarantee.
+
+| Condition | Pickup summary | Delivery Activity |
+|---|---|---|
+| No data / initial fetch | Static labeled placeholder, then `Status unavailable` if fetch fails. | Do not invent an active event or start from a placeholder. |
+| Fresh authoritative data | At most 15 minutes old and not expired: readiness aggregate plus update age. | At most 5 minutes old and not expired: confirmed phase plus ETA range if supplied. |
+| Stale, including the supplied 35-minute age | `Status needs checking` / `Updated 35 min ago`; suppress actionable readiness claims. | `Delivery · Update delayed` / `Last update 35 min ago`; suppress ETA/countdown and progress extrapolation. |
+| Confirmed failed network request / offline evidence | `Offline · Status may have changed` plus last update age. | `Offline · Last update 35 min ago`; retain only qualified last-known phase when space permits. |
+| Refresh underway | Keep prior content and its freshness warning; no full skeleton replacement. | Keep last-known status qualified, never show “live” merely because retry started. |
+| Recovery | Accept newer authoritative snapshot, recompute age, then remove warnings if fresh. | Same; ignore older/out-of-order updates and do not resurrect a terminal activity. |
+
+An old timestamp alone means stale, not offline. If content is too old to be useful (product limit: 24 hours for pickup data), replace any retained count with `Status unavailable`, retaining the last-update timestamp where space permits. The app offers explicit refresh and an honest error/retry path. Cached displays must have expiry/stale metadata; verify actual stale presentation and timeline fallback in the target OS.
+
+## Private bounded delivery Live Activity
+
+Start when the user follows an authoritative active delivery in the iPhone app; provide `Stop tracking` in that delivery view. If Live Activities are disabled/unavailable, keep tracking in the app without blocking the task. The 80 minutes is the brief’s expected duration, not evidence of live progress and not a countdown to guaranteed arrival.
+
+Safe minimal payload: opaque event ID, phase, update timestamp, version, stale/expiry timestamps, optional ETA range and terminal reason. No residential address, gate code, recipient name, courier location, tracking number or secret-bearing URL. “Private” means scoped to the person’s account and minimized for exposed system surfaces; a Lock Screen is not a confidential container. Fetch address only after authorized app entry; reveal the access code through an explicit authenticated action. Do not copy secrets into extension caches, previews, logs or push payloads. Store secrets using established protected storage. No contacts, location, camera or other new permission is needed for this design ([Privacy: Best practices and Protecting data](https://developer.apple.com/design/human-interface-guidelines/privacy#Protecting-data)).
+
+| Presentation | Fresh simulated content | Stale/offline content |
+|---|---|---|
+| Compact leading/trailing | Parcel symbol + phase cue / `20–30m` only if authoritative | Parcel + warning cue / `Delayed` or `Offline`; no ETA |
+| Minimal, including multiple-activity context | Parcel with current phase mark; accessible current-state label, not logo alone | Parcel with warning mark; accessible “Delivery update delayed” or “Delivery offline” |
+| Expanded | `Delivery` leading, phase below; ETA in corresponding trailing region; update age beneath | `Update delayed` or `Offline`; last update age in ETA region |
+| Lock Screen | `Delivery` / confirmed phase / optional arrival range / updated age | `Delivery · Update delayed` / `Last update 35 min ago`; offline wording only with evidence |
+
+Compact halves open the same event. Expansion retains relative positions; no custom Dynamic Island background. Use the Lock Screen’s distinct task layout and standard 14 pt margins as a starting point, adapted to available space. Limited-width variants must preserve meaningful status within the guide’s 28 pt context rather than force full text into it ([Live Activities: Presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities#Presentation)).
+
+Lifecycle: authoritative active → fresh phase changes → stale/offline if expired or failed → recovered active, or terminal delivered/cancelled/failed. Update only changed content; no artificial progress bar based on elapsed time. An arrival alert may be useful only on a fresh authoritative arrival event; choose one alert channel and avoid a duplicate push. Do not alert for routine retries.
+
+At confirmed completion/cancellation/failure, end immediately. Retain a safe final `Delivered`, `Cancelled` or `Delivery ended` summary for 15 minutes where the system permits, then dismiss; Dynamic Island removes ended content immediately. A local safety deadline of start + 120 minutes bounds tracking if terminal signals never arrive: end as `Tracking ended · Check status`, never “Delivered.” At the expected 80-minute mark without confirmation, show `Taking longer than expected` only with valid timing evidence, retaining stale/offline qualification. The server/app must own termination and expiry delivery; failure to execute while offline remains an implementation risk, not a guarantee. User stopping tracking ends the display immediately without cancelling the delivery. Terminal history stays accessible in app beyond the retained summary ([Live Activities: Starting, updating, and ending](https://developer.apple.com/design/human-interface-guidelines/live-activities#Starting-updating-and-ending-a-Live-Activity)).
+
+StandBy uses the safe Lock Screen hierarchy at larger scale with red Night Mode support. Paired Mac uses compact/minimal/expanded content and the documented iPhone Mirroring destination. CarPlay must remain useful with all controls disabled; this design is informational already. No Live Activity is proposed for tvOS or visionOS. These are source-supported design contracts, conditional on target OS/SDK support, not verified deployment claims.
+
+## Watch comparison and choice
+
+| Decision | Watch-face complication | Delivery Live Activity in Smart Stack |
+|---|---|---|
+| Task fit | Recurring pickup workload deserves ongoing face space if the wearer chooses it. Weak fit for one temporary 80-minute delivery. | Strong fit for a changing, bounded delivery; timely presentation atop the paired Watch Smart Stack without requiring permanent face space. |
+| Freshness | Timeline/reload budget; same pickup age and stale policy. No second-by-second updates. | Event-driven phase/ETA updates, same five-minute freshness policy and offline qualification; frequent updates still depend on delivery, not a guaranteed live feed. |
+| Privacy | Safe pickup aggregate only; no names, address or code, including Always On. | Account-scoped safe delivery phase; no identity/secrets even at wrist raise. Redacted mode shows `Delivery active` or `Check status` rather than ETA/phase if the wearer requests additional privacy. |
+| Ending | Persistent slot remains useful: fresh zero → `No pickups`; unknown → `Check status`. It does not end with a delivery. User may remove the complication. | Ends with the phone event, including the 120-minute fallback. Retain a 15-minute terminal summary only where supported; never leave “Arriving” after completion. |
+| Tap | Pickup summary in a native Watch app, useful even when phone is unavailable; retain cache age and retry there. | Open corresponding delivery detail in native Watch app when installed. Without it, system full-screen activity with a paired-iPhone launch button; no invented direct Watch-app route. |
+
+Choose the Smart Stack Live Activity as the delivery glance. Offer an optional, user-selected accessory rectangular complication for recurring pickup summary, not a duplicate delivery tracker. Rectangular copy: `Pickups` / `1 ready` / update age when fresh; supplied state: `Pickups` / `Check status` / `35 min ago`. A circular alternative shows parcel + count only while fresh; stale uses a warning symbol with an accessible status label. Inline is optional `Pickups: check status`, one destination, no buttons. Do not ship other face slots until tailored layouts are validated. Use modern WidgetKit families, not copied legacy ClockKit dimensions; no percentage ring because delivery progress is not measured.
+
+Watch Activity uses a tailored compact hierarchy: `Delivery` / phase or `Update delayed` / ETA or update age; no direct actions. This layout also remains meaningful if reused by CarPlay. A native Watch detail should independently offer last-known phase, timestamp, refresh/error state and terminal history without requiring a phone connection for the cached glance. Wrist lowering preserves selection and layout, dims supporting detail and rests motion; wrist raise restores the same event. Do not assume all Watch models or iPhones support Always On. These choices follow [Complications: Best practices](https://developer.apple.com/design/human-interface-guidelines/complications#Best-practices), [watchOS design](https://developer.apple.com/design/human-interface-guidelines/designing-for-watchos#Best-practices), [Live Activities: watchOS](https://developer.apple.com/design/human-interface-guidelines/live-activities#watchOS), and [Always On](https://developer.apple.com/design/human-interface-guidelines/always-on#Best-practices).
+
+## Presentation and acceptance checks
+
+Use actual text, system styles and semantic colors; primary status first, freshness second, decoration last. State always has text/symbol meaning independent of color. Full-color light/dark, accented/tinted/clear Home Screen, vibrant Lock Screen, background-removed HomeView, red Night Mode and dimmed Always On must preserve that hierarchy. Keep primary status stable while secondary detail dims; never reveal more private content when the screen dims. No essential animation or timed response. At larger text, drop decoration/secondary detail before freshness warnings; do not shrink essential text to fit. Target 200% text usability on iPhone and 140% on Watch in the applicable layouts, with accessibility-size previews and meaningful spoken labels. Whole-surface activation avoids competing tiny controls ([Widgets: Rendering modes](https://developer.apple.com/design/human-interface-guidelines/widgets#Rendering-modes), [Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility#Vision)).
+
+Status here distinguishes specification inspection from execution:
+
+| Check | Result / required acceptance |
+|---|---|
+| Supplied proposal review | **Failed:** second-by-second widget promise, secret/address exposure on shared face, three independent inline targets. These are confirmed from the text brief. |
+| Revised surface/state contract | **Passed, document inspection only:** periodic versus bounded tasks separated; shared safe configuration, single inline target, all iPhone Activity presentations, Watch comparison and terminal rules specified. |
+| Supplied 35-minute update | **Passed, document inspection only:** classified stale; no offline assertion, readiness claim or invented ETA. |
+| Privacy flow and payload | **Not executed:** inspect extension stores, pushes, links, previews, logs, sign-out/account switch and household revocation. Secrets absent; cross-account links cannot reveal delivery; revoke clears published aggregate and cached personal content. |
+| Freshness/lifecycle | **Not executed:** inject fresh, 35-minute-old, no-data, expired and out-of-order payloads; network failure/recovery; delivery at minute 80; missing terminal at minute 120; cancellation, tracking opt-out, duplicate terminal. No false ETA or completion, no resurrection; ended surfaces dismiss according to policy. |
+| Navigation | **Not executed:** every widget region/inline target opens household summary; Activity halves open exact event; auth returns to it; deleted event shows unavailable state; Watch installed/absent and phone disconnected fallbacks work. |
+| Rendering | **Not executed:** each selected family on smallest/largest supported devices, long localized strings, right-to-left text, large counts, light/dark, tint/clear/vibrant, HomeView background removal/red night, StandBy and relevant Watch sizes. Essential status/age remains readable without clipping. |
+| Accessibility | **Not executed:** VoiceOver names/reading order/activation, Switch Control and relevant assistive input; actual text scaling, measured contrast and target geometry. Verify redaction does not leak through accessibility labels. Use native surface activation and default 44 × 44 pt controls in app detail where applicable. |
+| Physical/platform behavior | **Not executed:** actual Watch readability, wrist-down/up continuity, Always On, household visibility, push/timeline latency, termination while offline, SDK compilation and battery/update budget. |
+
+## Missing evidence and instruction audit
+
+Only a text brief was supplied. Missing: actual pickup readiness/phase/ETA data; household sharing authorization and membership/revocation rules; server expiry/update/terminal schema and delivery guarantees; target OS versions, SDK and devices; native Watch app availability; HomeView host activation behavior; implementation, previews/screenshots and measured accessibility/device results. Product thresholds, 120-minute deadline and 15-minute retention require operational validation. SDK availability and native lifecycle behavior must be verified before shipping; local HIG is not API documentation.
+
+Read installed root `/tmp/hig-eval-iwmmixv0/.agents/skills/apple-hig/SKILL.md` first, then `interface.md`; read getting-started and system-experiences families and searched `references/topic-index.md`. Read platform topic procedures for iOS/watchOS before component guides; read Widgets, Live Activities and Complications procedures before their references. Read foundations family → Privacy and Accessibility procedures → references, and technologies family → Always On procedure → reference. All successful reads resolved under that installed package, one file per shell command. Two attempted reference reads omitted the package’s `apple-hig/subskills` segment and failed; corrected installed paths were then read. Long output was revisited for widget/Activity guidance and the relevant Activity section. Official links above are attribution from local files, not claims of web verification. No device, SDK, GUI, accessibility or runtime tests were executed.

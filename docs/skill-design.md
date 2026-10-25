@@ -1,5 +1,10 @@
 # Skill authoring research and design choices
 
+Publication scope: source-backed procedures, instruction reviews and installation
+checks. The extended comparative grading target described below remains an
+incomplete development study; it is not a claim of behavioral acceptance.
+
+
 The initial research used the [Agent Skills specification](https://agentskills.io/specification)
 and Anthropic's [skill authoring guidance](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices).
 Both were checked again before publication on 2026-10-25.

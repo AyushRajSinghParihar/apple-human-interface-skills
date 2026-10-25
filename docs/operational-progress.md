@@ -30,11 +30,12 @@ cannot be mistaken for new instruction approval.
 ## State
 
 - Baseline: 34 tests passing, clean published baseline preserved.
-- Current phase: all158 topic procedures authored and independently approved;
-  strict source and instruction gates clear, complete installation smoke passed,
- 75 deterministic tests green. Final195 fresh behavioral executions running.
-- Not yet verified: final behavioral outcomes and independent grades, final README
-  result claims, publication archive and public CI.
+- Current scope: all 158 article-derived topic procedures and source guides,
+  independently reviewed instruction quality, complete-bundle installation smoke,
+  concise installation/usage README, deterministic checks and publication.
+- Extended comparative artifact grading was stopped after the user narrowed
+  scope. Completed development executions remain evidence of routing/artifact
+  creation; no independently accepted 195-execution benchmark is claimed.
 
 ## Observed pilot and tooling evidence
 
@@ -175,3 +176,31 @@ The original suite start and initial capability-manifest hash remain recorded;
 SUITE explicitly binds the revised manifest and both protocol versions. Grading
 selection must match the current inventory's exact case path and hash so preserved
 v1 files cannot accidentally count as current evidence.
+
+
+Second resume completed 47 attempts: 46 completed and one retained v1
+trace-contract failure. All 158 topic slots, 21 unchanged stress slots and 13
+controls now have current completed executions; fresh v2 Watch comparisons are
+running. The final complete-bundle Codex installation smoke passed all 17 checks
+at 22:41:24 UTC, and its trace/discovery/identity/package evidence independently
+passed the report verifier. Its whole-package fingerprint equals the independent
+package audit. Artifact grades and final release acceptance remain pending.
+
+
+## Final scope correction
+
+The user requested ending the extended evaluation work and publishing the useful
+article-derived skills with a proper README. All 158 procedures already contain
+source-backed principles, decisions, examples, output contracts and checks, with
+independent instruction reviews. The current complete-bundle client smoke passed.
+The final stress executions completed before cancellation; no additional grading
+jobs are scheduled. The comparative grading study remains incomplete.
+
+CI now explicitly checks source and instruction acceptance via
+`check` and `check-skills --instructions-only`. The default full `check-skills`
+command retains its additional behavioral-grade requirements. README describes
+these separate scopes, and the suite is marked stopped rather than passed.
+
+Final publication checks: 75 deterministic tests pass; source check has 0 errors /
+0 pending (173 routes, 158 articles); instruction-only check has 0 errors /
+0 pending with all 158 procedures reviewed. No new model jobs are running.

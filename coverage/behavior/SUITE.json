@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "operational-v2-20261025",
-  "phase": "final-package-reruns",
-  "status": "running",
+  "phase": "stopped-before-full-independent-grading",
+  "status": "stopped",
   "started_at": "2026-10-25T19:04:18.189499+00:00",
   "model": "gpt-6.1-sol",
   "execution_target": 195,
@@ -483,6 +483,18 @@
         "routing_error": 2
       },
       "note": "Required final-router reruns completed. Privacy leaf revision during this batch invalidates every attempt that consumed its old bytes; next resume recalculates all dependencies."
+    },
+    {
+      "id": "final-resume-2",
+      "started_at": "2026-10-25T22:06:07+00:00",
+      "finished_at": "2026-10-25T22:41:18+00:00",
+      "attempts": 47,
+      "statuses": {
+        "completed": 46,
+        "routing_error": 1
+      },
+      "current_completed_slots_after_protocol_amendment": 192,
+      "note": "All158 topic slots,21 unchanged stress slots and13 controls have current completed executions. Original v1 surface task repetitions remain historical after disclosed protocol correction; all three v2 repetitions require fresh execution."
     }
   ],
   "initial_capability_manifest_hash": "47da42a240afc41a5d54d76266b60cc01927337475897c10f75974767ded4117",
@@ -545,5 +557,20 @@
       "fresh_execution_policy": "All three v2 repetitions required. No v1 execution can fulfill the amended slots. The other192 slots retain their original contracts.",
       "diagnostic_case_mapping": "For explicitly separate v1 diagnostics, read the byte-identical archive in place of original_case_path; preserve original record, case, artifact and transcript hashes."
     }
-  ]
+  ],
+  "current_client_smoke": {
+    "path": "coverage/client-integration/symlink-path-spaces-r1/record.json",
+    "hash": "02a2bfa34639641aab4474568958817f69a38066f22f7160b9b74e38850d83e6",
+    "bundle_hash": "f41379416f0c5bbcd11d236df5144e03063c6d28736d0390630cb171cb4a7c81",
+    "passed": true,
+    "finished_at": "2026-10-25T22:41:24.720164+00:00"
+  },
+  "stopped_at": "2026-10-25T22:48:17.917856+00:00",
+  "stop_reason": "User narrowed scope to article-derived procedural skills and a finished README; extended comparative artifact grading is no longer a publication requirement.",
+  "publication_scope": {
+    "source_and_instruction_checks": "required",
+    "complete_bundle_client_smoke": "passed",
+    "extended_independent_artifact_grading": "incomplete; no accepted195-execution benchmark claim",
+    "new_model_jobs": "none scheduled"
+  }
 }

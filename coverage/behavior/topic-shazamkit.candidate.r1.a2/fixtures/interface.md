@@ -1,0 +1,1 @@
+Platform: iOS. App listens indefinitely on launch, announces a guessed exhibit as certain, keeps a prior result after no match and opens microphone permission repeatedly after denial. Recognition can be ambiguous or unavailable.
