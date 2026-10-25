@@ -1,0 +1,1 @@
+Platform: watchOS. Product promises to replace all system watch faces with a proprietary renderer and uses a complication as a full interactive map. Tide station may be unknown and readings stale.

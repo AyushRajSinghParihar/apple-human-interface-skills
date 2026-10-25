@@ -1,0 +1,70 @@
+# Architecture notes — macOS window specification
+
+This specification replaces the shared hidden buffer and fixed window model. It defines intended behavior; no application implementation or native execution is supplied. Preserve the existing technology stack.
+
+## Document and window identity
+
+- Each architecture-note document owns a stable document ID, optional file identity/location, editable content, revision counter, persisted revision and save operation. Each new Untitled note receives a distinct ID and recoverable draft location immediately.
+- Each primary window owns a window ID, document ID, frame, text selection range, scroll anchor and last focused editor. Content and persistence belong to the document, never to an app-global active buffer. Two different documents cannot share mutable content or save destinations.
+- New creates a new document and primary window. Open uses standard filesystem selection; opening an already-open file activates its existing window, including when minimized. Repeated Open must not create competing editable copies. This version has one primary window per document; parallel work uses separate documents.
+- Show the document name in its title and Window-menu entry; distinguish identical names by containing folder, and Untitled drafts by number. Retain native title bars, movement, close, minimize, resize, Zoom and full-screen behavior. Closing the last document leaves the app running with New, Open and Settings available.
+
+## Persistence and exits
+
+Autosave is enabled by default with no new disabling preference. Schedule a save after 1 second of editing inactivity and at least every 10 seconds during continuous editing; flush pending changes on app deactivation, document close and quit. These intervals are product choices, not HIG values.
+
+| Event | Required transition |
+| --- | --- |
+| Edit document A | Increment A's revision and schedule only A's save. Preserve B's content, selection and persistence state. |
+| Save (Command-S) | For a named document, save to its location. For Untitled, request name and location through standard Save UI, honoring extension visibility preferences; cancellation retains the draft and editor state. |
+| Save completion | Clear Edited only when the persisted revision equals the current revision. A late completion for an older revision cannot clear newer edits or affect another document. |
+| Save failure | Keep content and recovery data, retain Edited, and show persistent document-specific error text with Retry and Save As… access. Never present success before durable completion. |
+| Close document | Finish its pending save to its file or durable draft, then record restoration state and close that window only. If persistence fails, keep the window open with recovery actions. Close does not mean discard. |
+| Quit | Flush each document independently and record the open-window set. Abort quit on any unresolved save failure; retain all unsaved content. Successfully saved documents remain safe. |
+| Switch window/app or minimize | Preserve content, selection and scroll; focus loss neither clears buffers nor closes windows. Background saves retain their originating document ID. |
+
+Untitled drafts remain recoverable after close and appear in Open Recent with their distinct names. Reopening restores their content without requiring a named file. Do not remove drafts until a successful named save has durably transferred them. Explicit deletion/discard is outside this repair; no implicit discard is allowed. Named-file saving must use atomic replacement or equivalent protection so a failed write preserves the previous saved content.
+
+Use Edited in document titles while newer changes remain unpersisted. With autosave enabled, do not add dirty dots to close controls or Window-menu names. A persisted recovery draft is durable but still Untitled; it must not imply that the user selected a file location.
+
+## Commands and activation
+
+Use the standard macOS menu bar and familiar keyboard equivalents:
+
+| Surface | Command and scope |
+| --- | --- |
+| App menu | Settings… (Command-comma), Quit (Command-Q), app scope |
+| File | New (Command-N), Open… (Command-O), Open Recent, Close (Command-W), Save (Command-S), Save As…; Save commands target the active document window |
+| View | Text Size submenu: 100%, 125%, 150%, 175%, 200%; Enter/Exit Full Screen using system behavior |
+| Window | Minimize (Command-M), Zoom, Bring All to Front, and open-window names; preserve normal window cycling (Command-grave) |
+
+Text editing acts on the focused editor. Keep unavailable document commands visible and disabled when Settings is key or there is no document; they must not silently target the previously active note. Close always closes the key window. New/Open remain available from Settings and with no document windows. Preserve native key/main/inactive appearance and system layering; activation must not force all documents into the same selection or frame. No essential command depends on a bottom-edge button or toolbar visibility.
+
+## Restoration
+
+Persist a versioned record keyed by window ID and document ID: document file identity or draft ID, frame/display reference, selection start and length, scroll anchor, last focused editor, and open/closed status. Update after resize/move/selection changes and before close/quit. Persist content separately so view-state corruption cannot erase a document.
+
+- Reopening an intentionally closed document restores its last view state. On relaunch with system window restoration enabled, restore only windows open at quit, preserving the last active document. Honor a system request not to reopen windows; documents and drafts remain available through Open/Recent.
+- Load the correct document before applying selection and scroll. Clamp stale selection offsets to current text bounds; fall back to the document start when the anchor is invalid.
+- Restore the prior frame when it fits. If a display disappeared or usable bounds changed, resize and reposition into the current visible work area, keeping title-bar controls reachable. A missing or unreadable file yields a document-specific unavailable state with Locate… and Close; never substitute another document's buffer or overwrite the missing file with an empty note.
+- A malformed view-state record falls back to the default frame and caret at start for that document. Recovery after an interrupted process uses the latest successfully persisted draft/content and view record; do not promise recovery of edits that never reached storage.
+
+## Resizing and enlarged labels
+
+Primary windows are freely resizable. Product starting values are a 900 × 650 pt content area, minimum 480 × 360 pt, and no app-imposed maximum below the available display size. Clamp the initial/restored frame to the visible work area; provide a compact scrollable layout if the available area is smaller than the nominal minimum. Validate these proposed dimensions on Mac before release.
+
+Use standard macOS control fonts and semantic text roles. macOS has no Dynamic Type: provide the app-wide Text Size accommodation above, default 100%, persisting across launches and applying to app-owned reading text, labels and controls through 200%. This is display configuration; it must not change saved note text or mark documents Edited. Respect system accessibility preferences rather than duplicating them.
+
+Measure layout from available width and scaled text. Labels wrap into growing containers; label/control rows stack vertically whenever their intrinsic widths plus spacing exceed available width. The editor fills remaining space, wraps prose and scrolls vertically. Settings content also scrolls when needed. Never shrink text to make it fit, clip essential labels, or lock row heights. Keep selection and scroll anchor through reflow, resizing and full-screen transitions. Essential actions stay reachable through menus when the lower window edge is offscreen.
+
+## Settings window
+
+Settings… opens one reusable auxiliary window, with no document ID or note buffer. Repeated invocation brings that window forward. For this repair it contains one General pane for app-wide defaults, including Text Size; title it “Architecture Notes Settings.” Persist valid changes immediately and restore values on reopen. Closing it changes no document content, save status or open-window record. Dim minimize/zoom as appropriate for the native settings window; size content to its pane with scrolling for enlarged text. If panes are added later, use stable noncustomizable navigation, the current pane title, and restore the last pane. Frequent document view options remain local to their document; future document configuration belongs in File.
+
+## Release acceptance
+
+The executable scenarios and evidence status are in result.md. Release requires independent document saves, failed-save protection, repeated-open reuse, close/reopen and relaunch restoration, key-window command routing, and usable minimum/large/full-screen layouts at 100% and 200% text with long labels. Keyboard-only and Full Keyboard Access task completion require native Mac verification.
+
+## Guidance basis
+
+These are product requirements informed by the installed local HIG snapshot, not API availability claims. See [Windows — macOS](https://developer.apple.com/design/human-interface-guidelines/windows#macOS), [File management — Saving work](https://developer.apple.com/design/human-interface-guidelines/file-management#Saving-work), [Settings — macOS](https://developer.apple.com/design/human-interface-guidelines/settings#macOS), [Layout — Adaptability](https://developer.apple.com/design/human-interface-guidelines/layout#Adaptability), [Typography — macOS](https://developer.apple.com/design/human-interface-guidelines/typography#macOS), [Accessibility — Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility#Vision), [The menu bar](https://developer.apple.com/design/human-interface-guidelines/the-menu-bar), [Keyboards](https://developer.apple.com/design/human-interface-guidelines/keyboards), and [Multitasking — macOS](https://developer.apple.com/design/human-interface-guidelines/multitasking#macOS). Links identify sources; no network access was used.

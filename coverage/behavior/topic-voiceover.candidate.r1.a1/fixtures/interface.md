@@ -1,0 +1,1 @@
+Platform: iOS. Each row has destination, platform, countdown and status, but all are separate unlabeled elements in random order. A star favorite button announces only Star; countdown updates interrupt speech every second.

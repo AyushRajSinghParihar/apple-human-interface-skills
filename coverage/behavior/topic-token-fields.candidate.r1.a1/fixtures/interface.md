@@ -1,0 +1,1 @@
+Platform: macOS. Field stores semicolon text but renders it as one uneditable image, accepts invalid addresses silently and backspace removes all recipients. Duplicate recipients are invited repeatedly and selection has no keyboard behavior.

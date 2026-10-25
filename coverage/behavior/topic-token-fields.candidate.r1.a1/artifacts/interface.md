@@ -1,0 +1,52 @@
+# Mac invitation editor — revised recipient entry specification
+
+Platform: macOS. This specification replaces the original semicolon-text field rendered as one uneditable image. The editor must support entering, inspecting, correcting, selecting, removing and transferring individual recipients before inviting them.
+
+## Representation and identity
+
+Use a macOS token field, preferably the native system component where the existing stack permits. Render actual selectable text and tokens, never a flattened image. Keep an ordered recipient model separate from its serialized representation. Legacy semicolon text is parsed through the same validation and deduplication pipeline as paste; importing it never sends invitations.
+
+Each committed token holds the exact mailbox address, optional display name, validation state and deduplication key. Show the full address; if a display name is present, show `Name <address>` so equal names cannot conceal different destinations. Do not replace typed text with the first contact match. No contact suggestions are required for this repair; a bare name remains unresolved until an address is supplied.
+
+For this release, support ASCII dot-atom local parts and DNS domains: one @; nonempty local/domain; no whitespace, leading/trailing/consecutive local dots; domain labels contain letters, digits or internal hyphens, separated by dots, with no empty labels or boundary hyphens. Reject unsupported quoted local parts, address literals and internationalized addresses with an explicit “This address format isn’t supported; edit or remove it” message. This is a product input policy, not a claim about all valid email formats or deliverability. Trim surrounding whitespace and lowercase the domain for identity; preserve local-part case and do not merge plus aliases or dotted variants. Equal keys represent one recipient. Different local-part casing remains distinct under this conservative policy.
+
+Local-part atom characters are ASCII letters, digits and `! # $ % & ' * + - / = ? ^ _` plus backtick, braces, vertical bar and tilde; dots separate nonempty atoms. Validation checks the mailbox inside angle brackets separately from its display name.
+
+## Entry, validation and submission
+
+- Label the field “Recipients”; show “Enter email addresses, separated by commas or semicolons” as persistent help.
+- Comma, semicolon and Return commit the current fragment. Return in this field never sends invitations. Delimiters inside a quoted display name or angle-bracket mailbox are parsed as part of that address structure; paste accepts `Name <address>` and plain addresses, with comma, semicolon or newline between entries. Unbalanced structures remain editable errors; do not guess their boundaries or discard text.
+- Do not tokenize during input-method composition. Ordinary typing remains editable until a commit trigger. Ignore empty delimiter-separated fragments.
+- On commit, valid unique addresses become tokens. Invalid or unresolved fragments remain editable error tokens showing their original text, an error symbol and a persistent specific message (for example, “Add a domain after @”). Never silently drop or accept invalid fragments. Editing a token exposes its original address text in place; recommit reruns validation.
+- Deduplicate against existing tokens and within the same batch, preserving first occurrence and order. Do not append a duplicate; keep its original token and show persistent status “Already added: address.” Duplicate suppression must not move keyboard focus. The status clears on the next entry operation or explicit dismissal.
+- On Tab, Shift-Tab or pointer departure, validate unfinished nonempty text without trapping focus. Preserve errors and allow leaving the field. On Invite activation, first validate all unfinished text and edited tokens atomically. If any error exists or there are no recipients, send nothing, show a specific inline explanation and focus the first error or empty field. Otherwise send exactly one invitation per unique key in the validated snapshot. Selection and display order do not alter membership. Keep validation errors distinct from delivery failures; syntax validation does not prove a mailbox exists.
+
+## Selection, editing and keyboard contract
+
+Field focus, token selection and invitation membership are different states. All valid tokens are invitees whether selected or not. Use system focus/selection treatments, including an inactive selection treatment after focus leaves.
+
+| Input/context | Required result |
+|---|---|
+| Click token; Command-click token; Shift-click token | Select one; toggle that token; extend a contiguous selection from the anchor, respectively. No invitation is sent. |
+| Left/Right at a text boundary | Move to the adjacent token; continue through tokens in displayed order and into the text insertion position. Within text, retain standard text navigation. |
+| Shift-Left/Right with token selection | Extend or shrink the selected range; retain an anchor. |
+| Command-A in the recipient field | Select all tokens and pending text in this field only. |
+| Backspace with text caret | Delete text normally. At an empty insertion position after a token, first select the preceding token; a second Backspace removes that selection only. |
+| Backspace/Delete with token selection | Remove only selected tokens. Unselected recipients remain. Place the insertion caret at the removed range’s boundary; do not transfer focus to another control. |
+| Return on one selected token, double-click, or visible “Edit Recipient” action | Expand that token into editable text at its existing position. Editing does not append a second recipient. |
+| Escape while editing | Restore the token’s pre-edit value and selection. Escape otherwise clears token selection; it never clears recipients. |
+| Command-C / X / V | Copy selected recipients as `Name <address>` or address text in order, separated by semicolons; cut additionally removes only selection; paste inserts at the caret or replaces selection and runs the same parser. Preserve full addresses, not names alone. |
+| Command-Z / Shift-Command-Z | Undo/redo entry, batch paste, edit, deletion and reorder as transactions, including affected selection and text. A duplicate-only operation does not remove the original on undo. |
+| Tab / Shift-Tab | Leave to next/previous editor control after validation. No token-by-token Tab trap. Full Keyboard Access must reach Invite and all recipient actions. |
+
+Expose visible “Edit Recipient”, “Remove Selected”, “Move Earlier” and “Move Later” actions associated with the field. Enable Edit only for one selected token; enable removal for a nonempty selection. Move a selected contiguous range one position earlier/later, preserving internal order and selection; disable at boundaries or for noncontiguous selection. These actions provide keyboard/assistive alternatives to pointer manipulation. Dragging can reorder or transfer tokens to another compatible recipient field; same-field reorder preserves identity, cross-field move validates the destination and removes from the source only after acceptance. Rejected transfers leave the source intact. Copy transfer retains the source. External text transfer always includes addresses. No context menu is required for this repair.
+
+## Presentation and access
+
+Wrap tokens and grow the field before scrolling within its allocated area; keep the active caret/token visible. Preserve full addresses and errors through wrapping or an accessible expanded view. At 200% text enlargement, no essential content or action may become unavailable. Use semantic system text and selection colors; error meaning must include text and symbol, not color alone.
+
+Expose the field’s label, editable text, ordered token values, selection state and validation messages through accessibility semantics. Each token must be individually inspectable and operable, with its address available as text. Associate errors with the relevant token and field; expose changed validation/duplicate status without stealing focus. Actions have meaningful labels and disabled states. The keyboard route is Recipients → recipient actions → subsequent editor controls → Invite, reversible with Shift-Tab under Full Keyboard Access. The implementation must verify actual assistive reading order rather than relying on visual order.
+
+## Guidance and scope
+
+The local HIG snapshot supports manipulable macOS recipient tokens and comma conversion ([Token fields, Best practices](https://developer.apple.com/design/human-interface-guidelines/token-fields#Best-practices)), familiar editing shortcuts and Full Keyboard Access ([Keyboards](https://developer.apple.com/design/human-interface-guidelines/keyboards#Best-practices)), distinct focus and selection ([Focus and selection](https://developer.apple.com/design/human-interface-guidelines/focus-and-selection#Best-practices)), and text alternatives, enlargement and assistive input ([Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility)). Parsing grammar, duplicate identity, extra commit triggers and exact state transitions above are product decisions. This document specifies behavior; it does not establish SDK availability or runtime conformance.

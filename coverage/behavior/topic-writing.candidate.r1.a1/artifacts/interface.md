@@ -1,0 +1,36 @@
+# iPhone parking app — revised specification
+
+Platform: iOS on iPhone. This specifies copy and behavior; it is not an app implementation.
+
+## Assumptions requiring product verification
+
+The original does not identify the operation, permission, rejected field, or expired session. This specification chooses: enter a zone and duration, review, then pay; optional location access finds nearby zones; validation concerns an unrecognized zone; expiry concerns authentication. These are design assumptions, not observed behavior. Verify the meaning of error 0x17 before using the expiry message. Never use authentication-expiry copy for a paid parking period ending.
+
+## Exact replacements
+
+| Original | Revised copy | Context and behavior |
+| --- | --- | --- |
+| Execute operation | **Review Parking** | Setup primary button opens review of zone, vehicle, duration, and total. Does not charge or start parking. |
+| We require access | **Your location is used to find nearby parking zones.** | Location purpose string. Request only when the person invokes nearby-zone lookup, using the minimum access needed for that task, without background tracking. Manual zone entry remains available after denial or unavailable location. No custom pre-permission screen is specified. |
+| You entered bad data | **Zone not found. Check the number on the parking sign and try again.** | Inline beside **Zone Number**, only after a successful lookup finds no match. Retain the entered value. Permanent field hint: **Enter the zone number on the parking sign.** Do not invent a universal length or format. |
+| Fatal 0x17 | Title: **Sign In Again**. Body: **Your sign-in session has expired. Sign in again to continue.** Button: **Sign In**. | Inline recovery state, only for verified authentication expiry. Preserve nonsensitive parking selections. Sign In opens authentication, then returns to review with current price and availability. Never automatically submit payment after signing in. Keep the code in diagnostics rather than customer copy. |
+| OK — cancellation | **Cancel** | Secondary button with cancel role on payment review before submission. Returns to setup, retaining selections. Does not charge or end existing parking. |
+| OK — payment | **Pay {total}** | Prominent button submits the displayed reviewed purchase. Replace {total} with the localized full amount and currency, including fees, matching the visible total. This assumes generic payment; Apple Pay would require a separate system-button specification. |
+
+## State and action contract
+
+- Show zone, vehicle, duration, and itemized total before payment. Enable Pay only with valid details and a current total. Review Parking opens review; returning to setup retains selections.
+- For a lookup outage, show **Couldn’t check the zone. Try again.** with **Try Again** to repeat lookup. Do not label a network failure as invalid input.
+- During payment, show an activity indicator inside the payment button with **Processing Payment**. Prevent duplicate submissions. Do not offer Cancel as if it could reverse an in-flight charge.
+- Show **Parking Started** with the confirmed end time only after payment and parking activation are confirmed. If payment is received but activation remains unresolved, show **Payment received. Checking parking status.** Reconcile the existing transaction without submitting another payment.
+- For a confirmed decline, show **Payment declined. Choose another payment method and try again.** with **Change Payment Method**. For an unknown outcome, show **Checking payment status.** and reconcile before permitting another submission. Do not claim no charge without confirmation.
+- Use “parking” for the paid parking period and “sign-in session” for authentication. Use title case for button titles, sentence case for explanations, and consistent “zone” terminology. Braces mark runtime values, never literal display text.
+
+## Acceptance checks
+
+1. All six original copy problems have replacements and contexts above.
+2. Review opens review without charging; Cancel returns with selections; Pay submits only the displayed reviewed purchase.
+3. Location copy names the data and benefit; denial leaves manual entry usable.
+4. Unknown zone, lookup outage, and authentication expiry have distinct remedies; values survive correction and recovery.
+5. The displayed total matches the purchase. Duplicate taps and uncertain outcomes cannot cause another payment. Success requires confirmed parking activation.
+6. On an actual iPhone, verify localized amounts and strings, enlarged-text fit, VoiceOver reading and action names, permission denial, recovery, and payment transitions. These execution checks remain pending.

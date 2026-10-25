@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "operational-v2-20261025",
-  "phase": "final",
+  "phase": "final-package-reruns",
   "status": "running",
   "started_at": "2026-10-25T19:04:18.189499+00:00",
   "model": "gpt-6.1-sol",
@@ -428,5 +428,16 @@
       "finalization": "Platform adaptation explicitly joins support/feasibility routing; independently approved. Router and index frozen after this review."
     }
   ],
-  "routing_review_hash": "0a27401e25f4b8b35eb6c1f06c2cdb1b48e168b1fadaa517c76e06a1651e699c"
+  "routing_review_hash": "0a27401e25f4b8b35eb6c1f06c2cdb1b48e168b1fadaa517c76e06a1651e699c",
+  "initial_batch": {
+    "finished_at": "2026-10-25T21:27:05.836954+00:00",
+    "attempts": 195,
+    "statuses": {
+      "completed": 189,
+      "routing_error": 6
+    },
+    "current_completed_slots": 138,
+    "rerun_slots": 57,
+    "note": "Six routing failures and51 completed candidate captures precede final router/index freeze; retain all and rerun57 slots with unchanged cases and harness. Original suite started_at is preserved."
+  }
 }

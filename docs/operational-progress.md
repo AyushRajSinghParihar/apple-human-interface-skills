@@ -122,3 +122,8 @@ subsequent completed evidence and final results as separate checkpoints.
 The 158 procedure approvals and frozen routing are complete; behavioral grades,
 current-router installation smoke, final report and release integration remain
 pending.
+
+Initial execution batch finished with189 completed attempts and6 retained early
+routing failures.138 slots bind current package/baseline bytes;57 slots require
+reruns after the final routing freeze. Cases and harness remain unchanged.
+All independent artifact grades and final release acceptance remain pending.

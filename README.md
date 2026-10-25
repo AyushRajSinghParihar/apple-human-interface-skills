@@ -2,7 +2,7 @@
 
 **Give your agent a procedure for the interface decision in front of it.**
 
-[![Validate skill package](https://github.com/AyushRajSinghParihar/apple-human-interface-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/AyushRajSinghParihar/apple-human-interface-skills/actions/workflows/validate.yml)
+[![Validate skill package](https://github.com/AyushRajSinghParihar/apple-human-interface-skills/actions/workflows/validate.yml/badge.svg?branch=feat%2Foperational-topic-skills)](https://github.com/AyushRajSinghParihar/apple-human-interface-skills/actions/workflows/validate.yml)
 
 One portable `apple-hig` mega-skill routes to **158 topic procedures** across
 **13 families**, backed by the current English Apple Human Interface Guidelines.

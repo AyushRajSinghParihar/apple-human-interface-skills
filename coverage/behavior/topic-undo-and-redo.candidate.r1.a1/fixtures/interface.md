@@ -1,0 +1,1 @@
+Platform: macOS. Undo randomly reverses the last server sync rather than the user’s last edit, Redo persists after divergent changes and Delete shape cannot be recovered. Selection and document identity matter across windows.

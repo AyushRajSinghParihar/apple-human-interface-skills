@@ -1,0 +1,1 @@
+Platforms: iOS/macOS. Body uses one thin 9 pt custom font, headings are images and values clip under larger text. Tabular financial figures shift horizontally as they update; all emphasis is all-caps paragraphs.
