@@ -3,6 +3,7 @@
 **Help your coding agent make better Apple interfaces.**
 
 [![Validate skill package](https://github.com/AyushRajSinghParihar/apple-human-interface-skills/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/AyushRajSinghParihar/apple-human-interface-skills/actions/workflows/validate.yml)
+[![skills.sh](https://skills.sh/b/AyushRajSinghParihar/apple-human-interface-skills)](https://skills.sh/ayushrajsinghparihar/apple-human-interface-skills/apple-hig)
 
 Designing an iPhone app, reviewing a Mac interface, or adapting a screen for Apple
 Watch? `apple-hig` gives your agent practical guidance from Apple’s Human Interface
@@ -27,6 +28,30 @@ an agent. This installs the complete skill, including all 158 topics.
 
 You’ll need **Node.js 22.20+ and Git** for the installer. Add `-g` to the command
 if you want the skill available across projects.
+
+### Claude Code marketplace
+
+You can also install the same complete bundle through Claude Code's plugin system:
+
+```text
+/plugin marketplace add AyushRajSinghParihar/apple-human-interface-skills
+/plugin install apple-hig@apple-human-interface-skills
+```
+
+Start a new session and invoke `/apple-hig:apple-hig`, or ask Claude to use
+`apple-hig` for an Apple interface task. Use either this method or the Skills CLI
+for a given installation to avoid loading duplicate copies.
+
+This is a community marketplace hosted in this repository. It is not an
+Anthropic directory listing or an Apple endorsement. The plugin loads only the
+complete `skills/apple-hig` folder, with no hooks, MCP servers, or install scripts.
+
+### Cursor plugin packaging
+
+The repository includes a `.cursor-plugin/plugin.json` manifest that points to
+the same `skills/` folder. Marketplace availability depends on Cursor's review;
+the manifest alone does not mean the plugin is listed. In the meantime, use the
+Skills CLI installation above. Cursor runtime behavior has not yet been verified.
 
 ## Try it
 
@@ -102,6 +127,10 @@ Installation and skill loading were tested with **Codex CLI 0.164.0**, including
 a complete bundle, symlinks, and paths with spaces. The Skills CLI installation
 was also checked to preserve the entire bundle, including hidden topic files.
 Other agent runtimes and native Apple device behavior have not been verified.
+
+Claude Code 2.1.310 marketplace installation and component discovery were also
+checked: one skill loaded, with no agents, hooks, or MCP servers. This checks
+packaging and discovery, not task performance in Claude Code.
 
 [Source report](coverage/REPORT.md) · [Package review](coverage/package-review.json) ·
 [Client installation checks](coverage/client-integration/README.md)
