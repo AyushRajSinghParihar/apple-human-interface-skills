@@ -1,1 +1,0 @@
-Platform: iOS. Notification exposes a full diagnosis on Lock Screen, repeats every minute after dismissal and opens the generic home screen. Acknowledging a reminder incorrectly cancels the appointment. Permission may be denied.

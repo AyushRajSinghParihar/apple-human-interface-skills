@@ -1,1 +1,0 @@
-Platform: iOS. Pass contains a mutable screenshot of a barcode, hides event date/location and opens a generic marketing page. A canceled event remains Valid and sensitive identity details are printed unnecessarily.

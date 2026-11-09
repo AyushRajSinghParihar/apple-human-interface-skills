@@ -1,1 +1,0 @@
-Platform: watchOS. Picker contains 1,440 unlabeled minute options and resets on each Crown turn; a blank row means Every day. Product needs a time and a small named repeat schedule.

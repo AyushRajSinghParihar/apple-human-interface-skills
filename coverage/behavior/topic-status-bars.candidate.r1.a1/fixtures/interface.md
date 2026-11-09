@@ -1,1 +1,0 @@
-Platform: iOS. App paints a fake time/battery over system status, critical network errors hide behind it and tapping the reading surface alternates unpredictable status visibility. Content obscures system safe areas.

@@ -1,1 +1,0 @@
-Platform: macOS. A fake progress bar starts at 90% before work begins; one stuck file makes the entire window unresponsive. Cancel deletes source files. Total byte count is known after scanning but scanning duration is unknown.

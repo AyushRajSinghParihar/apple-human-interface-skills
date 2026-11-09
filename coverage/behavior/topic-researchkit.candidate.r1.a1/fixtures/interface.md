@@ -1,1 +1,0 @@
-Platform: iOS. Consent is a prechecked checkbox under a long unreadable paragraph; declining still enrolls the person. A movement task has no stop control and collected answers are shared publicly by default. Study approval is not supplied.

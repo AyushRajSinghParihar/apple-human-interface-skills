@@ -33,9 +33,8 @@ class PackageContractTests(unittest.TestCase):
         for plugin in marketplace.get("plugins", []):
             if plugin.get("name") == "apple-hig" and "version" in plugin:
                 versions[".claude-plugin/marketplace.json"] = plugin["version"]
-        claude_plugin = ROOT / ".claude-plugin/plugin.json"
-        if claude_plugin.is_file():
-            versions[".claude-plugin/plugin.json"] = json.loads(claude_plugin.read_text()).get("version")
+        claude_plugin = PACKAGE / ".claude-plugin/plugin.json"
+        versions["skills/apple-hig/.claude-plugin/plugin.json"] = json.loads(claude_plugin.read_text()).get("version")
         metadata = frontmatter(PACKAGE / "SKILL.md").get("metadata", {})
         if "version" in metadata:
             versions["skills/apple-hig/SKILL.md"] = str(metadata["version"])

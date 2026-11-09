@@ -253,6 +253,20 @@ class CapabilityTests(unittest.TestCase):
             self.assertEqual(result["behavior_passed"], 0)
             self.assertTrue(any("behavior" in item for item in result["errors"]), result)
 
+    def test_archived_behavior_study_fails_closed_with_one_clear_error(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.package(root)
+            write_json(root / "coverage/behavior-archive.json",
+                       {"status": "stopped", "branch": "evidence", "commit": "abc123"})
+            result = capabilities.check(root)
+            behavior = [item for item in result["errors"] if item.startswith("behavior:")]
+            self.assertEqual(len(behavior), 1, result)
+            self.assertIn("evidence", behavior[0])
+            self.assertEqual(result["behavior_passed"], 0)
+            instructions = capabilities.check(root, require_behavior=False)
+            self.assertFalse(any(item.startswith("behavior:") for item in instructions["errors"]), instructions)
+
     def test_unregistered_instruction_directory_cannot_hide_outside_inventory(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

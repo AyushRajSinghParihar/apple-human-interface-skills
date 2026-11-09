@@ -1,1 +1,0 @@
-Platform: tvOS. Catalog uses 12-point text, dense touch targets and pinch to zoom. Focus is invisible and entering details loses the previous item. Videos autoplay with sound when merely focused.

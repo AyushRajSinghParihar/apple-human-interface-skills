@@ -1,1 +1,0 @@
-Platforms: iPadOS/iOS. Wide palette’s arrow points to empty space, a second popover cascades from it, tapping outside discards edits and multiple selections close it after the first choice. Compact phone uses the same tiny floating geometry.

@@ -1,1 +1,0 @@
-Platform: macOS. A tiny unlabeled square immediately randomizes every shape on click. Multiple selected shapes with different colors appear as black. Cancel in the color panel still commits changes. Keyboard users cannot reach the control.

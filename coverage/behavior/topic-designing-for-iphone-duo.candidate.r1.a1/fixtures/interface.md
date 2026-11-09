@@ -1,1 +1,0 @@
-Platform: source-described iPhone Duo. Current proposal stretches the compact view into a wider canvas, loses the selected recipe when the configuration changes and leaves essential controls outside reach. Product has no verified hardware or implementation SDK.

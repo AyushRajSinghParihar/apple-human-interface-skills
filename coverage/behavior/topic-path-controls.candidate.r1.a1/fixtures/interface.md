@@ -1,1 +1,0 @@
-Platform: macOS. It displays only cryptic database IDs, clicking an ancestor deletes intervening folders, path items do not identify hierarchy and long paths truncate the current item while showing root in full. Files may be unavailable.

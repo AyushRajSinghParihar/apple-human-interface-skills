@@ -1,1 +1,0 @@
-Platform: macOS. Open replaces the current unsaved document without warning, Save asks for an export format every time and deleting a local document silently removes shared cloud copies. Recent files include inaccessible items with no recovery.
