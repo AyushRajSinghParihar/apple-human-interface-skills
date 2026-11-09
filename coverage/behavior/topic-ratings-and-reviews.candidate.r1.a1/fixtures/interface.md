@@ -1,1 +1,0 @@
-Platform: iOS. A custom prompt demands five stars at first launch, blocks watering reminders until answered and reappears after every decline. The app claims a successful submission even when system prompt visibility is unknown.

@@ -1,1 +1,0 @@
-Platform: iPadOS. A chooser shows the last executed command as if it were persistent state, mixes Share, Duplicate and Delete with theme settings and always executes the first item when opened. Sometimes no report is selected.

@@ -1,1 +1,0 @@
-Platform: macOS. Every section uses a decorative triangle that changes position but not orientation. Activating the title opens a new window while activating the triangle expands details. Collapsed invalid fields have no indication.

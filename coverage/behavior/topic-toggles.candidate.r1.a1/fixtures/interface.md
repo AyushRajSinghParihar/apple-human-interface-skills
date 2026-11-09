@@ -1,1 +1,0 @@
-Platform: iOS. Toggle label reads Enable not off?, switching it immediately deletes history and pending network failure leaves the visual state falsely On. Storm alerts and daily summaries are separate settings.

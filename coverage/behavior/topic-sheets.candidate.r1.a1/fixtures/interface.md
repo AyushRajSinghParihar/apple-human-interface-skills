@@ -1,1 +1,0 @@
-Platform: iOS. Event flow needs title, date and invitees. Prototype shows Cancel, Back and Done together on every step; Done is enabled when title is empty and swipe dismissal discards a partially entered event. Editing is a brief task tied to the calendar.

@@ -1,1 +1,0 @@
-Platform: iOS. Primary purpose is finding nearby events. Launch opens an unrelated merchandise page; navigation labels change after each tap; opaque decoration obscures event times; actions give no pending/success feedback; promotional content receives greater prominence than events. No visual rendering is supplied.

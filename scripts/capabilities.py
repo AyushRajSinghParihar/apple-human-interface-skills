@@ -649,7 +649,13 @@ def check(root, require_behavior=True, allow_pending=False):
             missing = MODES - modes
             if missing:
                 pending.append(f"{family}: missing case modes {', '.join(sorted(missing))}")
-    if require_behavior:
+    archive = root / "coverage/behavior-archive.json"
+    if require_behavior and not (root / "coverage/behavior").is_dir() and archive.is_file():
+        record = _json(archive, errors, "behavior archive") or {}
+        errors.append(f"behavior: study {record.get('status', 'archived')}; evidence is on branch "
+                      f"{record.get('branch', '?')} at {record.get('commit', '?')}. "
+                      "Use --instructions-only, or restore the evidence to check it.")
+    elif require_behavior:
         behavior = behavior_issues(root, rows)
         errors.extend(behavior["errors"])
         pending.extend(behavior["pending"])

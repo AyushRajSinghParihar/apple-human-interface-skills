@@ -1,1 +1,0 @@
-Platform: macOS. Launch requires login before viewing locally stored budgets; switching accounts silently merges private data; Sign Out deletes unsynced local changes; Delete Account is an unlabeled trash glyph next to avatar.

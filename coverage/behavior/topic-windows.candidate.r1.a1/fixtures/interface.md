@@ -1,1 +1,0 @@
-Platform: macOS. All windows share one hidden unsaved buffer, closing one discards another document’s edits, restored windows forget size/selection and a tiny fixed window cannot fit enlarged labels. Settings is duplicated as a new document.

@@ -1,1 +1,0 @@
-Platform: iOS Messages extension. Initial view is a full unrelated social feed, choosing a sticker sends it immediately with private notes attached and expanded mode loses the selected poll. Recipients may not have the app.

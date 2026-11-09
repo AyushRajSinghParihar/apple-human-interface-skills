@@ -1,1 +1,0 @@
-Platform: watchOS. A hiking battery gauge has no concise title/description, no battery percentage unit, no endpoint labels, green as its only safety cue and displays unknown battery data as a real zero. No screenshot, sensor reading or runtime is provided.

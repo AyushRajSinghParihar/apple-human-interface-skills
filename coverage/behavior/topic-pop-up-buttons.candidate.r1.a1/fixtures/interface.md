@@ -1,1 +1,0 @@
-Platform: macOS. A button labelled Export immediately changes the saved format to a random option; selection is shown nowhere. Formats include PDF, CSV and image, but CSV is unavailable for image-only documents.

@@ -1,1 +1,0 @@
-Platform: iOS/iPadOS camera AR. Current entry opens camera immediately with no explanation, floats a chair at arbitrary scale before finding a surface and forces people to walk backward to exit. Tracking loss leaves a frozen chair falsely labelled placed.

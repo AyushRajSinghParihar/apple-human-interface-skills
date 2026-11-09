@@ -1,1 +1,0 @@
-Platform: iPhone hardware with Camera Control where available. Proposal uses the physical control to switch accounts, opens a crowded nested settings list during capture and gives no selected-exposure feedback. The same scanner also runs on older iPhones.

@@ -1,0 +1,13 @@
+{
+  "status": "stopped",
+  "summary": "The 195-run Codex behavior study stopped before grading was complete. No run was accepted, so the records are not a quality benchmark.",
+  "branch": "evidence",
+  "commit": "6ac935e8c062e74c9aee6887e856ea55b6b876b5",
+  "source_commit": "f358307f2b588bd9a6dfc0fe2958c62442a2624e",
+  "trees": {
+    "coverage/behavior": "a745b907428ed13bb6fab8493b5d5efd9172f470",
+    "coverage/grading": "81cc1177c27e7e1058345e3d8bc076b03cfda900"
+  },
+  "run_directories": 322,
+  "restore": "git checkout evidence -- coverage/behavior coverage/grading"
+}

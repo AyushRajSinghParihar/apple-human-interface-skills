@@ -1,1 +1,0 @@
-Platform: iPadOS/macOS. All actions require hover, right-click deletes clips immediately and pointer shape changes randomly over blank regions. Touch users still need the same editing task and keyboard modifiers are undocumented.

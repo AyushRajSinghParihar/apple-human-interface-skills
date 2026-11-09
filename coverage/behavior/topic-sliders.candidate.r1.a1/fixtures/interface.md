@@ -1,1 +1,0 @@
-Platform: macOS. Slider has no label or units, moving it also changes playback speed and a dangerous gain jump commits before release without feedback. Unknown gain appears as maximum. Keyboard adjustment is impossible.

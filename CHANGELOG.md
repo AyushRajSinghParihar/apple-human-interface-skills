@@ -20,6 +20,10 @@ names the Apple HIG source snapshot that it uses.
 - PyYAML is now a stated requirement for the checks. Without it, each check
   gives one clear error.
 - The marketplace entry now has a version.
+- The plugin manifest is now `skills/apple-hig/.claude-plugin/plugin.json`.
+  The marketplace entry keeps only listing data.
+- The evidence of the stopped behavior study (51 MB) moved to the `evidence`
+  branch. `coverage/behavior-archive.json` records its commit and trees.
 
 ## [1.0.0] - 2026-10-26
 

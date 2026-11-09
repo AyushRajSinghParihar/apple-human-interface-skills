@@ -1,1 +1,0 @@
-Platform: source-supported Siri/assistant surfaces. Result tries to show the full app navigation tree and immediately performs a bank transfer when merely displayed. Long localized text and delayed service results are likely.

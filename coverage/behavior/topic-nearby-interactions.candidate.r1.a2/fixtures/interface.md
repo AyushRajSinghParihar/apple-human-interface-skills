@@ -1,1 +1,0 @@
-Platform: iOS on eligible hardware, accessory support not established. UI claims exact centimeter distance always, points through walls with no uncertainty and breaks if direction is unavailable. Person may deny permissions or lose the nearby device.

@@ -135,7 +135,8 @@ packaging and discovery, not task performance in Claude Code.
 [Source report](coverage/REPORT.md) · [Package review](coverage/package-review.json) ·
 [Client installation checks](coverage/client-integration/README.md)
 
-Development [traces and artifacts](coverage/behavior/) are available for inspection.
+Development traces and artifacts of a stopped Codex study are on the
+[`evidence` branch](https://github.com/AyushRajSinghParihar/apple-human-interface-skills/tree/evidence).
 The full comparative grading study was not completed, so they are not a quality
 benchmark. Actual rendering, assistive technology behavior, and physical input
 still need checks in the appropriate Apple environment.

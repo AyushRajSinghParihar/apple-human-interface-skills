@@ -1,1 +1,0 @@
-Platforms: iOS/macOS. Current spec labels every local save Synced, overwrites concurrent edits silently and blocks offline work when signed out. People use a shared iPad and personal Mac.
