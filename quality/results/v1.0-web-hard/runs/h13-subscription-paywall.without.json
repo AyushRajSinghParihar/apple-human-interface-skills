@@ -1,0 +1,55 @@
+{
+  "case": "h13-subscription-paywall",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 44.3,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 149761,
+    "cached_input_tokens": 115456,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1075,
+    "reasoning_output_tokens": 12
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer makes all six corrections, covering prominent annual billing, trial disclosures, subscriber access, paywall suppression, valid custom codes and redemption routes, and accessible system refund requests.",
+        "The answer makes all six corrections, covering billed-price prominence, trial disclosures, subscriber access, paywall suppression, valid custom codes and redemption, and accessible system refunds.",
+        "The answer makes all six corrections, covering prominent annual billing, trial disclosures, subscriber access, paywall suppression, valid custom codes and redemption, and accessible system refunds."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer retains subscription identification, period, price, Terms and Privacy links without inventing refund approval rules or claiming testing or measurements.",
+        "The answer preserves subscription identity, period, price, Terms and Privacy links, invents no refund approval rules, and claims no interface testing or unsupported measurements.",
+        "It preserves subscription identification, period, price, Terms and Privacy links without inventing refund approval rules or claiming unsupported testing or measurements."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

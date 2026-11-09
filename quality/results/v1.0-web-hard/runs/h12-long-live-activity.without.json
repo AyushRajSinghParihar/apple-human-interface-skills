@@ -1,0 +1,55 @@
+{
+  "case": "h12-long-live-activity",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 59.7,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 173910,
+    "cached_input_tokens": 137472,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1123,
+    "reasoning_output_tokens": 30
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": false,
+    "skill-fired": false
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer makes all six corrections, including a short post-arrival summary and a leading-only fallback for constrained Dynamic Island widths.",
+        "The answer makes all six corrections, including a short post-arrival summary and a leading-only form for constrained Dynamic Island widths.",
+        "The answer makes all six corrections, including a short post-arrival summary and a leading-only fallback for constrained Dynamic Island widths."
+      ]
+    },
+    "nuance": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "The answer focuses on useful trip information but does not provide acceptance checks for the activity\u2019s start, updates, and end.",
+        "The answer uses immediately useful trip information but does not provide acceptance checks for the activity\u2019s start, updates, and end.",
+        "The answer limits content to useful trip information but does not provide acceptance checks for the activity\u2019s start, updates, and end."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

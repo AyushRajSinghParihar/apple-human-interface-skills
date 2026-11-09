@@ -1,0 +1,55 @@
+{
+  "case": "h14-mac-touch-display",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 54.4,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 238011,
+    "cached_input_tokens": 200576,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1010,
+    "reasoning_output_tokens": 42
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": false,
+    "skill-fired": false
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer preserves Mac control size and density, enlarges hit regions, recommends temporary expansion, provides keyboard and pointer access to Smart Erase, and adds touch equivalents for pointer-dependent actions.",
+        "The reply makes all five corrections, including preserving Mac control size and layout while enlarging tap targets, without recommending a separate touch layout.",
+        "The answer makes all five corrections, including preserving Mac control size and density while enlarging touch targets."
+      ]
+    },
+    "nuance": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "Although it warns against conflicts with standard gestures, it does not mention retaining familiar gestures or making custom gestures work for both touch and trackpad.",
+        "The reply warns against gesture conflicts but does not mention preserving familiar gestures or making custom gestures work for both touch and trackpad.",
+        "The answer cautions against gesture conflicts but does not mention preserving familiar gestures or making custom gestures work with both touch and trackpad."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

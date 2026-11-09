@@ -6,6 +6,7 @@ Each case runs in a temporary project. The "with" arm installs the skill at
 Codex skill on the machine is turned off with skills.config overrides, and
 user config, rules and plugins are ignored.
 
+Web search is off unless you pass --web; the shell sandbox has no network.
 A separate Codex session grades each answer against the case's llm graders.
 The judge does not know which arm made the answer, and it has no skills. Each
 answer gets VOTES judge sessions; a grader passes on a majority of PASS votes.
@@ -102,11 +103,12 @@ def isolation(project, package=None):
     return overrides
 
 
-def codex(project, prompt, overrides, timeout, model=None, schema=None, raw=None):
+def codex(project, prompt, overrides, timeout, model=None, schema=None, raw=None, web=False):
     final = project / ".codex-final.txt"
     command = ["codex", "exec", "--disable", "plugins", "--ignore-user-config", "--ignore-rules",
                "--ephemeral", "--json", "--skip-git-repo-check", "--sandbox", "read-only",
-               "-c", 'approval_policy="never"', *overrides, "--cd", str(project), "-o", str(final)]
+               "-c", 'approval_policy="never"', "-c", 'web_search="live"' if web else 'web_search="disabled"',
+               *overrides, "--cd", str(project), "-o", str(final)]
     if model:
         command += ["--model", model]
     if schema:
@@ -159,7 +161,7 @@ def usage(events):
     return total
 
 
-def run_arm(case, arm, out, timeout_cap, model):
+def run_arm(case, arm, out, timeout_cap, model, web=False):
     with tempfile.TemporaryDirectory(prefix="hig-codex-") as temporary:
         project = Path(temporary).resolve()
         package = None
@@ -170,13 +172,15 @@ def run_arm(case, arm, out, timeout_cap, model):
         timeout = min(int(case["meta"].get("timeout_seconds", 300)), timeout_cap)
         started = dt.datetime.now(dt.timezone.utc)
         result = codex(project, case["prompt"], overrides, timeout, model,
-                       raw=out / "raw" / f"{case['name']}.{arm}.events.jsonl")
+                       raw=out / "raw" / f"{case['name']}.{arm}.events.jsonl", web=web)
         marker = str(package) if package else ".agents/skills/apple-hig"
         touched = [c for c in commands(result["events"]) if marker in c or "apple-hig/" in c]
         reads = legacy.consumed_reads(result["events"], project, package)[0] if package else []
     return {"case": case["name"], "arm": arm, "status": result["status"],
             "seconds": round((dt.datetime.now(dt.timezone.utc) - started).total_seconds(), 1),
             "fired": bool(touched or reads), "skill_reads": reads, "skill_commands": len(touched),
+            "web_searches": sum(1 for e in result["events"] if e.get("type") == "item.completed"
+                                and e.get("item", {}).get("type") == "web_search"),
             "usage": usage(result["events"]), "answer": result["answer"], "stderr": result["stderr"]}
 
 
@@ -236,7 +240,8 @@ def summarize(label, out, records):
     tasks = sorted({r["case"] for r in records if r["kind"] == "task"})
     lines = [f"# Codex benchmark: {label}", "",
              f"Run at {dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')} with "
-             f"{records[0]['codex']} ({records[0]['model'] or 'Codex default model'}).", ""]
+             f"{records[0]['codex']} ({records[0]['model'] or 'Codex default model'}), "
+             f"web search {'on' if records[0].get('web') else 'off'}.", ""]
     summary = {"label": label, "tasks": {}, "triggers": {}}
     if tasks:
         lines += ["## Task quality", "", "| Case | With skill | Without skill | Δ | Skill fired |", "|---|---:|---:|---:|---|"]
@@ -292,6 +297,7 @@ def main(argv=None):
     parser.add_argument("--votes", type=int, default=3)
     parser.add_argument("--model")
     parser.add_argument("--timeout-cap", type=int, default=900)
+    parser.add_argument("--web", action="store_true", help="Let the runs use web search (off by default; the judge never uses it)")
     args = parser.parse_args(argv)
     if "/" in args.label or args.label.startswith("."):
         parser.error("LABEL must be a plain name")
@@ -313,13 +319,13 @@ def main(argv=None):
     def execute(job):
         case, kind, arm = job
         try:
-            record = run_arm(case, arm, out, args.timeout_cap, args.model)
+            record = run_arm(case, arm, out, args.timeout_cap, args.model, args.web)
         except Exception as error:  # keep the suite going; the record shows the failure
             record = {"case": case["name"], "arm": arm, "status": f"error: {error}", "fired": False,
                       "skill_reads": [], "answer": "", "usage": {}}
         verdicts = judge(case, record["answer"], args.votes, judge_overrides, args.model)
         record["graders"], record["score"] = score(case, arm, record, verdicts)
-        record.update({"kind": kind, "verdicts": verdicts, "codex": version, "model": args.model,
+        record.update({"kind": kind, "verdicts": verdicts, "codex": version, "model": args.model, "web": args.web,
                        "expect_fire": kind == "trigger" and "should-trigger" in case["meta"].get("tags", [])})
         base = out / "runs" / f"{case['name']}.{arm}"
         Path(f"{base}.md").write_text(record["answer"])

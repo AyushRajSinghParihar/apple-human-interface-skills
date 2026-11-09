@@ -1,0 +1,40 @@
+{
+  "label": "v1.0-before-hard",
+  "tasks": {
+    "h11-iphone-duo-editor": {
+      "with": 1.0,
+      "without": 1.0,
+      "delta": 0.0,
+      "fired": true
+    },
+    "h12-long-live-activity": {
+      "with": 1.0,
+      "without": 0.5,
+      "delta": 0.5,
+      "fired": true
+    },
+    "h13-subscription-paywall": {
+      "with": 1.0,
+      "without": 1.0,
+      "delta": 0.0,
+      "fired": true
+    },
+    "h14-mac-touch-display": {
+      "with": 1.0,
+      "without": 0.5,
+      "delta": 0.5,
+      "fired": true
+    },
+    "h15-visionos-alert": {
+      "with": 0.5,
+      "without": 0.5,
+      "delta": 0.0,
+      "fired": true
+    }
+  },
+  "triggers": {},
+  "task_mean": {
+    "with": 0.9,
+    "without": 0.7
+  }
+}

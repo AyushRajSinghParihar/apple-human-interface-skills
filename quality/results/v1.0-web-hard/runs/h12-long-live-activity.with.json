@@ -1,0 +1,70 @@
+{
+  "case": "h12-long-live-activity",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 56.3,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ios/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ios.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/buttons.md",
+    "subskills/apple-hig-system-experiences/.topics/apple-hig-live-activities/SKILL.md",
+    "subskills/apple-hig-system-experiences/SKILL.md",
+    "subskills/apple-hig-system-experiences/references/live-activities.md",
+    "subskills/apple-hig-technologies/.topics/apple-hig-carplay/SKILL.md",
+    "subskills/apple-hig-technologies/SKILL.md",
+    "subskills/apple-hig-technologies/references/carplay.md"
+  ],
+  "skill_commands": 4,
+  "usage": {
+    "input_tokens": 133833,
+    "cached_input_tokens": 110464,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1403,
+    "reasoning_output_tokens": 10
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer makes all six corrections, including ending at arrival with a short summary and fitting limited-width content within a 28-point circle or using leading-only content.",
+        "The reply makes all six corrections, including ending at arrival with short retention and fitting limited-width content within a 28-point circle.",
+        "The answer makes all six corrections, including ending at arrival with a short summary and fitting limited-width content within a 28-point circle."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The design shows useful trip information and specifies start timing, confirmed updates and stale states, and arrival termination with brief retention, without claiming testing or measurements.",
+        "The design shows useful trip information and specifies checkable start, update, and end behavior without claiming testing or measurements.",
+        "The design prioritizes useful trip information, specifies start, update, and end conditions, and explicitly states that rendering and device verification remain untested."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

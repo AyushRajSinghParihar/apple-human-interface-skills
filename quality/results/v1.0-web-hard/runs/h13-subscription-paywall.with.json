@@ -1,0 +1,64 @@
+{
+  "case": "h13-subscription-paywall",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 47.1,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/buttons.md",
+    "subskills/apple-hig-technologies/.topics/apple-hig-apple-in-app-purchase/SKILL.md",
+    "subskills/apple-hig-technologies/SKILL.md",
+    "subskills/apple-hig-technologies/references/apple-in-app-purchase.md"
+  ],
+  "skill_commands": 4,
+  "usage": {
+    "input_tokens": 145527,
+    "cached_input_tokens": 106752,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1086,
+    "reasoning_output_tokens": 21
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer makes all six required corrections, including prominent annual billing, clear trial terms, purchase recovery, subscriber exclusion, valid custom-code redemption, and accessible system refunds.",
+        "The answer makes all six corrections, covering prominent annual billing, trial terms, purchase recovery, subscriber access, valid custom-code redemption, and accessible system refunds.",
+        "The answer makes all six corrections, including prominent annual billing, explicit trial terms, purchase recovery, subscriber exclusion, valid custom-code redemption, and accessible system refund handling."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It preserves the required signup details, invents no refund approval rules, and explicitly states that runtime checks were not executed.",
+        "It preserves the required signup details, invents no refund approval rules, and explicitly states that runtime checks were not executed.",
+        "It preserves the required signup details, invents no refund approval rules, and explicitly states that runtime checks were not executed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}
