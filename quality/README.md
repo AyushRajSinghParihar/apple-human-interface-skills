@@ -12,7 +12,20 @@ This suite measures two things with `claude plugin eval`:
 The prompts never name the skill. The task cases adapt cases from `evals/cases`
 (the older Codex suite) and add sharper required findings.
 
-## Run
+## Run with Codex (the maintainer's choice)
+
+`scripts/codex-eval.py` runs the same cases with the Codex CLI and grades them
+with Codex. The skill goes into a temporary project at `.agents/skills/apple-hig`,
+and every other Codex skill is turned off. A separate Codex session without
+skills grades each answer three times, and it does not know which arm made the
+answer. The skill "fired" when a command in the run reads one of its files.
+
+```bash
+scripts/codex-eval.py LABEL-task --tag task --model gpt-6.1-sol      # 20 runs + judges
+scripts/codex-eval.py LABEL-trigger --tag trigger --model gpt-6.1-sol  # 20 runs
+```
+
+## Run with Claude Code
 
 The script copies the skill and these cases into a temporary plugin folder, so
 the eval cases do not ship with the installed skill.
