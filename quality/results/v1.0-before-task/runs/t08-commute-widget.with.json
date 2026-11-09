@@ -1,0 +1,60 @@
+{
+  "case": "t08-commute-widget",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 5883.2,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ios/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ios.md",
+    "subskills/apple-hig-system-experiences/SKILL.md",
+    "subskills/apple-hig-system-experiences/references/live-activities.md"
+  ],
+  "skill_commands": 5,
+  "usage": {
+    "input_tokens": 169900,
+    "cached_input_tokens": 140032,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1914,
+    "reasoning_output_tokens": 41
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true
+      ],
+      "reasons": [
+        "The design provides glanceable departures, one inline tap target, system-managed updates and a Live Activity, timestamped stale states, and a useful sign-in state.",
+        "The design provides useful departure content, one inline tap target, system-managed updates and a Live Activity, timestamped stale states, and a useful signed-out state with a sign-in prompt."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true
+      ],
+      "reasons": [
+        "The design preserves meaning without color across the required appearances, specifies precise tap destinations, and explicitly leaves device and accessibility testing unperformed.",
+        "The design preserves meaning across tinted, dark, and StandBy night appearances, specifies precise tap destinations, and explicitly states that implementation testing remains undone."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

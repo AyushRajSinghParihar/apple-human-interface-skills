@@ -1,0 +1,55 @@
+{
+  "case": "t02-ipad-arabic-invoice",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 37.4,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 15391,
+    "cached_input_tokens": 13952,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1146,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The specification uses leading/trailing RTL layout, preserves mixed-direction strings and numeric order, reflows text at 420 pt and 200%, supplements payment color with text and symbols, and preserves quantities while making Add line keyboard reachable.",
+        "The specification uses leading/trailing RTL layout, preserves mixed-direction identifiers and numeric order, reflows text at 420 pt and 200%, supplements payment colors with text and symbols, and preserves quantities while making Add line keyboard reachable.",
+        "The specification uses leading/trailing RTL layout, preserves mixed-direction strings and numeric order, reflows text at 420 pt and 200%, supplements payment colors with text and symbols, and preserves quantities while making Add line keyboard reachable."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It distinguishes directional icons from content that must not mirror, covers Arabic at compact width and 200% text together, and makes no claims of executed tests or unsupported measurements.",
+        "It distinguishes directional icons from digits, logos, and nondirectional symbols, checks Arabic with compact width and 200% text together, and makes no claims of performed testing or unprovided measurements.",
+        "It distinguishes directional icons from content that must not mirror, covers Arabic with compact width and 200% text in its checks, and makes no claims of executed tests or unsupported measurements."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

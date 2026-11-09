@@ -1,0 +1,40 @@
+{
+  "case": "s04-ipad-to-vision-pro",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 57.2,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-visionos/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-visionos.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-eyes/SKILL.md",
+    "subskills/apple-hig-inputs/SKILL.md",
+    "subskills/apple-hig-inputs/references/eyes.md",
+    "subskills/apple-hig-layout-and-organization/.topics/apple-hig-collections/SKILL.md",
+    "subskills/apple-hig-layout-and-organization/SKILL.md",
+    "subskills/apple-hig-layout-and-organization/references/collections.md",
+    "subskills/apple-hig-navigation-and-search/.topics/apple-hig-tab-bars/SKILL.md",
+    "subskills/apple-hig-navigation-and-search/SKILL.md"
+  ],
+  "skill_commands": 4,
+  "usage": {
+    "input_tokens": 112247,
+    "cached_input_tokens": 88448,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1021,
+    "reasoning_output_tokens": 20
+  },
+  "stderr": "",
+  "graders": {
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": true
+}

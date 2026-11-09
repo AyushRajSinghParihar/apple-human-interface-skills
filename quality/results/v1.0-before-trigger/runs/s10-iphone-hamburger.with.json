@@ -1,0 +1,32 @@
+{
+  "case": "s10-iphone-hamburger",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 33.9,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-navigation-and-search/.topics/apple-hig-tab-bars/SKILL.md",
+    "subskills/apple-hig-navigation-and-search/SKILL.md",
+    "subskills/apple-hig-navigation-and-search/references/tab-bars.md"
+  ],
+  "skill_commands": 3,
+  "usage": {
+    "input_tokens": 73976,
+    "cached_input_tokens": 48000,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 406,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "2026-11-09T17:11:01.248843Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-11-09T17:11:01.252786Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "graders": {
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": true
+}

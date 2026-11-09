@@ -1,0 +1,55 @@
+{
+  "case": "t04-mac-archive-alerts",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 40.2,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 81216,
+    "cached_input_tokens": 50688,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 634,
+    "reasoning_output_tokens": 20
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": false,
+    "skill-fired": false
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The reply identifies all five described problems without inventing an unsupported high-severity issue.",
+        "The answer identifies all five listed problems without inventing an unsupported high-severity issue.",
+        "The answer identifies all five listed problems without inventing an unsupported high-severity issue."
+      ]
+    },
+    "nuance": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "The deletion correction includes the required details, but the reply does not provide acceptance checks.",
+        "The corrected deletion alert meets the content and button requirements, but the reply provides no acceptance checks.",
+        "The corrected deletion alert meets the content and button requirements, but the reply does not give acceptance checks."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

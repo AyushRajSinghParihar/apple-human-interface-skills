@@ -1,0 +1,55 @@
+{
+  "case": "t01-mac-delete-confirmations",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 53.9,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 111622,
+    "cached_input_tokens": 87808,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 878,
+    "reasoning_output_tokens": 12
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It separately removes A\u2019s routine confirmation in favor of Undo, accepts B\u2019s deliberate Return confirmation with Cancel and clear consequences, and treats C as critical while removing its destructive default.",
+        "It separately removes A\u2019s routine confirmation in favor of Undo, accepts B\u2019s deliberate destructive default with Cancel and clear consequences, and treats C as critical while removing its unsafe default.",
+        "It separately removes A\u2019s routine confirmation in favor of Undo, accepts B\u2019s deliberate destructive default with Cancel and clear consequences, and treats C as critical while removing its destructive default."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It provides concrete acceptance checks, distinguishes deliberate from unexpected destruction, and explicitly states that checks remain unverified without a build.",
+        "It provides concrete keyboard and data-preservation acceptance checks, distinguishes deliberate from unexpected destruction, and explicitly states that the checks remain unverified.",
+        "It provides concrete acceptance checks, distinguishes deliberate from unexpected destruction, and explicitly states that the checks remain unverified without a build."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

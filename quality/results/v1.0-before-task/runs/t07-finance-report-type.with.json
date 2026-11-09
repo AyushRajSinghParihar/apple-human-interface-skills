@@ -1,0 +1,61 @@
+{
+  "case": "t07-finance-report-type",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 1060.1,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-layout/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-typography/SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md",
+    "subskills/apple-hig-foundations/references/layout.md",
+    "subskills/apple-hig-foundations/references/typography.md"
+  ],
+  "skill_commands": 4,
+  "usage": {
+    "input_tokens": 159509,
+    "cached_input_tokens": 120704,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1316,
+    "reasoning_output_tokens": 10
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true
+      ],
+      "reasons": [
+        "The specification raises body size and weight, replaces image headings with scalable text, supports reflow without clipping, uses tabular digits, and replaces all-caps emphasis with selective semibold.",
+        "The specification increases body size and weight, replaces image headings with scalable text, supports reflow, uses tabular digits, and replaces all-caps emphasis with selective semibold."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true
+      ],
+      "reasons": [
+        "It distinguishes iOS Dynamic Type from a macOS text-size control and explicitly states that implementation and runtime checks were not executed.",
+        "It distinguishes iOS Dynamic Type from a macOS text-size control and explicitly states that implementation and runtime checks were not executed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

@@ -1,0 +1,66 @@
+{
+  "case": "t06-checkout-accessibility",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 46.4,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-typography/SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md",
+    "subskills/apple-hig-foundations/references/typography.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/buttons.md"
+  ],
+  "skill_commands": 4,
+  "usage": {
+    "input_tokens": 112473,
+    "cached_input_tokens": 77696,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1243,
+    "reasoning_output_tokens": 10
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer identifies all five barriers and provides a specific correction for each.",
+        "The answer identifies all five barriers and gives a specific correction for each.",
+        "The answer identifies all five barriers and gives a specific correction for each, including Dynamic Type, growing layouts, explicit availability text, a Pay label, an onscreen removal button, and visible failure text."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer provides a concrete test plan, clearly identifies unknown evidence, and makes no claims of executed tests, unsupported measurements, or formal conformance.",
+        "The answer provides a concrete test plan, clearly identifies unknown evidence, and claims neither executed tests nor measurements or formal conformance.",
+        "The answer provides a proposed test plan, clearly marks unknown evidence, and makes no claims of executed tests, measured interface values, or formal conformance."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

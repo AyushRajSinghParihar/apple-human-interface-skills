@@ -1,0 +1,64 @@
+{
+  "case": "t03-delivery-widget-privacy",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 98.3,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-privacy/SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-system-experiences/SKILL.md",
+    "subskills/apple-hig-system-experiences/references/live-activities.md"
+  ],
+  "skill_commands": 5,
+  "usage": {
+    "input_tokens": 168715,
+    "cached_input_tokens": 120448,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2523,
+    "reasoning_output_tokens": 11
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer hides shared private details, uses system-managed widget updates and a bounded delivery Live Activity, gives the inline accessory one tap target, and clearly labels the 35-minute-old data as stale.",
+        "The answer removes shared private details, uses system-managed widget updates and a bounded delivery Live Activity, gives the inline accessory one tap target, and explicitly labels the 35-minute-old data as stale.",
+        "The answer hides shared private details, uses system-managed widget updates and a bounded delivery Live Activity, gives the inline accessory one tap target, and clearly labels stale data."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It separates periodic summaries from active delivery tracking, recommends the Smart Stack Live Activity over a complication for active deliveries, uses text and symbols for status, and explicitly states that testing has not been executed.",
+        "The answer separates pickup summaries from active delivery tracking, recommends the Smart Stack Live Activity over a complication for delivery, uses text and symbols for status, and explicitly states that testing has not been executed.",
+        "It distinguishes summaries from active delivery tracking, recommends the Smart Stack Live Activity over a complication for active delivery, uses text and symbols for status, and explicitly states testing was not executed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

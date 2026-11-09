@@ -1,0 +1,67 @@
+{
+  "case": "t02-ipad-arabic-invoice",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 90.0,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/references/right-to-left.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ipados/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ipados.md",
+    "subskills/apple-hig-inputs/references/focus-and-selection.md",
+    "subskills/apple-hig-inputs/references/keyboards.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-multitasking/SKILL.md",
+    "subskills/apple-hig-patterns/references/multitasking.md",
+    "subskills/apple-hig-selection-and-input/.topics/apple-hig-text-fields/SKILL.md",
+    "subskills/apple-hig-selection-and-input/references/text-fields.md"
+  ],
+  "skill_commands": 6,
+  "usage": {
+    "input_tokens": 202548,
+    "cached_input_tokens": 159616,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2258,
+    "reasoning_output_tokens": 27
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The specification uses semantic leading/trailing alignment, preserves mixed-direction values, reflows essential content at 420 pt and 200% text, adds non-color payment status, and provides keyboard access while preserving quantities across resizing.",
+        "The specification uses semantic RTL alignment, preserves mixed-direction values, reflows text at 420 pt and 200%, adds meaningful payment status, and provides keyboard access while preserving quantities across resizing.",
+        "The specification uses semantic leading/trailing layout, preserves mixed-direction values, reflows text at 420 pt and 200%, adds non-color payment status, and provides keyboard access while preserving quantities across resizing."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It distinguishes directional symbols from digits, logos, and universal signs, checks Arabic, compact width, and 200% text together, and explicitly states that runtime checks were not executed.",
+        "It distinguishes directional symbols from nonmirroring content, checks Arabic, compact width, and 200% text together, and explicitly states that runtime checks were not executed.",
+        "It distinguishes directional symbols from content that must not mirror, checks Arabic with compact width and 200% text together, and explicitly states that runtime checks were not executed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

@@ -1,0 +1,70 @@
+{
+  "case": "t01-mac-delete-confirmations",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 45.0,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-keyboards/SKILL.md",
+    "subskills/apple-hig-inputs/SKILL.md",
+    "subskills/apple-hig-inputs/references/keyboards.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/buttons.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-undo-and-redo/SKILL.md",
+    "subskills/apple-hig-patterns/SKILL.md",
+    "subskills/apple-hig-patterns/references/undo-and-redo.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-alerts/SKILL.md",
+    "subskills/apple-hig-presentation/SKILL.md",
+    "subskills/apple-hig-presentation/references/alerts.md"
+  ],
+  "skill_commands": 4,
+  "usage": {
+    "input_tokens": 114987,
+    "cached_input_tokens": 90240,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1204,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It removes A\u2019s routine confirmation in favor of Undo, accepts B\u2019s deliberate destructive Return default with Cancel and clear consequences, and removes C\u2019s unexpected destructive default.",
+        "It separately removes A\u2019s routine confirmation in favor of Undo, accepts B\u2019s deliberate destructive Return default with Cancel and clear consequences, and removes C\u2019s unexpected destructive default.",
+        "It separately removes A\u2019s routine confirmation in favor of Undo, accepts B\u2019s deliberate destructive default with Cancel and clear consequences, and treats C as critical while removing its destructive default."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It provides concrete acceptance checks, distinguishes deliberate from unexpected destruction, and explicitly states that no runtime checks were executed.",
+        "It provides concrete acceptance checks, distinguishes deliberate from unexpected destruction, and explicitly states that no runtime checks were executed.",
+        "It provides concrete keyboard and cancellation acceptance checks, distinguishes deliberate from unexpected destruction, and explicitly states that no runtime checks were executed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

@@ -1,0 +1,55 @@
+{
+  "case": "t05-draft-composer-modality",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 37.0,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 56575,
+    "cached_input_tokens": 22144,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1083,
+    "reasoning_output_tokens": 17
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The specification replaces stacked modals with internal navigation, adds a title and explicit exit buttons, saves drafts on every exit, enforces one dialog, and separates attachment Back navigation from dismissal.",
+        "The specification replaces stacked modals with internal navigation, adds a title and explicit exits, saves drafts on every dismissal path, limits dialogs to one, and separates attachment Back navigation from dismissal.",
+        "The specification replaces stacked modals with one navigable sheet, adds a title and exit buttons, saves drafts on every exit, limits dialogs to one, and provides attachment Back navigation separate from dismissal."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It includes before-and-after comparisons and acceptance checks for swipe, buttons, Back, and upload errors without claiming any testing was performed.",
+        "It includes a before-and-after comparison and acceptance checks covering swipe, Done, Close, Back, and upload errors without claiming any tests were performed.",
+        "It includes before-and-after comparisons and acceptance checks covering swipe, Done, Close, Back, and upload errors without claiming any tests were performed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

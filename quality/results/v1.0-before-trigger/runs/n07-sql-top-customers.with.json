@@ -1,0 +1,26 @@
+{
+  "case": "n07-sql-top-customers",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 7.6,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 16279,
+    "cached_input_tokens": 6912,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 107,
+    "reasoning_output_tokens": 14
+  },
+  "stderr": "",
+  "graders": {
+    "skill-silent": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

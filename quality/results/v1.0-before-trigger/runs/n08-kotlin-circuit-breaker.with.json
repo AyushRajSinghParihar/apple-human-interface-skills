@@ -1,0 +1,26 @@
+{
+  "case": "n08-kotlin-circuit-breaker",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 29.8,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 58184,
+    "cached_input_tokens": 41984,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 778,
+    "reasoning_output_tokens": 17
+  },
+  "stderr": "",
+  "graders": {
+    "skill-silent": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}
