@@ -1,0 +1,57 @@
+{
+  "case": "t07-finance-report-type",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 23.1,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 12851,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 571,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The specification provides readable body text, scalable live headings, expanding layouts, monospaced digits, and sentence-case emphasis using weight.",
+        "The specification provides readable body styles, scalable live-text headings, growing or wrapping values, monospaced digits, and sentence-case emphasis using weight.",
+        "The specification provides readable body text, scalable live headings, expanding layouts, monospaced digits, and sentence-case emphasis using weight."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It distinguishes iOS Dynamic Type from macOS system styles and report controls, and proposes acceptance checks without claiming to have performed tests or measurements.",
+        "It distinguishes iOS Dynamic Type from macOS system styles and report controls, and proposes acceptance checks without claiming to have performed testing or measurements.",
+        "It distinguishes iOS Dynamic Type from macOS system styles and report controls, and proposes acceptance checks without claiming to have performed tests."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

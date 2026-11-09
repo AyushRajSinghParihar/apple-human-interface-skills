@@ -5,6 +5,14 @@ names the Apple HIG source snapshot that it uses.
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-10
+
+Source snapshot: 2026-11-09.
+
+- Benchmark: quality unchanged (mean 0.93 with the skill), 11% fewer input
+  tokens, and no false starts for build and tooling questions. See
+  `quality/RESULTS.md`.
+
 ### Added
 
 - A shorter route: the root `SKILL.md` is 5.8 KB (was 8.2 KB) and links each

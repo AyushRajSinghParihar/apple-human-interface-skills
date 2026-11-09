@@ -1,0 +1,66 @@
+{
+  "case": "t08-commute-widget",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 52.9,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ios/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ios.md",
+    "subskills/apple-hig-system-experiences/.topics/apple-hig-live-activities/SKILL.md",
+    "subskills/apple-hig-system-experiences/.topics/apple-hig-widgets/SKILL.md",
+    "subskills/apple-hig-system-experiences/references/live-activities.md",
+    "subskills/apple-hig-system-experiences/references/widgets.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 88864,
+    "cached_input_tokens": 74880,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1474,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The design prioritizes departures and delays, gives inline one tap target, uses system-managed updates and a Live Activity, labels stale data with its age, and provides a sign-in state.",
+        "The design prioritizes departures and delays, gives the inline accessory one target, uses system-managed updates and a Live Activity, labels stale data with its age, and provides a signed-out sign-in state.",
+        "The design prioritizes departures and delays, gives the inline accessory one target, uses system-managed updates and a Live Activity, labels stale data with its age, and provides a useful signed-out state with a sign-in prompt when needed."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It preserves meaning across tinted, dark, and StandBy night modes, specifies app destinations for taps, and explicitly states that rendering and device behavior have not been tested.",
+        "The design preserves meaning across tinted, dark, and StandBy night modes, specifies precise tap destinations, and explicitly states that rendering and device behavior have not been tested.",
+        "The design preserves meaning across tinted, dark, and StandBy night modes, specifies contextual app destinations for taps, and explicitly states that rendering and device behavior have not been tested."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

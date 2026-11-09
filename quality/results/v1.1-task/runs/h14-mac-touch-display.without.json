@@ -1,0 +1,57 @@
+{
+  "case": "h14-mac-touch-display",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 39.0,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 195115,
+    "cached_input_tokens": 134912,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 882,
+    "reasoning_output_tokens": 35
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": false,
+    "skill-fired": false
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer preserves control size, density, and layout, enlarges hit targets, recommends temporary expansion, and provides touch equivalents for pointer actions.",
+        "The answer preserves control size, density, and layout, enlarges hit areas, recommends temporary expansion, and provides touch alternatives for pointer-dependent actions.",
+        "The reply preserves control size, density, and layout, enlarges hit areas, recommends temporary expanded controls, and provides touch equivalents for pointer-dependent actions."
+      ]
+    },
+    "nuance": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "It warns against system gesture conflicts but does not mention preserving familiar gestures or making custom gestures work with both touch and trackpad.",
+        "Although it warns against conflicts with system gestures, it does not mention preserving familiar gestures or making custom gestures work with both touch and trackpad.",
+        "The reply warns against conflicts with system gestures but does not mention preserving familiar gestures or supporting custom gestures on both touch and trackpad."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

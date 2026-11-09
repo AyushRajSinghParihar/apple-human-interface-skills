@@ -1,0 +1,65 @@
+{
+  "case": "t03-delivery-widget-privacy",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 72.6,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-privacy/SKILL.md",
+    "subskills/apple-hig-foundations/references/privacy.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ios.md",
+    "subskills/apple-hig-getting-started/references/designing-for-watchos.md",
+    "subskills/apple-hig-system-experiences/references/live-activities.md"
+  ],
+  "skill_commands": 5,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 133978,
+    "cached_input_tokens": 106624,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2312,
+    "reasoning_output_tokens": 11
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer hides private details on shared surfaces, uses system-managed widget updates and a bounded delivery Live Activity, specifies one inline tap target, and labels the 35-minute-old data as stale.",
+        "The answer hides shared-surface private details, replaces per-second refresh with system-managed updates and a delivery Live Activity, gives the inline accessory one tap target, and clearly labels stale data.",
+        "The answer removes sensitive details from shared surfaces, uses system-managed widget updates and a delivery Live Activity, gives the inline accessory one tap target, and clearly labels the 35-minute-old data as stale."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer distinguishes periodic summaries from active delivery tracking, recommends the Smart Stack Live Activity over a complication for delivery, varies surface designs without relying solely on color, and explicitly states that implementation and device testing remain unverified.",
+        "It distinguishes periodic summaries from bounded delivery tracking, recommends the Smart Stack Live Activity over a complication for active delivery, and makes no unsupported testing or measurement claims.",
+        "It separates pickup summaries from active delivery tracking, recommends the Smart Stack Live Activity over a complication for the delivery, provides text-based status cues, and explicitly states that testing has not been performed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

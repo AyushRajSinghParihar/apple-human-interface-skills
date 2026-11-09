@@ -1,0 +1,57 @@
+{
+  "case": "t08-commute-widget",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 41.0,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 31443,
+    "cached_input_tokens": 24320,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 906,
+    "reasoning_output_tokens": 63
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The design provides glanceable departures, one inline tap target, system-managed refreshes and a Live Activity, explicit stale-data ages, and a useful sign-in state.",
+        "The design provides glanceable departure information, one inline tap target, system-managed updates and a Live Activity, explicit stale-data ages, and a useful signed-out sign-in state.",
+        "The design prioritizes departures and delays, uses one inline tap target, system-managed updates and a Live Activity, labels stale data with its age, and provides a sign-in state."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It preserves meaning without color across the required appearances, specifies app destinations for taps, and makes no unsupported testing or measurement claims.",
+        "The design preserves meaning across tinted, dark and StandBy night modes, specifies app destinations for taps, and makes no claims of completed testing or unsupported measurements.",
+        "The design preserves meaning through text, typography and shape across appearance modes, specifies app destinations for taps, and makes no claims of completed testing or measurements."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

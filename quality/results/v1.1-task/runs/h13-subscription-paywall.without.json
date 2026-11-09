@@ -1,0 +1,57 @@
+{
+  "case": "h13-subscription-paywall",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 29.9,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 55024,
+    "cached_input_tokens": 38144,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 806,
+    "reasoning_output_tokens": 22
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer corrects all six issues, including billed-price prominence, trial terms, subscriber access, paywall suppression, custom code rules, and accessible system refund handling.",
+        "The answer corrects all six issues, including prominent annual billing, trial terms, subscriber access, entitlement checks, valid offer codes and redemption, and accessible refunds.",
+        "The answer makes all six corrections, covering prominent annual billing, trial terms, subscriber access, paywall suppression, valid offer codes and redemption, and accessible refund requests."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It retains subscription name, period, price, Terms and Privacy links, invents no refund approval rules, and makes no unsupported testing or measurement claims.",
+        "The suggested paywall retains the subscription name, period, price, and Terms and Privacy links, without inventing refund approval rules or claiming interface testing or measurements.",
+        "It retains the subscription name, period, price, Terms and Privacy links, invents no refund approval rules, and claims no interface testing or unsupported measurements."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

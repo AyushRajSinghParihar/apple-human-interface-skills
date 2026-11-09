@@ -1,0 +1,63 @@
+{
+  "case": "h11-iphone-duo-editor",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 30.3,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/platforms-and-tasks.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-iphone-duo/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-iphone-duo.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 80943,
+    "cached_input_tokens": 50688,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 843,
+    "reasoning_output_tokens": 15
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer makes all five corrections, including preserving vertical system bar placement and keeping side controls on the same physical side in RTL.",
+        "The answer makes all five corrections, including preserving vertical system bar placement and keeping side controls on the same physical side in RTL.",
+        "The answer makes all five corrections, including preserving vertical system bar placement and keeping side controls on the same physical side in RTL."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer preserves photo, edits, and tool state across opening and closing, recommends standard adaptive layout mechanisms, and explicitly states that device behavior was not tested.",
+        "The answer preserves photo, edits, and tool state across opening and closing, recommends standard adaptive layout support, and explicitly states that device behavior has not been tested.",
+        "The answer preserves photo, edit, and tool state across opening and closing, recommends standard adaptive layout support, and explicitly states that device behavior was not tested."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

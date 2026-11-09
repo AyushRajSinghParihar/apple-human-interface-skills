@@ -1,0 +1,62 @@
+{
+  "case": "h13-subscription-paywall",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 35.0,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-technologies/.topics/apple-hig-apple-in-app-purchase/SKILL.md",
+    "subskills/apple-hig-technologies/references/apple-in-app-purchase.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 79584,
+    "cached_input_tokens": 61440,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 857,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": false,
+    "skill-fired": true
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer makes all six corrections, covering annual pricing, trial terms, restoring access, existing subscribers, custom codes, and refunds.",
+        "The answer makes all six specified corrections.",
+        "The answer makes all six specified corrections."
+      ]
+    },
+    "nuance": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "The answer includes period, price, Terms and Privacy links but omits the required subscription name from its signup details.",
+        "The answer includes period, price, Terms and Privacy links but omits the required subscription name.",
+        "Although it includes period, price, Terms and Privacy links and makes no unsupported testing or refund-approval claims, it omits the required subscription name."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

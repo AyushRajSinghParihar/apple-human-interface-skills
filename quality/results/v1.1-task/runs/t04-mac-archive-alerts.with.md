@@ -1,0 +1,12 @@
+Ranked by potential harm, all four problems are verifiable from the description. The corrections follow Apple’s [Alerts guidance](https://developer.apple.com/design/human-interface-guidelines/alerts).
+
+| Rank | Verified problem and effect | Corrected behavior |
+|---|---|---|
+| **1 — High** | Irreversible deletion uses “Error,” “Something happened,” and Yes/No. This conceals the consequence and makes the decision ambiguous. HIG calls for contextual wording and buttons that name outcomes. | Title: **Permanently delete “Archive Name”?** Body: **This archive will be permanently deleted. You can’t undo this action.** Buttons: **Cancel** and **Delete Archive**. Cancel dismisses without changes; Delete Archive performs the deletion. |
+| **2 — High** | A sync failure stacks another alert over an existing alert, adding competing modal decisions. | Keep one alert active. Record the sync failure and show a persistent sync status in the window. If immediate intervention is necessary, present the sync alert after the current alert closes; consolidate repeated failures. |
+| **3 — Medium** | Every successful save interrupts the user despite requiring no decision. HIG reserves alerts for situations warranting immediate attention. | Save successfully and let work continue. If feedback is useful, show an unobtrusive **Saved** status near the document or save control. No dismissal required. |
+| **4 — Lower** | Cancel is the default on the harmless save alert. It misrepresents acknowledgment as cancellation; HIG says Cancel shouldn’t be the default. | Remove this alert as above. If a separate completion acknowledgment is justified, use **Done** as its default button. Use **OK** for purely informational acknowledgment. |
+
+For deletion, provide Cancel and support Escape/Command-Period. **Don’t automatically make Cancel the default just because deletion is irreversible.** If the user explicitly requested deletion, HIG permits Delete Archive as the normal default, with Return confirming it. If deliberate reading is needed, consider no default. The description doesn’t establish the trigger, so the existing deletion default and styling cannot be judged.
+
+This is a description-only audit. Visual layout, actual keyboard behavior, accessibility, and handler results were **not tested**.

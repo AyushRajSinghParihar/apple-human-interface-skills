@@ -1,0 +1,40 @@
+{
+  "case": "s03-react-apple-checkout",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 31.6,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/beyond-apple/README.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-writing/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md",
+    "subskills/apple-hig-foundations/references/writing.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/buttons.md",
+    "subskills/apple-hig-selection-and-input/.topics/apple-hig-text-fields/SKILL.md",
+    "subskills/apple-hig-selection-and-input/references/text-fields.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 90625,
+    "cached_input_tokens": 79104,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 754,
+    "reasoning_output_tokens": 15
+  },
+  "stderr": "",
+  "graders": {
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": true
+}

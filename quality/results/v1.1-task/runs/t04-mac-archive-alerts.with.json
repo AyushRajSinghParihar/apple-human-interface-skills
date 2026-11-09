@@ -1,0 +1,62 @@
+{
+  "case": "t04-mac-archive-alerts",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 25.8,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-alerts/SKILL.md",
+    "subskills/apple-hig-presentation/references/alerts.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 79086,
+    "cached_input_tokens": 61184,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 678,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer identifies all five specified problems without inventing an unsupported high-severity issue.",
+        "The answer identifies all five problems and does not invent an unsupported high-severity issue.",
+        "The reply identifies all five specified problems without inventing an unsupported high-severity issue."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The deletion correction names the archive and irreversible consequence, provides Delete Archive and Cancel with checkable outcomes, allows contextual destructive defaults, and explicitly disclaims interface testing.",
+        "The correction names the archive and irreversible consequence, uses Delete Archive and Cancel, provides checkable behavioral expectations, allows contextual destructive defaults, and makes no unsupported testing claims.",
+        "The deletion correction names the archive and irreversible consequence, provides specific Delete Archive and Cancel buttons with checkable outcomes, allows contextual destructive defaults, and makes no testing claims."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

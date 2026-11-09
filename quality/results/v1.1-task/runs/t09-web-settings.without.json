@@ -1,0 +1,57 @@
+{
+  "case": "t09-web-settings",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 21.8,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 12923,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 537,
+    "reasoning_output_tokens": 34
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The reply addresses all five issues with labelled sections, persistent labels, safe saving, a keyboard-accessible native checkbox, and licensing-aware alternatives to bundling Apple assets.",
+        "The answer addresses all five issues with labelled sections, persistent labels, safe saving, an accessible native checkbox, and licensing-aware alternatives to bundled Apple assets.",
+        "The answer addresses all five issues with labelled sections, persistent labels, safe saving behavior, a keyboard-accessible native checkbox, and licensing-aware font and icon alternatives."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The reply applies web conventions and accessibility practices without claiming to have run or tested the interface or reporting unsupported measurements.",
+        "The answer applies web conventions including semantic labels, keyboard support, visible focus, and navigation warnings without claiming to have tested the interface or reporting unsupported measurements.",
+        "The answer applies web conventions and accessibility practices without claiming to have run tests or reporting unsupported measurements."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

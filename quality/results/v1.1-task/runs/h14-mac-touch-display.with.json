@@ -1,0 +1,66 @@
+{
+  "case": "h14-mac-touch-display",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 27.4,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-macos/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-macos.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-gestures/SKILL.md",
+    "subskills/apple-hig-inputs/references/gestures.md",
+    "subskills/apple-hig-selection-and-input/.topics/apple-hig-sliders/SKILL.md",
+    "subskills/apple-hig-selection-and-input/.topics/apple-hig-steppers/SKILL.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 86363,
+    "cached_input_tokens": 45952,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 727,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer makes all five corrections, preserving control size and layout while enlarging tap targets and offering temporary expanded controls and equivalent input methods.",
+        "The answer makes all five corrections, preserving control size and layout while enlarging tap targets, offering temporary expansion, and providing alternative input access.",
+        "The answer preserves control size, density, and layout, enlarges tap targets, recommends temporary expansion for small controls, and provides keyboard, pointer, and touch alternatives."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer recommends supporting custom gestures on both touch displays and trackpads, checking gesture conflicts, and explicitly states that device interaction checks were not performed.",
+        "The answer recommends supporting custom gestures on both touch displays and trackpads and checking gesture conflicts, without claiming any testing was performed.",
+        "The answer recommends supporting custom gestures on both touch displays and trackpads and checking gesture conflicts, without claiming to have tested the interface."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

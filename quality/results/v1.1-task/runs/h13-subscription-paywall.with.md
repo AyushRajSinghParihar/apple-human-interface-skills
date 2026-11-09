@@ -1,0 +1,16 @@
+All six items need changes. Prioritize preventing repeat purchase prompts and making the actual charge and trial terms clear.
+
+| Priority | Finding and effect | Change |
+|---|---|---|
+| Critical | Active subscribers see the paywall after updates, suggesting they need to buy again. Apple says not to advertise a new subscription to existing subscribers. | Check entitlement status before presenting the paywall. Send active subscribers directly to their content; handle loading or verification failures without treating them as nonsubscribers. |
+| High | “$4.99/month” dominates even though the customer pays annually. Apple calls for the full billing total to be more prominent than equivalent-period pricing. | Lead with **“$59.88/year”**. Show “Equivalent to $4.99/month, billed annually” as secondary, readable text. Use localized prices. |
+| High | “Start free” leaves the trial duration and subsequent billing unclear. | Use **“Start [N]-day free trial”**, with nearby text: **“Then $59.88/year. Automatically renews unless canceled.”** Show the actual trial duration and offer only to eligible customers; otherwise show the paid subscription action. |
+| High | Missing restore and sign-in paths can leave paying customers unable to recover access. | Add visible **Restore Purchases** and, if you support app accounts, **Sign In** actions on the paywall. Restore access promptly after verification. |
+| High | `SUMMER-25!` uses invalid custom-code characters, and the planned redemption instructions point to an unsupported location. | Use an alphanumeric custom code such as **`SUMMER25`**. Custom codes redeem through a redemption URL or supported in-app system flow, **not App Store account settings**. Add **Redeem Code**, explain the offer terms, and recognize redemption even before first launch. |
+| Medium | A refund link three screens deep makes purchase help difficult to find. | Put **Request a Refund** visibly on the first purchase-help screen, without extra navigation or scrolling. Open the system refund flow and avoid promising approval. |
+
+These recommendations follow Apple’s [subscription signup guidance](https://developer.apple.com/design/human-interface-guidelines/apple-in-app-purchase#Making-signup-effortless), [existing-subscriber guidance](https://developer.apple.com/design/human-interface-guidelines/apple-in-app-purchase#Auto-renewable-subscriptions), [offer-code guidance](https://developer.apple.com/design/human-interface-guidelines/apple-in-app-purchase#Supporting-offer-codes), and [purchase-help guidance](https://developer.apple.com/design/human-interface-guidelines/apple-in-app-purchase#Providing-help).
+
+Also verify that the paywall includes the subscription’s benefits, period, and Terms of Use and Privacy Policy links. Keep subscription management and cancellation easy to reach from account settings.
+
+**Validation:** The supplied description fails these six review checks. Runtime behavior remains untested: verify restore, trial eligibility, entitlement persistence across updates, redemption before first launch, and refund handoff on a device with StoreKit testing.
