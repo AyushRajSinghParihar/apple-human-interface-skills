@@ -2,11 +2,11 @@
   "review": {
     "slug": "sheets",
     "status": "reviewed",
-    "source_hash": "49ef3457d70e046d2dc9327071bc137dd68bd4b26a5e96806a75eec4b54c3661",
+    "source_hash": "d8f2c4983da75813718fb6bb1f569ec360c082ef8a885469f971daac57688af5",
     "destination_hash": "40447c58d38c99c40a1f70895a46f876a46d34804955bffe19c047eba76b5e6a",
-    "reviewer": "cross-reviewer-a",
-    "reviewed_at": "2026-10-25T13:07:49.132211+00:00",
-    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "reviewer": "deterministic-snapshot-diff",
+    "reviewed_at": "2026-11-09T17:51:31+00:00",
+    "evidence": "Deterministic renewal for source snapshot d8f2c4983da7 (previous 49ef3457d70e): all 102 extracted units and 24 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies. Previous review: cross-reviewer-a at 2026-10-25T13:07:49.132211+00:00.",
     "sections": [
       {
         "source_anchor": "overview",

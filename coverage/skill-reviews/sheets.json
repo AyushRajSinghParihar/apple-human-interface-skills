@@ -1,9 +1,9 @@
 {
   "topic": "sheets",
-  "reviewer": "primary-coordinator-independent-of-topic-author",
-  "reviewed_at": "2026-10-25T18:51:52.905449+00:00",
+  "reviewer": "deterministic-snapshot-diff",
+  "reviewed_at": "2026-11-09T17:51:31+00:00",
   "status": "reviewed",
-  "source_hash": "49ef3457d70e046d2dc9327071bc137dd68bd4b26a5e96806a75eec4b54c3661",
+  "source_hash": "d8f2c4983da75813718fb6bb1f569ec360c082ef8a885469f971daac57688af5",
   "skill_hash": "2cf82a48a60a872508612f8e297863d7a7b83dbfcbe3a41fa07ce4b15d59f55f",
   "reference_hash": "40447c58d38c99c40a1f70895a46f876a46d34804955bffe19c047eba76b5e6a",
   "evidence": {
@@ -14,5 +14,6 @@
     "applicability": "Preserves iOS/iPad nonmodal options, Mac parent-only blocking, visionOS centered contextual placement and brief watch task limits.",
     "handoffs": "Selects modality, action-sheets, panels or windows according to actual task length and exit needs.",
     "distinctiveness": "Detents, parent scope and the separate meanings of Cancel/Done/Back provide an operational sheet contract beyond general modal advice."
-  }
+  },
+  "renewal": "Deterministic renewal for source snapshot d8f2c4983da7 (previous 49ef3457d70e): all 102 extracted units and 24 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies."
 }

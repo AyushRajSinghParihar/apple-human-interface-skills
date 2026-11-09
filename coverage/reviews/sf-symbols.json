@@ -2,11 +2,11 @@
   "review": {
     "slug": "sf-symbols",
     "status": "reviewed",
-    "source_hash": "33e43ccaef277b8ed383e2bc6ef71b137abd8e6646e958b1a92f63263f1611a0",
+    "source_hash": "ade8d863b1124b42807993742e789e311dd4fb9bb44c85e94a5207cff1b67e99",
     "destination_hash": "8b21ae3121bc06481a8c8c0e92f4ad8ea1ab8ef37b3c9a95b8c51c15db983f33",
-    "reviewer": "cross-reviewer-b",
-    "reviewed_at": "2026-10-25T13:13:29+00:00",
-    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "reviewer": "deterministic-snapshot-diff",
+    "reviewed_at": "2026-11-09T17:51:31+00:00",
+    "evidence": "Deterministic renewal for source snapshot ade8d863b112 (previous 33e43ccaef27): all 138 extracted units and 29 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies. Previous review: cross-reviewer-b at 2026-10-25T13:13:29+00:00.",
     "sections": [
       {
         "source_anchor": "overview",

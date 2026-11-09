@@ -1,19 +1,19 @@
 {
   "topic": "pointing-devices",
-  "reviewer": "independent-operational-auditor",
-  "reviewed_at": "2026-10-25T18:56:57.471996+00:00",
+  "reviewer": "independent-snapshot-reviewer",
+  "reviewed_at": "2026-11-09T18:16:33+00:00",
   "status": "reviewed",
-  "source_hash": "a6880a67ebdf0df2507093533566dd872aa7ac176dc3666053af42a5856af57c",
-  "skill_hash": "ceab1ac29bea0615fa4a9d773ae697bbc89d11a2014d7d40d2f861751ae3e3db",
-  "reference_hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa",
+  "source_hash": "4097401fd624b5151e6ea959cc3841bf2ef5f3cc249a419733cee22ae51c207f",
+  "skill_hash": "96122671586a804f3ded4a801697636a7378e2aa045589a07485d2967b51a14a",
+  "reference_hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486",
   "evidence": {
-    "decision": "Assigns pointer roles and effects by action and platform, preserving configured system gestures and coherent selection when switching among pointer, touch and eye input.",
-    "artifact": "Delivers corrected cursor/effect/hit-region assignments or an implementation with padding, contiguous targets and escape behavior.",
-    "transformation": "The dense iPad grid example removes overlapping lift effects and pointer-attached instructions, using restrained hover/tint, simple resize accessories and touch-accessible actions.",
-    "verification": "Checks neighbor occlusion, trapped pointer attraction, lost selection on input switch and overridden system gestures; magnetism feel and spatial transfer require supported execution.",
-    "applicability": "Differentiates iPad highlight/lift/hover from Mac semantic cursor roles and system-owned visionOS transfer, while marking tvOS/watchOS unsupported.",
-    "handoffs": "Uses Focus and Selection for keyboard target movement and Gestures for shared manipulation meanings.",
-    "distinctiveness": "Magnetism tied to shape transformation, lift corner geometry, contiguous bar hit regions, precision benefits and cursor role semantics make the procedure pointer-specific."
+    "decision": "Maps actions to Mac pointer roles and iPad content effects (highlight for grouped controls in a Liquid Glass container, lift for a standalone Liquid Glass control or small opaque element, hover for large elements), keeps systemwide gestures and modifier-drag meanings, and gives essential hover-only Mac controls a touch path; rechecked against the fixed guide, which the procedure does not contradict.",
+    "artifact": "Delivers corrected cursor/effect/hit-region assignments or an implementation, covering padding, contiguous bar hit regions, how easily a person can leave a target, and the touch path for hidden Mac controls.",
+    "transformation": "The dense iPad grid example removes overlapping lift and an instructional pointer paragraph in favor of restrained tint or hover, simple resize accessories and standard effects; it agrees with the Customizing pointers guidance.",
+    "verification": "Fails if an effect hides a neighbor, a target traps the pointer, input switching loses selection, a system gesture is overridden, or an essential hover-only control has no touch path on a touch-capable Mac; the guide's now complete list of Mac system gestures and finger combinations supports the 'system gesture overridden' check.",
+    "applicability": "Separates iPad effects, Mac cursor roles and system gestures, touch-display hidden controls (tap to reveal, keep selection, auto-hide, short context menu, sidebar and tab close-button rules, no tooltips, no permanently visible controls) and system-owned visionOS transfer; tvOS and watchOS stay unsupported.",
+    "handoffs": "Routes to Focus and selection for keyboard target movement and Gestures for shared manipulation meanings; the guide's touch section links to Gestures as the source does.",
+    "distinctiveness": "Content-effect selection, hit-region padding, cursor-role semantics and touch reveal rules for hover-only controls are pointer-specific and are not in the Gestures procedure."
   },
   "additional_references": []
 }

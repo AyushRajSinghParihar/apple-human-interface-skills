@@ -1,19 +1,19 @@
 {
   "topic": "designing-for-macos",
-  "reviewer": "independent-operational-auditor",
-  "reviewed_at": "2026-10-25T18:44:46.184707+00:00",
+  "reviewer": "independent-snapshot-reviewer",
+  "reviewed_at": "2026-11-09T18:05:49+00:00",
   "status": "reviewed",
-  "source_hash": "a9cf51a0ee6e2d52c49416ad5f9cab423231e27d333615d2bfb1e44d44588522",
-  "skill_hash": "dc8f30adfd38a2f820d71c55032894dbc4e11fbc382f5e24b4470b6cc905095a",
-  "reference_hash": "73febbd2068953eed3691ee1dfb3c3a5311367cedbc37c2c55e1a574388083a7",
+  "source_hash": "e80910670bd2afac641d2bf44524e2d71a4ce029067fabd3bab04a57c0f7ffe3",
+  "skill_hash": "780b53ac6065a5e9727f3f15d3588eb08ef74f5e0f42b0a61197a4dfc6436264",
+  "reference_hash": "5c1b045cd3740f1fb18a507ea9ef35f91d84f1f4a07d9aebf89b342372a36faf",
   "evidence": {
-    "decision": "Chooses useful independent windows, a coherent menu/toolbar/shortcut command inventory and preserved active-target state during app switching.",
-    "artifact": "Delivers an actionable window/command model or implementation with keyboard completion and an activation scenario.",
-    "transformation": "Photo catalog changes from phone-style full-screen albums/floating Export to sidebar/detail selection, File Export and optional independent comparison windows.",
-    "verification": "Fails menu/toolbar selection disagreement, lost edits on deactivation and resize-hidden completion; native menu/display accessibility remains unclaimed on Linux.",
-    "applicability": "Preserves the project stack and familiar desktop file/window behavior; customization is useful optional acceleration, not a prerequisite.",
-    "handoffs": "Loads Keyboards for commands, Layout for constraints and Mac Catalyst only for that actual iPad-port technology.",
-    "distinctiveness": "Command ownership, active selection and independently useful desktop windows directly shape the produced design."
+    "decision": "Sets window boundaries by unit of work, builds a menu-bar command inventory with shortcuts and a keyboard-only path, uses pointer precision for editing, and keeps touch on a touch-display Mac secondary for brief actions with enlarged tap targets or expanding controls at unchanged density, as in the updated guide overview and touch bullet.",
+    "artifact": "Delivers the revised window/command model or implementation with a keyboard path and an app-activation scenario; touch support is a tap-target or expanding-control change, not a separate touch layout.",
+    "transformation": "The photo-catalog port replaces full-screen drill-down and a floating touch-only Export menu with a sidebar, resizable detail, File > Export plus a keyboard command and optional comparison windows; it still matches the guide and also shows why touch must not be the only route to a command.",
+    "verification": "Fails if menu and toolbar act on different selections, app switching loses edits, resizing hides the only completion action, or touch support enlarges the layout or becomes the only route to a feature; says Linux inspection cannot establish menu-bar integration, multi-display behavior or keyboard accessibility.",
+    "applicability": "Scoped to Mac apps and ports, now including Macs with a touch display; detailed macOS touch rules go to Gestures and iPad adaptation to Mac Catalyst instead of being restated here. Customization stays optional.",
+    "handoffs": "Routes to Gestures for macOS touch rules (new link, target exists), Keyboards for command details, Layout for window constraints and Mac Catalyst for iPad adaptation.",
+    "distinctiveness": "Window-per-unit-of-work, menu-bar command ownership, activation-state handling and touch kept secondary at desktop density make this a Mac platform procedure, distinct from the Gestures and Keyboards procedures."
   },
   "additional_references": []
 }

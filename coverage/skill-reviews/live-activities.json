@@ -1,9 +1,9 @@
 {
   "topic": "live-activities",
-  "reviewer": "independent-topic-author-a",
-  "reviewed_at": "2026-10-25T19:02:04.384302+00:00",
+  "reviewer": "deterministic-snapshot-diff",
+  "reviewed_at": "2026-11-09T17:51:31+00:00",
   "status": "reviewed",
-  "source_hash": "e5f4ca0a0a998435276fbcb9168d40c6af4e4693a2a289eafaff6427cf9280a3",
+  "source_hash": "51c6cd057e6d87f7b65420b3a00f16d4c59c2b22999c5eda5b42ec64d1413e03",
   "skill_hash": "372580b0a081c27c81e52fbe93e5e2a95a788beeb1e23ca91c1ec976dfb970a1",
   "reference_hash": "d80429e35b056736f84b5a344abb2c73d927787808c537ffd64c8b816011b096",
   "evidence": {
@@ -14,5 +14,6 @@
     "applicability": "Qualifies Lock Screen-only background customization, shared Watch/CarPlay layouts, Mac iPhone Mirroring and TV/visionOS exclusion.",
     "handoffs": "Widgets, Notifications and App Shortcuts distinguish periodic content, separate alerts and useful initiation.",
     "distinctiveness": "Bounded event ending, dynamic destination expansion and driving-disabled actions are Live Activity-specific decisions."
-  }
+  },
+  "renewal": "Deterministic renewal for source snapshot 51c6cd057e6d (previous e5f4ca0a0a99): all 269 extracted units and 39 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies."
 }

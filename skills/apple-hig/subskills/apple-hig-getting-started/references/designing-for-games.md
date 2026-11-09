@@ -1,6 +1,6 @@
 # Designing for games
 
-Source: [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/designing-for-games) · Retrieved 2026-10-25.
+Source: [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/designing-for-games) · Retrieved 2026-11-09.
 
 This is original application guidance based on the source text. Independent media review is recorded separately in the coverage report.
 
@@ -44,7 +44,7 @@ Provide the platform’s normal input first and adapt control sizes and menus wh
 |---|---|---|
 |iOS|Touch|Game controller|
 |iPadOS|Touch|Controller, keyboard, mouse, trackpad, Pencil|
-|macOS|Keyboard, mouse, trackpad|Controller|
+|macOS|Keyboard, mouse, trackpad|Controller, touch|
 |tvOS|Remote|Controller, keyboard, mouse, trackpad|
 |visionOS|Touch, including eye-targeted hand interactions|Controller, keyboard, mouse, trackpad, spatial controller|
 |watchOS|Touch|None listed|

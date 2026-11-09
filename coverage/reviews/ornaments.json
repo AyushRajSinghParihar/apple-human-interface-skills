@@ -2,11 +2,11 @@
   "review": {
     "slug": "ornaments",
     "status": "reviewed",
-    "source_hash": "249dae85cda7238cb93f2e1530eb0d99cc6ea0fda9cb7e9b32efe51973b102fb",
+    "source_hash": "029b9514a7c5e20464af2f31428071c98e5ca82a67cada2cc819bd9f93b4c80a",
     "destination_hash": "795bae953bc9dc37e36680a32cf4a052af2567b3a48e3e525c9b7a30af3a4a4d",
-    "reviewer": "cross-reviewer-a",
-    "reviewed_at": "2026-10-25T13:10:28.243293+00:00",
-    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "reviewer": "deterministic-snapshot-diff",
+    "reviewed_at": "2026-11-09T17:51:31+00:00",
+    "evidence": "Deterministic renewal for source snapshot 029b9514a7c5 (previous 249dae85cda7): all 23 extracted units and 1 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies. Previous review: cross-reviewer-a at 2026-10-25T13:10:28.243293+00:00.",
     "sections": [
       {
         "source_anchor": "overview",

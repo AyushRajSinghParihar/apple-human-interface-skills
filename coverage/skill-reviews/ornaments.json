@@ -1,9 +1,9 @@
 {
   "topic": "ornaments",
-  "reviewer": "independent-operational-auditor",
-  "reviewed_at": "2026-10-25T18:48:16.849677+00:00",
+  "reviewer": "deterministic-snapshot-diff",
+  "reviewed_at": "2026-11-09T17:51:31+00:00",
   "status": "reviewed",
-  "source_hash": "249dae85cda7238cb93f2e1530eb0d99cc6ea0fda9cb7e9b32efe51973b102fb",
+  "source_hash": "029b9514a7c5e20464af2f31428071c98e5ca82a67cada2cc819bd9f93b4c80a",
   "skill_hash": "c876d53c7584ba16c70e99da02271703c31800a343eece0dbaa5fd784f800c62",
   "reference_hash": "795bae953bc9dc37e36680a32cf4a052af2567b3a48e3e525c9b7a30af3a4a4d",
   "evidence": {
@@ -15,5 +15,6 @@
     "handoffs": "Loads Toolbars for system presentation and Designing for visionOS only for relevant spatial context.",
     "distinctiveness": "Window-relative persistence, forward parallel plane and ornament width/weight determine concrete spatial tool placement."
   },
-  "additional_references": []
+  "additional_references": [],
+  "renewal": "Deterministic renewal for source snapshot 029b9514a7c5 (previous 249dae85cda7): all 23 extracted units and 1 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies."
 }

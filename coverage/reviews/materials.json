@@ -2,11 +2,11 @@
   "review": {
     "slug": "materials",
     "status": "reviewed",
-    "source_hash": "8e19516af00cba4983ad8e612f0337397615e8ec6fce1e46f48c69361c472ca0",
+    "source_hash": "11cf396b1d1a6eea69d25dfac01a5af4a8341e006f972b8f7b94f6ffca1c8945",
     "destination_hash": "0d486d9c0cea38e430b4156ec07954c0ce33d3dab55165d7a1c215429c23553c",
-    "reviewer": "cross-reviewer-b",
-    "reviewed_at": "2026-10-25T13:14:20+00:00",
-    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "reviewer": "deterministic-snapshot-diff",
+    "reviewed_at": "2026-11-09T17:51:31+00:00",
+    "evidence": "Deterministic renewal for source snapshot 11cf396b1d1a (previous 8e19516af00c): all 135 extracted units and 23 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies. Previous review: cross-reviewer-b at 2026-10-25T13:14:20+00:00.",
     "sections": [
       {
         "source_anchor": "overview",

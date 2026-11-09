@@ -2,11 +2,11 @@
   "review": {
     "slug": "designing-for-games",
     "status": "reviewed",
-    "source_hash": "0c42ac0a9e5a8f0b10a217b29e8796bab7292d44ffa1d32265b885ab89cbb7ee",
-    "destination_hash": "feed7736b867947871db55afead07598f6727cf043b987a4177cc092726ffcb9",
-    "reviewer": "independent-coverage-auditor",
-    "reviewed_at": "2026-10-25T12:48:53.578686+00:00",
-    "evidence": "Independent complete source-to-local semantic comparison and actual embedded-media inspection; author mappings do not establish approval.",
+    "source_hash": "79f38efdeeca3e06e6de3484a3fc11366caef6547824ddd035878f2f30110de7",
+    "destination_hash": "086507baf3249895b252491a6fb34ba5facd3cb6519b5882cbcad9c2093016f3",
+    "reviewer": "independent-snapshot-reviewer",
+    "reviewed_at": "2026-11-09T18:06:23+00:00",
+    "evidence": "Compared the whole current source with the guide. Jump into gameplay (playable install, 30-minute download target, background downloads, device/accessory/accessibility defaults, teaching through play, deferred permission and rating requests), Look stunning on every display (both size tables with every value, the 44 pt prose/table note, resolution-independent art, safe areas, 16:10/19.5:9/4:3 menus, full screen and Full Space), Enable intuitive interactions, Welcome everyone and Adopt Apple technologies (Game Center, GameSave, Core Haptics platforms, Spatial Audio, other technologies and the linked In-App Purchase card) are all kept. The only source change is the macOS row of the interaction table, which now adds touch, and the guide's table shows it. The source change log has no new date, and the guide's change log matches. I found no omission or wrong number.",
     "sections": [
       {
         "source_anchor": "overview",
@@ -34,7 +34,9 @@
         "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
         "destination_anchor": "Enable-intuitive-interactions",
         "status": "reviewed",
-        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+        "evidence": "Rechecked the default/additional input table for six platforms, including the 2026-10-28 macOS row that adds touch as an additional method, plus pointer-to-touch control sizing and menus, controller support except watchOS with alternatives, and direct/virtual touch controls on iPhone and iPad.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:06:23+00:00"
       },
       {
         "source_anchor": "Welcome-everyone",
@@ -573,16 +575,6 @@
         "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
       },
       {
-        "id": "primaryContentSections/0/content/20",
-        "source_unit_hash": "440151f9e5de9c5d383ef286c223a48f6eac0bcfeb21aa5739bd2c6c32f896f3",
-        "source_anchor": "Enable-intuitive-interactions",
-        "status": "reviewed",
-        "treatment": "guidance",
-        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
-        "destination_anchor": "Enable-intuitive-interactions",
-        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
-      },
-      {
         "id": "primaryContentSections/0/content/20/rows/0/0/0",
         "source_unit_hash": "b195e67d72a3684d969adde85939d362031c077e178354caf599e37e1ab1fa7e",
         "source_anchor": "Enable-intuitive-interactions",
@@ -685,16 +677,6 @@
       {
         "id": "primaryContentSections/0/content/20/rows/3/1/0",
         "source_unit_hash": "0203b4529188b37984a75bbbe612c1158951302b6b953ecdb21ee83a75624ed5",
-        "source_anchor": "Enable-intuitive-interactions",
-        "status": "reviewed",
-        "treatment": "guidance",
-        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
-        "destination_anchor": "Enable-intuitive-interactions",
-        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
-      },
-      {
-        "id": "primaryContentSections/0/content/20/rows/3/2/0",
-        "source_unit_hash": "a73d995d59c48876ba4155250c1c34ac3f8d28d4cab94b3edf949ef757ea2c89",
         "source_anchor": "Enable-intuitive-interactions",
         "status": "reviewed",
         "treatment": "guidance",
@@ -1071,6 +1053,30 @@
         "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
         "destination_anchor": "Change-log",
         "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/20",
+        "source_unit_hash": "91b6282854fedb74853c4139f381b7a9a9d459f9ef7e45e0177e1338ca21e115",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Checked all six rows of the default/additional interaction table against the #Enable-intuitive-interactions table, including the changed macOS row (keyboard, mouse and trackpad by default; game controller and touch as additional methods).",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:06:23+00:00"
+      },
+      {
+        "id": "primaryContentSections/0/content/20/rows/3/2/0",
+        "source_unit_hash": "39287fb89ce4ec6cd8b84507fda36e759a3c8d1981d3a8126667e14d5eb083eb",
+        "source_anchor": "Enable-intuitive-interactions",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
+        "destination_anchor": "Enable-intuitive-interactions",
+        "evidence": "Checked the changed macOS cell 'Game controller, touch': the guide's macOS row lists 'Controller, touch' as additional inputs.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:06:23+00:00"
       }
     ],
     "tables": [
@@ -1096,13 +1102,15 @@
       },
       {
         "id": "primaryContentSections/0/content/20",
-        "source_unit_hash": "440151f9e5de9c5d383ef286c223a48f6eac0bcfeb21aa5739bd2c6c32f896f3",
+        "source_unit_hash": "91b6282854fedb74853c4139f381b7a9a9d459f9ef7e45e0177e1338ca21e115",
         "source_anchor": "Enable-intuitive-interactions",
         "status": "reviewed",
         "treatment": "guidance",
         "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
         "destination_anchor": "Enable-intuitive-interactions",
-        "evidence": "Verified default/additional input table across six platforms, pointer-to-touch adaptation, controllers except watchOS with accessible alternatives, and direct/virtual touchscreen controls."
+        "evidence": "Compared every row of the changed interaction-methods table; the macOS row now lists game controller and touch as additional methods, and the guide's table matches all six rows.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:06:23+00:00"
       },
       {
         "id": "primaryContentSections/0/content/48",
@@ -1121,17 +1129,17 @@
   "media": {
     "platforms-games-intro.png": {
       "status": "reviewed",
-      "reviewer": "independent-coverage-auditor",
-      "evidence": "Viewed actual introductory or principle-symbol image. It identifies the topic or principle; the corresponding rule is fully expressed in the reviewed local prose, without an additional visual-only specification.",
+      "reviewer": "independent-snapshot-reviewer",
+      "evidence": "Viewed actual introductory or principle-symbol image. It identifies the topic or principle; the corresponding rule is fully expressed in the reviewed local prose, without an additional visual-only specification. Rechecked after the 2026-10-28 guide update (one table cell changed): the unchanged decorative game-controller intro illustration still adds no rule.",
       "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
       "classification": "decorative",
       "binary_hash": "9511e80fafa956ca979ac26e24a8a5cb9f299db86dc6dfe536b22e2a915ad069",
       "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
-      "destination_hash": "feed7736b867947871db55afead07598f6727cf043b987a4177cc092726ffcb9",
+      "destination_hash": "086507baf3249895b252491a6fb34ba5facd3cb6519b5882cbcad9c2093016f3",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-games.md",
-          "hash": "feed7736b867947871db55afead07598f6727cf043b987a4177cc092726ffcb9"
+          "hash": "086507baf3249895b252491a6fb34ba5facd3cb6519b5882cbcad9c2093016f3"
         }
       ],
       "reviewed_occurrence_ids": [
@@ -1150,7 +1158,8 @@
           "review_method": "actual primary/alternate image-pair visual comparison in the final decorative-alternate gallery",
           "evidence": "Actually compared the themed device/component illustration pair. Only appearance/background/foreground contrast changes; the device silhouette or sample content remains equivalent and adds no independent normative rule."
         }
-      ]
+      ],
+      "reviewed_at": "2026-11-09T18:06:23+00:00"
     }
   }
 }

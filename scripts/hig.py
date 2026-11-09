@@ -10,6 +10,9 @@ Review maintenance:
   review-draft --all       do the same for every record with a stale hash
   review-approve RECORD --reviewer NAME
                            approve a draft after its evidence is rewritten
+  review-remap SLUG...     after discover: move unchanged unit and media reviews to new IDs
+  review-scaffold SLUG...  after discover: add draft reviews for new units and media
+  review-renew SLUG...     renew drafts of pages whose units and media are unchanged (--previous REF)
 """
 import argparse
 import concurrent.futures
@@ -708,10 +711,13 @@ def review_command(args):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("command", choices=["discover", "check", "check-skills", "report",
-                                            "stale", "review-draft", "review-approve"])
+                                            "stale", "review-draft", "review-approve",
+                                            "review-remap", "review-scaffold", "review-renew"])
     parser.add_argument("records", nargs="*", help="Review record paths for review-draft or review-approve")
     parser.add_argument("--all", action="store_true", help="review-draft: draft every record with a stale hash")
     parser.add_argument("--reviewer", help="review-approve: name of the reviewer who checked the evidence")
+    parser.add_argument("--no-fetch", action="store_true", help="review-scaffold: do not download new media assets")
+    parser.add_argument("--previous", default="HEAD", help="review-renew: git revision with the reviewed manifest")
     parser.add_argument("--root", type=pathlib.Path, default=ROOT)
     parser.add_argument("--offline", action="store_true", help="Discover from previously fetched source cache")
     parser.add_argument("--output", type=pathlib.Path)
@@ -720,6 +726,26 @@ def main():
     parser.add_argument("--instructions-only", action="store_true", help="Check source-backed procedure ownership, reviews and routing without requiring behavioral grades")
     args = parser.parse_args()
     try:
+        if args.command in {"review-remap", "review-scaffold", "review-renew"}:
+            import importlib.util
+            spec = importlib.util.spec_from_file_location("_hig_snapshot", pathlib.Path(__file__).with_name("snapshot.py"))
+            snapshot = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(snapshot)
+            if not args.records:
+                print(f"{args.command}: name one or more article slugs", file=sys.stderr)
+                return 2
+            if args.command == "review-renew":
+                import subprocess
+                shown = subprocess.run(["git", "-C", str(args.root), "show", f"{args.previous}:coverage/manifest.json"],
+                                       capture_output=True, text=True, check=True).stdout
+                previous = json.loads(shown)
+                run = lambda root, slug: snapshot.renew(root, slug, previous)
+            elif args.command == "review-remap":
+                run = snapshot.remap
+            else:
+                run = lambda root, slug: snapshot.scaffold(root, slug, fetch=not args.no_fetch)
+            print(json.dumps({slug: run(args.root, slug) for slug in args.records}, indent=2))
+            return 0
         if args.command in {"stale", "review-draft", "review-approve"}:
             return review_command(args)
         if args.command == "check-skills":

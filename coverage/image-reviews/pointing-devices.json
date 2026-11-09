@@ -1,25 +1,25 @@
 {
-  "source_hash": "a6880a67ebdf0df2507093533566dd872aa7ac176dc3666053af42a5856af57c",
+  "source_hash": "4097401fd624b5151e6ea959cc3841bf2ef5f3cc249a419733cee22ae51c207f",
   "media": {
     "inputs-pointing-devices-intro.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.239341+00:00",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
       "reference_metadata_hash": "b942b76f4b8b78785d9020e9364ba7504471929e612adb5e70af65cb0a667733",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-pointing-devices-intro@2x.png",
       "binary_hash": "d77f8082e940ea8830ca1da7f6d0d6bbe169440c13cea8068549b7a1277e425f",
       "review_method": "actual image and source-context/local-explanation comparison",
       "classification": "decorative",
-      "evidence": "Actual primary and alternate topic illustration compared; it identifies the input topic and carries no separate normative specification.",
+      "evidence": "Actual primary and alternate topic illustration compared; it identifies the input topic and carries no separate normative specification. Rechecked after the 2026-10-28 guide and notes update: the unchanged decorative arrow-pointer intro illustration still adds no rule. Rechecked after the author's fixes to the guide and to pointing-devices-images.md, which removed the wrong light/dark sentence and the 'color change alone' rule: the guide and the notes still keep this asset's lesson.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         },
         {
           "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "761bedcd69e707027e814388ec0c12f63287a945875e432a324b496843436fcd"
         }
       ],
       "reviewed_occurrence_ids": [
@@ -38,62 +38,59 @@
     },
     "padding-for-button-with-bezel.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.239413+00:00",
-      "reference_metadata_hash": "997ab02613dfedb41d174d288d9ee85911b141246f0746f5ee9092af210c52b4",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "5a6477972b00a64304b83116de6716288dcb6baa2db6b3ade4b02d3099ef7047",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/padding-for-button-with-bezel@2x.png",
-      "binary_hash": "887550977fbaf667d654de81846ee98e79c328aff1d484ecf88c12d13506429e",
-      "review_method": "actual image and source-context/local-explanation comparison",
-      "classification": "guidance",
-      "evidence": "Actual filled-bezel12pt and unfilled-label/symbol24pt diagrams inspected in both appearances. Local guide plus original notes preserve all-side padding measured from visible edges and interaction-region meaning.",
+      "binary_hash": "3f40bc04bd242b0d8a88e3d7e595737288fba9ce634cae1ad9c1a75db26920b6",
+      "review_method": "Opened the downloaded light and dark @2x PNGs (SHA-256 values match) and compared them with Apple's alt text and the guide's padding rule in #Standard-pointers-and-effects.",
+      "classification": "guidance-bearing (hit-region padding measurement diagram)",
+      "evidence": "New artwork: a blue capsule labeled Button inside a pink shaded region, with a 12 callout on each of the four sides, showing about 12 pt of hit-region padding around an element with a bezel. #Standard-pointers-and-effects keeps the rule (about 12 pt around elements with a bezel, about 24 pt around the visible edges of elements without one). Rechecked after the author's fix to the guide (#macOS gestures and the frame-resize wording): this asset's lesson in the guide is unchanged.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
-        },
-        {
-          "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/43/columns/0/content/0/inlineContent/0"
+        "primaryContentSections/0/content/31/columns/0/content/0/inlineContent/0"
       ],
       "appearance_variants": [
         {
           "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/padding-for-button-with-bezel~dark@2x.png",
-          "binary_hash": "d4ae03ff0cdf3f1a23a7cbc321125bf49ac89acfe6e1783ec3174df5f4ae9228",
+          "binary_hash": "27d2bfbbc6ecc805ee679047156206ca02615ddd470be5e76638f8f8a6fa2559",
           "status": "reviewed",
-          "reviewer": "root-independent-image-auditor",
-          "review_method": "actual primary and alternate appearance image comparison",
-          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson."
+          "reviewer": "independent-snapshot-reviewer",
+          "review_method": "Compared the dark @2x PNG side by side with the light one.",
+          "evidence": "Same capsule, pink region and four 12 callouts with a slightly brighter blue; it adds no different measurement or rule.",
+          "reviewed_at": "2026-11-09T18:16:33+00:00"
         }
       ]
     },
     "padding-for-glyph.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.239474+00:00",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
       "reference_metadata_hash": "3f7cfcfbec46a1ae779d92ccd398b9188c7ae85eb29b48d135b2b2f09c672d3f",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/padding-for-glyph@2x.png",
       "binary_hash": "f319bcbd2dec248a1630e838309b247a35ee90882090f113f52fc8bfaebd12b3",
       "review_method": "actual image and source-context/local-explanation comparison",
       "classification": "guidance",
-      "evidence": "Actual filled-bezel12pt and unfilled-label/symbol24pt diagrams inspected in both appearances. Local guide plus original notes preserve all-side padding measured from visible edges and interaction-region meaning.",
+      "evidence": "Actual filled-bezel12pt and unfilled-label/symbol24pt diagrams inspected in both appearances. Local guide plus original notes preserve all-side padding measured from visible edges and interaction-region meaning. Rechecked after the 2026-10-28 update: this image is unchanged, and #Standard-pointers-and-effects and the notes' padding paragraph still keep the 24 pt padding around unbezeled elements and symbols. Rechecked after the author's fixes to the guide and to pointing-devices-images.md, which removed the wrong light/dark sentence and the 'color change alone' rule: the guide and the notes still keep this asset's lesson.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         },
         {
           "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "761bedcd69e707027e814388ec0c12f63287a945875e432a324b496843436fcd"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/43/columns/1/content/0/inlineContent/0"
+        "primaryContentSections/0/content/31/columns/1/content/0/inlineContent/0"
       ],
       "appearance_variants": [
         {
@@ -108,27 +105,27 @@
     },
     "padding-for-button-without-bezel.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.239518+00:00",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
       "reference_metadata_hash": "2dd9d03e4238938169c6ff13439f0e8badb1c44a0d452cd72ee11d1a32d7810d",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/padding-for-button-without-bezel@2x.png",
       "binary_hash": "28f21a53e97e8a9042f065b6f7791d5ad285e8e32528acc8d7d9c33c471e22ca",
       "review_method": "actual image and source-context/local-explanation comparison",
       "classification": "guidance",
-      "evidence": "Actual filled-bezel12pt and unfilled-label/symbol24pt diagrams inspected in both appearances. Local guide plus original notes preserve all-side padding measured from visible edges and interaction-region meaning.",
+      "evidence": "Actual filled-bezel12pt and unfilled-label/symbol24pt diagrams inspected in both appearances. Local guide plus original notes preserve all-side padding measured from visible edges and interaction-region meaning. Rechecked after the 2026-10-28 update: this image is unchanged, and #Standard-pointers-and-effects and the notes' padding paragraph still keep the 24 pt padding around unbezeled elements and symbols. Rechecked after the author's fixes to the guide and to pointing-devices-images.md, which removed the wrong light/dark sentence and the 'color change alone' rule: the guide and the notes still keep this asset's lesson.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         },
         {
           "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "761bedcd69e707027e814388ec0c12f63287a945875e432a324b496843436fcd"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/43/columns/2/content/0/inlineContent/0"
+        "primaryContentSections/0/content/31/columns/2/content/0/inlineContent/0"
       ],
       "appearance_variants": [
         {
@@ -143,27 +140,27 @@
     },
     "useful-pointer-annotation.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.239562+00:00",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
       "reference_metadata_hash": "fbcd9e5a6a348b890d60a61049a961e5ddf0f00b846143c4818848839ce50de4",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/useful-pointer-annotation@2x.png",
       "binary_hash": "fbafc9313e0674736c607f2122c489c8001eadc03d5203eda052bb9f48f553d5",
       "review_method": "actual image and source-context/local-explanation comparison",
       "classification": "guidance",
-      "evidence": "Actual resize-handle annotation viewed in both appearances. Local guide preserves live dimensions/coordinates as useful feedback and avoids converting sample width/height to required sizes.",
+      "evidence": "Actual resize-handle annotation viewed in both appearances. Local guide preserves live dimensions/coordinates as useful feedback and avoids converting sample width/height to required sizes. Rechecked after the 2026-10-28 update: this image is unchanged, and #Customizing-pointers and the notes still keep live dimensions as useful annotation, not required values. Rechecked after the author's fixes to the guide and to pointing-devices-images.md, which removed the wrong light/dark sentence and the 'color change alone' rule: the guide and the notes still keep this asset's lesson.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         },
         {
           "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "761bedcd69e707027e814388ec0c12f63287a945875e432a324b496843436fcd"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/52/inlineContent/0"
+        "primaryContentSections/0/content/39/inlineContent/0"
       ],
       "appearance_variants": [
         {
@@ -176,485 +173,793 @@
         }
       ]
     },
-    "pointers-arrow.png": {
-      "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.239607+00:00",
-      "reference_metadata_hash": "06d9d2b9abaa95dffc483308dbf0a73148d32ca51aaa6e2affdd25beb531e344",
-      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-arrow@2x.png",
-      "binary_hash": "3bc5dab79c8935debe5ab5b29743fa5460fd1c5b4e2410c31b57b5d2b0cf2398",
-      "review_method": "actual image and source-context/local-explanation comparison",
-      "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
-      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-      "supporting_files": [
-        {
-          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
-        },
-        {
-          "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
-        }
-      ],
-      "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/1/0/0/inlineContent/0"
-      ]
-    },
     "pointers-closed-hand.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.239652+00:00",
-      "reference_metadata_hash": "da526b32f45ea18f0dcea2a0efd9036dec819b76e0260584418113513b60c490",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "80ed737c5ad91bae6ef6d6bf93b2338f3208344a726e72ee18f30f2a9f4adf1b",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-closed-hand@2x.png",
-      "binary_hash": "67232d8202737da1993b49bef60a11040b935b8f3a814d005cf6c8b0297401ab",
-      "review_method": "actual image and source-context/local-explanation comparison",
-      "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "binary_hash": "5f7dfb259640ee623e6da2425b5f1b11d456c71f441a321c2f7ecbb5c6f67cf9",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "Redrawn closed hand with curled fingers, black outline and white fill. The #Pointers table keeps its role (content is being dragged within a view; AppKit closedHand, SwiftUI grabActive). The notes now say every cursor image is light-only in the 2026-10-28 source, which matches this image (the old dark variant is gone); this record does not bind the notes, and its lesson is kept in the guide's #Pointers table.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
-        },
-        {
-          "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/2/0/0/inlineContent/0"
+        "primaryContentSections/0/content/47/rows/2/0/0/inlineContent/0"
       ],
-      "appearance_variants": [
-        {
-          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-closed-hand~dark@2x.png",
-          "binary_hash": "651a7fbe4390268b27ec4bac5c231bddb9b8e5c77b2003709672afeb421b5d45",
-          "status": "reviewed",
-          "reviewer": "root-independent-image-auditor",
-          "review_method": "actual primary and alternate appearance image comparison",
-          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson."
-        }
-      ]
+      "appearance_variants": []
     },
     "pointers-contextual-menu.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.239704+00:00",
-      "reference_metadata_hash": "43aff283b7ef68cfae78ccba7262a1d5a7121f83db3fd85e21e9099e5769cfd8",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "d8ed68e0b1d4d59e943ab777312685dd421f3a942567329e0992b72ad3342e7e",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-contextual-menu@2x.png",
-      "binary_hash": "74525414fc20018d8d8acb3c1ff0f3fde6e7bcd4630b7703bf2d4013c544c0aa",
-      "review_method": "actual image and source-context/local-explanation comparison",
-      "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "binary_hash": "2e12167894ca2eb2809d65b7dcb404317f6327ca3a7fc3e29cbe49ea5fc408ef",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "A black arrow with a small menu-like rounded rectangle below and to the right. The #Pointers table keeps its role (a context menu is available, usually shown only with Control; AppKit contextualMenu). Rechecked after the author's fix to the guide (#macOS gestures and the frame-resize wording): this asset's lesson in the guide is unchanged.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
-        },
-        {
-          "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/3/0/0/inlineContent/0"
-      ]
+        "primaryContentSections/0/content/47/rows/3/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
     },
     "pointers-crosshair.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.239752+00:00",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
       "reference_metadata_hash": "4318c5a0cef05cd8c9cd41c906ecbe1b3c570d1cb79b823def93d0b2c36b578c",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-crosshair@2x.png",
       "binary_hash": "a2df45f593fc8cf3efdf7d904c18b4d9f758c9bb9bd637acf2f924228382f624",
       "review_method": "actual image and source-context/local-explanation comparison",
       "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis). Rechecked after the 2026-10-28 update: this image is unchanged, and its row in the #Pointers table and its cue in the notes' table keep its meaning and APIs. The earlier '18 system roles' and 'dark/light hand appearances' describe the old table; the current table has 32 pointers, all light-only. Rechecked after the author's fixes to the guide and to pointing-devices-images.md, which removed the wrong light/dark sentence and the 'color change alone' rule: the guide and the notes still keep this asset's lesson.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         },
         {
           "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "761bedcd69e707027e814388ec0c12f63287a945875e432a324b496843436fcd"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/4/0/0/inlineContent/0"
+        "primaryContentSections/0/content/47/rows/4/0/0/inlineContent/0"
       ]
     },
     "pointers-disappearing-item.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.239802+00:00",
-      "reference_metadata_hash": "8c40115cf1a71d75a6b04aa2094a4c1614ec3b292df78e8ff842005ce12bb79a",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "7277e6372f24412463083fa486f7533cb98ed027d4db31f4fb98aecb39e1f801",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-disappearing-item@2x.png",
-      "binary_hash": "b1ae26d7a23f4a0a67601f624965df2dc385afccb717673b8476cd551db1eb16",
-      "review_method": "actual image and source-context/local-explanation comparison",
-      "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "binary_hash": "56d8dc95678e5b4aa7c3895ba3bc8d39f6edd8ced4898970a7e7cc11f9e8c230",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "A black arrowhead above a gray circle with a white X. The #Pointers table keeps its role (the dragged item disappears when dropped and a referenced original is unaffected; AppKit disappearingItem). Rechecked after the author's fix to the guide (#macOS gestures and the frame-resize wording): this asset's lesson in the guide is unchanged.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
-        },
-        {
-          "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/5/0/0/inlineContent/0"
-      ]
+        "primaryContentSections/0/content/47/rows/5/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
     },
     "pointers-drag-copy.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.239853+00:00",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
       "reference_metadata_hash": "e3d2e89f96bf08e6aa29f45cb7403b647144dd2bd2e9600b118198a7a0e04eee",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-drag-copy@2x.png",
       "binary_hash": "63bc2c848972a668183bcc052f6afa24c452a82bbd14be65d58b9abcbafb7812",
       "review_method": "actual image and source-context/local-explanation comparison",
       "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis). Rechecked after the 2026-10-28 update: this image is unchanged, and its row in the #Pointers table and its cue in the notes' table keep its meaning and APIs. The earlier '18 system roles' and 'dark/light hand appearances' describe the old table; the current table has 32 pointers, all light-only. Rechecked after the author's fixes to the guide and to pointing-devices-images.md, which removed the wrong light/dark sentence and the 'color change alone' rule: the guide and the notes still keep this asset's lesson.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         },
         {
           "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "761bedcd69e707027e814388ec0c12f63287a945875e432a324b496843436fcd"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/6/0/0/inlineContent/0"
+        "primaryContentSections/0/content/47/rows/6/0/0/inlineContent/0"
       ]
     },
     "pointers-drag-link.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.239899+00:00",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
       "reference_metadata_hash": "395b4d3dbb2789a421eeb2845d4e5e0b2dec4e529277643d3c637b2305d7f833",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-drag-link@2x.png",
       "binary_hash": "17e9a9525cb8d50999d2ae5e90e31b8610fba18d64fc88104c98ac2d3c24adc7",
       "review_method": "actual image and source-context/local-explanation comparison",
       "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis). Rechecked after the 2026-10-28 update: this image is unchanged, and its row in the #Pointers table and its cue in the notes' table keep its meaning and APIs. The earlier '18 system roles' and 'dark/light hand appearances' describe the old table; the current table has 32 pointers, all light-only. Rechecked after the author's fixes to the guide and to pointing-devices-images.md, which removed the wrong light/dark sentence and the 'color change alone' rule: the guide and the notes still keep this asset's lesson.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         },
         {
           "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "761bedcd69e707027e814388ec0c12f63287a945875e432a324b496843436fcd"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/7/0/0/inlineContent/0"
-      ]
-    },
-    "pointers-horizontal-beam.png": {
-      "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.239947+00:00",
-      "reference_metadata_hash": "1b817a43fc29daa8886a125156068ec694bcdd81af2690686d80d6723258d874",
-      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-horizontal-beam@2x.png",
-      "binary_hash": "990a61b1c3eb573d84d127595f5b246fcb1a28443bead2f2b184a271d92cf54b",
-      "review_method": "actual image and source-context/local-explanation comparison",
-      "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
-      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-      "supporting_files": [
-        {
-          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
-        },
-        {
-          "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
-        }
-      ],
-      "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/8/0/0/inlineContent/0"
+        "primaryContentSections/0/content/47/rows/7/0/0/inlineContent/0"
       ]
     },
     "pointers-open-hand.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.239991+00:00",
-      "reference_metadata_hash": "b3ae600309500ff943c734446955f2efa8c073eeb417499cfb9ef786c7cbeca0",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "39912f846da999afa2a6e8d0fcd85d5ad9fa7724f6058fef360baa3291bbfffd",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-open-hand@2x.png",
-      "binary_hash": "ec07825bce0aef977bb0f7dc755cc072a4ff31f2abcd83a8c407a16009efc78b",
-      "review_method": "actual image and source-context/local-explanation comparison",
-      "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "binary_hash": "5d81e3f3dc889e0483493b2bc9e5f5590749e73c7e376cf1f558ac7aef6f85a2",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "Redrawn open hand with spread fingers, black outline and white fill. The #Pointers table keeps its role (content can be dragged within a view; AppKit openHand, SwiftUI grabIdle). The notes now say every cursor image is light-only in the 2026-10-28 source, which matches this image (the old dark variant is gone); this record does not bind the notes, and its lesson is kept in the guide's #Pointers table.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
-        },
-        {
-          "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/9/0/0/inlineContent/0"
+        "primaryContentSections/0/content/47/rows/9/0/0/inlineContent/0"
       ],
-      "appearance_variants": [
-        {
-          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-open-hand~dark@2x.png",
-          "binary_hash": "1e87f1dc481ec62338d9ca043b72f1964d11f85d1ee11b5d0bf95c40f17eeb38",
-          "status": "reviewed",
-          "reviewer": "root-independent-image-auditor",
-          "review_method": "actual primary and alternate appearance image comparison",
-          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson."
-        }
-      ]
+      "appearance_variants": []
     },
     "pointers-operation-not-allowed.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.240041+00:00",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
       "reference_metadata_hash": "f56e1b8438900d72acb4d8da0462a300e6f9bf26df70373ffc2128f2d10542b2",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-operation-not-allowed@2x.png",
       "binary_hash": "7d02c982c0160e72eba6a2f79edcab9024bc9cffe36602c686f18b92eb540e85",
       "review_method": "actual image and source-context/local-explanation comparison",
       "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis). Rechecked after the 2026-10-28 update: this image is unchanged, and its row in the #Pointers table and its cue in the notes' table keep its meaning and APIs. The earlier '18 system roles' and 'dark/light hand appearances' describe the old table; the current table has 32 pointers, all light-only. Rechecked after the author's fixes to the guide and to pointing-devices-images.md, which removed the wrong light/dark sentence and the 'color change alone' rule: the guide and the notes still keep this asset's lesson.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         },
         {
           "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "761bedcd69e707027e814388ec0c12f63287a945875e432a324b496843436fcd"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/10/0/0/inlineContent/0"
+        "primaryContentSections/0/content/47/rows/10/0/0/inlineContent/0"
       ]
     },
     "pointers-pointing-hand.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.240090+00:00",
-      "reference_metadata_hash": "c0ad09257ef0643f8978183d4ec9a5f88fb8640612547473d5e6929fa72d9c14",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "d2b213b0ec2584ed824f37fafd69d9a4ec33541d76f9b34c76d94817525e48cd",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-pointing-hand@2x.png",
-      "binary_hash": "cd0f8d1f192e6e5b2f9ed14abff26c6f13583d05663a49c1663c22f27bdf004c",
-      "review_method": "actual image and source-context/local-explanation comparison",
-      "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "binary_hash": "a982cbaa1d441e84090b45498ce0e4211d96c2bd5e859080997a2ca95f42bc50",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "Redrawn hand with the index finger extended, black outline and white fill. The #Pointers table keeps its role (link to a webpage, document or other item; AppKit pointingHand, SwiftUI link). The notes now say every cursor image is light-only in the 2026-10-28 source, which matches this image (the old dark variant is gone); this record does not bind the notes, and its lesson is kept in the guide's #Pointers table.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
-        },
-        {
-          "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/11/0/0/inlineContent/0"
+        "primaryContentSections/0/content/47/rows/11/0/0/inlineContent/0"
       ],
-      "appearance_variants": [
-        {
-          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-pointing-hand~dark@2x.png",
-          "binary_hash": "e8ceee59136c0539b65318e98add9c1cb1412267c0838dbfc20c4d30b75e9920",
-          "status": "reviewed",
-          "reviewer": "root-independent-image-auditor",
-          "review_method": "actual primary and alternate appearance image comparison",
-          "evidence": "Actual primary and alternate appearance compared; the retained local explanation preserves their relevant design lesson."
-        }
-      ]
+      "appearance_variants": []
     },
     "pointers-resize-down.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.240142+00:00",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
       "reference_metadata_hash": "2aa3033b37fb6935f0acdd42315a5590fdee6fa001cdefe51bc05b98f796185f",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-resize-down@2x.png",
       "binary_hash": "abc75514971078297d135b69023b807ad1b1851697ff92fda443207f01ef44ce",
       "review_method": "actual image and source-context/local-explanation comparison",
       "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis). Rechecked after the 2026-10-28 update: this image is unchanged, and its row in the #Pointers table and its cue in the notes' table keep its meaning and APIs. The earlier '18 system roles' and 'dark/light hand appearances' describe the old table; the current table has 32 pointers, all light-only. Rechecked after the author's fixes to the guide and to pointing-devices-images.md, which removed the wrong light/dark sentence and the 'color change alone' rule: the guide and the notes still keep this asset's lesson. This divider pointer keeps its 'arrow against a perpendicular bar' cue in the notes' table; the new black/gray triangle paragraph is about the frame-resize pointers, not this one.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         },
         {
           "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "761bedcd69e707027e814388ec0c12f63287a945875e432a324b496843436fcd"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/12/0/0/inlineContent/0"
+        "primaryContentSections/0/content/47/rows/12/0/0/inlineContent/0"
       ]
     },
     "pointers-resize-left.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.240193+00:00",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
       "reference_metadata_hash": "0c474c0a8f929132658d4017360033bf66c2b0d8ff7bde87aff30b2346b56c7d",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-resize-left@2x.png",
       "binary_hash": "517b1570d0727483b8670f16ecb54e27953fec813f480aaa1dd296f9c789f1ba",
       "review_method": "actual image and source-context/local-explanation comparison",
       "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis). Rechecked after the 2026-10-28 update: this image is unchanged, and its row in the #Pointers table and its cue in the notes' table keep its meaning and APIs. The earlier '18 system roles' and 'dark/light hand appearances' describe the old table; the current table has 32 pointers, all light-only. Rechecked after the author's fixes to the guide and to pointing-devices-images.md, which removed the wrong light/dark sentence and the 'color change alone' rule: the guide and the notes still keep this asset's lesson. This divider pointer keeps its 'arrow against a perpendicular bar' cue in the notes' table; the new black/gray triangle paragraph is about the frame-resize pointers, not this one.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         },
         {
           "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "761bedcd69e707027e814388ec0c12f63287a945875e432a324b496843436fcd"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/13/0/0/inlineContent/0"
+        "primaryContentSections/0/content/47/rows/15/0/0/inlineContent/0"
       ]
     },
     "pointers-resize-left-right.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.240239+00:00",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
       "reference_metadata_hash": "46a5781643afe156d4a8d95b5b8768cfeba37f778e307f728f214b4aaaa2d8e4",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-resize-left-right@2x.png",
       "binary_hash": "4f8aa0a30e01aea57a4d515665087130f0cfa5a067c4e04d590d13d76c558839",
       "review_method": "actual image and source-context/local-explanation comparison",
       "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis). Rechecked after the 2026-10-28 update: this image is unchanged, and its row in the #Pointers table and its cue in the notes' table keep its meaning and APIs. The earlier '18 system roles' and 'dark/light hand appearances' describe the old table; the current table has 32 pointers, all light-only. Rechecked after the author's fixes to the guide and to pointing-devices-images.md, which removed the wrong light/dark sentence and the 'color change alone' rule: the guide and the notes still keep this asset's lesson. This divider pointer keeps its 'arrow against a perpendicular bar' cue in the notes' table; the new black/gray triangle paragraph is about the frame-resize pointers, not this one.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         },
         {
           "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "761bedcd69e707027e814388ec0c12f63287a945875e432a324b496843436fcd"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/14/0/0/inlineContent/0"
+        "primaryContentSections/0/content/47/rows/16/0/0/inlineContent/0"
       ]
     },
     "pointers-resize-right.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.240287+00:00",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
       "reference_metadata_hash": "043f8305fbb04a83cddcfbc4426991e6eb3790c8d531e5467f5e4578b7d1baf6",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-resize-right@2x.png",
       "binary_hash": "84c28e639b89a3e0e74324320d51dbd74a9c299f30fd86dd9213163b05b1c15f",
       "review_method": "actual image and source-context/local-explanation comparison",
       "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis). Rechecked after the 2026-10-28 update: this image is unchanged, and its row in the #Pointers table and its cue in the notes' table keep its meaning and APIs. The earlier '18 system roles' and 'dark/light hand appearances' describe the old table; the current table has 32 pointers, all light-only. Rechecked after the author's fixes to the guide and to pointing-devices-images.md, which removed the wrong light/dark sentence and the 'color change alone' rule: the guide and the notes still keep this asset's lesson. This divider pointer keeps its 'arrow against a perpendicular bar' cue in the notes' table; the new black/gray triangle paragraph is about the frame-resize pointers, not this one.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         },
         {
           "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "761bedcd69e707027e814388ec0c12f63287a945875e432a324b496843436fcd"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/15/0/0/inlineContent/0"
+        "primaryContentSections/0/content/47/rows/23/0/0/inlineContent/0"
       ]
     },
     "pointers-resize-up.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.240334+00:00",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
       "reference_metadata_hash": "427454e3ba8dee5cb2343bbb38612489bcac6fca35ff5bd56315a1a481d8ba4b",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-resize-up@2x.png",
       "binary_hash": "b4fa0504fbbfbb1e1676c83db0816ad97c893f4bc8dbdd0c6845fb7a9e391361",
       "review_method": "actual image and source-context/local-explanation comparison",
       "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis). Rechecked after the 2026-10-28 update: this image is unchanged, and its row in the #Pointers table and its cue in the notes' table keep its meaning and APIs. The earlier '18 system roles' and 'dark/light hand appearances' describe the old table; the current table has 32 pointers, all light-only. Rechecked after the author's fixes to the guide and to pointing-devices-images.md, which removed the wrong light/dark sentence and the 'color change alone' rule: the guide and the notes still keep this asset's lesson. This divider pointer keeps its 'arrow against a perpendicular bar' cue in the notes' table; the new black/gray triangle paragraph is about the frame-resize pointers, not this one.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         },
         {
           "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "761bedcd69e707027e814388ec0c12f63287a945875e432a324b496843436fcd"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/16/0/0/inlineContent/0"
+        "primaryContentSections/0/content/47/rows/27/0/0/inlineContent/0"
       ]
     },
     "pointers-resize-up-down.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.240378+00:00",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
       "reference_metadata_hash": "9dc6756d3129a650c4197d28358ee780b231554808650dcd4174bcb0a0a9f05d",
       "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-resize-up-down@2x.png",
       "binary_hash": "15a2bb97335a17345e77c8a09f34585ca676d822572d8c85475ad6a29c0fd41b",
       "review_method": "actual image and source-context/local-explanation comparison",
       "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis). Rechecked after the 2026-10-28 update: this image is unchanged, and its row in the #Pointers table and its cue in the notes' table keep its meaning and APIs. The earlier '18 system roles' and 'dark/light hand appearances' describe the old table; the current table has 32 pointers, all light-only. Rechecked after the author's fixes to the guide and to pointing-devices-images.md, which removed the wrong light/dark sentence and the 'color change alone' rule: the guide and the notes still keep this asset's lesson. This divider pointer keeps its 'arrow against a perpendicular bar' cue in the notes' table; the new black/gray triangle paragraph is about the frame-resize pointers, not this one.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         },
         {
           "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "761bedcd69e707027e814388ec0c12f63287a945875e432a324b496843436fcd"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/17/0/0/inlineContent/0"
+        "primaryContentSections/0/content/47/rows/28/0/0/inlineContent/0"
       ]
     },
-    "pointers-vertical-beam.png": {
+    "table-availability-checkmark.png": {
       "status": "reviewed",
-      "reviewer": "root-independent-image-auditor",
-      "reviewed_at": "2026-10-25T13:43:21.240428+00:00",
-      "reference_metadata_hash": "5b709aee6e36292379bfa6dbe2d2056e0b9f78c049cfe50b943931a737cd1ce5",
-      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-vertical-beam@2x.png",
-      "binary_hash": "c7beb446e6228561f1a5c4febeaa0e406e726a8fceb497021c5c74a3a7ce2f20",
-      "review_method": "actual image and source-context/local-explanation comparison",
-      "classification": "guidance",
-      "evidence": "Actual Mac pointer silhouettes/badges viewed, including18systemroles, dark/light hand appearances, insertion beam orientations and all six resize arrows. Core semantic/API list plus original visual-to-operation table preserve role distinctions (including reference removal versus original deletion, copy/link, invalid drop and axis).",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "84c9b9abbc6603c942215fe09ad0f3523fecde25427d47f7170b2afb03323bac",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/table-availability-checkmark@2x.png",
+      "binary_hash": "7f92ecf997265c307cded9d7b8d826d4a3c5f793798e4bdbf52a5ed5c6819693",
+      "review_method": "Opened the downloaded light and dark @2x PNGs (SHA-256 values match), compared them with Apple's alt text, and mapped all 23 occurrences to the mouse and trackpad cells of the #macOS table.",
+      "classification": "guidance-bearing (availability marker in the mouse/trackpad table)",
+      "evidence": "A plain gray checkmark meaning 'available'. Its 23 uses mark rows 1-7 for both mouse and trackpad and rows 8-16 for trackpad only; #macOS keeps that split as 'Mouse and trackpad both support ...' and 'Trackpad only: ...'. Rechecked after the author's fix to the guide (#macOS gestures and the frame-resize wording): this asset's lesson in the guide is unchanged.",
       "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
-          "hash": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa"
-        },
-        {
-          "path": "skills/apple-hig/references/media/pointing-devices-images.md",
-          "hash": "3975685fd933bcb4051e490d76f83406ca4237d57a5b898362a489c3dda69d83"
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
         }
       ],
       "reviewed_occurrence_ids": [
-        "primaryContentSections/0/content/60/rows/18/0/0/inlineContent/0"
+        "primaryContentSections/0/content/44/rows/1/2/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/1/3/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/2/2/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/2/3/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/3/2/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/3/3/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/4/2/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/4/3/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/5/2/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/5/3/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/6/2/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/6/3/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/7/2/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/7/3/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/8/3/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/9/3/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/10/3/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/11/3/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/12/3/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/13/3/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/14/3/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/15/3/0/inlineContent/0",
+        "primaryContentSections/0/content/44/rows/16/3/0/inlineContent/0"
+      ],
+      "appearance_variants": [
+        {
+          "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/table-availability-checkmark~dark@2x.png",
+          "binary_hash": "f67e491e50011d2f45443e2bc795394133e2894f3bd37df6b442f9c1daedbed2",
+          "status": "reviewed",
+          "reviewer": "independent-snapshot-reviewer",
+          "review_method": "Compared the dark @2x PNG side by side with the light one.",
+          "evidence": "The same checkmark in white for dark backgrounds; it adds no meaning.",
+          "reviewed_at": "2026-11-09T18:16:33+00:00"
+        }
       ]
+    },
+    "pointers-default.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "b9d7892f1c0733e6e6f1030a8fd6c75a0f6f6e2c0b20ea930627fe163c9ad0ec",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-default@2x.png",
+      "binary_hash": "70f913061589c9b601cff285c67c191630d5fbbc613bc974a3e0b9e160995688",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "A solid black arrow pointing up and to the left, the standard Arrow pointer that replaces the old pointers-arrow.png. The #Pointers table keeps its role (select and interact with content and controls; AppKit arrow, SwiftUI default). Rechecked after the author's fix to the guide (#macOS gestures and the frame-resize wording): this asset's lesson in the guide is unchanged.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/1/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-horizontal-i-beam.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "6a5027dd4c600ef3db57b0e17ab0ba7245d64271146758a22d0c8be19778057e",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-horizontal-i-beam@2x.png",
+      "binary_hash": "f4c09c63d48b4dac1fa06dafd02551febeb6da4486e3f69afbe3f1cbd1c5732d",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "A vertical beam of opposing braces, the I-beam for horizontal text (replaces pointers-horizontal-beam.png). The #Pointers table keeps its role (text selection and insertion in horizontal layout; AppKit iBeam, SwiftUI horizontalText). Rechecked after the author's fix to the guide (#macOS gestures and the frame-resize wording): this asset's lesson in the guide is unchanged.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/8/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-east.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "3b475a041919edb4c8a97be21f84a7af775e5b81e7e8fe4c1556d065028a8a1d",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-east@2x.png",
+      "binary_hash": "57d46c91fc9b41889505c99041e66489b9a032d07730a5bf7cf008cda3c35090",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "Two triangles along the horizontal axis; the right-pointing one is black and the opposite one gray, the one-way pointer for resizing only to the right. The #Pointers frame-resize row keeps the meaning (a one-way form allows movement in one direction only, for example at a minimum or maximum size; frameResize(position:directions:) in AppKit and SwiftUI). The author's new notes paragraph now states the black-allowed / gray-blocked convention and that the two-way form shows both triangles in black, matching this image; the old 'color change alone' rule is gone.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/13/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-east-west.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "70b7c687fb9462f23a7d97b104145f755d9307159fd268c19ed19ecb319cc8fe",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-east-west@2x.png",
+      "binary_hash": "08b7427b8bc08ea8a238045d82bfc6ff8ef27d38b91280eaebcf4116e6eb3a3f",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "Two black triangles pointing opposite ways along the horizontal axis, the two-way frame-resize pointer. The #Pointers frame-resize row keeps it (resize a window or frame by dragging the left or right edge in either direction; frameResize(position:directions:) in AppKit and SwiftUI). Rechecked after the author's fix to the guide (#macOS gestures and the frame-resize wording): this asset's lesson in the guide is unchanged. The author's new notes paragraph (two-way form shows both triangles in black) also matches this image.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/14/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-resize-north.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "4a3b396627c9a99ed9f52a67e69c8f984be00efe993169344546b3c71611b70c",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-resize-north@2x.png",
+      "binary_hash": "5d529b16be786a6323501b9f3c34adac97c51bd757c6f0ec9fd1f6801fcc8ea3",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "Two triangles along the vertical axis; the upward one is black and the opposite one gray, the one-way pointer for resizing only upward. The #Pointers frame-resize row keeps the meaning (a one-way form allows movement in one direction only, for example at a minimum or maximum size; frameResize(position:directions:) in AppKit and SwiftUI). The author's new notes paragraph now states the black-allowed / gray-blocked convention and that the two-way form shows both triangles in black, matching this image; the old 'color change alone' rule is gone.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/17/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-resize-north-south.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "777541bdadb6f5945fc8df49d32bf9feb7b5d332dba00311e704acb445279b0b",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-resize-north-south@2x.png",
+      "binary_hash": "50b14af410a7923c62299dda5c67dcc64a0b77c834877fd855d7eb10099abb03",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "Two black triangles pointing opposite ways along the vertical axis, the two-way frame-resize pointer. The #Pointers frame-resize row keeps it (resize a window or frame by dragging the top or bottom edge in either direction; frameResize(position:directions:) in AppKit and SwiftUI). Rechecked after the author's fix to the guide (#macOS gestures and the frame-resize wording): this asset's lesson in the guide is unchanged. The author's new notes paragraph (two-way form shows both triangles in black) also matches this image.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/18/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-northeast.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "f39d881e2b5711d53d8bd8cdd50766ddc15f06f834f3d797c390915e4b40e72b",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-northeast@2x.png",
+      "binary_hash": "9fddf48540d71bb86907b6e5b30ec4fec4b35503ccb0936ba7550ea59135b721",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "Two triangles along the bottom-left to top-right diagonal; the top-right one is black and the opposite one gray, the one-way pointer for resizing only toward the top right. The #Pointers frame-resize row keeps the meaning (a one-way form allows movement in one direction only, for example at a minimum or maximum size; frameResize(position:directions:) in AppKit and SwiftUI). The author's new notes paragraph now states the black-allowed / gray-blocked convention and that the two-way form shows both triangles in black, matching this image; the old 'color change alone' rule is gone.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/19/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-northeast-southwest.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "7e4a4d6c8c3f35d56aff6a32c24d1d3c248790902e9fe391462a62f68a66a9e9",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-northeast-southwest@2x.png",
+      "binary_hash": "2b1ef16e9428ca6bc600626a7ad6afd5efc8f678142748ed1c9d87f52955e95e",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "Two black triangles pointing opposite ways along the bottom-left to top-right diagonal, the two-way frame-resize pointer. The #Pointers frame-resize row keeps it (resize a window or frame by dragging the top-right or bottom-left corner in either direction; frameResize(position:directions:) in AppKit and SwiftUI). Rechecked after the author's fix to the guide (#macOS gestures and the frame-resize wording): this asset's lesson in the guide is unchanged. The author's new notes paragraph (two-way form shows both triangles in black) also matches this image.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/20/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-resize-northwest.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "750b7539e0c6729fda805744c83b1b2dbb10d886bcefe14a71a392c406ea5170",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-resize-northwest@2x.png",
+      "binary_hash": "b98ae4047fbaf9e57008c6cdb20d2196c11883868a5d78628363c4652c56f889",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "Two triangles along the top-left to bottom-right diagonal; the top-left one is black and the opposite one gray, the one-way pointer for resizing only toward the top left. The #Pointers frame-resize row keeps the meaning (a one-way form allows movement in one direction only, for example at a minimum or maximum size; frameResize(position:directions:) in AppKit and SwiftUI). The author's new notes paragraph now states the black-allowed / gray-blocked convention and that the two-way form shows both triangles in black, matching this image; the old 'color change alone' rule is gone.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/21/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-resize-northwest-southeast.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "15fc118ef14c39ea0c12dd6393d5163c89f0c63834173560078689726cfa0826",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-resize-northwest-southeast@2x.png",
+      "binary_hash": "7d321b11cea634f4e23eb9f36f31fd52acacfab09a9214dae611e9f1af425651",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "Two black triangles pointing opposite ways along the top-left to bottom-right diagonal, the two-way frame-resize pointer. The #Pointers frame-resize row keeps it (resize a window or frame by dragging the top-left or bottom-right corner in either direction; frameResize(position:directions:) in AppKit and SwiftUI). Rechecked after the author's fix to the guide (#macOS gestures and the frame-resize wording): this asset's lesson in the guide is unchanged. The author's new notes paragraph (two-way form shows both triangles in black) also matches this image.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/22/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-resize-south.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "946f54a2285123d8db9ba6418ccbca5067df368050ed7f096d13b79519f0efe8",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-resize-south@2x.png",
+      "binary_hash": "12a314defc5871f5aeadf3f5c75a809745c94c5a8b9d8be92fcf2930766a1b26",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "Two triangles along the vertical axis; the downward one is black and the opposite one gray, the one-way pointer for resizing only downward. The #Pointers frame-resize row keeps the meaning (a one-way form allows movement in one direction only, for example at a minimum or maximum size; frameResize(position:directions:) in AppKit and SwiftUI). The author's new notes paragraph now states the black-allowed / gray-blocked convention and that the two-way form shows both triangles in black, matching this image; the old 'color change alone' rule is gone.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/24/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-resize-southeast.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "ae06315724a9ec7e256e8631ae05a2576f773881ed112701ea5a1f05ac14226e",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-resize-southeast@2x.png",
+      "binary_hash": "f80ce575d8cfcfd8d2543b23db9788016720460d9eb5d8e360e4f124dd308d8c",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "Two triangles along the top-left to bottom-right diagonal; the bottom-right one is black and the opposite one gray, the one-way pointer for resizing only toward the bottom right. The #Pointers frame-resize row keeps the meaning (a one-way form allows movement in one direction only, for example at a minimum or maximum size; frameResize(position:directions:) in AppKit and SwiftUI). The author's new notes paragraph now states the black-allowed / gray-blocked convention and that the two-way form shows both triangles in black, matching this image; the old 'color change alone' rule is gone.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/25/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-southwest.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "a0ec7e1534efc747ced08e74296c7363a71c8f4c9fe498f516eb1663884776d6",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-southwest@2x.png",
+      "binary_hash": "3b1ba944903ca941294b4e7fa0462f6b8ebec87560ae880ef226d224b5aca653",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "Two triangles along the bottom-left to top-right diagonal; the bottom-left one is black and the opposite one gray, the one-way pointer for resizing only toward the bottom left. The #Pointers frame-resize row keeps the meaning (a one-way form allows movement in one direction only, for example at a minimum or maximum size; frameResize(position:directions:) in AppKit and SwiftUI). The author's new notes paragraph now states the black-allowed / gray-blocked convention and that the two-way form shows both triangles in black, matching this image; the old 'color change alone' rule is gone.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/26/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-west.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "a424ee5caae3878ed7363cd855cd50eecff43bf20018513e33ebe7b7fccf1d44",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-west@2x.png",
+      "binary_hash": "7d288cd66e356fd73207644d95ac1da0ae24b79cc5b3bfbecc7001209317b59c",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "Two triangles along the horizontal axis; the left-pointing one is black and the opposite one gray, the one-way pointer for resizing only to the left. The #Pointers frame-resize row keeps the meaning (a one-way form allows movement in one direction only, for example at a minimum or maximum size; frameResize(position:directions:) in AppKit and SwiftUI). The author's new notes paragraph now states the black-allowed / gray-blocked convention and that the two-way form shows both triangles in black, matching this image; the old 'color change alone' rule is gone.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/29/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-vertical-i-beam.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "4356a5cdb8d9bf9c38c041b2720b13ed5c0751d7ccde5fa3e4defeee882c9840",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-vertical-i-beam@2x.png",
+      "binary_hash": "dc74dcf01cbd7451b776d01d2104efde15b3237100ea7bd57ab94fed53918d58",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "A horizontal beam of opposing braces, the I-beam for vertical text (replaces pointers-vertical-beam.png). The #Pointers table keeps its role (text selection and insertion in vertical layout; AppKit iBeamCursorForVerticalLayout, SwiftUI verticalText). Rechecked after the author's fix to the guide (#macOS gestures and the frame-resize wording): this asset's lesson in the guide is unchanged.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/30/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-zoom-in.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "e2201f7444a94fbbc02e1bb9fcba5610c0be3bb164ccd3a39754eee37671f99c",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-zoom-in@2x.png",
+      "binary_hash": "9c35b3d03a6750a859a60100d03cdd6e4289828573abd921833b20f52706412a",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "A magnifying glass with a plus sign in the lens. The #Pointers table keeps the new Zoom in pointer (magnify a canvas or object; zoomIn in AppKit and SwiftUI). Rechecked after the author's fix to the guide (#macOS gestures and the frame-resize wording): this asset's lesson in the guide is unchanged.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/31/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
+    },
+    "pointers-zoom-out.png": {
+      "status": "reviewed",
+      "reviewer": "independent-snapshot-reviewer",
+      "reviewed_at": "2026-11-09T18:16:33+00:00",
+      "reference_metadata_hash": "dadd17797ff15effad2486a2bdeda59d1817e7da3bcadc57d42b34c21990c7df",
+      "asset_url": "https://developer.apple.com/tutorials/images/com.apple.HIG/pointers-zoom-out@2x.png",
+      "binary_hash": "dde2855219ed7db092ff8e9fc3634a345e29a48842ebe35337b231b0653752ad",
+      "review_method": "Opened the downloaded @2x PNG from .cache/review-media (SHA-256 matches binary_hash) and compared it with Apple's alt text and the guide's #Pointers section.",
+      "classification": "guidance-bearing (standard macOS pointer appearance)",
+      "evidence": "A magnifying glass with a minus sign in the lens. The #Pointers table keeps the new Zoom out pointer (zoom out of a canvas or object; zoomOut in AppKit and SwiftUI). Rechecked after the author's fix to the guide (#macOS gestures and the frame-resize wording): this asset's lesson in the guide is unchanged.",
+      "destination": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+      "supporting_files": [
+        {
+          "path": "skills/apple-hig/subskills/apple-hig-inputs/references/pointing-devices.md",
+          "hash": "381bfa03841c47221cacc62aa85d1dc3aaca6bb4da692bc4b3e9166ae728a486"
+        }
+      ],
+      "reviewed_occurrence_ids": [
+        "primaryContentSections/0/content/47/rows/32/0/0/inlineContent/0"
+      ],
+      "appearance_variants": []
     }
   }
 }

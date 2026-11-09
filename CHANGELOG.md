@@ -17,6 +17,14 @@ names the Apple HIG source snapshot that it uses.
 
 ### Changed
 
+- New source snapshot 2026-11-09. Apple's update of 2026-10-28 changed six
+  articles: touch input on a Mac with a touch display (Designing for macOS,
+  Gestures, Pointing devices, Drag and drop, Designing for games) and app icon
+  formats (App icons). Pointing devices also lost "Pointer magnetism" and got
+  Liquid Glass content effects, a new macOS pointer table and touch support for
+  hidden controls. 20 other pages changed only outside their guidance.
+- `hig.py review-remap`, `review-scaffold` and `review-renew` carry reviews to a
+  new snapshot. Reviews of changed content stay drafts until a reviewer approves.
 - PyYAML is now a stated requirement for the checks. Without it, each check
   gives one clear error.
 - The marketplace entry now has a version.

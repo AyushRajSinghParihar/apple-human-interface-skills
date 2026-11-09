@@ -1,19 +1,19 @@
 {
   "topic": "designing-for-games",
-  "reviewer": "independent-operational-auditor",
-  "reviewed_at": "2026-10-25T18:44:46.184912+00:00",
+  "reviewer": "independent-snapshot-reviewer",
+  "reviewed_at": "2026-11-09T18:06:23+00:00",
   "status": "reviewed",
-  "source_hash": "0c42ac0a9e5a8f0b10a217b29e8796bab7292d44ffa1d32265b885ab89cbb7ee",
+  "source_hash": "79f38efdeeca3e06e6de3484a3fc11366caef6547824ddd035878f2f30110de7",
   "skill_hash": "84c44641c7da64f90d7429a08fff03fddf79394af6cf5e0f00950f4489571427",
-  "reference_hash": "feed7736b867947871db55afead07598f6727cf043b987a4177cc092726ffcb9",
+  "reference_hash": "086507baf3249895b252491a6fb34ba5facd3cb6519b5882cbcad9c2093016f3",
   "evidence": {
-    "decision": "Orders meaningful first play, playable teaching, default platform input and inclusive cues; preserves the documented 44 pt touch-size conflict conservatively.",
-    "artifact": "Delivers a revised first-play sequence and per-platform action/display contract or implementation within the game engine and identity.",
-    "transformation": "Puzzle port ships a playable world, teaches tile manipulation in context and supports touch/undo instead of waiting for all downloads and requiring a controller.",
-    "verification": "Fails unnecessary play gates, incomplete advertised-platform input and essential single-sense cues; measured downloads and controller tests are not invented.",
-    "applicability": "Retains watchOS controller exception, supported orientations and safe-area/readability constraints; social/progress/purchase services remain conditional.",
-    "handoffs": "Routes actual control mapping, player accommodations and selected social play to Game controls, Accessibility and Game Center.",
-    "distinctiveness": "First-install playability, platform action mapping and meaningful cue redundancy drive real game-production changes."
+    "decision": "Orders meaningful first play, playable teaching, each platform's default input and inclusive cues, and keeps the documented 44 pt touch-size conflict conservative; still accurate after the macOS touch addition, because the procedure maps core actions to each platform's normal input first.",
+    "artifact": "Delivers a revised first-play sequence and a per-platform action/display contract or implementation within the game engine and identity.",
+    "transformation": "The puzzle port ships a playable world, teaches tile manipulation in context and supports touch and undo instead of waiting for all downloads and requiring a controller; unchanged and still consistent with the guide.",
+    "verification": "Fails unnecessary play gates, incomplete input for an advertised platform and essential single-sense cues; measured downloads and controller tests are not invented.",
+    "applicability": "Keeps the watchOS controller exception, supported orientations and safe-area/readability limits; the guide's per-platform input table, now including touch as an additional macOS input, is the reference the procedure points to. Social, progress and purchase services stay conditional.",
+    "handoffs": "Routes control mapping, player accommodations and chosen social play to Game controls, Accessibility and Game Center.",
+    "distinctiveness": "First-install playability, platform action mapping and redundant critical cues drive real game-production changes."
   },
   "additional_references": []
 }

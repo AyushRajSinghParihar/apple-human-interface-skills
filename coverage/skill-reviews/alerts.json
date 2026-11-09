@@ -1,9 +1,9 @@
 {
   "topic": "alerts",
-  "reviewer": "primary-coordinator-independent-of-topic-author",
-  "reviewed_at": "2026-10-25T18:51:52.905031+00:00",
+  "reviewer": "deterministic-snapshot-diff",
+  "reviewed_at": "2026-11-09T17:51:31+00:00",
   "status": "reviewed",
-  "source_hash": "ae7311554792de01ebb602d3f331d64668a6cf465a56fce99d34f2a421c5030c",
+  "source_hash": "a4925b01c4839b98b2b9f468347a4e73c0255f7e0ab8ddc50893c9f242f30103",
   "skill_hash": "c0b1be0ed50ef6a20c224ea02e75050ba7c2f8b2ee75f868fc02f359386f7da5",
   "reference_hash": "07d6e735faf0d53c6b9b69184fbae8d668572ef0ee94ef2d25a70707e7b03242",
   "evidence": {
@@ -14,5 +14,6 @@
     "applicability": "Retains Cancel-not-default/no-default distinction, Done versus informational OK, platform accessory limits and separate native execution evidence.",
     "handoffs": "Uses action-sheets for alternatives, undo-and-redo for reversible work and modality for the surrounding exit contract.",
     "distinctiveness": "Alert-worthy urgency and deliberate-destruction exception guide concrete defaults and copy rather than reducing alerts to a generic confirmation checklist."
-  }
+  },
+  "renewal": "Deterministic renewal for source snapshot a4925b01c483 (previous ae7311554792): all 73 extracted units and 8 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies."
 }

@@ -2,11 +2,11 @@
   "review": {
     "slug": "windows",
     "status": "reviewed",
-    "source_hash": "c6862dd3e8b137d588ee882a5046a8f0057180447616e0b5ddcf90e1f2cb5af4",
+    "source_hash": "dd99b5d4328b7c5b27e5b260941ac4ae1c49a7a282abc6d84bad33cc8540a332",
     "destination_hash": "61b973e1483edb875c2fa534262a9473bfab836cbe580f3c0675d25c74cb7d69",
-    "reviewer": "cross-reviewer-a",
-    "reviewed_at": "2026-10-25T13:07:49.135206+00:00",
-    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "reviewer": "deterministic-snapshot-diff",
+    "reviewed_at": "2026-11-09T17:51:31+00:00",
+    "evidence": "Deterministic renewal for source snapshot dd99b5d4328b (previous c6862dd3e8b1): all 87 extracted units and 9 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies. Previous review: cross-reviewer-a at 2026-10-25T13:07:49.135206+00:00.",
     "sections": [
       {
         "source_anchor": "overview",
