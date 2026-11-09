@@ -1,0 +1,61 @@
+{
+  "case": "t04-mac-archive-alerts",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 46.3,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-alerts/SKILL.md",
+    "subskills/apple-hig-presentation/SKILL.md",
+    "subskills/apple-hig-presentation/references/alerts.md"
+  ],
+  "skill_commands": 3,
+  "usage": {
+    "input_tokens": 118851,
+    "cached_input_tokens": 82048,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 775,
+    "reasoning_output_tokens": 14
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The reply identifies all five listed problems and does not invent an unsupported high-severity issue.",
+        "The reply identifies all five described problems and does not invent an unsupported high-severity issue.",
+        "The reply identifies all five listed problems and does not invent an unsupported high-severity issue."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The deletion correction names the archive and irreversible consequence, includes specific Delete Archive and Cancel buttons, allows contextual default actions, and lists acceptance checks without claiming runtime testing.",
+        "The corrected deletion alert names the archive, states irreversibility, uses Delete Archive and Cancel, and includes acceptance checks without claiming testing or categorically forbidding a destructive default.",
+        "The corrected deletion alert names the archive, explains permanence, uses Delete Archive and Cancel, allows contextual default-action nuance, and lists acceptance checks without claiming runtime testing."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

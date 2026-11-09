@@ -1,0 +1,55 @@
+{
+  "case": "t07-finance-report-type",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 4925.0,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 74554,
+    "cached_input_tokens": 57088,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 938,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The specification replaces thin 9 pt body text, image headings, clipping values, shifting digits, and all-caps emphasis with readable type, scalable text headings, flexible layouts, tabular digits, and weight-based emphasis.",
+        "The specification provides readable body text, scalable live headings, layouts that preserve larger values, tabular digits, and sentence-case emphasis using weight and spacing.",
+        "The specification raises body size and weight, replaces image headings with scalable text, accommodates larger values, uses tabular digits, and replaces all-caps emphasis with semibold text."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It distinguishes iOS Dynamic Type from macOS system sizing and report enlargement, and presents acceptance checks without claiming to have performed tests or measurements.",
+        "It distinguishes iOS Dynamic Type from macOS system sizing and report enlargement, and presents acceptance checks without claiming testing or measurements.",
+        "It distinguishes iOS Dynamic Type from macOS system sizes and report enlargement, and presents acceptance checks without claiming to have performed testing."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

@@ -1,0 +1,72 @@
+{
+  "case": "h14-mac-touch-display",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 66.5,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-macos/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-macos.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-gestures/SKILL.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-pointing-devices/SKILL.md",
+    "subskills/apple-hig-inputs/SKILL.md",
+    "subskills/apple-hig-inputs/references/gestures.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-toolbars/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-selection-and-input/.topics/apple-hig-sliders/SKILL.md",
+    "subskills/apple-hig-selection-and-input/.topics/apple-hig-steppers/SKILL.md",
+    "subskills/apple-hig-selection-and-input/SKILL.md",
+    "subskills/apple-hig-selection-and-input/references/sliders.md",
+    "subskills/apple-hig-selection-and-input/references/steppers.md"
+  ],
+  "skill_commands": 6,
+  "usage": {
+    "input_tokens": 283102,
+    "cached_input_tokens": 242048,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1485,
+    "reasoning_output_tokens": 28
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The reply makes all five corrections, preserving the Mac layout and control sizes while enlarging hit targets and allowing temporary control expansion.",
+        "The answer preserves Mac control size, density, and layout, enlarges hit regions, recommends temporary expanding controls, and provides keyboard, pointer, and touch alternatives.",
+        "The answer preserves the consistent Mac layout and control density, enlarges hit regions, recommends temporarily expanding controls, provides keyboard and pointer access to Smart Erase, and supplies touch equivalents for pointer actions."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The reply says to preserve standard gestures and avoid system conflicts, and makes no unsupported claims of testing or measurements.",
+        "The answer says to preserve standard gestures and avoid system conflicts, and it makes no claim of having tested the interface or measured usability.",
+        "The answer recommends preserving standard gestures and avoiding system conflicts, and makes no unsupported claims of testing or measurements."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

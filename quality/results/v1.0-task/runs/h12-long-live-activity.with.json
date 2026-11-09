@@ -1,0 +1,69 @@
+{
+  "case": "h12-long-live-activity",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 39.9,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ios/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ios.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/buttons.md",
+    "subskills/apple-hig-system-experiences/.topics/apple-hig-live-activities/SKILL.md",
+    "subskills/apple-hig-system-experiences/SKILL.md",
+    "subskills/apple-hig-system-experiences/references/live-activities.md"
+  ],
+  "skill_commands": 5,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 96780,
+    "cached_input_tokens": 71040,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1219,
+    "reasoning_output_tokens": 31
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer makes all six corrections, including a short post-arrival summary capped by four-hour retention and 28-point or leading-only layouts for limited widths.",
+        "The answer makes all six corrections, including ending at arrival with a short summary and fitting limited-width content within a 28-point circle or using a leading-only form.",
+        "The answer makes all six corrections, including ending at arrival with a 20-minute summary and fitting limited-width content within a 28-point circle or using a leading-only form."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer focuses on immediately useful trip information, specifies start, update, and end conditions with verification checks, and explicitly states that native rendering and behavior remain untested.",
+        "The answer prioritizes useful trip information, specifies start, update, and end conditions with verification checks, and explicitly states that rendering and behavior remain untested.",
+        "The design focuses on immediately useful trip information, specifies start, update, and end conditions to verify, and explicitly states that rendering and behavior remain untested."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

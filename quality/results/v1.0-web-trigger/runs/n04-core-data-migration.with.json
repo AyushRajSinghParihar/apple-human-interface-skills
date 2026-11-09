@@ -1,0 +1,26 @@
+{
+  "case": "n04-core-data-migration",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 23.0,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 36711,
+    "cached_input_tokens": 23040,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 454,
+    "reasoning_output_tokens": 13
+  },
+  "stderr": "",
+  "graders": {
+    "skill-silent": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

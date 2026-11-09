@@ -1,0 +1,61 @@
+{
+  "case": "h15-visionos-alert",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 28.2,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-alerts/SKILL.md",
+    "subskills/apple-hig-presentation/SKILL.md",
+    "subskills/apple-hig-presentation/references/alerts.md"
+  ],
+  "skill_commands": 3,
+  "usage": {
+    "input_tokens": 95526,
+    "cached_input_tokens": 85760,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 536,
+    "reasoning_output_tokens": 14
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": false,
+    "skill-fired": true
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The reply specifies the required accessory dimensions, Shared Space attachment, Full Space placement, and Delete Album and Cancel buttons.",
+        "The answer specifies all four corrections, including the required dimensions, window attachment, Full Space placement, and Delete Album and Cancel labels.",
+        "The answer specifies the required accessory dimensions, Shared Space attachment, Full Space centering, and Delete Album and Cancel labels."
+      ]
+    },
+    "nuance": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "The reply instructs the app to explain deletion consequences but supplies no alert text explaining an actual consequence, such as who loses access.",
+        "The answer instructs the app to explain deletion consequences but does not provide alert text explaining an actual consequence, such as who loses access.",
+        "The answer asks for a consequence message but does not provide alert text explaining any consequence of deleting the shared album."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

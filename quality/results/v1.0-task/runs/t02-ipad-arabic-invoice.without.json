@@ -1,0 +1,57 @@
+{
+  "case": "t02-ipad-arabic-invoice",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 49.6,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 12935,
+    "cached_input_tokens": 11520,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1431,
+    "reasoning_output_tokens": 40
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The specification uses leading/trailing RTL layout, preserves identifier and numeric order, reflows text at 420 pt and 200%, adds text-based payment states, and ensures keyboard access to Add line while preserving quantities during resizing.",
+        "The specification uses leading/trailing RTL layout, preserves identifier and numeric order, reflows at 420 pt and 200% text, labels payment states, and ensures keyboard access to Add line while preserving quantities across resizing.",
+        "The specification uses leading/trailing RTL layout, preserves identifier and numeric order, reflows at 420 pt and 200% text, adds non-color payment labels, and ensures keyboard access to Add line while preserving quantities across resizing."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It distinguishes directional icons from nondirectional symbols and numeric content, checks Arabic at 420 pt and 200% together, and makes no claims of executed tests or unsupported measurements.",
+        "It distinguishes directional icons from digits and nondirectional symbols, checks Arabic at 420 pt with 200% text together, and makes no claims of executed tests or unsupported measurements.",
+        "It distinguishes directional icons from digits and nondirectional symbols, checks Arabic at 420 pt with 200% text together, and makes no claims of executed testing or unsupported measurements."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

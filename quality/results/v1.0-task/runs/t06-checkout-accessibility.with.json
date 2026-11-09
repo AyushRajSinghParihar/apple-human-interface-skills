@@ -1,0 +1,67 @@
+{
+  "case": "t06-checkout-accessibility",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 39.5,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-typography/SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md",
+    "subskills/apple-hig-foundations/references/typography.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md"
+  ],
+  "skill_commands": 3,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 82289,
+    "cached_input_tokens": 48640,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1237,
+    "reasoning_output_tokens": 32
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer identifies all five barriers and provides a specific correction for each.",
+        "The answer identifies all five barriers and provides a specific correction for each.",
+        "The answer identifies all five barriers and gives a specific correction for each, including Dynamic Type, non-color availability cues, a Pay label, an onscreen removal control, and visible failure text."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer proposes a relevant test plan, clearly marks missing evidence as unverified, and claims neither executed testing nor formal conformance.",
+        "The answer provides a proposed test plan, clearly marks unknowns as unverified, and claims neither executed tests nor measured values or formal conformance.",
+        "The answer provides a proposed test plan, explicitly marks missing evidence as unverified, and claims neither executed testing nor formal conformance."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

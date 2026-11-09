@@ -103,6 +103,12 @@ def _bindings(root, path, record):
                 add("/" + key, record, key, row[field], _actual(root, row[field]), record)
         if "source_hash" in page:
             add("/source_hash", record, "source_hash", "coverage/manifest.json#" + slug, page["source_hash"], record)
+    elif relative.startswith(("media-reviews/", "image-reviews/")) and "source_hash" in record:
+        # This hash only lets the checker merge the media records. Each media item keeps
+        # its own reference_metadata_hash binding, so a refresh here approves nothing.
+        page = sources.get(slug, {})
+        if "source_hash" in page:
+            add("/source_hash", record, "source_hash", "coverage/manifest.json#" + slug, page["source_hash"], None)
     elif relative.startswith("reviews/") and isinstance(record.get("review"), dict):
         review, page = record["review"], sources.get(slug, {})
         if "destination" in page:

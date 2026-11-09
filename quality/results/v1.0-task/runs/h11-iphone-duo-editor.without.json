@@ -1,0 +1,57 @@
+{
+  "case": "h11-iphone-duo-editor",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 41.2,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 222658,
+    "cached_input_tokens": 179200,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 763,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The reply makes all five corrections, including vertical system bars on the outer display and keeping side controls on the same physical side in right-to-left languages.",
+        "The reply makes all five corrections, including vertical system bars on the outer display and keeping side controls on the same physical side in right-to-left languages.",
+        "The reply makes all five corrections, including system side placement on the outer display and preserving the same physical side in right-to-left languages."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The reply preserves photo content and editing state across displays, recommends adaptive layouts and system components, and makes no claims of testing or unsupported measurements.",
+        "The reply preserves photo content and editing state across displays, recommends adaptive system layouts and reserved-region support, and makes no claims of testing or unprovided measurements.",
+        "The reply preserves photo content, editing state, and tools across displays, recommends adaptive system layouts and reserved-region support, and makes no claims of testing or unprovided measurements."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

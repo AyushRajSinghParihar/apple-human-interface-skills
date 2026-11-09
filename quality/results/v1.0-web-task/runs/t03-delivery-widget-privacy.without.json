@@ -1,0 +1,55 @@
+{
+  "case": "t03-delivery-widget-privacy",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 80.1,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 142619,
+    "cached_input_tokens": 79232,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1907,
+    "reasoning_output_tokens": 12
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer hides sensitive details on shared surfaces, uses system-managed widget updates and a delivery Live Activity, gives the inline accessory one tap target, and explicitly labels the 35-minute-old data as stale.",
+        "The answer hides sensitive details on shared surfaces, uses system-managed widget updates and a delivery Live Activity, gives the inline accessory one target, and labels the 35-minute-old data as stale.",
+        "The answer hides sensitive details on shared surfaces, uses system-managed widget updates and a delivery Live Activity, gives the inline accessory one tap target, and clearly labels the 35-minute-old data as stale."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer distinguishes planning widgets from active delivery tracking, clearly recommends the Smart Stack Live Activity over an optional complication for deliveries, uses text alongside color, and makes no unsupported testing or measurement claims.",
+        "It separates pickup summaries from active delivery tracking, compares watch complications with Smart Stack Live Activities and recommends each appropriately, uses text beyond color, and makes no unsupported testing claims.",
+        "The answer separates pickup summaries from active delivery tracking, recommends the Smart Stack Live Activity over an optional complication for delivery, uses textual status cues, and makes no unsupported testing or measurement claims."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

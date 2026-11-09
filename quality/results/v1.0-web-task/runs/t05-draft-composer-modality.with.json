@@ -1,0 +1,67 @@
+{
+  "case": "t05-draft-composer-modality",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 83.8,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ios.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ipados.md",
+    "subskills/apple-hig-patterns/SKILL.md",
+    "subskills/apple-hig-patterns/references/modality.md",
+    "subskills/apple-hig-patterns/references/settings.md",
+    "subskills/apple-hig-presentation/SKILL.md",
+    "subskills/apple-hig-presentation/references/alerts.md",
+    "subskills/apple-hig-presentation/references/sheets.md"
+  ],
+  "skill_commands": 4,
+  "usage": {
+    "input_tokens": 174500,
+    "cached_input_tokens": 149504,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1818,
+    "reasoning_output_tokens": 12
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The specification replaces stacked modals with internal navigation, adds a title and explicit exits, protects drafts on every exit, limits alerts to one, and separates attachment Back navigation from dismissal.",
+        "The specification replaces nested modals with internal navigation, adds a title and explicit exits, protects drafts across exit paths, limits alerts to one, and separates attachment Back navigation from dismissal.",
+        "The specification replaces nested modals with internal navigation, adds a title and explicit exits, protects drafts on every exit, limits overlays to one, and separates attachment Back navigation from dismissal."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It includes a before-and-after comparison and acceptance checks covering swipe, Close, Cancel, Done, Back, and upload errors, while explicitly stating that runtime checks were not executed.",
+        "It includes a before-and-after comparison and acceptance checks for swipe, Close, Done, Cancel, Back, and upload errors, while explicitly stating that runtime checks were not executed.",
+        "It includes a before-and-after comparison and acceptance checks for swipe, Close, Done, Cancel, Back, and upload errors, while explicitly stating that runtime checks were not executed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

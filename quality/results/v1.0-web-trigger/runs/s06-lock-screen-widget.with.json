@@ -1,0 +1,32 @@
+{
+  "case": "s06-lock-screen-widget",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 38.7,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-system-experiences/.topics/apple-hig-widgets/SKILL.md",
+    "subskills/apple-hig-system-experiences/SKILL.md",
+    "subskills/apple-hig-system-experiences/references/widgets.md"
+  ],
+  "skill_commands": 3,
+  "usage": {
+    "input_tokens": 78683,
+    "cached_input_tokens": 60288,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 604,
+    "reasoning_output_tokens": 18
+  },
+  "stderr": "",
+  "graders": {
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": true
+}

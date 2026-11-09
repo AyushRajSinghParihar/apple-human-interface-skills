@@ -1,0 +1,65 @@
+{
+  "case": "t10-windows-delete-dialog",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 39.4,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-macos/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-alerts/SKILL.md",
+    "subskills/apple-hig-presentation/SKILL.md",
+    "subskills/apple-hig-presentation/references/alerts.md"
+  ],
+  "skill_commands": 3,
+  "usage": {
+    "input_tokens": 97494,
+    "cached_input_tokens": 68864,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 922,
+    "reasoning_output_tokens": 18
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer names the project and irreversible consequences, uses Delete and Cancel, preserves Windows button order, and removes stacked dialogs.",
+        "The answer supplies project-specific irreversible-deletion copy, Delete/Cancel labels, native Windows button order, and guidance to remove stacked dialogs.",
+        "The answer provides project-specific irreversible-deletion copy, Delete and Cancel labels, native Windows button order, and guidance to eliminate stacked dialogs."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer reasonably recommends Cancel as the default, keeps Close and Escape safe, and explicitly states that runtime behavior remains untested.",
+        "It reasonably recommends Cancel as the default, preserves Escape and Close as safe exits, and explicitly states that runtime behavior remains untested.",
+        "It recommends Cancel as the default with a reason tied to irreversible bulk deletion, preserves Escape and Close as safe exits, and explicitly states that runtime behavior remains untested."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

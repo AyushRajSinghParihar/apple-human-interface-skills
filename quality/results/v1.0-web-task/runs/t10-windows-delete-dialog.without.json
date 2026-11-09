@@ -1,0 +1,55 @@
+{
+  "case": "t10-windows-delete-dialog",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 27.7,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 64348,
+    "cached_input_tokens": 49792,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 575,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer names the project and irreversible consequence, uses Delete project and Cancel labels, follows Windows button placement, and removes stacked dialogs.",
+        "The answer names the project and irreversible consequence, uses Delete project and Cancel labels, follows Windows button placement, and removes stacked dialogs.",
+        "The answer names the project and irreversible consequence, uses specific Delete project and Cancel labels, follows Windows button placement, and removes stacked dialogs."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It explains Cancel as the safe default for irreversible deletion, preserves Escape and Close as safe exits, and makes no unsupported testing claims.",
+        "It chooses Cancel as the safe default for irreversible deletion, preserves Escape and Close as safe exits, and makes no unsupported testing claims.",
+        "It chooses Cancel as the safe default for irreversible deletion, preserves Escape and Close as safe exits, and makes no unsupported testing or measurement claims."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

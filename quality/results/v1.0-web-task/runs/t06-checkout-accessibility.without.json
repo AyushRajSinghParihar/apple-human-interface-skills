@@ -1,0 +1,55 @@
+{
+  "case": "t06-checkout-accessibility",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 29.9,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 15363,
+    "cached_input_tokens": 6912,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 746,
+    "reasoning_output_tokens": 40
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer identifies all five barriers and provides a specific correction for each.",
+        "The answer identifies all five barriers and provides a specific correction for each.",
+        "The answer identifies all five barriers and provides a specific correction for each."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer provides a concrete test plan, clearly states the evidence limits, and makes no unsupported measurements, conformance claims, or claims of testing.",
+        "The answer provides a relevant test plan, clearly states the evidence limits, and makes no unsupported measurements, testing claims, or formal conformance claims.",
+        "The answer provides a relevant test plan, clearly states evidence limits, and claims neither formal conformance nor completed testing or unsupported measurements."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

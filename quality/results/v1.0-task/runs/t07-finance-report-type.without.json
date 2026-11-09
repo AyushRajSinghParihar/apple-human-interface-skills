@@ -1,0 +1,57 @@
+{
+  "case": "t07-finance-report-type",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 26.9,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 12851,
+    "cached_input_tokens": 4480,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 676,
+    "reasoning_output_tokens": 52
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The specification replaces thin 9 pt text and image headings, supports growing layouts, uses fixed-width digits, and replaces all-caps paragraphs with readable emphasis.",
+        "The specification replaces thin 9 pt body text, image headings, clipped values, shifting digits, and all-caps paragraphs with readable styles, scalable headings, flexible layouts, fixed-width digits, and weight-based emphasis.",
+        "The specification replaces thin 9 pt body text, image headings, clipping values, shifting digits, and all-caps paragraphs with readable styles, scalable headings, adaptive layouts, fixed-width digits, and weight-based emphasis."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It distinguishes iOS Dynamic Type from macOS text settings and report scaling, and proposes acceptance checks without claiming to have performed tests or measurements.",
+        "It distinguishes iOS Dynamic Type from macOS text settings and report scaling, and proposes acceptance checks without claiming to have performed testing or measurements.",
+        "It distinguishes iOS Dynamic Type from supported macOS settings and report scaling, and presents testing as acceptance checks without claiming any tests were performed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

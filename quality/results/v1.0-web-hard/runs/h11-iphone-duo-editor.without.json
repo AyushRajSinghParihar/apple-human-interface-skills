@@ -1,0 +1,55 @@
+{
+  "case": "h11-iphone-duo-editor",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 43.4,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 142538,
+    "cached_input_tokens": 96256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 856,
+    "reasoning_output_tokens": 29
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The reply corrects fixed layouts, calls for system vertical side bars outside, preserves their physical side in RTL, supplies toolbar titles and symbols, and avoids both reserved regions.",
+        "The reply corrects fixed widths, recommends system vertical side bars, preserves their physical side in RTL, supplies toolbar titles and symbols, and avoids hinge and camera reserved regions.",
+        "The reply makes all five corrections, including vertical system placement on the outer display and keeping side controls on the same physical side in RTL languages."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The reply preserves editing state across opening and closing, recommends standard adaptive system components, and makes no claims of performed testing or unprovided measurements.",
+        "The reply preserves editing state across opening and closing, recommends standard adaptive system containers, and makes no claims of performed testing or unsupported measurements.",
+        "It recommends standard adaptive system components and preserving editing state across opening and closing, without claiming to have run or tested the interface or reporting unsupported measurements."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

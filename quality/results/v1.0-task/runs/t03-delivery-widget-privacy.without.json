@@ -1,0 +1,57 @@
+{
+  "case": "t03-delivery-widget-privacy",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 73.8,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 250672,
+    "cached_input_tokens": 209408,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1785,
+    "reasoning_output_tokens": 32
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer hides sensitive information on shared surfaces, replaces per-second refresh with system-managed updates and a delivery Live Activity, specifies one inline tap target, and clearly marks the 35-minute-old data as stale.",
+        "The answer hides sensitive details on shared surfaces, uses system-managed widget updates and a bounded delivery Live Activity, gives the inline accessory one tap target, and explicitly labels the 35-minute-old data as stale.",
+        "The answer removes shared address and gate-code exposure, uses system-managed widget updates and a bounded delivery Live Activity, gives the inline accessory one tap target, and explicitly labels the 35-minute-old data as stale."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer distinguishes persistent summaries from bounded delivery tracking, recommends the Smart Stack Live Activity over an optional complication for delivery, uses text and symbols for status, and explicitly disclaims implementation or device validation.",
+        "It separates persistent summaries from active delivery tracking, compares watch complications with Smart Stack Live Activities and recommends the latter for delivery, uses text and symbols for status, and makes no unsupported testing or measurement claims.",
+        "It distinguishes persistent summaries from active delivery tracking, compares watch complications with Smart Stack Live Activities and recommends the latter for delivery, uses text and symbols for status, and makes no unsupported validation claims."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

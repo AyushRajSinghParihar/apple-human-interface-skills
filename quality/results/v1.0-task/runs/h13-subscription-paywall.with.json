@@ -1,0 +1,66 @@
+{
+  "case": "h13-subscription-paywall",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 30.1,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/buttons.md",
+    "subskills/apple-hig-technologies/.topics/apple-hig-apple-in-app-purchase/SKILL.md",
+    "subskills/apple-hig-technologies/SKILL.md",
+    "subskills/apple-hig-technologies/references/apple-in-app-purchase.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 72039,
+    "cached_input_tokens": 52864,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 807,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer makes all six corrections, including prominent annual billing, clear trial terms, restored access, subscriber routing, valid custom codes and redemption, and accessible system refunds.",
+        "The answer makes all six corrections, covering price prominence, trial terms, restored access, subscriber routing, valid custom codes and redemption, and accessible system refunds.",
+        "The answer makes all six corrections, including prominent annual billing, clear trial terms, restored access, subscriber paywall suppression, valid offer codes and redemption routes, and accessible system refunds."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It retains subscription name, period, price, Terms and Privacy links, invents no refund approval rules, and explicitly states that no runtime checks were performed.",
+        "It retains subscription name, period, price, Terms and Privacy links, invents no refund approval rules, and explicitly states that no runtime checks were performed.",
+        "It retains the subscription name, period, price, Terms and Privacy links, invents no refund approval rules, and explicitly states that no runtime checks were performed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

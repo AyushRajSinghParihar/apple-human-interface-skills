@@ -1,0 +1,63 @@
+{
+  "case": "h15-visionos-alert",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 20.3,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-alerts/SKILL.md",
+    "subskills/apple-hig-presentation/SKILL.md",
+    "subskills/apple-hig-presentation/references/alerts.md"
+  ],
+  "skill_commands": 3,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 64466,
+    "cached_input_tokens": 50304,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 475,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": false,
+    "skill-fired": true
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer gives all four required corrections, including the exact dimensions, placement, attachment, and button labels.",
+        "The answer specifies the required dimensions, window attachment, Full Space placement, and Cancel and Delete Album labels.",
+        "The answer includes all four corrections with the required dimensions, placement, attachment behavior, and button labels."
+      ]
+    },
+    "nuance": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "Although Cancel remains available and no testing is claimed, the answer instructs the app to explain consequences without actually specifying a deletion consequence in the alert text.",
+        "The answer instructs the app to describe consequences but does not provide alert text explaining an actual consequence of deleting the shared album.",
+        "The answer retains Cancel but gives instructions to describe consequences instead of supplying alert text that explains a consequence of deletion."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

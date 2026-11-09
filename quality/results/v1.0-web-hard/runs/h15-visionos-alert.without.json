@@ -1,0 +1,55 @@
+{
+  "case": "h15-visionos-alert",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 17.7,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "usage": {
+    "input_tokens": 65459,
+    "cached_input_tokens": 43136,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 361,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": false,
+    "skill-fired": false
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The reply includes all four corrections with the required dimensions, placement, attachment, and button labels.",
+        "The answer specifies the required accessory dimensions, window-attached Shared Space placement, centered Full Space placement, and Delete Album and Cancel buttons.",
+        "The answer specifies all four corrections, including the exact accessory dimensions, window attachment, centered Full Space placement, and Delete Album and Cancel labels."
+      ]
+    },
+    "nuance": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "Although Cancel remains available, the reply instructs the designer to explain consequences instead of supplying alert text that explains an actual consequence of deleting the shared album.",
+        "The answer instructs the designer to explain deletion consequences but does not supply alert text explaining an actual consequence, such as who loses access.",
+        "The answer instructs the designer to explain consequences but does not provide alert text explaining an actual consequence of deleting the shared album."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

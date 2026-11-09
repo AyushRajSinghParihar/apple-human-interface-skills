@@ -137,6 +137,25 @@ class ApprovalTests(unittest.TestCase):
         fields = {issue["field"] for issue in approvals.stale(self.root)}
         self.assertEqual(fields, {"/family_hashes/presentation", "/topic_index_hash"})
 
+    def test_new_source_snapshot_drafts_reviews_and_refreshes_media_gates(self):
+        write_json(self.root / "coverage/media-reviews/alerts.json", {
+            "source_hash": "source-alerts",
+            "media": {"v1": {"status": "reviewed", "reviewer": "auditor", "evidence": "Watched the video."}}})
+        manifest = self.record("coverage/manifest.json")
+        manifest["pages"][0]["source_hash"] = "source-alerts-v2"
+        write_json(self.root / "coverage/manifest.json", manifest)
+        stale = {(i["record"], i["field"]) for i in approvals.stale(self.root)}
+        self.assertEqual(stale, {("coverage/skill-reviews/alerts.json", "/source_hash"),
+                                 ("coverage/reviews/alerts.json", "/review/source_hash"),
+                                 ("coverage/media-reviews/alerts.json", "/source_hash")})
+        self.assertEqual(approvals.draft(self.root, "coverage/media-reviews/alerts.json"), ["/source_hash"])
+        media = self.record("coverage/media-reviews/alerts.json")
+        self.assertEqual(media["media"]["v1"]["status"], "reviewed")
+        approvals.draft(self.root, "coverage/reviews/alerts.json")
+        self.assertEqual(self.record("coverage/reviews/alerts.json")["review"]["status"], "draft")
+        self.assertEqual(approvals.marker_errors(self.root), ["coverage/reviews/alerts.json: unfinished re-review marker TODO(re-review)",
+                                                              "coverage/reviews/alerts.json: draft review awaits approval"])
+
     def test_a_missing_bound_file_cannot_be_drafted(self):
         self.reference.unlink()
         with self.assertRaisesRegex(ValueError, "missing"):

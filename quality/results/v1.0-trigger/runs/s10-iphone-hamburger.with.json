@@ -1,0 +1,36 @@
+{
+  "case": "s10-iphone-hamburger",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 19.6,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-navigation-and-search/.topics/apple-hig-sidebars/SKILL.md",
+    "subskills/apple-hig-navigation-and-search/.topics/apple-hig-tab-bars/SKILL.md",
+    "subskills/apple-hig-navigation-and-search/SKILL.md",
+    "subskills/apple-hig-navigation-and-search/references/sidebars.md",
+    "subskills/apple-hig-navigation-and-search/references/tab-bars.md"
+  ],
+  "skill_commands": 3,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 64764,
+    "cached_input_tokens": 43136,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 436,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": true
+}

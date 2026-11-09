@@ -1,0 +1,57 @@
+{
+  "case": "h13-subscription-paywall",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 17.3,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 12914,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 493,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": false,
+    "skill-fired": false
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer makes corrections 1, 2, 3, 4, and 6, meeting the five-correction threshold despite incorrectly endorsing redemption through App Store account settings.",
+        "The answer makes five corrections covering price prominence, trial terms, existing-purchaser access, subscriber paywall suppression, and accessible system refund requests, although it incorrectly endorses account-settings redemption.",
+        "The answer makes corrections 1, 2, 3, 4, and 6, although it incorrectly says custom codes support redemption through App Store account settings."
+      ]
+    },
+    "nuance": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "The answer includes the subscription period, price, Terms and Privacy links, but omits the required subscription name.",
+        "The answer retains the subscription period, price, Terms and Privacy links, but omits the required subscription name.",
+        "The answer includes the subscription period, price, Terms and Privacy links, but omits the required subscription name."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

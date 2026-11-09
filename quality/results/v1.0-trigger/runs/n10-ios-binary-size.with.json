@@ -1,0 +1,31 @@
+{
+  "case": "n10-ios-binary-size",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 21.2,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md"
+  ],
+  "skill_commands": 2,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 45908,
+    "cached_input_tokens": 20096,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 548,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "skill-silent": false
+  },
+  "score": 0.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

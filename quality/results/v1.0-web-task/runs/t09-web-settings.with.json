@@ -1,0 +1,73 @@
+{
+  "case": "t09-web-settings",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 5203.6,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-sf-symbols/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-typography/SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md",
+    "subskills/apple-hig-foundations/references/sf-symbols.md",
+    "subskills/apple-hig-foundations/references/typography.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-settings/SKILL.md",
+    "subskills/apple-hig-patterns/SKILL.md",
+    "subskills/apple-hig-patterns/references/settings.md",
+    "subskills/apple-hig-selection-and-input/.topics/apple-hig-text-fields/SKILL.md",
+    "subskills/apple-hig-selection-and-input/.topics/apple-hig-toggles/SKILL.md",
+    "subskills/apple-hig-selection-and-input/SKILL.md",
+    "subskills/apple-hig-selection-and-input/references/text-fields.md",
+    "subskills/apple-hig-selection-and-input/references/toggles.md"
+  ],
+  "skill_commands": 5,
+  "usage": {
+    "input_tokens": 239848,
+    "cached_input_tokens": 196224,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1781,
+    "reasoning_output_tokens": 24
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer covers labelled groups and hierarchy, persistent labels, immediate saving or unsaved-change warnings, accessible native toggles, and alternatives to bundling Apple\u2019s fonts and symbols.",
+        "The answer addresses all five requirements with labelled sections, persistent labels, safe saving behavior, accessible native toggles, and alternatives to bundling Apple\u2019s fonts and symbols.",
+        "The answer addresses all five requirements with labelled groups, persistent labels, safe saving, accessible native toggles, and alternatives to bundling Apple\u2019s font and symbol files."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer applies Apple\u2019s principles through web semantics, keyboard access, and browser-aware behavior while explicitly stating that no runtime checks were executed.",
+        "The answer applies web semantics, keyboard focus, accessibility standards, and browser behavior while explicitly stating that no runtime checks were executed.",
+        "The answer applies Apple\u2019s principles through web semantics, keyboard support, and browser behavior while explicitly stating that no runtime checks were performed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": false
+}

@@ -1,0 +1,75 @@
+{
+  "case": "h14-mac-touch-display",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 39.8,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-macos/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-macos.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-gestures/SKILL.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-pointing-devices/SKILL.md",
+    "subskills/apple-hig-inputs/SKILL.md",
+    "subskills/apple-hig-inputs/references/gestures.md",
+    "subskills/apple-hig-inputs/references/pointing-devices.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-toolbars/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-selection-and-input/.topics/apple-hig-sliders/SKILL.md",
+    "subskills/apple-hig-selection-and-input/.topics/apple-hig-steppers/SKILL.md",
+    "subskills/apple-hig-selection-and-input/SKILL.md",
+    "subskills/apple-hig-selection-and-input/references/sliders.md",
+    "subskills/apple-hig-selection-and-input/references/steppers.md"
+  ],
+  "skill_commands": 6,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 102439,
+    "cached_input_tokens": 65664,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1109,
+    "reasoning_output_tokens": 24
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": false,
+    "skill-fired": true
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer preserves control sizes, density, and layout, enlarges hit areas, gives Smart Erase a tool and menu command, and provides touch equivalents for modifier and hover actions.",
+        "The reply preserves control sizes, density, and layout, enlarges hit areas, provides Smart Erase through a tool and menu command, and supplies touch equivalents for modifier and hover actions.",
+        "The answer preserves control size, density, and layout, enlarges hit targets, gives Smart Erase menu and pointer access, and provides touch equivalents for modifier and hover actions."
+      ]
+    },
+    "nuance": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "Although it warns against conflicts with standard gestures, it does not explicitly preserve familiar gestures or require custom gestures to work with both touch and trackpad.",
+        "The reply warns against gesture conflicts but does not mention preserving familiar gestures or making custom gestures work with both touch and trackpad.",
+        "It advises avoiding gesture conflicts but does not mention preserving familiar gestures or making custom gestures work with both touch and trackpad."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

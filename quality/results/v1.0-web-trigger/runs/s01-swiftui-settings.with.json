@@ -1,0 +1,43 @@
+{
+  "case": "s01-swiftui-settings",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 40.4,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-typography/SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/references/typography.md",
+    "subskills/apple-hig-layout-and-organization/.topics/apple-hig-lists-and-tables/SKILL.md",
+    "subskills/apple-hig-layout-and-organization/SKILL.md",
+    "subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-toolbars/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/buttons.md",
+    "subskills/apple-hig-menus-and-actions/references/toolbars.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-settings/SKILL.md",
+    "subskills/apple-hig-patterns/SKILL.md",
+    "subskills/apple-hig-patterns/references/settings.md"
+  ],
+  "skill_commands": 5,
+  "usage": {
+    "input_tokens": 119177,
+    "cached_input_tokens": 100992,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1060,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "expect_fire": true
+}

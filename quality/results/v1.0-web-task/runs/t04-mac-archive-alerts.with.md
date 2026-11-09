@@ -1,0 +1,12 @@
+The highest risk is the deletion confirmation: it conceals irreversible loss. These findings are verified from your description; the ranking is my assessment of impact.
+
+| Rank | Verified problem and effect | Corrected behavior |
+|---|---|---|
+| **1 — High** | **Deletion has meaningless copy and ambiguous actions.** “Error,” “Something happened,” and Yes/No don’t explain what will be deleted or that recovery is impossible. | Title: **Delete Archive?** Body: **The archive “[name]” will be permanently deleted. This action cannot be undone.** Buttons: **Cancel** and **Delete Archive**. Cancel preserves the archive; Delete Archive performs the deletion. |
+| **2 — High** | **Sync failure stacks another alert.** Competing modal decisions obscure context and complicate dismissal. | Keep one alert active. Record the sync failure and show contextual sync status. If it requires immediate attention, present one actionable alert after the current alert closes; consolidate repeated failures. |
+| **3 — Medium** | **Every successful save interrupts work.** Routine success doesn’t require an urgent decision and encourages habitual dismissal. | Save without an alert. If feedback is useful, show a quiet **Saved** status near the document or archive. |
+| **4 — Lower** | **Cancel is the default on a completed-save alert.** It implies the completed operation can still be canceled and gives Return an inappropriate action. | Remove the alert as above. If a completion acknowledgment is exceptionally necessary, use **Done** as its single default button. |
+
+For the deletion alert, place **Cancel** before **Delete Archive** in the Mac button row. Because deletion is irreversible, **no default button** is a reasonable choice to require deliberate selection; Cancel should not be the default. If this confirms an explicitly requested deletion, Apple also permits a normal default deletion action so Return confirms intent—destruction alone doesn’t mandate a red button or a Cancel default.
+
+These corrections follow [Apple’s Alerts guidance](https://developer.apple.com/design/human-interface-guidelines/alerts), using the installed HIG reference snapshot. **Runtime checks were not executed:** Return, Escape/Command-Period, actual cancellation and deletion outcomes, focus, accessibility, and repeated-error handling still need verification in a build.

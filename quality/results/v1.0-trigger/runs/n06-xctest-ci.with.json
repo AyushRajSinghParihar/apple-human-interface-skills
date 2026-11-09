@@ -1,0 +1,28 @@
+{
+  "case": "n06-xctest-ci",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 17.5,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 49671,
+    "cached_input_tokens": 31488,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 407,
+    "reasoning_output_tokens": 9
+  },
+  "stderr": "",
+  "graders": {
+    "skill-silent": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}
