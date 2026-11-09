@@ -7,3 +7,7 @@ __pycache__/
 # The stopped behavior study lives on the evidence branch (coverage/behavior-archive.json).
 /coverage/behavior/
 /coverage/grading/
+
+# Claude Code eval output: keep only aggregate-result.json and SUMMARY.md.
+/quality/results/**/report.html
+/quality/results/**/mock-recordings/
