@@ -1,0 +1,45 @@
+# iPad annotation text-editing specification
+
+Platform: iPadOS. Retain the custom annotation view; integrate the system edit menu for annotation text. This is a revised behavior specification, not an SDK implementation. No framework or deployment target is supplied.
+
+## Scope and presentation
+
+Use standard selection and edit-menu activation gestures. Touch presents the system horizontal edit menu; keyboard/pointer activation uses the system vertical presentation. Preserve system menu shape and pointing indicator. Anchor to the selected range or insertion point; adjust placement only as needed to avoid essential content. Do not duplicate standard editing actions in a bespoke menu.
+
+Remove Rename Account and hidden Delete All from this text-editing menu. Account naming and bulk deletion have different scopes and are outside this repair; neither may be invoked by a text command. Do not silently reinterpret Delete All as selection deletion. Add no custom commands in this revision.
+
+## Selection and command target
+
+Maintain annotation identity, text revision, selected range or insertion point, and editability independently of menu focus. Opening, navigating, dismissing, or cancelling the menu must not clear or move the selection. Keep the selected range visibly identified while the menu has focus, and return editing focus to that range on dismissal. Opening a menu over an existing selection operates on that selection; an intentional selection gesture may establish a new range before opening it.
+
+A command targets only the active annotation and its validated range, never the whole document or account. Revalidate target identity, revision, editability, and command eligibility at invocation and before committing any asynchronous result. If the annotation disappears, its revision changes, or the selection changes while work is pending, cancel the pending mutation rather than apply it to a guessed range. Keep any still-valid current selection. Do not move focus to another annotation automatically.
+
+## Command contract
+
+Unavailable actions are omitted from the edit menu. Every alternate invocation must use the same eligibility rules and refuse stale or unavailable actions without mutation.
+
+| Command | Eligibility | Successful result |
+| --- | --- | --- |
+| Copy | Nonempty selected text, including useful read-only text | Write selected text to the pasteboard; leave text and selection unchanged. |
+| Cut | Nonempty selected text in an editable annotation | Successfully copy the selected text first, then remove precisely that range as one undoable edit; collapse the insertion point at the removed range's start. |
+| Paste | Editable annotation with a valid insertion point/range and compatible usable paste content | Insert at the caret or replace only the selection; leave the caret immediately after the inserted text. One undoable edit. |
+| Delete | Nonempty selected text in an editable annotation | Remove only the selection without writing to the pasteboard; collapse the caret at its start. One undoable edit. |
+| Select All | Active annotation contains text and is not already fully selected | Select all text in this annotation only; do not modify text or history. |
+
+Product format decision: this repair accepts nonempty plain text, including a usable plain-text representation supplied with rich text. It does not paste images, files, or rich formatting. Empty data, unsupported-only representations, and unreadable content do not qualify. Use platform-supported eligibility mechanisms; do not read clipboard payloads merely to open the menu. If compatibility cannot yet be established, omit Paste until it can. Recheck and decode content on invocation; a pasteboard change or read failure must leave text and selection intact. Select a supported text representation deterministically and insert it once.
+
+With an empty selection, omit Copy, Cut, and Delete. Paste may remain available at a valid caret. In read-only text, allow selection, Copy, and Select All, but omit Cut, Paste, and Delete. Ordinary control labels remain unselectable. A failed Copy leaves the document unchanged. A failed Cut transfer never removes text. If copying succeeds but target validation or removal fails, retain document text; the pasteboard may contain the copied text. Never claim the document was cut in that case. Failed operations add no undo entry. Preserve the selection and provide a concise failure message, such as “Couldn’t cut text. Your text is unchanged.”
+
+## Recovery and history
+
+Prefer undo/redo to confirmation for these ordinary edits. Cut, Paste (including replacement), and Delete each record one atomic inverse containing the annotation identity, previous text, and selection. Undo restores the exact prior text and selection; Redo restores the successful edit and resulting caret. Neither Undo nor Redo rewrites the pasteboard. Copy, selection movement, and menu presentation create no history entries.
+
+Preserve standard iPadOS undo/redo interactions, including three-finger gestures, without intercepting them for annotation gestures. Describe the operation with precise names such as Cut Text, Paste Text, and Delete Text; let the system supply its own Undo/Redo prefix where applicable. Reveal restored offscreen text with minimal scrolling. A new successful edit after Undo clears the redo branch. Retain meaningful history for the open document across saves; closing ends this session's history. Do not impose an arbitrary shallow limit that loses the meaningful edit sequence.
+
+## Verification contract
+
+The acceptance scenarios and their execution status are recorded in result.md. Native rendering, input, pasteboard integration, and recovery must be verified in an implemented iPad app before claiming runtime compliance.
+
+## Guidance basis
+
+System menu, command relevance, Cut/Delete distinction, and iPad presentation follow [Edit menus](https://developer.apple.com/design/human-interface-guidelines/edit-menus#Best-practices). Selection remains independent of transient focus, consistent with [Focus and selection](https://developer.apple.com/design/human-interface-guidelines/focus-and-selection#Best-practices). Useful read-only text remains copyable per [Text views](https://developer.apple.com/design/human-interface-guidelines/text-views#Best-practices). Recovery, meaningful history, operation naming, and revealing restored content follow [Undo and redo](https://developer.apple.com/design/human-interface-guidelines/undo-and-redo#Best-practices). Clipboard formats, failure atomicity, stale-target cancellation, exact selection restoration, and session history boundaries are concrete product decisions supporting those principles, not quoted HIG API guarantees.

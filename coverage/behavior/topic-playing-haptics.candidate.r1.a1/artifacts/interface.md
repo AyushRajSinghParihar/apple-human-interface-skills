@@ -1,0 +1,45 @@
+# iPhone private journal — feedback specification
+
+Platform: iOS on iPhone; requested haptics may be unavailable. This is an interaction specification, independent of framework. Hardware capability and API availability must be verified during implementation.
+
+## Feedback contract
+
+Haptics supplement persistent, accessible status; they never carry essential information alone. Remove the app-generated heavy impact from every keystroke. Typing, cursor movement, autosave, and background upload retries produce no app haptic. Leave system keyboard feedback under system control. Ordinary typing has no collision or weight metaphor that warrants heavy impact.
+
+Use brief standard notification outcomes, preserving their meanings: Success for confirmed completion and Error for a failed user-requested upload. Do not substitute impact or selection feedback for an upload outcome. No custom waveform, continuous vibration, or added sound is required for this quiet journaling flow.
+
+## Entry and upload states
+
+Keep local persistence and remote upload as separate state dimensions. A local save must never be presented as remote completion. Preserve the editor contents and position throughout upload and recovery. The following copy assumes a locally persisted entry; show “Saved on this iPhone” only after a successful local write. If local persistence fails, retain the draft in the editor, show “Couldn’t save on this iPhone. Keep this entry open and try again,” and offer Retry save; do not claim the draft is safely stored.
+
+| Event / truth source | Visible, persistent status near the entry | App haptic | Next step |
+|---|---|---|---|
+| Keystroke / editor value changes | Entry text changes; local status changes only when persistence resolves | None | Continue editing |
+| Local write confirmed | “Saved on this iPhone” | None | Continue editing or request upload |
+| User requests upload of a locally saved revision | “Uploading…” | None | Keep editing; prevent duplicate upload requests for that revision |
+| Server confirms that exact revision was stored | “Uploaded” for that revision | One standard Success, subject to eligibility below | Continue journaling |
+| Upload rejected or fails | “Couldn’t upload. Saved on this iPhone.” plus a safe actionable reason when known, such as “Check your connection and retry.” | One standard Error, subject to eligibility below | Labeled Retry action uploads the retained revision |
+| Retry requested | “Uploading…”; remove stale error copy | None | Resolve to confirmed success or failure |
+| Background upload completes or fails | Same truthful status, available when the entry is next viewed | None | Retry remains available after failure |
+
+If the editor changes while an older revision uploads, a confirmation applies only to that older revision: show “Earlier version uploaded. Current changes saved on this iPhone” once the current local write succeeds. Never mark current changes Uploaded without their own server confirmation. Ignore duplicate and superseded callbacks. After interruption, reconstruct status from local persistence and confirmed upload records; unresolved uploads remain unconfirmed. Do not replay old haptics on return to the app.
+
+Failure status stays until retry or confirmed resolution; it is not a timed toast or a blocking alert. Successful state remains available until a subsequent edit or upload changes it. Local save failure takes priority over a remote-status message and retains any relevant upload details in the entry status.
+
+## Haptic eligibility and timing
+
+At each outcome, emit at most one cue only if all are true: it belongs to an explicit upload/retry, the app is active and that entry is visible, app Haptic feedback is on, and the selected system haptic path is available and permitted. Pair the cue with the same state update that presents the outcome; never emit success on button press. Treat unsupported or suppressed playback as a normal no-op. Do not delay text, queue cues, replay missed cues, or retry playback to compensate. When rapid outcomes would overlap, suppress the additional cue while keeping every relevant status update truthful.
+
+Use the platform's supported standard feedback path rather than assuming a particular actuator exists. Do not add a second app cue on top of native control feedback for the same event. Verify exact APIs and availability against the chosen SDK before implementation.
+
+## Preferences, sensory access, and privacy
+
+The app's existing Haptic feedback preference controls only app tactile output. Persist it locally and apply changes immediately, including to pending outcomes; turning it off does not remove status, confirmations, Retry, or saved content. Honor system suppression without attempting to bypass it. An unavailable device uses the identical flow with zero app haptics.
+
+Expose status as accessible text, without depending on color or vibration. Keep the status and Retry action reachable through the platform's accessibility system; Retry has its visible name and button semantics. Status must remain readable with enlarged text, including at least 200%, without hiding recovery. Do not move focus away from the editor on routine status changes. Runtime assistive-technology behavior requires verification.
+
+Keep outcome copy generic: never include journal text, entry titles, or server responses containing private content in feedback. This change introduces no content telemetry, permission requests, or new transfers. Upload is the existing feature, not a consequence of enabling haptics. Local retention and server confirmation are required product contracts, not evidence of encryption, consent, or security in an existing implementation.
+
+## Guidance basis
+
+Apple recommends avoiding haptic overuse, keeping functionality with haptics disabled, synchronizing cues, and preserving standard iOS pattern meanings: [Playing haptics — Best practices and iOS](https://developer.apple.com/design/human-interface-guidelines/playing-haptics). Complementary channels, contextual status, and actionable recovery follow [Feedback — Best practices](https://developer.apple.com/design/human-interface-guidelines/feedback). Sensory alternatives and readable, operable recovery follow [Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility). Limiting data use follows [Privacy — Best practices](https://developer.apple.com/design/human-interface-guidelines/privacy). These links identify the official articles; decisions here use only the installed local snapshots. Exact copy, quiet defaults, revision handling, and cue suppression policy are product decisions.

@@ -1,0 +1,1 @@
+Platforms: iOS and tvOS. Current spec assumes every user has the same controller, labels every button A even when symbols differ and gives no touch alternative or remapping guidance. Disconnection continues the game into a loss.

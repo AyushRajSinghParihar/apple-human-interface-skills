@@ -1,0 +1,1 @@
+Platform: iOS with supported identity-verification capability not yet confirmed. Proposal stores full identity images forever, displays unnecessary address/birth details to staff and shows approval before a response arrives. Verification may be declined or fail.

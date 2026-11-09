@@ -1,0 +1,1 @@
+Platform: iOS. Email keyboard autocorrects addresses, password is visible by default, placeholder is the only label and an invalid invitation deletes every entered value. Return key does nothing and no errors are associated with fields.

@@ -1,0 +1,1 @@
+Platform: tvOS. Six-digit code accepts only swipe gestures, shows no focused digit, discards all digits on one mistake and gives the error Invalid with no path to retry or obtain a new code.

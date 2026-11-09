@@ -1,0 +1,1 @@
+Platform: iOS/macOS. Marketing supplied a screenshot with tiny tagline text, simulated platform corner mask, baked-in drop shadow and a seasonal badge occupying half the mark. No final artwork exists.

@@ -1,0 +1,50 @@
+# Mac multi-file encoder: revised progress contract
+
+Platform: macOS. This is an implementable interface and worker contract; no framework is prescribed. Source files are read-only inputs. Encoding runs asynchronously outside the UI event loop, with independently cancellable workers so one blocked file cannot block window interaction or other schedulable files.
+
+## Progress meaning and placement
+
+Keep one horizontal system progress bar in a stable status area above the file queue. Use the same bar geometry across indeterminate and determinate states. Never seed, animate toward, or infer a percentage from elapsed time. Do not present a whole-job percentage or ETA: the brief establishes byte totals, but does not establish total scanning, encoding, validation, and output-commit duration.
+
+The determinate value is specifically **Encoding input processed**, not time remaining, output bytes, or whole-job completion. After scanning, freeze a manifest with file identity, size, and output destination. Let B be the sum of input sizes; let p_i be unique input bytes actually acknowledged as processed by the encoder for file i, bounded by its scanned size. Show floor(100 × sum(p_i) / B), plus processed/total bytes and completed/total file counts. Repeated reads, retries, and buffering must not double count. If the encoder cannot supply this measurement, remain indeterminate with “Encoding files…”; do not substitute bytes merely read or queued.
+
+Byte weighting is a product choice: large and small files do not count equally, and bytes do not predict equal processing time. Label this explicitly. File completion requires successful output validation and commit, independently of byte progress.
+
+## States and transitions
+
+| State | Visible feedback | Transition and actions |
+| --- | --- | --- |
+| Ready | Selected file queue; no progress indicator | Encode starts one job and immediately disables duplicate starts. |
+| Scanning | Indeterminate bar; “Scanning files…” and discovered count; no percentage or ETA | Build manifest asynchronously. Cancel remains available. Show discovered files progressively. Scan errors remain visible with Retry Scan or Skip File; unresolved errors prevent encoding. |
+| Encoding | Determinate bar only with valid measurements; “Encoding input processed: 40% · 400 MB of 1 GB”; file rows show Queued, Encoding, Finalizing, Completed, Failed, or Skipped | Freeze denominator before starting. Independent file workers may proceed despite a stalled peer. A file reaches Completed only after validated output is committed. |
+| Finalizing | Same bar becomes indeterminate; “Finalizing outputs… · 3 of 4 files completed” | When all input bytes are processed but output work remains, replace the percentage immediately. Do not leave a 100% job-completion signal onscreen. Continue per-file validation/commit and allow cancellation. |
+| Pausing / Paused | “Pausing…” until acknowledgments, then stationary progress with “Paused” | Pause stops scheduling; workers checkpoint or stop at a recoverable boundary. Resume continues from acknowledged checkpoints, or restarts the unfinished file as disclosed below. |
+| Cancelling / Cancelled | “Cancelling…” until workers are stopped and writes are fenced; then persistent summary without animated progress | Cancel prevents new scheduling and commits. Keep source files, completed outputs, and recovery manifest. Explain unfinished work and offer Resume Unfinished. |
+| Finished | No progress indicator; persistent “Completed: N files” | Only when every requested file has validated, committed output. Offer Show Outputs. |
+| Finished with issues | No progress indicator; “Finished with issues: C completed, F failed, S skipped” | Failed/skipped files are never relabeled completed. Keep reasons and offer Retry Failed and Resume Skipped where applicable. |
+
+A zero-file selection cannot start. If scanning finds only zero-byte inputs, never divide by zero: use indeterminate “Encoding files…” and actual file states until validation succeeds or fails. If a source changes after scanning, fail that file with “Source changed; rescan required”; do not silently alter the denominator or claim success. Rescanning creates a new, explicitly labeled attempt.
+
+## Stalls, responsiveness, and recovery
+
+The window remains scrollable, selectable, movable, and keyboard-operable during scanning, encoding, finalization, and stopping. Keep completed results and file errors available throughout. Never wait synchronously for a worker on the UI event loop.
+
+As a product threshold, after 30 seconds without acknowledged progress or a phase transition on an active file, show “No progress reported for 30 seconds” with its filename and current phase. This is a suspected stall, not proof of failure. Keep the last measured value; never creep the bar forward. Offer Keep Waiting, Retry File, and Skip File, alongside job Pause and Cancel. Other files continue when dependencies and worker capacity permit.
+
+Retry and Skip first fence the old worker from output commits and stop its isolated execution; they must not wait for a hung worker on the UI thread. Retry starts that file as a new attempt, explicitly resetting its contribution and labeling the new attempt; progress can decrease for that stated reason. Skip marks the file Skipped and retains the original denominator, so skipped work cannot inflate completion. When all remaining files resolve, show Finished with issues even if the last encoding value is below 100%.
+
+Workers write only job-owned temporary outputs. Publish a validated output atomically to a distinct destination; never overwrite a source or an existing unrelated file. Destination conflicts fail with an actionable reason. Cancellation races are resolved at the commit boundary: an output committed before cancellation is retained and counted; none commits afterward. Cleanup may remove only verified job-owned disposable temporary data, never source files or completed output. Fence late callbacks using job/attempt identities.
+
+Persist completed-file records and usable checkpoints on Pause or Cancel. Resume Unfinished preserves completed outputs and retries unfinished files; when a format cannot checkpoint, say “Unfinished files restart from the beginning; completed files are kept.” Scanning cancellation resumes by rescanning. Do not describe restart as byte-exact resumption. Cancellation must not silently discard useful work; retained recovery data is not automatically deleted when the summary is dismissed.
+
+## Action and accessibility contract
+
+Use standard macOS text buttons with normal system sizing and separated activation areas: Encode (primary in Ready), Pause (active job), Resume (Paused), Cancel (abandon active job safely), Resume Unfinished (Cancelled), and the recovery actions above. No ellipsis is needed for these immediate commands. Cancel is a cancellation action, not a destructive delete command, and needs no data-loss confirmation under this preservation contract. Disable duplicate requests while acknowledging them with Pausing or Cancelling. Cancel remains available while pausing. Do not bind Return to Cancel or Skip; retain focus on the current control unless it disappears, then move to the corresponding recovery action.
+
+Expose the bar with a meaningful label, determinate value only when valid, and phase/status text when indeterminate. File states and errors use text rather than color alone. All actions must be reachable and activatable by keyboard and assistive input. Progress updates must not steal focus. Preserve essential status and action labels at 200% text enlargement; use system appearance and accessibility support. Native rendering, focus behavior, accessible semantics, contrast, and target geometry require implementation verification.
+
+## Guidance basis
+
+The stable bar, honest measurement, meaningful stall feedback, safe cancellation, and preservation/resumption policy apply [Progress indicators — Best practices and macOS](https://developer.apple.com/design/human-interface-guidelines/progress-indicators). Keeping useful interaction available applies [Loading — Best practices and Showing progress](https://developer.apple.com/design/human-interface-guidelines/loading). Action labels and roles follow [Buttons — Content, Role, and macOS](https://developer.apple.com/design/human-interface-guidelines/buttons). Text alternatives, keyboard access, and enlargement follow [Accessibility — Vision, Mobility, and Speech](https://developer.apple.com/design/human-interface-guidelines/accessibility).
+
+These references were consulted only through the installed local snapshot. The 30-second threshold, byte accounting formula, worker isolation, output fencing, and recovery persistence are concrete product/engineering decisions, not numerical or API requirements asserted by Apple.

@@ -1,0 +1,1 @@
+Platform: iOS. Existing form requests all 28 fields before saving, clears entered data after a validation error and uses a generic keyboard for currency, email and date. Optional receipt details are interleaved with required amount/vendor fields.

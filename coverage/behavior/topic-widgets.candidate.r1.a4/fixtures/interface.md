@@ -1,0 +1,1 @@
+Platform: iOS. Existing proposal: every widget is the app logo plus a tiny station list. Accessory inline has three separate tap targets. Widget refresh is promised every second. Stale departures remain labelled Live. Logged-out users see a blank rectangle. The Home widget must work in tint, dark appearance and StandBy night mode. The active train journey can last 50 minutes.

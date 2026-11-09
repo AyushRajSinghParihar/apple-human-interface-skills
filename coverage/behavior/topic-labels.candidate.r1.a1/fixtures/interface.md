@@ -1,0 +1,1 @@
+Platform: macOS. Four fields all say Value; units appear only in a help article. Long localized labels overlap inputs, decorative headings are announced like actionable controls and status changes replace field titles.

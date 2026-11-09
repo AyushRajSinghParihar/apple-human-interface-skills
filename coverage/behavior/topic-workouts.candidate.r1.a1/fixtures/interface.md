@@ -1,0 +1,1 @@
+Platform: watchOS. Start appears active before data permission is resolved, Pause is hidden below a long chart and End erases the session immediately. Sensor dropouts are displayed as zero effort. Person may leave mid-session.

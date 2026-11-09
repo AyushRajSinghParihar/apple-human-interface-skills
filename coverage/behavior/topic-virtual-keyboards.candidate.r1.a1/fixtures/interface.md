@@ -1,0 +1,1 @@
+Platform: tvOS. Custom keyboard uses tiny keys, loses focus after every character and uppercases passwords silently. Users cannot paste/use supported alternate entry, and moving away clears the partially typed code.

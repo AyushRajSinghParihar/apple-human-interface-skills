@@ -1,0 +1,1 @@
+Platform: iPadOS. A legal annotation app assumes a fixed fullscreen landscape canvas, hides all editing tools when a keyboard connects and resets selection when resized. People use touch, Pencil, pointer and hardware keyboard.

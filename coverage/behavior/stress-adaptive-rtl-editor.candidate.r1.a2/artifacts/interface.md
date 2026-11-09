@@ -1,0 +1,57 @@
+# iPad invoice editor — adapted specification
+
+Platform: iPadOS; resizable window, including the supplied 420 pt compact width. This is a design contract, not an executed app. Retain the existing framework and invoice calculation rules.
+
+## Content and direction
+
+Preserve vendor `مؤسسة النور`, invoice ID `INV-2026-04`, email `accounts@example.test`, and numeric amount 1240.50 with currency SAR. The supplied reference representation is `1,240.50 SAR`; presentation may localize, but the underlying amount must not change. No line quantities, tax rules, rounding rules, or actual payment state were supplied; do not invent them.
+
+Use Arabic interface resources and semantic leading/trailing constraints: leading is right in Arabic. Short labels and field groups follow RTL reading order; long paragraphs follow their own language. Keep list/group alignment consistent. Vendor text uses natural Arabic shaping. Isolate the ID and email as LTR runs within RTL labels so punctuation and character order remain intact; preserve their exact stored strings and copied values. Do not inject presentation direction marks into stored data.
+
+Format numbers and currency with the selected locale and explicit SAR currency, not string reversal. Arabic language alone does not select a region or numeral preference. Honor the configured locale's Western/Eastern digits and separators; preserve each number's internal order and value. For example, Eastern-digit presentation may read `١٬٢٤٠٫٥٠` with the formatter's currency placement. Verify the complete currency string with an Arabic reviewer.
+
+Mirror reading-order Back/Next and directional layout where applicable. Keep a media Play triangle, universal signs, and literal physical-direction symbols unchanged. A supplied play-shaped control has no documented outcome: retain its action and accessible name pending inspection; do not reinterpret it as navigation merely to justify mirroring.
+
+Source: [Right to left — text, numbers, controls and icons](https://developer.apple.com/design/human-interface-guidelines/right-to-left).
+
+## Compact layout and enlarged text
+
+At 420 pt, replace fixed columns with one vertically scrolling form, in this order: invoice heading and ID; vendor; email; explicit payment state; line-item editors in existing order; Add line; totals. At 200% text, use this arrangement even when wider if horizontal groups cannot fit. Each line has its persistent description, quantity, unit-price and line-total labels with values/fields below them, retaining whatever fields the existing product actually supports. Do not introduce new financial fields or discard existing ones.
+
+Use available safe-area width and content measurements, not orientation or device-name breakpoints. A wider layout may place related label/value pairs alongside one another only when their full localized content fits at the current text size; otherwise stack. Returning to a wider arrangement preserves the same field and row identities. Totals stay in the document flow after Add line, with each total label above its amount at compact sizes. They must remain fully readable and reachable by scrolling; no fixed footer may obscure the editor or keyboard.
+
+Use semantic system title, headline and body styles with Arabic-capable system typography, Dynamic Type and Bold Text. The iPadOS reference default body is 17 pt; the explicit 200% check uses a 34 pt body equivalent and proportionate meaningful labels/actions. This is a test condition, not a claim that a particular Dynamic Type category equals exactly 200%. Also support the platform's larger accessibility sizes. Grow rows and buttons, wrap labels and displayed text, and avoid fixed text heights, text shrinking and ellipses for essential content. Single-line editing fields may scroll internally to the caret; provide a wrapping full-value readout for long ID/email values when not editing.
+
+Keep focused fields and their errors visible above the software keyboard. Keep important content within safe areas. Use system buttons with distinct focus/pressed states and nonoverlapping activation regions of at least 44 × 44 pt as this design's iPad target; grow beyond that when text requires it. Touch must complete the same task without hardware accessories.
+
+Sources: [iPadOS best practices](https://developer.apple.com/design/human-interface-guidelines/designing-for-ipados#Best-practices), [Layout adaptability](https://developer.apple.com/design/human-interface-guidelines/layout#Adaptability), [Dynamic Type](https://developer.apple.com/design/human-interface-guidelines/typography#Supporting-Dynamic-Type), [Buttons](https://developer.apple.com/design/human-interface-guidelines/buttons).
+
+## Payment state and field behavior
+
+Replace red/green-only state with a localized persistent text label and distinct symbol: paid = `مدفوعة` plus checkmark; unpaid = `غير مدفوعة` plus open-circle marker. Color is supplementary. Map the actual model state; do not infer it from the supplied amount. Any additional existing states need distinct localized names. Expose status as text in accessibility semantics. Use semantic system colors and verify contrast in light/dark and Increase Contrast; no measured palette is supplied.
+
+Keep persistent field labels, accessible names, current values and associated inline errors. Numeric fields accept locale-aware digits and separators with appropriate numeric entry; email uses email entry semantics without autocorrection. Provide system trailing Clear where appropriate, retaining the label and undoable edit. Keep partial/empty/invalid raw input while editing. On explicit commit or leaving a numeric field, parse with the locale captured for that edit; ambiguous or invalid values get an actionable inline error, never silent punctuation stripping or coercion to zero. Return commits the current field only; it never sends, pays, or submits the invoice. Email errors may appear on leaving the field. Existing domain constraints remain authoritative because valid quantity ranges were not supplied.
+
+Sources: [Accessibility — vision and mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility), [Text fields](https://developer.apple.com/design/human-interface-guidelines/text-fields).
+
+## Hardware keyboard contract
+
+Use system text editing and focus behavior. Logical task order is invoice metadata fields, each existing line's editable fields, Add line, then any existing completion actions. Read-only totals are readable content, not dummy editable fields. In Arabic, follow leading-to-trailing then top-to-bottom order within a group; at compact width this becomes top-to-bottom.
+
+Ordinary iPad keyboard focus: Tab/Shift-Tab move between logical groups; system field traversal moves through form entries, and arrows navigate suitable custom content groups. Do not intercept arrows while editing text or replace native bidirectional caret movement. Give Add line its own reachable action group; Tab must reach it from the final line group and Shift-Tab must return. It must not require pointer hover. Preserve a visible focus indicator and scroll its target into view.
+
+Full Keyboard Access is a separate required path through every interactive control, including Clear and Add line; retain system navigation and activation bindings. Do not claim ordinary text-field traversal proves this path. System button activation applies when focused; typing spaces inside a field must remain text entry.
+
+Add line (`إضافة بند`, provisional Arabic label) is a normal, nondestructive inline system button, not a global Return default. One activation inserts one new draft line with stable identity after the last line and focuses its first field. It leaves prior rows and totals unchanged until valid new values are committed; undo removes that insertion and restores prior focus. Proposed accelerator: Command-Shift-L, exposed with its localized command title in system shortcut discovery. Verify conflicts on supported OS versions and Arabic/Latin keyboard layouts before shipping. Standard copy/cut/paste/select-all and Command-Z/Command-Shift-Z keep expected editing/undo meanings; preserve system accessibility shortcuts. No new save/send/payment workflow is implied.
+
+Sources: [Keyboards](https://developer.apple.com/design/human-interface-guidelines/keyboards), [Focus and selection — iPadOS](https://developer.apple.com/design/human-interface-guidelines/focus-and-selection#iPadOS).
+
+## State and calculation invariants
+
+Own the invoice draft independently of layout views, keyed by invoice ID and stable line/field IDs. Preserve committed decimal values, raw editing strings and edit locale, validation errors, dirty state, selected line, focused field, caret/selection, marked text composition, undo/redo history and a scroll anchor by field/line identity with offset. Layout changes must neither recreate the draft nor commit an edit.
+
+On resize, rotation, text-size change, or RTL reflow: retain that state, recompute presentation constraints only, then restore the same focus/caret and scroll the active field into view. With no active editor, restore the prior scroll anchor as closely as available geometry allows. Do not move focus to the heading or Add line merely because groups reflow. A locale change updates nonediting formatting; an active edit retains its raw string and parsing locale until resolved.
+
+Keep calculations in decimal arithmetic using the existing calculation and rounding policy, never in localized display strings. A valid financial commit recalculates dependent line amounts and totals atomically once and records undo. An invalid/uncommitted value leaves the last valid totals visible with a persistent localized “Totals exclude uncommitted changes” indication; block any existing finalization action until resolved. Never show stale totals as final. Presentation-only changes preserve all totals exactly: the supplied baseline remains 1240.50 SAR. Undo restores both financial values and corresponding totals. Resizing creates no undo entry.
+
+Source basis: [Layout](https://developer.apple.com/design/human-interface-guidelines/layout) and [iPadOS](https://developer.apple.com/design/human-interface-guidelines/designing-for-ipados). Stable identity, decimal calculation and draft handling above are product engineering decisions implementing the requested preservation, not HIG API claims.

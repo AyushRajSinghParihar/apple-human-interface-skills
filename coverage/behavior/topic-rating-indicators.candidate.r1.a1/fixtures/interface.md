@@ -1,0 +1,1 @@
+Platform: macOS. Empty rating is displayed as zero-star failure, clicking a star also deletes the review and readonly imported ratings look editable. Half ratings and no rating can exist; keyboard users need access.

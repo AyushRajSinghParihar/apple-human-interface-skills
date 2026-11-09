@@ -1,0 +1,1 @@
+Platform: iOS. Imported Live Photos are flattened without notice, every motion asset autoplays in a fast grid and export silently drops the still image. Some recipients support only still photos.

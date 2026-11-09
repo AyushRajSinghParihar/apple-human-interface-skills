@@ -1,0 +1,1 @@
+Platform: iOS/iPadOS. Grid uses a fixed six columns even in a narrow phone window, selection clears on rotation and thumbnails are the only source of image meaning. An empty album is an unexplained blank screen.

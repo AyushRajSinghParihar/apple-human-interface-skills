@@ -1,0 +1,55 @@
+# iPhone volunteer tracker — permission specification
+
+Platform: iOS. This specification replaces the launch permission gate, vague location explanation, full-library upload, and repeated requests after denial.
+
+## Core flow
+
+Launch opens the volunteer tracker without requesting Photos or location access. A volunteer can enter and submit a manual check-in without either permission or a photo. Permissions never block unrelated work. Keep the current check-in draft through cancellation, denial, errors, and a trip to Settings.
+
+The check-in editor offers optional “Add photo” and “Use current location” actions alongside manual location entry. Selecting either is independent of the other. No custom permission pre-alert is needed: the action and nearby explanation provide context. Only iOS presents authorization choices; the app must not imitate them.
+
+## Minimum data contract
+
+| Feature | Minimum access and data | Transfer and storage |
+| --- | --- | --- |
+| Manual check-in | Volunteer-entered check-in fields; no device location or library access | Submit only entered fields when the volunteer submits the check-in. |
+| One-photo attachment | One explicitly selected image through the system photo selection interface; no broad library authorization, enumeration, background scanning, or full-library upload | Preview locally. Upload only the selected attachment on check-in submission. Discard a removed/replaced/canceled draft attachment. |
+| Use current location | One foreground location result for this check-in, preferably via the system location button; no background or continuous tracking | Preview the proposed location in the draft. Submit it only with the check-in; removal or replacement excludes it from submission. |
+
+Do not infer or send location from photo metadata. Strip unneeded metadata, including embedded coordinates, from the upload copy on-device. Do not send unselected assets, thumbnails, library identifiers, or incidental location data to analytics or logs. These are product data-minimization decisions. Existing server retention and deletion behavior is not supplied; document it and align privacy disclosures before release, without inventing a retention promise in the UI.
+
+## Photo attachment sequence
+
+1. “Add photo” opens the native system photo selection interface configured for a single image. Supporting text: “Choose one photo to attach to this check-in.” Do not request full or limited library authorization as a prerequisite to this selection flow.
+2. Cancel returns to the unchanged draft, with no upload or permission retry. On replacement, retain the previous attachment until a new image loads successfully.
+3. A successful selection loads only that image and displays a preview with “Replace photo” and “Remove photo.” Selection alone does not upload it. Submission is the explicit upload action.
+4. If selection loading fails, show “This photo couldn’t be loaded. Choose another photo or continue without one.” Preserve the draft and offer “Choose another photo” and “Remove photo” when an attachment exists. Retry occurs only after a deliberate action.
+5. Existing denied, restricted, limited, or full library authorization must not trigger an authorization loop or a request for more library access. The system selector is the intended narrow-access route; verify its behavior against the shipping SDK and deployment target. If unavailable or blocked, show “Photo attachment is unavailable. You can continue without a photo.” Keep check-in usable; do not fall back to full-library access.
+
+## Location sequence and recovery
+
+Above the location action, show: “Optionally add your current location to this check-in, or enter a location yourself.” Use the system location button for this individual task on supported iOS versions, with a supplied localized title equivalent to “Current Location.” Preserve its system behavior and supported customization; do not truncate localized or accessibility-size text.
+
+The initial system interaction may explain and confirm one-time access. Subsequent taps follow system authorization behavior; do not promise a prompt on every tap. One-time authorization expires when app use ends, while an existing While Using authorization remains unchanged. Do not request Always access or temporary precise-location elevation for this feature.
+
+If a location purpose string is required by the selected implementation, use: “Your location is used to add your current position to this volunteer check-in.” It describes the action and reason, replacing “Needed.” Verify required configuration and API availability against the shipping SDK; this document is not an SDK reference.
+
+| State/event | Required behavior |
+| --- | --- |
+| Manual entry, including launch | No location request. Manual submission works. |
+| Volunteer taps system location button | Obtain only a foreground result for this action; stop updates after a result or failure. Do not collect before the applicable system grant. |
+| Location obtained, including approximate location | Show the proposed location for review and allow editing/removal. Accept approximate location; do not demand Precise Location. Resolve only to detail supported by the result. |
+| Volunteer denies/cancels | Return to draft. Show “Location wasn’t added. You can enter it yourself.” No immediate re-request or automatic retry on navigation/relaunch. |
+| Previously denied | Do not repeatedly invoke an authorization request. Keep manual entry available; on explicit location intent show “Location access is off. Enter a location yourself or change access in Settings.” Offer “Open Settings” only as an optional recovery action. |
+| Restricted access | Explain “Current location isn’t available. Enter a location yourself.” Do not imply Settings can override a restriction. |
+| Services unavailable, timeout, or other acquisition failure | End acquisition, preserve draft, and show “Your location couldn’t be found. Enter it yourself or try again.” “Try again” is an explicit action, not an automatic permission loop. |
+| Return from Settings or authorization changes | Refresh authorization state without automatically collecting location or presenting another prompt. A fresh location action is required. |
+| Leave editor or cancel check-in | Stop acquisition and discard unsaved location data. Never start background collection. |
+
+If the deployment target cannot support the system location button, retain manual entry and defer the optional location shortcut until a separately verified foreground-only alternative is specified. Do not substitute a launch gate.
+
+## Source basis and release checks
+
+Permission timing, specific purpose copy, narrow data collection, and the distinction between ordinary feature UI and custom pre-alerts follow [Apple HIG Privacy — Requesting permission](https://developer.apple.com/design/human-interface-guidelines/privacy#Requesting-permission). One-time location behavior follows [Privacy — Location button](https://developer.apple.com/design/human-interface-guidelines/privacy#Location-button). Data minimization and disclosure alignment follow [Privacy — Best practices](https://developer.apple.com/design/human-interface-guidelines/privacy#Best-practices). These links identify the source; only the installed local guidance was consulted.
+
+The system photo-selection strategy, draft preview/commit rules, metadata stripping, and error copy are concrete product decisions applying minimization, not claims that the local HIG snapshot specifies a particular photo API. Before release verify native selection and authorization behavior on the supported iOS range, purpose-string configuration, denial/restriction recovery, approximate location, cancellation, draft preservation, and network payload scope. See result.md for acceptance cases and evidence status.

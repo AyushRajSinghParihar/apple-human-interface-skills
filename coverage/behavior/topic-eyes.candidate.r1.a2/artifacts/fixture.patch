@@ -1,0 +1,58 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,53 @@
+-Platform: visionOS. Tiles open simply when looked at, collect an analytics heatmap of exactly where each person looks and require continuous staring to keep an image open. Controls are small and visually jump toward gaze.
+\ No newline at end of file
++# visionOS gallery interaction specification
++
++## Scope and presentation
++
++Browse artwork tiles and deliberately open an image for sustained viewing in a standard, user-positionable Shared Space window. Keep browsing and image detail in the same window; no Full Space, room sensing, fixed viewing distance, or head-locked UI is required. Preserve gallery scroll position and the last activated tile when returning. This presentation is a product decision based on [Designing for visionOS — Best practices](https://developer.apple.com/design/human-interface-guidelines/designing-for-visionos#Best-practices).
++
++## Targeting, feedback, and activation
++
++- Each tile is one standard actionable control containing its image and visible title, with one containing target region. Its accessible name is “Open [artwork title]”; expose button semantics and a meaningful artwork description in detail.
++- Looking at a tile only produces standard system hover feedback. It never opens an image, selects or marks it viewed, starts a timer, or writes app state. The app receives deliberate activation, not a pre-tap gaze location or hover callback for business logic.
++- Activate by looking at a tile and performing the standard indirect pinch/tap gesture. Support this with hands resting in the lap or at the sides; no repeated reaching is required. A supported assistive activation of the same control has exactly the same outcome.
++- Keep tile bounds, artwork, title, and control positions stable during targeting. Use standard system hover and press feedback; no jump toward gaze, relocation, growth into neighbors, flashing, or moving peripheral decoration. Required information and actions remain visible without hover.
++- Do not implement app-specific dwell-to-open or gaze-presence timers. System Dwell Control may deliberately activate the same standard controls according to the person's accessibility settings; this is distinct from an app observing gaze.
++
++Basis: [Eyes — Making items easy to see](https://developer.apple.com/design/human-interface-guidelines/eyes#Making-items-easy-to-see), [Encouraging interaction](https://developer.apple.com/design/human-interface-guidelines/eyes#Encouraging-interaction), and [Custom hover effects](https://developer.apple.com/design/human-interface-guidelines/eyes#Custom-hover-effects).
++
++## App state contract
++
++System hover is presentation feedback outside this app state model. Keyboard or assistive focus is also distinct from the last activated tile.
++
++| Current state | Input | Result |
++| --- | --- | --- |
++| Gallery | Look at or away from any tile | Gallery remains unchanged; system feedback may change. |
++| Gallery | Activate “Open [title]” | Store return context and selected artwork ID; enter Detail for that image. |
++| Detail | Look away, blink, move hands, or read another control | Image remains open without a deadline or continuous stare. |
++| Detail | Activate “Back to Gallery” | Restore scroll position and last activated tile; return navigation focus to that tile when supported. |
++| Either | System hover changes or focus moves without activation | No navigation, content mutation, or analytics event. |
++
++“Back to Gallery” is a visible, standard, nondestructive text button, available throughout detail. It does not delete content or discard gallery context. If image retrieval is delayed, retain the detail shell and Back control; show loading then the image, or a persistent error with “Retry.” Retry repeats only the failed load, and Back remains usable. Ignore duplicate open activations during a pending load; after Back, a late result must not reopen detail. Loading and retry are product decisions, not claims about an existing backend.
++
++## Control geometry and alternative access
++
++Use at least 60 × 60 pt activation regions for all tile actions, Back, and Retry; visible glyphs may be smaller. Keep neighboring target bounds at least 16 pt apart, centers at least 60 pt apart, and add at least 4 pt of clear padding around buttons 60 pt or larger. These are layout constraints in visionOS points, not physical dimensions. Reduce columns instead of shrinking targets or overlapping feedback when space is constrained. Use discernible standard button shapes/fills and standard audible/state feedback; sound is supplementary to visible state.
++
++Use standard control semantics so the complete open–inspect–return task can work with supported keyboard navigation, Switch Control, and hand/head Pointer Control without eye targeting or speech. Expose artwork title and action names, and ensure Zoom does not hide essential actions. No step requires fast response or maintaining gaze. Keep text/actions usable at 200% text enlargement through reflow. These are implementation and runtime acceptance requirements, not verified capabilities.
++
++Basis: [Buttons — visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons#visionOS), [Accessibility — Mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility#Mobility), [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility#Vision), and [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility#visionOS).
++
++## Privacy and analytics contract
++
++Remove the per-person exact-gaze heatmap entirely. Do not collect, infer, store, or transmit gaze coordinates, hover histories, dwell durations, gaze paths, or attention scores. Do not substitute head/hand tracking as a proxy or offer a permission prompt promising access to private gaze. System hover does not disclose pre-tap gaze to the app.
++
++| Data | Purpose | Access, storage, and transfer |
++| --- | --- | --- |
++| Pre-activation gaze and hover state | None available to gallery business logic | Private system input; no app collection or heatmap. |
++| Activated artwork ID and gallery return position | Open image and restore browsing context | In-memory app navigation state only; clear on session end, no analytics transfer. |
++| Analytics | No necessary gallery function identified | No analytics collection in this revision. Any future explicit-activation measurement needs a separately specified purpose, fields, retention, and disclosure; it must never be described as gaze or proof of attention. |
++
++No gaze, room, or hand-tracking permission request is introduced. Basis: [Eyes](https://developer.apple.com/design/human-interface-guidelines/eyes) and [Privacy — visionOS](https://developer.apple.com/design/human-interface-guidelines/privacy#visionOS).
++
++## Verification contract
++
++The implementation must pass the scenarios in result.md before runtime behavior is claimed. This document is a revised specification, not evidence of an implemented or device-tested gallery.

@@ -1,0 +1,1 @@
+Platform: iOS/macOS. Current palette uses white backgrounds, light gray body text and red versus green dots as the only route-status meaning. Selected route is indicated by a slightly darker red. Exact color values are not provided.

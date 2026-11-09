@@ -1,0 +1,1 @@
+Platform: iOS. It contains nine long unrelated actions, two segments remain selected despite a single-view choice, selecting Delete Account destroys data immediately, labels truncate to identical prefixes and keyboard/assistive users hear no selected state.

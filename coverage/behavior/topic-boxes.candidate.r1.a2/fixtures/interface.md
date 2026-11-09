@@ -1,0 +1,1 @@
+Platform: macOS. Resolution, file destination and an unrelated account deletion button share a heavy nested set of six outlined boxes. Labels repeat Advanced three times. The window can be resized narrowly.

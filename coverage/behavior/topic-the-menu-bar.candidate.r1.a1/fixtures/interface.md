@@ -1,0 +1,1 @@
+Platform: macOS. App places all commands in a custom in-window hamburger menu, replaces standard Undo with Publish and gives Save a changing shortcut. Window commands operate on a hidden document instead of the active one.

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "run_id": "topic-accessibility.candidate.r1.a1",
+  "case_id": "topic-accessibility",
+  "variant": "candidate",
+  "repetition": 1,
+  "attempt": 1,
+  "status": "routing_error",
+  "case_path": "evals/cases/topic-accessibility.json",
+  "case_hash": "6e90b4ce7869145374947b80acd69d47d9af9f29869cde06cf6d57d360c55be1",
+  "harness_hash": "33618764ec9f364a40c60bce4fc3a917c4c4baa704f65a50fafe56652340615f",
+  "model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.164.0",
+  "started_at": "2026-10-25T18:21:12+00:00",
+  "finished_at": "2026-10-25T18:22:29+00:00",
+  "package_dependencies": {
+    "SKILL.md": "81472a15fa63467c733c0be7130755886b6a7e88d827b5bbe0db712daf37be9b",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md": "a575641fed63dcd067cf6805a72449f994c7e64702d39c98f0dd1d50884c3d1a",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-foundations/references/accessibility.md": "556c88279d9f2f238e87cbab050337b51ba5c3e3ab8c15f57b662b3f0378b18d",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d"
+  },
+  "reads": [
+    "SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md",
+    "subskills/apple-hig-technologies/SKILL.md"
+  ],
+  "required_reads": [
+    "SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md"
+  ],
+  "routing": {
+    "missing": [
+      "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md"
+    ],
+    "passed": false,
+    "unexpected_hig_reads": false
+  },
+  "artifacts": {
+    "result.md": {
+      "path": "coverage/behavior/topic-accessibility.candidate.r1.a1/artifacts/result.md",
+      "hash": "a13fbc41dcf970e96bdb1bec751becb2c7f42ee2641eba315366f1a528ea697c"
+    }
+  },
+  "transcript": {
+    "path": "coverage/behavior/topic-accessibility.candidate.r1.a1/events.jsonl",
+    "hash": "22ee5c70e3118f11607d0f1b79f7b973183410922589ff62eebad3c590901961"
+  },
+  "checks": {
+    "discovery": {
+      "visible_hig_count": 14,
+      "expected_visible_hig_count": 14,
+      "unrelated_enabled": [],
+      "hidden_topics_visible": [],
+      "disabled_unrelated_count": 83
+    },
+    "missing_artifacts": [],
+    "changed_inputs": {
+      "interface.md": false
+    },
+    "adaptation_changed": true,
+    "passed": true,
+    "exit_code": 0,
+    "turn_completed": true,
+    "malformed_event_count": 0,
+    "forbidden_reads": [],
+    "package_changed": []
+  },
+  "baseline_commit": null,
+  "final_message": {
+    "path": "coverage/behavior/topic-accessibility.candidate.r1.a1/final-message.txt",
+    "hash": "f3d10133872f1ced3d1a4f0401ec12705071344e81ff9a1c88a78037a190398b"
+  }
+}

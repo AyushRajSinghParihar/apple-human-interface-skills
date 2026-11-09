@@ -1,0 +1,1 @@
+Platform: iOS. Opening a photo immediately overwrites its original, Cancel still commits filters and export claims location metadata was removed without checking. Editing may be interrupted with an unsaved crop.

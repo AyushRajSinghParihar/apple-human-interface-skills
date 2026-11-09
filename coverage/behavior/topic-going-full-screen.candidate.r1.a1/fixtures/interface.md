@@ -1,0 +1,1 @@
+Platform: macOS. A custom fullscreen overlay hides system navigation forever, opens automatically on launch and discards window size when leaving. Writers need optional distraction reduction but still open notes and export.

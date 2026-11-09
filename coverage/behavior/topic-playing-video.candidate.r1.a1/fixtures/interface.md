@@ -1,0 +1,1 @@
+Platform: iPadOS. Video autoplays loudly, overlays cover captions, scrubbing discards the transcript position and a network stall looks like a paused video. People may switch to picture-in-picture where supported.

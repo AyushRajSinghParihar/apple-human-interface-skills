@@ -1,0 +1,52 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,47 @@
+-Platform: macOS. Same star means Favorite in a row, Delete in a toolbar and Publish in a menu. Unfamiliar custom pictograms have no labels, baseline alignment differs and disabled icons still look active.
+\ No newline at end of file
++# Mac asset manager: revised action specification
++
++Platform: macOS. Preserve the existing framework. The star means Favorite everywhere; never assign it to Delete or Publish.
++
++## Action contract
++
++| Surface | Presentation | Outcome and scope | Availability |
++| --- | --- | --- | --- |
++| Asset row | `star` + Add to Favorites when off; `star.fill` + Remove from Favorites when on | Stateful system button affecting only that row's asset, regardless of selection elsewhere. Persist the new value; activating twice restores the original value. | Editable asset, no favorite change pending. Expose action name, asset name, and current on/off value. |
++| Window toolbar | `trash` + Delete | Destructive command removing selected assets from the library, retaining source files and recoverable records for Undo. Does not unpublish remote content. Never the default Return action. | Nonempty selection where every asset is deletable; no conflicting operation pending. Accessible name: Delete Selected Assets. |
++| Asset menu in menu bar | Publish, text only | Immediately publishes exactly one selected unpublished asset to its configured destination. Normal command, not a toggle or default action. No ellipsis because it requests no further input. | Exactly one publishable asset, configured destination, permission and service available, no publication pending. Already published assets are ineligible. |
++
++Reversible library deletion and preconfigured publication are explicit product decisions for this revision, not discovered backend behavior. Resolve incompatible storage or publication semantics before shipping these labels. Do not substitute the Share symbol for Publish without evidence that its outcome is sharing/exporting.
++
++## Labels and artwork
++
++- Replace unfamiliar unlabeled custom pictograms with outcome-specific short verb labels. Unknown actions remain text-only until their outcomes are identified. Maintain an action-to-label inventory before release.
++- Keep Favorite and Delete labels visible in the default layout. Tooltips can clarify scope but cannot substitute for visible unfamiliar-action labels or accessible names. Glyphs within labeled controls are decorative, not separate accessibility elements.
++- Use system toolbar items in window chrome and system stateful buttons in rows. Use monochrome system-tinted symbols, regular weight matching adjacent system text, medium symbol scale, and 13 pt text as project defaults. These defaults are not universal Apple requirements.
++- Align peer text baselines; use symbol baseline metrics rather than aligning artwork bounding-box bottoms. Use consistent icon slots and an 8 pt icon-to-label gap within each surface as a project starting value. Apply small optical padding to asymmetric artwork without moving the label baseline or activation region.
++- Necessary custom artwork must be simple, scalable black-and-transparent template art with consistent stroke, weight, perspective and complexity. Retain its visible label and meaningful accessible name. Never reuse a familiar glyph for an unrelated concept.
++- Verify `star`, `star.fill`, and `trash` availability and permitted use on the eventual deployment target. Use the specified text labels alone as fallback; never show missing-glyph placeholders. No SDK or OS availability is asserted here.
++
++## States and execution
++
++- Share validation and handlers across surfaces; revalidate object identities and permissions on activation. Disabled commands stay visible, use system disabled treatment for both icon and label, expose disabled semantics, and reject pointer, keyboard, menu and programmatic activation. Opacity alone does not disable an action.
++- Preserve native hover, press and keyboard focus feedback. Favorite's outline/filled shape and next-action wording distinguish off/on without color. Verify disabled controls remain distinct from enabled, selected and focused controls in light/dark and Increase Contrast.
++- Explain unclear disabled conditions in persistent selection status: for example, “Select assets to delete,” “Selection contains read-only assets,” or “Select one unpublished asset with a configured destination.” Hover help can supplement this status. Keep command names stable while disabled.
++- Favorite retains the last committed value during persistence and blocks duplicate activation. Success updates glyph, label and value together; failure retains the prior value and shows an error near the asset with retry available.
++- Delete commits one recoverable operation per selection. Failure leaves all selected assets and selection unchanged and explains the failure. Success removes rows and moves focus to the next surviving row, previous row if last, or list if empty. Edit > Undo Delete restores identities, metadata, favorites, order and selection, revealing restored rows. Redo Delete repeats that operation; new edits after Undo clear redo. Retain meaningful history for the open library session, including across incidental persistence. No permanent deletion is introduced.
++- Publish captures asset and destination on activation, shows persistent “Publishing [asset] to [destination]…” status, and blocks duplicates for that asset. Mark Published only after confirmation. Failure retains unpublished state, explains the error and permits retry when eligible. Reconcile unknown remote outcomes before retry to prevent duplicate publication. Never claim local Undo reverses remote publication.
++
++## Access and layout
++
++- Put Delete in Edit; put Undo/Redo at its top with Command-Z / Shift-Command-Z. Put Add to Favorites / Remove from Favorites and Publish in an app-specific Asset menu between View and Window. These affected menu groups use text only consistently. Favorite uses next-action wording rather than an extra checkmark; its menu version targets exactly one selected editable asset.
++- No active library window disables affected menu commands without hiding them. Multiple windows validate against only the frontmost library window's selection.
++- Keep Delete in the toolbar action group, separate from navigation. Narrow widths use system overflow with the same label and validation, without a second custom More menu. Hidden or customized-away toolbar items retain Edit > Delete. Favorite stays in rows and Publish in Asset. Do not add new custom shortcuts; preserve system menu keyboard navigation and existing nonconflicting equivalents after inventory.
++- Make row actions and toolbar items reachable and activatable through standard keyboard access. Row action names must identify their asset without relying on visual proximity. Enlarged/localized labels must gain space or reflow without overlap or losing the command; text menu routes remain available.
++- Start custom row activation regions at the macOS 28 × 28 pt default and grow them for labels; adjacent targets must not overlap. Preserve native menu/toolbar sizing. The local Accessibility guide gives a Mac 20 × 20 pt minimum, whereas Buttons states a general 44 × 44 pt hit region. This spec uses the platform-specific default for compact Mac rows and requires actual geometry/comfort checks rather than asserting these passages agree.
++
++## Acceptance contract
++
++Verify Favorite twice; Delete then Undo/Redo; persistence failure; failed/unknown Publish; empty, multiple and mixed-permission selections; frontmost-window changes; narrow/hidden/customized toolbars; and keyboard activation. Inspect actual-size symbols, baselines, light/dark, Increase Contrast, localized and 200% enlarged text. Verify accessible names, values, disabled states, focus order and activation geometry on macOS. These are release checks, not execution claims.
++
++## Source support
++
++Local installed HIG snapshots support consistent metaphors, template art and optical alignment ([Icons](https://developer.apple.com/design/human-interface-guidelines/icons#Best-practices)), Delete → trash ([Editing icons](https://developer.apple.com/design/human-interface-guidelines/icons#Editing)), symbol configuration and availability ([SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols)), clear labels and system states ([Buttons](https://developer.apple.com/design/human-interface-guidelines/buttons)), noncolor state distinctions ([Toggles](https://developer.apple.com/design/human-interface-guidelines/toggles)), Mac menu parity and overflow ([Toolbars](https://developer.apple.com/design/human-interface-guidelines/toolbars)), meaningful optional menu icons and dimmed unavailable commands ([Menus](https://developer.apple.com/design/human-interface-guidelines/menus)), menu placement ([The menu bar](https://developer.apple.com/design/human-interface-guidelines/the-menu-bar)), named restoration ([Undo and redo](https://developer.apple.com/design/human-interface-guidelines/undo-and-redo)), and semantic naming and access ([Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility)). Links identify articles; no web verification occurred.

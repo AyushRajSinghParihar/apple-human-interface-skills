@@ -1,0 +1,47 @@
+# iPad document comparator: continuity specification
+
+Platform: iPadOS. Compare and edit two documents without losing work when the available window size, active window, or foreground app changes. This revises the supplied behavior: narrowing must not close the app, backgrounding must not clear edits, and returning must not start audio.
+
+## State ownership and persistence
+
+- Document state is keyed by stable document ID: content, revision, unsaved edits, and undo/redo history. A comparison workspace holds the two document IDs, comparison options, selected difference, and pending comparison revision pair.
+- Each window has its own stable restoration ID, workspace/document route, active document, selection/caret, scroll anchor for each document, zoom, and editing focus target. Switching windows must never send edits or Undo to the previously active document.
+- Persist edits incrementally through a durable local journal; checkpoint window/workspace state after meaningful changes and on deactivation/backgrounding. Do not rely on a final lifecycle callback to save work. Treat accepted edits as recoverable only once journaled; surface a persistence failure and retain the in-memory draft with retry instead of claiming it is saved.
+- Persist restoration records atomically with a schema version and document revision references. Restore drafts before starting a new comparison. Recover the latest valid checkpoint plus journal after process termination; do not restore a stale comparison as current.
+- Preserve selection, anchors and undo history during live resize, window switching and background/foreground transitions. On relaunch, restore persisted history and anchors where their revisions remain valid; clamp an invalid anchor to the nearest surviving location. If a file is missing or permission is unavailable, retain its draft and workspace identity, explain the issue, and offer retry/relink without silently substituting another document.
+
+## Adaptive comparison flow
+
+Use available content bounds after safe areas, system window controls and keyboard avoidance, rather than orientation, device name, or an assumed multitasking setting. Retain system resize/move/close controls and keep leading app actions clear of them.
+
+Product layout rule (not an Apple numerical requirement): show two editors side by side when each can receive at least 320 pt of usable width after the divider and surrounding controls. Below that, show one editor with always reachable “Document A” and “Document B” switches, filenames, active-document indication, and previous/next difference actions. Keep both document models alive; switching restores each editor's caret, draft and scroll anchor. Each difference retains its paired location so the other document can be reached in one switch. If vertical space is short, allow the editor to scroll and move secondary actions to reachable overflow. Never exit or discard a workspace to enforce the two-column layout.
+
+On widening, restore both editors and their independent positions. Layout changes alone must not move the selected difference, change active document, commit/cancel editing, reset undo, dismiss the workspace, or start playback. Editing, switching documents and navigating differences must work with touch alone; attached keyboard commands must target the active editor and survive accessory changes. No essential action depends on hover.
+
+## Event and recovery contract
+
+| Event | Retained state and behavior | Completion/return behavior |
+| --- | --- | --- |
+| Resize or rotate, including while typing | Reflow existing workspace; preserve both drafts, selection, scroll anchors and undo | Continue editing the same document; no restart or audio event |
+| Another app/window gains activity | Checkpoint current context; preserve document models and pending input | Return to the same route and editor; restore editing target when available without forcing the keyboard open |
+| App backgrounds / system may suspend | Journal edits; checkpoint; finish eligible user-initiated input-free save/comparison work only within system-granted execution | If interrupted, resume/recompute from saved revisions on return; no promise of unlimited background work |
+| Comparison completes while inactive | Store result with its input revision pair | Show result/status on return; discard/recompute stale results; no routine completion sound or notification |
+| User closes one window | Save its restoration record and drafts; stop its playback | Other windows continue independently; reopening restores that window's context |
+| Process terminates and app relaunches | Recover durable documents, drafts and workspace records | Restore context, show pending/retry state for unfinished work, and remain silent |
+| Save or comparison fails | Keep drafts and last valid result, clearly distinguish pending/error from saved/current | Offer retry; never clear edits to recover |
+
+## Independent document windows
+
+On supported iPadOS configurations, offer “Open in New Window” for either document. A primary document window is independently editable and has its own document identity and window context. Opening B must not replace A, redirect A's undo history, or close the comparison workspace. Normal Open reuses an existing window for that document when present; repeated Open in New Window requests for that document activate its existing dedicated editor rather than accumulating duplicates. The comparison workspace can still show the same document through a shared, revisioned document model, so committed edits propagate to comparison results without creating divergent unsaved copies. Serialize edits per document; focus-local Undo operates on the active document's history.
+
+Closing A's window does not close B's window or delete A. Reopen restores A's saved context. Let the system manage window placement and activation; never infer the user's multitasking configuration. Where separate windows are unavailable, keep both documents independently editable through the comparison window's document switcher and preserve their state. Supported OS versions and multiwindow configuration require implementation verification.
+
+## Audio contract
+
+The supplied brief does not identify a useful audio feature. The comparator is silent by default: no startup, restoration, comparison-completion or focus-change sound. Neither activation nor restored playback state is a Play command.
+
+If an existing explicit read-aloud/preview feature is retained, require a visible Play/Pause control. Track playback position separately from document state. For this reading/editing task, pause on leaving the app, closing the owning window, headphone disconnection, or a sustained competing audio interruption; keep position and require explicit Play to resume. A brief interruption may duck ongoing user-started audio only while the app remains active and the system permits it; if paused, return paused. This conservative resume policy is a product choice, not a universal HIG requirement. Respect selected output, system volume and silence behavior; never change global volume or take another app's external playback controls. Use a category appropriate to deliberate spoken playback only if that feature exists; do not configure a playback session merely to restore a document. No recording is specified.
+
+## Guidance basis
+
+The retention and background-work contract follows [Multitasking — Best practices and iPadOS](https://developer.apple.com/design/human-interface-guidelines/multitasking). Adaptive layouts follow [Designing for iPadOS — Best practices](https://developer.apple.com/design/human-interface-guidelines/designing-for-ipados) and [Layout — Adaptability and Size classes](https://developer.apple.com/design/human-interface-guidelines/layout). Explicit parallel windows and preserved system controls follow [Windows — Best practices and iPadOS](https://developer.apple.com/design/human-interface-guidelines/windows). Audio intent, routing and interruption distinctions follow [Playing audio — Best practices and Handling interruptions](https://developer.apple.com/design/human-interface-guidelines/playing-audio). Links identify official sources; this specification uses only installed local guidance, with no web verification.

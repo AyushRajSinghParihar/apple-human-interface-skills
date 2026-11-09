@@ -1,0 +1,1 @@
+Platform: tvOS. Screen assumes touch dragging, Menu exits and deletes the queue, Play/Pause performs Search and focus disappears when the queue updates. Some users have another supported remote/controller.

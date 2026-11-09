@@ -1,0 +1,1 @@
+Platform: iOS/macOS. One global toggle mixes urgent assigned-task alerts with marketing; disabling in-app toggle claims to override system settings and permission is requested before any project exists. Quiet hours are ignored.

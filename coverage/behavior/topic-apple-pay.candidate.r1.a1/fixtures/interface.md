@@ -1,0 +1,1 @@
+Platform: iOS. Cart presents a custom Apple Pay lookalike with modified logo, asks the user to type card details first, hides shipping/tax until after authorization and treats user cancellation as a failed order. Physical bicycles ship to a selected address.

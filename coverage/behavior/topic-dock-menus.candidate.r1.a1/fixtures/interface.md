@@ -1,0 +1,1 @@
+Platform: macOS. Proposed Dock menu duplicates all editing menus and includes destructive session deletion as the first item. Users need quick access to the current recording and recent sessions when windows are closed.

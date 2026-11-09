@@ -1,0 +1,65 @@
+# Watercolor catalog — adaptive appearance specification
+
+Platform: iOS/macOS. Preserve catalog data, artwork identity, portraits, navigation, selection, and existing actions. This is a framework-neutral specification; no implementation or assets were supplied.
+
+## Appearance and semantic roles
+
+Remove the global pixel-inversion filter, including from images and temporary presentations. Follow system Light/Dark appearance and automatic changes while running; do not add a duplicate app appearance switch. Resolve colors in the current presentation context instead of caching startup RGB values.
+
+| Element | iOS role | macOS role |
+|---|---|---|
+| Catalog canvas | ordinary system background | window background |
+| Card metadata surface | secondary system background | control background |
+| Title and essential values | primary label | primary label |
+| Artist and supporting metadata | secondary label | secondary label |
+| Dividers | separator | separator |
+| Interactive accent | adaptive system tint | user control accent |
+| Keyboard focus | native focus treatment | native keyboard focus indicator |
+
+Use these semantic roles in both appearances; do not copy system RGB swatches into constants. Never use separator colors for text. Keep metadata on its own surface outside artwork. If secondary text fails measured contrast, promote it to primary; do not reduce essential text opacity for hierarchy.
+
+On iOS, retain automatic base/elevated background adaptation, with brighter elevated surfaces in Dark appearance. Alerts must not use a frozen card background. On macOS, respect user accents and active/inactive window treatments. Colored selection states must not gain wallpaper-dependent transparency. Do not introduce custom glass for this adaptation.
+
+When appearance changes, update surfaces, labels, selection chrome, and any open alert together. Preserve selected item IDs, scroll position, keyboard focus, unfinished input, and pending alert actions. Do not dismiss or reset the interaction as a side effect.
+
+## Artwork and portraits
+
+Render watercolor reproductions and portraits as full-color content with embedded color profiles, original aspect ratios, and existing meaningful crops. Apply no inversion, template tint, desaturation, blend filter, or global dimming. White paper is part of the work; transparent reproductions that depend on a paper backing retain their intended neutral backing in both appearances.
+
+Default to the same content asset in both appearances. Only interface graphics with disappearing outlines need appearance variants under one logical identity. If white-paper glare is demonstrated in actual viewing, first adjust surrounding chrome and spacing. Slight image dimming is a candidate only after fidelity review, never a default or an export modification.
+
+Asset handoff: retain original asset identities, profiles, and scale metadata. Record dimensions and intended point sizes before deriving thumbnails; provide iOS @2x/@3x and macOS @1x/@2x bitmap outputs at those sizes. Dimensions, profiles, exports, and density sufficiency are unverified because no assets were supplied.
+
+## Selection and focus
+
+Replace the slight luminance-only change with a persistent checkmark and visible “Selected” label in the metadata area, plus a clear card outline. Unselected cards have neither selection marker nor selection outline. Use readable semantic foregrounds on an opaque metadata surface for the marker and label; accent is supplementary. Selection must not tint artwork.
+
+For native macOS collections, retain selected-content and matching selected-text roles, including inactive-window equivalents. Custom cards retain the metadata surface/label pairing above and use accent only for the outline. Show keyboard focus independently: moving focus must not imply selecting an item. Preserve existing selection actions and expose the selected state through accessibility semantics.
+
+## Temporary feedback and alerts
+
+Remove fixed white alert backgrounds and fixed black alert text. Use the platform's standard adaptive alert presentation for existing conditions requiring immediate attention; retain trigger, copy, action outcomes, and cancellation. Let the platform resolve its elevated surface, text, and button layout. Open alerts adapt without losing input or pending action state.
+
+Triggers, copy, and handlers are absent from the brief: inventory them before implementation. This revision authorizes no new destructive action or default-key behavior. Routine status requiring no decision belongs in contextual feedback with the same semantic colors. Keep important feedback available long enough to read, using explicit dismissal when attention is required. Prevent duplicate stacked presentations.
+
+## Acceptance contract
+
+On each platform test Light/Dark × Increase Contrast off/on × Reduce Transparency off/on: eight combinations per platform, including preferences separately and together.
+
+1. Inspect a white-paper watercolor, saturated wash, portrait, and selected card. Appearance changes preserve content colors, profiles, aspect ratios, and intended backing. No global filter remains.
+2. Record resolved foreground/background colors and contrast calculations for title, artist, selection label/checkmark, essential icons, and alert text against actual composited surfaces. This project requires at least 4.5:1 for these essential foregrounds; aim for 7:1 if custom colors are introduced, especially for small text. A semantic name alone does not establish contrast or accessibility conformance.
+3. Confirm iOS base/elevated separation. Inspect macOS active/inactive windows, multiple accents including graphite, and differing wallpapers. Colored selection meaning stays stable; Reduce Transparency retains readable surfaces and Increase Contrast preserves all cues.
+4. Select an item, move focus elsewhere, and switch appearance with an alert open. Selection and focus remain distinct; artwork remains unchanged; text and alert adapt. Scroll, input, and pending actions persist. Exercise every existing supported alert exit and verify original outcomes and focus restoration.
+5. Inspect selection without relying on color: checkmark, label, and outline remain identifiable. Verify selected-state exposure with target-platform accessibility tools. Enlarge text to at least 200% and confirm metadata and selection labels remain available without covering artwork or actions.
+
+These are required implementation checks, not executed results. Contrast, native rendering, assistive behavior, focus handling, asset quality, and physical glare require evidence beyond this document.
+
+## Guidance basis
+
+Official links below identify the articles behind the installed local references; they were not fetched for this task.
+
+- [Dark Mode](https://developer.apple.com/design/human-interface-guidelines/dark-mode): best practices, colors, platform considerations; system appearance, live updates, semantic hierarchy, preference testing, and conditional image dimming.
+- [Color](https://developer.apple.com/design/human-interface-guidelines/color): system colors, inclusive color, color management; role-based colors, noncolor cues, profiles, and Mac accents.
+- [Images](https://developer.apple.com/design/human-interface-guidelines/images): resolution and best practices; density and embedded profiles.
+- [Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility): vision and cognitive; readable state, enlarged text, and time to process feedback.
+- [Alerts](https://developer.apple.com/design/human-interface-guidelines/alerts): anatomy and best practices; platform-adaptive alerts and contextual routine status.

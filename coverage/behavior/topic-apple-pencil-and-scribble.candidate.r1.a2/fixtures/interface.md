@@ -1,0 +1,1 @@
+Platform: iPadOS with optional Apple Pencil. Notebook disables typing whenever Pencil is nearby, makes handwriting the only way to enter specimen IDs and uses one gesture to both erase ink and delete a whole page. Text boxes are custom canvases.

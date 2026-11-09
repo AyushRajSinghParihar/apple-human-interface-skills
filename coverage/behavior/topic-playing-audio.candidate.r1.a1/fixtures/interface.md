@@ -1,0 +1,1 @@
+Platform: iOS. Starting a silent flashcard stops the user’s music, narration continues after explicit Pause and interruption by a call restarts the lesson from the beginning at full volume. Captions/transcript data exist.

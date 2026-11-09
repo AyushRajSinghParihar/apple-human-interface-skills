@@ -1,0 +1,47 @@
+# iPhone family organizer: login and invitation field specification
+
+Platform: iOS on iPhone. This replaces the original field behavior. It is an implementable design contract, not executable code. Preserve the existing app framework and authentication service.
+
+## Scope and assumptions
+
+Login uses Email and Password. Because the original does not identify the invitation fields, this revision assumes a separate Join family form with Invitation code, accepting an opaque token supplied by an invitation. If the existing service instead uses a recipient email or invitation link, retain that service contract: use the email configuration below for email, or accept the full link without destructive conversion. Do not add extra required fields or change authentication policy. The service remains authoritative for credentials, invitation validity, expiration, and eligibility.
+
+## Field contract
+
+All fields have persistent visible labels above their inputs; placeholders are optional examples, never the only label. Mark required fields with the persistent instruction “All fields are required.” Use native system text-entry controls and semantics. Stack fields with consistent widths and clear label/error associations.
+
+| Field | Entry and meaning | Return action | Validation |
+| --- | --- | --- | --- |
+| Email | Persistent label “Email”; email keyboard and email/username sign-in semantics. Disable autocorrection and automatic capitalization. Allow paste and system credential filling. Preserve the entered address without rewriting case or characters. | Next moves to Password. | On leaving after editing, or submitting: require a nonempty, plausibly formed email address. Do not use restrictive rules that reject plus addressing, subdomains, or supported international addresses. Service determines account validity. |
+| Password | Persistent label “Password”; secure entry from first render, existing-password semantics, no correction or automatic capitalization. Accept paste and system credential filling. Never prepopulate a password from app defaults. Preserve all characters, including spaces; apply no new signup strength rules to login. | Go runs the same validation/submission as “Log in.” | Require nonempty input on submit; authenticate with service. |
+| Invitation code | Persistent label “Invitation code”; ordinary system keyboard capable of entering the complete service token, no correction or automatic capitalization. Allow paste. Treat as opaque text, not a number; preserve leading zeros, case, punctuation, and spaces unless the documented service format explicitly specifies otherwise. Do not invent token length or character restrictions. | Go runs the same validation/submission as “Join family.” | Require nonempty input on submit; service validates token. |
+
+Offer trailing Clear for populated editable fields, with an accessible name identifying the field, for example “Clear email.” Clear affects only that field, keeps focus there, and occurs only on explicit activation. Password remains secure; no reveal control is added in this revision. Single-line fields scroll to expose the caret and allow selection/editing of long values; labels and errors wrap without truncation.
+
+## Validation and state transitions
+
+1. **Editing:** Keep partial values, including an incomplete email, while typing. Do not reject keystrokes or show errors before interaction. A corrected field error clears when its local rule passes; a service rejection clears on editing the affected value and is rechecked on resubmission.
+2. **Missing data:** Keep the primary action unavailable until all required values are present; leave the required-fields instruction visible. Return on a nonfinal field still advances. Final Return with missing data focuses the first missing field and shows “Enter your email,” “Enter your password,” or “Enter an invitation code.” It makes no request.
+3. **Local validation failure:** Keep all values. Show “Enter an email address, such as name@example.com” directly below Email for malformed input. Focus the first invalid field on submission, making its label and error visible. Blur validation must not pull focus backward.
+4. **Submitting:** Send one request through the same path for Return and the primary button. Show a persistent “Logging in…” or “Joining family…” status. Prevent duplicate submission; retain the form state until the result arrives. Do not permit edits to race with the submitted snapshot.
+5. **Credential rejection:** Keep Email and the securely obscured Password. Show “Email or password wasn’t accepted. Check both and try again” associated with the credential group and available when either field is inspected. Do not falsely identify which credential is wrong.
+6. **Invitation rejection:** Keep the invitation and every other entered value. Associate “This invitation can’t be used. Check the code or ask your family organizer for a new invitation” with Invitation code. Use a more specific expired-invitation message only when the service supplies that distinction. Stay on the form and allow correction/retry; never reset the whole form.
+7. **Network failure:** Keep all values and show a persistent form-level “Couldn’t connect. Try again” message. Re-enable submission. Do not blame a field for a transport error.
+8. **Success:** Navigate to the authenticated organizer or joined family only after service confirmation. Clear the in-memory password when leaving the login flow. This specification requires preservation during correction and retry within the current form; it does not require storing secrets or invitation drafts on disk or across relaunch.
+
+## Input access and layout
+
+Keep the active field, its error, and the primary action reachable and unobscured as the iPhone keyboard appears or changes. Use the system keyboard layout guide or framework equivalent and a scrollable form, rather than a fixed keyboard-height offset. No custom keyboard is needed.
+
+Expose each field’s persistent label, editable value, required state, and associated error through native accessibility semantics; password values remain secure. Error meaning must be conveyed with text, not color alone. New submission errors must be available to assistive technology without repeated announcements on each keystroke. Keep errors visible until corrected or superseded.
+
+Hardware Tab/Shift-Tab follows visible field order and then the primary action; Clear is reachable without trapping focus. Standard activation and Return complete the same task as touch. Use system text styles with enlargement support of at least 200%; reflow labels/errors and retain all actions. Use 44 × 44 pt activation areas as the iOS default target for actions, including Clear, with adequate separation. Verify actual light/dark contrast and assistive behavior in implementation.
+
+## Guidance basis
+
+These requirements apply the local installed HIG snapshot; the exact error copy, state machine, invitation assumption, gating behavior, and retention boundaries are product decisions.
+
+- [Text fields — Best practices and iOS/iPadOS](https://developer.apple.com/design/human-interface-guidelines/text-fields#Best-practices): persistent purpose, secure entry, useful validation, logical traversal, and trailing Clear.
+- [Virtual keyboards — Best practices](https://developer.apple.com/design/human-interface-guidelines/virtual-keyboards#Best-practices) and [iOS/iPadOS](https://developer.apple.com/design/human-interface-guidelines/virtual-keyboards#iOS-iPadOS): match input semantics, clarify Return, and keep fields/actions clear of the keyboard.
+- [Entering data — Best practices](https://developer.apple.com/design/human-interface-guidelines/entering-data#Best-practices): reduce re-entry, support paste, obscure secrets, and explain required-data gating.
+- [Accessibility — Vision, Mobility, and Speech](https://developer.apple.com/design/human-interface-guidelines/accessibility): scalable text, meaningful descriptions, redundant error cues, comfortable activation, and alternative input.

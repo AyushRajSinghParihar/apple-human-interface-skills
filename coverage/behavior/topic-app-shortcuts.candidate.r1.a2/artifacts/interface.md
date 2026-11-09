@@ -1,0 +1,55 @@
+# Grocery add-item App Shortcut specification
+
+Platform: iOS. Primary task: add milk or another item to an existing shared weekly grocery list while hands are occupied. This is an interaction specification, not an SDK implementation. The app's real display name was not supplied; `{AppName}` below must be replaced with it in localized phrase definitions.
+
+## Action and discovery
+
+Expose one App Shortcut, **Add Item**, backed by an add-item App Intent. Place it first among the app's supplied shortcuts because this is the known repeated task. Use a plus SF Symbol, subject to SDK symbol validation. Make it available with installation without requiring the person to build a shortcut. Target Siri, Shortcuts, and eligible Spotlight results; the system controls actual presentation and ranking.
+
+Activation phrase variants: “Add an item with {AppName}” and “Add to {List} with {AppName}.” Each phrase contains the app name once. Only List is exposed as an optional phrase parameter. Item is collected in subsequent dialogue; do not advertise a phrase requiring item, list, quantity, and row ID together.
+
+After the third successful in-app add to the same list, show one dismissible inline tip: “Add items hands-free. Say ‘Add an item with {AppName}’ to Siri.” Do not show it during Siri execution; dismissal suppresses it permanently and display occurs at most once. Keep the shortcut discoverable through system surfaces after dismissal. This threshold is a product choice, not an Apple requirement.
+
+## Parameters and resolution
+
+| Input | Contract |
+| --- | --- |
+| List | Optional phrase parameter represented by a named list entity. Offer accessible, writable lists with familiar display names. Keep stable identifiers internal; never ask for a database row ID. Distinguish same-named lists with a familiar household/owner label. |
+| Item | Required text, asked after list resolution: “What item would you like to add to Weekly?” Substitute the resolved list name. Reject empty input by repeating the specific question. Preserve the person's item wording; quantity parsing is outside this action. |
+
+When List is omitted, propose the last successfully used writable list: “Add to Weekly?” Accept yes or a different list name. If no history exists, propose the sole writable list. With multiple lists and no history, ask “Which grocery list?” and offer up to three recently used writable names. With more choices, ask for a list name rather than reciting the full set. No valid candidate means no guessed destination.
+
+Resolve names against current account access. Ambiguous names require a named choice before writing. A stale identifier must never silently resolve to a different list, even if it has the same name. Selecting a replacement applies only to this invocation; update the recent-list default only after a successful add.
+
+## Execution and response contract
+
+Use system-provided audible and visual response presentation; no custom snippet or Live Activity is required for this immediate action. Every essential outcome below must be spoken and shown as text. Use brief dialogue without app-name repetition; system attribution supplies the app identity. Finish ordinary adds without opening the app.
+
+| State | Required behavior and dialogue |
+| --- | --- |
+| Ready | Resolve and validate list, collect item, recheck write access, then persist one item. No extra confirmation for an ordinary add after destination and item are resolved. |
+| Committed | Only after durable save: “Added milk to Weekly.” Substitute actual item and list. A local save awaiting shared sync instead says “Added milk to Weekly on this device. Sharing is pending.” Never imply other members have received it before sync is known. |
+| List removed or access lost | “Weekly is unavailable. Nothing was added. Which grocery list should I use?” Offer writable alternatives and retain the pending item. Revalidate the selected replacement before saving. Do not create a replacement list automatically. |
+| No writable lists | “There’s no grocery list you can add to. Open {AppName} to create or join a list.” Offer to open the list-management destination; do not open automatically or claim an add. |
+| Ambiguous list | “Which Weekly list: Home or Cabin?” Use actual distinguishing labels. No write until resolved. |
+| Save definitely failed | “Milk wasn’t added to Weekly. Try again.” Retain the resolved inputs for an explicit retry. |
+| Save outcome unknown | “I couldn’t confirm whether milk was added to Weekly. Check the list before trying again.” Do not retry blindly; reconcile the invocation's operation identifier before another write. |
+| Cancel before commit | Stop without writing: “Canceled. Nothing was added.” Cancellation after commit must report the completed add, not claim it was canceled. |
+| Account/authentication required | “Sign in to {AppName} to add items.” Offer the relevant app destination; retain pending inputs only for the current continuation and revalidate access afterward. |
+
+Use an operation identifier to prevent duplicate writes from retries within one invocation. Separate intentional invocations may add the same item again. If a requested list disappears between resolution and save, follow the unavailable-list recovery, not success. No silent error paths.
+
+## Release acceptance contract
+
+- Fresh installation exposes Add Item without manual shortcut construction; inspect Shortcuts and eligible Spotlight presentation on a supported iOS client. System ranking is not guaranteed.
+- Both phrase variants resolve the app and action; no user-facing prompt contains an internal ID. Verify localized phrases with the actual app name.
+- Omitted List proposes the valid recent list; no-history, ambiguous names, removed lists, and revoked access follow the paths above without an unintended write.
+- An eyes-away run can choose a list, supply milk, and hear the item, destination, and actual completion status without relying on visual content.
+- Cancel before save produces zero writes; successful invocation produces one; retry after uncertain completion cannot duplicate it. Shared-sync pending is not reported as shared completion.
+- Tip timing and dismissal match the discovery contract. Ordinary adds stay in context; only the specified recovery paths offer app opening.
+
+## Design basis
+
+[App Shortcuts — Best practices](https://developer.apple.com/design/human-interface-guidelines/app-shortcuts#Best-practices) supports a common complete task, one optional predictable parameter, follow-up input, and contextual teaching. Its [editorial guidelines](https://developer.apple.com/design/human-interface-guidelines/app-shortcuts#Editorial-guidelines) support brief app-named phrases; its [iOS guidance](https://developer.apple.com/design/human-interface-guidelines/app-shortcuts#iOS-iPadOS) supports a symbol and initial task ordering.
+
+[Siri — Customizing your app’s experience](https://developer.apple.com/design/human-interface-guidelines/siri#Customizing-your-apps-experience-with-Siri) supports specific follow-ups, standalone speech, concise responses, and precise failures without redundant attribution. [Writing — Best practices](https://developer.apple.com/design/human-interface-guidelines/writing#Best-practices) supports clear actions and remedies. Default ranking, tip threshold, persistence, sync, and retry rules above are product decisions that make those principles concrete.

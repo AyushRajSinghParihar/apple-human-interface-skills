@@ -1,0 +1,1 @@
+Platform: iOS. Every checkbox triggers 8 seconds of confetti, the background continuously parallax-scrolls and Reduce Motion currently removes the checkmark as well as the animation. Status changes must remain understandable.

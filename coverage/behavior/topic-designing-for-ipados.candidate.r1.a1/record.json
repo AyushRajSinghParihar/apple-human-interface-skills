@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "run_id": "topic-designing-for-ipados.candidate.r1.a1",
+  "case_id": "topic-designing-for-ipados",
+  "variant": "candidate",
+  "repetition": 1,
+  "attempt": 1,
+  "status": "completed",
+  "case_path": "evals/cases/topic-designing-for-ipados.json",
+  "case_hash": "93aa5cda10a63234b06b09ac8fd22e821952b3fb76320c14ac33b90d14658d52",
+  "harness_hash": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
+  "model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.164.0",
+  "started_at": "2026-10-25T19:45:03+00:00",
+  "finished_at": "2026-10-25T19:47:34+00:00",
+  "package_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "references/topic-index.md": "7a8093fc17f3a55c224bbc66fb34694a73f86bc1b23f69af10dd91183ca3b22d",
+    "subskills/apple-hig-foundations/.topics/apple-hig-layout/SKILL.md": "af36338117a4a4828da6c9c632cff2e731f1bd283623a8c9d4ca887634bf526d",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-foundations/references/layout.md": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ipados/SKILL.md": "bab461744c2c2e80ba7700b1226eb963d8f0290f58e36628276ff2712c8e5ae0",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-getting-started/references/designing-for-ipados.md": "d670289eeee3245ebe7887724472b89f1ab73284bc70081a76c604ccb0d182af",
+    "subskills/apple-hig-inputs/.topics/apple-hig-apple-pencil-and-scribble/SKILL.md": "900ae0c5307ef825bf814c74ee599308afbb92facb187f9df6ce95a3b54070b9",
+    "subskills/apple-hig-inputs/.topics/apple-hig-focus-and-selection/SKILL.md": "2f90688afb4de2ff2c5c0140422ff1e7f452b754926198611fff4835a1121569",
+    "subskills/apple-hig-inputs/.topics/apple-hig-gestures/SKILL.md": "2d43cf0c7c28923ce01a2077a103ed16e361c4ad429848bd5473009b01cdacd4",
+    "subskills/apple-hig-inputs/.topics/apple-hig-keyboards/SKILL.md": "7ffd8732a263bfd94ae7133a346e691f33436c7cd54d6b0545943911e58d1c64",
+    "subskills/apple-hig-inputs/.topics/apple-hig-pointing-devices/SKILL.md": "ceab1ac29bea0615fa4a9d773ae697bbc89d11a2014d7d40d2f861751ae3e3db",
+    "subskills/apple-hig-inputs/SKILL.md": "a1843cc0d7dbb04b876a7c28e511aa5124e7fe2797d8e8eb1417434892676f29",
+    "subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md": "0fcee0116f268e458f9e47f275ed5fae76219ffc6b760942c1507305fcb0f5a2",
+    "subskills/apple-hig-inputs/references/focus-and-selection.md": "047a59cbaede962d61a854258581b40279a4a9409eeb26b9fa2492761e4a4705",
+    "subskills/apple-hig-inputs/references/gestures.md": "5f9857088a6b5bd5c29b6cc7dd82b39f5147a66817f07f37f9095282da3b4950",
+    "subskills/apple-hig-inputs/references/keyboards.md": "b855e9aaacfeb270fe5114c7ba14dfc895d67e4a023885bca6aa6a6b9dc09eb4",
+    "subskills/apple-hig-inputs/references/pointing-devices.md": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa",
+    "subskills/apple-hig-layout-and-organization/.topics/apple-hig-split-views/SKILL.md": "f634edfb23f12b8d75422442107e2318a8cdd414ce5063332e0856455244c360",
+    "subskills/apple-hig-layout-and-organization/SKILL.md": "805026039df393a761af77c979405bea98424b088ebb9e962cf47d17e949ac28",
+    "subskills/apple-hig-layout-and-organization/references/split-views.md": "77be4895d0aa70a9761cceb8299a6cf19a78fa6d61a3929cbc1bd1b3c929402f",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-toolbars/SKILL.md": "cd3b123f797a9a745aaeabc94219fd7e4bf790d118ab7591a73e9c538528a783",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "14799ee137928eb6532e16130cef07a3b93cc4e7ca7792a8ba711c0e5f1257f0",
+    "subskills/apple-hig-menus-and-actions/references/toolbars.md": "eeb849eb40705b713a7d53dd78284b13b587a07da8e66bc40921b1c46624f60e"
+  },
+  "discovery_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "subskills/apple-hig-content/SKILL.md": "e911021fc5cb63ee1dbc4dbf5f29c3a258e4bcdfa16799f6a68a3640780a1fb0",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-inputs/SKILL.md": "a1843cc0d7dbb04b876a7c28e511aa5124e7fe2797d8e8eb1417434892676f29",
+    "subskills/apple-hig-layout-and-organization/SKILL.md": "805026039df393a761af77c979405bea98424b088ebb9e962cf47d17e949ac28",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "14799ee137928eb6532e16130cef07a3b93cc4e7ca7792a8ba711c0e5f1257f0",
+    "subskills/apple-hig-navigation-and-search/SKILL.md": "9c61db72d99a7b3cefea67557f02ae06ad76254e20b149c55731581a74137f3d",
+    "subskills/apple-hig-patterns/SKILL.md": "194e6f42bf32d325e016cc145b3d8c624c245eed46be1e0098c405c256a9b99e",
+    "subskills/apple-hig-presentation/SKILL.md": "51b48d2737ea0c2af406693bf257078638c46b7f5639f243463a5e1316ae727c",
+    "subskills/apple-hig-selection-and-input/SKILL.md": "605ab44039a43da80a817630076fa72896a66c29a0801e989c2f3809cbdd4527",
+    "subskills/apple-hig-status/SKILL.md": "d49120e41401fed66fcdd00efe00e06438df01cf320102bbfaace44276ebe756",
+    "subskills/apple-hig-system-experiences/SKILL.md": "c6231529b355d669e32660096e4b1a8e60e731a5473499c539c5827b18619e33",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d"
+  },
+  "thread_id": "01a17498-5962-7013-8324-6d8b78e14ada",
+  "reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-layout/SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/references/layout.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ipados/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ipados.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-apple-pencil-and-scribble/SKILL.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-focus-and-selection/SKILL.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-gestures/SKILL.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-keyboards/SKILL.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-pointing-devices/SKILL.md",
+    "subskills/apple-hig-inputs/SKILL.md",
+    "subskills/apple-hig-inputs/references/apple-pencil-and-scribble.md",
+    "subskills/apple-hig-inputs/references/focus-and-selection.md",
+    "subskills/apple-hig-inputs/references/gestures.md",
+    "subskills/apple-hig-inputs/references/keyboards.md",
+    "subskills/apple-hig-inputs/references/pointing-devices.md",
+    "subskills/apple-hig-layout-and-organization/.topics/apple-hig-split-views/SKILL.md",
+    "subskills/apple-hig-layout-and-organization/SKILL.md",
+    "subskills/apple-hig-layout-and-organization/references/split-views.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-toolbars/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/toolbars.md"
+  ],
+  "required_reads": [
+    "SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ipados/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ipados.md"
+  ],
+  "routing": {
+    "missing": [],
+    "passed": true,
+    "unexpected_hig_reads": false
+  },
+  "artifacts": {
+    "result.md": {
+      "path": "coverage/behavior/topic-designing-for-ipados.candidate.r1.a1/artifacts/result.md",
+      "hash": "537b944db7864fe54020bdb4413afa6877b58396898d54929644cf9d0a0bbaaf"
+    }
+  },
+  "transcript": {
+    "path": "coverage/behavior/topic-designing-for-ipados.candidate.r1.a1/events.jsonl",
+    "hash": "fac3d7772437734fd01a4b33610f0a091b492b7da6fd5d7065eab959597a41eb"
+  },
+  "checks": {
+    "discovery": {
+      "visible_hig_count": 14,
+      "expected_visible_hig_count": 14,
+      "unrelated_enabled": [],
+      "hidden_topics_visible": [],
+      "disabled_unrelated_count": 83
+    },
+    "missing_artifacts": [],
+    "changed_inputs": {
+      "interface.md": false
+    },
+    "adaptation_changed": true,
+    "passed": true,
+    "exit_code": 0,
+    "turn_completed": true,
+    "malformed_event_count": 0,
+    "forbidden_reads": [],
+    "package_changed": []
+  },
+  "baseline_commit": null,
+  "final_message": {
+    "path": "coverage/behavior/topic-designing-for-ipados.candidate.r1.a1/final-message.txt",
+    "hash": "4a55b5e19dc0ff4bd049a85bf3692e6e4f7a369c73610cc1b92d3015b9c8b657"
+  }
+}

@@ -1,0 +1,1 @@
+Platform: iOS, some devices may not support requested haptics. Every keystroke has a heavy impact and an upload failure is signaled only by a vibration. Haptic-off preference removes all confirmation information.

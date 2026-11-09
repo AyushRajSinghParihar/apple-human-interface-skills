@@ -1,0 +1,48 @@
+# Selected-file actions in an archive
+
+Platforms: macOS and iPadOS. This specification covers Rename and Delete for archive entries, preserving both targets in the original brief. It does not add unrelated app commands to the file menu.
+
+## Target and selection contract
+
+- Secondary-click or Control-click a selected entry on Mac: preserve the entire selection and open its contextual menu. On iPad, touch-and-hold or secondary-click uses the same target rules; use a context menu, not a competing edit-menu gesture.
+- Invoke on an unselected entry: replace the selection with that entry before opening the menu. Keep the affected entries visibly selected while it is open.
+- Invoke on empty archive space: show no file-action context menu; leave selection unchanged. App-wide commands remain in their normal surfaces.
+- Freeze the selected entry IDs and archive identity when the menu opens. Show “N Selected Files” as a scope title for multiple selection. Never substitute the last clicked entry for this target set. Dismiss if selection or active archive changes before activation.
+- All routes use the same command eligibility and target resolver. At activation, revalidate every target and archive write permission. If any target is missing, locked, or otherwise ineligible, do nothing, report the reason, and refresh availability. Do not silently process an eligible subset.
+
+## Command surfaces and availability
+
+The contextual menu is a short supplemental shortcut. Its tree, in reading order, is:
+
+1. Rename… — exactly one selected entry, writable archive, and a renameable entry.
+2. Separator, only when both groups are present.
+3. Delete — at least one selected entry, writable archive, and every selected entry deletable.
+
+Hide ineligible contextual commands. If neither command qualifies, show no menu. No unrelated global commands, keyboard equivalents, icons, or nested submenus appear here. Keep comparable entries consistent. Keep Delete in the final group; on iPadOS assign the destructive role. Placement must keep the short menu readable above or below the target; verify native placement rather than manually reversing commands blindly.
+
+On macOS, expose File > Rename… and Edit > Delete. Put Undo and Redo first in Edit, with Command-Z and Shift-Command-Z. These commands act on the active archive's selected entries, not the archive document itself. Keep Rename… and Delete present but dimmed when ineligible, including no open archive or no selection. Keep their parent menus openable. Other app commands retain their appropriate main-menu locations.
+
+On iPadOS, provide a persistent, labeled Selection command area in the archive view with Rename… and Delete, plus Undo and Redo. This is an in-app route that does not depend on a context gesture, hardware keyboard, or menu bar. Keep ineligible actions visible and disabled. Show the selection count beside it; when none are selected show “No Files Selected.” If an iPad menu bar is supplied, mirror these commands there without relying on its visibility.
+
+## Action lifecycle and recovery
+
+Rename… asks for a new entry name. Prefill the current name; Cancel changes nothing and preserves selection. Validate a nonempty name, archive naming constraints, and collisions before committing; explain invalid input and allow correction. A successful rename preserves entry identity and selection. It is one undoable operation. The ellipsis denotes required further input.
+
+Delete immediately removes all targeted entries from the archive as one undoable batch; it does not delete source files outside the archive. Retain the data and metadata needed to restore all entries. If safe restoration cannot be guaranteed, Delete is ineligible under this specification; irreversible deletion needs a separately designed flow. During either mutation, disable mutation actions and reject duplicate activation. On failure, retain or restore the whole pre-operation state, preserve selection, and show a recoverable error; never report success after a partial update.
+
+After successful deletion, clear the removed selection and keep the archive view at its current position. Undo Delete restores every entry, its original path, content, metadata, and prior selection, revealing the restored selection if offscreen. Undo Rename restores the prior name. Redo reapplies the same complete operation. Use labels Undo Delete / Redo Delete and Undo Rename / Redo Rename. New edits after Undo clear Redo. Keep meaningful history for the open archive session across saves; closing the archive ends that session. On iPad preserve standard undo gestures in addition to the visible route.
+
+## Acceptance contract
+
+1. With A and B selected and B last clicked, invoke on A: both remain highlighted, the title says “2 Selected Files,” Rename… is absent, and Delete targets A and B. Undo restores both and their selection.
+2. With A and B selected, invoke on unselected C: only C becomes selected; Rename… and Delete target C. Canceling the menu makes no mutation.
+3. Empty-space invocation offers neither Rename… nor Delete. Zero selection disables both in ordinary/visible surfaces.
+4. With one eligible entry, Rename… works via File on Mac and the labeled command area on iPad, without opening a context menu. Two entries disable ordinary Rename… and hide contextual Rename….
+5. Read-only archives and mixed eligible/ineligible selections hide contextual mutations but retain dimmed ordinary commands. Repeating identical conditions yields identical availability. No eligible-subset deletion occurs.
+6. Change selection, switch archive, or invalidate a target while the menu is open: no stale command affects another item. A failed mutation leaves all original entries intact.
+7. Exercise rename, delete, undo twice, redo twice, then undo and make a new edit: names, bytes, paths, selection, history labels, and Redo invalidation match this contract. Save preserves history; close/reopen starts a new session.
+8. On both platforms verify menu placement above/below, comparable objects, localized labels, keyboard and assistive navigation, disabled-state perception, and access without a context gesture. These are execution checks, not established by this document.
+
+## Guidance basis
+
+The contextual scope, alternate routes, hiding rule, Mac exception for dimmed Cut/Copy/Paste (not introduced here), and iPad destructive role follow [Context menus: Best practices and platform considerations](https://developer.apple.com/design/human-interface-guidelines/context-menus#Best-practices). Stable dimmed ordinary commands and ellipses follow [Menus: Labels](https://developer.apple.com/design/human-interface-guidelines/menus#Labels). Mac placement and iPad in-app access follow [The menu bar](https://developer.apple.com/design/human-interface-guidelines/the-menu-bar#Platform-considerations). Recovery labels and shortcuts follow [Undo and redo](https://developer.apple.com/design/human-interface-guidelines/undo-and-redo#Best-practices). Selection replacement, atomic batches, exact eligibility, visible iPad command area, and archive-history policy are concrete product decisions in this revision, not quoted universal HIG requirements.

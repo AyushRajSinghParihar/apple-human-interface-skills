@@ -1,0 +1,1 @@
+Platform: macOS. A bar chart starts at 48 and exaggerates 50 versus 54 appointments, has unlabeled axes, red/green series without another distinction and no textual values or accessibility description. Counts are daily nonnegative totals; no screenshot is supplied.

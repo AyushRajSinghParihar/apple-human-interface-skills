@@ -1,0 +1,1 @@
+Platform: iPadOS. Fixed 1024x768 layout pins actions to absolute coordinates, clips long item names, puts controls beneath system bars and discards selection when a second window opens. Stock count can be zero or five digits.

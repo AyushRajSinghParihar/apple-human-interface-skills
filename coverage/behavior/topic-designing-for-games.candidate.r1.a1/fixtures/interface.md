@@ -1,0 +1,1 @@
+Platforms: iPhone and Apple TV. Current prototype requires reading a long tutorial before play, uses color-only tiles and assumes touch dragging on every device. Losing forces a purchase screen. Sessions should be short and resumable.

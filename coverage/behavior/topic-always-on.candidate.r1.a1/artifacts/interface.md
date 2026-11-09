@@ -1,0 +1,44 @@
+# Workout summary — watchOS Always On specification
+
+Scope: Apple Watch hardware supporting Always On, when the system presents this app frontmost or through an eligible background session. Always On availability and scheduling remain system controlled. No framework or minimum OS version is specified by the supplied project; implementation must verify both against its SDK. If Always On is disabled or unavailable, use the normal system inactive display behavior and restore the active summary on return.
+
+## Task and stable structure
+
+Let the wearer glance at the same workout summary when lowering the wrist and return to its private details when raising it. Preserve the workout identity, stored data, route, selected detail and scroll position across presentation changes. Lowering the wrist must not end a workout, discard history, or navigate elsewhere.
+
+Use a dark background and stable slots in this order: “Workout summary” heading, duration, freshness/status line, heart-rate history region. Duration is the primary glance value. Keep each slot's frame and baseline consistent across active and dimmed states; redaction replaces content within its slot. Do not reflow the screen on wrist changes. This specification introduces no new controls; any existing controls retain their frames and use an unavailable appearance while dimmed, returning to active appearance in place.
+
+The source does not establish whether this summary represents a completed or ongoing workout. Preserve its actual lifecycle: a completed duration remains final; an ongoing duration is explicitly a snapshot. Do not infer completion from wrist state.
+
+## Field and state contract
+
+| Field | Active, wrist up | Always On, wrist down |
+| --- | --- | --- |
+| Heading | Workout summary | Same text and position; secondary emphasis |
+| Duration | Exact available duration, labeled “Duration” for completed or “Elapsed” for ongoing | Same confirmed value and units; primary legible text. An ongoing value is labeled “Elapsed at last update” |
+| Freshness | Completed: “Completed”. Ongoing: “Updated at [local time]” using the data timestamp | Completed: “Completed”. Ongoing: “Last update [local time]”; never label a cached snapshot “Live” |
+| Private heart-rate history, including samples, chart, axes, aggregate values and tooltips | Display available authorized history; if absent or access is unavailable, show “Heart-rate history unavailable” | Replace the whole history region with “Heart-rate details hidden”; expose no numeric values or chart traces |
+| Decorative pulse | Remove the recurring pulse; it conveys no necessary summary information | No repeated animation, flashing, second ticks or chart drawing |
+| Secondary fills/detail | Normal system active presentation | Reduce fills and colored area; retain legible primary text against the dark background. Do not force maximum brightness or set a fixed brightness percentage |
+
+Privacy decision: duration supplies expected workout context with less exposure than full health history. Retaining duration is a product choice, not permission to expose all workout data. If the system requires more restrictive privacy treatment, redact duration and its timestamp in their existing slots too, using “Workout details hidden.” Never bypass system hiding. Redaction changes presentation only: keep authorized stored history for active use. This adaptation adds no collection, transfer, storage or permission request; existing authorization remains a prerequisite for displaying health data.
+
+## Transitions and updates
+
+1. **Active → dimmed:** respond to the system presentation change. Apply health redaction before the dimmed frame is displayed. Settle any in-flight decorative motion to rest with the platform's built-in transition if a transition frame is available; never delay privacy redaction to finish animation. With no frame opportunity, render the static state immediately. New summaries have no ongoing pulse to settle.
+2. **While dimmed:** render from the most recent confirmed snapshot. Do not start a second-by-second UI timer, synthesize missing samples, extrapolate duration or assume refresh callbacks will arrive. For ongoing summaries, coalesce available updates to at most one visible snapshot per minute, only when the system permits; this is a product cap, not a guaranteed watchOS cadence or HIG numeric rule. Keep the absolute last-update timestamp unchanged when no new data arrives. Completed summaries require no periodic refresh. Redaction and lifecycle changes apply promptly when delivered, independent of this cosmetic update cap.
+3. **Dimmed → active:** wrist raise or system-recognized activation restores normal contrast and the same content positions, with no replay of the pulse. Restore private history only when active and authorized. Show cached data with its original timestamp while requesting the next permitted refresh; replace values when confirmed data arrives. Failed refresh retains cached content and shows “Update unavailable · Last update [time]”. A summary with no confirmed snapshot shows “Summary unavailable” instead of fabricated values.
+4. **Interrupted transitions:** the newest system state wins; do not queue animations or block interaction. Use system appearance transitions; no custom easing or travel is required. Reduced motion uses immediate content/appearance changes with the same labels, redaction and retained state. State must be understandable without animation.
+
+## Acceptance contract
+
+- Lower and raise the wrist with heart-rate detail visible: all health traces and numeric history disappear in the first dimmed frame, and authorized detail returns in the same region on activation.
+- Compare paired states at the same scroll position: heading, duration, status, history region and any supplied controls retain their frames; primary duration remains readable at actual dimmed brightness.
+- Withhold refresh delivery for five minutes during an ongoing workout: no seconds animate, the confirmed duration remains unchanged, and the original last-update time remains visible. On activation, cached values stay identified until confirmed refresh succeeds; failure shows the specified status.
+- Deliver multiple snapshots within a minute: only the latest eligible snapshot is presented under the cap; no burst of intermediate updates or animation occurs. Completed duration stays fixed.
+- Rapidly alternate wrist states, including with reduced motion: the latest state wins, redaction never waits for motion, and workout identity/selection/scroll position survive.
+- Exercise unavailable data, revoked access, stricter system privacy and Always On disabled: no health values leak, no values are invented, and active recovery follows current authorization and system presentation.
+
+## Guidance basis
+
+Local installed HIG snapshot only: [Always On — Best practices](https://developer.apple.com/design/human-interface-guidelines/always-on#Best-practices) supports useful context, redaction, stable layout, reduced visual activity and subtle updates. [Designing for watchOS — Best practices](https://developer.apple.com/design/human-interface-guidelines/designing-for-watchos#Best-practices) supports a focused glance. [Privacy — Best practices](https://developer.apple.com/design/human-interface-guidelines/privacy#Best-practices) supports protecting granted data and minimizing access. [Motion](https://developer.apple.com/design/human-interface-guidelines/motion#Providing-feedback) supports interruptible, meaningful transitions; its watchOS section qualifies easing support. Links identify source articles; they were not fetched. Runtime acceptance remains unexecuted.

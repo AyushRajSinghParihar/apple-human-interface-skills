@@ -1,0 +1,1 @@
+Platform: watchOS on hardware supporting Always On. The wrist-down state runs a pulsing second-by-second animation, retains the full private heart-rate history at maximum brightness and shows no clear transition on wrist raise. Data refresh is not guaranteed while dimmed.

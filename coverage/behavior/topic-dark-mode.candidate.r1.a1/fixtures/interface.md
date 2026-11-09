@@ -1,0 +1,1 @@
+Platform: iOS/macOS. Global filter inverts every pixel, including artwork and artist portraits. Fixed black text disappears on dark cards, selection changes only luminance slightly and temporary alerts remain blinding white.

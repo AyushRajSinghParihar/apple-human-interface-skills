@@ -1,0 +1,3 @@
+Updated [interface.md](interface.md) to cap total attempts at three, retry only allowlisted transient statuses, and preserve the job ID.
+
+Created [result.md](result.md) with decisions, acceptance checks, and missing evidence. Local document checks passed; backend enforcement remains unverified because no implementation or runtime evidence was supplied.

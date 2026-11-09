@@ -1,0 +1,68 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,63 @@
+-Platform: macOS. App places all commands in a custom in-window hamburger menu, replaces standard Undo with Publish and gives Save a changing shortcut. Window commands operate on a hidden document instead of the active one.
+\ No newline at end of file
++# Mac database editor menu specification
++
++Platform: macOS. Replace the custom in-window hamburger command catalog with the system application menu bar. Any retained contextual commands share the menu command's target, validation, and dispatch. Preserve the existing framework; no SDK choice is implied.
++
++## Product contract
++
++The brief establishes Undo, Save, Publish, and window commands but supplies no complete command inventory or persistence semantics. This revision defines Save as persistence of a local database change draft, and Publish as applying a saved draft to its configured database. These are proposed product decisions, not observed backend behavior. Inventory additional existing hamburger commands and give each an appropriate menu-bar route before removing the hamburger. Do not invent query, export, rich-text, tab, or version-history features to fill menus.
++
++## Menu tree
++
++`App` means the actual short product name. Semicolons separate items; dashes are separators. Unmarked commands have no default shortcut. Use system menu rendering for keyboard equivalents.
++
++| Menu | Ordered items |
++| --- | --- |
++| Apple | System-owned; untouched |
++| App | About App; —; Settings… (⌘,); —; Services (system submenu); —; Hide App (⌘H); Hide Others (⌥⌘H); Show All; —; Quit App (⌘Q) |
++| File | Close (⌘W); —; Save (⌘S) |
++| Edit | Undo [Action] (⌘Z); Redo [Action] (⇧⌘Z); —; Cut (⌘X); Copy (⌘C); Paste (⌘V); Delete; Select All (⌘A) |
++| View | Enter Full Screen / Exit Full Screen (⌃⌘F) |
++| Database | Publish… |
++| Window | Minimize (⌘M); Zoom; —; Bring All to Front; —; alphabetical list of open document windows |
++| Help | App Help |
++
++This is a meaningful minimum subset of standard commands. Omit Format because rich-text editing is not established. Put Database between View and Window for the database-specific Publish operation; keep Help last. Zoom toggles content-appropriate size and previous user size, independently of full screen. App Help opens real workflow documentation. Settings… is app-wide, not document-specific. Use standard Services and hide/show behavior. No hidden modifier-only alternates are introduced; future alternates require visible routes.
++
++## Target and command rules
++
++- App commands affect the application. Quit runs ordinary close handling for unsaved documents and supports cancellation.
++- Document commands use the active document window. When a document-owned utility panel is key, text editing follows its focused field while Save and Publish use its visible main document owner. Standalone Settings and Help windows supply no document context. Never fall back to a cached, hidden, minimized, or previously active document. Without an eligible document, disable document actions.
++- Validate on menu opening and again on invocation, resolving the current context. Once asynchronous work begins, capture document identity and revision; later activation changes never redirect its result.
++- Save always means local draft persistence and always uses ⌘S, regardless of selection, connection, or window state. Enable for a dirty writable draft without a conflicting pending operation. A first save may request name/location through the normal save flow. Cancellation or failure preserves the dirty draft. Success marks only the saved revision clean; subsequent edits remain dirty. Save never publishes or clears undo history.
++- Undo and Redo stay first in Edit and never invoke Publish. Use precise labels such as Undo Edit Cell and Redo Edit Cell, or disabled Undo/Redo when history is empty. Focused text fields use their own history; other draft edits use the active document's history. One committed cell edit is one history unit: undo restores its previous value; redo restores the new value. New editing after undo clears the redo branch. Preserve meaningful history through saves during an open session; reopening starts fresh history. Reveal and select restored offscreen cells.
++- Cut copies selected editable content before removal; Copy preserves the source; Paste inserts compatible clipboard content; Delete removes without changing the clipboard. All operate only in the focused editor. Disable mutations in read-only content, Cut/Copy/Delete without selection, and Paste without a compatible payload and editable destination. Select All covers the focused editor's content, not every database object. Draft mutations register reversible document history.
++- Publish… opens review identifying document, configured database, and exact saved revision, with explicit Publish and Cancel actions. No default shortcut is assigned. Enable only for a saved unpublished revision with a reachable destination, permission, and no pending publish. Dirty drafts require Save first. Cancellation has no external effect. Confirmation captures the target/revision, prevents duplicate submission, and freezes draft mutation in that document until resolved. Success marks the revision published and starts a fresh draft history baseline. Failure preserves the draft for retry; an indeterminate network outcome requires checking server status before resubmission. Undo must never claim to reverse a completed database publish. Server reversal is outside this specification.
++- Close acts on the active document window; an auxiliary window closes itself. A dirty document offers Save, discard local changes, or Cancel before closing. Minimize and Zoom target the active eligible window, never a hidden document. Bring All to Front preserves sizes, positions, and document contents. A Window-list entry activates that exact document, restoring it if minimized. Disable Minimize and Zoom with no eligible window; keep Window openable.
++
++## Presentation and access
++
++Keep unavailable ordinary commands visible and dimmed, even if every child is unavailable; parents remain openable. Use brief title-case action labels, logical separators, and real submenus. Publish… needs an ellipsis because review input is required; retain the standard Save name. Full-screen labels describe the next action. No decorative icons are required.
++
++Use native menu keyboard navigation, preserving system keyboard and accessibility shortcuts. Menu clicks and shortcuts share validation and dispatch. Users must be able to save, undo/redo, review/cancel publishing, and activate windows without a pointer. Do not intercept text-entry keys for unrelated actions. Fullscreen retains standard macOS menu-bar reveal behavior.
++
++## Acceptance scenarios
++
++1. With no document, App and Help remain usable; Save, Publish, and document history actions are visible and disabled. Empty selection, read-only content, and incompatible clipboard data disable only ineligible editing actions.
++2. Edit a cell in A, Save with ⌘S, Undo with ⌘Z, and Redo with ⇧⌘Z. Verify values, labels, and dirty state. Save never publishes. New editing after undo clears redo; offscreen restoration becomes visible. Save retains history; close/reopen starts fresh history.
++3. Open A and B, hide/minimize A, and activate B. Save, Undo, Publish review, Close, Minimize, and Zoom target B as applicable. Selecting A in Window changes subsequent document targets to A. Repeat with a key document-owned panel and standalone Settings to verify ownership rules.
++4. Start publishing A and activate B: completion remains attached to A. Review cancellation has no external effect, pending activation cannot submit twice, failure retains the draft, and unknown outcomes require status resolution. Success creates a fresh local history baseline without offering false server rollback.
++5. Compare menu clicks and shortcuts in clean, dirty, read-only, disconnected, permission-denied, pending, and no-window states. ⌘S remains stable even when disabled. Cancel closing a dirty document and verify the work remains intact.
++6. With in-window command UI absent, complete edit/save/publish-review/cancel/window-selection by keyboard. On macOS, check Full Keyboard Access, VoiceOver labels and states, international keyboard layouts, long localized labels, resizing, close/reopen, and full-screen menu access.
++
++These are acceptance requirements, not executed runtime results.
++
++## Source basis
++
++Applied from installed local HIG guidance; official links were not fetched:
++
++- [The menu bar](https://developer.apple.com/design/human-interface-guidelines/the-menu-bar): standard placement, scope, Edit ordering, Window versus View, and dimmed commands. The local guide flags conflicting general/specialized custom-menu ordering wording; use the concrete Database placement above rather than a universal ordering claim.
++- [Menus](https://developer.apple.com/design/human-interface-guidelines/menus): labels, ellipses, grouping, and availability.
++- [Keyboards](https://developer.apple.com/design/human-interface-guidelines/keyboards): standard bindings and keyboard access.
++- [Undo and redo](https://developer.apple.com/design/human-interface-guidelines/undo-and-redo): action labels, meaningful history units, visible restoration, and Mac shortcuts.
++- [Edit menus](https://developer.apple.com/design/human-interface-guidelines/edit-menus): selection and clipboard semantics.
++- [Windows](https://developer.apple.com/design/human-interface-guidelines/windows): main/key identity and standard window behavior.

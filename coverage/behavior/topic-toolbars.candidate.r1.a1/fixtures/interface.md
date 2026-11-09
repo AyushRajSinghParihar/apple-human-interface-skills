@@ -1,0 +1,1 @@
+Platform: macOS. Toolbar contains a scrollable article, tiny differently styled action icons and Delete dominates Save. Narrow windows simply clip tools; several essential actions exist only in hover controls.

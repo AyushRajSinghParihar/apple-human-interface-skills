@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "run_id": "stress-backend-negative.candidate.r1.a2",
+  "case_id": "stress-backend-negative",
+  "variant": "candidate",
+  "repetition": 1,
+  "attempt": 2,
+  "status": "completed",
+  "case_path": "evals/cases/stress-backend-negative.json",
+  "case_hash": "e0e6a4117d3bae89d08e7f940d8582dc8e88c3ed64aef36feac60811584522e0",
+  "harness_hash": "519890f26792f166ea6e13d1a8e53c89669ac77abeddd9b4c9cdbdb53f87603d",
+  "model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.164.0",
+  "started_at": "2026-10-25T18:29:49+00:00",
+  "finished_at": "2026-10-25T18:30:38+00:00",
+  "package_dependencies": {},
+  "reads": [],
+  "required_reads": [],
+  "routing": {
+    "missing": [],
+    "passed": true,
+    "unexpected_hig_reads": false
+  },
+  "artifacts": {
+    "result.md": {
+      "path": "coverage/behavior/stress-backend-negative.candidate.r1.a2/artifacts/result.md",
+      "hash": "774b2bd6b3f0e01a60df6ec0f357f31fb39ab07edb2a3291e33447720b8603ec"
+    },
+    "interface.md": {
+      "path": "coverage/behavior/stress-backend-negative.candidate.r1.a2/artifacts/interface.md",
+      "hash": "ef90f37f7a01074fbeed653e5d60c8527009fa5035dd423e46633fd5b86d612f"
+    },
+    "fixture.patch": {
+      "path": "coverage/behavior/stress-backend-negative.candidate.r1.a2/fixture.patch",
+      "hash": "2b1864bb0d579dbcbf2002cc04c865eeb2174b4f13d2dc1d8fcbea4a80fae2cc"
+    }
+  },
+  "transcript": {
+    "path": "coverage/behavior/stress-backend-negative.candidate.r1.a2/events.jsonl",
+    "hash": "f6748655d23718bed42d4e6e9b32aabcba7dae9d5941492883e3ea6c266d72b2"
+  },
+  "checks": {
+    "discovery": {
+      "visible_hig_count": 14,
+      "expected_visible_hig_count": 14,
+      "unrelated_enabled": [],
+      "hidden_topics_visible": [],
+      "disabled_unrelated_count": 83
+    },
+    "missing_artifacts": [],
+    "changed_inputs": {
+      "interface.md": true
+    },
+    "adaptation_changed": true,
+    "passed": true,
+    "exit_code": 0,
+    "turn_completed": true,
+    "malformed_event_count": 0,
+    "forbidden_reads": [],
+    "package_changed": []
+  },
+  "baseline_commit": null,
+  "final_message": {
+    "path": "coverage/behavior/stress-backend-negative.candidate.r1.a2/final-message.txt",
+    "hash": "1161cf20ba768e9702b8785d55f7e594aaf0ec198c9c3f707974eb1282562eaf"
+  }
+}

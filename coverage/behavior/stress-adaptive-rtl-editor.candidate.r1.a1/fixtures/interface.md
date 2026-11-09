@@ -1,0 +1,1 @@
+Platform: iPadOS. Compact width is 420 pt. Layout has fixed left-aligned columns, clips 200% labels and uses red/green-only payment state. Arabic vendor name: مؤسسة النور. Invoice ID: INV-2026-04. Email: accounts@example.test. Amount: 1,240.50 SAR. App mirrors all numerals and play icons mechanically; Tab cannot reach Add line. Resizing resets entered quantities.

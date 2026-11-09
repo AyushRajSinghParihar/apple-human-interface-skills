@@ -1,0 +1,1 @@
+Platform: iOS/watchOS where supported. Voice request Start pasta timer has two equally plausible saved durations; app chooses randomly and speaks private account details. If speech is unavailable there is no timer control.

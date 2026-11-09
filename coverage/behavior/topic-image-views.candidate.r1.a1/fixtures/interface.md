@@ -1,0 +1,1 @@
+Platform: iPadOS. Scientific specimen photo is stretched to fill a square, image content is the only label, loading shows an unrelated stock image and a decorative border hides the scale marker. Pan/zoom has no reset or accessible alternative.

@@ -1,0 +1,66 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,61 @@
+-Platform: iOS. App blocks launch until all permissions are granted, explains location as Needed and uploads a full photo library for a one-photo attachment. Denial loops into the same request; location is unnecessary for manual check-in.
+\ No newline at end of file
++# iPhone volunteer tracker: permission and attachment specification
++
++Platform: iOS. This specification replaces launch-time permission gating, the location explanation “Needed,” full-library uploads, and denial/request loops. It specifies behavior; it does not establish that the app implements it.
++
++## Entry and check-in
++
++Launch opens the tracker without requesting Photos or location access. A volunteer can start, edit, and submit a manual check-in with neither permission. Preserve the draft when a system prompt, picker, app interruption, or Settings visit ends.
++
++In the check-in editor, show manual site entry, optional photo attachment, optional current location, and the primary **Submit Check-In** action. Manual site entry remains available regardless of authorization. Location is an optional attachment, never proof required for a manual check-in. No background tracking or continuous location collection is part of this feature.
++
++## Data-purpose and access contract
++
++| Data | User benefit and trigger | Minimum scope | Transfer boundary |
++| --- | --- | --- | --- |
++| Manual site | Volunteer enters the check-in site | User-entered site only; no location permission | Submit the entered site with the check-in |
++| Photo | Volunteer taps Add Photo and chooses one image | System photo selection restricted to one item; no broad library authorization or enumeration | Import only the chosen image into the draft; upload only on Submit Check-In |
++| Location | Volunteer invokes the system location button to add their current location | One task-time location acquisition; no Always request, background monitoring, or precision upgrade | Preview the returned location in the draft; send it only with an explicit submission |
++
++Do not upload or index the library, hidden/unselected assets, or photo-library identifiers. Process the selected photo on device and remove embedded location metadata before upload; location attachment is a separate choice. Do not attach incidental location to analytics or logs. Retain only the selected draft asset and chosen location while the draft exists; remove them from the draft on removal/discard. Server retention and existing record deletion policy require a separate documented decision before release; do not promise immediate server deletion without implementation evidence.
++
++## Photo sequence
++
++1. **Add Photo** opens a system photo picker configured for a single image. This flow must not request broad Photos permission, including for people who previously denied it or allowed only limited access. Do not build a custom library browser. Exact picker API and deployment compatibility must be verified against the project's SDK before implementation.
++2. Picker cancellation returns to the unchanged draft. Selection imports only that item, displays a preview, and offers **Replace Photo** and **Remove Photo**. Replacing and then cancelling preserves the previous attachment.
++3. During import, show progress associated with the attachment. Commit a replacement only after it loads successfully. Failure shows inline “Couldn’t load this photo. Choose another photo or submit without one.” Keep the draft and prior attachment, if any. No permission prompt is an error-recovery action.
++4. Selection authorizes drafting, not immediate upload. Adjacent copy: “Only the photo you choose will be attached when you submit your check-in.” A check-in without a photo remains valid. If a system picker is unavailable on a supported target, retain manual submission without a photo; do not fall back to full-library access.
++
++## Location sequence and permission states
++
++Above the location control, show ordinary editor copy: “Add your current location to this check-in, or enter the site manually.” This is contextual help, not a custom pre-permission dialog. Do not add a pre-alert or imitate system Allow/Don’t Allow choices.
++
++Use the system location button for the individual attachment task on supported targets, with its supplied **Current Location** title. Keep its localized text complete, including at accessibility text sizes, and restrict customization to the system-supported options. The first interaction may show system education/authorization; the system owns its text and choices. Later behavior follows system authorization, not an app-designed repeat-prompt schedule. The local guide describes one-time access expiring when app use ends and existing While Using authorization remaining unchanged; do not describe every tap as revoking an earlier grant.
++
++For any system purpose-string surface used by the implementation, replace “Needed” with: “Your location is used to add your current position to the volunteer check-in you submit.” Do not claim that the app controls whether the system displays this string on every path.
++
++| Observed state/event | Required app response |
++| --- | --- |
++| Not determined; volunteer invokes location | Invoke the supported system location interaction; acquire nothing before authorization |
++| Allowed, including a pre-existing While Using grant | Acquire one location for this action, then stop acquisition; do not broaden scope |
++| Approximate location available | Accept it, mark the preview “Approximate location,” and never demand Precise Location for manual check-in |
++| Location successfully returned | Show the location preview with “Location will be attached when you submit.” Offer Remove Location before submission |
++| Denied or system interaction cancelled | Return to the preserved editor with “Location wasn’t added. You can enter the site manually.” Do not reopen a request automatically |
++| Restricted or system location services unavailable | Show “Location is unavailable. Enter the site manually.” Do not imply the app can override the restriction |
++| Acquisition fails or returns no location within 15 seconds | Stop acquisition; show “Couldn’t get your location. Enter the site manually or try again.” A retry requires another explicit action |
++| Permission revoked while editing or app resumes | Recheck status without prompting. Stop any acquisition; retain manual data. An already chosen draft location stays visible/removable and is never silently refreshed |
++
++For denied access, a secondary **Open Settings** action may appear inline after the failed attempt. It opens app settings only on explicit activation and never guarantees recovery. On return, recheck status; do not automatically acquire location or re-present authorization. Restricted states use manual entry without a Settings promise. A later explicit location attempt may use the system-supported interaction, but the app must never loop permission requests or repeatedly redirect to Settings.
++
++If the chosen system location control is unsupported on the deployment target, keep manual entry and omit location attachment until an SDK-verified implementation is specified. Do not silently substitute persistent authorization.
++
++## Action and submission contract
++
++Use system button styles, separate hit regions of at least 44 × 44 pt on iPhone, and full visible text labels. Submit Check-In is prominent; attachment actions are secondary normal-role actions. Remove Photo and Remove Location affect only the unsent attachment and preserve the rest of the draft; their labels identify the object. Add/Replace Photo opens selection, Current Location initiates location attachment, and Open Settings leaves the app for user-controlled settings. None grants consent on behalf of the volunteer.
++
++Submit Check-In sends the manual fields and only the optional attachments currently visible in the draft. Show activity in the submitting button and prevent duplicate submissions while it is pending. Preserve the draft after failure and show an explicit retry action. Report success only after the check-in service confirms it. Permission denial is not a submission validation error. Upload/import failure must not silently drop a chosen attachment: let the volunteer retry or remove it and then submit.
++
++## Design basis
++
++Apple's local HIG snapshot supports [minimum necessary collection](https://developer.apple.com/design/human-interface-guidelines/privacy#Best-practices), [contextual requests and specific purpose strings](https://developer.apple.com/design/human-interface-guidelines/privacy#Requesting-permission), and the [system location button for individual tasks](https://developer.apple.com/design/human-interface-guidelines/privacy#Location-button). The editor avoids a custom pre-alert; if one is later proposed, follow the separate [pre-alert restrictions](https://developer.apple.com/design/human-interface-guidelines/privacy#Pre-alert-screens-windows-or-views). System styles, clear action labels, hit regions, and pending button feedback follow [Buttons](https://developer.apple.com/design/human-interface-guidelines/buttons).
++
++Single-photo selection, deferred upload, metadata removal, the 15-second acquisition timeout, and draft recovery rules are concrete product decisions applying data minimization, not claims that HIG mandates a particular photo-picker API or timeout. Update App Store privacy disclosures to match the implemented collection and transfer behavior before release.

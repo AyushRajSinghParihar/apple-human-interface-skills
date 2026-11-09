@@ -1,0 +1,1 @@
+Platform: visionOS. Tall panels extend above and behind the seated user, critical text intersects 3D objects and controls require reaching 2 meters. Content rigidly follows every head turn; physical room dimensions are unknown.

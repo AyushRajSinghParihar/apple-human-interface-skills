@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "run_id": "stress-backend-negative.candidate.r1.a5",
+  "case_id": "stress-backend-negative",
+  "variant": "candidate",
+  "repetition": 1,
+  "attempt": 5,
+  "status": "completed",
+  "case_path": "evals/cases/stress-backend-negative.json",
+  "case_hash": "e0e6a4117d3bae89d08e7f940d8582dc8e88c3ed64aef36feac60811584522e0",
+  "harness_hash": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
+  "model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.164.0",
+  "started_at": "2026-10-25T21:29:06+00:00",
+  "finished_at": "2026-10-25T21:29:49+00:00",
+  "package_dependencies": {},
+  "discovery_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "subskills/apple-hig-content/SKILL.md": "e911021fc5cb63ee1dbc4dbf5f29c3a258e4bcdfa16799f6a68a3640780a1fb0",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-inputs/SKILL.md": "a1843cc0d7dbb04b876a7c28e511aa5124e7fe2797d8e8eb1417434892676f29",
+    "subskills/apple-hig-layout-and-organization/SKILL.md": "805026039df393a761af77c979405bea98424b088ebb9e962cf47d17e949ac28",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "14799ee137928eb6532e16130cef07a3b93cc4e7ca7792a8ba711c0e5f1257f0",
+    "subskills/apple-hig-navigation-and-search/SKILL.md": "9c61db72d99a7b3cefea67557f02ae06ad76254e20b149c55731581a74137f3d",
+    "subskills/apple-hig-patterns/SKILL.md": "194e6f42bf32d325e016cc145b3d8c624c245eed46be1e0098c405c256a9b99e",
+    "subskills/apple-hig-presentation/SKILL.md": "51b48d2737ea0c2af406693bf257078638c46b7f5639f243463a5e1316ae727c",
+    "subskills/apple-hig-selection-and-input/SKILL.md": "605ab44039a43da80a817630076fa72896a66c29a0801e989c2f3809cbdd4527",
+    "subskills/apple-hig-status/SKILL.md": "d49120e41401fed66fcdd00efe00e06438df01cf320102bbfaace44276ebe756",
+    "subskills/apple-hig-system-experiences/SKILL.md": "c6231529b355d669e32660096e4b1a8e60e731a5473499c539c5827b18619e33",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d"
+  },
+  "thread_id": "01a174f7-9e4c-7572-a0f1-70c00059812e",
+  "reads": [],
+  "required_reads": [],
+  "routing": {
+    "missing": [],
+    "passed": true,
+    "unexpected_hig_reads": false
+  },
+  "artifacts": {
+    "result.md": {
+      "path": "coverage/behavior/stress-backend-negative.candidate.r1.a5/artifacts/result.md",
+      "hash": "5c1ffab8c3b4e3e41b1f75fd6211fcca73f8ebfae1c075abc018ea015035b1c1"
+    },
+    "interface.md": {
+      "path": "coverage/behavior/stress-backend-negative.candidate.r1.a5/artifacts/interface.md",
+      "hash": "4aa8b5a377562291013bfa0af21dc074408abcf6288cf2e4c5a8cd7173df9e26"
+    },
+    "fixture.patch": {
+      "path": "coverage/behavior/stress-backend-negative.candidate.r1.a5/artifacts/fixture.patch",
+      "hash": "afc872c684c93f6d0b5694da5c473656232739ba459f56509e944e75eb59d25e"
+    }
+  },
+  "transcript": {
+    "path": "coverage/behavior/stress-backend-negative.candidate.r1.a5/events.jsonl",
+    "hash": "18334f5026dc633313c37f58f8ce490ae5556e295d6c03e23379cc37fe7af042"
+  },
+  "checks": {
+    "discovery": {
+      "visible_hig_count": 14,
+      "expected_visible_hig_count": 14,
+      "unrelated_enabled": [],
+      "hidden_topics_visible": [],
+      "disabled_unrelated_count": 83
+    },
+    "missing_artifacts": [],
+    "changed_inputs": {
+      "interface.md": true
+    },
+    "adaptation_changed": true,
+    "passed": true,
+    "exit_code": 0,
+    "turn_completed": true,
+    "malformed_event_count": 0,
+    "forbidden_reads": [],
+    "package_changed": []
+  },
+  "baseline_commit": null,
+  "final_message": {
+    "path": "coverage/behavior/stress-backend-negative.candidate.r1.a5/final-message.txt",
+    "hash": "8fd6f00e843d389ae96cbba1af78e04fd78a6820a4a443faf01d5fb5a8793d03"
+  }
+}

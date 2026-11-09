@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "run_id": "topic-mac-catalyst.candidate.r1.a1",
+  "case_id": "topic-mac-catalyst",
+  "variant": "candidate",
+  "repetition": 1,
+  "attempt": 1,
+  "status": "completed",
+  "case_path": "evals/cases/topic-mac-catalyst.json",
+  "case_hash": "45b2832b098e5c7558f5dcb519cf1b4c85dcfdd2951f6d567791a54eb37615b0",
+  "harness_hash": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
+  "model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.164.0",
+  "started_at": "2026-10-25T20:23:23+00:00",
+  "finished_at": "2026-10-25T20:25:49+00:00",
+  "package_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "references/topic-index.md": "7a8093fc17f3a55c224bbc66fb34694a73f86bc1b23f69af10dd91183ca3b22d",
+    "subskills/apple-hig-foundations/.topics/apple-hig-layout/SKILL.md": "af36338117a4a4828da6c9c632cff2e731f1bd283623a8c9d4ca887634bf526d",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-foundations/references/layout.md": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ipados/SKILL.md": "bab461744c2c2e80ba7700b1226eb963d8f0290f58e36628276ff2712c8e5ae0",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-macos/SKILL.md": "dc8f30adfd38a2f820d71c55032894dbc4e11fbc382f5e24b4470b6cc905095a",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-getting-started/references/designing-for-ipados.md": "d670289eeee3245ebe7887724472b89f1ab73284bc70081a76c604ccb0d182af",
+    "subskills/apple-hig-getting-started/references/designing-for-macos.md": "73febbd2068953eed3691ee1dfb3c3a5311367cedbc37c2c55e1a574388083a7",
+    "subskills/apple-hig-inputs/.topics/apple-hig-focus-and-selection/SKILL.md": "2f90688afb4de2ff2c5c0140422ff1e7f452b754926198611fff4835a1121569",
+    "subskills/apple-hig-inputs/.topics/apple-hig-keyboards/SKILL.md": "7ffd8732a263bfd94ae7133a346e691f33436c7cd54d6b0545943911e58d1c64",
+    "subskills/apple-hig-inputs/.topics/apple-hig-pointing-devices/SKILL.md": "ceab1ac29bea0615fa4a9d773ae697bbc89d11a2014d7d40d2f861751ae3e3db",
+    "subskills/apple-hig-inputs/SKILL.md": "a1843cc0d7dbb04b876a7c28e511aa5124e7fe2797d8e8eb1417434892676f29",
+    "subskills/apple-hig-inputs/references/focus-and-selection.md": "047a59cbaede962d61a854258581b40279a4a9409eeb26b9fa2492761e4a4705",
+    "subskills/apple-hig-inputs/references/keyboards.md": "b855e9aaacfeb270fe5114c7ba14dfc895d67e4a023885bca6aa6a6b9dc09eb4",
+    "subskills/apple-hig-inputs/references/pointing-devices.md": "14877a3f7c58bd562c90e1e1b04dc231b2474f8857d19887c8c69731d29ab4fa",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-the-menu-bar/SKILL.md": "2c61b5c0f1c043bf0adec5bb52042de21e69bb46259ad040fbfb60c3796f8a88",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-toolbars/SKILL.md": "cd3b123f797a9a745aaeabc94219fd7e4bf790d118ab7591a73e9c538528a783",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "14799ee137928eb6532e16130cef07a3b93cc4e7ca7792a8ba711c0e5f1257f0",
+    "subskills/apple-hig-menus-and-actions/references/the-menu-bar.md": "5ce19516f2fe5c757e42b8f0a08e0ae6fc3fef2b68a3cfb0f868dce527337385",
+    "subskills/apple-hig-menus-and-actions/references/toolbars.md": "eeb849eb40705b713a7d53dd78284b13b587a07da8e66bc40921b1c46624f60e",
+    "subskills/apple-hig-presentation/.topics/apple-hig-windows/SKILL.md": "9d8959ab4a968ec86f28c407f013b3829cc3abf3a523d3bba5ac6a363f55f0a2",
+    "subskills/apple-hig-presentation/SKILL.md": "51b48d2737ea0c2af406693bf257078638c46b7f5639f243463a5e1316ae727c",
+    "subskills/apple-hig-presentation/references/windows.md": "61b973e1483edb875c2fa534262a9473bfab836cbe580f3c0675d25c74cb7d69",
+    "subskills/apple-hig-selection-and-input/.topics/apple-hig-virtual-keyboards/SKILL.md": "9f94a1a7b389444db46c9112977eb0acc1c87d4df6d14fe8119b26091158c193",
+    "subskills/apple-hig-selection-and-input/SKILL.md": "605ab44039a43da80a817630076fa72896a66c29a0801e989c2f3809cbdd4527",
+    "subskills/apple-hig-selection-and-input/references/virtual-keyboards.md": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc",
+    "subskills/apple-hig-technologies/.topics/apple-hig-mac-catalyst/SKILL.md": "12e21925708adb9dc12b1c629502082397c264c5602545134239407e88d481ff",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d",
+    "subskills/apple-hig-technologies/references/mac-catalyst.md": "e9599d100b3805e8c5a5f9860d3b1a398fce458f63b44719acf64c58f34568f6"
+  },
+  "discovery_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "subskills/apple-hig-content/SKILL.md": "e911021fc5cb63ee1dbc4dbf5f29c3a258e4bcdfa16799f6a68a3640780a1fb0",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-inputs/SKILL.md": "a1843cc0d7dbb04b876a7c28e511aa5124e7fe2797d8e8eb1417434892676f29",
+    "subskills/apple-hig-layout-and-organization/SKILL.md": "805026039df393a761af77c979405bea98424b088ebb9e962cf47d17e949ac28",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "14799ee137928eb6532e16130cef07a3b93cc4e7ca7792a8ba711c0e5f1257f0",
+    "subskills/apple-hig-navigation-and-search/SKILL.md": "9c61db72d99a7b3cefea67557f02ae06ad76254e20b149c55731581a74137f3d",
+    "subskills/apple-hig-patterns/SKILL.md": "194e6f42bf32d325e016cc145b3d8c624c245eed46be1e0098c405c256a9b99e",
+    "subskills/apple-hig-presentation/SKILL.md": "51b48d2737ea0c2af406693bf257078638c46b7f5639f243463a5e1316ae727c",
+    "subskills/apple-hig-selection-and-input/SKILL.md": "605ab44039a43da80a817630076fa72896a66c29a0801e989c2f3809cbdd4527",
+    "subskills/apple-hig-status/SKILL.md": "d49120e41401fed66fcdd00efe00e06438df01cf320102bbfaace44276ebe756",
+    "subskills/apple-hig-system-experiences/SKILL.md": "c6231529b355d669e32660096e4b1a8e60e731a5473499c539c5827b18619e33",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d"
+  },
+  "thread_id": "01a174bb-72c3-70a3-94a1-698cf1a5b5b5",
+  "reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-layout/SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/references/layout.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ipados/SKILL.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-macos/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ipados.md",
+    "subskills/apple-hig-getting-started/references/designing-for-macos.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-focus-and-selection/SKILL.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-keyboards/SKILL.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-pointing-devices/SKILL.md",
+    "subskills/apple-hig-inputs/SKILL.md",
+    "subskills/apple-hig-inputs/references/focus-and-selection.md",
+    "subskills/apple-hig-inputs/references/keyboards.md",
+    "subskills/apple-hig-inputs/references/pointing-devices.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-the-menu-bar/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-toolbars/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/the-menu-bar.md",
+    "subskills/apple-hig-menus-and-actions/references/toolbars.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-windows/SKILL.md",
+    "subskills/apple-hig-presentation/SKILL.md",
+    "subskills/apple-hig-presentation/references/windows.md",
+    "subskills/apple-hig-selection-and-input/.topics/apple-hig-virtual-keyboards/SKILL.md",
+    "subskills/apple-hig-selection-and-input/SKILL.md",
+    "subskills/apple-hig-selection-and-input/references/virtual-keyboards.md",
+    "subskills/apple-hig-technologies/.topics/apple-hig-mac-catalyst/SKILL.md",
+    "subskills/apple-hig-technologies/SKILL.md",
+    "subskills/apple-hig-technologies/references/mac-catalyst.md"
+  ],
+  "required_reads": [
+    "SKILL.md",
+    "subskills/apple-hig-technologies/SKILL.md",
+    "subskills/apple-hig-technologies/.topics/apple-hig-mac-catalyst/SKILL.md",
+    "subskills/apple-hig-technologies/references/mac-catalyst.md"
+  ],
+  "routing": {
+    "missing": [],
+    "passed": true,
+    "unexpected_hig_reads": false
+  },
+  "artifacts": {
+    "result.md": {
+      "path": "coverage/behavior/topic-mac-catalyst.candidate.r1.a1/artifacts/result.md",
+      "hash": "954a081e6ffa35eb28d462403028fbaff2e3d3d3084c6b881f70673dfbd1549c"
+    },
+    "interface.md": {
+      "path": "coverage/behavior/topic-mac-catalyst.candidate.r1.a1/artifacts/interface.md",
+      "hash": "de1411b32940400555826b591e795a9c45fcdc23d9718a2b44c9819c71e28dd3"
+    },
+    "fixture.patch": {
+      "path": "coverage/behavior/topic-mac-catalyst.candidate.r1.a1/artifacts/fixture.patch",
+      "hash": "ca7fbd2aa6b0c1238d6d8b3a9ea6cc0a25fb55c9a949ad4dc35df047e99ac94c"
+    }
+  },
+  "transcript": {
+    "path": "coverage/behavior/topic-mac-catalyst.candidate.r1.a1/events.jsonl",
+    "hash": "1ff51c7c0cb4974cf1ff63926d599d4be0dd253b724c0fefa6033f4e2b81cc53"
+  },
+  "checks": {
+    "discovery": {
+      "visible_hig_count": 14,
+      "expected_visible_hig_count": 14,
+      "unrelated_enabled": [],
+      "hidden_topics_visible": [],
+      "disabled_unrelated_count": 83
+    },
+    "missing_artifacts": [],
+    "changed_inputs": {
+      "interface.md": true
+    },
+    "adaptation_changed": true,
+    "passed": true,
+    "exit_code": 0,
+    "turn_completed": true,
+    "malformed_event_count": 0,
+    "forbidden_reads": [],
+    "package_changed": []
+  },
+  "baseline_commit": null,
+  "final_message": {
+    "path": "coverage/behavior/topic-mac-catalyst.candidate.r1.a1/final-message.txt",
+    "hash": "4e95045b94ece9bded539331148997450c65b829bda1a2b9114164c72fca3528"
+  }
+}

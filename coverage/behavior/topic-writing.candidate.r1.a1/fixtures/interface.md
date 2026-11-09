@@ -1,0 +1,1 @@
+Platform: iOS. Primary button says Execute operation, permission explanation says We require access, error says You entered bad data and session expiry says Fatal 0x17. Cancellation and payment actions are both labelled OK.

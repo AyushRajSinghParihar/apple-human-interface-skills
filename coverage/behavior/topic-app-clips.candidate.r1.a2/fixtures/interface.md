@@ -1,0 +1,1 @@
+Platform: iOS. A QR code on a meter opens a full onboarding carousel, asks for account creation before showing the meter and requires downloading the full app before paying. Network may be poor; the meter identifier is in the invocation URL.

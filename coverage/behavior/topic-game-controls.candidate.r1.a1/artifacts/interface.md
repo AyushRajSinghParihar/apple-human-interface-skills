@@ -1,0 +1,71 @@
+# Twin-stick controls: iPhone and Apple TV
+
+## Scope and platform contract
+
+Preserve independent movement and directional aiming/firing. No engine or SDK is prescribed. The brief supplies no other gameplay actions; additional abilities require a mapping on every supported input before shipping. This specification assumes a local, single-player match whose simulation can pause. Network play needs a separate interruption policy.
+
+| Context | Play | Menus and recovery |
+|---|---|---|
+| iPhone, no controller | Complete touch controls; no accessory gate | Touch |
+| iPhone, compatible controller | Dual-stick controls; touch remains available | Touch or controller |
+| Apple TV, compatible controller | Dual-stick controls required | Controller or Siri Remote |
+| Apple TV, no compatible controller | Do not start a match; preserve any suspended match | Siri Remote can open Controls, read connection instructions, retry detection, or return to main menu |
+
+Apple TV distribution must disclose the controller requirement with the appropriate App Store badge. Do not advertise Siri Remote twin-stick gameplay. A compatible controller supplies two independent axes pairs and usable menu activation/back/pause inputs; detect capabilities rather than assuming a brand. Unsupported profiles receive a readable explanation without starting play. These are product choices using the tvOS controller-required exception in [Game controls — Physical controllers](https://developer.apple.com/design/human-interface-guidelines/game-controls#Physical-controllers).
+
+## Action mappings
+
+All bindings resolve to logical actions; prompts resolve from the current effective binding and active input. Defaults below are product decisions, not universal Apple gameplay mappings.
+
+| Action | iPhone touch | Physical controller |
+|---|---|---|
+| Move | Drag left virtual stick | Left stick |
+| Aim and fire | Drag right virtual stick; fire while outside dead zone | Right stick; fire while outside dead zone |
+| Pause | Labeled Pause button | Menu/pause input |
+| Resume | Tap Resume | Activate focused Resume |
+| Menu activation | Tap labeled action | Conventional primary/A-equivalent input, rendered with actual device glyph |
+| Cancel/back | Visible Back control | Conventional cancel/B-equivalent input, rendered with actual glyph |
+| Menu selection | Direct touch | D-pad or stick |
+| Previous/next section, when present | Tap section | Left/right shoulder |
+
+Releasing the aim input stops firing; releasing movement stops movement. Use radial dead zones, initially 0.15 of full stick travel, rescaling the remaining range to 0–1. Movement magnitude controls speed; aim magnitude beyond threshold enables firing and direction controls aim. Store adjustable dead zones from 0.05–0.40. On pause, cancellation, disconnection, or backgrounding, clear held actions. Resuming requires neutral axes and released buttons before accepting new gameplay input. These numeric defaults require tuning on hardware.
+
+Home/logo and system shortcuts remain system-owned. Triggers and other face buttons have no mandatory menu meaning. Gameplay remapping never silently changes conventional menu activation/back. See [Game controls — Physical controllers](https://developer.apple.com/design/human-interface-guidelines/game-controls#Physical-controllers).
+
+## iPhone touch layout and learning
+
+Use two visible, labeled virtual sticks, “Move” at lower left and “Aim / Fire” at lower right. This is independent weapon aiming, not camera panning; a second stick preserves the game's core action. Each has a 120 × 120 pt activation region initially, wholly within the safe area, with no overlap. Touch-down establishes a floating center clamped so its full travel remains inside that region. Capture each touch independently until release/cancellation; crossing regions does not steal the other stick's touch. Show the direction ring and firing state beyond the fingertip.
+
+Keep Pause above the gameplay regions. All touch buttons, including secondary controls, have at least 44 × 44 pt activation areas and 12 pt separation as a project default. Avoid the Home indicator, camera housing and system edge gestures; never assign gameplay to an edge swipe. Allow mirrored placement, fixed stick centers, size and position adjustments with overlap/safe-area validation and Restore Defaults. Use action labels, never borrowed A/X letters.
+
+Support portrait and landscape by anchoring the two regions to the lower safe-area corners and reserving arena space above them. Rotation cancels touches and pauses with match state intact; reflow controls before explicit Resume. If a supported screen cannot fit both regions, shrink the arena rather than the controls. Text enlargement keeps menu labels visible through wrapping/scrolling and keeps Pause reachable. Physical reach and arena visibility remain device acceptance gates.
+
+First play opens a safe practice arena with short contextual cues: move, aim/fire, then pause. No mandatory text slideshow or controller-pairing gate on iPhone. Controls help remains available from the main and pause menus. Touch feedback is visual; sound/haptics may supplement it but cannot carry the only firing or connection-state cue.
+
+The 44 pt rule conservatively resolves the games guide's smaller table minimum versus its prose; it is not a claim that all sources give the same minimum. Layout follows [Touch controls](https://developer.apple.com/design/human-interface-guidelines/game-controls#Touch-controls), [Gestures](https://developer.apple.com/design/human-interface-guidelines/gestures#Custom-gestures), and [Designing for iOS](https://developer.apple.com/design/human-interface-guidelines/designing-for-ios#Best-practices).
+
+## Detection, prompts, and customization
+
+Automatically discover controllers and their profiles. Assign one compatible controller to the local player through an explicit “Use this controller” activation in setup; incidental input from another connected controller cannot take over a running match. An unassigned controller may navigate setup to request assignment while paused. Store device/profile-specific gameplay mappings; never reuse an incompatible profile silently.
+
+On iPhone, the assigned controller's deliberate input selects controller prompts; touching a gameplay region selects touch prompts. Switching cancels the previous source's held actions; never sum two movement vectors. Connection alone does not hide touch controls. Touching Pause remains possible in controller mode. Ignore neutral jitter when determining active input.
+
+Every prompt combines an action name with the actual bound input's glyph, including tutorials, pause menus and remapping screens. Use the active controller's glyph/profile rather than hardcoded “A.” If a glyph cannot be resolved, show the action plus a verified profile-specific input name; if neither is known, request setup rather than guessing. Controller replacement refreshes all prompts before resumption. Multiple connected devices must not mix identities or labels.
+
+Controls is reachable before play and while paused. Offer swap Move/Aim sticks, axis inversion, dead-zone adjustment, and rebind supported gameplay inputs. List current action/binding, capture the next eligible input, preview the resulting glyph, then Apply or Cancel. Reject reserved system inputs, missing required actions, and conflicting bindings with a specific explanation. Keep the prior working configuration until Apply. Offer per-profile Restore Defaults and a safe practice test. Honor effective system-level remapping where reported; do not claim to detect changes the platform does not expose.
+
+Offer optional auto-aim/fire at the nearest enemy so movement alone can complete the loop; explain that this changes aiming assistance. Keep manual twin-stick mode as default. Remapping and assistance address different barriers; neither proves universal accessibility. Connection/error messages use text plus a symbol, not color or sound alone. Controls expose action names, roles, values and selected/unavailable states for supported assistive input. See [Accessibility — Mobility and Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility#Mobility).
+
+## Pause, disconnection, and recovery
+
+States: Main → Setup (if required) → Practice/Playing → Paused or Input lost → Playing; quitting returns to Main. Entering either pause state freezes simulation, enemies, timers, health, score and loss adjudication. Retain the arena, progress, mappings and controller assignment. Clear held actions immediately; a disconnect must never itself cause a loss.
+
+Input lost displays persistent “Controller disconnected — game paused.” On iPhone offer “Use touch controls,” “Reconnect,” Controls, and Main Menu. On Apple TV offer connection instructions, Retry, Controls, and Main Menu through Siri Remote; Resume is unavailable until a compatible assigned controller is present. Retry rescans without discarding the match. Reconnection updates bindings/glyphs and enables Resume but never resumes automatically. A replacement controller requires assignment and a valid profile. Resume waits for neutral inputs, then continues the exact frozen state. “Use touch controls” selects touch and exposes Resume without requiring a controller.
+
+Backgrounding or system interruption follows the same freeze-and-explicit-resume policy. Returning to Main Menu from a live match asks whether to leave the suspended match; Cancel keeps it paused. These retention guarantees cover a running app, not unimplemented crash recovery or cross-device save.
+
+## Apple TV navigation
+
+Use native tvOS focus treatment with distinct unfocused, focused, pressed, selected and unavailable states. Leave room for focus enlargement. Main is a vertical list: Play → Controls. Pause is Resume → Controls → Main Menu. Input lost uses its recovery actions in the order above. Up/down visits adjacent available actions without wrapping; left/right stays in the list. Controls lists action rows followed by Apply, Cancel and Restore Defaults; left/right changes an adjustable row's value, Select deliberately opens binding capture. Focus alone never changes a binding or activates an action. Restore focus to the invoking row when a subview closes. When Resume is unavailable, focus the first available recovery action instead.
+
+Siri Remote swipes/directional presses move focus, clickpad press activates, and Back returns to the parent. During play Back pauses; from an ordinary pause menu Back resumes only when input is valid and neutral. From Input lost it stays safely paused. Main Menu is an explicit exit action; root Back returns Home, and holding Back retains system Home behavior. Do not treat incidental surface contact as activation. Controller menus follow the conventional mappings above. Use 29 pt default TV menu text and 66 pt-high rows as starting values; across-room legibility and focus enlargement require testing. See [tvOS](https://developer.apple.com/design/human-interface-guidelines/designing-for-tvos#Best-practices), [Remotes](https://developer.apple.com/design/human-interface-guidelines/remotes#Best-practices), and [Focus and selection](https://developer.apple.com/design/human-interface-guidelines/focus-and-selection#tvOS).

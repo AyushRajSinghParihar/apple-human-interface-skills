@@ -1,0 +1,42 @@
+# iPhone offline document archive — revised search specification
+
+Platform: iOS on iPhone. This is a behavior contract for the existing archive, independent of implementation framework. Search must remain useful without a network connection.
+
+## Entry, scope, and filters
+
+Provide one prominent archive-wide search entry in the archive toolbar. Activating it focuses an editable search field and opens the keyboard. Use the placeholder “Search downloaded documents” and a persistent scope label “Downloaded documents”. Search covers locally stored document titles and available extracted text; it does not imply that remote-only documents or unextracted/scanned text are searchable. No network request is required to search or open downloaded content.
+
+Start a fresh search session with all downloaded documents and no filters. Preserve filters while editing the query and while returning from a document, but show every applied filter beside the field as a named removable refinement, plus “Clear filters” when any are active. Hidden sticky filters are prohibited. Existing filter attributes must map to real stored metadata; do not introduce unsupported categories. The query, visible filters, and scope together describe exactly the result set. Restoring a search also restores its visible filters.
+
+## Query and asynchronous work
+
+Maintain raw editable query text separately from its matching form. For matching, trim surrounding whitespace and compare case-insensitively using the same normalization for indexed text and query. A nonempty query matches a document when all whitespace-separated terms occur in its title or available extracted text. Filters intersect these matches. Prefer title matches, then sort by title with stable document ID as a tie-breaker. This baseline matching/ranking policy requires validation with a real corpus; do not promise OCR, semantic search, fuzzy matching, or instant results.
+
+Every query edit, clear, filter change, index revision, retry, or search-session exit increments a monotonically increasing generation. Capture generation, normalized query, filters, scope, and index revision in each search job. Cancel obsolete jobs where possible; accept a completion or error only if its generation and full captured state still match the active search. Cancellation alone is insufficient protection. Repeated identical text after intervening edits still has a new generation.
+
+Coalesce typing with a 200 ms debounce, a tunable product choice rather than an Apple requirement. The keyboard Search action runs the current query immediately and dismisses the keyboard; it does not create a separate query state. Local results update during typing. Clear immediately invalidates pending work and empties the field without a debounce. Never let a late completion repopulate a cleared or dismissed search.
+
+## State and recovery contract
+
+| State or event | Required visible behavior |
+| --- | --- |
+| Active search, empty/whitespace query | Keep the editable text; show downloaded documents under current visible filters. No zero-results message for an unentered query. |
+| Current query being evaluated | Show “Searching downloaded documents…” as status. Do not present rows from a different query/filter generation as current matches. Keep field and filters usable. A refresh of the identical query may retain its existing rows with “Updating results…” until replacement. |
+| Completed matches | Show current result count and rows with document title, identity/disambiguating metadata already available, and a matching-text excerpt where available. Opening a row uses its stable document ID. |
+| Completed zero matches | Keep the exact entered query, scope, and filters visible and editable. Show “No downloaded documents match ‘{query}’.” With filters, add “Try removing filters” and expose Clear filters. Never clear the query automatically or claim no archive-wide matches beyond the searched corpus. |
+| Offline | Continue local search and opening downloaded matches. Show “Offline · Searching downloaded documents”; do not replace matches with a network error. Connectivity changes never clear query, filters, or local rows. |
+| Local index incomplete | Show searchable matches with “Some downloaded documents are still being indexed.” A zero count is qualified as “No matches in indexed documents yet.” Continue indexing independently; its next revision reruns the active query using a new generation. |
+| Local search/index failure | Preserve query and filters; show “Couldn’t search downloaded documents” with Retry. Keep valid existing rows only for the identical query, clearly marked as previous results. A failure is never displayed as zero matches. Retry captures a new generation. |
+| Optional existing online enrichment fails | Keep local matches. Show a nonblocking “Online results unavailable” status only if that capability exists; it cannot change this search’s downloaded-document scope or merge remote-only rows silently. No new online feature is required. |
+
+Unknown-duration work uses text status without a fabricated percentage or ETA. Do not block the whole screen or disable editing while searching. There is no added search-history feature; do not persist recent query history as part of this repair.
+
+## Clear, dismiss, and return
+
+The field’s clear affordance clears only query text, retaining visible filters and focus. Clear filters removes every refinement, retains the text, and runs the resulting search immediately. Dismissing search invalidates in-flight work, dismisses the keyboard, and returns to the prior archive browsing position. A new session starts broad. Search state is retained only across opening a result and returning: restore raw query, scope, visible filters, result scroll position, and selected document identity; revalidate against the current index revision before presenting results as current. Returning from detail leaves the keyboard dismissed until the field is tapped.
+
+Selecting a result opens that exact downloaded document. If it was deleted or is no longer downloaded, explain that it is unavailable, remain in search with query and filters intact, and refresh results. Do not silently open a different document or the archive home. This repair adds no Spotlight indexing or external search entry.
+
+## Guidance basis
+
+Apple recommends explicit scope, useful filtering, and prominent search: [Searching — Best practices](https://developer.apple.com/design/human-interface-guidelines/searching#Best-practices). Entry, typing updates, and deliberate narrowing follow [Search fields — Best practices and Scope bars and tokens](https://developer.apple.com/design/human-interface-guidelines/search-fields#Best-practices); toolbar entry follows its [iOS guidance](https://developer.apple.com/design/human-interface-guidelines/search-fields#iOS). Keeping useful content available follows [Loading — Best practices](https://developer.apple.com/design/human-interface-guidelines/loading#Best-practices). These links identify the official sources of the installed local snapshot; they were not fetched. Generation guards, debounce, exact matching, restoration, and offline scope above are concrete product/engineering decisions applying that guidance.

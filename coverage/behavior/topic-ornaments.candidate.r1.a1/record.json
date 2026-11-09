@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "run_id": "topic-ornaments.candidate.r1.a1",
+  "case_id": "topic-ornaments",
+  "variant": "candidate",
+  "repetition": 1,
+  "attempt": 1,
+  "status": "completed",
+  "case_path": "evals/cases/topic-ornaments.json",
+  "case_hash": "b412ca64882ad6bba2696a60d496c2d2ef7296c73cd2381e77e8ba60ebcb67d4",
+  "harness_hash": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
+  "model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.164.0",
+  "started_at": "2026-10-25T20:34:21+00:00",
+  "finished_at": "2026-10-25T20:36:05+00:00",
+  "package_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "references/topic-index.md": "7a8093fc17f3a55c224bbc66fb34694a73f86bc1b23f69af10dd91183ca3b22d",
+    "subskills/apple-hig-foundations/.topics/apple-hig-spatial-layout/SKILL.md": "4be2654de8331dc72491b83c745cd16d1191b0f2a477e2ef937d0cc878de3ba8",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-foundations/references/spatial-layout.md": "9c02a8f2318c622fa3a46b4a1357f4320e63f5d056e319c9ecb26305473b83b3",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-visionos/SKILL.md": "f1423079dea57047d5e98b26157d29bb89b79dbc415b32db33da1b7fc25e62d8",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-getting-started/references/designing-for-visionos.md": "46af8d08b58ff3d8903f98a3afdd56b0e442d5d8899481b7580387a8525dfc9c",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-ornaments/SKILL.md": "c876d53c7584ba16c70e99da02271703c31800a343eece0dbaa5fd784f800c62",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-toolbars/SKILL.md": "cd3b123f797a9a745aaeabc94219fd7e4bf790d118ab7591a73e9c538528a783",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "14799ee137928eb6532e16130cef07a3b93cc4e7ca7792a8ba711c0e5f1257f0",
+    "subskills/apple-hig-menus-and-actions/references/ornaments.md": "795bae953bc9dc37e36680a32cf4a052af2567b3a48e3e525c9b7a30af3a4a4d",
+    "subskills/apple-hig-menus-and-actions/references/toolbars.md": "eeb849eb40705b713a7d53dd78284b13b587a07da8e66bc40921b1c46624f60e"
+  },
+  "discovery_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "subskills/apple-hig-content/SKILL.md": "e911021fc5cb63ee1dbc4dbf5f29c3a258e4bcdfa16799f6a68a3640780a1fb0",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-inputs/SKILL.md": "a1843cc0d7dbb04b876a7c28e511aa5124e7fe2797d8e8eb1417434892676f29",
+    "subskills/apple-hig-layout-and-organization/SKILL.md": "805026039df393a761af77c979405bea98424b088ebb9e962cf47d17e949ac28",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "14799ee137928eb6532e16130cef07a3b93cc4e7ca7792a8ba711c0e5f1257f0",
+    "subskills/apple-hig-navigation-and-search/SKILL.md": "9c61db72d99a7b3cefea67557f02ae06ad76254e20b149c55731581a74137f3d",
+    "subskills/apple-hig-patterns/SKILL.md": "194e6f42bf32d325e016cc145b3d8c624c245eed46be1e0098c405c256a9b99e",
+    "subskills/apple-hig-presentation/SKILL.md": "51b48d2737ea0c2af406693bf257078638c46b7f5639f243463a5e1316ae727c",
+    "subskills/apple-hig-selection-and-input/SKILL.md": "605ab44039a43da80a817630076fa72896a66c29a0801e989c2f3809cbdd4527",
+    "subskills/apple-hig-status/SKILL.md": "d49120e41401fed66fcdd00efe00e06438df01cf320102bbfaace44276ebe756",
+    "subskills/apple-hig-system-experiences/SKILL.md": "c6231529b355d669e32660096e4b1a8e60e731a5473499c539c5827b18619e33",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d"
+  },
+  "thread_id": "01a174c5-7f4e-7533-890e-5cb6617f1667",
+  "reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-spatial-layout/SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/references/spatial-layout.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-visionos/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-visionos.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-ornaments/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-toolbars/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/ornaments.md",
+    "subskills/apple-hig-menus-and-actions/references/toolbars.md"
+  ],
+  "required_reads": [
+    "SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-ornaments/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/ornaments.md"
+  ],
+  "routing": {
+    "missing": [],
+    "passed": true,
+    "unexpected_hig_reads": false
+  },
+  "artifacts": {
+    "result.md": {
+      "path": "coverage/behavior/topic-ornaments.candidate.r1.a1/artifacts/result.md",
+      "hash": "576787a8d652608a8e1ca9cd9d10c2240e8b73a49fa2570b8c08a17199d69a66"
+    }
+  },
+  "transcript": {
+    "path": "coverage/behavior/topic-ornaments.candidate.r1.a1/events.jsonl",
+    "hash": "73cfa5530c172fff523a95fc07ee6683e0ad4717d71fa689519bbf61f8099db9"
+  },
+  "checks": {
+    "discovery": {
+      "visible_hig_count": 14,
+      "expected_visible_hig_count": 14,
+      "unrelated_enabled": [],
+      "hidden_topics_visible": [],
+      "disabled_unrelated_count": 83
+    },
+    "missing_artifacts": [],
+    "changed_inputs": {
+      "interface.md": false
+    },
+    "adaptation_changed": true,
+    "passed": true,
+    "exit_code": 0,
+    "turn_completed": true,
+    "malformed_event_count": 0,
+    "forbidden_reads": [],
+    "package_changed": []
+  },
+  "baseline_commit": null,
+  "final_message": {
+    "path": "coverage/behavior/topic-ornaments.candidate.r1.a1/final-message.txt",
+    "hash": "dfbe3664c4411638b2a8c8770cb443f51a53c004b1149e7d8539dce9e5284080"
+  }
+}

@@ -1,0 +1,1 @@
+Platform: iPadOS/macOS. Share link silently grants edit access to anyone, viewers can trigger destructive edits, pending invitees appear as active collaborators and revocation leaves the UI claiming access forever. Offline edits may conflict.

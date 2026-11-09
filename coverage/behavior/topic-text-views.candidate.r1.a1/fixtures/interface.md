@@ -1,0 +1,1 @@
+Platform: macOS. Notes are rendered as screenshots, editing cannot select text and scroll position resets after formatting. Some notes are read-only but show an active insertion cursor; long URLs and mixed scripts occur.

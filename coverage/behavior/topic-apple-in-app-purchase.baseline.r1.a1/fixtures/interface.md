@@ -1,0 +1,1 @@
+Platform: iOS. Paywall says Free Trial but omits renewal price and period. Restore purchases is absent. The locked recipe button looks like a one-time purchase yet starts an annual subscription. Dismissing the paywall removes saved free recipes. Signup has no Terms or Privacy links.

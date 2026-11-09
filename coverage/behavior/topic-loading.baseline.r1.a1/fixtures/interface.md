@@ -1,0 +1,1 @@
+Platform: iOS. Cached routes disappear behind an indefinite spinner; no initial acknowledgment appears for five seconds; a fake 90% bar never advances; failure leaves no retry; retry creates overlapping requests and duplicates results.

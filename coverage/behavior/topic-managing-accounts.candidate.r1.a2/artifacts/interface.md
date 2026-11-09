@@ -1,0 +1,62 @@
+# Family Budget — revised macOS specification
+
+## Access and workspace ownership
+
+Launch without requiring service login for local-only budgets. Offer **Use Local Budgets** and **Sign In…**: “Use budgets on this Mac without an account. Sign in to sync or access shared budgets.” Restore the last accessible workspace; a signed-out account cache remains locked and offers Sign In or Use Local Budgets. Offline launch uses accessible local content with inline network status, not a blocking startup alert.
+
+Keep a separate local-only workspace and isolated workspaces keyed by immutable authenticated account IDs. Every budget, draft, attachment, cache and pending sync operation has one owner workspace. Display the current workspace name and a distinguishing account identifier above budget content. Switching, signing in and signing out never merge, upload, copy or reassign data. This revision provides no cross-account migration command. Sharing membership does not grant access to another member's private workspace.
+
+Show truthful text status: “Saved on this Mac,” “Changes waiting to sync,” or “Sync failed — changes saved on this Mac.” Claim server synchronization only after acknowledgment.
+
+## Controls
+
+Provide a visible **Account…** system text button opening a nonmodal account view. The avatar is decorative. Show identity and sync status, followed by these controls:
+
+| Control | Contract |
+| --- | --- |
+| Switch Account… | Opens selection with distinguishing account identities. Each row has a **Switch** button; the active row says “Current.” Selection begins the transition below. |
+| Sign In… | Available in local mode; authenticates without uploading local budgets. Advertise only authentication methods actually implemented. |
+| Sign Out | Signed-in account only; preserves work, ends the session and returns to local-only budgets. Never deletes budgets. |
+| Delete Account… | Signed-in account only; a separate “Delete Account” section explains consequences and opens review. Remove the trash glyph beside the avatar. |
+
+Back from selection/review returns to Account unchanged. Closing the account view retains drafts and the active workspace. No global destructive shortcut. Use Mac ellipses for commands requiring further input. Ordinary switching and sign-out need no confirmation alert when preservation succeeds.
+
+## Switch and sign-out transitions
+
+1. Before leaving A, durably save all edits, including unsynced changes, in A's store. Show “Saving changes on this Mac…” and suppress duplicate transitions. On failure remain in A, preserve drafts and show “Couldn’t save changes on this Mac. Free storage and try again.” **Retry** retries preservation; **Cancel** resumes A. Never proceed after a failed save.
+2. For switching, authenticate B when required. Cancellation, authentication failure or offline inability to authenticate leaves A active with its selection and drafts. Do not relabel the workspace prematurely.
+3. Commit atomically across all budget windows: hide A, clear its previews/search results, activate B's isolated store, restore B's own selection, and show B's identity. Close A's editors after preservation. Never use A's budgets as B's loading placeholder. Late A responses remain scoped to A and cannot render or upload in B.
+4. Sign-out pauses A's uploads, clears local session credentials, locks A's retained store, and activates the independent local workspace. Retain unsynced operations under A; resume only after authenticating A again. Offline sign-out clears credentials immediately and tracks pending server revocation without claiming remote sessions ended.
+5. Reauthenticating A restores its drafts and queue. A cache alone never authenticates. Interruption/quit restores one committed workspace on restart; drafts remain with their owner. All windows obey the same transition boundary.
+
+Use established protected storage and Keychain for secrets. Account-bound stores must require reauthentication after sign-out. Local-only budgets are available within the current macOS user session; this does not isolate people sharing that OS login. Storage isolation and handling of macOS fast user switching require implementation verification.
+
+## Account deletion
+
+Deletion is irreversible account removal, distinct from sign-out and removing a budget. Review is nonmodal and identifies the account, owned budgets, shared access, and unsynced changes. **Export Budgets…** saves a user-selected copy before deletion; failed/canceled export changes nothing. Explain that exported files remain outside deletion.
+
+Product deletion scope: remove the account, its private budgets, its owned shared budgets, and its account-bound local drafts/caches. Members lose access to its owned shared budgets. Remove this account's membership in budgets owned by others without deleting those budgets. Preserve other accounts and local-only budgets. Unsynced account edits are deleted, not uploaded first. This is a proposed backend contract, not an observed capability.
+
+Before enabling **Continue**, fetch an authenticated deletion plan listing affected budgets, affected member counts, expected completion time, and any retained data categories, reasons and expiry. Show those facts in review. Never invent a retention policy or completion estimate. If offline or unavailable, show inline failure with **Retry** and **Back**; do not queue deletion. Require recent authentication through the existing supported method. Bind consent to the immutable account ID and plan revision; changed consequences require renewed review.
+
+State: “Deleting your account does not cancel subscriptions. Manage subscriptions separately.” If billing exists, provide its actual management route, including Apple subscription management where applicable. External subscriptions must not block deletion. If Sign in with Apple exists, revoke its tokens on deletion. These integrations are conditional and unverified.
+
+After review and authentication, Continue opens one native macOS confirmation alert attached to the initiating window. Prevent concurrent account mutations elsewhere. Title: **Delete Account for {identity}?** Message: “This permanently deletes this account and the budgets listed in the review, including {N} changes waiting to sync. Members will lose access to its shared budgets. This cannot be undone.” Omit clauses for zero unsynced changes or no owned shared budgets. Retention and timing remain in review.
+
+Use **Cancel** (cancellation role, leading) and **Delete Account** (destructive role, trailing). Choose no default: Return alone must not delete, and Cancel is not the default. This deliberate-reading choice is product advice; HIG also permits a normal default when confirming explicitly requested destruction. Escape and Command-Period cancel the alert and restore focus to Continue. Outside clicks never confirm. No suppression checkbox or typed-name hurdle. Cancel/closing review before submission changes nothing. Do not stack alerts.
+
+On submission, freeze this account's writes and send one idempotent request bound to the reviewed plan. Show “Deleting account…” and prevent duplicate requests. After submission do not offer false cancellation or Undo. Closing/quitting does not cancel an accepted request; resume status on reopening. A definite rejection restores access and displays the reason with Retry and Back. Timeout/unknown outcome keeps the account locked with “Checking deletion status…”; query the same operation before any retry. Local-only budgets remain usable.
+
+Only confirmed service completion permits “Account deleted.” Revoke sessions and supported provider tokens; remove this account's local store, credentials, pending jobs and search/preview caches. If cleanup fails, retain the access lock and show “Account deleted; removing saved data from this Mac” until cleanup succeeds. Notify completion in-app, including on next launch, with actual retained-data details. Return to local-only budgets, never another person's account. Do not claim deletion of exports, other members' independent copies or disclosed retained records.
+
+## Input, presentation and acceptance contract
+
+Use standard Mac controls with visible labels and matching accessible names, roles and states. Make the entire account path keyboard navigable and activatable with Full Keyboard Access. Alert focus enters the alert; Cancel restores its trigger; success moves focus to the destination heading or first usable control. Status/errors remain visible until resolved and never depend solely on sound or color.
+
+At 200% text enlargement, preserve readable identity, consequences and reachable actions without clipping essential text. Use semantic system colors and verify light/dark and Increase Contrast. Use standard Mac control sizing and sufficient separation. The local sources give both a general 44 × 44 pt button guideline and a macOS-specific accessibility default of 28 × 28 pt (minimum 20 × 20 pt). Apply the platform-specific default as a baseline, enlarge consequential targets where practical, and measure actual hit regions; glyph dimensions prove nothing about activation geometry.
+
+## Guidance boundary
+
+Optional access and discoverable actual deletion follow [Managing accounts](https://developer.apple.com/design/human-interface-guidelines/managing-accounts#Deleting-accounts). Data handling and secret protection draw on [Privacy](https://developer.apple.com/design/human-interface-guidelines/privacy#Protecting-data). Labels and Mac continuation ellipses follow [Buttons](https://developer.apple.com/design/human-interface-guidelines/buttons#macOS). Protected exits and narrow interruptions follow [Modality](https://developer.apple.com/design/human-interface-guidelines/modality#Best-practices). Confirmation and default behavior draw on [Alerts](https://developer.apple.com/design/human-interface-guidelines/alerts#Buttons). Alternative input and adaptable presentation follow [Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility).
+
+Workspace isolation, atomic transitions, deletion scope and preservation policies are concrete product decisions applying that guidance. This specification establishes no implemented security, legal retention, SDK availability, native rendering or runtime accessibility result.

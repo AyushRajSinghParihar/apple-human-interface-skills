@@ -1,0 +1,1 @@
+Platform: iOS. A 12-second unskippable animation plays on every foreground entry; launch screen contains a fake Sign In button and yesterday’s headline. Offline launch stays blank though cached stories exist.

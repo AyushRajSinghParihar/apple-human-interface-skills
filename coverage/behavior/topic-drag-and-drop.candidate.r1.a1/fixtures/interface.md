@@ -1,0 +1,1 @@
+Platform: iPadOS/macOS. Drag preview is a blank square, drop regions do not indicate acceptance, a canceled drag deletes the source, moving multiple selected items transfers only one and copying to another app strips useful representations.

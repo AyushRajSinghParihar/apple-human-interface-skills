@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "run_id": "topic-focus-and-selection.baseline.r1.a1",
+  "case_id": "topic-focus-and-selection",
+  "variant": "baseline",
+  "repetition": 1,
+  "attempt": 1,
+  "status": "completed",
+  "case_path": "evals/cases/topic-focus-and-selection.json",
+  "case_hash": "12fea70e0a530f7b51b949d43299643752caa11a51dad0cf8d4129bc009c75ba",
+  "harness_hash": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
+  "model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.164.0",
+  "started_at": "2026-10-25T19:58:25+00:00",
+  "finished_at": "2026-10-25T19:59:59+00:00",
+  "package_dependencies": {
+    "SKILL.md": "f305556b4684c7fd83d4ffd2820d2caad35f577f20fd7b6cf2d0bbcb063291d4",
+    "references/topic-index.md": "168159e5a57165761582db86fb2a96015436ff19d823ed8fb166f9ab01c16c32",
+    "subskills/apple-hig-inputs/SKILL.md": "ec721fc89d6cb0c9af99eccd33b7a5b2e53c6aff1dad96c02f12ce57cefda5cc",
+    "subskills/apple-hig-inputs/references/focus-and-selection.md": "047a59cbaede962d61a854258581b40279a4a9409eeb26b9fa2492761e4a4705",
+    "subskills/apple-hig-inputs/references/remotes.md": "78a4028e80e03c9c0e04c7f5c3ba4e06dd0003bfdedef929dc6c950305930258"
+  },
+  "discovery_dependencies": {
+    "SKILL.md": "f305556b4684c7fd83d4ffd2820d2caad35f577f20fd7b6cf2d0bbcb063291d4",
+    "subskills/apple-hig-content/SKILL.md": "482db2c5624b445e095f21b7764ca1d06479b8f148f5a15aa2a157f627e2f502",
+    "subskills/apple-hig-foundations/SKILL.md": "8179eaa6e4460753623a4096b887382e47efd9572201cdd839a7003e98ed6b33",
+    "subskills/apple-hig-getting-started/SKILL.md": "de68f11e72e0d63be3d313fc104257e6ed3558a8162fae48cca0f559660fbd4e",
+    "subskills/apple-hig-inputs/SKILL.md": "ec721fc89d6cb0c9af99eccd33b7a5b2e53c6aff1dad96c02f12ce57cefda5cc",
+    "subskills/apple-hig-layout-and-organization/SKILL.md": "51dae6b1f349f9e81045b75bc9eec27d1c067430694abfd87fa4f6a474451c05",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "65df4e95649046754916b0664206f27028922fd510bc3fdf64089b486e042fde",
+    "subskills/apple-hig-navigation-and-search/SKILL.md": "2f75e5ac41566c061b9da8f9862bb15c7fef179ff6910c3312c39baa8afbd4d7",
+    "subskills/apple-hig-patterns/SKILL.md": "74d34c74b9f1fa8df6c6b6942fbb9efa6e7f47660020d16a056e38dbfca22467",
+    "subskills/apple-hig-presentation/SKILL.md": "a111ba92ad2780a5a112b1b42a80b0b3152d22726f7453bc01c710b0e1006930",
+    "subskills/apple-hig-selection-and-input/SKILL.md": "77c45bf19cfc8029319c3693768b05ad8620fd264b5b5701fa151086fcdef699",
+    "subskills/apple-hig-status/SKILL.md": "b69f0b6d2976a1670d8f009ffe6777954c2fb99a938c37da8dc3de1527b60b77",
+    "subskills/apple-hig-system-experiences/SKILL.md": "fa24b621480df1c975b8e4b3ff1b726e439b10c85890e50a27a79b3c5de0d7c8",
+    "subskills/apple-hig-technologies/SKILL.md": "614850c9c6a55cbf2223be51441f1ceedab1d3437c1d6475cf638365612f2b7e"
+  },
+  "thread_id": "01a174a4-99ed-7360-a9bc-8e12655ee9d4",
+  "reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-inputs/SKILL.md",
+    "subskills/apple-hig-inputs/references/focus-and-selection.md",
+    "subskills/apple-hig-inputs/references/remotes.md"
+  ],
+  "required_reads": [
+    "SKILL.md",
+    "subskills/apple-hig-inputs/SKILL.md",
+    "subskills/apple-hig-inputs/references/focus-and-selection.md"
+  ],
+  "routing": {
+    "missing": [],
+    "passed": true,
+    "unexpected_hig_reads": false
+  },
+  "artifacts": {
+    "result.md": {
+      "path": "coverage/behavior/topic-focus-and-selection.baseline.r1.a1/artifacts/result.md",
+      "hash": "e88cfe878de8580f37f279c7df2b80c2569caa263c621483e3edefbeb03ecac5"
+    }
+  },
+  "transcript": {
+    "path": "coverage/behavior/topic-focus-and-selection.baseline.r1.a1/events.jsonl",
+    "hash": "6cde1bbd1a5fd2ba1dac1fb0a7d7a4de39e3ef9e8498cfd22eccbc7fbfae2ed7"
+  },
+  "checks": {
+    "discovery": {
+      "visible_hig_count": 14,
+      "expected_visible_hig_count": 14,
+      "unrelated_enabled": [],
+      "hidden_topics_visible": [],
+      "disabled_unrelated_count": 83
+    },
+    "missing_artifacts": [],
+    "changed_inputs": {
+      "interface.md": false
+    },
+    "adaptation_changed": true,
+    "passed": true,
+    "exit_code": 0,
+    "turn_completed": true,
+    "malformed_event_count": 0,
+    "forbidden_reads": [],
+    "package_changed": []
+  },
+  "baseline_commit": "a748d07",
+  "final_message": {
+    "path": "coverage/behavior/topic-focus-and-selection.baseline.r1.a1/final-message.txt",
+    "hash": "3c9f63ee80dbf39f18e0992e675b6b6e67be3138ded4f253f7ac861e68efec69"
+  }
+}

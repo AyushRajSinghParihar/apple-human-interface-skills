@@ -1,0 +1,1 @@
+Platform: iOS. Launch requests all health categories before explaining why; denied access shows a red Access granted label, missing readings are plotted as zero and health history is used in unrelated promotions. Medical interpretation is not validated.

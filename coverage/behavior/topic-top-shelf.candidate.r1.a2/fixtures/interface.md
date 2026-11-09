@@ -1,0 +1,1 @@
+Platform: tvOS. Top Shelf shows unrelated advertisements that launch a checkout, previews autoplay with loud sound and selecting a documentary opens generic home. Signed-out users see private history from the previous account.

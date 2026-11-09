@@ -1,0 +1,53 @@
+--- before/interface.md
++++ after/interface.md
+@@ -1 +1,48 @@
+-Platform: iOS. App listens indefinitely on launch, announces a guessed exhibit as certain, keeps a prior result after no match and opens microphone permission repeatedly after denial. Recognition can be ambiguous or unavailable.
+\ No newline at end of file
++# iPhone museum companion: sound recognition
++
++Platform: iOS. This is a revised interaction specification, not an implemented or tested app. Preserve the existing recognition stack; consulting ShazamKit guidance does not require adopting that framework. Recognition reveals museum exhibit information and may be ambiguous, return no match, or be unavailable.
++
++## Entry and permission
++
++Launch into **Ready**, with microphone off. Show “Identify an exhibit” and “Use a short sound sample to find a possible exhibit.” Primary: **Identify Sound**. Secondary: **Browse Exhibits**, opening a museum exhibit list with title and exhibit-number lookup; selecting an entry opens its details without audio recognition or microphone permission. Keep Browse Exhibits available in every recognition state; invoking it ends any active session.
++
++Only Identify Sound or an explicit retry may begin recognition. Check authorization and capability first. If authorization is undetermined, request the native microphone permission at this moment, with purpose text: “The museum companion uses your microphone to match exhibit audio to museum information.” The ordinary entry screen provides context; do not add a custom permission pre-alert. Grant proceeds to Listening only if the initiating session is still active and the app is foregrounded. Denial enters Access Off. Never record before authorization.
++
++**Access Off:** “Microphone access is off. You can browse exhibits, or change access in Settings.” Actions: Browse Exhibits (primary) and **Open Settings** (secondary, opens this app’s system settings). Do not request permission again after denial. Recheck authorization on return from Settings; if granted, show Ready and require another Identify Sound tap. For restricted access, explain “Microphone access is restricted on this device,” offer Browse Exhibits, and omit a settings action that cannot resolve the restriction.
++
++## State contract
++
++One status region replaces its contents in place. All terminal states are persistent until another explicit action; remove activity indicators when work ends. Do not automatically open an exhibit or speak a guessed title as fact.
++
++| State | Visible status and actions | Transition and microphone contract |
++| --- | --- | --- |
++| Ready | Entry copy; Identify Sound; Browse Exhibits | No recording or automatic retry. |
++| Listening | “Listening for exhibit audio…”; activating button becomes disabled “Listening…” with an indeterminate activity indicator; separate **Cancel** remains enabled | Start one sample. Stop immediately when the recognizer has enough audio, or at a hard maximum of 10 seconds from capture start; then enter Matching. No percentage or claim of measured recognition completion. |
++| Matching | “Finding a possible exhibit…”; initiating button stays disabled with activity indicator; Cancel | Microphone off. Await a result for at most 10 seconds from entering Matching; timeout enters Unavailable. |
++| Possible match | “Possible match: [exhibit title]” and exhibit number; “Check the title or exhibit number before opening.” Primary **View Exhibit**; secondary **Try Again**; Browse Exhibits | Exactly one eligible candidate, with no ambiguity flag, can enter this state. View Exhibit opens that candidate’s details, marked “Suggested by sound” until the visitor explicitly chooses the exhibit. Never label it confirmed solely from recognition. |
++| Ambiguous | “More than one exhibit may match. Choose using the title or exhibit number.” Candidate rows show title, number, and **View [title]**; Try Again; Browse Exhibits | Multiple eligible candidates or an ambiguity signal. Do not preselect or auto-open the highest-ranked candidate. Candidate activation opens the named details, marked “Suggested by sound”; explicit **Choose This Exhibit** records visitor selection. |
++| No match | “No exhibit matched this sample. Try closer to the exhibit speaker, or browse exhibits.” Primary Try Again; Browse Exhibits | Empty eligible candidate set after a completed recognition attempt. Clear all current candidate cards and active exhibit identity; do not display a previous match as current. Microphone off. |
++| Unavailable | “Sound recognition is unavailable right now. You can try again or browse exhibits.” Primary Browse Exhibits; secondary Try Again only if retry is meaningful | Covers capture failure, interrupted audio, recognition-service/catalog failure, and matching timeout. Add a known actionable reason when available, without inventing a network cause. Microphone off; unavailable capability hides retry until capability is restored. |
++| Cancelled | “Recognition cancelled.”; Identify Sound; Browse Exhibits | Cancel stops capture and matching, clears candidates, and invalidates pending callbacks. No restart. |
++
++**Choose This Exhibit** on a suggestion’s detail screen records an explicit visitor selection and changes the label to “Selected exhibit”; it does not certify recognition accuracy. Back returns to the persistent candidate state. Manual browse selections open details as visitor selections directly. No unrelated content is blocked by recognition failure.
++
++## Session and result rules
++
++- Every attempt gets a unique session ID. At initiation clear the previous recognition result and candidate list before showing activity. A prior manually selected exhibit may remain in separate navigation history, never in the current recognition status region.
++- Only callbacks for the currently active session may change the screen. Cancel, navigation away, backgrounding, permission revocation, or terminal completion invalidates that session and stops capture, timers, and pending matching. Background/interruption returns a persistent “Recognition interrupted. Try again when ready.” Unavailable state; foregrounding never resumes capture automatically.
++- A result received during Listening stops capture immediately and resolves directly. Matching is used only when additional processing is actually pending. At capture limit, process the captured sample if usable; an unusable/insufficient sample enters No match. All failure exits release microphone resources.
++- Eligible candidates must belong to the museum catalog and pass the recognizer’s configured acceptance policy. Unknown IDs, malformed results, or missing catalog data are Unavailable, not empty successful matches. Confidence scores are not displayed as calibrated percentages. Catalog policy, threshold calibration, and ambiguity detection need validation against real museum samples before release; absent that validation, all output remains a suggestion and multiple plausible candidates remain ambiguous. These rules do not guarantee a match.
++- Repeated taps cannot create overlapping sessions. Try Again starts a fresh permission/capability check; denied access routes to Access Off without a system prompt. Neither cancellation nor failure automatically retries.
++
++## Data and presentation contract
++
++Microphone input is used only for the requested exhibit-matching sample. This specification requires no retained raw recording and no raw-audio diagnostic logs; discard transient sample buffers after completion/cancellation. The supplied brief does not establish whether matching is on device or remote. Before implementation release, document the actual transfer, recipient, retention, and deletion behavior, ensure purpose text and privacy disclosures describe it accurately, and avoid claiming on-device processing without evidence. No other protected data is required by this flow.
++
++Use native text buttons with system pressed/disabled states and at least 44 × 44 pt activation regions with separation. Emphasize only the state’s primary action. Cancel abandons only the sample, with no confirmation because no visitor work is lost. Candidate actions name their exhibit; accessible names include the exhibit number when titles repeat. Every state has visible text; neither color, animation, nor a sound alone conveys recognition status. Accessible state text must retain uncertainty (“Possible match”), never announce a bare guessed title as certainty. Do not announce every audio frame or score update. Keep reading and activation order: status, candidates if present, primary action, recovery actions, Browse Exhibits. Support text enlargement to at least 200% without losing status or actions; use scrolling and wrapping rather than truncation. Verify actual assistive navigation and rendering in implementation.
++
++## Basis and product choices
++
++Apple guidance supports explaining/requesting microphone access and stopping after the needed sample ([ShazamKit, Best practices](https://developer.apple.com/design/human-interface-guidelines/shazamkit#Best-practices)); contextual permission and accurate data-use copy ([Privacy, Requesting permission](https://developer.apple.com/design/human-interface-guidelines/privacy#Requesting-permission)); honest temporary activity and cancellation ([Progress indicators](https://developer.apple.com/design/human-interface-guidelines/progress-indicators#Best-practices)); native action states and iOS initiating-button activity ([Buttons](https://developer.apple.com/design/human-interface-guidelines/buttons#iOS-iPadOS)); and perceivable status, enlargement, and accessible controls ([Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility)). Links identify official articles underlying the installed local snapshot; they were not fetched.
++
++The 10-second capture and matching limits, conservative suggestion wording, explicit visitor selection, callback isolation, candidate policy, and manual lookup are concrete product/engineering decisions. Apple guidance does not establish these timings, confidence thresholds, catalog coverage, or runtime correctness.

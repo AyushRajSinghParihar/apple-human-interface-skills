@@ -1,0 +1,1 @@
+Platform: watchOS. Crown currently changes both session duration and audio volume simultaneously, uses no visible value feedback and traps scrolling whenever the session runs. Accidental wrist motion must not destroy an active session.

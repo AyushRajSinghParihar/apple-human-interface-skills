@@ -1,0 +1,1 @@
+Platform: macOS. Web content is the entire app navigation without back controls, external payment links masquerade as local buttons, load failures leave blank white, zoom/text selection are disabled and an unexpected auth redirect captures credentials in the help pane.

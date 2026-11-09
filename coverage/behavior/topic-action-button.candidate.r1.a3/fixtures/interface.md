@@ -1,0 +1,1 @@
+Platform: supported iPhone hardware with Action button. The app starts a recording on every press even when already recording; recording state is visible only after opening the app. A locked phone may be in a pocket. The core action is capture a quick audio note, not a settings shortcut.

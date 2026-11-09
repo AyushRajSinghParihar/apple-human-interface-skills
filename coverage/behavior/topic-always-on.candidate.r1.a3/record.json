@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "run_id": "topic-always-on.candidate.r1.a3",
+  "case_id": "topic-always-on",
+  "variant": "candidate",
+  "repetition": 1,
+  "attempt": 3,
+  "status": "completed",
+  "case_path": "evals/cases/topic-always-on.json",
+  "case_hash": "2b8e1dda24c6440918da51ab1f117edfcd6cd5ae66fdee1a74d484afa29a8d93",
+  "harness_hash": "f4ac9497cfbd656da96e84b76f68a1e9be50e3227f76711e54ba15dc6b2e0cdb",
+  "model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.164.0",
+  "started_at": "2026-10-25T22:10:03+00:00",
+  "finished_at": "2026-10-25T22:11:49+00:00",
+  "package_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "references/topic-index.md": "7a8093fc17f3a55c224bbc66fb34694a73f86bc1b23f69af10dd91183ca3b22d",
+    "subskills/apple-hig-foundations/.topics/apple-hig-motion/SKILL.md": "e5aadce284b6f7c7da8f9eb83a6c3a02d3e1e134bf5a0939b005d4a79b7f0854",
+    "subskills/apple-hig-foundations/.topics/apple-hig-privacy/SKILL.md": "01c2070df6df2a117bce0fa4c37cff898d115ca3babf7920623c8e69d8d706fb",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-foundations/references/motion.md": "dcc5011fad1914507dea9ce09ff2fed3b13064a24fa87ce120478ae7166bc052",
+    "subskills/apple-hig-foundations/references/privacy.md": "ce8f25721e6adb44faea38beea85a5636e8a5de8b5147a354bf5a0ce90e957ba",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-watchos/SKILL.md": "f03f69961e92848e116cecb4d797dfdbc11a03b25a82f34ed70f0a67a52c5bc1",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-getting-started/references/designing-for-watchos.md": "5f909601603cca68d20cbfc5a5dacf05b780fc39f61276f8186ca696b80d9a34",
+    "subskills/apple-hig-patterns/.topics/apple-hig-workouts/SKILL.md": "5e4044e8e42b9db399e558345bceaf4e7ae8fc662e8b559574fe4f33116589b6",
+    "subskills/apple-hig-patterns/SKILL.md": "194e6f42bf32d325e016cc145b3d8c624c245eed46be1e0098c405c256a9b99e",
+    "subskills/apple-hig-patterns/references/workouts.md": "f31638824b7bb7b3e20effe80c84b776bfdc4b2d3680fd9b99b01496f073f612",
+    "subskills/apple-hig-technologies/.topics/apple-hig-always-on/SKILL.md": "cad86cf1f51b7d821acb0305913fb144eb5cefffd5c782463f97444f84e8774a",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d",
+    "subskills/apple-hig-technologies/references/always-on.md": "3a87e1851af371ed9561773b8b6cd49c7ca06fa0e1eea8f3893260721e7726a3"
+  },
+  "discovery_dependencies": {
+    "SKILL.md": "9f3e2e998fd7770be4b85768336ef7cbc74eeeaaa1ee20e1de27a0eefd27c816",
+    "subskills/apple-hig-content/SKILL.md": "e911021fc5cb63ee1dbc4dbf5f29c3a258e4bcdfa16799f6a68a3640780a1fb0",
+    "subskills/apple-hig-foundations/SKILL.md": "ec0d81cca9823aac7923071de5159eb5d233e6d88126facf844179588a02b200",
+    "subskills/apple-hig-getting-started/SKILL.md": "7686cac4848c402fa910bf5d4ac1d36712c1464ef9f3f1047b63b782d4afd99f",
+    "subskills/apple-hig-inputs/SKILL.md": "a1843cc0d7dbb04b876a7c28e511aa5124e7fe2797d8e8eb1417434892676f29",
+    "subskills/apple-hig-layout-and-organization/SKILL.md": "805026039df393a761af77c979405bea98424b088ebb9e962cf47d17e949ac28",
+    "subskills/apple-hig-menus-and-actions/SKILL.md": "14799ee137928eb6532e16130cef07a3b93cc4e7ca7792a8ba711c0e5f1257f0",
+    "subskills/apple-hig-navigation-and-search/SKILL.md": "9c61db72d99a7b3cefea67557f02ae06ad76254e20b149c55731581a74137f3d",
+    "subskills/apple-hig-patterns/SKILL.md": "194e6f42bf32d325e016cc145b3d8c624c245eed46be1e0098c405c256a9b99e",
+    "subskills/apple-hig-presentation/SKILL.md": "51b48d2737ea0c2af406693bf257078638c46b7f5639f243463a5e1316ae727c",
+    "subskills/apple-hig-selection-and-input/SKILL.md": "605ab44039a43da80a817630076fa72896a66c29a0801e989c2f3809cbdd4527",
+    "subskills/apple-hig-status/SKILL.md": "d49120e41401fed66fcdd00efe00e06438df01cf320102bbfaace44276ebe756",
+    "subskills/apple-hig-system-experiences/SKILL.md": "c6231529b355d669e32660096e4b1a8e60e731a5473499c539c5827b18619e33",
+    "subskills/apple-hig-technologies/SKILL.md": "6d1290bcb9892041e972c5dba74b98ab192638fd1a9081e054891efaa557cc6d"
+  },
+  "thread_id": "01a1751d-1bb8-7222-80a1-40c66c876a9d",
+  "reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-motion/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-privacy/SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/references/motion.md",
+    "subskills/apple-hig-foundations/references/privacy.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-watchos/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-watchos.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-workouts/SKILL.md",
+    "subskills/apple-hig-patterns/SKILL.md",
+    "subskills/apple-hig-patterns/references/workouts.md",
+    "subskills/apple-hig-technologies/.topics/apple-hig-always-on/SKILL.md",
+    "subskills/apple-hig-technologies/SKILL.md",
+    "subskills/apple-hig-technologies/references/always-on.md"
+  ],
+  "required_reads": [
+    "SKILL.md",
+    "subskills/apple-hig-technologies/SKILL.md",
+    "subskills/apple-hig-technologies/.topics/apple-hig-always-on/SKILL.md",
+    "subskills/apple-hig-technologies/references/always-on.md"
+  ],
+  "routing": {
+    "missing": [],
+    "passed": true,
+    "unexpected_hig_reads": false
+  },
+  "artifacts": {
+    "result.md": {
+      "path": "coverage/behavior/topic-always-on.candidate.r1.a3/artifacts/result.md",
+      "hash": "adbe2047fe898e17fb1f75e5856ad1a7fa4fc1b5b27cda0c3733c9ea13ce5ddc"
+    },
+    "interface.md": {
+      "path": "coverage/behavior/topic-always-on.candidate.r1.a3/artifacts/interface.md",
+      "hash": "3700c926d4cb9898641a5bcc4ad9e0cc79e6c60630bcbc486ad62d1f2e7befba"
+    },
+    "fixture.patch": {
+      "path": "coverage/behavior/topic-always-on.candidate.r1.a3/artifacts/fixture.patch",
+      "hash": "87880aa8d3f9878b286253c556235fd6c1df8ee6dd50899cebf13a4bc5ac7827"
+    }
+  },
+  "transcript": {
+    "path": "coverage/behavior/topic-always-on.candidate.r1.a3/events.jsonl",
+    "hash": "bdd43dc2b84605d845373c8f7fb664d20afb1971fa802afd1efb0f3ff7b84a2f"
+  },
+  "checks": {
+    "discovery": {
+      "visible_hig_count": 14,
+      "expected_visible_hig_count": 14,
+      "unrelated_enabled": [],
+      "hidden_topics_visible": [],
+      "disabled_unrelated_count": 83
+    },
+    "missing_artifacts": [],
+    "changed_inputs": {
+      "interface.md": true
+    },
+    "adaptation_changed": true,
+    "passed": true,
+    "exit_code": 0,
+    "turn_completed": true,
+    "malformed_event_count": 0,
+    "forbidden_reads": [],
+    "package_changed": []
+  },
+  "baseline_commit": null,
+  "final_message": {
+    "path": "coverage/behavior/topic-always-on.candidate.r1.a3/final-message.txt",
+    "hash": "75d88fce505cd050ee1c13fa8b1b5f358d8f475a462d891f1ea877387b722471"
+  }
+}

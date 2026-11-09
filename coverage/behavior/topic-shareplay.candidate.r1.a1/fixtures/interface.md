@@ -1,0 +1,1 @@
+Platforms: iOS/tvOS/visionOS where available. Joining automatically broadcasts the person’s microphone, a late join restarts playback for everyone and leaving ends every participant’s session without warning. Some people lack content access.

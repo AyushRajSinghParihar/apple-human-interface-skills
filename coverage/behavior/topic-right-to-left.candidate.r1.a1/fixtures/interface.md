@@ -1,0 +1,1 @@
+Platform: iPadOS. All arrows and media-play icons are mechanically flipped, currency strings reorder digits, text is right-aligned even for email addresses and item hierarchy still assumes left-to-right navigation. Long Arabic labels clip.

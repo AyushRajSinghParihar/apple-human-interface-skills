@@ -1,0 +1,1 @@
+Platform: macOS via Mac Catalyst; no native build is available. Port assumes fullscreen touch, hides app commands behind long press, uses a floating software keyboard and fails when the window narrows. Users need multiple recipes open.

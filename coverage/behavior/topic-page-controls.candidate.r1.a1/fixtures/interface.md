@@ -1,0 +1,1 @@
+Platform: iOS. There are 47 undifferentiated dots for unrelated destinations; tapping a dot can delete the current page, and swiping changes stories without updating selected indicator. Accessibility exposes every dot as an unnamed button.

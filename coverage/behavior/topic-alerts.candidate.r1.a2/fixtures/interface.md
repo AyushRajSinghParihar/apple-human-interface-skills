@@ -1,0 +1,1 @@
+Platform: macOS. A routine successful save always triggers an alert. Irreversible archive deletion is titled Error with body Something happened; buttons are Yes and No. The harmless save alert defaults to Cancel. A second alert is presented over the first when sync fails. No screenshot or app execution is available.

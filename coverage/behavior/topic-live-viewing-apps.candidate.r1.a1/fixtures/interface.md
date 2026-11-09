@@ -1,0 +1,1 @@
+Platform: iPadOS/visionOS as source supports. All feeds begin at once with loud audio, current camera location is hidden and a disconnected feed freezes while still labelled Live. Person needs one selected feed with optional comparison.

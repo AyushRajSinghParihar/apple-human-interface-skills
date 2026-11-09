@@ -1,0 +1,1 @@
+Runtime: Linux backend only. No UI or Apple platform. Retry attempts run without a limit and retry authentication failures. Desired policy: at most 3 attempts total, retry transient failures only, preserve job ID. Current policy: {"maxAttempts":null,"retryStatus":[401,403,408,429,500,502,503],"preserveJobId":false}.

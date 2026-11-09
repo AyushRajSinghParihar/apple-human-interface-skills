@@ -1,0 +1,1 @@
+Platforms: iOS/macOS. Every hero image is rasterized together with its headline, panoramas are cropped through landmarks, low-resolution assets are stretched and all image descriptions say Image. Missing images collapse article context.

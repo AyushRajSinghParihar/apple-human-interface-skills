@@ -1,0 +1,41 @@
+# iPhone sketch journal — revised first-run specification
+
+Platform: iOS on iPhone. First valuable task: make a mark in a journal entry and retain it for the next visit. This specification replaces the eight mandatory tutorial pages, launch-time camera/microphone/location requests, and tutorial replay after updates.
+
+## Entry and first sketch
+
+After launch completes, open an editable new entry with a blank canvas and the default pen selected. No tutorial, configuration, or protected-resource permission is a prerequisite for drawing. Bundle the default drawing tools and help text; network access and optional asset downloads must not block this task.
+
+Show one inline hint outside the drawing area: “Your first mark starts this entry.” Beside it offer “Show me how” and “Dismiss”. Neither action is required before drawing. The hint must not cover the canvas or intercept strokes. On the first committed stroke, remove the hint and persist that the person has begun sketching. Save the entry locally as strokes are committed; an untouched canvas does not create an empty journal item. Preserve the current entry when entering help or an optional feature. If saving fails, retain the work in memory, show “Couldn’t save this entry” with Retry, and do not claim it is saved.
+
+## Optional learning and persistence
+
+“Show me how” opens optional, task-specific guidance alongside the canvas: “Choose a pen, then make a mark in your entry.” Offer “Done” and “Skip tutorial”; either closes guidance immediately and leaves the canvas editable. Do not revive the eight-page sequence. Tutorial content must never request permissions.
+
+Persist learning state independently of the app version:
+
+- `new`: eligible for the initial inline hint only.
+- `dismissed`: Dismiss or Skip tutorial; never automatically offer initial guidance again.
+- `completed`: Done or first committed stroke; never automatically offer initial guidance again.
+
+Persist state when the event occurs, not only on app exit. Reopening help does not reset automatic eligibility. An app update must not clear these states. For existing installations lacking the new state, migrate to `completed` if prior-use, tutorial-completion, or journal-entry evidence exists; when history is ambiguous, default to `dismissed` rather than interrupting a returning user. This conservative migration is a product decision.
+
+Keep a visible “Help” action in the editor. Help → “Sketching basics” reopens the same optional guidance, with “Done” to close it and restore the current entry. It works offline. No automatic tutorial or feature tour appears after updates. Return to the last entry when available; otherwise show the journal with “New entry”. A genuinely fresh installation opens the new canvas described above.
+
+## Optional private-resource features
+
+The supplied brief does not name the later features. The following concrete mappings are proposed product choices for implementation, not observations of an existing app. Drawing and saving require none of these resources.
+
+| Entry action | Minimum purpose and proposed system purpose text | Request moment and handling |
+| --- | --- | --- |
+| Add photo → Take photo | Camera only: “Use the camera to take a photo for this journal entry.” | Request camera access only after Take photo. Do not request microphone for a still photo. Attach only the captured photo the person accepts. Cancel leaves the entry intact. |
+| Add voice note → Record | Microphone only: “Use the microphone to record a voice note for this journal entry.” | Request on Record. Begin recording only after authorization; stop on Stop, cancellation, or interruption. Keep a recording only when the person chooses to attach it. |
+| Add location | One-time current-location access: “Use your location to add a place to this journal entry.” | Use the supported iOS system location button for this individual attachment task. Do not request background access or start continuous tracking. Attach only the location obtained for this action; tolerate approximate location. |
+
+Use the real system authorization UI; the action context supplies the explanation, so add no custom pre-permission screen. Check current authorization before acting: authorized → perform only the selected task; undetermined → request only its resource; denied/restricted → leave the entry usable and explain inline that this attachment is unavailable. Never loop the prompt or queue requests for other resources. Where settings can change a denial, offer an optional “Open Settings” action; do not offer it as a remedy for a restriction the person cannot change. Cancellation, unavailable hardware, location failure, and refusal all return to the intact entry with a retry or exit appropriate to that feature. Returning from Settings rechecks status without automatically capturing, recording, or attaching anything.
+
+Keep drafts and accepted attachments local for this proposed flow; access grants do not authorize upload or unrelated reuse. No capture or collection precedes authorization. Review actual storage, transfer behavior, purpose strings, platform availability, and App Store privacy disclosures before implementing or shipping these choices. Do not imply that this specification verifies them.
+
+## Design basis
+
+Apple recommends quick, optional learning, remembering skips, later access to help, and postponing optional requests: [Onboarding — Best practices and Additional requests](https://developer.apple.com/design/human-interface-guidelines/onboarding). Contextual, dismissible guidance supports the help design: [Offering help — Best practices and Creating tips](https://developer.apple.com/design/human-interface-guidelines/offering-help). Permission timing, specific purpose sentences, minimal access, and one-time location follow [Privacy — Requesting permission and Location button](https://developer.apple.com/design/human-interface-guidelines/privacy). These links identify the official sources; this revision uses only the installed local snapshots.

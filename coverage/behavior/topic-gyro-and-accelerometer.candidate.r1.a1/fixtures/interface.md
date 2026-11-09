@@ -1,0 +1,1 @@
+Platform: iOS/iPadOS. Tilting is the only input, no calibration occurs, the app assumes the person is standing and physical device shake irreversibly resets progress. A person may be seated or use a mounted device.

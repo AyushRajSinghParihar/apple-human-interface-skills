@@ -1,0 +1,1 @@
+Platform: iOS/tvOS. Proposal blocks solo play until Game Center login, posts an unverified score as global champion and shows private real names in public. Network and authentication may be unavailable.

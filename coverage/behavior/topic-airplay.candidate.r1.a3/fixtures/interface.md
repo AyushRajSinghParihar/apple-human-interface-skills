@@ -1,0 +1,1 @@
+Platform: iOS/iPadOS with possible AirPlay receivers. Existing design silently sends private narration to the last used living-room receiver and labels the route Bluetooth regardless of transport. Returning from another app resets playback. No receiver is guaranteed.

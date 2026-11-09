@@ -1,0 +1,1 @@
+Platform: macOS. Color inspection opens a document-modal sheet on every click, preventing comparison with the image. The inspector loses its target when another document activates and closing it saves unrelated edits.

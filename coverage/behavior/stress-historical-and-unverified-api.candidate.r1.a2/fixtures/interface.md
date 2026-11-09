@@ -1,0 +1,1 @@
+Brief: tvOS web view hosts a widget store using WidgetKit and a full browser. visionOS portal calls hypothetical AppleImmersionLock.disableDigitalCrown() to force full immersion. Team cites a 2019 blog post as proof. No Apple SDK is installed, API documentation is absent and current deployment requirements are undecided.

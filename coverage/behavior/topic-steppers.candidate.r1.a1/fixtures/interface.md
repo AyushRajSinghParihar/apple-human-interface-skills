@@ -1,0 +1,1 @@
+Platform: iOS. Plus/minus are 16 pt glyphs, quantity can become negative and each tap immediately purchases another ticket. Current quantity and maximum availability are not shown; accessibility says Button for both.

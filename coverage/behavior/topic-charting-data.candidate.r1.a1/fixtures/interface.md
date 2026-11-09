@@ -1,0 +1,1 @@
+Platform: iPadOS. Data: January 210 kWh, February 220, March 225, April missing, May 610 after heating installation. Current dashboard uses a pie chart of months and hides the missing reading. People need to compare change and inspect values.

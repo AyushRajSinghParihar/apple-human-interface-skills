@@ -1,0 +1,1 @@
+Platform: macOS. Search field has no label or placeholder, Clear deletes directory records, submitting closes the window, a query returning zero results leaves stale matches and the scope indicator says All while only searching favorites.
