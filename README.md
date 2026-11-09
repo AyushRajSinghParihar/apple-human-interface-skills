@@ -150,9 +150,23 @@ a complete bundle, symlinks, and paths with spaces. The Skills CLI installation
 was also checked to preserve the entire bundle, including hidden topic files.
 Other agent runtimes and native Apple device behavior have not been verified.
 
-Claude Code 2.1.310 marketplace installation and component discovery were also
-checked: one skill loaded, with no agents, hooks, or MCP servers. This checks
+With Claude Code 2.1.319, `claude plugin validate` passes and the plugin loads one
+skill, two commands and one agent, with no hooks or MCP servers. This checks
 packaging and discovery, not task performance in Claude Code.
+
+A [benchmark](quality/RESULTS.md) of 15 task cases and 20 trigger cases ran with
+Codex (`gpt-6.1-sol`, web search off), each case once with and once without the
+skill, and a blind Codex judge:
+
+| | v1.1 with skill | Without skill |
+|---|---:|---:|
+| Mean task score | 0.93 | 0.83 |
+| Median input tokens for each run | 86,363 | 12,935 |
+
+The skill mostly made answers more complete, for example with acceptance checks
+and exact platform limits; the model already knew most HIG rules. It started for
+10 of 10 interface requests and for 0 of 10 near misses. One run for each case
+gives a coarse signal, and the benchmark does not cover Claude models.
 
 [Source report](coverage/REPORT.md) · [Package review](coverage/package-review.json) ·
 [Client installation checks](coverage/client-integration/README.md)

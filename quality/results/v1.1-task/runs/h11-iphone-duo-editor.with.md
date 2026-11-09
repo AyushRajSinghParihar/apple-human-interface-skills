@@ -1,0 +1,14 @@
+Change all six points. The hinge and active camera issues are highest priority because they can obscure controls.
+
+| Your plan | Recommended change and reason |
+|---|---|
+| Fixed 375 pt layouts outside and inside | **Use a continuously adaptive layout.** Base it on size classes, safe areas, margins, and reserved regions; support Split View sizes. Preserve the selected photo, edits, and tool state when opening or closing. The inner display should expand the existing editing experience. [Layout guidance](https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo#Best-practices) |
+| Move outer-display bars to the top | **Preserve system side placement.** Toolbars and tabs appear vertically on the outer display and remain there when the inner display opens in landscape. Inner portrait uses horizontal bars. Side placement preserves usable height for your canvas. [Vertical controls](https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo#Vertical-controls) |
+| Mirror the side toolbar in Arabic and Hebrew | **Keep hardware-aligned bars on the same physical side in RTL.** Adapt reading direction within the interface while respecting the system’s bar placement and asymmetric safe areas, including multitasking. [Vertical controls](https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo#Vertical-controls) |
+| Icon-only items with no titles | **Provide both meaningful symbols and titles.** Compact presentations can show icons, but the system needs titles for expanded presentations and overflow. For the editor, prioritize frequently used editing tools during compression and keep every action reachable. [Vertical controls](https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo#Vertical-controls) |
+| Custom canvas ignores the hinge | **Make the canvas and its controls respond to the folding reserved region.** Keep essential content and controls usable on either side, with modest layout changes as the fold changes. Custom containers should handle reserved regions explicitly. [Reserved regions](https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo#Reserved-regions) |
+| Controls cover the active inner camera | **Move controls clear when the camera activates.** The inner camera introduces a temporary reserved region; your interface must adapt to reveal camera activity and preserve access to controls. [Reserved regions](https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo#Reserved-regions) |
+
+Before sign-off, check one editing session across closed, fully open, and partially folded poses; inner portrait and landscape; both sides of Split View; RTL; and camera activation/deactivation. Verify that edits persist and every action remains reachable.
+
+This is a plan review against the HIG guidance; device behavior has **not been tested**.

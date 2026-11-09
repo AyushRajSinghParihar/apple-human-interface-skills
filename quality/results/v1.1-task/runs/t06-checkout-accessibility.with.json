@@ -1,0 +1,68 @@
+{
+  "case": "t06-checkout-accessibility",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 41.5,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-typography/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md",
+    "subskills/apple-hig-foundations/references/typography.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-gestures/SKILL.md",
+    "subskills/apple-hig-inputs/references/gestures.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/buttons.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 98068,
+    "cached_input_tokens": 69760,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1282,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer identifies all five barriers and gives a specific correction for each, including Dynamic Type with growing layouts, noncolor availability cues, a Pay label, an onscreen removal button, and visible failure text.",
+        "The answer identifies all five barriers and provides a specific correction for each.",
+        "The answer identifies all five barriers and gives a specific correction for each, including Dynamic Type with growing layouts, noncolor availability cues, a Pay label, a visible removal button, and explanatory failure text."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer provides an accessibility test plan, clearly identifies unassessed evidence, and claims neither executed tests, unsupported measurements, nor formal conformance.",
+        "The answer provides a relevant test plan, clearly distinguishes confirmed defects from unassessed behavior, and claims neither performed tests nor formal conformance.",
+        "The answer provides a concrete test plan, clearly distinguishes unassessed properties from confirmed defects, and claims neither runtime testing nor formal conformance or unsupported measurements."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

@@ -1,0 +1,57 @@
+{
+  "case": "h11-iphone-duo-editor",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 34.0,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 110194,
+    "cached_input_tokens": 87680,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 705,
+    "reasoning_output_tokens": 15
+  },
+  "stderr": "",
+  "graders": {
+    "findings": false,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "The reply does not specify that outer-display toolbars and the tab bar must remain along the side as vertical controls, and it permits the photo to span the reserved folding region.",
+        "The answer does not specify keeping outer-display toolbars and the tab bar along the side, and it only conditionally advises retaining the toolbar\u2019s physical side in right-to-left languages.",
+        "The reply does not explicitly keep outer-display bars along the side or require side controls to remain on the same physical side in right-to-left languages, so it misses mandatory corrections 2 and 3."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The reply preserves editing state across folding transitions, recommends standard adaptive components, and makes no claims of having run or tested the interface.",
+        "It preserves editing state across folding transitions, recommends standard adaptive components, and makes no claims of having run or tested the interface.",
+        "The reply preserves editing state across folding transitions, recommends standard adaptive components, and makes no claims of running or testing the interface."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

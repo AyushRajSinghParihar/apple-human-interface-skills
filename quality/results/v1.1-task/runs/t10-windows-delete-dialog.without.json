@@ -1,0 +1,57 @@
+{
+  "case": "t10-windows-delete-dialog",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 15.3,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 12882,
+    "cached_input_tokens": 11520,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 358,
+    "reasoning_output_tokens": 49
+  },
+  "stderr": "2026-11-09T18:45:43.451028Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer names the project, explains irreversible deletion, uses Delete and Cancel with native Windows PrimaryButton and CloseButton placement, and removes stacked dialogs.",
+        "The answer supplies a project-specific title and irreversible-deletion message, uses Delete and Cancel, preserves Windows ordering through PrimaryButton and CloseButton, and removes stacked dialogs.",
+        "The answer supplies a project-specific title and irreversible-deletion message, uses Delete and Cancel, preserves Windows ordering through PrimaryButton and CloseButton, and removes stacked dialogs."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It justifies Cancel as the safe default, preserves Escape and Close as safe exits, and makes no unsupported testing or measurement claims.",
+        "The answer explains Cancel as the safe default for irreversible deletion, keeps Escape and Close as safe exits, rejects copying macOS ordering, and makes no unsupported testing claims.",
+        "It explains why Cancel should be the default for irreversible deletion, keeps Escape and Close as safe exits, and makes no unsupported testing claims."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

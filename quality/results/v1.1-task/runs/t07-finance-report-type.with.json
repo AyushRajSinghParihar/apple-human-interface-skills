@@ -1,0 +1,64 @@
+{
+  "case": "t07-finance-report-type",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 40.5,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-typography/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md",
+    "subskills/apple-hig-foundations/references/typography.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 93880,
+    "cached_input_tokens": 67200,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1123,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The specification raises body size and weight, uses scalable text headings, supports reflow, specifies monospaced digits, and replaces all-caps emphasis with selective weight.",
+        "The specification increases body size and weight, replaces image headings with hierarchical live text, supports reflow, uses monospaced digits, and replaces all-caps emphasis with selective weight.",
+        "The specification raises body size and weight, replaces image headings with scalable text, supports reflow, uses monospaced digits, and replaces all-caps emphasis with selective weight."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It distinguishes iOS Dynamic Type from macOS text-size controls and explicitly states that implementation and testing have not been performed.",
+        "It distinguishes iOS Dynamic Type from a macOS text-size control and explicitly states that implementation and testing have not been performed.",
+        "It distinguishes iOS Dynamic Type from macOS text-size controls and explicitly states that no implementation checks have been performed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

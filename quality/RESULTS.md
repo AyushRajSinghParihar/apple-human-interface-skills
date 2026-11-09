@@ -5,6 +5,35 @@ arm, and a blind Codex session graded each answer three times. One run for each
 case gives a coarse signal: do not report a difference of one case as an
 improvement.
 
+## v1.1 compared with v1.0 (web search off, 2026-11-10)
+
+Same model, cases, judge and settings as the v1.0 run below. See
+[task summary](results/v1.1-task/SUMMARY.md) and
+[trigger summary](results/v1.1-trigger/SUMMARY.md).
+
+| Metric | v1.0 | v1.1 |
+|---|---:|---:|
+| Mean score of 15 task cases, with the skill | 0.93 | 0.93 |
+| Mean score of 15 task cases, without the skill | 0.83 | 0.83 |
+| Median input tokens for each run, with the skill | 97,469 | 86,363 |
+| Median input tokens not from cache, with the skill | 29,544 | 20,679 |
+| Median skill files read | 9 | 7 |
+| Requests that started the skill | 10 of 10 | 10 of 10 |
+| Near misses that started the skill | 2 of 10 | 0 of 10 |
+
+- Quality did not change. The case for a Mac with a touch display (h14) went
+  from 0.50 to 1.00, because v1.1 has the 2026-10-28 rules. The paywall case
+  (h13) went from 1.00 to 0.50: the answer did not name the subscription, a
+  detail that the arm without the skill also missed in v1.0. With one run for
+  each case, these single-case changes are within the noise.
+- Cost went down: 11% fewer input tokens and 30% fewer tokens not from cache.
+  A typical route now reads the root, the index, one procedure and its guide.
+- The narrower description stopped both false starts (Fastlane and iOS binary
+  size).
+- The skill still uses about 6.7 times the input tokens of a run without it.
+  Most of them come from the cache, but a cheaper route is still the main open
+  task.
+
 ## v1.0 without web search (main result, 2026-11-09)
 
 Web search was off and the shell sandbox had no network, so the arm without the
@@ -44,7 +73,7 @@ current guidance. See [task](results/v1.0-web-task/SUMMARY.md),
 Triggers with web search on: 10 of 10 started the skill, and 0 of 10 near misses
 started it.
 
-## What this means for v1.1
+## What v1.0 meant for v1.1
 
 - Make the route cheaper. The skill used about 7.5 times the input tokens of a
   run without it, for a gain of 0.10 in the mean score.

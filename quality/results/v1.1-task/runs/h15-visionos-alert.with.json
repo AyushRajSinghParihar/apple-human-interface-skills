@@ -1,0 +1,62 @@
+{
+  "case": "h15-visionos-alert",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 22.7,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-alerts/SKILL.md",
+    "subskills/apple-hig-presentation/references/alerts.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 79152,
+    "cached_input_tokens": 56448,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 451,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": false,
+    "skill-fired": true
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer specifies the required accessory dimensions, window-attached Shared Space placement, centered Full Space placement, and Delete Album and Cancel labels.",
+        "The answer specifies the correct accessory dimensions, window attachment, Full Space placement, and Delete Album and Cancel labels.",
+        "The answer specifies the required accessory dimensions, window attachment, Full Space centering, and Delete Album and Cancel labels."
+      ]
+    },
+    "nuance": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "The answer instructs the writer to describe deletion consequences but does not provide alert text explaining who loses access or another concrete consequence.",
+        "The answer instructs the designer to describe consequences but does not itself explain what deleting the shared album means for participants or their access.",
+        "The answer retains Cancel but only instructs the writer to describe consequences instead of explaining a consequence of deleting the shared album in the alert text."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

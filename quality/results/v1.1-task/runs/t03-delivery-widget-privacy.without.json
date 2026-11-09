@@ -1,0 +1,57 @@
+{
+  "case": "t03-delivery-widget-privacy",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 75.9,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 149103,
+    "cached_input_tokens": 118400,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1857,
+    "reasoning_output_tokens": 69
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer hides shared private details, uses system-managed widget updates and a delivery Live Activity, gives the inline accessory one destination, and explicitly labels stale data with its age.",
+        "The answer hides shared private details, uses system-managed widget updates and a delivery Live Activity, gives the inline accessory one tap target, and explicitly labels stale data.",
+        "It hides shared address and gate-code details, uses system-managed widget updates and a Live Activity, gives the inline accessory one tap target, and clearly labels stale data."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It separates pickup summaries from active delivery tracking, recommends the Smart Stack Live Activity over an optional complication, adapts surfaces without relying on color, and makes no unsupported testing claims.",
+        "It separates summary widgets from active tracking, recommends the Smart Stack Live Activity over an optional complication, uses text for status, and makes no unsupported testing claims.",
+        "It separates pickup summaries from active delivery tracking, recommends the Smart Stack Live Activity over an optional complication, uses text beyond color, and makes no claims of completed testing or measurements."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

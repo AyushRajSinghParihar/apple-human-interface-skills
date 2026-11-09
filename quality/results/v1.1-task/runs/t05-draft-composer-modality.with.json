@@ -1,0 +1,66 @@
+{
+  "case": "t05-draft-composer-modality",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 51.1,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-modality/SKILL.md",
+    "subskills/apple-hig-patterns/references/modality.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-alerts/SKILL.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-sheets/SKILL.md",
+    "subskills/apple-hig-presentation/references/alerts.md",
+    "subskills/apple-hig-presentation/references/sheets.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 85222,
+    "cached_input_tokens": 75136,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1312,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The specification replaces stacked modals with internal navigation, adds a title and explicit exits, protects drafts across exit paths, prevents simultaneous alerts, and separates attachment Back navigation from dismissal.",
+        "The specification replaces stacked modals with internal navigation, adds a title and exit buttons, protects drafts on every exit, prevents simultaneous alerts, and provides Back without dismissal.",
+        "The specification removes stacked modals, titles the composer, adds explicit exits and attachment Back navigation, protects drafts on every exit path, and prevents simultaneous alerts."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It includes a before-and-after comparison and acceptance checks for swipe, Cancel, Done, Back, and upload errors, explicitly stating that the checks were not executed.",
+        "It includes a before-and-after comparison and acceptance checks for swipe, Cancel, Done, Back, and upload errors, explicitly stating that checks were not executed.",
+        "It includes a before-and-after comparison and acceptance checks for swipe, Cancel, Done, Back, and upload errors, explicitly stating that the checks were not executed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

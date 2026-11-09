@@ -1,0 +1,74 @@
+{
+  "case": "t09-web-settings",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 48.0,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/beyond-apple/README.md",
+    "references/beyond-apple/web.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-typography/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md",
+    "subskills/apple-hig-foundations/references/typography.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-settings/SKILL.md",
+    "subskills/apple-hig-patterns/references/entering-data.md",
+    "subskills/apple-hig-patterns/references/modality.md",
+    "subskills/apple-hig-patterns/references/settings.md",
+    "subskills/apple-hig-selection-and-input/.topics/apple-hig-text-fields/SKILL.md",
+    "subskills/apple-hig-selection-and-input/.topics/apple-hig-toggles/SKILL.md",
+    "subskills/apple-hig-selection-and-input/references/text-fields.md",
+    "subskills/apple-hig-selection-and-input/references/toggles.md"
+  ],
+  "skill_commands": 5,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 122398,
+    "cached_input_tokens": 106368,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1457,
+    "reasoning_output_tokens": 15
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer addresses labelled sections, persistent labels, automatic saving or unsaved-change warnings, accessible toggles, and alternatives to bundling Apple\u2019s restricted assets.",
+        "The answer recommends labelled sections, persistent labels, autosaving or unsaved-change warnings, keyboard-accessible native toggles, and licensed alternatives to bundled Apple assets.",
+        "The answer recommends labelled sections, persistent labels, automatic saving or unsaved-change warnings, accessible native toggles, and licensed alternatives to bundled Apple assets."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer applies Apple\u2019s principles using web conventions and explicitly states that runtime testing and measurements were not performed.",
+        "The answer applies Apple\u2019s principles through web semantics, keyboard support, browser behavior, and WCAG guidance while explicitly stating that runtime checks were not performed.",
+        "The answer applies Apple\u2019s principles through web conventions and accessibility guidance, explicitly stating that runtime checks were not performed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

@@ -1,0 +1,39 @@
+{
+  "case": "s09-watch-glanceable",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 33.5,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-typography/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md",
+    "subskills/apple-hig-foundations/references/typography.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-watchos/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-watchos.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-workouts/SKILL.md",
+    "subskills/apple-hig-patterns/references/workouts.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 89408,
+    "cached_input_tokens": 75648,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 815,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": true
+}

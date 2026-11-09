@@ -1,0 +1,57 @@
+{
+  "case": "h12-long-live-activity",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 43.1,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 192777,
+    "cached_input_tokens": 161280,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 987,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": false,
+    "skill-fired": false
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer makes all six corrections, including ending at arrival with a short summary lifetime and accommodating limited-width content within a 28-point circle.",
+        "The reply makes all six corrections, including a short post-arrival summary lifetime and 28-point or leading-only content for limited-width contexts.",
+        "The answer makes all six corrections, including a short post-arrival summary lifetime and a 28-point or leading-only layout for limited-width contexts."
+      ]
+    },
+    "nuance": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "The answer gives useful trip information but does not provide acceptance checks for the activity\u2019s start, updates, and end.",
+        "The reply focuses on useful trip information but does not provide acceptance checks covering the activity\u2019s start, updates, and end.",
+        "The answer provides useful trip information but does not give acceptance checks for the activity\u2019s start, updates, and end."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

@@ -1,0 +1,57 @@
+{
+  "case": "t06-checkout-accessibility",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 20.2,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 12907,
+    "cached_input_tokens": 4480,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 611,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer identifies all five barriers and gives a specific correction for each.",
+        "The answer identifies all five barriers and gives a specific correction for each.",
+        "The answer identifies all five barriers and gives a specific correction for each."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer provides a concrete test plan, clearly states the evidence limits, and claims no measurements, executed tests, or formal conformance result.",
+        "The answer provides a relevant test plan, explicitly leaves contrast and focus order unassessed, and claims neither completed testing nor formal conformance.",
+        "The answer provides a concrete test plan, clearly states the evidence limits, and claims no executed tests, unsupported measurements, or formal conformance result."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

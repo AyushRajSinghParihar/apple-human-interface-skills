@@ -1,0 +1,32 @@
+{
+  "label": "v1.1-trigger",
+  "tasks": {},
+  "triggers": {
+    "should_fire": 10,
+    "fired": 10,
+    "should_not_fire": 10,
+    "false_fires": 0,
+    "cases": {
+      "n01-swift-nil-crash": false,
+      "n02-fastlane-testflight": false,
+      "n03-material-theme": false,
+      "n04-core-data-migration": false,
+      "n05-swift-concurrency": false,
+      "n06-xctest-ci": false,
+      "n07-sql-top-customers": false,
+      "n08-kotlin-circuit-breaker": false,
+      "n09-codable-struct": false,
+      "n10-ios-binary-size": false,
+      "s01-swiftui-settings": true,
+      "s02-mac-toolbar": true,
+      "s03-react-apple-checkout": true,
+      "s04-ipad-to-vision-pro": true,
+      "s05-uikit-dynamic-type": true,
+      "s06-lock-screen-widget": true,
+      "s07-mac-delete-alert-or-sheet": true,
+      "s08-windows-apple-polish": true,
+      "s09-watch-glanceable": true,
+      "s10-iphone-hamburger": true
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "case": "t05-draft-composer-modality",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 40.7,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 12896,
+    "cached_input_tokens": 11520,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1050,
+    "reasoning_output_tokens": 65
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The specification replaces stacked modals with one sheet and navigation, adds titles and Close, preserves drafts on exits, enforces one alert, and separates Back from dismissal.",
+        "The specification replaces stacked modals with one navigable sheet, adds a title and Close button, preserves drafts across exits, enforces one alert, and separates attachment Back navigation from dismissal.",
+        "The specification replaces nested modals with one sheet and navigation, adds a title and Close button, preserves drafts on exits, enforces one alert, and provides attachment Back navigation separate from dismissal."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It includes a before-and-after comparison and acceptance checks for swipe, Close, Done, Back, and upload errors without claiming any testing was performed.",
+        "It includes a before-and-after comparison and acceptance checks for swipe, Close, Done, Back, and upload errors without claiming any testing was performed.",
+        "It includes a before-and-after comparison and acceptance checks for swipe, Close, Done, Back, and upload errors without claiming any testing was performed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

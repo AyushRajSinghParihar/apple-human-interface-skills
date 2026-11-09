@@ -1,0 +1,57 @@
+{
+  "case": "t04-mac-archive-alerts",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 17.0,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 12871,
+    "cached_input_tokens": 11520,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 409,
+    "reasoning_output_tokens": 50
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": false,
+    "skill-fired": false
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The reply identifies all five described problems and invents no unsupported high-severity issue.",
+        "The answer identifies all five described problems and invents no unsupported high-severity issue.",
+        "The reply identifies all five problems and does not invent an unsupported high-severity issue."
+      ]
+    },
+    "nuance": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "The deletion correction includes the archive name, irreversible consequence, specific action label, and Cancel button, but the reply provides no acceptance checks.",
+        "The deletion correction includes the required name, consequence, action label, and Cancel button, but the answer provides no acceptance checks.",
+        "The corrected deletion alert includes the required details and buttons, but the reply provides no acceptance checks."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

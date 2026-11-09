@@ -1,0 +1,66 @@
+{
+  "case": "t02-ipad-arabic-invoice",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 67.5,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ipados/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ipados.md",
+    "subskills/apple-hig-inputs/.topics/apple-hig-keyboards/SKILL.md",
+    "subskills/apple-hig-inputs/references/keyboards.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-multitasking/SKILL.md",
+    "subskills/apple-hig-patterns/references/multitasking.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 100551,
+    "cached_input_tokens": 79872,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2053,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The specification uses RTL leading alignment, preserves mixed-direction data, reflows content at 420 pt and 200% text, adds non-color payment status, and ensures keyboard access and quantity preservation across resizing.",
+        "The specification uses RTL leading alignment, preserves mixed-direction data, reflows text at 420 pt and 200%, adds non-color payment status, and preserves quantities while making Add line keyboard reachable.",
+        "The specification uses RTL leading-edge layout, preserves mixed-direction data, reflows text at 420 pt and 200%, adds non-color payment status, and ensures keyboard access to Add line and quantity preservation during resizing."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It distinguishes directional icons from nonmirrored content, checks Arabic with compact width and 200% text together, and explicitly states that no acceptance checks have been performed.",
+        "It distinguishes directional icons from content that must not mirror, includes a combined Arabic/420 pt/200% acceptance check, and explicitly states that the checks have not been performed.",
+        "It distinguishes directional icons from digits, logos, and nondirectional symbols, includes a combined Arabic/420 pt/200% acceptance check, and explicitly states that testing has not been performed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

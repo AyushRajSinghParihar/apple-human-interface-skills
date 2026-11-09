@@ -1,0 +1,65 @@
+{
+  "case": "h12-long-live-activity",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 45.8,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/platforms-and-tasks.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ios/SKILL.md",
+    "subskills/apple-hig-system-experiences/.topics/apple-hig-live-activities/SKILL.md",
+    "subskills/apple-hig-system-experiences/references/live-activities.md",
+    "subskills/apple-hig-technologies/.topics/apple-hig-carplay/SKILL.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 83785,
+    "cached_input_tokens": 62592,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1182,
+    "reasoning_output_tokens": 48
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer makes all six corrections, including ending at arrival with a brief summary and fitting limited-width content within a 28-point circle.",
+        "The answer makes all six corrections, including ending at arrival with a brief summary and fitting limited-width content within a 28-point circle or using leading-only content.",
+        "The answer makes all six corrections, including ending at arrival with a brief summary and fitting limited-width content within a 28-point circle or using leading-only content."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The design shows immediately useful trip information, provides start, update, and end acceptance conditions, and explicitly states that rendering and delivery remain untested.",
+        "The design prioritizes immediately useful trip information and provides checks for activity start, updates, and end without claiming rendering, testing, or unsupported measurements.",
+        "It prioritizes immediately useful trip information, provides start, update, and end acceptance guidance, and explicitly states that rendering and delivery remain untested."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}
