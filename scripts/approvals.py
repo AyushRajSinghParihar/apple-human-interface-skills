@@ -40,7 +40,7 @@ def _actual(root, relative):
 
 def _record_paths(root):
     coverage = root / "coverage"
-    paths = [coverage / "routing-review.json"]
+    paths = [coverage / "routing-review.json", coverage / "authored-reviews.json"]
     for directory in REVIEW_DIRS:
         paths.extend(sorted((coverage / directory).glob("*.json")))
     return [path for path in paths if path.is_file()]

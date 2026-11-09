@@ -1,4 +1,5 @@
 """Published claims, versions and context budgets must match the shipped package."""
+import importlib.util
 import json
 from pathlib import Path
 import re
@@ -7,11 +8,14 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 PACKAGE = ROOT / "skills/apple-hig"
+_spec = importlib.util.spec_from_file_location("hig_contracts", ROOT / "scripts/hig.py")
+hig = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(hig)
 
 # Upper limits in bytes. They stop silent growth of the files that an agent
 # reads on every route. Lower them when a release makes the files smaller.
-ROOT_SKILL_BUDGET = 8_500
-TOPIC_INDEX_BUDGET = 68_000
+ROOT_SKILL_BUDGET = 6_000
+TOPIC_INDEX_BUDGET = 40_000
 FAMILY_SKILL_BUDGET = 4_000
 TOPIC_SKILL_BUDGET = 8_000
 
@@ -67,6 +71,19 @@ class PackageContractTests(unittest.TestCase):
         for path in PACKAGE.glob("subskills/*/.topics/*/SKILL.md"):
             with self.subTest(topic=path.parent.name):
                 self.assertLessEqual(len(path.read_bytes()), TOPIC_SKILL_BUDGET)
+
+    def test_generated_index_and_map_match_their_generators(self):
+        self.assertEqual((PACKAGE / "references/topic-index.md").read_text(), hig.index_text(ROOT),
+                         "run: python scripts/hig.py index")
+        self.assertEqual((PACKAGE / "references/implementation-map.md").read_text(), hig.api_map_text(ROOT),
+                         "run: python scripts/hig.py api-map")
+
+    def test_root_description_names_what_people_ask_for_and_its_limits(self):
+        description = frontmatter(PACKAGE / "SKILL.md")["description"]
+        self.assertLessEqual(len(description), 1024)
+        for term in ("SwiftUI", "UIKit", "AppKit", "Dynamic Type", "VoiceOver", "Liquid Glass", "web", "Android", "Windows"):
+            self.assertIn(term, description)
+        self.assertIn("Do not use for", description)
 
 
 if __name__ == "__main__":

@@ -7,6 +7,21 @@ names the Apple HIG source snapshot that it uses.
 
 ### Added
 
+- A shorter route: the root `SKILL.md` is 5.8 KB (was 8.2 KB) and links each
+  topic procedure through a compact topic index of 31.8 KB (was 67 KB), which
+  `hig.py index` makes from the topic descriptions.
+- A description in the third person with the words that people use (SwiftUI,
+  UIKit, AppKit, Dynamic Type, VoiceOver, Liquid Glass) and the requests that
+  must not start the skill.
+- `references/beyond-apple/`: how to apply Apple's guidance to web, Android and
+  Windows apps, with host conventions, licence limits and host sources. This
+  content is not from Apple's HIG.
+- `references/key-numbers.md` and `references/implementation-map.md` (made by
+  `hig.py api-map` from the guides' developer documentation links).
+- Claude Code commands `/apple-hig:review` and `/apple-hig:adapt`, and the
+  `hig-reviewer` subagent.
+- `coverage/authored-reviews.json`: review records for files that are not
+  derived from Apple sources.
 - `scripts/hig.py stale` lists each review hash that no longer matches its file.
 - `scripts/hig.py review-draft` writes the current hashes into a review record
   and marks it for another review. `--all` drafts every stale record.

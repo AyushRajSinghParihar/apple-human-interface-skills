@@ -8,10 +8,12 @@ lost by applying only the shared best practices.
 |---|---|---|
 | iOS | [Designing for iOS](../subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ios/SKILL.md) | Touch, safe areas, adaptable bars, interruption and device changes |
 | iPadOS | [Designing for iPadOS](../subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ipados/SKILL.md) | Resizable windows, split views, sidebars, keyboard/pointer and Pencil |
+| iPhone Duo | [Designing for iPhone Duo](../subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-iphone-duo/SKILL.md) | Continuous resizing, reserved regions, vertical controls on the outer display and device poses |
 | macOS | [Designing for macOS](../subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-macos/SKILL.md) | Menu bar, toolbars, windows, keyboard commands, precise pointer use |
 | tvOS | [Designing for tvOS](../subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-tvos/SKILL.md) | Distant viewing, focus movement, remotes, shared viewing and text entry |
 | visionOS | [Designing for visionOS](../subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-visionos/SKILL.md) | Spatial layout, eyes and gestures, comfort, ornaments and immersion |
 | watchOS | [Designing for watchOS](../subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-watchos/SKILL.md) | Brief glanceable tasks, Digital Crown, small displays and haptics |
+| Web, Android, Windows | [Beyond Apple platforms](beyond-apple/README.md) | Not from Apple HIG: Apple principles with host conventions, host controls and host accessibility checks |
 
 ## Compose families for the user's task
 
