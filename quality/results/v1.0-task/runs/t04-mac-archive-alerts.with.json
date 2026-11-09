@@ -1,0 +1,63 @@
+{
+  "case": "t04-mac-archive-alerts",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 31.0,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-alerts/SKILL.md",
+    "subskills/apple-hig-presentation/SKILL.md",
+    "subskills/apple-hig-presentation/references/alerts.md"
+  ],
+  "skill_commands": 3,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 65721,
+    "cached_input_tokens": 46464,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 772,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The reply identifies all five specified problems and does not invent an unsupported high-severity finding.",
+        "The answer identifies all five described problems and does not invent an unsupported high-severity issue.",
+        "The reply identifies all five specified problems and does not invent an unsupported high-severity finding."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The corrected deletion alert names the archive and irreversible consequence, includes specific action and Cancel buttons, provides checkable expected behaviors, preserves default-button nuance, and makes no unsupported testing claims.",
+        "The corrected deletion alert names the archive and irreversible consequence, uses Delete Archive and Cancel, provides behavioral acceptance checks, allows contextual destructive defaults, and makes no unsupported testing claims.",
+        "The deletion correction names the archive and irreversible consequence, uses Delete Archive and Cancel, provides behavioral acceptance checks, allows contextual destructive defaults, and makes no unsupported testing claims."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

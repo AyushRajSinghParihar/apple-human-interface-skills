@@ -1,0 +1,14 @@
+The irreversible deletion alert is the highest priority because it conceals permanent data loss. These findings are verified against your description; the ranking reflects potential harm.
+
+| Rank | Verified problem and impact | Corrected behavior |
+|---|---|---|
+| **1 — High** | **Deletion says “Error / Something happened” with Yes/No.** It neither identifies what will be deleted nor explains that recovery is impossible. | Title: **“Permanently delete this archive?”** Body: **“The archive ‘[name]’ will be permanently deleted. This action cannot be undone.”** Buttons: **Cancel** and **Delete Archive**. Cancel preserves the archive; Delete Archive performs the deletion. |
+| **2 — High** | **Sync failure stacks another alert over the first.** Competing modal interruptions obscure context and complicate dismissal. | Allow only one alert at a time. Record and deduplicate the failure; show sync status in context. If immediate attention is required, present the failure after the current alert closes. Suggested title: **“Couldn’t sync the archive”**, with a verified cause or useful recovery detail. Offer **Retry** only if supported. |
+| **3 — Medium** | **Every successful save interrupts with an alert.** Routine success requires no decision and trains people to dismiss alerts automatically. | Save without a modal interruption. If feedback is useful, show a quiet **“Saved”** status near the document or save control. Keep focus in the user’s work. |
+| **4 — Low** | **Cancel is the default on the harmless save alert.** Cancellation is misleading after the save has already completed, and Cancel shouldn’t be the default. | Removing the alert resolves this. If a separate completion acknowledgment is necessary, use **Done** as its sole default button; Return dismisses it. |
+
+For deletion, **don’t automatically make Cancel the default**. My recommendation for this irreversible operation is **no default**, requiring deliberate button selection. Escape or Command-Period should cancel. Apple also permits a normal default destructive action when confirming destruction the person explicitly requested; destructive styling isn’t universally required in that case. Place Cancel before Delete Archive in the standard macOS button row.
+
+These corrections follow Apple’s [alert best practices](https://developer.apple.com/design/human-interface-guidelines/alerts#Best-practices), [content guidance](https://developer.apple.com/design/human-interface-guidelines/alerts#Content), and [button guidance](https://developer.apple.com/design/human-interface-guidelines/alerts#Buttons).
+
+**Verification status:** All four described behaviors fail the corresponding review checks. No runtime checks were executed; button handlers, Return/Escape behavior, focus restoration, accessibility, and repeated-failure handling remain unverified.

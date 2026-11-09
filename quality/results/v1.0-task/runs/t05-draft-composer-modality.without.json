@@ -1,0 +1,57 @@
+{
+  "case": "t05-draft-composer-modality",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 30.0,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 12894,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 821,
+    "reasoning_output_tokens": 62
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The specification replaces stacked modals with internal navigation, adds titles and explicit exits, preserves drafts on every exit, serializes alerts, and separates attachment Back navigation from dismissal.",
+        "The specification replaces nested modals with internal navigation, adds titles and explicit exits, preserves drafts on every exit, serializes alerts, and separates attachment Back navigation from dismissal.",
+        "The specification removes stacked modals, adds titles and explicit exits, preserves drafts on every exit, serializes alerts, and separates attachment Back navigation from dismissal."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It includes a before-and-after comparison and acceptance checks for swipe, Done, Close, Back, and upload errors without claiming any testing was performed.",
+        "The answer includes a before-and-after comparison and acceptance checks for swipe, Done, Close, Back, and upload errors without claiming that testing occurred or reporting unsupported measurements.",
+        "It includes a before-and-after comparison and acceptance checks covering swipe, Done, Close, Back, and upload errors without claiming any testing was performed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

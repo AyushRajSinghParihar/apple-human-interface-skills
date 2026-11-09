@@ -1,0 +1,57 @@
+{
+  "case": "t09-web-settings",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 21.9,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 12923,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 549,
+    "reasoning_output_tokens": 48
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer addresses labelled grouping, persistent labels, autosaving or unsaved-change warnings, accessible toggles, and licensed alternatives to bundling Apple assets.",
+        "The answer addresses labelled grouping, persistent labels, safe saving, keyboard-accessible toggles, and licensed alternatives to bundling Apple assets.",
+        "The answer covers labelled sections, persistent labels, autosaving or unsaved-change warnings, accessible web toggles, and licensing-aware alternatives to bundling Apple assets."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer follows web conventions and accessibility practices without claiming to have tested the interface or reporting unprovided measurements.",
+        "It applies web conventions and accessibility guidance without claiming testing or reporting measurements of the interface.",
+        "The answer follows web conventions with native controls, keyboard focus, and accessibility guidance, without claiming testing or reporting unprovided measurements."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

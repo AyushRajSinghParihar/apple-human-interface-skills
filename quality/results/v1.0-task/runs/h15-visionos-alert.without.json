@@ -1,0 +1,57 @@
+{
+  "case": "h15-visionos-alert",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 21.9,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 111896,
+    "cached_input_tokens": 76416,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 426,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": false,
+    "skill-fired": false
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer specifies all four required corrections, including the exact accessory dimensions, both placement behaviors, and Delete Album plus Cancel.",
+        "The specification includes the required 154 pt maximum height, 16 pt corner radius, both placement corrections, and Delete Album and Cancel buttons.",
+        "The answer specifies the required 154 pt maximum height, 16 pt corner radius, window-attached Shared Space placement, centered Full Space placement, and Delete Album and Cancel buttons."
+      ]
+    },
+    "nuance": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "The answer instructs the designer to explain consequences but does not provide alert text explaining who loses access or another actual consequence of deletion.",
+        "It keeps Cancel as an exit but only instructs the writer to explain deletion consequences instead of supplying alert text that explains them.",
+        "Although Cancel provides a clear exit, the answer only instructs the designer to explain consequences rather than supplying alert text that explains what deleting the shared album does."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

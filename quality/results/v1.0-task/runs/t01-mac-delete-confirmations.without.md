@@ -1,0 +1,16 @@
+**Ranked findings: C is a critical data-loss hazard; A is unnecessary friction; B’s Return behavior is acceptable in context.** This is a design review based on your descriptions; the acceptance checks below have not been executed.
+
+| Rank | Flow | Finding and corrected behavior |
+|---|---|---|
+| **1 — Critical** | **C: Inspector → Delete All** | Opening an inspector expresses no intent to delete anything. An unexpected destructive default makes an ordinary Return press dangerous. **Remove the deletion dialog from this path entirely.** Put Delete All behind an explicit, relevant command with a confirmation explaining its scope and consequences. For an unexpected or easily accidental destructive prompt, the safe action should be the default; Return must not destroy data. Merely changing the button color is insufficient. |
+| **2 — Moderate** | **A: One photo, with Undo** | A confirmation on every routine, reversible removal interrupts work and encourages habitual dismissal. **Remove the confirmation**, perform the removal immediately, and make Undo easy to discover and available through Edit → Undo and Command-Z. Return should retain its normal behavior in the current view; removing the alert does not imply assigning Return to deletion. |
+| **3 — Copy improvement; default acceptable** | **B: Deliberate Empty Archive** | Confirmation is appropriate because deletion is irreversible. **Keep the confirmation, and retaining Empty Archive as the normal default is reasonable:** the person explicitly requested this operation. Return may confirm. “Empty Archive?” alone does not explain permanence; add text such as “Permanently delete all items in the Archive? This action cannot be undone.” Keep Cancel and Empty Archive as explicit button labels. |
+
+A destructive action is not automatically disqualified from being the default. The key distinction is whether the person deliberately initiated that exact operation and can understand its consequences.
+
+**Acceptance checks**
+
+- **A:** Removing one selected photo shows no alert and affects only that photo. Command-Z and Edit → Undo restore the photo and its relevant state and placement. Return in the photo view does not unexpectedly remove anything.
+- **B:** Only an explicit Empty Archive command opens the confirmation. The text states the scope and irreversibility. Empty Archive is visibly the default, and a fresh Return press confirms it. Cancel or Escape dismisses without changes. Confirmation deletes only Archive contents.
+- **C:** Opening the inspector by mouse or keyboard shows the inspector without a deletion prompt or data changes. Pressing Return immediately afterward leaves unrelated data intact. Delete All requires an explicit deletion command; any confirmation identifies exactly what will be deleted and whether recovery is possible.
+- **Across flows:** Visible default styling matches actual Return behavior. Keyboard focus and default-button activation are checked separately, including with macOS keyboard navigation enabled. The keystroke that opens a confirmation must not also confirm it. Cancellation leaves data unchanged.

@@ -1,0 +1,57 @@
+{
+  "case": "t08-commute-widget",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 41.1,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 31519,
+    "cached_input_tokens": 24320,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1014,
+    "reasoning_output_tokens": 57
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": false,
+    "skill-fired": false
+  },
+  "score": 0.5,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The design provides glanceable commute information, one inline tap target, system-managed updates and a Live Activity, honest freshness labels, and a useful sign-in state.",
+        "The answer provides glanceable departures, one inline tap target, system-managed updates and a Live Activity, explicit freshness labels, and a useful sign-in state.",
+        "The answer provides glanceable departure information, one inline tap target, system-managed updates and a Live Activity, honest freshness labels, and a useful sign-in state."
+      ]
+    },
+    "nuance": {
+      "passed": false,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        "The design preserves meaning across appearance modes and makes no testing claims, but it does not specify the inline accessory\u2019s destination in the app.",
+        "The answer preserves meaning across appearance modes but does not specify the inline accessory\u2019s tap destination in the app.",
+        "It preserves meaning across the required appearances and makes no unsupported testing claims, but does not specify the inline accessory\u2019s precise in-app tap destination."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

@@ -1,0 +1,36 @@
+{
+  "case": "s05-uikit-dynamic-type",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 27.7,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-accessibility/SKILL.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-typography/SKILL.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md",
+    "subskills/apple-hig-foundations/references/typography.md"
+  ],
+  "skill_commands": 3,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 77490,
+    "cached_input_tokens": 57728,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 794,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": true
+}

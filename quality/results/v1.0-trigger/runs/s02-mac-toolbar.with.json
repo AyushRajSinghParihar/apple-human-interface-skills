@@ -1,0 +1,39 @@
+{
+  "case": "s02-mac-toolbar",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 25.7,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-toolbars/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/buttons.md",
+    "subskills/apple-hig-menus-and-actions/references/toolbars.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-windows/SKILL.md",
+    "subskills/apple-hig-presentation/SKILL.md",
+    "subskills/apple-hig-presentation/references/windows.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 93065,
+    "cached_input_tokens": 67840,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 655,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": true
+}

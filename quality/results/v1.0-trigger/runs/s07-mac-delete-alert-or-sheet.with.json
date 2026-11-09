@@ -1,0 +1,36 @@
+{
+  "case": "s07-mac-delete-alert-or-sheet",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 21.3,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-alerts/SKILL.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-sheets/SKILL.md",
+    "subskills/apple-hig-presentation/SKILL.md",
+    "subskills/apple-hig-presentation/references/alerts.md",
+    "subskills/apple-hig-presentation/references/sheets.md"
+  ],
+  "skill_commands": 3,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 65488,
+    "cached_input_tokens": 45568,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 471,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": true
+}

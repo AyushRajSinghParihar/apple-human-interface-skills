@@ -1,0 +1,66 @@
+{
+  "case": "t03-delivery-widget-privacy",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 68.9,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/SKILL.md",
+    "subskills/apple-hig-foundations/references/accessibility.md",
+    "subskills/apple-hig-foundations/references/privacy.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-system-experiences/SKILL.md",
+    "subskills/apple-hig-system-experiences/references/live-activities.md"
+  ],
+  "skill_commands": 5,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 151981,
+    "cached_input_tokens": 95872,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2190,
+    "reasoning_output_tokens": 8
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer removes private details from shared surfaces, uses system-managed widget updates and a delivery Live Activity, gives the inline accessory one tap target, and explicitly marks 35-minute-old data as stale.",
+        "The answer removes sensitive details from shared surfaces, uses system-managed widget updates and a delivery Live Activity, gives the inline accessory one tap target, and explicitly marks 35-minute-old data as stale.",
+        "The answer removes sensitive details from shared surfaces, uses system-managed widget updates and a bounded delivery Live Activity, gives the inline accessory one tap target, and explicitly labels the 35-minute-old data as stale."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer distinguishes periodic summaries from bounded delivery tracking, compares both watch options with a clear Smart Stack recommendation, avoids color-only meaning, and explicitly states that no interface testing was executed.",
+        "The answer distinguishes summary widgets from the bounded delivery activity, compares both watch options with a clear Smart Stack recommendation, avoids color-only meaning, and explicitly states that no runtime or device tests were performed.",
+        "The answer distinguishes summary widgets from active delivery tracking, compares watch complications with Smart Stack Live Activities and recommends the latter for delivery, uses textual status indicators, and explicitly states that no interface testing was performed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

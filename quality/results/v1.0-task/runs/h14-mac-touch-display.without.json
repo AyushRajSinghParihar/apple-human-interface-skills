@@ -1,0 +1,57 @@
+{
+  "case": "h14-mac-touch-display",
+  "arm": "without",
+  "status": "completed",
+  "seconds": 34.5,
+  "fired": false,
+  "skill_reads": [],
+  "skill_commands": 0,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 199556,
+    "cached_input_tokens": 141440,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 724,
+    "reasoning_output_tokens": 15
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": false
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer makes all five corrections, including preserving Mac control sizes and layout while enlarging tap targets and using standard controls.",
+        "The answer makes all five corrections, including preserving control size and layout while enlarging tap targets and using standard controls.",
+        "The answer makes all five corrections, including preserving control sizes and layout while enlarging tap targets and using standard controls."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer recommends supporting custom gestures on both touch and trackpad and checking system gesture conflicts, without claiming testing or unsupported measurements.",
+        "The answer recommends supporting custom gestures on both touch and trackpad and checking system gesture conflicts, without claiming testing or unsupported measurements.",
+        "The answer says custom gestures should support both touch and trackpad and be checked for system gesture conflicts, without claiming testing or unsupported measurements."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

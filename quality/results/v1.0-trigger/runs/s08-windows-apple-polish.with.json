@@ -1,0 +1,37 @@
+{
+  "case": "s08-windows-apple-polish",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 29.0,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-buttons/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/buttons.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-onboarding/SKILL.md",
+    "subskills/apple-hig-patterns/SKILL.md",
+    "subskills/apple-hig-patterns/references/onboarding.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 90304,
+    "cached_input_tokens": 58496,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 635,
+    "reasoning_output_tokens": 15
+  },
+  "stderr": "",
+  "graders": {
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": true
+}

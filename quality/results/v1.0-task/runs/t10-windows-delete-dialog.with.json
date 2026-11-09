@@ -1,0 +1,63 @@
+{
+  "case": "t10-windows-delete-dialog",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 29.1,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-alerts/SKILL.md",
+    "subskills/apple-hig-presentation/SKILL.md",
+    "subskills/apple-hig-presentation/references/alerts.md"
+  ],
+  "skill_commands": 3,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 68949,
+    "cached_input_tokens": 36992,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 674,
+    "reasoning_output_tokens": 26
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer names the project and irreversible consequences, uses Delete and Cancel, preserves native Windows PrimaryButton/CloseButton ordering, and removes stacked dialogs.",
+        "The answer provides a named-project title and irreversible-deletion message, uses Delete and Cancel, preserves Windows PrimaryButton/CloseButton ordering, and removes stacked dialogs.",
+        "The answer names the project and irreversible consequences, uses Delete and Cancel, preserves Windows ordering through PrimaryButton and CloseButton, and removes stacked dialogs."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It recommends no default with initial focus on Cancel, keeps Escape and Cancel safe, and explicitly states that runtime behavior was not tested.",
+        "It recommends no default with initial focus on Cancel for the irreversible deletion, preserves Escape and Cancel as safe exits, and explicitly states runtime behavior has not been tested.",
+        "It explains a risk-based choice of no default with initial focus on Cancel, keeps Escape and Cancel safe, and explicitly states that runtime behavior has not been tested."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

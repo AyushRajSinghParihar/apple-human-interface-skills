@@ -1,0 +1,8 @@
+| Rank | Verified problem | Corrected behavior |
+|---|---|---|
+| **1 — Highest** | The irreversible deletion alert doesn’t explain the action or consequence. “Error,” “Something happened,” and Yes/No prevent an informed choice. | Use **“Delete this archive permanently?”** with **“This permanently deletes the archive and its contents. You can’t undo this action.”** Buttons: **Cancel** and **Delete Archive**. Make Cancel the default and use destructive styling for Delete Archive. |
+| **2 — High** | A sync failure stacks another alert on an existing alert, creating competing modal decisions. | Present only one alert at a time. Keep the sync failure visible in the app and defer any necessary alert until the current alert closes. Offer **Retry** when retrying is supported. |
+| **3 — Medium** | Every routine successful save interrupts the user with an alert. | Save without a modal alert. If confirmation is useful, show a quiet **“Saved”** status near the document or save control. Reserve alerts for issues requiring attention or a decision. |
+| **4 — Lower** | The harmless save alert makes Cancel the default, giving the primary keyboard action an inappropriate outcome. | Remove the success alert. If an acknowledgment is genuinely necessary, use **OK** as the default; a completed save has nothing to cancel. |
+
+These findings follow from the described behavior. Visual layout, accessibility, and actual keyboard behavior can’t be verified without a build or screenshot.

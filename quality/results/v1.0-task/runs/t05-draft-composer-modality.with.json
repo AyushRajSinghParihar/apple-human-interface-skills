@@ -1,0 +1,75 @@
+{
+  "case": "t05-draft-composer-modality",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 62.1,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ios/SKILL.md",
+    "subskills/apple-hig-getting-started/.topics/apple-hig-designing-for-ipados/SKILL.md",
+    "subskills/apple-hig-getting-started/SKILL.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ios.md",
+    "subskills/apple-hig-getting-started/references/designing-for-ipados.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-modality/SKILL.md",
+    "subskills/apple-hig-patterns/SKILL.md",
+    "subskills/apple-hig-patterns/references/modality.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-action-sheets/SKILL.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-alerts/SKILL.md",
+    "subskills/apple-hig-presentation/.topics/apple-hig-sheets/SKILL.md",
+    "subskills/apple-hig-presentation/SKILL.md",
+    "subskills/apple-hig-presentation/references/action-sheets.md",
+    "subskills/apple-hig-presentation/references/alerts.md",
+    "subskills/apple-hig-presentation/references/sheets.md"
+  ],
+  "skill_commands": 5,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 123124,
+    "cached_input_tokens": 95360,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1795,
+    "reasoning_output_tokens": 13
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The specification replaces nested modals with one titled sheet, adds explicit exits and separate Back navigation, protects drafts on all exits, and prevents simultaneous alerts.",
+        "The specification replaces nested modals with one titled composer, adds explicit exits and separate Back navigation, protects drafts on every exit, and prevents simultaneous alerts.",
+        "The specification replaces nested modals with one titled sheet, provides explicit exits and draft protection, prevents simultaneous alerts, and adds Back navigation separate from dismissal."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "It includes a before-and-after comparison and acceptance checks for swipe, Cancel, Done, Back, and upload errors, while explicitly stating runtime and device checks remain unexecuted.",
+        "It includes a before-and-after comparison and acceptance checks covering swipe, Cancel, Done, Back, and upload errors, without claiming executed interface tests or measurements.",
+        "It includes a before-and-after comparison and acceptance checks for swipe, Cancel, Done, Back, and upload errors, while explicitly stating runtime and device checks remain unexecuted."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}

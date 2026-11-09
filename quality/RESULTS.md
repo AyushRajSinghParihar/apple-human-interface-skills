@@ -1,46 +1,55 @@
 # Benchmark results
 
-## v1.0, before the v1.1 changes (2026-11-09)
+All runs use Codex CLI 0.166.0 with `gpt-6.1-sol`. Each case ran once in each
+arm, and a blind Codex session graded each answer three times. One run for each
+case gives a coarse signal: do not report a difference of one case as an
+improvement.
 
-Codex CLI 0.166.0 with `gpt-6.1-sol` ran each case once and graded each
-answer three times in a blind Codex session. See
-[task summary](results/v1.0-before-task/SUMMARY.md) and
-[trigger summary](results/v1.0-before-trigger/SUMMARY.md).
+## v1.0 without web search (main result, 2026-11-09)
 
-### Task quality: at the ceiling
+Web search was off and the shell sandbox had no network, so the arm without the
+skill used only the model's own knowledge. See
+[task summary](results/v1.0-task/SUMMARY.md) and
+[trigger summary](results/v1.0-trigger/SUMMARY.md).
+
+| 15 task cases | With skill | Without skill |
+|---|---:|---:|
+| Mean score | 0.93 | 0.83 |
+| Median input tokens for each run | 97,469 | 12,935 |
+
+- The skill was better in 4 cases (h12, h13, t04, t08) and worse in 1 (h14).
+- Every "findings" grader passed in both arms. All failures were in the
+  "nuance" graders, and most were about completeness: no acceptance checks, no
+  subscription name, or no tap destination. So the skill mostly made answers
+  more complete; the model already knew the main HIG rules, also for 2026 pages.
+- h14 (Mac touch display): v1.0 does not have the 2026-10-28 touch rules, and
+  the answer with the skill missed one of them.
+- Triggers: 10 of 10 requests started the skill, and 2 of 10 near misses also
+  started it (Fastlane and iOS binary size).
+
+## v1.0 with web search (2026-11-09)
+
+Codex has web search on by default. In these runs, both arms searched the web
+and opened Apple's live HIG pages, so the arm without the skill also had the
+current guidance. See [task](results/v1.0-web-task/SUMMARY.md),
+[hard cases](results/v1.0-web-hard/SUMMARY.md) and
+[triggers](results/v1.0-web-trigger/SUMMARY.md).
 
 | | With skill | Without skill |
 |---|---:|---:|
-| Mean score of 10 cases | 1.00 | 0.95 |
+| Mean score of 10 task cases | 1.00 | 0.95 |
+| Mean score of 5 hard cases | 0.90 | 0.70 |
+| Median input tokens (10 task cases) | 164,112 | 69,451 |
 
-Only one case (t04, Mac alerts) had a difference, and that difference was a
-missing list of acceptance checks, not missing HIG knowledge. The judge reasons
-for the runs without the skill are correct: this model already knows these HIG
-rules. So these cases cannot show what the skill adds for this model.
+Triggers with web search on: 10 of 10 started the skill, and 0 of 10 near misses
+started it.
 
-### Cost: the skill made each run larger
+## What this means for v1.1
 
-| Median for each task run | With skill | Without skill |
-|---|---:|---:|
-| Input tokens | 164,112 | 69,451 |
-| Input tokens not from cache | 35,790 | 21,789 |
-| Output tokens | 1,548 | 908 |
-| Skill files read | 9.5 | 0 |
-
-### Triggers: correct in this run
-
-- 10 of 10 requests that must start the skill started it.
-- 0 of 10 near misses started it.
-
-An earlier smoke run of the same binary-size question did start the skill, so
-the trigger result varies between runs.
-
-### What this means
-
-- For a strong model, the value of the skill is not shown by these cases. Its
-  cost is clear: about 2.4 times the input tokens.
-- The next changes must make the route cheaper, and the next cases must test
-  what a model cannot know without the skill: rules newer than its training,
-  exact numbers and platform-specific limits.
-- One run for each case gives a coarse signal. Do not report a difference of
-  one case as an improvement.
+- Make the route cheaper. The skill used about 7.5 times the input tokens of a
+  run without it, for a gain of 0.10 in the mean score.
+- Keep the parts that make answers complete: the request modes, the acceptance
+  checks and the evidence limits.
+- Make the description narrower, so that build and tooling questions about iOS
+  do not start the skill.
+- Add the 2026-10-28 HIG changes (touch on a Mac).

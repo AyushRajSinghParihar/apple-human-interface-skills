@@ -1,0 +1,39 @@
+{
+  "case": "s01-swiftui-settings",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 29.8,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-foundations/.topics/apple-hig-typography/SKILL.md",
+    "subskills/apple-hig-foundations/references/typography.md",
+    "subskills/apple-hig-layout-and-organization/.topics/apple-hig-lists-and-tables/SKILL.md",
+    "subskills/apple-hig-layout-and-organization/references/lists-and-tables.md",
+    "subskills/apple-hig-menus-and-actions/.topics/apple-hig-toolbars/SKILL.md",
+    "subskills/apple-hig-menus-and-actions/references/toolbars.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-settings/SKILL.md",
+    "subskills/apple-hig-patterns/references/settings.md"
+  ],
+  "skill_commands": 5,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 81983,
+    "cached_input_tokens": 60288,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 883,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "trigger",
+  "verdicts": {},
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": true
+}

@@ -1,0 +1,64 @@
+{
+  "case": "t09-web-settings",
+  "arm": "with",
+  "status": "completed",
+  "seconds": 42.3,
+  "fired": true,
+  "skill_reads": [
+    "SKILL.md",
+    "references/topic-index.md",
+    "subskills/apple-hig-patterns/.topics/apple-hig-settings/SKILL.md",
+    "subskills/apple-hig-patterns/references/settings.md",
+    "subskills/apple-hig-selection-and-input/references/text-fields.md",
+    "subskills/apple-hig-selection-and-input/references/toggles.md"
+  ],
+  "skill_commands": 4,
+  "web_searches": 0,
+  "usage": {
+    "input_tokens": 97469,
+    "cached_input_tokens": 75776,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1223,
+    "reasoning_output_tokens": 0
+  },
+  "stderr": "",
+  "graders": {
+    "findings": true,
+    "nuance": true,
+    "skill-fired": true
+  },
+  "score": 1.0,
+  "kind": "task",
+  "verdicts": {
+    "findings": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer recommends labelled sections, persistent visible labels, autosave or unsaved-change warnings, accessible semantic toggles, and licensed alternatives to bundling Apple assets.",
+        "The answer recommends labelled sections, persistent labels, autosaving or unsaved-change warnings, accessible semantic toggles, and licensed alternatives to bundled Apple assets.",
+        "The answer addresses labelled sections, persistent labels, autosaving or unsaved-change warnings, accessible semantic toggles, and licensing-safe font and icon alternatives."
+      ]
+    },
+    "nuance": {
+      "passed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "reasons": [
+        "The answer applies Apple\u2019s principles using web semantics, keyboard support, and browser safeguards without claiming to have tested the interface or measured anything.",
+        "The answer applies Apple\u2019s principles through web semantics, keyboard support, and browser-aware behavior without claiming any testing or measurements.",
+        "The answer applies Apple\u2019s principles through web semantics, keyboard access, and browser behavior without claiming tests or measurements were performed."
+      ]
+    }
+  },
+  "codex": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "web": false,
+  "expect_fire": false
+}
