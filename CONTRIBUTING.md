@@ -45,6 +45,31 @@ changes, its article and affected media/supporting approvals need renewed review
 Changing a topic invalidates its behavioral result; changing routing or shared
 inputs requires the corresponding routing and dependent-case checks again.
 
+## Update to a new Apple snapshot
+
+The weekly [drift job](.github/workflows/drift.yml) runs `hig.py drift` and opens
+an issue with the label `hig-drift` when Apple's pages differ from the snapshot.
+The issue separates pages whose guidance changed from pages whose metadata or
+links changed. To update:
+
+1. Run `hig.py discover` to fetch the new source into `coverage/manifest.json`.
+2. For each page with changed guidance, update its guide in `references/` and,
+   if a decision changes, its topic procedure. Keep an anchor for each source
+   heading.
+3. Run `hig.py review-remap SLUG...` for every changed page. It moves reviews of
+   unchanged units and media to their new IDs and drops removed content.
+4. Run `hig.py review-scaffold SLUG...` for the pages with changed guidance. It
+   adds draft reviews for new units and media, and downloads new assets to
+   `.cache/review-media/`.
+5. Run `hig.py review-draft --all` to mark every other stale record.
+6. Run `hig.py review-renew SLUG...` for the pages whose units and media did not
+   change. It refuses a page with any guidance change.
+7. Give the remaining drafts to a reviewer who did not write the change. The
+   reviewer examines the source, the guides and the downloaded media, rewrites
+   each `TODO(re-review)` text, and runs `hig.py review-approve`.
+8. Update the `sections` and `tables` lists of each changed article review by
+   hand, then run `hig.py report`, `hig.py check` and the tests.
+
 ## Verify the change
 
 ```bash

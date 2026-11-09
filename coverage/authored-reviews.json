@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "skills/apple-hig/agents/hig-reviewer.md",
+      "hash": "5b233296c6171df1ac2ff08681603fdd9f58729950c9d0af676786c1824dacd8",
+      "status": "reviewed",
+      "reviewer": "independent-route-reviewer",
+      "reviewed_at": "2026-11-09T18:34:24+00:00",
+      "evidence": "Checked against the root SKILL.md and Claude Code plugin layout. The plugin root is skills/apple-hig (.claude-plugin/plugin.json, marketplace source ./skills/apple-hig), so agents/ is at the plugin root. Frontmatter: name, a third-person description, tools Read, Glob, Grep only (read-only; the body also says 'You do not change files'), skills: [apple-hig]. Steps agree with the root review mode: platform and task intake, map each control and material decision to its procedure through the topic index, read the procedure and its guide, ranked findings with location, problem, effect, linked HIG rule and correction, source-backed findings kept apart from suggestions, no violation that the evidence does not show, and device, assistive technology and build checks marked not done. The 10-finding limit is a new output limit, not a conflict. Not verified at runtime: whether 'skills: [apple-hig]' resolves to the namespaced plugin skill. No external factual claims."
+    },
+    {
+      "path": "skills/apple-hig/commands/adapt.md",
+      "hash": "c10fe6fd884409eba3ca52d05cd48090437acfcf166e47f3825087725d802f35",
+      "status": "reviewed",
+      "reviewer": "independent-route-reviewer",
+      "reviewed_at": "2026-11-09T18:34:24+00:00",
+      "evidence": "Checked against the root SKILL.md, references/platforms-and-tasks.md and beyond-apple/README.md. Frontmatter description and argument-hint are valid for a Claude Code plugin command at the plugin root (README documents /apple-hig:adapt). Steps agree with the skill: keep the task, data and useful state (root Adapt mode); for an Apple target read the target platform's Getting started procedure, then each affected component procedure (root step 4 and 5); for web, Android or Windows read Beyond Apple platforms first and keep the host conventions (root step 2, README conflict rule); change the supplied files or give a before and after contract (this keeps the old root Adapt rule); report acceptance checks as passed, failed or not done (root reporting). The command changes files only for an explicit user invocation of adapt, which is its purpose. No external factual claims."
+    },
+    {
+      "path": "skills/apple-hig/commands/review.md",
+      "hash": "13f9269de9a60a9bf3cee0643a392b2bd1214c9bc0d6b2f4aa32725df029857b",
+      "status": "reviewed",
+      "reviewer": "independent-route-reviewer",
+      "reviewed_at": "2026-11-09T18:34:24+00:00",
+      "evidence": "Checked against the root SKILL.md. Frontmatter description and argument-hint are valid for a plugin command (README documents /apple-hig:review). Steps agree with root review mode: find platform and task and examine the supplied evidence first; map each control and material decision to its procedure through the topic index; ranked findings with problem, effect, linked HIG rule and concrete correction; source-backed findings kept apart from suggestions and no violation without evidence; checks reported as passed, failed or not done. The no-argument default (the interface files that the current branch changes) is a reasonable scope. The command does not tell the agent to edit files. No external factual claims."
+    },
+    {
+      "path": "skills/apple-hig/references/beyond-apple/README.md",
+      "hash": "428480adbff52aea52b335e80f97459801ca7d4ecd1fd89866a6cb81416cb282",
+      "status": "reviewed",
+      "reviewer": "independent-route-reviewer",
+      "reviewed_at": "2026-11-09T18:34:24+00:00",
+      "evidence": "Re-review at bcd59fc after my first review found problems; all of them are fixed. (1) ShazamKit moved to 'Partly portable', and it links developer.apple.com/shazamkit, which says 'A ShazamKit SDK is also available for Android.' (2) Wallet: 'a website can add passes to Apple Wallet (see the Wallet guide)' agrees with wallet.md ('bundle web downloads', Add to Apple Wallet). (3) The modifiers now follow the person's system (Ctrl on Windows; on the web, Command on a Mac and Ctrl elsewhere). (4) Line 5 now says a host fact links its source and an unlinked statement is this package's own advice; the 1 pt to CSS px/dp/epx line is marked as this package's starting point. (5) Apple Pay and Sign in with Apple 'also work on the web' agrees with apple-pay.md (browsers, websites) and sign-in-with-apple.md (websites). (6) The font bullet names SF Pro, SF Compact and SF Mono, and its quote and no-embedding rule agree with developer.apple.com/fonts licence sections 2A and 2B. New York and SF Symbols are in the 'no permission found' bullet, which is honest because the fonts page gives no licence terms for them. Unchanged and still verified: WCAG 2.2 SC 2.5.8 is 24 by 24 CSS px; SC 1.4.3 is 4.5:1 or 3:1; SC 1.4.4 is 200%; Android is 48 dp and its contrast thresholds; Windows is 7.5 mm / 40x40 px at 1.0x; the Apple values 44/28 pt and 17/11 pt agree with the Accessibility guide. The Apple-only list now has only Apple-exclusive features. All local links resolve."
+    },
+    {
+      "path": "skills/apple-hig/references/beyond-apple/android.md",
+      "hash": "61362ddbd1dda9b27fd40a2f55118b5bbb5c6ee3b2fd6ae2e9a20cfabd42f721",
+      "status": "reviewed",
+      "reviewer": "independent-route-reviewer",
+      "reviewed_at": "2026-11-09T18:34:24+00:00",
+      "evidence": "Fetched developer.android.com/guide/topics/ui/accessibility/apps: 'at least 48dpx48dp' touch target; contrast at least 4.5:1 if text is smaller than 18sp or bold and smaller than 14sp, otherwise 3:1; contentDescription for each element's purpose; Role semantics so screen readers announce the element correctly; the Accessibility Scanner link. All agree with lines 28-41. Fetched the predictive-back page: it covers system back handling (OnBackPressedCallback/OnBackInvokedCallback, back in dialogs). It does not literally say 'every screen', but the rule that system back must work is standard Android practice. Material dialog, snackbar with Undo, bottom sheet, navigation bar, navigation rail and drawer, top app bar, Android Sharesheet, sp units and the system font are standard Material 3 and Android terms (m3.material.io/components is linked). I checked the 'Keep from the HIG procedure' column against the package guides: never stack dialogs (Modality: 'never stack multiple alerts'), undo for ordinary deletion (Alerts procedure), action sheets after a deliberate action, toolbars prioritize main tasks, system share flow (Activity views). All links resolve."
+    },
+    {
+      "path": "skills/apple-hig/references/beyond-apple/web.md",
+      "hash": "3bf457b15a8260ed066ebe7675b0e4ef2a608c67261558719e61886ee8f13890",
+      "status": "reviewed",
+      "reviewer": "independent-route-reviewer",
+      "reviewed_at": "2026-11-09T18:34:24+00:00",
+      "evidence": "Re-review at bcd59fc after my first review found problems; both are fixed. The Toggles HIG column now says 'apply the change at once or with an explicit commit, as the procedure decides', which agrees with the toggles procedure ('immediate/deferred persistence'). The Text fields HIG column now says 'a clear hint of what to enter; clear errors next to the field'. This agrees with the text-fields guide ('Explain purpose with a placeholder', 'understandable feedback') and Entering data ('fixed in context'). The visible-label rule moved to 'The web convention wins' and links WCAG 2.2 SC 3.3.2 (Level A, 'Labels or instructions are provided when content requires user input'). The Understanding document says labels 'need to be persistently available' and that the best way is often to make them 'visually persistent'. That a placeholder disappears when the person types is standard HTML behavior. The first-review checks still hold: APG modal dialog focus and Escape behavior; WCAG 2.4.7, 1.4.4, 1.4.3 and 2.5.8 and their anchors; the menu button pattern, popover, role=switch, aria-current, autocomplete, inputmode, system-ui, prefers-color-scheme and prefers-reduced-motion. All links resolve."
+    },
+    {
+      "path": "skills/apple-hig/references/beyond-apple/windows.md",
+      "hash": "1eb1bf43256f7a4d12a442b79d60cca908b3093c1eeea9fe94e4defc63156e04",
+      "status": "reviewed",
+      "reviewer": "independent-route-reviewer",
+      "reviewed_at": "2026-11-09T18:34:24+00:00",
+      "evidence": "Re-review at bcd59fc after my first review found a problem; it is fixed. The Toolbars HIG column now says 'prefer symbols, and use text where a symbol cannot explain the action', which agrees with toolbars.md ('Prefer recognizable, borderless system symbols; use words where a glyph cannot explain an action'). New citations checked: the learn.microsoft.com title bar page says 'keep caption controls anchored to the right' (in its Tabs section) and shows the standard caption buttons on the right. The page mirrors title-bar placement for RTL, so 'right' is the LTR case. The typography page says 'Segoe UI Variable is the new system font for Windows' and recommends it as the default app font. The first-review checks still hold against the dialogs page: PrimaryButton is leftmost, SecondaryButton is in the middle and CloseButton is rightmost; ESC, system back and Gamepad B invoke the CloseButton; 'By default, no default button is set'; one ContentDialog per window; specific button text. The targeting page gives 7.5mm = 40x40 px at the 1.0x plateau. Ctrl shortcuts, Ctrl+Z/Ctrl+Y, CommandBar, MenuBar, MenuFlyout and NavigationView are this package's mapping advice, which README now marks as such. All links resolve."
+    },
+    {
+      "path": "skills/apple-hig/references/key-numbers.md",
+      "hash": "9d12cf66b0cca1f01e499021584b67bd228c99729d4e0671edc16abc9887eee8",
+      "status": "reviewed",
+      "reviewer": "independent-route-reviewer",
+      "reviewed_at": "2026-11-09T18:34:24+00:00",
+      "evidence": "Checked every number against the linked guide. Accessibility guide: the text table (17/11, 13/10, 29/23, 17/12, 16/12 pt) and the control table (44/28, 28/20, 66/56, 60/28, 44/28 pt) match row by row with the same platforms; 'at least 200%; ... 140% for watchOS' matches; the Accessibility Inspector contrast values (4.5:1 up to 17 pt, 3:1 for 18 pt, 3:1 bold) match. The file says '18 pt and larger', which is the plain reading of Apple's 'Up to 17 / 18' table, but the guide literally says '18 pt at all weights'. Live Activities guide: 'ideally no more than 8 hours'; Lock Screen, Mac and watch 'retain it for up to 4 hours', summary 'commonly 15-30 minutes'; 'fit compact/minimal content within a 28-pt circle' for limited-width Dynamic Island contexts. Widgets guide: 'transitions of up to 2 seconds'. Alerts guide: visionOS accessory view 'no taller than 154 pt' with '16-pt corner radius'; 'up to three buttons'. App icons guide: 1024x1024 square to rounded square (iOS, iPadOS, macOS), 800x480 landscape to rounded rectangle (tvOS), 1024x1024 to circle (visionOS), 1088x1088 to circle (watchOS). All match with the same scope, and all links resolve."
+    }
+  ]
+}

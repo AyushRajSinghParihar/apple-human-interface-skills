@@ -38,8 +38,15 @@ You can also install the same complete bundle through Claude Code's plugin syste
 /plugin install apple-hig@apple-human-interface-skills
 ```
 
-Start a new session and invoke `/apple-hig:apple-hig`, or ask Claude to use
-`apple-hig` for an Apple interface task. Use either this method or the Skills CLI
+Start a new session and ask for an interface task, or use these commands:
+
+| Command | What it does |
+|---|---|
+| `/apple-hig:review [target]` | Ranked HIG findings for code, a screenshot or a specification |
+| `/apple-hig:adapt <platform> [target]` | Adapt an interface to another Apple platform, or to the web, Android or Windows |
+
+The plugin also has a `hig-reviewer` subagent, which reviews in a separate context
+and returns ranked findings with source links. Use either this method or the Skills CLI
 for a given installation to avoid loading duplicate copies.
 
 This is a community marketplace hosted in this repository. It is not an
@@ -72,6 +79,11 @@ Use apple-hig to adapt this iPad media browser for Apple TV.
 Preserve the main task while changing navigation and input where needed.
 ```
 
+```text
+Our React settings page should feel as clear as an Apple app.
+Review it with apple-hig, but keep normal web behavior.
+```
+
 You don’t need to pick individual topic skills. The main `apple-hig` skill routes
 to the topics your task needs. Your agent may also offer its own skill menu or
 invocation shortcut.
@@ -82,6 +94,7 @@ invocation shortcut.
 - **Improve an existing interface:** find specific problems and propose or implement corrections.
 - **Review a flow:** check accessibility, feedback, error recovery, privacy, and platform conventions.
 - **Adapt to another Apple platform:** preserve the product’s purpose while adjusting its presentation and input.
+- **Bring Apple-quality design to the web, Android or Windows:** apply Apple's principles while you keep the host platform's conventions, controls and accessibility checks.
 
 Each topic includes decisions to make, a worked example, a useful output, and
 checks for the result. For example,
@@ -91,6 +104,15 @@ helps resolve action prominence and loading behavior;
 covers dismissal and unsaved work; and
 [Widgets](skills/apple-hig/subskills/apple-hig-system-experiences/.topics/apple-hig-widgets/SKILL.md)
 covers useful content, freshness, privacy, and tap destinations.
+
+## Outside Apple platforms
+
+For a web, Android or Windows app, the skill applies Apple's principles (clear
+hierarchy, feedback, modality, writing and accessibility) and keeps the host
+conventions that people depend on, such as system back, dialog button order and
+the system font. It does not bundle Apple fonts or symbols, because their
+licences do not permit it. These host notes are not from Apple's HIG; they link
+their own sources.
 
 ## What’s included
 

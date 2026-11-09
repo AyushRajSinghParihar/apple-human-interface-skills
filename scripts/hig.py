@@ -13,8 +13,12 @@ Review maintenance:
   review-remap SLUG...     after discover: move unchanged unit and media reviews to new IDs
   review-scaffold SLUG...  after discover: add draft reviews for new units and media
   review-renew SLUG...     renew drafts of pages whose units and media are unchanged (--previous REF)
+  index                    write references/topic-index.md from the topic descriptions
+  api-map                  write references/implementation-map.md from the guides' API links
+  drift                    compare Apple's live HIG with the snapshot (exit 1 on drift); no media downloads
 """
 import argparse
+import collections
 import concurrent.futures
 import datetime as dt
 import hashlib
@@ -529,6 +533,34 @@ def media_review_issues(root, package, reachable, media, observed):
     return errors, pending
 
 
+# Package files that are not derived from an Apple source. Each needs its own review
+# record in coverage/authored-reviews.json, bound to the file's bytes.
+AUTHORED_GLOBS = ("references/beyond-apple/*.md", "references/key-numbers.md", "commands/*.md", "agents/*.md")
+
+
+def authored_issues(root, package):
+    errors, pending = [], []
+    path = pathlib.Path(root) / "coverage" / "authored-reviews.json"
+    records = {}
+    if path.is_file():
+        for entry in read_json(path).get("files", []):
+            records[entry.get("path")] = entry
+    for pattern in AUTHORED_GLOBS:
+        for target in sorted(package.glob(pattern)):
+            relative = target.relative_to(root).as_posix()
+            entry = records.get(relative)
+            if entry is None:
+                pending.append(f"{relative}: authored file has no review record")
+            elif entry.get("hash") != digest(target.read_bytes()):
+                pending.append(f"{relative}: authored review is stale")
+            elif entry.get("status") != "reviewed" or not entry.get("reviewer") or not entry.get("evidence"):
+                pending.append(f"{relative}: authored review pending")
+    for relative in sorted(records):
+        if not (pathlib.Path(root) / relative).is_file():
+            errors.append(f"coverage/authored-reviews.json: record for a missing file: {relative}")
+    return errors, pending
+
+
 def check(root=ROOT, live=False, allow_pending=False):
     root = pathlib.Path(root)
     manifest = read_json(root / "coverage" / "manifest.json")
@@ -544,6 +576,9 @@ def check(root=ROOT, live=False, allow_pending=False):
     if not (package / "SKILL.md").is_file():
         errors.append("Missing package root SKILL.md")
     pending = []
+    authored_errors, authored_pending = authored_issues(root, package)
+    errors.extend(authored_errors)
+    pending.extend(authored_pending)
     try:
         import yaml
     except ImportError:
@@ -684,6 +719,131 @@ def report(root=ROOT):
     return result
 
 
+FAMILY_ORDER = (("getting-started", "Getting started"), ("foundations", "Foundations"), ("patterns", "Patterns"),
+                ("content", "Content"), ("layout-and-organization", "Layout and organization"),
+                ("menus-and-actions", "Menus and actions"), ("navigation-and-search", "Navigation and search"),
+                ("presentation", "Presentation"), ("selection-and-input", "Selection and input"),
+                ("status", "Status"), ("system-experiences", "System experiences"), ("inputs", "Inputs"),
+                ("technologies", "Technologies"))
+INDEX_HEADER = """# Apple HIG topic index
+
+Search this file for the concepts of the task, for example "paywall", "delete",
+"offline" or "Dynamic Type", and also for component names. Open each matching
+topic procedure directly; each procedure links its source guide. Use a family
+SKILL.md only to compare the topics of one area.
+
+This file is made by `scripts/hig.py index` from the topic descriptions.
+"""
+# Only the request-mode verbs are removed; content verbs such as "expressing" stay.
+_MODE_VERBS = r"(?:creating|designing|reviewing|adapting|choosing|porting|preparing|selecting|configuring|drafting)"
+_GERUNDS = re.compile(rf"^(?:{_MODE_VERBS}(?:, or |, and |, | or | and ))*{_MODE_VERBS}\s+")
+
+
+def index_text(root=ROOT):
+    """Build the compact topic index from the topic inventory and each procedure's description."""
+    import yaml
+    root = pathlib.Path(root)
+    package = root / "skills" / "apple-hig"
+    titles = {p["slug"]: p["title"] for p in read_json(root / "coverage" / "manifest.json")["pages"]}
+    families = {}
+    for row in read_json(root / "coverage" / "capabilities.json")["topics"]:
+        skill = root / row["skill_path"]
+        front = yaml.safe_load(re.match(r"---\n(.*?)\n---\n", skill.read_text(), re.S).group(1))
+        description = re.sub(r"^Use when\s+", "", front["description"].strip())
+        description = _GERUNDS.sub("", description).rstrip(".")
+        link = "../" + skill.relative_to(package).as_posix()
+        families.setdefault(row["family"], []).append(f'- [{titles[row["topic"]]}]({link}): {description}.')
+    unknown = set(families) - {key for key, _ in FAMILY_ORDER}
+    if unknown:
+        raise ValueError(f"index: families without an order: {sorted(unknown)}")
+    lines = [INDEX_HEADER]
+    for key, title in FAMILY_ORDER:
+        lines += [f"## {title}", ""] + sorted(families.get(key, []), key=str.casefold) + [""]
+    lines += ["Original [visual explanations](media/index.md) supplement some procedures.", ""]
+    return "\n".join(lines)
+
+
+API_FRAMEWORKS = ("SwiftUI", "UIKit", "AppKit")
+_API_URL = re.compile(r"<https://developer\.apple\.com/documentation/([A-Za-z]+)/([^>\s]+)>"
+                      r"|\(https://developer\.apple\.com/documentation/([A-Za-z]+)/((?:[^()\s]|\([^()\s]*\))+)\)")
+
+
+def api_map_text(root=ROOT):
+    """Build references/implementation-map.md from each guide's Developer documentation links."""
+    root = pathlib.Path(root)
+    package = root / "skills" / "apple-hig"
+    pages = {p["slug"]: p for p in read_json(root / "coverage" / "manifest.json")["pages"] if p.get("type") == "article"}
+    rows = []
+    for slug, page in sorted(pages.items(), key=lambda item: item[1]["title"].casefold()):
+        guide = root / page["destination"]
+        text = guide.read_text() if guide.is_file() else ""
+        section = re.search(r"#### Developer documentation\n(.*?)(?=\n<a id=|\n#{1,4} |\Z)", text, re.S)
+        if not section:
+            continue
+        found = {}
+        for match in _API_URL.finditer(section.group(1)):
+            framework, rest = (match.group(1), match.group(2)) if match.group(1) else (match.group(3), match.group(4))
+            parts = [urllib.parse.unquote(part) for part in rest.rstrip("/").split("/")]
+            name = re.sub(r"-[0-9a-z]{4,6}$", "", ".".join(parts[-2:]) if len(parts) > 1 else parts[0])
+            url = f"https://developer.apple.com/documentation/{framework}/{rest}"
+            key = framework if framework in API_FRAMEWORKS else "Other"
+            label = name if key != "Other" else f"{framework}: {name}"
+            found.setdefault(key, []).append(f"[`{label}`]({url})")
+        if not found:
+            continue
+        guide_link = "../" + guide.relative_to(package).as_posix()
+        cells = ["<br>".join(found.get(key, [])) or "–" for key in (*API_FRAMEWORKS, "Other")]
+        rows.append(f'| [{page["title"]}]({guide_link}) | ' + " | ".join(cells) + " |")
+    lines = ["# Implementation map", "",
+             "This table lists the Apple developer documentation that each source guide links.",
+             "It is made by `scripts/hig.py api-map`. It names a starting point, not a",
+             "complete or current API list: check availability in the SDK documentation",
+             "before you write code. Topics without such links are not listed.", "",
+             "| Topic | SwiftUI | UIKit | AppKit | Other |", "|---|---|---|---|---|", *rows, ""]
+    return "\n".join(lines)
+
+
+def _guidance_keys(page):
+    units = sorted((u["hash"], u["section"]) for u in page.get("extraction", {}).get("units", []) if u["treatment"] != "metadata")
+    media = sorted((m["identifier"], m["reference_metadata_hash"]) for m in page.get("extraction", {}).get("media", [])
+                   if m["treatment"] != "metadata")
+    return units, media
+
+
+def drift(root=ROOT, latest=None):
+    """Compare Apple's live HIG with the reviewed snapshot. Tracked files do not change.
+
+    Each changed page is "guidance" (its units or media changed), "metadata" (only
+    other JSON changed), "new", "removed" or "error". Media binaries are not fetched.
+    """
+    root = pathlib.Path(root)
+    manifest = read_json(root / "coverage" / "manifest.json")
+    if latest is None:
+        latest = discover(root, output=root / ".cache" / "live-manifest.json")
+    old = {p["path"]: p for p in manifest["pages"]}
+    new = {p["path"]: p for p in latest["pages"]}
+    items = []
+    for path in sorted(old.keys() | new.keys()):
+        before, after = old.get(path), new.get(path)
+        if after is None or after.get("status") == "missing-from-discovery":
+            items.append({"path": path, "kind": "removed"})
+        elif after.get("status") != "fetched":
+            items.append({"path": path, "kind": "error", "detail": after.get("error", "")})
+        elif before is None:
+            items.append({"path": path, "kind": "new"})
+        elif before.get("source_hash") != after.get("source_hash"):
+            (units_before, media_before), (units_after, media_after) = _guidance_keys(before), _guidance_keys(after)
+            if units_before == units_after and media_before == media_after:
+                items.append({"path": path, "kind": "metadata"})
+            else:
+                added = sum((collections.Counter(units_after) - collections.Counter(units_before)).values())
+                removed = sum((collections.Counter(units_before) - collections.Counter(units_after)).values())
+                media = len(set(media_after) ^ set(media_before))
+                items.append({"path": path, "kind": "guidance",
+                              "detail": f"{added} units added, {removed} removed, {media} media differences"})
+    return {"snapshot_at": manifest.get("snapshot_at"), "drift": items}
+
+
 def review_command(args):
     approvals = approvals_module()
     root = pathlib.Path(args.root).resolve()
@@ -712,7 +872,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("command", choices=["discover", "check", "check-skills", "report",
                                             "stale", "review-draft", "review-approve",
-                                            "review-remap", "review-scaffold", "review-renew"])
+                                            "review-remap", "review-scaffold", "review-renew", "index", "api-map", "drift"])
     parser.add_argument("records", nargs="*", help="Review record paths for review-draft or review-approve")
     parser.add_argument("--all", action="store_true", help="review-draft: draft every record with a stale hash")
     parser.add_argument("--reviewer", help="review-approve: name of the reviewer who checked the evidence")
@@ -745,6 +905,17 @@ def main():
             else:
                 run = lambda root, slug: snapshot.scaffold(root, slug, fetch=not args.no_fetch)
             print(json.dumps({slug: run(args.root, slug) for slug in args.records}, indent=2))
+            return 0
+        if args.command == "drift":
+            result = drift(args.root)
+            print(json.dumps(result, indent=2))
+            return int(bool(result["drift"]))
+        if args.command in {"index", "api-map"}:
+            name, build = (("topic-index.md", index_text) if args.command == "index"
+                           else ("implementation-map.md", api_map_text))
+            target = pathlib.Path(args.root) / "skills" / "apple-hig" / "references" / name
+            target.write_text(build(args.root))
+            print(json.dumps({"written": str(target), "bytes": len(target.read_bytes())}))
             return 0
         if args.command in {"stale", "review-draft", "review-approve"}:
             return review_command(args)

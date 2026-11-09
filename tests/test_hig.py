@@ -443,5 +443,52 @@ class DiscoveryTests(unittest.TestCase):
                     self.assertEqual(page['status'], 'error')
 
 
+class AuthoredFileTests(unittest.TestCase):
+    """Files not derived from Apple sources need their own review bound to their bytes."""
+
+    def test_authored_file_needs_a_current_reviewed_record(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = pathlib.Path(tmp)
+            package = root / "skills/apple-hig"
+            authored = package / "references/beyond-apple/web.md"
+            authored.parent.mkdir(parents=True)
+            authored.write_text("Web guidance\n")
+            (root / "coverage").mkdir()
+            errors, pending = hig.authored_issues(root, package)
+            self.assertEqual(errors, [])
+            self.assertIn("no review record", pending[0])
+            record = {"path": "skills/apple-hig/references/beyond-apple/web.md",
+                      "hash": hig.digest(authored.read_bytes()), "status": "reviewed",
+                      "reviewer": "second-reviewer", "evidence": "Checked each cited claim."}
+            (root / "coverage/authored-reviews.json").write_text(json.dumps({"files": [record]}))
+            self.assertEqual(hig.authored_issues(root, package), ([], []))
+            authored.write_text("Web guidance, changed\n")
+            self.assertIn("stale", hig.authored_issues(root, package)[1][0])
+            authored.unlink()
+            self.assertIn("missing file", hig.authored_issues(root, package)[0][0])
+
+
+class DriftTests(unittest.TestCase):
+    """Weekly drift detection separates guidance changes from metadata-only changes."""
+
+    def test_drift_classifies_each_changed_page(self):
+        def page(path, source, unit_hash="u1", status="fetched"):
+            return {"path": path, "slug": path.rsplit("/", 1)[-1], "status": status, "source_hash": source,
+                    "extraction": {"units": [{"hash": unit_hash, "section": "overview", "treatment": "guidance"}],
+                                   "media": []}}
+        with tempfile.TemporaryDirectory() as tmp:
+            root = pathlib.Path(tmp)
+            (root / "coverage").mkdir()
+            (root / "coverage/manifest.json").write_text(json.dumps({"snapshot_at": "2026-11-09", "pages": [
+                page("/hig/same", "a"), page("/hig/links", "b"), page("/hig/rules", "c"), page("/hig/gone", "d")]}))
+            latest = {"pages": [page("/hig/same", "a"), page("/hig/links", "b2"), page("/hig/rules", "c2", unit_hash="u2"),
+                                page("/hig/added", "e")]}
+            report = hig.drift(root, latest=latest)
+        kinds = {item["path"]: item["kind"] for item in report["drift"]}
+        self.assertEqual(kinds, {"/hig/links": "metadata", "/hig/rules": "guidance",
+                                 "/hig/added": "new", "/hig/gone": "removed"})
+        self.assertEqual(report["snapshot_at"], "2026-11-09")
+
+
 if __name__ == "__main__":
     unittest.main()
