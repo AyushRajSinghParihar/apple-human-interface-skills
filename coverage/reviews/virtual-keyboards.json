@@ -2,11 +2,11 @@
   "review": {
     "slug": "virtual-keyboards",
     "status": "reviewed",
-    "source_hash": "430c405b0f8986ed42713a915b40b8d8e08b19e5aaf083da9899326ac71a07c7",
+    "source_hash": "7012b32d36acc448fd2d200b44e7850ed751568e740cc4baf1a1087acbc74a2d",
     "destination_hash": "9841363dd28a1a84ccebfaee757fddd820c65777f08fb50ed0dc5c32772ccecc",
-    "reviewer": "cross-reviewer-a",
-    "reviewed_at": "2026-10-25T13:06:04.865184+00:00",
-    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "reviewer": "deterministic-snapshot-diff",
+    "reviewed_at": "2026-11-09T17:51:31+00:00",
+    "evidence": "Deterministic renewal for source snapshot 7012b32d36ac (previous 430c405b0f89): all 80 extracted units and 20 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies. Previous review: cross-reviewer-a at 2026-10-25T13:06:04.865184+00:00.",
     "sections": [
       {
         "source_anchor": "overview",

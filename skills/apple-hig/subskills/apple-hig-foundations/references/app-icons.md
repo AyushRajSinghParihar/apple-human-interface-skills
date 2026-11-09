@@ -1,6 +1,6 @@
 # App icons
 
-Source: [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/app-icons) · Retrieved 2026-10-25.
+Source: [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/app-icons) · Retrieved 2026-11-09.
 
 This is original application guidance based on the source text. Independent media review is recorded separately in the coverage report.
 
@@ -8,11 +8,15 @@ An app icon identifies the product in launchers, search, notifications, settings
 
 <a id="Layer-design"></a>
 ## Layer design
-Layering lets the system add responsive depth. iOS, iPadOS, macOS, and watchOS use a background plus one or more foreground layers with Liquid Glass highlights, refraction, and translucency that can change across releases. tvOS uses 2–5 layers for focus elevation, lighting, sway, and parallax. visionOS uses one background plus 1–2 foreground layers, with shadows and alpha-based embossed depth.
+A nonlayered image is possible (see [Icon formats](#Icon-formats)), but layers give the most control. Layering lets the system add responsive depth. iOS, iPadOS, macOS, and watchOS use a background plus one or more foreground layers with Liquid Glass highlights, refraction, and translucency that can change across releases. tvOS uses 2–5 layers for focus elevation, lighting, sway, and parallax. visionOS uses one background plus 1–2 foreground layers, with shadows and alpha-based embossed depth.
 
 Create foreground artwork in a design tool. For iOS/iPadOS/macOS/watchOS, use Icon Composer to define the background, place layers, tune and preview effects, annotate default/dark/mono variants, and export to Xcode. For tvOS/visionOS, assemble an Xcode image stack and preview parallax with Apple’s tools.
 
 Use crisp foreground edges rather than feathering. Explore translucent overlapping parts to reveal depth; importing opaque shapes then adjusting opacity in Composer helps test interactions with system effects. A simple solid or gradient background usually needs no imported image; imported backgrounds must be opaque and fill the canvas. Prefer SVG or PDF vectors with artwork and text outlined; use lossless PNG for raster content and mesh gradients.
+
+<a id="Icon-formats"></a>
+## Icon formats
+iOS, iPadOS, macOS, and watchOS accept either a nonlayered bitmap image (such as PNG) or a layered Icon Composer file. The Icon Composer format controls how Liquid Glass applies to each element and how color applies across appearance variants, so prefer it. From a bitmap, the system tries to segment foreground from background into two layers, which keeps dark and tinted variants compatible with a consistent background. It then applies Liquid Glass only to large, simple foreground shapes, not to small complex elements such as text and thin lines. To control exactly which elements receive Liquid Glass, supply a layered Icon Composer file.
 
 <a id="Icon-shape"></a>
 ## Icon shape
@@ -79,4 +83,4 @@ Apple’s linked design sessions provide demonstrations and additional implement
 
 <a id="Change-log"></a>
 ## Change log
-Source revision dates: June 8, 2026, June 9, 2025, June 10, 2024, January 31, 2024, June 21, 2023, September 14, 2022.
+Source revision dates: October 28, 2026, June 8, 2026, June 9, 2025, June 10, 2024, January 31, 2024, June 21, 2023, September 14, 2022.

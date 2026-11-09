@@ -2,25 +2,38 @@
   "review": {
     "slug": "designing-for-macos",
     "status": "reviewed",
-    "source_hash": "a9cf51a0ee6e2d52c49416ad5f9cab423231e27d333615d2bfb1e44d44588522",
-    "destination_hash": "73febbd2068953eed3691ee1dfb3c3a5311367cedbc37c2c55e1a574388083a7",
-    "reviewer": "independent-coverage-auditor",
-    "reviewed_at": "2026-10-25T12:48:53.364241+00:00",
-    "evidence": "Independent complete source-to-local semantic comparison and actual embedded-media inspection; author mappings do not establish approval.",
+    "source_hash": "e80910670bd2afac641d2bf44524e2d71a4ce029067fabd3bab04a57c0f7ffe3",
+    "destination_hash": "5c1b045cd3740f1fb18a507ea9ef35f91d84f1f4a07d9aebf89b342372a36faf",
+    "reviewer": "independent-snapshot-reviewer",
+    "reviewed_at": "2026-11-09T18:05:49+00:00",
+    "evidence": "Compared the whole 2026-10-28 source with the guide. Overview: Display (large display, Sidecar), Ergonomics (stationary use; on a touch-display Mac people reach forward, so touch is for brief intentional interactions), Inputs (keyboard and pointing device primary; trackpad or touch-display gestures, Siri, Voice Control, game controllers), App interactions (minutes to hours, smooth active/inactive transitions) and System features (menu bar, file management, full screen, Dock menus) are all kept. Best practices: all seven items are kept, including the new touch item with larger tap targets, expanding controls and unchanged control size and density. The 1-3 ft viewing distance that the source removed is no longer in the guide. Resources headings are kept as metadata and the change log lists October 28, 2026. I found no omission, wrong number or wrong platform scope.",
     "sections": [
       {
         "source_anchor": "overview",
         "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
         "destination_anchor": "designing-for-macos",
         "status": "reviewed",
-        "evidence": "Checked brief/deep work, many apps/displays, iPad extension and 1–3ft desktop posture."
+        "evidence": "Rechecked against the 2026-10-28 source: brief and deep work with many apps, Sidecar display extension, stationary desk/table use, keyboard and pointing device primary with trackpad/touch-display gestures, Siri, Voice Control and game controllers as other inputs, and touch for brief intentional actions; the removed 1-3 ft distance is no longer claimed.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:05:49+00:00"
       },
       {
         "source_anchor": "Best-practices",
         "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
         "destination_anchor": "Best-practices",
         "status": "reviewed",
-        "evidence": "Checked large readable canvas, low nesting/modality, window freedom/full screen, comprehensive menu/keyboard workflows, precision and alternative inputs, active/inactive transitions, customization, file/Dock conventions."
+        "evidence": "Rechecked all seven items, including the new touch item (standard trackpad and touch-display gestures, larger tap targets, controls that expand on touch, unchanged size and density), plus the System features list (menu bar, file management, full screen, Dock menus) in the last bullet.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:05:49+00:00"
+      },
+      {
+        "source_anchor": "Change-log",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
+        "destination_anchor": "Change-log",
+        "status": "reviewed",
+        "evidence": "Metadata only: the guide records the single source revision date, October 28, 2026; no design rule is inferred from it.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:05:49+00:00"
       }
     ],
     "units": [
@@ -47,36 +60,6 @@
       {
         "id": "primaryContentSections/0/content/1",
         "source_unit_hash": "083825ebd5c0e7c1a368e0282782af91912a76d32f4a740da940437a1d8331a7",
-        "source_anchor": "overview",
-        "status": "reviewed",
-        "treatment": "guidance",
-        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
-        "destination_anchor": "designing-for-macos",
-        "evidence": "Checked brief/deep work, many apps/displays, iPad extension and 1–3ft desktop posture."
-      },
-      {
-        "id": "primaryContentSections/0/content/2",
-        "source_unit_hash": "782495fe10af23e4677d129854ab8ea716f0aa995f7a83c97eb3efd7f6fe81b1",
-        "source_anchor": "overview",
-        "status": "reviewed",
-        "treatment": "guidance",
-        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
-        "destination_anchor": "designing-for-macos",
-        "evidence": "Checked brief/deep work, many apps/displays, iPad extension and 1–3ft desktop posture."
-      },
-      {
-        "id": "primaryContentSections/0/content/3",
-        "source_unit_hash": "09860e0b62a8b3994e3368551a688893a92a2e15354d51e98f1e72b53ea69b7e",
-        "source_anchor": "overview",
-        "status": "reviewed",
-        "treatment": "guidance",
-        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
-        "destination_anchor": "designing-for-macos",
-        "evidence": "Checked brief/deep work, many apps/displays, iPad extension and 1–3ft desktop posture."
-      },
-      {
-        "id": "primaryContentSections/0/content/4",
-        "source_unit_hash": "028192f49ccb8cfda76a8faf3aee699d6e270787baf71233ed2650e79f1c7124",
         "source_anchor": "overview",
         "status": "reviewed",
         "treatment": "guidance",
@@ -165,16 +148,6 @@
         "evidence": "Checked large readable canvas, low nesting/modality, window freedom/full screen, comprehensive menu/keyboard workflows, precision and alternative inputs, active/inactive transitions, customization, file/Dock conventions."
       },
       {
-        "id": "primaryContentSections/0/content/10",
-        "source_unit_hash": "8ce1bd4a158aa703040a544aa75ee61154175e2e0b4b7a3ea8377fbeb9844a2c",
-        "source_anchor": "Best-practices",
-        "status": "reviewed",
-        "treatment": "guidance",
-        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
-        "destination_anchor": "Best-practices",
-        "evidence": "Checked large readable canvas, low nesting/modality, window freedom/full screen, comprehensive menu/keyboard workflows, precision and alternative inputs, active/inactive transitions, customization, file/Dock conventions."
-      },
-      {
         "id": "primaryContentSections/0/content/10/items/0/content/0",
         "source_unit_hash": "eeef4b4cf9821baaabdc1b8cb8e9955fce8e37f1714a4cc422284ee766086eff",
         "source_anchor": "Best-practices",
@@ -205,7 +178,7 @@
         "evidence": "Checked large readable canvas, low nesting/modality, window freedom/full screen, comprehensive menu/keyboard workflows, precision and alternative inputs, active/inactive transitions, customization, file/Dock conventions."
       },
       {
-        "id": "primaryContentSections/0/content/10/items/3/content/0",
+        "id": "primaryContentSections/0/content/10/items/4/content/0",
         "source_unit_hash": "bfb508821e7e60df2e9a3cbae26495a14a4fad0b1ebc80f79a9a8e506dfb3c8a",
         "source_anchor": "Best-practices",
         "status": "reviewed",
@@ -215,18 +188,8 @@
         "evidence": "Checked large readable canvas, low nesting/modality, window freedom/full screen, comprehensive menu/keyboard workflows, precision and alternative inputs, active/inactive transitions, customization, file/Dock conventions."
       },
       {
-        "id": "primaryContentSections/0/content/10/items/4/content/0",
+        "id": "primaryContentSections/0/content/10/items/3/content/0",
         "source_unit_hash": "b57893be03bb64b22dd42c773377a96aae31dff5c782d26b482fff849c0db6da",
-        "source_anchor": "Best-practices",
-        "status": "reviewed",
-        "treatment": "guidance",
-        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
-        "destination_anchor": "Best-practices",
-        "evidence": "Checked large readable canvas, low nesting/modality, window freedom/full screen, comprehensive menu/keyboard workflows, precision and alternative inputs, active/inactive transitions, customization, file/Dock conventions."
-      },
-      {
-        "id": "primaryContentSections/0/content/10/items/5/content/0",
-        "source_unit_hash": "f0630c056d4b319f7363159a3acbf811a9f1489f4c43da9fb2d2824e3e2d08ba",
         "source_anchor": "Best-practices",
         "status": "reviewed",
         "treatment": "guidance",
@@ -253,26 +216,111 @@
         "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
         "destination_anchor": "Developer-documentation",
         "evidence": "Reference/resource or revision metadata, outside the substantive-design denominator."
+      },
+      {
+        "id": "primaryContentSections/0/content/2",
+        "source_unit_hash": "f725a2fd49c488575e7140df487974dcd62aa9dbfd5565e1bc5447fc1834dd22",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
+        "destination_anchor": "designing-for-macos",
+        "evidence": "Checked the Display item (large high-resolution display, extra displays including iPad through Sidecar) against the guide overview sentence on external displays and Sidecar and the large-display bullet in #Best-practices.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:11:58+00:00"
+      },
+      {
+        "id": "primaryContentSections/0/content/3",
+        "source_unit_hash": "209c0e3b92163c977249842bf8d085f17d3747fddd0712160042ef9369f5cd55",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
+        "destination_anchor": "designing-for-macos",
+        "evidence": "Checked the Ergonomics item: stationary desk or table use, and touch-display reach making touch suit brief, intentional interactions rather than sustained work, are both stated in the guide overview; the old 1-3 ft distance, removed from the source, is gone.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:11:58+00:00"
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "20ec577e54a3ff59cc6b53e552b2f5f0c0c0cf8d686a0ee110ca742a04a38d68",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
+        "destination_anchor": "designing-for-macos",
+        "evidence": "Checked the Inputs item: keyboard and pointing device as primary inputs, with gestures on a trackpad or touch display, Siri, Voice Control and game controllers as other inputs, are listed in the guide overview.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:11:58+00:00"
+      },
+      {
+        "id": "primaryContentSections/0/content/10",
+        "source_unit_hash": "d179af7ddaf7f74e1089f3a4055676171efe8ec04f7da44dc78bd4d1903d8bfa",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked all seven source best-practice items (large display with low nesting and comfortable density, window control and full screen, menu bar, keyboard shortcuts, precise selection and editing, trackpad and touch-display gestures, personalization) against the matching bullets in #Best-practices.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:05:49+00:00"
+      },
+      {
+        "id": "primaryContentSections/0/content/10/items/5/content/0",
+        "source_unit_hash": "e23f23e365ec600bc25dac44370a8348c6870b81ad7e01565113fdbee3ba4bea",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked the new touch item: standard gestures on trackpads and touch-display Macs, larger tap targets and controls that expand on touch, and unchanged control size and density for keyboard and pointer input are all in the new #Best-practices touch bullet.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:05:49+00:00"
+      },
+      {
+        "id": "primaryContentSections/0/content/10/items/6/content/0",
+        "source_unit_hash": "47aad3fed5d213c6f17eaca4f6edd68dd9da993698ffdad2f6202130dfe2acc7",
+        "source_anchor": "Best-practices",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
+        "destination_anchor": "Best-practices",
+        "evidence": "Checked the personalization item (customizable toolbars, window configurations, colors and fonts) against the #Best-practices customization bullet.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:05:49+00:00"
       }
     ],
-    "tables": [],
+    "tables": [
+      {
+        "id": "primaryContentSections/0/content/19",
+        "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
+        "source_unit_hash": "77d6cfbc543e91605282023b6d9e1f1a5b797827a71370f925f5ec3f11237d3e",
+        "source_anchor": "Change-log",
+        "status": "reviewed",
+        "treatment": "metadata",
+        "destination_anchor": "Change-log",
+        "evidence": "Metadata only: the change-log table (October 28, 2026, touch input guidance added) is reflected by the guide's #Change-log date; no rule is inferred from it.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:05:49+00:00"
+      }
+    ],
     "supporting_files": [],
     "issues": []
   },
   "media": {
     "platforms-macOS-intro.png": {
       "status": "reviewed",
-      "reviewer": "independent-coverage-auditor",
-      "evidence": "Viewed actual introductory or principle-symbol image. It identifies the topic or principle; the corresponding rule is fully expressed in the reviewed local prose, without an additional visual-only specification.",
+      "reviewer": "independent-snapshot-reviewer",
+      "evidence": "Viewed actual introductory or principle-symbol image. It identifies the topic or principle; the corresponding rule is fully expressed in the reviewed local prose, without an additional visual-only specification. Rechecked after the 2026-10-28 guide update (overview and touch bullet rewritten): the unchanged decorative Mac intro illustration still adds no rule, and no guide text depends on it.",
       "review_method": "actual asset visual inspection and independent source-context/local-guidance comparison",
       "classification": "decorative",
       "binary_hash": "0d7ec8a6625bceee9d749048c47f20712cb15d6eef6a528da5be85f1cdb23119",
       "destination": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
-      "destination_hash": "73febbd2068953eed3691ee1dfb3c3a5311367cedbc37c2c55e1a574388083a7",
+      "destination_hash": "5c1b045cd3740f1fb18a507ea9ef35f91d84f1f4a07d9aebf89b342372a36faf",
       "supporting_files": [
         {
           "path": "skills/apple-hig/subskills/apple-hig-getting-started/references/designing-for-macos.md",
-          "hash": "73febbd2068953eed3691ee1dfb3c3a5311367cedbc37c2c55e1a574388083a7"
+          "hash": "5c1b045cd3740f1fb18a507ea9ef35f91d84f1f4a07d9aebf89b342372a36faf"
         }
       ],
       "reviewed_occurrence_ids": [
@@ -291,7 +339,8 @@
           "review_method": "actual primary/alternate image-pair visual comparison in the final decorative-alternate gallery",
           "evidence": "Actually compared the themed device/component illustration pair. Only appearance/background/foreground contrast changes; the device silhouette or sample content remains equivalent and adds no independent normative rule."
         }
-      ]
+      ],
+      "reviewed_at": "2026-11-09T18:05:49+00:00"
     }
   }
 }

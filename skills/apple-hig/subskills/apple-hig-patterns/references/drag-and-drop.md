@@ -1,9 +1,9 @@
 # Drag and drop
 
 Source: [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/drag-and-drop)  
-Snapshot: 2026-10-25. Original implementation guidance derived from the source.
+Snapshot: 2026-11-09. Original implementation guidance derived from the source.
 
-Drag and drop transfers selected content from a source to a destination in one container, across containers, or across apps. Defaults generally move within a container and copy between containers; interapp drops always copy. Support the platform's touch, pointer, keyboard-accessibility, VoiceOver, and spatial gestures where available, including Universal Control between Mac and iPad.
+Drag and drop transfers selected content from a source to a destination in one container, across containers, or across apps. Defaults generally move within a container and copy between containers; interapp drops always copy. Support the platform's touch, pointer, keyboard-accessibility, VoiceOver, and spatial gestures where available, including Universal Control between Mac and iPad and direct touch on a Mac with a touch display.
 
 <a id="Best-practices"></a>
 ## Best practices

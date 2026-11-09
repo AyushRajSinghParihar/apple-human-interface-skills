@@ -1,6 +1,6 @@
 # Coverage report
 
-Source snapshot: **2026-10-25T13:47:25+00:00**.
+Source snapshot: **2026-11-09T17:46:04+00:00**.
 
 Current corpus: **173 pages; 158 articles**.
 Independent article reviews valid: **158/158**.

@@ -1,6 +1,6 @@
 # Gestures
 
-Source: [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/gestures) · Retrieved 2026-10-25.
+Source: [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/gestures) · Retrieved 2026-11-09.
 
 This is original application guidance based on the source text. Independent media review is recorded separately in the coverage report.
 
@@ -22,7 +22,14 @@ Three-finger swipe left/right invokes undo/redo; three-finger pinch inward/outwa
 
 <a id="macOS"></a>
 ### macOS
-Keyboard and mouse are primary, with familiar gestures available on Magic Trackpad, Magic Mouse, and touch-enabled controllers.
+Keyboard and pointing device are primary. Standard gestures also work on Magic Trackpad, Magic Mouse, and game controllers with a touch surface. On a Mac with a touch display, or an iPad connected through Sidecar, direct touch is a secondary input mode.
+
+- Keep the layout and size of interface elements unchanged when you support touch. People switch inputs often, so the interface must stay stable and predictable.
+- Enlarge tap targets, not controls, so that a touch that starts slightly outside the visible bounds still hits. Standard controls get a suitable tap target automatically.
+- Consider expandable controls for small or densely packed controls: a temporary touch-sized variant appears on tap, stays easy to see and operate while held, and remains briefly after the finger lifts. Standard steppers, sliders, and dials do this automatically.
+- Never make touch the only route to a control or feature; every function needs keyboard and pointer access. Conversely, give touch equivalents for pointer-only actions such as modifier-drag (Shift-drag) or menus that appear on hover (see [Pointing devices](pointing-devices.md#macOS)).
+- Preserve gestures people already know from your iPhone or iPad app, or from a trackpad or Magic Mouse, and test that they do not conflict with macOS system gestures.
+- Make custom gestures work for both direct touch and the trackpad, adding modifier keys where needed.
 
 <a id="tvOS"></a>
 ### tvOS
@@ -52,7 +59,21 @@ Since watchOS 11, double tap scrolls lists/views and advances vertical tabs. Do 
 ## Specifications
 <a id="Standard-gestures"></a>
 ### Standard gestures
-Tap activates/selects, swipe reveals actions/dismisses/scrolls, and drag moves UI across all six platforms. Hold/pinch-and-hold exposes extra functions on every listed platform except macOS. Double tap zooms/toggles zoom across all six; the source specifically identifies Apple Watch Series 9 and Apple Watch Ultra 2 for the primary-action double tap. Zoom and rotate are listed for all except watchOS.
+Tap activates or selects, swipe reveals actions, dismisses, or scrolls, drag moves UI, and touch (or pinch) and hold reveals extra functions on all six platforms. Double tap zooms or toggles zoom on all six, opens an item on a Mac with a touch display, and performs the primary action on Apple Watch Series 9 and later and Apple Watch Ultra 2 and later. Zoom and rotate are listed for all except watchOS. See [Pointing devices](pointing-devices.md), Remotes, and Game controls for device-specific input.
+
+<a id="macOS-trackpad-and-touch-display-gestures"></a>
+### macOS trackpad and touch display gestures
+Standard gestures perform these common actions on both a trackpad and a Mac with a touch display:
+
+|Action|Trackpad|Touch display|
+|---|---|---|
+|Select|Primary click|Tap|
+|Open|Double click|Double tap|
+|Scroll|Slide two fingers up or down|Slide one finger up or down|
+|Zoom|Pinch|Pinch|
+|Rotate|Move two fingers around each other|Move two fingers around each other|
+|Open a context menu|Secondary click|Touch and hold|
+|Drag|Click and drag|Touch and hold, then drag|
 
 <a id="Resources"></a>
 ## Resources
@@ -72,4 +93,4 @@ Apple’s linked design sessions provide demonstrations and additional implement
 
 <a id="Change-log"></a>
 ## Change log
-Source revision dates: September 9, 2024, September 15, 2023, June 21, 2023.
+Source revision dates: October 28, 2026, September 9, 2024, September 15, 2023, June 21, 2023.

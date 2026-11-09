@@ -1,9 +1,9 @@
 {
   "topic": "widgets",
-  "reviewer": "independent-operational-auditor",
-  "reviewed_at": "2026-10-25T18:16:12.418509+00:00",
+  "reviewer": "deterministic-snapshot-diff",
+  "reviewed_at": "2026-11-09T17:51:31+00:00",
   "status": "reviewed",
-  "source_hash": "ec7adf6a8954a97b63971593d43106a71fe90be070a641422c30f44666d31cf6",
+  "source_hash": "cd8b3ab2365131bd995ed1cc0679ef25e7fb24c26a9399d031e5b09b8d619575",
   "skill_hash": "19752aa0e2c21bf768db926a13bb7627a788f8f57ce992297f6377c9838aec4d",
   "reference_hash": "e39a25b775eb1bc041910d66a428068b135765ab349b852dcacadb286e889cd0",
   "evidence": {
@@ -14,5 +14,6 @@
     "applicability": "Handles unsupported tvOS, one inline target, Mac accented table/prose conflict, shared HomeView privacy and visionOS mounting/distance/frame constraints explicitly.",
     "handoffs": "Uses Live Activities only for bounded frequent events, complications for watch faces and controls for system controls; transfers the glance purpose.",
     "distinctiveness": "Family, rendering, freshness and spatial mounting branches make this operationally specific to widgets, beyond common evidence/deliverable structure."
-  }
+  },
+  "renewal": "Deterministic renewal for source snapshot cd8b3ab23651 (previous ec7adf6a8954): all 542 extracted units and 38 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies."
 }

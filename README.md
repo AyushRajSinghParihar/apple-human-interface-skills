@@ -118,7 +118,7 @@ contains local source guides and explanations of important visual examples.
 
 ## Coverage and checks
 
-The package covers **158 English HIG articles** in the **October 25, 2026** source
+The package covers **158 English HIG articles** in the **November 9, 2026** source
 snapshot, with **173 routes** accounted for. Every topic procedure has an
 independent instruction review. The repository also has automated tests
 and CI checks for source coverage, instruction reviews, routing, and links.

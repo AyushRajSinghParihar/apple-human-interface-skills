@@ -2,11 +2,11 @@
   "review": {
     "slug": "app-icons",
     "status": "reviewed",
-    "source_hash": "af54be98d321f177a0f520495b96a080cf729a3f8c27533b69c6c9d128704fd2",
-    "destination_hash": "3361342d31679d3b0ce7488eacb05df99cff2fbc1147f8c6f7b2bacbde2511af",
-    "reviewer": "cross-reviewer-b",
-    "reviewed_at": "2026-10-25T13:15:59+00:00",
-    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "source_hash": "049a3e70cf75ae59a11bdbfe9edb62d5bbffd964a0c27a405ec88e55e2a778ae",
+    "destination_hash": "297b975e35aeff1acd94f95adf818417a3b786bf17f47b05cfdf98f351c62228",
+    "reviewer": "independent-snapshot-reviewer",
+    "reviewed_at": "2026-11-09T18:07:05+00:00",
+    "evidence": "Compared the whole 2026-10-28 source with the guide. The new Icon formats section (bitmap or layered Icon Composer file on iOS, iPadOS, macOS and watchOS; prefer Icon Composer; bitmap segmentation into two layers for dark/tinted variants; Liquid Glass only on large simple foreground shapes, not text or thin lines) and the new Layer design opening are kept with the correct four-platform scope. The unchanged sections are still kept: layer counts per platform, Icon Composer and image-stack workflows, unmasked shapes and centering, Design (simplicity, consistency, filled overlapping shapes, essential text only, illustrations, no Apple hardware), Visual effects, Appearances and alternate icons, tvOS safe zone, visionOS hollow shapes, watchOS black background, and the specifications table with 1024, 800x480 and 1088 px values and color spaces. The change log adds October 28, 2026. I found no omission or wrong number.",
     "sections": [
       {
         "source_anchor": "overview",
@@ -20,7 +20,9 @@
         "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/app-icons.md",
         "destination_anchor": "Layer-design",
         "status": "reviewed",
-        "evidence": "Checked platform-specific layer counts/effects,Composer versus Xcode workflows,crisp edges/transparency,opaque full-bleed background and vector/outlined text/lossless raster recommendations."
+        "evidence": "Rechecked the new opening (nonlayered image possible, layers give most control), platform layer counts and effects (iOS/iPadOS/macOS/watchOS Liquid Glass, tvOS 2-5 layers, visionOS 1 background plus 1-2 layers), Icon Composer versus Xcode image-stack workflows, crisp edges, translucency, opaque full-bleed backgrounds and vector/outlined text/lossless PNG.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:07:05+00:00"
       },
       {
         "source_anchor": "Icon-shape",
@@ -119,6 +121,15 @@
         "destination_anchor": "Change-log",
         "status": "reviewed",
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "source_anchor": "Icon-formats",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/app-icons.md",
+        "destination_anchor": "Icon-formats",
+        "status": "reviewed",
+        "evidence": "Checked the new section: bitmap or layered Icon Composer file on iOS/iPadOS/macOS/watchOS, preference for Icon Composer, two-layer segmentation of a bitmap for dark/tinted compatibility, and Liquid Glass applied only to large simple foreground shapes, not text or thin lines.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:07:05+00:00"
       }
     ],
     "units": [
@@ -171,16 +182,6 @@
         "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/app-icons.md",
         "destination_anchor": "app-icons",
         "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked recognition/identity across launchers,search,notifications,settings and share contexts."
-      },
-      {
-        "id": "primaryContentSections/0/content/4",
-        "source_unit_hash": "947fe4520d3a17d37090a9dda6a0d1dec9685e7f6dd697d76e240da26cbfe0f6",
-        "source_anchor": "Layer-design",
-        "status": "reviewed",
-        "treatment": "guidance",
-        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/app-icons.md",
-        "destination_anchor": "Layer-design",
-        "evidence": "Checked platform-specific layer counts/effects,Composer versus Xcode workflows,crisp edges/transparency,opaque full-bleed background and vector/outlined text/lossless raster recommendations."
       },
       {
         "id": "primaryContentSections/0/content/5",
@@ -303,7 +304,7 @@
         "evidence": "Checked platform-specific layer counts/effects,Composer versus Xcode workflows,crisp edges/transparency,opaque full-bleed background and vector/outlined text/lossless raster recommendations."
       },
       {
-        "id": "primaryContentSections/0/content/17",
+        "id": "primaryContentSections/0/content/21",
         "source_unit_hash": "04a2e84293871bd0c72c12dd2184c647dad08722fdc10adea79fd5427cd9b9f3",
         "source_anchor": "Icon-shape",
         "status": "reviewed",
@@ -313,7 +314,7 @@
         "evidence": "Checked unmasked square/rectangular source art,system rounded/circular masks,pre-mask risks and centered safe content."
       },
       {
-        "id": "primaryContentSections/0/content/18",
+        "id": "primaryContentSections/0/content/22",
         "source_unit_hash": "1a1b4536ea4fe8322ca755c26f8e3e30227e9d326e2080c85beb22c6d04f57c7",
         "source_anchor": "Icon-shape",
         "status": "reviewed",
@@ -323,7 +324,7 @@
         "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked unmasked square/rectangular source art,system rounded/circular masks,pre-mask risks and centered safe content."
       },
       {
-        "id": "primaryContentSections/0/content/18/tabs/0/content/0/columns/0/content/0",
+        "id": "primaryContentSections/0/content/22/tabs/0/content/0/columns/0/content/0",
         "source_unit_hash": "ed75850abdd9c40fee587710f0ee5c59065b11d33226b2d44c72fb5e6efad478",
         "source_anchor": "Icon-shape",
         "status": "reviewed",
@@ -333,7 +334,7 @@
         "evidence": "Checked unmasked square/rectangular source art,system rounded/circular masks,pre-mask risks and centered safe content."
       },
       {
-        "id": "primaryContentSections/0/content/18/tabs/0/content/0/columns/0/content/0/inlineContent/0",
+        "id": "primaryContentSections/0/content/22/tabs/0/content/0/columns/0/content/0/inlineContent/0",
         "source_unit_hash": "80e645959db248456b62aa07cad205d2165bf490a76b070169ae2829bb2be729",
         "source_anchor": "Icon-shape",
         "status": "reviewed",
@@ -343,7 +344,7 @@
         "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked unmasked square/rectangular source art,system rounded/circular masks,pre-mask risks and centered safe content."
       },
       {
-        "id": "primaryContentSections/0/content/18/tabs/1/content/0/columns/0/content/0",
+        "id": "primaryContentSections/0/content/22/tabs/1/content/0/columns/0/content/0",
         "source_unit_hash": "dc55cacd5229b92d71ce0d04ba89309005a02ab82ec1f048cbc28a6fff59c4fd",
         "source_anchor": "Icon-shape",
         "status": "reviewed",
@@ -353,7 +354,7 @@
         "evidence": "Checked unmasked square/rectangular source art,system rounded/circular masks,pre-mask risks and centered safe content."
       },
       {
-        "id": "primaryContentSections/0/content/18/tabs/1/content/0/columns/0/content/0/inlineContent/0",
+        "id": "primaryContentSections/0/content/22/tabs/1/content/0/columns/0/content/0/inlineContent/0",
         "source_unit_hash": "24707bb0a36c4ee584d626dc29cbf08c168a77c5b35a43564adb133c861b333d",
         "source_anchor": "Icon-shape",
         "status": "reviewed",
@@ -363,7 +364,7 @@
         "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked unmasked square/rectangular source art,system rounded/circular masks,pre-mask risks and centered safe content."
       },
       {
-        "id": "primaryContentSections/0/content/18/tabs/2/content/0/columns/0/content/0",
+        "id": "primaryContentSections/0/content/22/tabs/2/content/0/columns/0/content/0",
         "source_unit_hash": "c7b089a146c4706c073e04b1e48ab96e1d32767f5fc3ebb050f406b995ecb694",
         "source_anchor": "Icon-shape",
         "status": "reviewed",
@@ -373,7 +374,7 @@
         "evidence": "Checked unmasked square/rectangular source art,system rounded/circular masks,pre-mask risks and centered safe content."
       },
       {
-        "id": "primaryContentSections/0/content/18/tabs/2/content/0/columns/0/content/0/inlineContent/0",
+        "id": "primaryContentSections/0/content/22/tabs/2/content/0/columns/0/content/0/inlineContent/0",
         "source_unit_hash": "96da9a2fcab30f843a4cdabafb77251aaacaa3643276e2eef331f32c6cf84cfd",
         "source_anchor": "Icon-shape",
         "status": "reviewed",
@@ -383,7 +384,7 @@
         "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked unmasked square/rectangular source art,system rounded/circular masks,pre-mask risks and centered safe content."
       },
       {
-        "id": "primaryContentSections/0/content/19",
+        "id": "primaryContentSections/0/content/23",
         "source_unit_hash": "3c66530ba7f4a9e84945ef8981230b2a8717f04e6de739da781d53b2b849ab4e",
         "source_anchor": "Icon-shape",
         "status": "reviewed",
@@ -393,7 +394,7 @@
         "evidence": "Checked unmasked square/rectangular source art,system rounded/circular masks,pre-mask risks and centered safe content."
       },
       {
-        "id": "primaryContentSections/0/content/20",
+        "id": "primaryContentSections/0/content/24",
         "source_unit_hash": "8a383ff7ff06ce1772ff7afa71d1a931c2c3f7e2a54f0a0b98518ee0a5bf5474",
         "source_anchor": "Icon-shape",
         "status": "reviewed",
@@ -403,7 +404,7 @@
         "evidence": "Checked unmasked square/rectangular source art,system rounded/circular masks,pre-mask risks and centered safe content."
       },
       {
-        "id": "primaryContentSections/0/content/22",
+        "id": "primaryContentSections/0/content/26",
         "source_unit_hash": "c401384d07bff49a5623b061d61657dc5da067fdb75e8d1aa0dc191d1977873f",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -413,7 +414,7 @@
         "evidence": "Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/23/columns/0/content/0",
+        "id": "primaryContentSections/0/content/27/columns/0/content/0",
         "source_unit_hash": "fecf2bf088f98944fdee41f24861b16ffb104240d6761290786906019b4dabb6",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -423,7 +424,7 @@
         "evidence": "Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/23/columns/0/content/0/inlineContent/0",
+        "id": "primaryContentSections/0/content/27/columns/0/content/0/inlineContent/0",
         "source_unit_hash": "117b0ae68355cb66ba203899941c3c3ff231e9a750a7e870fd83c100395a6409",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -433,7 +434,7 @@
         "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/23/columns/1/content/0",
+        "id": "primaryContentSections/0/content/27/columns/1/content/0",
         "source_unit_hash": "1cbc810b0291047e948c3948c1ef7a6bf11a3a2ae96b81eeacdd0d40586d7c16",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -443,7 +444,7 @@
         "evidence": "Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/23/columns/1/content/0/inlineContent/0",
+        "id": "primaryContentSections/0/content/27/columns/1/content/0/inlineContent/0",
         "source_unit_hash": "77b652612f1f1dd5a9bd0dde66bdab7eb77322b76639445f67c3b770db4d4b38",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -453,7 +454,7 @@
         "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/24",
+        "id": "primaryContentSections/0/content/28",
         "source_unit_hash": "5634c12f83ce14dc0ae4f9bf6b738862539cccdccaa6c83fbb7b2e078e0ca568",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -463,7 +464,7 @@
         "evidence": "Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/25",
+        "id": "primaryContentSections/0/content/29",
         "source_unit_hash": "52ee5875ab54d6e701c24b65abed75ab2ab4e4cda365dce2a79b3c88cd45bb19",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -473,7 +474,7 @@
         "evidence": "Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/26/columns/0/content/0",
+        "id": "primaryContentSections/0/content/30/columns/0/content/0",
         "source_unit_hash": "3f9f586ae76c2b2546f026febe81355573f1f9103dbaaf9dfd8ececa5efd2c82",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -483,7 +484,7 @@
         "evidence": "Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/26/columns/0/content/0/inlineContent/0",
+        "id": "primaryContentSections/0/content/30/columns/0/content/0/inlineContent/0",
         "source_unit_hash": "72b3b273b62b7505a447435e499304c4a335aa97be98b5f3f0295d64e20b3fdd",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -493,7 +494,7 @@
         "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/26/columns/0/content/1",
+        "id": "primaryContentSections/0/content/30/columns/0/content/1",
         "source_unit_hash": "5d4ddc406ff37f78e4d3a9080762dd4c181cec019012b375ea933330c625081b",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -503,7 +504,7 @@
         "evidence": "Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/26/columns/0/content/1/inlineContent/0",
+        "id": "primaryContentSections/0/content/30/columns/0/content/1/inlineContent/0",
         "source_unit_hash": "91d9c1fd9ffa75564296a928474eb202dd5212423dfaa2730c99098d100a0f4b",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -513,7 +514,7 @@
         "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/26/columns/1/content/0",
+        "id": "primaryContentSections/0/content/30/columns/1/content/0",
         "source_unit_hash": "c9443781642c6a9743c297615ba15c13327aab0a811962e5f0bc02b774f79e11",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -523,7 +524,7 @@
         "evidence": "Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/26/columns/1/content/0/inlineContent/0",
+        "id": "primaryContentSections/0/content/30/columns/1/content/0/inlineContent/0",
         "source_unit_hash": "64ba3173cb5540a01e9d44c409c7961e8f9354ca1a937c11c1c3ecbdaeb1be22",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -533,7 +534,7 @@
         "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/26/columns/1/content/1",
+        "id": "primaryContentSections/0/content/30/columns/1/content/1",
         "source_unit_hash": "096d0b651326c60f6655518f8427cbf0ab23695bb59ee88305daf7ca8c4da8d4",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -543,7 +544,7 @@
         "evidence": "Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/26/columns/1/content/1/inlineContent/0",
+        "id": "primaryContentSections/0/content/30/columns/1/content/1/inlineContent/0",
         "source_unit_hash": "bb088c9599f6b13483d55b87f2290e5bfa47a4f92545aa5f18ceac63f49700b2",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -553,7 +554,7 @@
         "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/27",
+        "id": "primaryContentSections/0/content/31",
         "source_unit_hash": "ef6374085813d2787b6581af15ea235928f5da817c7be243dfe6e4ce047a8164",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -563,7 +564,7 @@
         "evidence": "Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/28",
+        "id": "primaryContentSections/0/content/32",
         "source_unit_hash": "fe6a534a9379026e12a9c243f5e4eefbdb462505eade683de1b18c6d1c38dbc4",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -573,7 +574,7 @@
         "evidence": "Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/29",
+        "id": "primaryContentSections/0/content/33",
         "source_unit_hash": "e53f0c4d82634c07a33f4ba3dffd5f1d29c7cc6dece3882cd095d7edcbc0a9a9",
         "source_anchor": "Design",
         "status": "reviewed",
@@ -583,7 +584,7 @@
         "evidence": "Checked simple coherent concept,consistent platforms,overlapping fills,essential-only unlocalizable text/foreground TV text,illustrations not photos/screenshots and no Apple hardware replicas."
       },
       {
-        "id": "primaryContentSections/0/content/31",
+        "id": "primaryContentSections/0/content/35",
         "source_unit_hash": "d8a2ef1b979e73f0bfb3e4966d4c49a960b1faa318a64dc1c3d24bd7b799b88f",
         "source_anchor": "Visual-effects",
         "status": "reviewed",
@@ -593,7 +594,7 @@
         "evidence": "Checked system dynamic effects,careful custom-effect testing and group effects."
       },
       {
-        "id": "primaryContentSections/0/content/32",
+        "id": "primaryContentSections/0/content/36",
         "source_unit_hash": "36447841924071eb384938af4bc7bf6bdc741c062813fe07a817dfbda7c08c2b",
         "source_anchor": "Visual-effects",
         "status": "reviewed",
@@ -603,7 +604,7 @@
         "evidence": "Checked system dynamic effects,careful custom-effect testing and group effects."
       },
       {
-        "id": "primaryContentSections/0/content/34",
+        "id": "primaryContentSections/0/content/38",
         "source_unit_hash": "0ab3f8ea29afc306eeb2a63b3e394beb97f0e8108525e72bd6e562418213a707",
         "source_anchor": "Appearances",
         "status": "reviewed",
@@ -613,7 +614,7 @@
         "evidence": "Checked all variants/stable identity,subdued dark/clear/tint,complementary dark colors,alternate-platform support and alternate variant/review requirements."
       },
       {
-        "id": "primaryContentSections/0/content/35",
+        "id": "primaryContentSections/0/content/39",
         "source_unit_hash": "105ae1ac67e761a2202840136977eaca5e7a219dd9fef65488cec17cbe1be6a8",
         "source_anchor": "Appearances",
         "status": "reviewed",
@@ -623,7 +624,7 @@
         "evidence": "Checked all variants/stable identity,subdued dark/clear/tint,complementary dark colors,alternate-platform support and alternate variant/review requirements."
       },
       {
-        "id": "primaryContentSections/0/content/35/inlineContent/0",
+        "id": "primaryContentSections/0/content/39/inlineContent/0",
         "source_unit_hash": "dc48773d5c016b505e501128975e1d24eb72972238c087851bcfd17e40bbcf24",
         "source_anchor": "Appearances",
         "status": "reviewed",
@@ -633,7 +634,7 @@
         "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked all variants/stable identity,subdued dark/clear/tint,complementary dark colors,alternate-platform support and alternate variant/review requirements."
       },
       {
-        "id": "primaryContentSections/0/content/36",
+        "id": "primaryContentSections/0/content/40",
         "source_unit_hash": "30d369f3c749733c2b5881c7b53a852672b559f4a1c1f6d4a2386a29a7a430c4",
         "source_anchor": "Appearances",
         "status": "reviewed",
@@ -643,7 +644,7 @@
         "evidence": "Checked all variants/stable identity,subdued dark/clear/tint,complementary dark colors,alternate-platform support and alternate variant/review requirements."
       },
       {
-        "id": "primaryContentSections/0/content/37",
+        "id": "primaryContentSections/0/content/41",
         "source_unit_hash": "1a75f94b9422787b570a0f526d94a31e2b2ed0866f3926fd0c14e423c1a58558",
         "source_anchor": "Appearances",
         "status": "reviewed",
@@ -653,7 +654,7 @@
         "evidence": "Checked all variants/stable identity,subdued dark/clear/tint,complementary dark colors,alternate-platform support and alternate variant/review requirements."
       },
       {
-        "id": "primaryContentSections/0/content/38",
+        "id": "primaryContentSections/0/content/42",
         "source_unit_hash": "1854e0c8e4ac133837986f5b1c4a7befe1c184d18d5d33cc1482e3e069000dc6",
         "source_anchor": "Appearances",
         "status": "reviewed",
@@ -663,7 +664,7 @@
         "evidence": "Checked all variants/stable identity,subdued dark/clear/tint,complementary dark colors,alternate-platform support and alternate variant/review requirements."
       },
       {
-        "id": "primaryContentSections/0/content/39",
+        "id": "primaryContentSections/0/content/43",
         "source_unit_hash": "bdc5a85f7b7ab1cce964a651104c63e5f5040b3ff76f7a54e1d279fec7df71c7",
         "source_anchor": "Appearances",
         "status": "reviewed",
@@ -673,7 +674,7 @@
         "evidence": "Checked all variants/stable identity,subdued dark/clear/tint,complementary dark colors,alternate-platform support and alternate variant/review requirements."
       },
       {
-        "id": "primaryContentSections/0/content/40",
+        "id": "primaryContentSections/0/content/44",
         "source_unit_hash": "d5a1b92ee475881753893f923c830f1346fc2b3e1c80bc87d198fffd4d5ef839",
         "source_anchor": "Appearances",
         "status": "reviewed",
@@ -683,7 +684,7 @@
         "evidence": "Checked all variants/stable identity,subdued dark/clear/tint,complementary dark colors,alternate-platform support and alternate variant/review requirements."
       },
       {
-        "id": "primaryContentSections/0/content/40/content/0",
+        "id": "primaryContentSections/0/content/44/content/0",
         "source_unit_hash": "e2fc7a13ca7e333fcaa603923f8aac2f46a5fdbbf5711b0554f0b9ded704bedd",
         "source_anchor": "Appearances",
         "status": "reviewed",
@@ -693,7 +694,7 @@
         "evidence": "Checked all variants/stable identity,subdued dark/clear/tint,complementary dark colors,alternate-platform support and alternate variant/review requirements."
       },
       {
-        "id": "primaryContentSections/0/content/42",
+        "id": "primaryContentSections/0/content/46",
         "source_unit_hash": "ce6009afc940e14c406e95bd4ec23457382b6beb62a5aef9e8662acde42ab8e8",
         "source_anchor": "Platform-considerations",
         "status": "reviewed",
@@ -703,7 +704,7 @@
         "evidence": "No additional iOS/iPadOS/macOS rules retained."
       },
       {
-        "id": "primaryContentSections/0/content/44",
+        "id": "primaryContentSections/0/content/48",
         "source_unit_hash": "79f196f1c147891a8efde0e98e043b7da1965fa1ad3c442470116ddc6d6cb38d",
         "source_anchor": "tvOS",
         "status": "reviewed",
@@ -713,7 +714,7 @@
         "evidence": "Checked variable focus crop safe zone and greater foreground cropping."
       },
       {
-        "id": "primaryContentSections/0/content/45",
+        "id": "primaryContentSections/0/content/49",
         "source_unit_hash": "84fc5897d7ed247cf6645ae6f3283d031ca6e3c5c97c80ac6f500ba8773b76fd",
         "source_anchor": "tvOS",
         "status": "reviewed",
@@ -723,7 +724,7 @@
         "evidence": "Checked variable focus crop safe zone and greater foreground cropping."
       },
       {
-        "id": "primaryContentSections/0/content/45/inlineContent/0",
+        "id": "primaryContentSections/0/content/49/inlineContent/0",
         "source_unit_hash": "2788cce64481a01e6721518cd15ce8c34583e060b37cf12eca3adf644f00627b",
         "source_anchor": "tvOS",
         "status": "reviewed",
@@ -733,7 +734,7 @@
         "evidence": "Textual-context review only; actual visual review remains in the separate media audit. Checked variable focus crop safe zone and greater foreground cropping."
       },
       {
-        "id": "primaryContentSections/0/content/47",
+        "id": "primaryContentSections/0/content/51",
         "source_unit_hash": "30fc29422502b5d6936ad6a8efb55853d1b774784a03cc83524bae4c628f6b90",
         "source_anchor": "visionOS",
         "status": "reviewed",
@@ -743,7 +744,7 @@
         "evidence": "Checked false concave/hole appearance caution."
       },
       {
-        "id": "primaryContentSections/0/content/49",
+        "id": "primaryContentSections/0/content/53",
         "source_unit_hash": "6b3d3c57c7c06aa7c434336924b84e62b01fde4787f07c129e225a10f8ffa4a6",
         "source_anchor": "watchOS",
         "status": "reviewed",
@@ -753,7 +754,7 @@
         "evidence": "Checked lifting black background to distinguish display."
       },
       {
-        "id": "primaryContentSections/0/content/51",
+        "id": "primaryContentSections/0/content/55",
         "source_unit_hash": "7b0eeb37e7db077e8a021179bd8e0d20bb722277afef0428afe7302f81f05ac6",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -763,7 +764,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52",
+        "id": "primaryContentSections/0/content/56",
         "source_unit_hash": "668fbe7740635ad67343dfbef4640168085bd39ba02b0fb33bbb9b2280167959",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -773,7 +774,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/0/0/0",
+        "id": "primaryContentSections/0/content/56/rows/0/0/0",
         "source_unit_hash": "b195e67d72a3684d969adde85939d362031c077e178354caf599e37e1ab1fa7e",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -783,7 +784,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/0/1/0",
+        "id": "primaryContentSections/0/content/56/rows/0/1/0",
         "source_unit_hash": "6c8e1958c19804522ec527c3365c74cd8f910e16bf377ad66961075de655f5ee",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -793,7 +794,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/0/2/0",
+        "id": "primaryContentSections/0/content/56/rows/0/2/0",
         "source_unit_hash": "8e1b1163874b9c7334d3d4552ae06733da99c15685ecebbc21aab4b88ea3738c",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -803,7 +804,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/0/3/0",
+        "id": "primaryContentSections/0/content/56/rows/0/3/0",
         "source_unit_hash": "ec79e33fc44ba91c9cdc4bc3e77ab5ef994064ef41c25fbff881f8b5df97e978",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -813,7 +814,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/0/4/0",
+        "id": "primaryContentSections/0/content/56/rows/0/4/0",
         "source_unit_hash": "4811cccb2629475fc63cca54f32a5d077f70f378d3c28525016303a1c47bec3c",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -823,7 +824,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/0/5/0",
+        "id": "primaryContentSections/0/content/56/rows/0/5/0",
         "source_unit_hash": "2f8631db003d64324f584434260c8bd0a356585d220445ffc5b1428c1e4fe296",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -833,7 +834,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/1/0/0",
+        "id": "primaryContentSections/0/content/56/rows/1/0/0",
         "source_unit_hash": "61c966dffb8119042f078e4aefb95b67f76a7ab1f6fd2ad677fde9a6a6e0729f",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -843,7 +844,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/1/1/0",
+        "id": "primaryContentSections/0/content/56/rows/1/1/0",
         "source_unit_hash": "b0e3a1730bb43cdb7fb682e9dc1c03f1ce5affdab99e55ffce5523e03ca8d7be",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -853,7 +854,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/1/2/0",
+        "id": "primaryContentSections/0/content/56/rows/1/2/0",
         "source_unit_hash": "6976a0f74c21e61efc326834d56ac75d4fdae9eb9f8f179db995256c75af9937",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -863,7 +864,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/1/3/0",
+        "id": "primaryContentSections/0/content/56/rows/1/3/0",
         "source_unit_hash": "2e563cbe28b52c8ea760c10825e5ee288ffff69ddbae14155bacac4bf5186716",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -873,7 +874,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/1/4/0",
+        "id": "primaryContentSections/0/content/56/rows/1/4/0",
         "source_unit_hash": "933bd87e8b15a75efcbe7926e1b9a6021275e92ebc10143c822b8a5ed7071c43",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -883,7 +884,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/1/5/0",
+        "id": "primaryContentSections/0/content/56/rows/1/5/0",
         "source_unit_hash": "09907ec9986049ac7a64820d8a4c1d670af9f309930778a4843919b1cb1d35b7",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -893,7 +894,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/2/0/0",
+        "id": "primaryContentSections/0/content/56/rows/2/0/0",
         "source_unit_hash": "fa02c770fafd6d83157a92459ca66ad871e76ecf6ffa9f6d7d6d915eadbf32a3",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -903,7 +904,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/2/1/0",
+        "id": "primaryContentSections/0/content/56/rows/2/1/0",
         "source_unit_hash": "0cf168d3dc83daedd8f594e705c514aaacad6c8045aecfd2a7c3eea9ac855ce2",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -913,7 +914,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/2/2/0",
+        "id": "primaryContentSections/0/content/56/rows/2/2/0",
         "source_unit_hash": "88c0acad746ffe910e8b4cefd67e9531beeb8333b1575d2087bd4b2af503907b",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -923,7 +924,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/2/3/0",
+        "id": "primaryContentSections/0/content/56/rows/2/3/0",
         "source_unit_hash": "a9f08a01bad1c123785f2e9b6becaf465f0cebf25345897684e7b2f0e8db4772",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -933,7 +934,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/2/4/0",
+        "id": "primaryContentSections/0/content/56/rows/2/4/0",
         "source_unit_hash": "71a5834342c96755e97149f35fc259a4ae738b04d26e9caef4396cc590cd4cf8",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -943,7 +944,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/2/5/0",
+        "id": "primaryContentSections/0/content/56/rows/2/5/0",
         "source_unit_hash": "d2e248d392990365f7e9e2cf7530017db8590ddf030e7479780e77dcef7ba278",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -953,7 +954,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/3/0/0",
+        "id": "primaryContentSections/0/content/56/rows/3/0/0",
         "source_unit_hash": "dfec64c3148675d7ee6b4b3594f050562320edad6716894c0fe5aa03fc3ac279",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -963,7 +964,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/3/1/0",
+        "id": "primaryContentSections/0/content/56/rows/3/1/0",
         "source_unit_hash": "b0e3a1730bb43cdb7fb682e9dc1c03f1ce5affdab99e55ffce5523e03ca8d7be",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -973,7 +974,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/3/2/0",
+        "id": "primaryContentSections/0/content/56/rows/3/2/0",
         "source_unit_hash": "46ec32985fdaae6f4c5fdc95f18737861a19cbebd230733d8cf6b7d07f96a253",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -983,7 +984,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/3/3/0",
+        "id": "primaryContentSections/0/content/56/rows/3/3/0",
         "source_unit_hash": "2e563cbe28b52c8ea760c10825e5ee288ffff69ddbae14155bacac4bf5186716",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -993,7 +994,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/3/4/0",
+        "id": "primaryContentSections/0/content/56/rows/3/4/0",
         "source_unit_hash": "a97ec6deed96ac5bf4610393761b27a30560f31a82dc2d5f45328a9b546d97e1",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -1003,7 +1004,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/3/5/0",
+        "id": "primaryContentSections/0/content/56/rows/3/5/0",
         "source_unit_hash": "d2e248d392990365f7e9e2cf7530017db8590ddf030e7479780e77dcef7ba278",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -1013,7 +1014,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/4/0/0",
+        "id": "primaryContentSections/0/content/56/rows/4/0/0",
         "source_unit_hash": "de59d66e5d72811fd89564cf1be88f7013c18fd5371bfc795e89d52251c54156",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -1023,7 +1024,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/4/1/0",
+        "id": "primaryContentSections/0/content/56/rows/4/1/0",
         "source_unit_hash": "b0e3a1730bb43cdb7fb682e9dc1c03f1ce5affdab99e55ffce5523e03ca8d7be",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -1033,7 +1034,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/4/2/0",
+        "id": "primaryContentSections/0/content/56/rows/4/2/0",
         "source_unit_hash": "46ec32985fdaae6f4c5fdc95f18737861a19cbebd230733d8cf6b7d07f96a253",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -1043,7 +1044,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/4/3/0",
+        "id": "primaryContentSections/0/content/56/rows/4/3/0",
         "source_unit_hash": "da216a555365be0be42a8f3670dfd20576eb1e23f53c05033f8c0b5b9ef38b87",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -1053,7 +1054,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/4/4/0",
+        "id": "primaryContentSections/0/content/56/rows/4/4/0",
         "source_unit_hash": "933bd87e8b15a75efcbe7926e1b9a6021275e92ebc10143c822b8a5ed7071c43",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -1063,7 +1064,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/52/rows/4/5/0",
+        "id": "primaryContentSections/0/content/56/rows/4/5/0",
         "source_unit_hash": "d2e248d392990365f7e9e2cf7530017db8590ddf030e7479780e77dcef7ba278",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -1073,7 +1074,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/53",
+        "id": "primaryContentSections/0/content/57",
         "source_unit_hash": "d430852681c1468c07705a64c050d52ae51de2f46044e89c0d9eb735c6ae84e1",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -1083,7 +1084,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/54",
+        "id": "primaryContentSections/0/content/58",
         "source_unit_hash": "2b98ddbab746b3226fef43947420641b5aacdc8878f19a8d73ab3240f99b87dc",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -1093,7 +1094,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/55",
+        "id": "primaryContentSections/0/content/59",
         "source_unit_hash": "0b80b2dda5c9f07ccb4fcb67199f20eaf8a17ef2d2c4fc5be5ae59d21d6d8891",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -1103,7 +1104,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/55/items/0/content/0",
+        "id": "primaryContentSections/0/content/59/items/0/content/0",
         "source_unit_hash": "700b53e98d560333374c9c4719856f4e3673a0de982cb0e59d225f4c985bf84a",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -1113,7 +1114,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/55/items/1/content/0",
+        "id": "primaryContentSections/0/content/59/items/1/content/0",
         "source_unit_hash": "aca765482478028e5970fac998a2c871b42b367242167181d6cb0f43931b321a",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -1123,7 +1124,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/55/items/2/content/0",
+        "id": "primaryContentSections/0/content/59/items/2/content/0",
         "source_unit_hash": "d55c2cec67267ec3d4006a296778748f7e80138de6c83ddfe964597819f9a724",
         "source_anchor": "Specifications",
         "status": "reviewed",
@@ -1133,7 +1134,7 @@
         "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
       },
       {
-        "id": "primaryContentSections/0/content/58",
+        "id": "primaryContentSections/0/content/62",
         "source_unit_hash": "e5be23049a604264b1575ab8cda156471066444761f679ee965164ec4ac49e3e",
         "source_anchor": "Related",
         "status": "reviewed",
@@ -1143,7 +1144,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/59",
+        "id": "primaryContentSections/0/content/63",
         "source_unit_hash": "3cf393b63b98bbd63c0edae4f6daa393b33d6fb906491ef62a0f5dc84e25ed1c",
         "source_anchor": "Related",
         "status": "reviewed",
@@ -1153,7 +1154,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/60",
+        "id": "primaryContentSections/0/content/64",
         "source_unit_hash": "80d02f5c90176081e96439082f81ceef411162e7c9c4d59f16ddf863fe25caa8",
         "source_anchor": "Related",
         "status": "reviewed",
@@ -1163,7 +1164,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/61",
+        "id": "primaryContentSections/0/content/65",
         "source_unit_hash": "94bd68778e73867f589aad4739c1f99cedc8447ac5f42cf879dc48ab227e0b97",
         "source_anchor": "Related",
         "status": "reviewed",
@@ -1173,7 +1174,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/62",
+        "id": "primaryContentSections/0/content/66",
         "source_unit_hash": "07756847eef841b7912570d89d6bb31a94447fe95b4b6086895665ff7735574e",
         "source_anchor": "Related",
         "status": "reviewed",
@@ -1183,7 +1184,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/64",
+        "id": "primaryContentSections/0/content/68",
         "source_unit_hash": "771646fc3e940a528d27825562075283183b1c359495abca431d75192a6a314b",
         "source_anchor": "Developer-documentation",
         "status": "reviewed",
@@ -1193,7 +1194,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/65",
+        "id": "primaryContentSections/0/content/69",
         "source_unit_hash": "833681b0138c7da8cc28ffca96e376af293bb3cf951dde125fd5fb7af6170693",
         "source_anchor": "Developer-documentation",
         "status": "reviewed",
@@ -1203,17 +1204,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/69",
-        "source_unit_hash": "b4eff3c87d2725c424369bab6c8dec7e5971d04de58b9a1eb36d318af7d31a55",
-        "source_anchor": "Change-log",
-        "status": "reviewed",
-        "treatment": "metadata",
-        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/app-icons.md",
-        "destination_anchor": "Change-log",
-        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
-      },
-      {
-        "id": "primaryContentSections/0/content/69/rows/0/0/0",
+        "id": "primaryContentSections/0/content/73/rows/0/0/0",
         "source_unit_hash": "4f044f7e17248d20ffd6220fc30576058385784f67022cd26062f011e1808b0f",
         "source_anchor": "Change-log",
         "status": "reviewed",
@@ -1223,7 +1214,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/69/rows/0/1/0",
+        "id": "primaryContentSections/0/content/73/rows/0/1/0",
         "source_unit_hash": "b9352ad1862e478a7a1fed6ac5f024375a841d79c3bea31bbc21830b50b99620",
         "source_anchor": "Change-log",
         "status": "reviewed",
@@ -1233,7 +1224,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/69/rows/1/0/0",
+        "id": "primaryContentSections/0/content/73/rows/2/0/0",
         "source_unit_hash": "6f585fa1a239d7cd279db778c80344b4ca3bdd1c2601af906b53d277e7be4412",
         "source_anchor": "Change-log",
         "status": "reviewed",
@@ -1243,7 +1234,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/69/rows/1/1/0",
+        "id": "primaryContentSections/0/content/73/rows/2/1/0",
         "source_unit_hash": "33c7ea52b72d86e295c14bd632d931a1d4066e95f86f94d388bd5ae5bc6affe4",
         "source_anchor": "Change-log",
         "status": "reviewed",
@@ -1253,7 +1244,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/69/rows/2/0/0",
+        "id": "primaryContentSections/0/content/73/rows/3/0/0",
         "source_unit_hash": "2e747a7335b5cef629bba3811f6d73d8d3d5f6acd4e7bca28d0f38b372369db8",
         "source_anchor": "Change-log",
         "status": "reviewed",
@@ -1263,7 +1254,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/69/rows/2/1/0",
+        "id": "primaryContentSections/0/content/73/rows/3/1/0",
         "source_unit_hash": "0b00571e5007c6b56060efa34ccdae02221c991a4eff023ef82907dcc8725f45",
         "source_anchor": "Change-log",
         "status": "reviewed",
@@ -1273,7 +1264,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/69/rows/3/0/0",
+        "id": "primaryContentSections/0/content/73/rows/4/0/0",
         "source_unit_hash": "6fbfd8192538c86013ae1170ead307313ca6290dbe20e9b9a262d8ed4dbef179",
         "source_anchor": "Change-log",
         "status": "reviewed",
@@ -1283,7 +1274,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/69/rows/3/1/0",
+        "id": "primaryContentSections/0/content/73/rows/4/1/0",
         "source_unit_hash": "38d005ecfa2c3c802af562f061bb1cba92511639d47ab8e77c73768eb246632b",
         "source_anchor": "Change-log",
         "status": "reviewed",
@@ -1293,7 +1284,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/69/rows/4/0/0",
+        "id": "primaryContentSections/0/content/73/rows/5/0/0",
         "source_unit_hash": "936fbce0e9c585bf57f0270c81d88b1492f3027463ae78d46be2b23fc30e8f73",
         "source_anchor": "Change-log",
         "status": "reviewed",
@@ -1303,7 +1294,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/69/rows/4/1/0",
+        "id": "primaryContentSections/0/content/73/rows/5/1/0",
         "source_unit_hash": "09dbe86af017a28126e52b172f1806e69e3979dbcf9843c88e59fd9c6f92b330",
         "source_anchor": "Change-log",
         "status": "reviewed",
@@ -1313,7 +1304,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/69/rows/5/0/0",
+        "id": "primaryContentSections/0/content/73/rows/6/0/0",
         "source_unit_hash": "6fe4064546a70f94ab80b0bb516156bf2c20e1a671fc30de15f1bd0929cd10f6",
         "source_anchor": "Change-log",
         "status": "reviewed",
@@ -1323,7 +1314,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/69/rows/5/1/0",
+        "id": "primaryContentSections/0/content/73/rows/6/1/0",
         "source_unit_hash": "3e6190586593b75bec33fe12372d363ffcb289662883bd1293eb36977c67e3cf",
         "source_anchor": "Change-log",
         "status": "reviewed",
@@ -1333,7 +1324,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/69/rows/6/0/0",
+        "id": "primaryContentSections/0/content/73/rows/7/0/0",
         "source_unit_hash": "ea6021512638756fcb39be44c5cb492cf7f4b4c67d7c547285252b9046997c1f",
         "source_anchor": "Change-log",
         "status": "reviewed",
@@ -1343,7 +1334,7 @@
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
       },
       {
-        "id": "primaryContentSections/0/content/69/rows/6/1/0",
+        "id": "primaryContentSections/0/content/73/rows/7/1/0",
         "source_unit_hash": "9b2f3d2661d165ed3460c867b5b6ca18bf31b9bf5307f9bf32bbf2c51fc4b2e9",
         "source_anchor": "Change-log",
         "status": "reviewed",
@@ -1351,28 +1342,80 @@
         "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/app-icons.md",
         "destination_anchor": "Change-log",
         "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "51b33ca562edb5db3085431011beb5423756ea8baa5a6e91b63968693455b96f",
+        "source_anchor": "Layer-design",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/app-icons.md",
+        "destination_anchor": "Layer-design",
+        "evidence": "Checked: the new opening of Layer design (a nonlayered image is possible, see Icon formats, but layers give the most control; system effects respond to environment and interaction) is the first sentences of #Layer-design with a link to #Icon-formats.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:07:05+00:00"
+      },
+      {
+        "id": "primaryContentSections/0/content/17",
+        "source_unit_hash": "da95662975887d420187e5667bc7cd6986a8f789cb2fb806301201194b940235",
+        "source_anchor": "Icon-formats",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/app-icons.md",
+        "destination_anchor": "Icon-formats",
+        "evidence": "Checked: iOS, iPadOS, macOS and watchOS accept a nonlayered bitmap (such as PNG) or a layered Icon Composer file, and Icon Composer controls per-element Liquid Glass and color across appearance variants; both are in #Icon-formats with the same four-platform scope.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:07:05+00:00"
+      },
+      {
+        "id": "primaryContentSections/0/content/18",
+        "source_unit_hash": "470087319a330d329fdcda5cff7349bd3d947fa39f109816556af0454c5ef1e5",
+        "source_anchor": "Icon-formats",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/app-icons.md",
+        "destination_anchor": "Icon-formats",
+        "evidence": "Checked: the preference for Icon Composer, and the system's segmentation of a bitmap into foreground and background layers so dark and tinted variants keep a consistent background, are stated in #Icon-formats.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:07:05+00:00"
+      },
+      {
+        "id": "primaryContentSections/0/content/19",
+        "source_unit_hash": "2c289ecec01a1c1e70aa7b6905f883589403d6652fcf629f72c90a11a59bff5f",
+        "source_anchor": "Icon-formats",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/app-icons.md",
+        "destination_anchor": "Icon-formats",
+        "evidence": "Checked: after segmentation, Liquid Glass applies to large, simple foreground shapes and not to small complex elements such as text and thin lines, and a layered Icon Composer file gives precise control; #Icon-formats states both.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:07:05+00:00"
       }
     ],
     "tables": [
       {
-        "id": "primaryContentSections/0/content/52",
+        "id": "primaryContentSections/0/content/56",
         "source_unit_hash": "668fbe7740635ad67343dfbef4640168085bd39ba02b0fb33bbb9b2280167959",
         "source_anchor": "Specifications",
         "status": "reviewed",
         "treatment": "guidance",
         "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/app-icons.md",
         "destination_anchor": "Specifications",
-        "evidence": "Compared every platform canvas/mask/pixel/construction/appearance row,including1088px watch and800x480TV; profiles/smaller variants and Vision P3 exclusion retained."
+        "evidence": "Compared every row of the specifications table (unchanged content, moved from content/52 to content/56): canvas shape, masked shape, 1024x1024, 800x480 and 1088x1088 px sizes, layered styles and appearance variants; smaller variants and color spaces with the visionOS Display P3 exclusion are kept.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:07:05+00:00"
       },
       {
-        "id": "primaryContentSections/0/content/69",
-        "source_unit_hash": "b4eff3c87d2725c424369bab6c8dec7e5971d04de58b9a1eb36d318af7d31a55",
+        "id": "primaryContentSections/0/content/73",
+        "source_unit_hash": "fd2ec9044c45e057535b098f7d7c2299baf369412e509c3b399805b2b7d41fb6",
         "source_anchor": "Change-log",
         "status": "reviewed",
         "treatment": "metadata",
         "destination": "skills/apple-hig/subskills/apple-hig-foundations/references/app-icons.md",
         "destination_anchor": "Change-log",
-        "evidence": "Metadata-only resource/revision heading is explicitly retained; linked implementation dependencies are inventoried separately. No additional design rule is inferred from links or revision dates."
+        "evidence": "Metadata only: the change-log table now starts with October 28, 2026 (app icon format options), and the guide's #Change-log lists all seven dates.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:07:05+00:00"
       }
     ],
     "issues": []

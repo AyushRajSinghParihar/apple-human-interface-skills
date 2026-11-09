@@ -1,19 +1,19 @@
 {
   "topic": "app-icons",
-  "reviewer": "independent-operational-auditor",
-  "reviewed_at": "2026-10-25T18:51:35.611519+00:00",
+  "reviewer": "independent-snapshot-reviewer",
+  "reviewed_at": "2026-11-09T18:07:05+00:00",
   "status": "reviewed",
-  "source_hash": "af54be98d321f177a0f520495b96a080cf729a3f8c27533b69c6c9d128704fd2",
-  "skill_hash": "017651799b8abf83e4281083c5b20d584504ecd64b085afdebc7f714fc84d182",
-  "reference_hash": "3361342d31679d3b0ce7488eacb05df99cff2fbc1147f8c6f7b2bacbde2511af",
+  "source_hash": "049a3e70cf75ae59a11bdbfe9edb62d5bbffd964a0c27a405ec88e55e2a778ae",
+  "skill_hash": "3f13bcc1c41f206eb96b0449e6cc6a61b9b222adcbd9c12880696926f8bc6161",
+  "reference_hash": "297b975e35aeff1acd94f95adf818417a3b786bf17f47b05cfdf98f351c62228",
   "evidence": {
-    "decision": "Selects recognizable concept, quiet opaque background, meaningful foreground layers, unmasked canvas and platform-appropriate construction/appearances.",
-    "artifact": "Delivers corrected icon artwork/specification or scoped review with explicit layer and variant inventory.",
-    "transformation": "Book-club pre-rounded screenshot with temporary badge/tiny titles becomes simple unmasked overlapping-book layers; temporary copy moves into content.",
-    "verification": "Checks small-size identity, mask loss and focus/lighting shape changes; does not treat a flat mockup as verified parallax/export behavior.",
-    "applicability": "Differentiates Icon Composer versus image-stack workflow, TV crop, spatial hollow-depth risk, Watch black separation and per-platform specifications.",
-    "handoffs": "Routes supporting formats to Images, interface actions to Icons and brand consistency to Branding.",
-    "distinctiveness": "Launcher identity under masks, layer effects and appearance variants determines asset production rather than generic aesthetic advice."
+    "decision": "Chooses one recognizable concept, foreground/background layers, unmasked art and system-owned effects; on iOS/iPadOS/macOS/watchOS it now prefers a layered Icon Composer file because a bitmap is split into two layers and gets Liquid Glass only on large simple foreground shapes, not text or thin lines, as in the new Icon formats section.",
+    "artifact": "Delivers corrected icon artwork or specification, or a scoped review, with an explicit layer and variant inventory checked against the guide's per-platform table.",
+    "transformation": "The book-club example turns a pre-rounded screenshot with a temporary 'New' badge and tiny titles into unmasked layers with a simple overlapping-book mark, an opaque background and stable placement across variants; temporary text moves into app content.",
+    "verification": "Fails if masking removes the mark, reduction erases it, or focus/lighting changes its intended shape; says Icon Composer or device previews are needed for parallax, material effects and export quality.",
+    "applicability": "Platform-qualified: Icon Composer and the bitmap-versus-layered choice apply to iOS/iPadOS/macOS/watchOS, image stacks to tvOS/visionOS; tvOS crop-safe layers, the visionOS hollow-shape caution and watchOS black background are kept.",
+    "handoffs": "Routes supporting image formats to Images, in-app glyphs to Icons and brand consistency to Branding.",
+    "distinctiveness": "Launcher identity under system masks, layered construction, bitmap segmentation behavior and appearance variants are specific to app icons, not generic image or glyph advice."
   },
   "additional_references": []
 }

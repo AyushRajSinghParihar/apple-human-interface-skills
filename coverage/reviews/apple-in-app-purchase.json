@@ -2,11 +2,11 @@
   "review": {
     "slug": "apple-in-app-purchase",
     "status": "reviewed",
-    "source_hash": "2a92a999e98373695ad7949ced0c0c61e48d61ee8a7b63284669a096bbb5ea9e",
+    "source_hash": "b945c13289190e446df88e5095bd2680750f5420d8a44c7226f11fbf32982c5b",
     "destination_hash": "cce0785c38a204ab43eb70339b22f9fd93ad6966a4338a7d69dc9efc94a7b391",
-    "reviewer": "cross-reviewer-b",
-    "reviewed_at": "2026-10-25T13:18:25+00:00",
-    "evidence": "Independent full textual comparison of cached official DocC/Markdown with the local guide, including substantive headings, notes, platform qualifications and factual tables. Media review is separate.",
+    "reviewer": "deterministic-snapshot-diff",
+    "reviewed_at": "2026-11-09T17:51:31+00:00",
+    "evidence": "Deterministic renewal for source snapshot b945c1328919 (previous 2a92a999e983): all 128 extracted units and 21 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies. Previous review: cross-reviewer-b at 2026-10-25T13:18:25+00:00.",
     "sections": [
       {
         "source_anchor": "overview",

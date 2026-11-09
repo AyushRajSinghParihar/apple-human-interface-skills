@@ -1,9 +1,9 @@
 {
   "topic": "apple-in-app-purchase",
-  "reviewer": "independent-topic-author-b",
-  "reviewed_at": "2026-10-25T19:00:29.945109+00:00",
+  "reviewer": "deterministic-snapshot-diff",
+  "reviewed_at": "2026-11-09T17:51:31+00:00",
   "status": "reviewed",
-  "source_hash": "2a92a999e98373695ad7949ced0c0c61e48d61ee8a7b63284669a096bbb5ea9e",
+  "source_hash": "b945c13289190e446df88e5095bd2680750f5420d8a44c7226f11fbf32982c5b",
   "skill_hash": "bfac4b3e3e975cd68829c1378d9694b7c9666ac0138a621b5684816979dc4ad0",
   "reference_hash": "cce0785c38a204ab43eb70339b22f9fd93ad6966a4338a7d69dc9efc94a7b391",
   "evidence": {
@@ -14,5 +14,6 @@
     "applicability": "Separates current commercial eligibility and StoreKit/sandbox proof from this design snapshot.",
     "handoffs": "Apple Pay handles physical commerce; Writing handles precise terms and help.",
     "distinctiveness": "Entitlement types, family recipients and prelaunch redemption change the purchase workflow."
-  }
+  },
+  "renewal": "Deterministic renewal for source snapshot b945c1328919 (previous 2a92a999e983): all 128 extracted units and 21 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies."
 }

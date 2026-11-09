@@ -1,9 +1,9 @@
 {
   "topic": "layout",
-  "reviewer": "independent-operational-auditor",
-  "reviewed_at": "2026-10-25T18:51:35.612350+00:00",
+  "reviewer": "deterministic-snapshot-diff",
+  "reviewed_at": "2026-11-09T17:51:31+00:00",
   "status": "reviewed",
-  "source_hash": "cefad5cdaa2f516254f7ba2f7c9d82ca11179f2b6ca89d43aab835041319278f",
+  "source_hash": "d5b2a7ab19e4022c6fe0ca33c4050c82c52e05870ebc765642164d2e7e3e0784",
   "skill_hash": "af36338117a4a4828da6c9c632cff2e731f1bd283623a8c9d4ca887634bf526d",
   "reference_hash": "3a4253a6b8366998c20194c7b42f1ee5bb2cd977c9d3865d1241a7a11ff6ad98",
   "evidence": {
@@ -15,5 +15,6 @@
     "handoffs": "Routes text expansion to Typography, direction to Right to left and 3D anchoring/scaling to Spatial layout.",
     "distinctiveness": "Environment-dependent relationship-preserving reflow directly produces constraints and transition behavior."
   },
-  "additional_references": []
+  "additional_references": [],
+  "renewal": "Deterministic renewal for source snapshot d5b2a7ab19e4 (previous cefad5cdaa2f): all 190 extracted units and 17 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies."
 }

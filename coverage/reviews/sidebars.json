@@ -2,11 +2,11 @@
   "review": {
     "slug": "sidebars",
     "status": "reviewed",
-    "source_hash": "74b0bb163b26444574b05acaddea4e0f0d5c4ac95a807efd8c734164ecb8286d",
+    "source_hash": "aa9107c11cdff4c0c64dede90a755ae10b27d3effac2fc774a57be5cd92660d2",
     "destination_hash": "b1b945ba5070b261b5cce7f64773eddea8b2b891966acb5e449b5869d173e59d",
-    "reviewer": "cross-reviewer-a",
-    "reviewed_at": "2026-10-25T13:06:42.444024+00:00",
-    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "reviewer": "deterministic-snapshot-diff",
+    "reviewed_at": "2026-11-09T17:51:31+00:00",
+    "evidence": "Deterministic renewal for source snapshot aa9107c11cdf (previous 74b0bb163b26): all 52 extracted units and 6 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies. Previous review: cross-reviewer-a at 2026-10-25T13:06:42.444024+00:00.",
     "sections": [
       {
         "source_anchor": "overview",

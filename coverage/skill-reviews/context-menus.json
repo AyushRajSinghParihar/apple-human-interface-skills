@@ -1,9 +1,9 @@
 {
   "topic": "context-menus",
-  "reviewer": "independent-operational-auditor",
-  "reviewed_at": "2026-10-25T18:48:16.849158+00:00",
+  "reviewer": "deterministic-snapshot-diff",
+  "reviewed_at": "2026-11-09T17:51:31+00:00",
   "status": "reviewed",
-  "source_hash": "5ce2cdd8b9763112980a451ffd265f0d5c9b7c026117f49371adceef0dc78561",
+  "source_hash": "ff004e430721bb4399ffeb33faff5aac134152b14dad025e8563fd5f88a630e8",
   "skill_hash": "734c0f743cd5c68804b72965bd3b630760072ce65ff2b8088ce6d459328182b2",
   "reference_hash": "d01c0b5a1815b3cd5e120d916b94b85c14b573989dc2290567ebde73efe0abee",
   "evidence": {
@@ -15,5 +15,6 @@
     "handoffs": "Uses Edit menus for selected-content editing and Menus for common command structure.",
     "distinctiveness": "Object scope, preview clipping, contextual eligibility and supplemental access are concrete context-menu decisions."
   },
-  "additional_references": []
+  "additional_references": [],
+  "renewal": "Deterministic renewal for source snapshot ff004e430721 (previous 5ce2cdd8b976): all 45 extracted units and 1 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies."
 }

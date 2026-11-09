@@ -2,18 +2,20 @@
   "review": {
     "slug": "drag-and-drop",
     "status": "reviewed",
-    "source_hash": "4e85a0bd56464932bddd6b4ba09069c57daa4b44e81717a14ff3f4df21cb1c23",
-    "destination_hash": "32a440b5d7d8f77074cc05a8073e29628da21079fbe053f6c0648c7bd035cc74",
-    "reviewer": "cross-reviewer-a",
-    "reviewed_at": "2026-10-25T13:23:22.267087+00:00",
-    "evidence": "Independent source-to-guide textual semantic review of all substantive sections, notes, platform distinctions, and factual tables. Actual media inspection is recorded separately.",
+    "source_hash": "0587b5ccd5b413f6f5841cd06ca9979b27c99ca016d3554ccfdc9036deb2b47f",
+    "destination_hash": "23cbb744af9984ad9d128a7a2a6e7e212aba34b55fe5400c0b38689df8a9df0b",
+    "reviewer": "independent-snapshot-reviewer",
+    "reviewed_at": "2026-11-09T18:06:23+00:00",
+    "evidence": "Compared the whole current source with the guide. The overview keeps move/copy defaults and the per-platform input list, now with direct touch on a Mac with a touch display. Best practices (built-in support, alternatives and accessibility descriptors, move/copy defaults, multi-item drags including Mac multi-app groups, undo or confirmation or reversal, highest-to-lowest fidelity representations, spring loading on Mac force click and iPad hover), Providing feedback (about 3 pt, translucent image, flocking, eligible-target cues, failure feedback), Accepting drops (all eight items), the tvOS/watchOS exclusion, the iPadOS, macOS and visionOS sections, and resources are kept. The source change log has no new date and the guide matches. I found no omission or wrong statement.",
     "sections": [
       {
         "source_anchor": "overview",
         "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
         "destination_anchor": "drag-and-drop",
         "status": "reviewed",
-        "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
+        "evidence": "Rechecked same-container move, cross-container copy, always-copy between apps, source/destination scope, per-platform inputs (now including direct touch on a touch-display Mac), and Universal Control.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:06:23+00:00"
       },
       {
         "source_anchor": "Best-practices",
@@ -117,16 +119,6 @@
         "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
       },
       {
-        "id": "primaryContentSections/0/content/4",
-        "source_unit_hash": "f533b9cccd3c68b6739d923e5fff62e3b5d24131c851b179c819b2135c79945f",
-        "source_anchor": "overview",
-        "status": "reviewed",
-        "treatment": "guidance",
-        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
-        "destination_anchor": "drag-and-drop",
-        "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
-      },
-      {
         "id": "primaryContentSections/0/content/4/items/0/content/0",
         "source_unit_hash": "e9c89709e2239b435d92c860fa355c8f39fe17382909ea58463e648cd4d79683",
         "source_anchor": "overview",
@@ -137,28 +129,8 @@
         "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
       },
       {
-        "id": "primaryContentSections/0/content/4/items/1/content/0",
-        "source_unit_hash": "541749398c81d64ba609b994388e884402f96657cf50676d5bf19d1c7fe8fc1f",
-        "source_anchor": "overview",
-        "status": "reviewed",
-        "treatment": "guidance",
-        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
-        "destination_anchor": "drag-and-drop",
-        "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
-      },
-      {
         "id": "primaryContentSections/0/content/4/items/2/content/0",
         "source_unit_hash": "1f2d92f8965255309b886c0e87653b7a4f148fd59b562839d5b82314ddbd4533",
-        "source_anchor": "overview",
-        "status": "reviewed",
-        "treatment": "guidance",
-        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
-        "destination_anchor": "drag-and-drop",
-        "evidence": "Verified same-container move, different-container copy and always-copy interapp rule, source/destination scope, platform accessible interactions and Universal Control."
-      },
-      {
-        "id": "primaryContentSections/0/content/4/items/3/content/0",
-        "source_unit_hash": "36186365a5dd69ba72fd4c313ac4e65acea0ca6c6b1954f3f7690820d410449f",
         "source_anchor": "overview",
         "status": "reviewed",
         "treatment": "guidance",
@@ -575,6 +547,42 @@
         "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
         "destination_anchor": "Change-log",
         "evidence": "Reference-only navigation/history retained by the linked official source and coverage external-dependency inventory; no substantive rule depends on omitted prose."
+      },
+      {
+        "id": "primaryContentSections/0/content/4",
+        "source_unit_hash": "14005df1c4e864b38f9059d74c41f7cc56de590b64c81f96b5f8e3bf736c5a71",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "drag-and-drop",
+        "evidence": "Checked the per-platform interaction list (visionOS pinch and hold in any direction including depth; iOS/iPadOS touch, pointer and Full Keyboard Access; Universal Control; Mac pointer, Full Keyboard Access, VoiceOver and touch display) against the guide overview sentence and the #visionOS paragraph.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:11:58+00:00"
+      },
+      {
+        "id": "primaryContentSections/0/content/4/items/1/content/0",
+        "source_unit_hash": "69cd7e7c8279fe26f1bb4b0620b1ed39e454b784b53100f212e1a37a7ad2bbef",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "drag-and-drop",
+        "evidence": "Checked: iOS and iPadOS touchscreen gestures, pointing device and Full Keyboard Access are covered by the overview's touch, pointer and keyboard-accessibility inputs.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:11:58+00:00"
+      },
+      {
+        "id": "primaryContentSections/0/content/4/items/3/content/0",
+        "source_unit_hash": "099f2b4eb02246723ac4bc5ea8580d787e4eee6d67b2e7fd54df2b66fcc2f543",
+        "source_anchor": "overview",
+        "status": "reviewed",
+        "treatment": "guidance",
+        "destination": "skills/apple-hig/subskills/apple-hig-patterns/references/drag-and-drop.md",
+        "destination_anchor": "drag-and-drop",
+        "evidence": "Checked: Mac pointing device, Full Keyboard Access or VoiceOver, and the new direct touch on a touch-display Mac are all named in the guide overview sentence.",
+        "reviewer": "independent-snapshot-reviewer",
+        "reviewed_at": "2026-11-09T18:11:58+00:00"
       }
     ],
     "tables": [

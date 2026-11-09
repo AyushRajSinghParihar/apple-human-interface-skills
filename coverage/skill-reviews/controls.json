@@ -1,9 +1,9 @@
 {
   "topic": "controls",
-  "reviewer": "independent-topic-author-a",
-  "reviewed_at": "2026-10-25T19:02:04.384211+00:00",
+  "reviewer": "deterministic-snapshot-diff",
+  "reviewed_at": "2026-11-09T17:51:31+00:00",
   "status": "reviewed",
-  "source_hash": "01d4e1e792749560a966bc4440fe56313be351a2408eb8795353ac40b066d39d",
+  "source_hash": "910e8a95b533455dc38253f09e139c8c3250eccc74e7675e09c85224d3a6ae98",
   "skill_hash": "3b667f69a1b1e5f4092fb9bd40cb1f5f8c1e2cbc9faa9ed3e7f88866f2ddc07d",
   "reference_hash": "d3c0b4f25fae9056d0499f0e825ff02227917d6d17eb427ed47b94405b7472a3",
   "evidence": {
@@ -14,5 +14,6 @@
     "applicability": "Qualifies symbol-only Lock Screen, capture-only locked camera transition and TV/Watch/visionOS exclusion; security enforcement requires native evidence.",
     "handoffs": "Widgets handles information, Live Activities handles bounded progress and Privacy handles exposure only when relevant.",
     "distinctiveness": "Authoritative remote state and lock/authentication behavior distinguish system Controls from ordinary buttons."
-  }
+  },
+  "renewal": "Deterministic renewal for source snapshot 910e8a95b533 (previous 01d4e1e79274): all 55 extracted units and 12 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies."
 }

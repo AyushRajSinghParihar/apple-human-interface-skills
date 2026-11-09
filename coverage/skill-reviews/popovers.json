@@ -1,9 +1,9 @@
 {
   "topic": "popovers",
-  "reviewer": "primary-coordinator-independent-of-topic-author",
-  "reviewed_at": "2026-10-25T18:51:52.905305+00:00",
+  "reviewer": "deterministic-snapshot-diff",
+  "reviewed_at": "2026-11-09T17:51:31+00:00",
   "status": "reviewed",
-  "source_hash": "abd75f1c7b44af24d039cf444f84937b676d3f07e931d36d660b07c3fa76c998",
+  "source_hash": "a0b459e9eadd9f0c88c47042d8929695b8368e6da0f82fce14ea7a667204de6b",
   "skill_hash": "37ae5bf1cc6202ffde27dc35ca5e5247f9cbf8cf2ac7e749ceee4505216ed1fd",
   "reference_hash": "0cb18d58b9bcc275019942208cc5b33bc8d99f225beeb064564e4dc182179026",
   "evidence": {
@@ -14,5 +14,6 @@
     "applicability": "Preserves compact iOS/iPad sheet/fullscreen adaptation, tvOS/watch nonapplicability and Mac detachable continuity into a panel.",
     "handoffs": "Loads sheets for compact adaptation, panels for persistent Mac work and alerts for warnings that must not be missed.",
     "distinctiveness": "Source anchoring and explicit save-on-automatic-dismissal versus Cancel-discard semantics distinguish this procedure from a generic modal treatment."
-  }
+  },
+  "renewal": "Deterministic renewal for source snapshot a0b459e9eadd (previous abd75f1c7b44): all 31 extracted units and 3 media uses have identical IDs, sections and hashes, so the change is outside the guidance (for example metadata or links). The guide and the procedure bytes are unchanged; the earlier review still applies."
 }
