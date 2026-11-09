@@ -1,2 +1,5 @@
 # Markdown uses trailing double spaces for intentional hard line breaks.
 *.md whitespace=-blank-at-eol
+
+# Review records and evidence are machine-written; hide them from diffs and language stats.
+coverage/** linguist-generated=true

@@ -113,6 +113,15 @@ def _bindings(root, node, errors, pending, label):
             _bindings(root, item, errors, pending, f"{label}.{key}")
 
 
+def _baseline_digest(root, commit, relative, cache):
+    """Hash one package file as it was at the frozen baseline commit."""
+    key = (commit, relative)
+    if key not in cache:
+        completed = subprocess.run(["git", "-C", str(root), "show", f"{commit}:skills/apple-hig/{relative}"], capture_output=True)
+        cache[key] = hig.digest(completed.stdout) if completed.returncode == 0 else None
+    return cache[key]
+
+
 def _record_binding(root, binding, errors, label, owner=None, expected=None):
     if not isinstance(binding, dict):
         errors.append(f"{label}: missing file/hash binding")
@@ -376,11 +385,7 @@ def behavior_issues(root, rows):
             if variant == "candidate":
                 actual = hig.digest(target.read_bytes()) if target.is_file() else None
             else:
-                key = (baseline_commit, relative)
-                if key not in baseline_cache:
-                    completed = subprocess.run(["git", "-C", str(root), "show", f"{baseline_commit}:skills/apple-hig/{relative}"], capture_output=True)
-                    baseline_cache[key] = hig.digest(completed.stdout) if completed.returncode == 0 else None
-                actual = baseline_cache[key]
+                actual = _baseline_digest(root, baseline_commit, relative, baseline_cache)
             if actual != fingerprint or actual is None:
                 pending.append(f"{label}: stale {variant} package dependency {relative}")
         discovery = record.get("discovery_dependencies")
@@ -394,11 +399,7 @@ def behavior_issues(root, rows):
                 if variant == "candidate":
                     actual = hig.digest(target.read_bytes()) if target.is_file() else None
                 else:
-                    key = (baseline_commit, relative)
-                    if key not in baseline_cache:
-                        completed = subprocess.run(["git", "-C", str(root), "show", f"{baseline_commit}:skills/apple-hig/{relative}"], capture_output=True)
-                        baseline_cache[key] = hig.digest(completed.stdout) if completed.returncode == 0 else None
-                    actual = baseline_cache[key]
+                    actual = _baseline_digest(root, baseline_commit, relative, baseline_cache)
                 if actual != fingerprint or actual is None:
                     pending.append(f"{label}: stale discovery dependency {relative}")
         reads, required_reads = record.get("reads"), record.get("required_reads")
@@ -482,6 +483,11 @@ def check(root, require_behavior=True, allow_pending=False):
     package = root / "skills/apple-hig"
     errors, pending = [], []
     result = {"errors": errors, "pending": pending, "topics": 0, "reviewed": 0, "behavior_passed": 0}
+    try:
+        import yaml  # noqa: F401
+    except ImportError:
+        errors.append("PyYAML is required for check-skills: pip install -r requirements-dev.txt")
+        return result
     manifest_path = root / "coverage/manifest.json"
     if not manifest_path.is_file():
         errors.append("source manifest is required: coverage/manifest.json")

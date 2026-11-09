@@ -120,7 +120,7 @@ contains local source guides and explanations of important visual examples.
 
 The package covers **158 English HIG articles** in the **October 25, 2026** source
 snapshot, with **173 routes** accounted for. Every topic procedure has an
-independent instruction review. The repository also has **75 automated tests**
+independent instruction review. The repository also has automated tests
 and CI checks for source coverage, instruction reviews, routing, and links.
 
 Installation and skill loading were tested with **Codex CLI 0.164.0**, including

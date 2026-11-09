@@ -25,6 +25,21 @@ The complete bundle is the installation unit.
    Changing evidence bytes invalidates the old result; never refresh hashes just
    to turn a gate green.
 
+### Renew reviews after an edit
+
+Each review record binds a judgement to exact file bytes. After you change a
+file, use these commands. They find and mark the affected records, but they
+never approve content.
+
+```bash
+.venv/bin/python scripts/hig.py stale                 # list stale review hashes
+.venv/bin/python scripts/hig.py review-draft --all    # write new hashes, mark drafts
+# A different reviewer replaces each TODO(re-review) marker with new evidence.
+.venv/bin/python scripts/hig.py review-approve coverage/skill-reviews/<topic>.json --reviewer <name>
+```
+
+`check` fails while a draft or a `TODO(re-review)` marker exists.
+
 Do not edit an article reference unnecessarily. If its source-backed guidance
 changes, its article and affected media/supporting approvals need renewed review.
 Changing a topic invalidates its behavioral result; changing routing or shared

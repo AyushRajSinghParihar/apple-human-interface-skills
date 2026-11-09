@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
 """Discover Apple's HIG and validate a versioned, independently reviewed package.
 
-The skill itself is Markdown-only. This authoring utility uses the standard
-library; PyYAML is optional for stricter frontmatter validation.
+The skill itself is Markdown-only. This authoring utility needs PyYAML
+(requirements-dev.txt) for frontmatter validation in `check` and `check-skills`.
+
+Review maintenance:
+  stale                    list review hashes that no longer match their files
+  review-draft RECORD...   write current hashes and mark the record for re-review
+  review-draft --all       do the same for every record with a stale hash
+  review-approve RECORD --reviewer NAME
+                           approve a draft after its evidence is rewritten
 """
 import argparse
 import concurrent.futures
@@ -33,6 +40,18 @@ METADATA_HEADINGS = {"resources", "related", "see also", "change log", "changelo
 
 class SourceError(ValueError):
     """A source cannot be faithfully accounted for."""
+
+
+def approvals_module():
+    """Load the sibling review helper even when this file is imported by path."""
+    import importlib.util
+    name = "_hig_approvals"
+    if name not in sys.modules:
+        spec = importlib.util.spec_from_file_location(name, pathlib.Path(__file__).with_name("approvals.py"))
+        module = importlib.util.module_from_spec(spec)
+        sys.modules[name] = module
+        spec.loader.exec_module(module)
+    return sys.modules[name]
 
 
 def digest(value):
@@ -512,6 +531,7 @@ def check(root=ROOT, live=False, allow_pending=False):
     manifest = read_json(root / "coverage" / "manifest.json")
     package = root / "skills" / "apple-hig"
     errors = link_errors(package) + publication_errors(root)
+    errors.extend(approvals_module().marker_errors(root))
     if not manifest.get("pages") or not any(p.get("type") == "article" for p in manifest["pages"]):
         errors.append("Empty HIG source inventory cannot establish coverage")
     expected_fingerprint = digest(sorted(p["path"] for p in manifest.get("pages", [])))
@@ -521,22 +541,22 @@ def check(root=ROOT, live=False, allow_pending=False):
     if not (package / "SKILL.md").is_file():
         errors.append("Missing package root SKILL.md")
     pending = []
-    for skill in package.rglob("SKILL.md"):
+    try:
+        import yaml
+    except ImportError:
+        yaml = None
+        errors.append("PyYAML is required for frontmatter checks: pip install -r requirements-dev.txt")
+    for skill in package.rglob("SKILL.md") if yaml else ():
         text = skill.read_text()
         match = re.match(r"---\n(.*?)\n---\n", text, re.S)
         if not match:
             errors.append(f"{skill.relative_to(root)}: missing YAML frontmatter")
             continue
         try:
-            import yaml
-        except ImportError:
-            front = dict(re.findall(r"^(name|description):\s*(.+)$", match.group(1), re.M))
-        else:
-            try:
-                front = yaml.safe_load(match.group(1))
-            except yaml.YAMLError as error:
-                errors.append(f"{skill.relative_to(root)}: invalid YAML: {error}")
-                continue
+            front = yaml.safe_load(match.group(1))
+        except yaml.YAMLError as error:
+            errors.append(f"{skill.relative_to(root)}: invalid YAML: {error}")
+            continue
         if not isinstance(front, dict):
             errors.append(f"{skill.relative_to(root)}: frontmatter must be a mapping")
             continue
@@ -661,9 +681,37 @@ def report(root=ROOT):
     return result
 
 
+def review_command(args):
+    approvals = approvals_module()
+    root = pathlib.Path(args.root).resolve()
+    if args.command == "stale":
+        issues = approvals.stale(root)
+        print(json.dumps({"stale_count": len(issues), "stale": issues}, indent=2))
+        return int(bool(issues))
+    if args.command == "review-draft":
+        records = sorted({issue["record"] for issue in approvals.stale(root)}) if args.all else args.records
+        if not records:
+            print("review-draft: name one or more records, or use --all", file=sys.stderr)
+            return 2
+        drafted = {record: approvals.draft(root, record) for record in records}
+        print(json.dumps({"drafted": {k: v for k, v in drafted.items() if v},
+                          "unchanged": [k for k, v in drafted.items() if not v]}, indent=2))
+        return 0
+    if len(args.records) != 1:
+        print("review-approve: name exactly one record", file=sys.stderr)
+        return 2
+    count = approvals.approve(root, args.records[0], args.reviewer)
+    print(json.dumps({"approved": args.records[0], "owners": count}, indent=2))
+    return 0
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["discover", "check", "check-skills", "report"])
+    parser.add_argument("command", choices=["discover", "check", "check-skills", "report",
+                                            "stale", "review-draft", "review-approve"])
+    parser.add_argument("records", nargs="*", help="Review record paths for review-draft or review-approve")
+    parser.add_argument("--all", action="store_true", help="review-draft: draft every record with a stale hash")
+    parser.add_argument("--reviewer", help="review-approve: name of the reviewer who checked the evidence")
     parser.add_argument("--root", type=pathlib.Path, default=ROOT)
     parser.add_argument("--offline", action="store_true", help="Discover from previously fetched source cache")
     parser.add_argument("--output", type=pathlib.Path)
@@ -672,6 +720,8 @@ def main():
     parser.add_argument("--instructions-only", action="store_true", help="Check source-backed procedure ownership, reviews and routing without requiring behavioral grades")
     args = parser.parse_args()
     try:
+        if args.command in {"stale", "review-draft", "review-approve"}:
+            return review_command(args)
         if args.command == "check-skills":
             from capabilities import check as check_capabilities
             result = check_capabilities(args.root, require_behavior=not args.instructions_only, allow_pending=args.allow_pending)
